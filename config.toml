@@ -6,6 +6,7 @@ theme = "mainroad"
 disqusShortname = "cestlaz" # Enable comments by entering your Disqus shortname
 googleAnalytics = "UA-126185083-1" # Enable Google Analytics by entering your tracking id
 
+
 [outputs]
 home = ["HTML","RSS"]
 
@@ -16,6 +17,9 @@ suffixes = ["xml"]
 [outputFormats.RSS]
 mediatype = "application/rss"
 baseName = "rss"
+
+
+
 
 [Author] # Used in authorbox
   name = "Mike Zamansky"
