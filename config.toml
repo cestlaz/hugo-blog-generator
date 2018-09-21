@@ -1,4 +1,4 @@
-baseURL = "https://ztestblog.github.io/"
+baseURL = "https://cestlaz.github.io/"
 languageCode = "en-us"
 title = "C'est la Z"
 paginate = "10" # Number of posts per page
@@ -68,7 +68,7 @@ weight=9
   list = "left"  # Configure layout for list pages
   single = true # Configure layout for single page/s
   # Enable widgets in given order
-  widgets = ["categories", "subscribe", "search", "recent", "categories", "taglist"]
+  widgets = ["subscribe", "search", "recent", "categories", "taglist", "categories"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
