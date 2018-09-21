@@ -1,0 +1,116 @@
++++
+title = "Using Emacs Series"
+date = 2018-09-19T19:02:09-04:00
+draft = false
+tags = ["emacs","tools"]
+categories = ["emacs"]
++++
+
+** Link to current configuration: [[https://github.com/zamansky/using-emacs][https://github.com/zamansky/using-emacs]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-introduction][Introduction]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-1-setup][Video 1 - Setting up the package manager]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-2-org][Video 2 - Intro to Org Mode]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-3-elisp][Video 3 - How to think about Emacs]] 
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-4-buffers][Video 4 - Buffers]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-5-windows][Video 5 - Windows]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-6-swiper][Video 6 - Search / Swiper]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-7-avy][Video 7 - Navigation / avy]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-8-autocomplete][Video 8 - Autocomplete]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-9-themes][Video 9 - Themes]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-10-org-init][Video 10 - Org init files]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-11-reveal][Video 11 - org-reveal / reveal.js]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-12-python][Video 12 - Python, Flycheck, Jedi]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-13-yasnippet][Video 13 - Python, Yasnippet]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-14-thoughts][Video 14 - Thoughts on Using Emacs]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-15-macros][Video 15 - Macros]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-16-undo-tree][Video 16 - Undo Tree]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-17-misc][Video 17 - Small packages]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-18-narrow][Video 18 - narrowing and iedit]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-19-live][Video 19 - moving to a live config]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-20-yanking][Video 20 - Yanking]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-21-web-mode][Video 21-web-mode]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-22-emacsclient][Video 22-emacsclient]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-23-capture-1][Video 23 - capture 1]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-24-capture-2][Video 24 - capture 2]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-25-tramp][Video 25 - Tramp]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-26-gcal][Video 26 - Google Calendar and Org Agenda]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-27-shell][Video 27 - Shell and eshell]]
+
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-27-rectangles][Video 28 - Rectangles]]
+
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-29%20elfeed][Video 29 - elfeed 1 ]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-30-elfeed-2][Video 30 - elfeed 2 - Hydras ]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-31-elfeed-3][Video 31 - elfeed 3 - macros]]
+
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-32-cpp][Video 32 - C++]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-33-projectile-jump][Video 33 - Projectile Dumb-jump]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-34-ibuffer-emmet][Video 34 - ibuffer and emmet]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-35-blogging][Video 35 - blogging]]
+
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-36-touch-of-elisp][Video 36 - A Touch of Elisp]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-37-treemacs][Video 37 - Treemacs file browser]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-38-dired][Video 38 - dired]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-39-mu4e][Video 39 - mu4e]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-40-atomic-chrome][Video 40 - Atomic chrome]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-41-pandoc][Video 41 - Pandoc]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-42-git-gutter][Video 42 - Git Gutter and Timemachine]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-43-music][Video 43 - Music]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-44-pdf][Video 44 - pdf]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-45-company][Video 45 - Company or Autocomplete]]
+
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-46-auto-yasnippets][Video 46 - auto yasnippets]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-47-magit][Video 47 - Magit]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-48-silversearcher][Video 48 - silversearcher]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-49-mu4e-conversation][Video 49 - mu4e conversation]]
+
+** [[http://cestlaz-nikola.github.io/posts/using-emacs-50-presentations][Video 50 - presentations]]
