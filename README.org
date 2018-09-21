@@ -1,0 +1,8 @@
+* hugo-blog-genreator
+
+Hugo site to generate http://cestlaz.github.io
+
+** Changes to Mainroad theme
+- added zwidget.html which adds recent twitter and feedburner under widgets
+- added zwidget to config
+- added tweet.html partial to add "tweet this" button

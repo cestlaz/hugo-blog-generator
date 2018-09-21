@@ -1,0 +1,33 @@
+
+
+{{ define "main" }}
+<main class="main" role="main">
+  <article class="post">
+
+    <header class="post__header">
+			<h1 class="post__title">{{ .Title }}</h1>
+			{{- with .Params.lead }}
+			<p class="post__lead">{{ . }}</p>
+			{{- end }}
+			{{- if or (not .Date.IsZero) .Params.categories }}<div class="post__meta meta">{{ partial "post_meta.html" . }}</div>{{ end }}
+		</header>
+		{{- if .Params.thumbnail }}
+		<figure class="post__thumbnail">
+			<img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}">
+		</figure>
+		{{- end }}
+		{{- partial "post_toc.html" . -}}
+		<div class="content post__content clearfix">
+{{ partial "tweet.html" . }}
+
+		  {{ .Content }}
+{{ partial "tweet.html" . }}
+		</div>
+		{{ partial "post_tags.html" . }}
+	</article>
+</main>
+
+{{ partial "authorbox.html" . }}
+{{ partial "post_nav.html" . }}
+{{ partial "comments.html" . }}
+{{ end }}
