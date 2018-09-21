@@ -21,6 +21,8 @@
 	{{- if not .Site.IsServer }}
 		{{ template "_internal/google_analytics_async.html" . }}
 	{{- end }}
+
+
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -48,7 +50,6 @@
 {{- partial "mathjax.html" . -}}
 
 
-<a title="Web Analytics" href="http://clicky.com/100530816"><img alt="Web Analytics" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
 <script type="text/javascript">
 var clicky_site_ids = clicky_site_ids || [];
 clicky_site_ids.push(100530816);
@@ -61,6 +62,8 @@ clicky_site_ids.push(100530816);
 })();
 </script>
 <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100530816ns.gif" /></p></noscript>
+
+
 
 </body>
 </html>

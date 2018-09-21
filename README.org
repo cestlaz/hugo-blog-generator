@@ -8,3 +8,4 @@ Hugo site to generate http://cestlaz.github.io
 - added tweet.html partial to add "tweet this" button
 - added thluffy image to header in partials
 - added feedburner rss button to header in partials
+- clicky in baseof.html
