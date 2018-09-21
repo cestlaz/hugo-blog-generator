@@ -68,7 +68,7 @@ weight=9
   list = "left"  # Configure layout for list pages
   single = true # Configure layout for single page/s
   # Enable widgets in given order
-  widgets = ["zwidget", "search", "recent", "categories", "taglist", "social"]
+  widgets = ["categories", "subscribe", "twitter","search", "recent", "categories", "taglist", "social"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
