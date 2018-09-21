@@ -1,0 +1,44 @@
+---
+title: "First post again"
+date: 2018-09-21T17:21:15-04:00
+draft: false
+categories:
+- meta
+tags: 
+- meta
+---
+
+* The new site is live.
+
+I'm now running a [[https://gohugo.io/][Hugo]] based blog. I  set it up using the [[https://themes.gohugo.io/mainroad/][Mainroad]]
+theme which seems to support everything I want. 
+
+Out of the box Hugo supports org-mode with pretty much all of its
+niceties like:
+
+- code highlighting
+- org-mode structure (lists, tables)
+- html can be directly embedded
+- tags and categories
+
+The Mainroad theme added:
+
+- MarthJax
+- Analytics
+- An easy menu
+- widgets for the sidebar
+
+It was pretty easy to customize and deploying to GitHub pages is
+pretty simple. It just took a couple of minutes
+to port over the subscribe via email using Feedburner into a widget.
+
+I'll do a post later about how I moved over and maybe make a video. 
+
+I decided not to convert all the old posts but will leave them up on
+an [[https://cestlaz-nikola.github.io/][archive site]].
+
+I'm hoping everything works out  of the box. Let me know if there are
+any issues.
+
+
+
