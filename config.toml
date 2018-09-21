@@ -43,7 +43,7 @@ weight=2
 [[menu.main]]
 identifier="emacs"
 name="Emacs"
-url="https://cestlaz-nikola.github.io/stories/emacs"
+url="/stories/emacs"
 weight=3
 
 [[menu.main]]
@@ -68,7 +68,7 @@ weight=9
   list = "left"  # Configure layout for list pages
   single = true # Configure layout for single page/s
   # Enable widgets in given order
-  widgets = ["subscribe", "search", "recent", "categories", "taglist", "categories"]
+  widgets = ["subscribe", "search", "recent", "categories", "taglist", "social"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
