@@ -10,3 +10,4 @@ Hugo site to generate http://cestlaz.github.io
 - added feedburner rss button to header in partials
 - clicky in baseof.html
 - Added disqus total comments to summary and included script in baseof
+- only printing tags with more than 1 in taglist

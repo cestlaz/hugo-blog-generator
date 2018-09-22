@@ -3,8 +3,16 @@
 <div class="widget-taglist widget">
 	<h4 class="widget__title">{{ T "tags_title" }}</h4>
 	<div class="widget__content">
-		{{- range $name, $items := .Site.Taxonomies.tags }}
-		<a class="widget-taglist__link widget__link btn" href="{{ "tags/" | relLangURL }}{{ $name | urlize | lower }}" title="{{ $name | humanize }}">{{ $name | humanize }}{{ if $.Site.Params.widgets.tags_counter }} ({{ $items.Count }}){{ end }}</a>
+	  {{- range $name, $items := .Site.Taxonomies.tags }}
+
+
+          
+{{ if gt $items.Count 1 }}
+
+
+	  <a class="widget-taglist__link widget__link btn" href="{{ "tags/" | relLangURL }}{{ $name | urlize | lower }}" title="{{ $name | humanize }}">{{ $name | humanize }}{{ if $.Site.Params.widgets.tags_counter }} ({{ $items.Count }}){{ end }}</a>
+          {{- end }}
+
 		{{- end }}
 	</div>
 </div>
