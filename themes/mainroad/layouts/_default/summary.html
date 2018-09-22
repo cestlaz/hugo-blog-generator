@@ -25,7 +25,9 @@
 	 zdisquscolor {color:#0000ff;}
 	 
 	</style>
-        <a class="zdisquscolor" href="{{ .RelPermalink }}#disqus_thread"># COMMENTS</a>
+	<div class="zdisquscolor">
+          <a href="{{ .RelPermalink }}#disqus_thread"># COMMENTS</a>
+	  </div>
         
 	{{- if .Site.Params.readmore }}
 	{{- if .Truncated }}
