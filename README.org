@@ -9,3 +9,4 @@ Hugo site to generate http://cestlaz.github.io
 - added thluffy image to header in partials
 - added feedburner rss button to header in partials
 - clicky in baseof.html
+- Added disqus total comments to summary and included script in baseof
