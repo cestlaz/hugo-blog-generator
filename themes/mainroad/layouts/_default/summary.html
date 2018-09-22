@@ -20,6 +20,11 @@
 	<div class="content list__excerpt post__content clearfix">
 		{{ .Summary }}
 	</div>
+	
+
+<style>	.zblue {color: #0000ff;}</style>
+<p class="zblue">          <a class="zblue" href="{{.RelPermalink}}#disqus_thread" data-disqus-identifier="cache{{.RelPermalink}}">Comments</a></p>
+                
 	{{- if .Site.Params.readmore }}
 	{{- if .Truncated }}
 	<div class="list__footer">
