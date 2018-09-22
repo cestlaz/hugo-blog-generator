@@ -20,14 +20,10 @@
 	<div class="content list__excerpt post__content clearfix">
 		{{ .Summary }}
                 
+          <br>
+            <a href="{{ .RelPermalink }}#disqus_thread"># COMMENTS</a>
+            
 	</div>
-	<style>
-	 zdisquscolor {color:#0000ff;}
-	 
-	</style>
-	<div class="zdisquscolor">
-          <a href="{{ .RelPermalink }}#disqus_thread"># COMMENTS</a>
-	  </div>
         
 	{{- if .Site.Params.readmore }}
 	{{- if .Truncated }}
