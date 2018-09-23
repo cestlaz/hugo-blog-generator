@@ -1,0 +1,27 @@
+---
+title: "Using Emacs 42 - Git Gutter and Time Machine"
+date: 2018-02-18
+tags:
+- emacs
+-  git
+draft: false
+---
+
+One day I'll do a Magit video but since there are already some good
+ones out there I thought I'd share a couple of other great git related
+packages.
+
+The first is [[https://github.com/syohex/emacs-git-gutter/tree/00c05264af046b5ce248e5b0bc42f117d9c27a09][Git Gutter]] which adds markers on the side gutter of your
+buffer so you know what's changed since you're last commit. I pretty
+much use it exclusively for that visual but it can also be used to
+cmmit and revert individual chunks of your changes.
+
+The second is [[https://github.com/pidu/git-timemachine][Git Timemachine]] which lets you move forward and back
+between commits.
+
+The video demos both.
+
+Enjoy
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P-mLxkb-EE8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

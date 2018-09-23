@@ -1,0 +1,125 @@
+---
+title: "Starting with scheme"
+date: 2017-02-15
+tags:
+- cs
+-  education
+-  curriculum
+draft: false
+---
+
+
+Scheme is one of the languages used in Stuy's intro CS course. Like
+any other language, there are pros and cons of using it to introduce
+students to CS. Here are some of the reasons why I like Scheme as a
+first language and why despite that,  I don't recommend it in many
+cases.
+
+Scheme certainly isn't mainstream. That's not the main reason why I
+like it but it is a side benefit. It's less likely kids come into
+class knowing it which creates a level playing field. The few times
+I've had a student with a background in Scheme, they've been good,
+helpful kids rather than ones that tried to show off and dominate the
+class.
+
+I like scheme because it's simple. It looks different than other
+languages but is ~(+ 3 4)~ really that different than ~add(3,4)~ or
+~3+4~?
+
+We can tell kids "everything's a function." While technically not
+true, and I tell my students that it isn't, it's close enough for our
+purposes. Everything's a function and the way we write a function is:
+
+#+BEGIN_SRC scheme
+{{< highlight "scheme" >}}
+(f a b ...)
+{{< / highlight >}}
+#+END_SRC
+
+Apply function **f** on arguments **b c ...**. So we have ~(+ 2 3)~ to
+add 2 and 3, ~(and a b)~ for logical and ~(= 3 4)~ to test to see if 3
+is equal to 4, etc. We also have the same basic notation for things
+like conditionals. In java, we might write:
+
+#+BEGIN_SRC java
+{{< highlight "java" >}}
+if (a > 5) {
+return 5;
+} else {
+return 10;
+}
+{{< / highlight >}}
+#+END_SRC
+
+In scheme, it would be:
+
+#+BEGIN_SRC scheme
+{{< highlight "scheme" >}}
+(if (> a 5)
+5
+10)
+
+{{< / highlight >}}
+#+END_SRC
+
+Even though we're fudging the rules, we can lay out a handful of rules
+for the kids such as lambda and define follow a similar form to create and
+name functions:
+
+#+BEGIN_SRC scheme
+{{< highlight "scheme" >}}
+(define add2 (lambda (a b) (+ a b)))
+
+{{< / highlight >}}
+#+END_SRC
+
+where ~(lambda (a b) (+ a b))~ returns a function that adds **a** and
+**b** and ~define~ associates it with the identifier **add2**. Now we
+can use the function: ~(add2 5 10)~ which evaluates to 15.
+
+With lambda, define, if, and a few more basics, it's off to the
+races. The simple, consistent syntax makes things easy for the kids
+and the constrained tool set lets us focus their way of thinking.
+
+Of course this wouldn't work had DrScheme (now [[https://racket-lang.org/][Racket]]) not
+existed. That gave us a nice learning IDE to work in.
+
+Using Scheme, we can not only cover the basics like conditionals,
+abstraction and such but also deeper concepts like recursion, map,
+filter, and reduce. When we move on from Scheme, the kids also have a
+frame of reference for all the other languages and paradigms they use.
+
+There are downsides, however. Outside help is harder to come by and
+there is some pushback from parents and it isn't as pretty and flashy
+as some other tool-sets. Scheme worked at Stuy for a number of
+reasons. When I created the class that used it, there were no good
+pre-AP classes in the school and I had a pretty good reputation as a
+teacher. The class also used multiple tools with [[https://ccl.northwestern.edu/netlogo/][NetLogo]] being the
+primary other one and tackled a variety of CS and non CS topics.
+First time through, reputation and buzz filled the classes and after
+that, the class developed a solid enough reputation to fill itself.
+
+It also didn't hurt that our program developed from the inside
+out. First, we had APCS-AB on the books as a junior year course, then
+I added our post AP senior year electives. Since it was easy to show
+what the kids were already graduating with, it was easy to diffuse any
+pushback from not using mainstream tools in the first class.
+
+Scheme worked at Stuy and I feel that it still does. Would I use
+Scheme for a first experience in a drop in program at an after-school
+where kids might not come back if they don't get to a payoff
+immediately? Probably not. Would I recommend it at a school where I
+want to integrate CS with some of the other subjects quickly, again,
+probably not (except for integration with algebra where [[http://www.bootstrapworld.org/][Bootstrapworld]]
+is a terrific program).
+
+In any event, if you're a high school CS teacher and  haven't played
+with scheme  or some other functional language, I highly recommend
+it - you might not actually ever teach it or use it but it can really
+help develop you as a programmer and an educator.
+
+
+
+
+
+#  LocalWords:  pushback

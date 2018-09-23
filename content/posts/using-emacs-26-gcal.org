@@ -1,0 +1,175 @@
+---
+title: "Using Emacs - 26 - Google Calendar, Org Agenda"
+date: 2017-01-05
+tags:
+- emacs
+-  tools
+draft: false
+---
+
+A while ago I did a couple of videos on how I use org-capture
+([[http://cestlaz.github.io/posts/using-emacs-23-capture-1/][part 1]], [[http://cestlaz.github.io/posts/using-emacs-24-capture-2/][part 2]]). I didn't get into a big part of org-capture - how I
+use org-mode and capture to manage my calendar and todo lists.
+
+I was waiting to see if I liked my current setup - using [[https://github.com/myuhe/org-gcal.el][org-gcal]] to
+sync with my Google Calendar for appointments while using my main org
+file for my todo list.
+
+Coincidentally, Rainer König recently put up a video on how he [[https://www.youtube.com/watch?v=cIzzjSaq2N8&amp;list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE&amp;index=33][syncs
+with his Google calendar]]. He uses a different method than the one I
+present in this video so make sure to check out his approach. In fact,
+you should check out his entire [[https://www.youtube.com/playlist?list=PLVtKhBrRV_ZkPnBtt_TD1Cs9PJlU0IIdE][series on org-mode]].
+
+Here's the code I use install org-gcal. The video steps through
+setting up things on the Google side. You'll have to replace the
+**client ID** and **client secrets** in the code below as well as use
+your calendar name and whatever org file you want to sync with.
+
+#+BEGIN_SRC emacs-lisp
+{{< highlight "emacs-lisp" >}}
+(setq package-check-signature nil)
+
+
+(use-package org-gcal
+:ensure t
+:config
+(setq org-gcal-client-id "oauth 2.0 client ID"
+org-gcal-client-secret "client secret"
+org-gcal-file-alist '(("zamansky@gmail.com" .  "~/Dropbox/orgfiles/gcal.org"))))
+
+
+{{< / highlight >}}
+#+END_SRC
+
+I use these two hooks to sync things semi-automatically. The first
+hook syncs whenever I load the agenda. Since this happens in the
+background, if I just added something to my calendar, I might have to
+reload the agenda by hitting **r** in the agenda view.
+
+The second hook syncs with my Google calendar when I capture.
+
+#+BEGIN_SRC emacs-lisp
+{{< highlight "emacs-lisp" >}}
+
+(add-hook 'org-agenda-mode-hook (lambda () (org-gcal-sync) ))
+(add-hook 'org-capture-after-finalize-hook (lambda () (org-gcal-sync) ))
+
+
+{{< / highlight >}}
+#+END_SRC
+
+Here are the rest of my settings. The org files I want to include in
+my agenda views:
+- gcal.org -- the one I'm syncing
+- i.org -- my main org file for todo items (the todo capture places
+things in here)
+- schedule.org -- my old schedule before I was syncing with
+Google. Not active anymore. I should probably remove it.
+
+Also, my capture settings:
+
+
+#+BEGIN_SRC emacs-lisp
+{{< highlight "emacs-lisp" >}}
+(setq org-agenda-files (list "~/Dropbox/orgfiles/gcal.org"
+"~/Dropbox/orgfiles/i.org"
+"~/Dropbox/orgfiles/schedule.org"))
+
+
+(setq org-capture-templates
+'(("a" "Appointment" entry (file  "~/Dropbox/orgfiles/gcal.org" )
+"* %?\n\n%^T\n\n:PROPERTIES:\n\n:END:\n\n")
+("l" "Link" entry (file+headline "~/Dropbox/orgfiles/links.org" "Links")
+"* %? %^L %^g \n%T" :prepend t)
+("b" "Blog idea" entry (file+headline "~/Dropbox/orgfiles/i.org" "Blog Topics:")
+"* %?\n%T" :prepend t)
+("t" "To Do Item" entry (file+headline "~/Dropbox/orgfiles/i.org" "To Do")
+"* TODO %?\n%u" :prepend t)
+("n" "Note" entry (file+headline "~/Dropbox/orgfiles/i.org" "Note space")
+"* %?\n%u" :prepend t)
+("j" "Journal" entry (file+datetree "~/Dropbox/journal.org")
+"* %?\nEntered on %U\n  %i\n  %a")
+("s" "Screencast" entry (file "~/Dropbox/orgfiles/screencastnotes.org")
+"* %?\n%i\n")))
+{{< / highlight >}}
+#+END_SRC
+
+
+
+The end result is that I can add an event in my Google calendar (or
+accept a calendar invite) and it appears in my org-mode
+agenda. Likewise, I can add a scheduled event using capture and it
+will sync up to Google. I can also just add an event by editing
+gcal.org but then would have to run **org-gcal-post-at-point** to send
+it up to Google.
+
+Now, I can use bring up a regular agenda **C-a a**, my todo list **C-a
+t** or by adding a custom agenda command:
+
+
+#+BEGIN_SRC emacs-lisp
+{{< highlight "emacs-lisp" >}}
+(setq org-agenda-custom-commands
+'(("c" "Simple agenda view"
+((agenda "")
+(alltodo "")))))
+{{< / highlight >}}
+#+END_SRC
+
+a combined agenda and todo view using **C-a n**
+
+
+Finally, there's [[https://github.com/kiwanami/emacs-calfw][calfw]]. It's a nice tool to view calendars in
+Google. I don't use it much anymore but it is nice:
+
+#+BEGIN_SRC emacs-lisp
+{{< highlight "emacs-lisp" >}}
+
+(use-package calfw
+:ensure ;TODO:
+:config
+(require 'calfw)
+(require 'calfw-org)
+(setq cfw:org-overwrite-default-keybinding t)
+(require 'calfw-ical)
+
+(defun mycalendar ()
+(interactive)
+(cfw:open-calendar-buffer
+:contents-sources
+(list
+;; (cfw:org-create-source "Green")  ; orgmode source
+(cfw:ical-create-source "gcal" "https://somecalnedaraddress" "IndianRed") ; devorah calender
+(cfw:ical-create-source "gcal" "https://anothercalendaraddress" "IndianRed") ; google calendar ICS
+)))
+(setq cfw:org-overwrite-default-keybinding t))
+
+(use-package calfw-gcal
+:ensure t
+:config
+(require 'calfw-gcal))
+
+
+{{< / highlight >}}
+#+END_SRC
+
+
+Enjoy.
+
+
+
+Better version:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vO_RF2dK7M0" frameborder="0" allowfullscreen></iframe>
+
+Old, bad version:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RyNBtfu9AJ4" frameborder="0" allowfullscreen></iframe>
+
+Relevant links:
+- Video series overview page:
+- http://cestlaz.github.io/stories/emacs
+- Code:
+- [[https://github.com/zamansky/using-emacs/tree/master][https://github.com/zamansky/using-emacs/tree/master]]
+
+
