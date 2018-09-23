@@ -4,6 +4,7 @@ date = 2018-09-19T19:02:09-04:00
 draft = false
 tags = ["emacs","tools"]
 categories = ["emacs"]
+disable_comments = true
 +++
 
 ** Link to current configuration: [[https://github.com/zamansky/using-emacs][https://github.com/zamansky/using-emacs]]
