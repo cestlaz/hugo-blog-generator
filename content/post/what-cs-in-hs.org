@@ -3,7 +3,7 @@ title: What CS should we teach in HS
 date: 2018-09-23T16:54:12-04:00
 tags: 
 categories: 
-draft: true
+draft: false
 --- 
 
 I wanted to chime in on Alfred Thompson's post last week on [[http://blog.acthompson.net/2018/09/deciding-what-to-include-in-high-school.html][what to
