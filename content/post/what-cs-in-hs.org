@@ -2,6 +2,11 @@
 title: What CS should we teach in HS
 date: 2018-09-23T16:54:12-04:00
 tags: 
+- csed
+- curriculum
+- csforall
+categories:
+- csed
 categories: 
 draft: false
 --- 
