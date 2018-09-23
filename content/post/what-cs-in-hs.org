@@ -1,0 +1,87 @@
+---
+title: What CS should we teach in HS
+date: 2018-09-23T16:54:12-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+I wanted to chime in on Alfred Thompson's post last week on [[http://blog.acthompson.net/2018/09/deciding-what-to-include-in-high-school.html][what to
+include in a HS CS class]] but was working on moving blogging platforms
+so didn't get a chance so I'll say a few words here.
+
+If you've been here before you probably know I'm not a fan of [[/posts/standards-who-for/][the
+standards]] and I certainly am no fan of the College Board and the AP
+program so what's my take?
+
+The truth is, my take doesn't matter. Not in terms of specifics
+anyway. Every school is different. Different kids, teachers, parents,
+community, and culture so while there might be some things from the
+program I designed at Stuy that work at another school there will be
+plenty of things that don't. I'm now designing first year experiences
+at Hunter and while I take lessons earned away from my Stuy
+experience, I'm now teaching different kids in a different environment
+so the answer to the question "what do I teach them and how?" is different.
+
+The important thing to consider are the questions you should ask and
+the answers you come up with.
+
+The first question is "why?" Why are you doing CS in your school? Is
+it for kids already interested in CS? Is it "for all?" In either case,
+what do you want them to get out of it?
+
+Is it for employment after high school? If so you might want to
+consider locally used tools and technologies and also look at more
+vocational tech like DevOps, SysAdmin and networking.
+
+Is it in support of other classes while in high school or college? You
+might want to look at aspects of CS that cross over into other disciplines.
+  
+You'll then have other questions dealing with resources, class size,
+required classes vs electives and so on.
+
+At some point schools get to the point of figuring out what specific
+topics to include. Many teachers now veer to an assortment of hot
+topics that interest them or alternatively go the other way and try to
+do whatever the students want. I'm not a  big fan of either. Don't get
+me wrong, if I worked in a rich private institution with tiny class
+sizes and lots of resources I'd love to be student directed after the
+basics but that's a luxury that public school educators can't really
+afford. I'm also not a fan of the "hot topic" approach. 
+
+At Stuy, I tried to look at the complete sequence as a program. I
+wanted the designation of "Stuy CS graduate" to mean something so I
+looked at what the kids trajectories were after graduation and I tried
+to develop a program that best launched them on that trajectory. That
+meant designing an intro class that could both launch CS minded kids
+into our more advanced classes and also give non-CS kids everything
+they needed for their next levels. 
+
+The motivation and design of the intro course is a topic unto itself
+but I'll share what I considered when designing our post AP CS
+courses. One of the first guidelines I follow is "don't give them a
+course that they'll have to take later anyway." A second is "set up
+courses that support the students in what they'll have to take later"
+and finally "fill in the gaps." 
+
+With this in mind, we ended up with a Graphics course, Systems course
+and a two semester Software Development class and it's worked pretty
+well. 
+
+Had I been at another school and designed it's sequence it would
+likely look different. I would have developed the program the same
+way but would likely have ended up with something different albeit
+with similar themes.
+
+I get emails and calls now and then from schools asking for advice on
+building their CS programs. Some want the easy way out - they want a
+drop in curriculum with little regard for the fit or worse, they want
+APCS because it's AP. Those conversations usually don't go
+anywhere. Other schools ask for help and ask for a curriculum. I'll
+say I can't help with that but I'd love to talk and to get to know the
+school and together we can come up with the right program. That's a
+longer process and is more work. It's also more likely to result in a
+good sustainable program and building those are both better and a lot
+more fun.
+
+
