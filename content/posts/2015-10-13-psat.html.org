@@ -5,6 +5,7 @@ tags:
 - policy
 draft: false
 ---
+<!DOCTYPE html>
 
 
 <p>

@@ -5,6 +5,7 @@ tags:
 - misc
 draft: false
 ---
+<!DOCTYPE html>
 
 
 <div id="outline-container-orgheadline1" class="outline-2">

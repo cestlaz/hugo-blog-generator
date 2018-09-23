@@ -7,6 +7,7 @@ tags:
 -  tools
 draft: false
 ---
+<!DOCTYPE html>
 
 
 <style>

@@ -5,6 +5,7 @@ tags:
 - community
 draft: false
 ---
+<!DOCTYPE html>
 
 
 <style>

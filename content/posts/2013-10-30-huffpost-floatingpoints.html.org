@@ -5,6 +5,7 @@ tags:
 - policy
 draft: false
 ---
+<!DOCTYPE html>
 
 
 The other week I was invited by <a href="https://twitter.com/brandondiamond">Brandon Diamond</a> and <a href="https://twitter.com/IlanaSufrin">Ilana Sufrin</a>  to participate in <a href="https://twitter.com/HuffPostLabs">HuffPost Labs</a> podcast - Floating Points.

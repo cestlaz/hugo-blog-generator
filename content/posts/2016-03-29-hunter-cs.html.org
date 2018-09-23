@@ -6,6 +6,7 @@ tags:
 -  hunter
 draft: false
 ---
+<!DOCTYPE html>
 
 
 <style>

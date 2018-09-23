@@ -6,6 +6,7 @@ tags:
 -  pedagogy
 draft: false
 ---
+<!DOCTYPE html>
 
 
 <p>

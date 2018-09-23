@@ -5,6 +5,7 @@ tags:
 - 
 draft: false
 ---
+<!DOCTYPE html>
 
 
 <style>

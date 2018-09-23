@@ -5,6 +5,7 @@ tags:
 - policy
 draft: false
 ---
+<!DOCTYPE html>
 
 <p>
 So, it's Computer Science Education Week. Full of rah rah events and everyone's gung ho about teaching computer science.

@@ -6,6 +6,7 @@ tags:
 -  algorithms
 draft: false
 ---
+<!DOCTYPE html>
 
 
 <style>

@@ -5,6 +5,7 @@ tags:
 - community
 draft: false
 ---
+<!DOCTYPE html>
 
 
 Inspired by the likes of <a href="https://twitter.com/JonSimantov">Jon

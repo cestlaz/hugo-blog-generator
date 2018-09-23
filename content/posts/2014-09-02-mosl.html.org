@@ -5,6 +5,7 @@ tags:
 - policy
 draft: false
 ---
+<!DOCTYPE html>
 
 <style>
 div.center {text-align:center;}

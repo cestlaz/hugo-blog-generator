@@ -6,6 +6,7 @@ tags:
 -  csed
 draft: false
 ---
+<!DOCTYPE html>
 
 
 Here's what the bridge leading across the West Side Highway over to

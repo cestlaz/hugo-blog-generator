@@ -6,6 +6,7 @@ tags:
 -  misc
 draft: false
 ---
+<!DOCTYPE html>
 
 
 <style>

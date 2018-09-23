@@ -5,6 +5,7 @@ tags:
 - cstuy
 draft: false
 ---
+<!DOCTYPE html>
 
 
 <style>

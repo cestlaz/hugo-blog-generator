@@ -6,6 +6,7 @@ tags:
 -  emacs
 draft: false
 ---
+<!DOCTYPE html>
 
 
 <style>
