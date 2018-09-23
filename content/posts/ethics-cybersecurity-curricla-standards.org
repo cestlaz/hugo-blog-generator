@@ -1,10 +1,9 @@
 ---
-title: "Ethics, Cybersecurity, ethics, curricula  and standards"
+title: Ethics, Cybersecurity, ethics, curricula  and standards
 date: 2017-08-02
 tags:
 - education
--  curriculum
-draft: false
+- curriculum
 ---
 
 
@@ -14,10 +13,10 @@ summer.
 
 Another hot topic in K12 CS Ed this summer is the inclusion of ethics
 in our CS courses courtesy of efforts like the #ethicalCS twitter chat every
-Wednesday at 8:00 Eastern time  hosted by [[https://twitter.com/ed_saber][Saber Khan]].
+Wednesday at 8:00 Eastern time  hosted by [[https://twitter.com/ed_saber][Saber Khan]]. 
 
 Discussions about both topics include "where should we be doing this?"
-"What should we be doing?" and of course "How?"
+"What should we be doing?" and of course "How?" 
 
 This got me thinking about designing curriculum from the top down -
 that is, as dictated by outside forces: principals, superintendents,
@@ -38,11 +37,11 @@ teachers. The discussion goes something like this:
 
 #+BEGIN_QUOTE
 - Well, we do memory allocation in course XYZ so we can give a
-homework assignment there.
+  homework assignment there.
 - We can rewrite the story (theme) for the assignment in our data
-structures class.
+  structures class.
 - We already do a crypto assignment in algorithms so we're already
-doing it.
+  doing it.
 #+END_QUOTE
 
 I've seen the same with groups of math teachers discussing
