@@ -1,0 +1,74 @@
+---
+title: "Not every lesson has to be magic"
+date: 2018-09-25T18:08:35-04:00
+draft: true
+tags:
+- csed
+- pedagogy
+- lessons
+- teaching
+categories:
+- teaching
+---
+
+If you check out Twitter, Facebook, Medium  and other blog sites you
+might get the idea that your the worst teacher in the world. The
+internet abounds with people sharing tweets and posts about wonderful
+lessons they've just taught, witnessed or learned about in
+professional development. Sure, the teacher forums rife with requests
+for lesson ideas and resources but the shared material is always aces.
+
+It makes sense, people in the community want to share things that
+worked for them or things they think will work. 
+
+Still, for new teachers it can create an unhealthy illusion of what
+really goes on in the classroom.
+
+This is not to say that sharing of the good stuff is a bad thing but
+the truth is that not every lesson is a masterpiece, not every teacher
+is a super charismatic showman, and not all topics lend themselves to
+creative teaching.
+
+Why am I writing this now? Because I was planning lessons earlier
+today and I'm at one of those places where I'm not going to be able to
+deliver a whiz-bang lesson in my next class. One of my classes this
+semester is for beginners so we're building up language skills from
+the ground up. Right now I want to do some loop applications but
+there's only so much we can do given what the students know. There are
+reasons why I don't want to do graphics with them right now. I also
+haven't introduced lists yet and don't want to loop over strings yet
+so I'm left with doing mathy stuff.
+
+I think I'll look at Newton's method for square roots. It's
+interesting for the math inclined and does let us explore issues with
+floating point and accuracy. 
+
+It's not going to be super exciting for everyone though and that's okay. 
+
+I could do lists first but I don't want the kids to have to handle so
+much new material so quickly. I'd rather keep the pace slower and work
+with what they've just learned for a bit. 
+
+I could also do graphics but that adds a level of overhead I don't
+want to get into now.
+
+The idea is to look at the long game. A class runs a whole semester or
+possibly a year. You're going to have some special memorable lessons
+and some mundane ones and that's nothing to be ashamed of. 
+
+We're still mostly going to see best practices shared online with only
+a few brave souls sharing disaster classes and asking for help. That's
+just how the internet works. It's not the worst thing in the
+world. Just remember when you're struggling to come up with a good
+lesson or you've just taught a bad one that tomorrow's will be
+better. Judge yourself by your students long term development, not one
+day at a time.
+
+
+
+
+
+
+
+
+
