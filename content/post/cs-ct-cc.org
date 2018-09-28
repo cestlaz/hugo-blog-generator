@@ -1,0 +1,87 @@
+---
+title: "CS vs CT vs Coding"
+date: 2018-09-28T18:08:35-04:00
+draft: true
+tags:
+- csed
+- pedagogy
+categories:
+- CSed
+---
+
+
+There's been a lot of buzz recently concernting Computational Thinking
+(CT) vs Computer Science (CS) vs Coding / Programming on the
+interwebs.
+
+Some of the questions and concerns that I've seen recently include:
+- What is CT??
+- Will rich schools get CS and poor only CT?
+- Will rich schools get CS and poor on coding?
+
+The first question is a big one and as a community we haven't answered
+it yet. I think about it as including things like algorithmic
+thinking, decomposing problems, iterating, pattern recoginition and the like 
+but I'm hardpressed to come up with a succinct formal definition. This
+is somewhat related to the bigger problem of "what is CS?" A problem
+the CS community is still dealing with. There seems to be an editorial
+or letter in the [[https://cacm.acm.org/][Communications of the ACM]] every few months talking
+about this. "We're an enginering discipline. No, we're a science. No
+we're an artistic endeavor" and on and on. It's no surprise that the
+rest of the world doesn't understand what we are when we haven't
+figured it out ourselves. It's also no surprise that this problem also
+extends to CT.
+
+One thing seemed clear on the twitter threads and posts I read is that
+people seem to believe that CT and Coding are potentially overlapping
+subsets of CS but you can do CT and Coding without CS.
+
+While there's probably a lot to say on the CT without CS or rather CT
+without programming but today let's look at the programming without CS
+side of things.
+
+This is probably of particular concern to me as a high school and now
+college guy. There's no doubt to me that there's a big difference
+between a kid learning coding/programming and computer science. 
+
+Coding can be a useful skill but without at least some computer
+science it's of limited value. Look at code schools as examples. Many
+code schools work to prepare their customers for entry level tech
+jobs. Usually, this includes the fundamentals of programming on top of
+a typical business toolset. Examples would be a node.js backend,
+Mongodb, and React.js. Another, albeit older one so probably not
+taught as much now would be Ruby on Rails. Upon completing the
+program, one can create a formulaic full stack applicationand knowing
+that formula can make you employable in our current tech sector. The
+downside though, as I've heard from countless employers, is that code
+school graduates, by training, can't break out of that formula. They
+just don't have the context, nor the problem solving ability - they
+lack the CS. I'm sure many go on to learn the CS but that's another
+story. I was talking to a code school founder a few years ago about
+this and asked "what happens when the formula chages." The answer I
+got was "that's ok, we'll just bring them back for a new bootcamp." Of
+course that will cost the kid another 10K or whatever bootcamps are
+charging these days.
+
+Now of course some code schools try harder than others and some
+attempt build some CS into their programs but while there are always
+outliers who can learn a great deal in a short period of time, and
+often on their own, real education takes time and effort and a short
+term bootcamp just doesn't have that time.
+
+Back to schools.
+
+To start coding is easier to teach than CS. It can be formulaic and
+there are lots of resources out there to assist teachers without a CS
+background. It's also easy to test and show off. 
+
+The danger of coding and no CS 
+
+too early
+easy to make show off projects
+easier to know the coding than the cs
+
+
+
+
+
