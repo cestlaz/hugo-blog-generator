@@ -1,7 +1,7 @@
 ---
 title: "CS vs CT vs Coding"
-date: 2018-09-28T18:08:35-04:00
-draft: true
+date: 2018-09-28T12:08:35-04:00
+draft: false
 tags:
 - csed
 - pedagogy
@@ -93,16 +93,45 @@ to the serial port as the sample code does, send it to a particular
 XBee node. Pretty much no CS and almost no programming. Just a great
 idea and gluing some components together.
 
+I've seen the same with student projects that have been highlighted at
+events with funders and politicians and in the media. I won't describe
+them as they are student projects and wouldn't do that to a student
+but the projects really had no CS under the hood. Nice ideas or even
+more importantly nice stories around the kid but it was glue and
+simple basic programming not CS.
 
+Teaching real CS is harder to do, harder to assess and harder to show
+off which makes teaching coding so enticing. 
 
-Take a look at projects that are highlighted at events with
-politicians - particularl yt
+This is not to say that teaching coding without CS doesn't have
+value. I believe it does but it also leads to another problem -- it
+can be assessed improperly either with showy projects that are merely
+gluing a theme on a fixed pattern or by tests that allow for
+memorization and this at times has led to students being given too
+much too early.
 
-The danger of coding and no CS 
+We've seen this with algebra and physics. Students end up taking these
+subjects before they're ready for them. They can pass the
+standardized test  because they can plug numbers into formulas or can
+recognize what form to use because there are a limited set of problem
+patterns on the exams but they don't really "get" the subject. This
+leads to problems later on but of course that's another teacher's
+problem.
 
-too early
-easy to make show off projects
-easier to know the coding than the cs
+This also happens in coding classes. While it's usually pretty clear
+when a kid isn't getting a CS concept, I've seen programming
+experiences where the student at first or in the short term can appear
+to pass the assessments but later on it's revealed that they weren't
+ready and they didn't really learn what they were supposed to.
+
+This is a problem. Just as we might have some students exposed to CT
+without CS I think a major problem will be kids getting Coding without
+CS. This will particularly be a danger in poorer schools and
+communities but possibly across the board.
+
+Just another thing we have to really be on guard for as we try to
+achieve CS for all.
+
 
 
 
