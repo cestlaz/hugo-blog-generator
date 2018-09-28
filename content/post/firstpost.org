@@ -23,7 +23,7 @@ niceties like:
 
 The Mainroad theme added:
 
-- MarthJax
+- MathJax
 - Analytics
 - An easy menu
 - widgets for the sidebar
