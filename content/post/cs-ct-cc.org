@@ -73,7 +73,30 @@ Back to schools.
 
 To start coding is easier to teach than CS. It can be formulaic and
 there are lots of resources out there to assist teachers without a CS
-background. It's also easy to test and show off. 
+background. 
+
+It's also easy to test and show off. 
+
+I was at the NYTM once and they were celebrating a code school
+project. The idea was really a good one - automatic sensing of heat in
+low income apartments. I had a couple of questions about getting their
+data out to the authorities but thought that if they figured that out
+it could really do some good. On the other hand there was practically
+no CS. As the project was described - it sets up it's own mesh network
+and communicates heat readings etc etc., I said to my neighbor in the
+audience - sounds like an arduino with an XBee shield and yep, when
+they showed the case, it was the exact form factor to hold an arduino
+and xbee. That told me there was no CS. The mesh networking is
+automatically done by the XBee so all they had to do was take the
+sample arduino code to read the heat sensor and instead of sending it
+to the serial port as the sample code does, send it to a particular
+XBee node. Pretty much no CS and almost no programming. Just a great
+idea and gluing some components together.
+
+
+
+Take a look at projects that are highlighted at events with
+politicians - particularl yt
 
 The danger of coding and no CS 
 
