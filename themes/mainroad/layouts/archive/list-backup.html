@@ -1,0 +1,50 @@
+{{ $years := slice 2018 2017 2016 2015 2014 2013 2012 2011 2010}}
+{{$Scratch := newScratch}}
+
+{{ range $y := $years}}
+  {{ $Scratch.Set (string  $y) "0" }}
+{{end}}
+
+
+{{ range $y := $years}}
+  {{ range where  $.Site.RegularPages "Section" "post" }}
+    {{ if eq .Date.Year (int $y)}}
+       {{ $Scratch.Set (string $y) (string (add 1 (int ($Scratch.Get (string $y))))) }}
+    {{end}}
+  {{ end}}
+{{end}}
+{{ range $v := $years}}
+
+  <h2>{{ $v}}</h2>  <br>
+  {{ $Scratch.Get (string $v)}} Posts:
+
+  <ul>
+  {{ range where $.Site.Pages "Section" "post"}}
+    {{ if eq  .Date.Year  $v }}
+      <li>
+	<a href="{{.RelPermalink}}"> {{.Title}} </a>
+      </li>
+    {{end}}
+ </ul>
+{{end}}
+<ul>
+  {{ range where $.Site.Pages "Section" "posts"}}
+{{ if eq  .Date.Year  $v }}
+  <li>
+<a href="{{.RelPermalink}}"> {{.Title}} </a>
+</li>
+  {{end}}
+</ul>
+{{end}}
+{{end}}
+
+
+
+
+
+
+                
+
+
+
+   
