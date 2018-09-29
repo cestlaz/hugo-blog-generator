@@ -51,11 +51,6 @@ url="/"
 weight=1
 
 [[menu.main]]
-identifier="oldblog"
-name="Old Blog"
-url="https://cestlaz-nikola.github.io/"
-weight=2
-[[menu.main]]
 identifier="emacs"
 name="Emacs"
 url="/stories/emacs"
@@ -72,6 +67,18 @@ identifier="tags"
 name="Tags"
 url="/tags"
 weight=8
+[[menu.main]]
+identifier="archive"
+name="Archive"
+url="/archive"
+weight=8
+[[menu.main]]
+identifier="oldblog"
+name="Old Blog"
+url="https://cestlaz-nikola.github.io/"
+weight=8
+
+
 [[menu.main]]
 identifier="about"
 name="About"

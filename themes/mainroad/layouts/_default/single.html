@@ -10,6 +10,9 @@
 			<p class="post__lead">{{ . }}</p>
 			{{- end }}
 			{{- if or (not .Date.IsZero) .Params.categories }}<div class="post__meta meta">{{ partial "post_meta.html" . }}</div>{{ end }}
+			<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+<a href="{{ .RelPermalink }}#disqus_thread"># COMMENTS</a>
+
 		</header>
 		{{- if .Params.thumbnail }}
 		<figure class="post__thumbnail">
