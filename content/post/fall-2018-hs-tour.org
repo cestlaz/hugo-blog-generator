@@ -1,0 +1,82 @@
+---
+title: Fall 2018 HS CS Tour
+date: 2018-09-29T16:57:26-04:00
+tags: 
+- csed
+- college
+- HS
+categories:
+- csed 
+draft: true
+--- 
+
+I've written before about why [[https://cestlaz.github.io/posts/hunter-cs-important/][Hunter College CS is so important]] for
+NYC and I've been working hard to develop our Daedalus Scholars honors
+CS program -  a program in which students receive a scholarship along
+with all sorts of special opportunities to add on to their in class CS
+education. The program and Hunter CS as a whole have [[https://cestlaz.github.io/posts/hunter-cs-year-two/][made a lot of
+progress]] over the past two years and each year I roll out new
+special activities and events for my honors students. Still, a major
+challenges is getting the word out and building our reputation. Anyone
+who takes a close look at what we're doing can see we're growing
+something special but we still have to convince students and parents
+who may not even realize that Hunter offers a CS degree to come to us
+instead of going to more well known albeit much more expensive programs.
+
+To that end I try to visit as many high schools as I can during the
+Fall semester to speak to high school seniors.
+
+I spent last Friday at Packer Collegiate.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Great to have <a href="https://twitter.com/zamansky?ref_src=twsrc%5Etfw">@zamansky</a> come by and talk to juniors and seniors in the advanced CS about the tech sector and options for study including the amazing program at Hunter <a href="https://t.co/ubHNfyt8Y9">pic.twitter.com/ubHNfyt8Y9</a></p>&mdash; saber khan (@ed_saber) <a href="https://twitter.com/ed_saber/status/1045768969519542272?ref_src=twsrc%5Etfw">September 28, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js"
+charset="utf-8"></script>
+
+I was invited by my friend [[https://twitter.com/ed_saber][Saber Khan]] who runs the weekly twitter
+#EthicalCS chat among other things.
+
+When I first started doing school visits I had a tough time figuring
+out exactly what to say - I'm no salesman - I'm not good at it and I
+don't like doing it. Fortunately, I didn't have to be a salesman. I
+decided I'd talk to the students about questions they should be asking
+themselves as they consider where to go after graduation. I talk about
+school location, community, and culture. I also talk about majors - BA
+vs BS, Major vs Minor, niche majors, and possible career paths. I also
+talk about tech sectors - how NY might be different from Sill icon
+Valley might be different from Seattle or Boston.
+
+I also tell them the truth about the undergraduate experience - how
+you can get a great CS background at all sorts of schools. How
+Algorithms is Algorithms and no matter where you go you'll probably
+use the same text and how while I have many former students at the
+Googles and Facebooks of the world that  have gone to MIT and CMU I
+also have plenty who end up at those companies or similar going to
+Stony, Oberlin, Tufts, and yes, Hunter.
+
+At the end of the talk I spend a few minutes talking about Hunter and
+my honors program but it's only a small part of the talk. I figure in
+any given class there will be a few kids who could be a fit for my
+program and I want the time spent to be worthwhile for the entire
+class.
+
+Sometimes guidance people sit in when I talk to the students and
+almost always they tell me how valuable it was for the students to
+have someone like me come in and talk frankly about the college
+application and acceptance process.
+
+It's going to take time to build our reputation at Hunter but I think
+that going around to students and talking honestly about college and
+not giving the hard sell helps build trust and our reputation and over
+time, people will realize the value we're bringing to the table and
+come to us. It's already happening.
+
+Now, the only other challenge is to get more high schools to bring me
+in. Next week I'm visiting NEST+M and Brooklyn Tech and I've got a few
+more on the calendar in upcoming weeks but would love to get to a
+bunch more.
+
+So, if you're at a NY area High School and you think there's a fit -
+hit me up - I'd love to visit and meet and talk with your kids.
+
+
+
