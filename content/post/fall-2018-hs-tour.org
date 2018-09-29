@@ -7,7 +7,7 @@ tags:
 - HS
 categories:
 - csed 
-draft: true
+draft: false
 --- 
 
 I've written before about why [[https://cestlaz.github.io/posts/hunter-cs-important/][Hunter College CS is so important]] for
