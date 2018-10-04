@@ -1,0 +1,71 @@
+---
+title: When the students know more than the teacher
+date: 2018-10-04T16:07:09-04:00
+tags: 
+- csed
+- education
+categories: 
+- csed
+draft: false
+--- 
+
+We've heard it many times with computer science - "the kids know more
+than the teacher." 
+
+On the one hand, the truth is that this isn't so much the case. Kids
+might use computers all the time but they don't necessarily know
+much about them or about computer science ([[https://cestlaz.github.io/oldblog/keyboarding-dig-divite/][link 1]], [[https://cestlaz.github.io/posts/2015-01-15-kids-know-nuttin.html/][link 2]]). Then
+you have students who think they know all about CS but really
+don't. They might have picked up a bit of coding somewhere but more
+often than not, the knowledge is pretty superficial.
+
+On the other hand, you do have some cases where the students or a
+subset of them do know more than the teacher. As K12 CS Education is
+fairly nascent many of our teachers are brand new to the subject
+matter. You might have kids who's parents have a background and teach
+them, kids who's previous school had a solid program or you might have
+some kids that are in that minority of people who can do it all on
+their own. 
+
+In some cases, this problem will work itself out over time. States are
+starting to require certification to teach computer science. Some of
+these states have requirements that when met will result in teachers
+who have a solid background in CS. In these cases, the problem will
+eventually mostly be solved. Of course this will take years if not
+decades and in states with weaker requirements the issue will never
+disappear.
+
+The issue of having students knowing more than the teacher isn't
+always a problem. A solid teacher can make sure a kid that's ahead of
+the class doesn't dominate and intimidate the rest of the class and as
+long as the teacher adds some value to that student things can work
+out. 
+
+In any event, I was thinking earlier today that as our subject area
+gains traction and starts to mature, perhaps we can learn from other
+fields where students knowing more than teachers is not that uncommon.
+
+The subjects that come to mind for me are art and music. Even though
+NY has decimated it's programs, there are still a few out there. When
+I grew up and also through my children's years in school there were
+always students in all our music classes that were exceptional and well
+beyond their respective teachers. 
+
+I never gave it much thought until now.
+
+I know that the disciplines are different but I wonder if there's
+something us CS teachers can learn from music and art teachers in
+terms of dealing with this issue.
+
+Just some food for thought.
+
+
+
+
+
+
+
+
+
+
+
