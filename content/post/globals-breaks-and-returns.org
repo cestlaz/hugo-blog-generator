@@ -1,0 +1,121 @@
+---
+title: Globals Breaks And Returns, oh my
+date: 2018-10-06T15:48:55-04:00
+tags: 
+- csed
+- teaching
+- programming
+categories: 
+- programming
+- csed
+draft: false
+--- 
+
+- Never use global variables
+- Never break out of a loop
+
+These are two "best practices" that are frequently touted in early CS
+classes both at the high school and college level.
+
+They came up a couple of times yesterday. Once in the Facebook APCS-A
+teachers group and once on [[http://blog.acthompson.net/2018/10/if-you-are-using-global-variables-you.html][Alfred Thompson]]'s blog.
+
+Alfred post was topically on global variables. Actually it was deeper than just global
+variables. It's also about how students progress - what they can figure
+out at various stages of progress and how what seems like a good idea
+early on the path to computer science doesn't seem so great later on.
+
+The discussion on the APCS-A group started with a discussion of this
+code and its ~break~ statement as opposed to having the loop's exit
+condition in the boolean up top:
+
+#+BEGIN_SRC java
+  while (true)
+      {
+          // do stuff
+          if (condition) break;
+      }
+#+END_SRC
+
+These two "best practices" - not using globals and not breaking out of
+loops are frequently taught to students at a point when reasons for
+the best practice aren't always clear. 
+
+Actually, these aren't even universally best practices.
+
+Looking at the while loop, You might have event driven code with a
+while loop acting as a dispatcher:
+
+#+BEGIN_SRC java
+  while (true){
+      // do stuff
+
+      if (some event)
+          do that event;
+
+      if (some other event)
+          do that event;
+
+      // etc
+
+      if (exit event)
+          break;
+  }
+#+END_SRC
+
+Nothing wrong with that structure. It's clean, easy to read and easy
+to reason about. 
+
+I've seen loops that use extra variables and crazy boolean expressions
+so as to avoid using a ~break~ statement so that they follow the "best
+practice" but end up with much messier code.
+
+This is not to say that you should always use ~break~ or ~continue~ for that matter but rather that the best practice should be to
+consider if it makes the code cleaner, easier to read, and more
+maintainable or not. 
+
+On the global front things are also not so clear. Sure, storing
+information in globals  and then using them indiscriminantly in
+assorted methods or functions is both bad form and dangerous but there
+are times when using globals make sense. 
+
+Back in "the day" I was a C programmer. I used single C source files
+along with their matching .h include files to enable *object typed*
+programming. Each file was a singleton object. Functions in the file
+were methods using some naming convention to demarcate public vs
+private, and variables that were global to the file as class variables
+(or instance variables but there was only ever one instance of any
+given class). Technically I broke the rules but the technique was very
+effective and allowed me to write large maintainable systems. 
+
+More recently I've been playing with [[https://vuejs.org/][Vue.js]] for front end
+development. Vue uses a central data store - Vuex to maintain
+state. Basically a place for global variables to manage the state of
+your application. Again, technically global but with rules and
+protocols to make things work without the usual danger associated with
+globals.
+
+A great comment on the Facebook thread [fn:1] included this Hal
+Ableson quote:
+
+#+BEGIN_QUOTE
+"Programs must be written for people to read, and only incidentally for machines to execute." 
+#+END_QUOTE
+
+and noted that this is particularly true on the AP Exam and after all,
+the original question was posed on a forum about APCS-A. With this in
+mind, you shouldn't *try* to use globals or cleverly or creatively 
+use ~break~ or ~continue~ but they do have their places.
+
+I've used globals in both professional and personal work when
+appropriate and I don't shy away from ~break~ and ~continue~ and use
+them regularly. The real *best practice* is that you consider why you
+are or aren't using these constructs and make a choice that makes
+sense for you, your group, or your team. 
+
+* Footnotes
+
+[fn:1] While I will identify sources when they publish content publicly on ablog or Twitter, since
+the Facebook group is semi-private, I don't feel it's appropriate to
+state the names of commenters without asking]
+
