@@ -7,7 +7,7 @@ tags:
 categories:
 - community
 - hunter
-draft: true
+draft: false
 --- 
 
 One of the bigger challenges faced at commuter schools is building a
