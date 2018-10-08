@@ -1,0 +1,94 @@
+---
+title: Challenges of teaching at a commuter school
+date: 2018-10-08T08:43:40-04:00
+tags: 
+- hunter
+- community
+categories:
+- community
+- hunter
+draft: true
+--- 
+
+One of the bigger challenges faced at commuter schools is building a
+feeling of community. Students aren't on campus every day and come
+from far afield and even when they are on campus, we really don't have
+a CS "hang out" space. The space issue should be resolved soon - we're
+scheduled to get a CS student lounge next semester.
+
+I'm finding this to be even more of a challenge this year with my
+honors students. The first two cohorts were a single class in
+size. Even though some dormed and some commuted, they were all
+together in my class twice a week. This year, we've close to doubled
+in size and about half of my students came in with a good deal of
+prior CS knowledge. The result is that I have two different classes of
+honors students and we are never all together unless it's for a
+special event.
+
+Fortunately, we've got one of my favorites coming up. 
+
+In two weeks, I'll be taking about half my students up to [[http://catskillsconf.com][Catskills
+Conf]]. An event that I describe as light tech conference with a focus
+on creativity and diversity meets summer camp. I've written about the
+event in in each of the past three years ([[https://cestlaz.github.io/posts/2015-10-29-catskills-2015/%0A][2015]], [[https://cestlaz.github.io/posts/catskillsconf-2016/%0A][2016]], [[https://cestlaz.github.io/posts/catskills-2017/%0A][2017]]) and also
+about the  [[https://cestlaz.github.io/posts/knitting-tech-conference/%0A][knitting for charity]] event that Devorah runs during the
+conference weekend.
+
+It's a great event and if you're anywhere near the Hudson Valley
+region you should [[http://catskillsconf.com][check it out]].
+
+To start, it's a great first conference for the students. It only has
+one track so no choices and the talks look really interesting this
+year. Some of the ones I'm looking forward to are:
+
+- Designing for Access first
+- Behind the Tech: Emoji
+- Leaning into uncertainty
+
+The full schedule is [[https://catskillsconf.com/schedule/][here]]. 
+
+But also mixed in are activities like blacksmithing
+
+{{% figure src="/img/commuter-school/blacksmith.jpg" align="center" width="250px" %}}
+
+and a live bird of prey show
+
+{{% figure src="/img/commuter-school/BOP.jpg" align="center" width="250px" %}}
+
+There are also hikes that show off the beauty of Fall in the Hudson
+Valley
+
+{{% figure src="/img/commuter-school/nature1.jpg" align="center" width="250px" %}}
+{{% figure src="/img/commuter-school/nature2.jpg" align="center" width="250px" %}}
+{{% figure src="/img/commuter-school/nature3.jpg" align="center" width="250px" %}}
+
+Rather than having the kids spread out in random hotel rooms we're all
+in a camp style bunkhouse.
+
+{{% figure src="/img/commuter-school/bunkhouse.jpg" align="center" width="250px" %}}
+
+The weekend is spent  living together along with technologists and
+other creative types from NYC, the Hudson Valley and everywhere else. 
+
+One of my favorite parts is at the end of each evening when we all
+hang out by the campfire. Hunter CS students, company founders,
+software engineers, designers.
+
+{{% figure src="/img/commuter-school/campfire.jpg" align="center" width="250px" %}}
+
+
+It's a great event overall and a great event to build community.
+
+As I said before, if you're int he area, check it out.
+
+
+
+
+
+
+
+
+
+
+
+
