@@ -1,0 +1,175 @@
+---
+title: Compile Each Concept
+date: 2018-10-09T14:46:59-04:00
+tags: 
+- pedagogy
+- CS
+- software engineering
+- programming
+categories: 
+- cs
+- software engineering
+draft: false
+--- 
+
+We've all been there:
+
+#+BEGIN_QUOTE
+
+Student: Teacher, I need help
+Teacher (comes over)
+Student (shows screen listing three bazillion errors)
+
+#+END_QUOTE
+
+The student has just written pages of code and finally decided to try
+to run it only to end up with pages of errors.
+
+Error messages can at times be hard to read for beginners but to see
+and truth be told, they frequently don't even read them but over the
+years I've developed a practice that I've found helpful as a software
+developer and if students adopt the same practice it can save them a
+lot of time and effort.
+
+The idea is very simple. 
+
+Compile and test one concept at a time.
+
+It might seem silly, but if I'm writing a a program, my first compile
+might be code that looks like this:
+
+
+{{< highlight  c >}}
+  #include <iostream>
+
+  using std::cout;
+  using std::endl;
+
+  int main()
+  {
+  
+    return 0;
+  }
+{{</highlight>}}
+
+
+or 
+
+
+{{< highlight java >}}
+  public class HelloWorld {
+
+      public static void main(String[] args){
+	
+      }
+
+  }
+{{</highlight>}}
+
+This might seem silly but it really doesn't take any effort. I have a
+key sequence to do this under Emacs and if I'm using an interactive
+language like Python or Clojure I just have to hit ~c-c c-c~ 
+
+This might seem silly but I do it out of muscle memory and it
+immediately tells me I don't have any syntax errors and my build system
+works.
+
+Going further, I compile and test every time I code up what I call a
+concept. What's a concept? Let's look at some code. A student might
+write something like this to find prime number up to n:
+
+{{< highlight python >}}
+def prime_list(n):
+    for i in range(2,n):
+        i_isPrime = True
+        for j in range(i-1,1,-1):
+            if i%j ==0 :
+                i_isPrime = False
+                break
+        if i_isPrime:
+            print(i)
+{{< /highlight >}}
+
+There's a lot going on there. To me, a concept is
+
+- A loop
+- A complex calculation
+- a conditional
+
+All of these can have other concepts within.
+
+In the above code, I'd probable write it as follows, adding in tests
+and print statements throughout the process:
+
+* Step 1:
+{{< highlight python >}}
+def prime_list(n):
+    for i in range(2,n):
+        print(i)
+{{< /highlight >}}
+
+* Step 2
+{{< highlight python >}}
+def prime_list(n):
+    for i in range(2,n):
+        for j in range(i-1,1,-1):
+            print(i,j)
+{{< /highlight >}}
+
+* Step 3
+{{< highlight python >}}
+def prime_list(n):
+    for i in range(2,n):
+        for j in range(i-1,1,-1):
+            if i%j ==0 :
+                print(i,"is not prime")
+                break
+        if i_isPrime:
+            print(i)
+{{< /highlight >}}
+
+* Step 4 
+{{< highlight python >}}
+def prime_list(n):
+    for i in range(2,n):
+        i_isPrime = True
+        for j in range(i-1,1,-1):
+            if i%j ==0 :
+                i_isPrime = False
+                break
+        print(i,i_isPrime)
+  
+{{< /highlight >}}
+
+* Step 5
+{{< highlight python >}}
+def prime_list(n):
+    for i in range(2,n):
+        i_isPrime = True
+        for j in range(i-1,1,-1):
+            if i%j ==0 :
+                i_isPrime = False
+                break
+        if i_isPrime:
+            print(i)
+
+{{< /highlight >}}
+
+It might not play out exactly this way but if not it would be something
+similar. The idea is that if you test every time you add one concept
+or construct there are fewer places where you can introduce an error.
+
+If you enter 100 lines before you test there are 100 places where
+things can go wrong. If you type 10, there are only 10. On top of
+that, if you've added 100 lines, conecptually you've probably added a
+lot and the error can be anywhere. While it's not always the case,
+most of the time, if you just added an *if*, the problem will be in the
+*if* or as a result of the if. Same with a *loop* or any other construct.
+
+Once you get in the habit, it's easy and doesn't really take any
+time. A couple of keystrokes to compile and a couple more to run. 
+
+All too often students try to write everything at once and it's so
+rare that it works. If we can get them to develop incrementally
+they'll be able to write much more complex systems and write them with
+much less frustration.
