@@ -1,0 +1,78 @@
+---
+title: Who Played Spiderman part 1 or my Nifty Assignment (that was rejected)
+date: 2018-10-11T17:16:23-04:00
+tags: 
+- cs
+- csed
+categories: 
+- cs
+draft: false
+--- 
+
+I wasn't going to teach this lesson today. I was planning on starting
+a multi day project starting with an exercise in specification writing
+and design.
+
+Beforehand though, we had to talk about classes. One of my students
+asked if probability and/or statistics were really important for CS. I
+started to cite a few examples and then decided to segue into
+this. Normally, I do this as a couple of lessons which leads to a
+project, we just did the first part. I might do it as a project with
+my class later on.
+
+I also submitted this as a "Nifty Assignment" for SIGCSE a couple of
+years ago but it wasn't accepted. I was going to share the lesson at
+some point so, well, here goes.
+
+It starts with a question:
+
+#+BEGIN_QUOTE
+Who played Spiderman?
+#+END_QUOTE
+
+That's it. Every student writes down their answer. No talking, no
+Googling or other searching, just write something down.
+
+We then go around the room an tally up the answers. I got something
+like this:
+
+| Name            | Count |
+|-----------------+-------|
+| Toby Maguire    |     7 |
+| Tom Holland     |     6 |
+| Andrew Garfield |     3 |
+| Peter Parker    |     4 |
+| I don't know    |     4 |
+
+So as a class, we think that Toby MAguire played Spiderman with Tom
+Holland also being a good choice. 
+
+After painstakingly explaining that Peter Parker couldn't play
+Spiderman because he *IS* Spiderman I also shared some of the more
+interesting answers I've gotten over the years.
+
+I've gotten "the lady playing the song on the violin in the movie in
+front of the subway" which is technically correct and I also get
+Willem Dafoe because as the Green Goblin / Norman Osborn he *PLAYED* Spiderman.
+
+In any event, it appears that if we get a lot of data on who "played
+Spiderman" it's likely that the most popular result is the right
+answer or at least the right answer will be among the most popular
+results. Of course, this is [[https://www.nbc.com/saturday-night-live/video/common-knowledge/n9612][not always the case]] but with reliable
+data sources. 
+
+So, the basic idea is that if we have a question to answer like "Who
+played spiderman?" we can start by collecting a whole bunch of
+documents from the web with terms like "played Spiderman" in them.
+
+When I first taught this lesson, we used the Google API to search for
+web pages with the search terms in them but more recently I've used
+the Bing API instead.
+
+This leaves us with a large number of documents that could potentially
+answer a search for "who played Spiderman?" 
+
+We'll leave it at this for now. Next time, we'll talk about how we can
+go from this collection of documents to a likely answer to our query. 
+
+Tune in again tomorrow, same bat Time, same bat channel.
