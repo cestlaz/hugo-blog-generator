@@ -1,0 +1,48 @@
+---
+title: Who Played Spiderman part 2
+date: 2018-10-13T16:04:59-04:00
+tags: 
+- cs
+- csed
+categories: 
+- cs
+draft: false
+--- 
+
+
+
+When we left off [[/post/who-played-spiderman/][last time]] we used a search engine API to gather a
+whole bunch of documents with the term "played Spiderman" or "who
+played Spiderman." Now we have to process these documents to answer
+the question. Fortunately, the documents are basically just big
+strings of text.
+
+Since we're doing a "who" query  we want to find all the names in all
+the documents. This leads to a class discussion on how to find names
+in a large string. They'll come up with rules like:
+
+- two adjacent words each with a capital first letter.
+- an honorific (Mr, Ms, etc.) followed by a capitalized word
+- A word that matches a name from a "popular name" list followed by a
+  capitalized word.
+
+The class might come up with different or additional rules. Actually
+writing the code to pull out the names is an nice little assignment
+that can be done with classes at many different levels. A beginning
+class might just use string operations while an intermediate one could
+use regular expressions. 
+
+Will the students write code that always finds all the names? Probably
+not. Will their code incorrectly identify some word sets as names?
+Most likely. It doesn't really matter. Actually, this is a good
+thing. You now have a great platform to talk about false positives and
+true negatives.
+
+Now the moment of truth - what's the most common name? To answer that
+you have to decide on the meaning of "most common." Is it the name
+that appeared the most times? How about the name that appeared in the
+most documents? Does it matter? Whichever way you do it, chances are
+the correct answer will be near the top of your list.
+
+Next up in part 3 - other types of queries and why I love this sequence of
+lessons so much.
