@@ -16,7 +16,7 @@ draft: false
 
 * Part 3
 
-In the first tow parts of this set of posts I wrote about the
+In the first two parts of this set of posts I wrote about the
 motivation and design a question answering system that can answer
 "who" queries like "who played Spiderman" or "who shot John Lennon?"
 It's not perfect. When doing the Spiderman query, chances are the
