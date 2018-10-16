@@ -8,6 +8,9 @@ categories:
 - cs
 draft: false
 --- 
+* Parts 2 and 3
+- [[/post/who-played-spiderman-2/][Part 2]
+- [[/post/who-played-spiderman-2/][Part 3]]
 
 I wasn't going to teach this lesson today. I was planning on starting
 a multi day project starting with an exercise in specification writing
@@ -76,3 +79,8 @@ We'll leave it at this for now. Next time, we'll talk about how we can
 go from this collection of documents to a likely answer to our query. 
 
 Tune in again tomorrow, same bat Time, same bat channel.
+
+* Parts 2 and 3
+- [[/post/who-played-spiderman-2/][Part 2]
+- [[/post/who-played-spiderman-2/][Part 3]]
+

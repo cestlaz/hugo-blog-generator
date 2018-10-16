@@ -1,0 +1,80 @@
+---
+title: Who Played Spiderman - part 3
+date: 2018-10-16T17:25:33-04:00
+tags: 
+- cs
+- csed
+categories: 
+- cs
+draft: false
+--- 
+
+* Parts 1 and 2
+- [[/post/who-played-spiderman/][Part 1]]
+- [[/post/who-played-spiderman-2/][Part 2]]
+
+
+* Part 3
+
+In the first tow parts of this set of posts I wrote about the
+motivation and design a question answering system that can answer
+"who" queries like "who played Spiderman" or "who shot John Lennon?"
+It's not perfect. When doing the Spiderman query, chances are the
+desired answer will be at or near the top of the list of most
+frequently appearing names but so will "Peter Parker." How do you
+distinguish between a real answer and a fictional name? Likewise, if
+you ask "Who shot John Lennon?" You'll probably get Mark David (if you
+search for two word names) or if you're more inclusive, Mark David
+Chapman, but you'll also find John Lennon at or near the top of your
+results.
+
+This system may not be perfect but then again, it can be written by one or a
+small group of students relatively new to CS in a few periods as
+opposed to a team of full time Google Software Engineers. I also truly
+ *like* the fact that it isn't perfect. Too many student experiences involve
+perfect questions with predetermined perfect answers. I love the fact
+that they see false positives and true negatives in this. I love that
+they can get pretty good but not perfect results. This makes the
+experience more interesting, more fun, and more authentic.
+
+This lesson can also easily be extended beyond "who" queries. "When"
+queries are also pretty straightforward. Things like "When was D-Day"
+or "When did Elvis die?" For a "when" query, you start the same way as
+for a "who" query. Use the search API to get a bunch of documents that
+mention the query terms. Then you look for dates. Dates can be even
+easier to search for than names. Particularly if your students know
+regular expressions. Dates could be things like:
+
+- two digits / two digits / two digits
+- Month name number, number
+- etc.
+
+or in regular expressions, something like:
+- [0-9]{2}/[0-9]{2}/[0-9]{2}/
+- (Jan|Feb|Mar...)[0-9]{2}, {0-9]{4}}
+- etc.
+
+Just as with "who" queries there are issues to deal with - searching
+for "when did Elvis die" might give you when Elvis was born instead
+but again, these are great motivators for further exploration and
+discussion.
+
+So, there's the project. What level of students can do this? It
+depends. I first did this in my Software Devepment class. That class
+was offered to student who had completed APCS-A. The class covered
+using APIs and setting up a web application using Python and Flask so
+they were able to do the entire project, soup to nuts. An APCS class
+could also do the project without the web application just so long as
+they have access to the search API. In fact, an intro programming
+class could also have success with this project.
+
+This was actually one of the lessons I've missed since I haven't been
+able to work it into my Hunter courses so I was really happy when the
+class discussion led me to call and audible and talk about it.
+
+I hope some of you out there experiment with it and if you do, I'd
+love to hear about your tweaks, implementations and successes.
+
+* Parts 1 and 2
+- [[/post/who-played-spiderman/][Part 1]]
+- [[/post/who-played-spiderman-2/][Part 2]]

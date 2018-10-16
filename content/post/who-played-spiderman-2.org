@@ -9,7 +9,11 @@ categories:
 draft: false
 --- 
 
+* Parts 1 and 3
+- [[/post/who-played-spiderman/][Part 1]]
+- [[/post/who-played-spiderman-3/][Part 3]]
 
+* Part 2
 
 When we left off [[/post/who-played-spiderman/][last time]] we used a search engine API to gather a
 whole bunch of documents with the term "played Spiderman" or "who
@@ -46,3 +50,8 @@ the correct answer will be near the top of your list.
 
 Next up in part 3 - other types of queries and why I love this sequence of
 lessons so much.
+
+* Parts 1 and 3
+- [[/post/who-played-spiderman/][Part 1]]
+- [[/post/who-played-spiderman-3/][Part 3]]
+
