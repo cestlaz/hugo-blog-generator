@@ -115,3 +115,5 @@ disable_comments = true
 ** [[http://cestlaz-nikola.github.io/posts/using-emacs-49-mu4e-conversation][Video 49 - mu4e conversation]]
 
 ** [[http://cestlaz-nikola.github.io/posts/using-emacs-50-presentations][Video 50 - presentations]]
+
+** [[/post/using-emacs-51-dtd-org][Video 51 - Day to day with org-mode]]

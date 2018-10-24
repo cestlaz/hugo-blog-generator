@@ -1,0 +1,35 @@
+---
+title: Using Emacs 51 - Day to day work with org-mode
+date: 2018-10-24T17:30:45-04:00
+tags: 
+- emacs
+- tools
+- org-mode
+- productivity
+categories: 
+- emacs
+draft: false
+--- 
+
+I can't believe that I haven't made a video since the beginning of
+summer!!!
+ 
+Part of the reason is that I haven't had any video ideas that have
+motivated me and the other reason is that the Fall is my busiest
+season.
+
+In any event, here's the latest installment.
+
+Take a look at how I use Emacs and more specifically org-mode for my
+day to day work. Sometimes I use the fancy power tools but to be
+honest, most of the time, I stick to the basics. 
+
+The point is that you don't have to be a real guru to use org-mode to
+help you with organization and to increase productivity. Just a few
+simple commands and you can accomplish a lot.
+
+I hope you enjoy it.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C6nbjqn5Uxw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
