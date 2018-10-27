@@ -1,0 +1,129 @@
+---
+title: From Scripts To Freestyle
+date: 2018-10-26T17:35:56-04:00
+tags: 
+- teaching
+- csed
+categories: 
+- teaching
+draft: false
+--- 
+
+I just read [[https://medium.com/@bethanymarz/going-off-script-b69345fc5904][this post]] by  [[https://twitter.com/bethanymarz][Bethany Crystal]] - [[https://medium.com/@bethanymarz/going-off-script-b69345fc5904][Going off script]].
+
+Bethany writes that while she normally essentially scripts important
+presentations, this time she went more off the cuff.
+
+It made me think about how I teach and a disturbing trend I've
+seen in CS education and education in general.
+
+I've never strictly used a script for teaching. When I started I did
+use *very* detailed lesson plans. Back then I was teaching math. It
+was also pre internet or at least pre internet as we now know
+it. I had an account on [[https://www.panix.com/][Panix]] and the internet did indeed exist but
+you couldn't just look for teaching materials. I actually remember
+bringing a modem in to Seward Park one day and showing a bunch of kids
+this up and coming thing called the internet. I showed them usernet
+news, a gopher server and a couple of other things.
+
+In terms of teaching materials, you could buy sample lesson plans from
+the teacher store near the Board of Ed in Brooklyn. These were books
+that were compilations of mostly handwritten lessons. 
+
+I basically copied and modified them. I had an *aim*, a *do now* key
+questions were written as were definitions and summary
+statements. Of course there were numerous sample problems and
+exercises, all worked out
+in advance. It wasn't quite a script but it was a very well fleshed
+out guide 
+
+As I gained experience and also shifted from math which wasn't my
+passion to CS, my plans become sparser. I'd still write down
+definitions, maybe some solutions and a list of key points but a lot
+of the particulars were gone. I didn't write out key questions or
+solutions to all the problems in advance. 
+
+As time went by the plans got sparser still. I'd still list the key
+points I'd want to cover as well as notes on tricky parts of the
+lesson but more often than not I'll just go in with a bullet list.
+
+Here's my plan for a recent lesson:
+
+- Go over cipher soution
+- How to we solve if already ciphered?
+- Rotate 26 times.
+- What about using stats
+- Frequency of letters - look up
+- Find freq of letter in string then use distance formula against
+  model
+- Get frequencies from a book
+- try it in another language
+
+We didn't get to the last two bullet items so that's where we'll start
+off on Monday. This plan was all I needed but it in no way tells the
+full story of the lesson to anyone but me. It doesn't include the
+motivation, ancillary stories and materials nor how the lesson was
+developed or delivered. I knew how it would play out because I was
+teaching it and for me these notes were more than sufficient. 
+
+All this is not to say that I don't spend a lot of time planning my
+lessons. I do. I just don't create detailed scripts. I know what I
+want to cover and how I want to cover it. Then it's just got to the
+class and go.
+
+A big advantage of this is something that Bethany mentioned in her
+piece - the ability to "read the room." This is a big part of
+teaching. If you're following a script, you're not reading the room
+and you're probably not really teaching the class. You might be
+following a script but your students certainly aren't and once they
+veer off program you've got to abandon your script or you're not doing
+right by the class. 
+
+Having a direction but not a script makes it easier to "call and
+audible." That's what led me to teach the [[/post/who-played-spiderman/][question answering system]]
+lesson the other day. It was unplanned but as a class we were having a
+discussion and that's where it led.
+
+As I mentioned, when I started out I couldn't do this. I needed much
+more detailed plans. That said, as a teacher gains more experience
+they can better connect to their classes and do more for their
+students by not sticking to the script, reading the room and adapting.
+
+This brings me to that trend that disturbing trend. I'm talking about
+pushing [[https://www.washingtonpost.com/news/answer-sheet/wp/2013/11/30/teacher-slams-scripted-common-core-lessons-that-must-be-taught-word-for-word/?utm_term=.6afd6d64f1c6][scripted lessons]]. These crop up in charter schools and no
+excuse environments and are typically used as ways of "compensating"
+for teachers that don't really know the subject area or how to teach
+and to standardize teaching. To me it's an attack on the teaching
+profession. A script is great for a play. It's great for a speech and
+for some presentations but not for teaching. 
+
+I understand having something that's more scripted to use when you're
+faced with novice teachers or teachers that are new to a subject area
+but I fear that at times the scripted lessons are the end game.
+
+I was talking to a friend a few years ago. He's doing great work in the
+CS Ed space and among other things, he develops curricula. I mentioned
+to him that I loved his work (still do) but I was concerned that his
+materials were becoming much more scripted. His reply was something
+like "I agree with you in theory but the truth is most teachers aren't
+you." I understood his point as most of the teachers that used his
+materials were novices but I disagreed that they were "not me." I'm
+nothing special. I'm just a reasonably bright guy who works hard at
+his craft. If I can teach script free so can anyone. Maybe not at
+first, but certainly after time and we subvert our profession by
+settling for less. 
+
+As a final note, at this point in my career I actually find it very
+hard to use a script - even for a presentation. Over the last couple
+of years, I've been spending my Falls visiting high schools to talk
+about Hunter's [[http://info.huntercs.org][Honors CS]] program. As much as I tried, I couldn't
+script a presentation. No matter what I did, when I got in front of
+the students I just ended up doing my thing and talking to them. At
+the end of the day I ended up working things backwards. Over my first
+few school visits, I developed a set of key points that I kept coming
+back to and finally ended up with a list of bullet points that I can
+pretty much follow when I do the "navigating from high school to
+college in tech" talk. I guess I'm now working in reverse. Starting
+free style and working back to a script.
+
+
