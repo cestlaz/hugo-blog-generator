@@ -1,0 +1,48 @@
+---
+title: Catskills Blanket 2018
+date: 2018-10-28T17:00:55-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+Two weekends ago I took a group of my first year students up to
+[[http://catskillsconf.com][Catskills Conf]], an annual event that I describe as "light tech
+conference with a focus on diversity and inclusion meets summer camp."
+I've [[https://cestlaz.github.io/posts/catskills-2017/][written about]] the event before if anyone's interested in more
+details. As in past years, Devorah ran her [[https://cestlaz.github.io/posts/knitting-tech-conference/][knitting for good]]
+project. In each of the first two years of the project, attendees of
+Catskills Conf learned how to know and collectively knit, crocheted
+and assembled a blanket for Project Linux which provides hand made
+blankets to children in crisis.
+
+This year we made two:
+
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Ta Da! Presenting the blankets created by the participants of <a href="https://twitter.com/catskillsconf?ref_src=twsrc%5Etfw">@catskillsconf</a>  2018 for <a href="https://twitter.com/ProjectLinus?ref_src=twsrc%5Etfw">@ProjectLinus</a>  Burgundy yarn courtesy of <a href="https://twitter.com/ShaarayTefilaNY?ref_src=twsrc%5Etfw">@ShaarayTefilaNY</a>  Sanctuary Stitchers. <a href="https://t.co/MiEGmGGcqG">pic.twitter.com/MiEGmGGcqG</a></p>&mdash; Devorah Zamansky (@DevorahZamansky) <a href="https://twitter.com/DevorahZamansky/status/1056636588837556225?ref_src=twsrc%5Etfw">October 28, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+While I was off this morning [[https://twitter.com/diane_levitt/status/1056560530956214272][talking]] to high school students at
+Cornell Technion, Devorah was finishing off the blankets and
+delivering them.
+
+In past years, the blanket was usually mostly made by a small handful
+of experienced knitters who attended the conference. This year was
+very different. For the first time, many of my students took part in
+the project.
+
+
+{{< figure height="250px" width="250" src="/img/cconf-knitting-2018.jpg" >}}
+
+{{< figure height="250px" width="250" src="/img/cconf-knitting-2018-2.jpg" >}}
+
+A few already knew how to know but more were learning for the first
+time.
+
+I love that were at a tech conference and at the same time learning to
+be creative with our hands and all the while doing some good for
+others.
+
+
+Already looking forward to next year.
+
