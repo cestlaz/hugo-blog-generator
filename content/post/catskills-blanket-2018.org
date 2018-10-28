@@ -2,8 +2,10 @@
 title: Catskills Blanket 2018
 date: 2018-10-28T17:00:55-04:00
 tags: 
+- misc
 categories: 
-draft: true
+- misc
+draft: false
 --- 
 
 Two weekends ago I took a group of my first year students up to
