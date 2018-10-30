@@ -1,0 +1,38 @@
+---
+title: Using Emacs Episode 52 - Eyebrowse
+date: 2018-10-30T14:35:15-04:00
+tags: 
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+--- 
+
+I was originally going to do a video on how I set things up so that I
+get an email every morning with my org-mode agenda but that's going to
+be something of an ordeal. I have to create a droploet on Digital
+Ocean, set up SyncThing and a mail server and lots of other things.
+
+I'll get to that video at some point but in the meantime I saw [[https://www.reddit.com/r/emacs/comments/9rvboq/what_emacs_packages_have_upped_your_game_recently/][this
+thread]] on the Emacs subreddit.
+
+It asked about packages people used to "up their Emacs game." I've
+done videos on some of the packages mentioned and there were some
+packages that I'd never heard of that I now have to check out. 
+
+One of the packages, [[https://github.com/wasamasa/eyebrowse][eyebrowse]] was one that I've been meaning to play
+with for a while. Eyebrowse allows you to easily keep track of
+window/buffer configurations. It's pretty easy and pretty cool.
+
+Here's a quick video overview:
+
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/s6IXj0bS7L8" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+
+
