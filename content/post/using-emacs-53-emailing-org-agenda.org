@@ -1,0 +1,85 @@
+---
+title: Using Emacs 53 Emailing Org Agenda
+date: 2018-11-03T08:55:23-04:00
+tags: 
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+--- 
+
+I use both org-mode and Google Calendar for scheduling. I like Google
+Calendar because:
+- It's pretty universal so I can issue and accept calendar invites.
+- It works well with my phone and other mobile devices.
+- The rest of my family doesn't live in Emacs :-(.
+
+I prefer using org-mode beacuse:
+- Emacs
+- I prefer, for the most part, to control my data.
+
+I partially sync the two platforms. I've already talked about [[https://cestlaz.github.io/posts/using-emacs-26-gcal/][syncing
+Google Calendar and org-mode]]. Right now, I'm just pulling from Google
+rather than also pushing up from org-mode because I'm still getting
+double entry issues. This means that I have my entire schedule in
+Emacs but only part of it in my Google calendar.
+
+To help resolve the problem, I do a few things. First, I sync my
+orgfiles on all my computers. I used to do this with Dropbox but am
+now moving over to [[https://syncthing.net/][Syncthing]]. I also like to set up a [[http://digitalocean.com][Digital Ocean]]
+droplet so that I have a single machine that's always on.
+
+I've set things up to have that droplet send me an email with my
+agenda. It turns out that org has commands to do things with Emacs
+from the command line:
+- org-batch-agenda
+- org-batch-store-agenda-views
+- org-batch-agenda-csv 
+
+They can be run from the command line to output a formatted agenda as
+a string:
+
+#+BEGIN_SRC sh :export both
+emacs --batch -l ~/.emacs.d/init.el  -eval '(org-batch-agenda "a" org-agenda-span 14)' 
+#+END_SRC
+
+or as csv:
+#+BEGIN_SRC sh :export both
+emacs --batch -l ~/.emacs.d/init.el  -eval '(org-batch-agenda-csv "a" org-agenda-span 14)' 
+#+END_SRC
+
+
+#+RESULTS:
+| gcal    | Stuy recruiting              |  2018-10-29 | 15:40-16:40 |
+| gcal    | RBS Workshop 3               |  2018-10-29 | 17:30-21:00 |
+| gcal    | FDR High School              |  2018-10-30 |  7:45- 8:45 |
+| soe-cal | ACERT -  LUNCH  SEMINAR      |  2018-10-30 | 12:00-14:00 |
+| gcal    | Maxim Vengerov Carnegie Hall |  2018-10-30 | 20:00-21:00 |
+
+Note that you have to specify the location of the startup file
+(~/emacs.d/init.e;) since when you run emacs in batch mode it won't
+load your normal config by default
+
+In the video you'll see how I use my DigitalOcean dropplet, set up
+with the Postfix mail server and Syncthing to send me an email with my
+agenda every morning.
+
+The command I actually use to send the email is:
+
+#+BEGIN_SRC sh
+/usr/bin/emacs --batch -l ~/.emacs  -eval '(org-batch-agenda "a" org-agenda-span 14)' 2>/dev/null | mail -s "Mike's Agenda for $(date +'\%A \%D')" zamansky@gmail.com
+#+END_SRC
+
+which I put in a crontab entry to get it to run every day.
+
+If people want, I can make a runthrough of setting up the actual
+dropplet and SyncThing.
+
+Enjoy!
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wus8R1TWYZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
