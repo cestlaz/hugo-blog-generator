@@ -117,3 +117,6 @@ disable_comments = true
 ** [[http://cestlaz-nikola.github.io/posts/using-emacs-50-presentations][Video 50 - presentations]]
 
 ** [[/post/using-emacs-51-dtd-org][Video 51 - Day to day with org-mode]]
+** [[/post/using-emacs-52-eyebrowse][Video 52 - eyebrowse]]
+** [[/post/using-emacs-53-emailing-org-agenda][Video 53 - Emailing org-agenda]]
+
