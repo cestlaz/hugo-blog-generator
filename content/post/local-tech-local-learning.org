@@ -1,0 +1,79 @@
+---
+title: Local Tech and Local Learning
+date: 2018-11-04T11:08:22-04:00
+tags: 
+categories: 
+draft: false
+--- 
+
+A couple of weeks ago I took twenty four of my first year students up
+to [[http://catskillsconf.com][Catskills Conf]]. As usual it was a great weekend. I particularly
+enjoyed this years talks.
+
+I found one talk particularly engaging. [[https://twitter.com/jordankoschei][Jordan Koschei]] gave at talk
+titled [[https://jordankoschei.com/2018/10/20/digital-terroir/][Digital Terroir]]. Terroir refers to the natural envorinment in
+which a wine is produced - the ground, the climate, everything. It's
+why wine (and foods) produced in one location taste differently than
+the same things mamde elsewhere. I first heard the term used with
+respect to wine but it's also true for coffee, chocolate, tomatoes,
+and I'd say even the New York bagel.
+
+Jordan talked about how terroir can be found in local crafts, music,
+art, and literature and wondered if his products, as a software
+developer exhibited the effects of terroir. Do web sites created in
+the hudson valley have their own flavor different to those made say,
+in Seattle, NYC, or California? It's an interesting
+question. Unfortunately, Jordan found the answer to be no. 
+
+His post is still very much  worth reading as it's really concerned
+with uniqueness of community in a flattening world.
+
+I wonder if Jordan would have gotten different results if he excluded
+the most popular frameworks, Bootstrap, Zurb etc from his survey. 
+
+Regardless, it got me thinking. While the products might not show
+regional differences, does the process? 
+
+Do programmers, or teachers for that matter develop styles based on
+where they're from and how they were trained and taught? It's not so
+farfetched an idea - it's clearly apparent in sports. I fenced and
+coached fencing for many years. It was at times apparent that certain
+students were from certain coaches or "schools" of training. You could
+tell from how they fenced and their philosophy of how to compete.
+
+I'm guessing that early training does contribute to a developers style
+at least to a point but that's topic based. People who start off in
+Object Oriented toolsets tend to solve problems one way while people
+who start off with functional programming approach problems
+differently. It's like a conversation I had with a friend of mine who
+was on the American International Mathematical Olympiad team in the
+lat 90's. He told me that one of the things he found interesting was
+that the American competitors typically looked at problems first and
+foremost as algebra problems while the Eastern European competitors
+were just as or more likely to approach them as geometry problems. 
+
+I'm wondering if it can be more teacher or local culture based. I've
+heard from more than one former student that they follow a [[https://cestlaz.github.io/post/compile-each-concept/][development
+loop]] or cadence that they got from me and that it's unique in their
+current workplace. I've heard similar things about other approaches to
+problems that I've tried to model.
+
+Going beyond me, what about the team of CS teachers at Stuy? That
+school has it's own culture (as do all schools) and I think I've had
+some influence on the other teachers there. Is there a StuyCS "school
+of CS teaching" that is similar but different to other "schools of CS
+teaching?"
+
+What I find particularly interesting is that we might be able to get
+some answers, at least on the teacher side of the equation in the
+coming years. We're hoping to roll out our teacher certification
+programs at Hunter very soon and I'm going to be relying on my Stuy
+teachers to work with me to teach our first few cohorts of teacher
+candidates. 
+
+Will those teacher candidates show that there is indeed a unique
+character to our way of developing CS teachers and later to their ways
+of teaching their students? Time will tell. Maybe we'll find out if
+indeed teaching and programming has some roots in terroir.
+
+
