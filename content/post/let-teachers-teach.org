@@ -5,7 +5,7 @@ tags:
 - pedagogy
 categories: 
 - pedagogy
-draft: true
+draft: false
 --- 
 
 [[https://twitter.com/guzdial][Mark Guzdial]]'s post the other day about [[https://cacm.acm.org/blogs/blog-cacm/232557-direct-instruction-is-better-than-discovery-but-what-should-we-be-directly-instructing/fulltext][direct isntruction]] struck a chord with
