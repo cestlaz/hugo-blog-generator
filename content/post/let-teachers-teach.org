@@ -1,0 +1,101 @@
+---
+title: Let Teachers Teach
+date: 2018-11-09T08:57:36-04:00
+tags: 
+- pedagogy
+categories: 
+- pedagogy
+draft: true
+--- 
+
+[[https://twitter.com/guzdial][Mark Guzdial]]'s post the other day about [[https://cacm.acm.org/blogs/blog-cacm/232557-direct-instruction-is-better-than-discovery-but-what-should-we-be-directly-instructing/fulltext][direct isntruction]] struck a chord with
+me. Right up front, Mark said:
+
+#+BEGIN_QUOTE
+The research evidence is growing that students learn better through direct instruction rather than through a discovery-based method, where we expect students to figure things out for themselves.
+#+END_QUOTE
+
+Quite a surprise to the teachers who have been beaten over the head
+with "everything must be discovery" in recent years. 
+At the end of the post, Mark writes:
+
+#+BEGIN_QUOTE
+I’m a follower of the research Felienne is citing in her blog post, and agree that direct instruction is better than discovery learning for introductory courses
+#+END_QUOTE
+
+I found myself very much agreeing with Mark. I'm not surprised. It's
+true that Mark and I have traded blog comments with me saying that
+a teacher dominant classroom can be very effective and Mark saying
+lecturing is bad but after a while I realized that we were saying the
+same thing. To me, a teacher dominant high school class means teacher
+directed active learning experience and not a droning college lecture. 
+
+In any event, back to direct instruction vs discovery. It seems
+like the pendulum is swinging again. A few years ago it was all about
+discovery and now direct instruction is ok. There are two problems
+here. The first is that in a few years it will be something
+else. Before the discovery learning fad we had other fads. When I
+started teaching it was cooperative learning. I also went through the
+portfolio movement. There were other fads along the way including yet
+another "new math." At some point we got back to traditional direct
+instruction, then discovery and that brings us back up to today.
+
+The second problem is a big one that's often ignored. Regardless of
+what the research says or doesn't say and what teachers know or don't
+know the powers that be have time and time again decided upon the one
+true way to teach and tried to force it upon teachers.
+
+It doesn't work that way.
+
+The missing piece of the puzzle is the fact that teachers bring
+different things to the table and that's a fact that's often
+ignored. When teachers are observed, at least in NY, supervisors want
+to see what they want to see. After Danielson was implemented in NYC I
+was talking to a friend who almost sheepishly told me that she was
+getting great evaluations because her teaching style aligned perfectly
+with Danielson but she knew that when something else came into vogue
+all of a sudden she'd no longer be "highly effective."
+
+When I started, cooperative learning was all the rage but it didn't
+work for me. Since it didn't work for me, it didn't work for my
+students. This didn't mean that I couldn't cherry pick aspects of
+cooperative learning and use them to good effect nor did it mean that
+I couldn't run a cooperative learning experience effectively from time
+to time  but it meant that I couldn't whole hog teach the way I was
+"supposed" to teach. In another case, I knew a teacher who was a very
+strong lecturer and I mean this in the traditional one sided lecture
+style. He was much weaker when using active learning techniques and in
+no way could he give up control to a cooperative learning
+experience. That was who he was. He was most effective as a lecturer
+for better or worse. With the right group of kids it worked pretty
+well. Certainly better than if he was forced to teach in a way that
+was contrary to who he was. I've also outright asked some great math teacher
+friends of mine about "the research" on how to teach and the responses
+I've gotten back were generally either "I don't read the research" or
+"it doesn't work for me so I do what I do."
+
+All this isn't to say that research isn't important and that a teacher
+shouldn't master a variety of techniques and tools. A good preservice
+program will leave a teacher with a cabinet full of tools to draw from
+and the expertise to know themselves, their students, and what tools
+to put in the toolbelt for an any given class. Teachers should
+likewise be trained to maximize their inherent tendencies and talents
+and blend in teaching techniques as appropriate. Good professional development
+should bring new ideas and new techniques to teachers and should
+consider who they can be added in to a teacher's practice rather than
+to replace it.
+
+Finally, teachers should be allowed to teach. It's horrible that
+there's a movement to more and more scripted lessons and to tell
+teachers how to teach. It was bad when I started and it's only gotten
+worse.
+
+Fortunately, some supervisors do indeed get it. Back when I was a
+young teacher I was talking to a supervisor about this and he told me
+that he observed a class he started with one basic question: "is
+learning going on?" Everything flowed from there.
+
+
+
+
+
