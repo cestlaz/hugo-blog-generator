@@ -1,0 +1,94 @@
+---
+title: An experiment with code review
+date: 2018-11-15T17:09:58-04:00
+tags: 
+- pedgogy
+- software engineering
+categories: 
+- CS
+draft: false
+--- 
+
+Sometimes professional practices don't work well in the classroom and
+sometimes they do. One professional practice that does work well is
+code review - reading and reflecting on other peoples code.
+
+I've had my students do code reviews in the past but this time I did
+things differently. Here's what I did and here's how it went
+
+Two weeks ago my students completed a lab. The lab involved reading
+in a poorly indented C++ program and spit out a properly indented
+one. This was the platform for the reviews.
+
+First we paired everyone off. They forked each others labs and then
+did a code review on each others assignment. Each student would read
+their partner's code, decide what to focus on - the whole thing, a
+single function or something in between, and write up a code
+review. They couldn't talk during this process. 
+
+I was intentionally a little vague in the details of the assignment.
+
+Afterwards, each student got a new partner and we did the review again
+but this time one student would review the other's code and they would
+talk through the process while they took notes. 
+
+Next, we changed pairs a third time and this time the student that did
+the talking review last time got their code reviewed in the same way.
+
+Finally, we repeated the whole thing again.
+
+This left each student with four code reviews. Two done in silence and
+two that were interactive.
+
+This took the entire hour fifteen of class so we didn't get to discuss
+the review until the following week.
+
+The first thing I asked when we debriefed was which review was more
+valuable? The written or the interactive one. They universally liked the
+latter. This led to a spin-off discussion on pair programming. I love
+pair programming as a pedagogical tool but students don't always buy
+all in. Some don't communicate as much as the should and don't get as
+much value out of the process as they could. On the other hand, they
+all seemed to see the value in the interactive code review but if you
+think about it, pair programming is really a real time interactive
+code review. I'm hoping this process helps with pair programming buy
+in. I think it will.
+
+Next we talked about takeaways from all their reviews. There were good
+comments on, well, commenting, also on function length. This led to
+talk about self commenting code, good variable and function names,
+style guides, function header comments and all sorts
+of good coding stuff.
+
+All this was great but I think more than the recap, the reviews
+themselves might have had the greatest impact.
+
+One student commented that he found the code he reviewed much easier
+to read and understand that his own code because it did indeed use
+better function and variable names and was better laid out and
+commented. 
+
+Another student noted that for a couple of programs he reviewed he had
+a hard time understanding what the programmer was doing. During the
+interactive review it was apparent that the author also no longer
+understood their own code. I think that, at least for these students,
+it really drove home the idea of writing good code. We talked about
+how the real world would be different. In class they work on a project
+in a concentrated short period of time. In the real world, they'll be
+working on multiple projects or at least multiple segments of projects
+on and off over a long period of time. Remembering your own code is
+super critical.
+
+Overall, I'm very happy with the way these lessons played out. I
+already thought that the actual code reviews had value but doing it
+this way led to more student discovery some great discussions and
+reflections. I think it was a big win.
+
+
+
+
+
+
+
+
+
