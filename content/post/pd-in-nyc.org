@@ -1,0 +1,66 @@
+---
+title: PD in NYC
+date: 2018-11-18T19:43:36-04:00
+tags: 
+- PD
+- CS
+- Education
+categories:
+- PD 
+draft: false
+--- 
+
+I spent this past Saturaday morning up at the Microsoft building in
+Times Square. What was I doing there? [[https://twitter.com/aankit?lang=en][Aankit Patel]] invited me to check
+out the professional development that he and his team organized for
+the teachers involved in the assorted CSforAllNYC programs that his
+office runs. 
+
+Wow.
+
+Lots of great things going on. I was only able to stay for a couple of
+hours but I spent some time in two rooms run by [[https://www.tealsk12.org/][TEALS]], a room of [[https://bjc.berkeley.edu/][BJC]]
+teachers, a group working with [[https://p5js.org][p5.js]], one doing physical computing and
+a bunch more.
+
+While there was good content all around I was really impressed with
+the sense of community in many of the rooms. One of the hardest parts
+of being a computer science teacher in K12 is that you're frequently
+the only CS teacher in your school. That can be an awfully lonely
+existence. It's hard to be the only teacher. No one to bounce lesson
+ideas off of or to debrief with and if you leave your school they're
+left in the lurch. 
+
+It's simply amazing that all these NYC teachers have opportunities
+like this past weekends PD and the communty it provides. 
+
+On the other hand, teachers who are not part of city programs like
+SEP or TEALS don't have these opportunities and at Hunter we're trying
+to do our piece to help solve that problem.
+
+A few months ago I wrote about our plans to roll out once a month
+professional development sessions for CTLE hours specifically aimed at
+teachers who are ready for the next step. Those who are already
+comfortable with the first courses and student experiences. I'm
+describing the sessions as being for high school teachers teaching
+APCS-A, similar or beyond.
+
+Were hosting our first session on December 13th. There will be a
+couple of presentations or activities to get us started but the bulk
+of the time will be about planning the rest of the sessions which will
+run until the end of the school year and the hope is that we will
+cover both content beyond the basics.
+
+So, if you're a public school CS teacher in NYC (and need CTLE hours)
+and you're ready for something more advanced than the usual PD
+opportunities, why don't you join us. Just sign up [[https://goo.gl/forms/FJDyCx7qFec1yPjr1][here]]. Space is
+limited so if we fill, we'll add you to the waitlist and we'll work on
+trying to find a bigger space to acomodate more teachers.
+
+Looking forward to getting this thing started!!!!
+
+
+
+
+
+
