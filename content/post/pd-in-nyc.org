@@ -10,7 +10,7 @@ categories:
 draft: false
 --- 
 
-I spent this past Saturaday morning up at the Microsoft building in
+I spent this past Saturday morning up at the Microsoft building in
 Times Square. What was I doing there? [[https://twitter.com/aankit?lang=en][Aankit Patel]] invited me to check
 out the professional development that he and his team organized for
 the teachers involved in the assorted CSforAllNYC programs that his
