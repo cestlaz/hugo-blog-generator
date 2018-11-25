@@ -6,7 +6,7 @@ tags:
 - reunions
 categories:
 - community
-draft: true
+draft: false
 --- 
 
 Thanksgiving weekend is also reunion weekend. I've been on and off
