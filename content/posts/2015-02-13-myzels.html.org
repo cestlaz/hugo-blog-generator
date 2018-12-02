@@ -38,7 +38,7 @@ In any event, here's a story:
 
 <p>
 Yesterday. JonAlf and I were at the Apple store on Fifth avenue talking about
-<a href="httpss://cstuy.org/">CSTUY</a>. We had four of our talented students presenting their work.
+<a href="http://cstuy.org/">CSTUY</a>. We had four of our talented students presenting their work.
 </p>
 
 <p>
@@ -54,7 +54,6 @@ a few blocks away and I had to explain why:
 <p>
 <img src="https:/img/myzels/candy.jpg" alt="candy.jpg" />]]
 </p>
-
 
 <p>
 A number of years ago, after a morning in Central Park, Batya, Natan,
