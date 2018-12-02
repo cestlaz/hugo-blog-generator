@@ -1,0 +1,91 @@
+---
+title: Email Policy
+date: 2018-12-01T19:36:37-04:00
+tags: 
+- education
+- pedagoy
+categories:
+- education 
+draft: false
+--- 
+
+
+I saw this tweet the day along with the ensuing thread:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Seriously, who emails a professor with words like &quot;u&quot; and &quot;plz hlp&quot;? Am I allowed to put language in my syllabus that penalizes students for obnoxious, intentional misspellings? Maybe: -1% to your course grade multiplied by the edit distance of the word with its correction?</p>&mdash; Austin Cory Bart (@AustinCorgiBart) <a href="https://twitter.com/AustinCorgiBart/status/1068386945854779392?ref_src=twsrc%5Etfw">November 30, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js"
+charset="utf-8"></script>
+
+I wanted to reply but as usual, I decided to reply in a blog post so
+that it doesn't get lost in the Twitterverse. This way I can go back
+and read this post in five years and say "what was I thinking!!!!"
+
+I've never gotten an email like the one Austin described. The closest
+was back in the early days of email when kids had email addresses like
+ *koolwarezduud@hotmailcom*. That didn't last long. Just ask what
+they would think if they were a college admissions person or an
+interviewer for a job and recieved an email from *koolwarezdude*. 
+
+That said, even though I haven't gotten emails with "u" or "plz hlp" I
+do have to train my students to use email correctly so there might be
+some parallels between my case and experiences and Austin's.
+
+For years I've used a mailing list for class communication. I've tried
+alternatives like Slack and Piazza but always come back to an old
+school mailing list. For years I used [[http://www.list.org/][Mailman]] but most recently I've
+been using Google Groups. I always give my students the rules at the
+beginning of the class:
+
+ - The list can be used for anything related to class or CS.
+ - Things that are interesting to the community but not class or CS
+   related are also OK. Things like if a student is on a team that has
+   a big competition coming up or that there are free or cheap tickets
+   to a show or museum are also ok.
+ - The usual rules for civility and respect.
+
+It's all pretty low key, informal and open.
+
+The big thing I tell them is that the *only things* they should email
+me directly about are things that are specific to the sender and
+me. Things like grade related questions, a request for a
+recommendation letter etc.. If it's a question about the class
+material, the tools, etc. I expect the email to go to the list not
+me. I give three reasons for this
+
+ 1. Other class members could benefit from the question and answers.
+ 2. If you email me only I can answer the question and only when I get
+      to it. If you email the list, there are many more people who can
+      potentially answer.
+ 3. If it's a tools question, particularly Mac related It's unlikely
+    I'll know the answer but almost certainly someone in the class
+    will,
+
+I tell my classes that if they email me directly with something that
+should go to the mailing list, I'll ignore the email.
+
+Predictably, at first students email me directly. The first couple of
+times, I'll answer the question by emailing the full list. I'll say
+something like "someone emailed me ______" give the answer  and also
+remind them that emails like that should go to the list.
+
+This usually clears things up for most of the students but some will
+continue to email me. My next step is to reply to their email telling
+them to repost to the group. If they do, I'll answer (usually giving a
+bit of time to hope that a classmate chimes in first). If they don't
+then the question won't get a response.
+
+Any emails that come directly to me after phase 2 go into the trash.
+
+I'll also sometimes redirect questions I get after class to the
+mailing list. Particularly if I think that the answer can benefit more
+than the asking student or if the answer should remain accessible for a
+longer period of time. This came up just the other day when a student
+had an issue with their editor saving source files in RTF. I didn't
+have the answer and I also thought that the answer to this would be a
+good thing for more students to see and also for the answer to be
+searchable should it come up later. The student posted to the list and
+another one of the students answered. 
+
+All in all I think this works pretty well.
+
+Now if only I could get more actual student engagement online...
