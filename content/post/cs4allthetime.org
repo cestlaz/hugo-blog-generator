@@ -1,0 +1,147 @@
+---
+title: CS For All The Time
+date: 2018-12-07T08:20:42-04:00
+tags: 
+- cseducation
+- csforall
+- cs4all
+categories:
+- cseducation 
+draft: false
+--- 
+
+A question that frequently comes up with respect to CS for All is what
+does it mean? 
+
+To me it means giving all students some fundamental exposure to
+computer science so that they can:
+
+ 1. Make use of those thinking skills, problem solving approaches, and
+    practical tools regardless of their future paths. 
+ 2. Provide a path for the subset of "all" that desire to further pursue
+    computer science.
+
+But even with this, how do you do it?
+
+Does it mean that you require computer science? If so, do we require it every
+year? some years? One time only?
+
+Does it mean you offer it as an elective? If so, when?
+
+I think about this a fair amount but decided to write something up
+when I saw this tweet:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">STEM related career interests are largely developed before high school (Sadler, Sonnert, Hazari, &amp; Tai, 2012) <a href="https://twitter.com/hashtag/csforall?src=hash&amp;ref_src=twsrc%5Etfw">#csforall</a> <a href="https://twitter.com/hashtag/csedweek?src=hash&amp;ref_src=twsrc%5Etfw">#csedweek</a> <a href="https://t.co/TiAUvpP3bQ">https://t.co/TiAUvpP3bQ</a></p>&mdash; Lana Peterson (@tyLanasaurusrex) <a href="https://twitter.com/tyLanasaurusrex/status/1070475730562084864?ref_src=twsrc%5Etfw">December 6, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+I responded that I've seen many kids get their first exposure in high
+school and from that go on to careers in tech so it's clear to me that
+high school isn't too late. I was reminded that I was talking about
+kids who went through my required HS CS class so the kids had no
+choice but to be exposed to CS but the people advocating starting at
+an elementary level are talking about a compulsory experience so to
+compare a required elementary experience against an elective high
+school one is really apples to oranges.
+
+Even thought it's an unfair comparison there are a lot of things it
+can lead one to consider.
+
+Should we teach CS in every grade? Probably not. How about every band?
+Maybe. For those of you not living in the K12 world "by band" usually
+refers to a set of grades - kindergarten to 2, 3 through 5, 6-8, and
+then high school. Where should it be required and where an elective?
+
+Teaching a required CS class in every grade or band is going to be a
+huge undertaking. I'm also not sure it's required. To get the best
+bang for your buck you want to expose the kids to CS in a way and at a
+time when they might pursue it further. If you're having only one
+required experience, I don't think the elementary grades are the
+place.
+
+There's that point in time, I think around first through third grade
+where dinosaurs are all the rage. Maybe more so in NYC where we have
+access to the [[https://www.amnh.org/][American Museum of Natural History]] but still. Lots of
+young kids want to be paleontologists but it doesn't hold. Okay. maybe
+I'm being a little silly here but I think the basic point is
+accurate. Kids are exposed to many things in the early grades that
+just fade away. 
+
+I'm not saying that we shouldn't do CS or CS related things in grade
+school. Things like the activity [[https://twitter.com/fredwilson][Fred Wilson]] described in his post on
+this year's [[https://avc.com/2018/12/la-hora-del-codigo/][Hour of Code]] or the problem solving and logic games good
+teachers do if given the time and resources. Things that have
+always been done by some teachers in some schools but are now being
+relabled CS or Computational Thinking. These are great practices and
+should be made available to all students as part of their elementary
+education but I doubt that they'll lead to many kids following CS as a
+career path. I'm not an elementary school expert but to me, even
+though I see great value in the early logic / problem solving stuff, I
+don't see hyping CS early as making a difference unless there's some
+follow up before the interest fades.
+
+That brings us to the middle school bands. I've dabbled a little here
+but it's also not my wheelhouse. In my experience, kids in lower
+middle school can dabble in DnD tools and start to develop some 
+coding skills and explore some of the CS concepts that they'll see in
+late HS or college and those in upper middle school can play with the
+text based languages to do the same. What I also noticed is that what
+can be accomplished in a month with those kids in middle school can be
+done in a week or two when the kids are a year or two older and with
+greater understanding and retention. 
+
+As a side note, before people get up in arms with "I teach middle
+school kids APCS-A and they all master it" let me say that I'm
+describing my experience across a range of middle school kids. There
+will always be few outliers who can do more when younger. That said
+I'm betting that most people who say that any middle school kid can
+indeed master APCS-A hasn't done so in an inner city poor public
+school. Have you done it while teaching a class of 34?  With a class
+of low income students with all the disadvantages and challenges
+inherent to that population? What's more did you then have to teach
+them a data structures course a year or two later to see if they
+really mastered the original material.
+
+This brings us to high school. As with my original tweet, in my
+experience if you give kids a good first CS experience in high school
+you can indeed give them everything needed for CS for All and it's
+close enough to college so that they might very well continue on the
+CS career path.
+
+So where does this leave us? We certainly should embed computational
+thinking practices (whatever that actaully means) in the elementary
+school, particularly if we can do it in a way that also supports other
+academic areas and while it's nice to have a CS middle school
+experience and if we can afford to offer one that's wonderful. On the
+other hand, I don't think it's as important as elementary exposure and
+high school exposure so if we have to cut a corner, that's the
+place. To me, and of course I'm biased, the critical time for a
+requirement is high school. Sure, if it's an elective kids won't take
+it but that's true of a lot of subjects. I don't know what the
+research says but people do indeed change directions. How many of us
+are doing what we thought we'd be doing in grade school or middle
+school. Heck, even high school. I have a friend that did computer work
+in his twenties and thirties, then went to law school and practiced
+law for a bunch of years and then in his forties started a production
+company in LA. 
+
+I'm a big believer in CS for All but to me it doesn't mean it has to
+be in every grade or every band. If I could only do it in one place it
+would be required in the high school. If in two I'd add the elementary
+school piece and then finally the middle school.
+
+As a final point I'd like to add that school is a zero sum game. There
+are only so many minutes in the day and as we add CS we remove
+something else. I believe we can add CS or, more specifically CT to
+the elemntary schools without cutting anything and I know there's room
+in high schools in NY. I'm not sure about middle schools. In any
+event, I'd hate to see music and art programs - already decimated by
+budget cuts and misguided policies like the small schools movement
+take a further hit so as to get CS everywhere.
+
+Just some food for thought.
+
+
+
+
+
+
