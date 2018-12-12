@@ -2,8 +2,10 @@
 title: Sloan Awards 2018
 date: 2018-12-12T12:52:44-04:00
 tags: 
-categories: 
-draft: true
+- education
+categories:
+- education 
+draft: false
 --- 
 
 
@@ -16,13 +18,47 @@ Fund for the City of New York awarded seven public school teachers
 with an ward for "Excellence in the Teaching of Science and
 Mathematics."
 
-I was their to see my friend Dave Deusch, a long time public school
+I was their to see my friend Dave Deutsch, a long time public school
 physics teacher receive the honor. Here's a brief clip about Dave:
 
 <iframe src="https://player.vimeo.com/video/304871223" width="640"
 height="360" frameborder="0" allowfullscreen></iframe>
 
 You can read Dave's blurb as well as blurbs and videos for all of the
-recipients [[https://www.fcny.org/fcny/core/sae/2018_winners/#david-deutsch][here]]. 
+recipients [[https://www.fcny.org/fcny/core/sae/2018_winners/#david-deutsch][here]].
+
+I've never taught with Dave but I've known him for a couple of decades
+and he's a teacher's teacher. He and Devorah both started out teaching
+together at the Manhattan Center for Science and Math. Dave's still
+there. 
+
+Dave's also not the guy that normally gets awards. It's not because he
+doesn't deserve them - he's probably the best physics / science
+teacher I know. It's that he never toots his own horn, he's not the
+over the top super charismatic popular teacher who seems great in the
+moment but in the long run might not be, and he never looks for the
+spotlight. He just goes about his business of connecting, inspiring,
+and truly caring about his kids. His value as an educator can be seen
+in the short term in his classes but in the long run through his
+former students. 
+
+He's the best.
+
+Over the years I tried to pull Dave over to Stuy or involve him in
+other projects but he's always stayed true to Manhattan Center and
+it's population even with the school's toxic administration (it's
+worth noting that Dave's video is the only one that didn't include the
+school's principal lauding the recipient and was the only principal
+not present at the festivities - says something about that principal's
+character). 
+
+In any event, Dave's a true champion for the public school students of
+NYC and a true hero. There are a small handful of teachers that I
+really look up to and Dave Deutsch is one of them.
+
+Here's to Dave and other teachers who never get the recognition they
+deserve because they're too busy doing the good work rather than self
+promoting.
+
 
 
