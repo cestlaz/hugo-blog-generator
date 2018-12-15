@@ -7,7 +7,7 @@ tags:
 - cs
 categories: 
 - csed
-draft: true
+draft: false
 --- 
 
 A while ago I wrote about [[https://cestlaz.github.io/post/pd-in-nyc/][our plans]] at Hunter to run professional
