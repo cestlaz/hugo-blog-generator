@@ -1,0 +1,91 @@
+---
+title: Professional Development - APCS-A, similar and beyond
+date: 2018-12-15T08:56:06-04:00
+tags: 
+- csed
+- pedagogy
+- cs
+categories: 
+- csed
+draft: true
+--- 
+
+A while ago I wrote about [[https://cestlaz.github.io/post/pd-in-nyc/][our plans]] at Hunter to run professional
+development for CS teachers. Specifically, running once a month
+sessions for teachers who teach APCS-A, similar and beyond.
+
+The idea started as a joke but morphed into a legit idea.
+
+I was talking to some friends about CTLE hours and how ridiculous the
+system is. NY State teachers need 100 hours of CTLE credit (PD hours)
+every so many years. It's something of a scam for a few
+reasons. First, two of the biggest providers are the NYC DOE and the
+UFT, the teacher's union. I've been told they both charge money for
+many CTLE credit bearing activities. That certainly doesn't seem
+kosher -- your boss and your union set up a system to charge you to keep your
+job. 
+
+Well, it turns out that Hunter is certified to issue CTLE credits so
+we joked that we should get dinner and hang out once a month and call
+it professional development. We were only half joking - whenever you
+get a bunch of teachers in a room they talk shop and that is actually
+the best PD there is. Upon talking among ourselves and also to other
+teachers we realized there was a legitimate need for PD for teachers
+who were beyond the basics and so we turned this silly idea into the
+real deal.
+
+Last Thursday we had our first session. We had about 25 attendees for
+a three hour session.
+
+I can't tell you if it was any good - you'll have to ask the
+participants, I can tell you what we did and what we plan moving
+forward.
+
+We started with a content piece. I ran through [[https://cestlaz.github.io/posts/2013-03-23-who_won_the_election-quadratic_to_linear_time/][this lesson]] (or [[https://cestlaz.github.io/posts/when-they-change-the-script/][this
+one]]) where the students find the mode of a list, realize it's a slow
+(n^2) algorithm and then refine it to a linear solution. The key idea
+is to give the students an intuitive feeling for run time issues and
+also to introduce them to [[https://cestlaz.github.io/posts/2014-11-17-hidden-complexity.html/][hidden complexity]].
+
+After this we had dinner, provided by our friends at Google. Over
+dinner the teachers talked shop. In addition to getting to know each
+other, their programs, and their classes we also asked them to
+consider these three items:
+
+ - What are things that cause you difficulty that you'd like us to
+   cover?
+ - What are things you wish you knew about that you'd like us to
+   cover?
+ - What are things you're comfortable with that you'd be willing to
+   share with the group?
+
+After dinner we circled up and JonAlf presented the way he set up
+student note taking in his class.
+
+{{< figure height="500px" width="500" src="/img/pd-apcs-a.jpg" >}}
+
+Finally, we discussed next steps - specifically what we came up with
+for those three bullet points above.
+
+I like the idea of having at least one short content piece, one short
+pedagogy piece and a deeper dive at each meeting. For the first one,
+JonAlf and I had to guess as to what might be useful and at the
+appropriate level. We advertised for teachers who did APCS-A, similar,
+or beyond but I'm sure we had teachers for whom the mode lesson was a
+bit too advanced to do without scaffolding and also some for whom it
+was way to simple. As we continue to meet, we'll nail down the right
+level and the right activities.
+
+The real hope is that many of the participants will become regulars
+and together we'll turn this into both an amazing once a month
+activity and also a community of teachers.
+
+Right now, I'm looking for companies who want to feed us and possibly
+provide space so if you know of any, hook me up. We're also collecting
+feedback and ideas from the attendees. 
+
+We're targetting February for our next session followed by March,
+April, May and possibly June.
+
+In the meantime, stay tuned.
+
