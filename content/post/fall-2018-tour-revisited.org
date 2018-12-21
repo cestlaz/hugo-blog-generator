@@ -1,0 +1,83 @@
+---
+title: Visiting schools and talking tech
+date: 2018-12-21T15:49:44-04:00
+tags: 
+- csed
+- college
+- HS
+categories:
+- csed 
+draft: false
+--- 
+
+Back in September I talked about embarking on my [[https://cestlaz.github.io/post/fall-2018-hs-tour/][Fall 2018 HS CS Tour]].
+Since then I've visited about a dozen schools. I'd like to thank my
+friends who helped connect me to schools - particularly [[https://twitter.com/aankit][Aankit Patel]]
+and [[https://twitter.com/diane_levitt][Diane Levitt]].
+
+Even though the original motivation for the visits was to get the word
+out about Hunter CS and the awesome things we're doing in the Hunter
+CS Honors program I always tried to make my talks about something that
+would be relevant for the entire audience and not just the few that
+were great fits for my program. I think I've done a pretty good job at
+that. All this said, doing these visits is incredibly draining. I'm
+usually up at the crack of dawn and end up taking the subway or
+sometimes subway and bus way out into the five boroughs. Actually four
+this year since I wasn't able to get a date to visit any Staten Island
+schools. It takes a lot of time and effort and while I love
+talking to students and there some ancillary things I enjoy about
+getting out into the neighborhoods of the city I'm extremely happy
+that I can now rest for a few weeks. 
+
+Reflecting on all of this I'm realizing how important these visits are
+and not because they're recruiting trips.
+
+I spoke about some of the specifics I talk about in an [[https://cestlaz.github.io/post/fall-2018-hs-tour/][earlier post]]
+but arguably more important is that for many of them it's the first
+time for them to hear about the possibilities.
+
+While many students are excited about what their doing in their first
+CS classes it turns out that few have any idea where it will
+lead. They may have heard that computer science can lead to a high
+paying job. They might know they can get a job at Google but they
+don't really know what that means.
+
+I saw this at Hunter when I started three years ago and now a lot of
+hard work later students are much more in tune with the New York Tech
+community and all that it means.
+
+Students don't realize that there are many programming careers beyond
+Google and their are many CS careers beyond programming. 
+
+They don't realize they can combine computer science with almost any
+other field or interest.
+
+They don't know that the same algorithmic approach behind Amazon,
+Netflix, and Spotify recommendations can be used by companies selling
+cloths, cosmetics, or anything else.
+
+And that's just the tip of the iceberg. 
+
+Now I'm not saying that teachers aren't telling their students about
+the possibilities but rather that sometimes it has to come from an
+outsider. When I started at Stuy, before I had a reputation (good or
+bad) I'd tell students things and they wouldn't buy it. Later I'd have
+a friend from the "real world" come in. Frequently they'd touch on
+points I addressed in class and all of a sudden I was worth listening
+to. Sometimes you need an outside voice to empower and authenticate the teacher.
+
+I'm not saying that I'm a super motivational speaker or anything like
+that. I'm not. I'm an ok speaker with content worth listening to. I'm
+just realizing more and more how important this small self imposed
+corner of my job is. Not so much for Hunter but for the kids of NY. 
+
+Jut this past week I've started to work to connect some of my current
+students to [[http://tealsk12.org][TEALS]] as volunteers. If you read this blog you know I'm a
+big fan of TEALS and have wanted to encourage my students to get
+involved for a while. Once we get some of our Hunter CS majors into
+schools around the city to help teach CS perhaps they can help spread
+the message of the possibilities to even more students.
+
+
+
+
