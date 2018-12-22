@@ -36,7 +36,7 @@ I spoke about some of the specifics I talk about in an [[https://cestlaz.github.
 but arguably more important is that for many of them it's the first
 time for them to hear about the possibilities.
 
-While many students are excited about what their doing in their first
+While many students are excited about what they're doing in their first
 CS classes it turns out that few have any idea where it will
 lead. They may have heard that computer science can lead to a high
 paying job. They might know they can get a job at Google but they
@@ -72,7 +72,7 @@ just realizing more and more how important this small self imposed
 corner of my job is. Not so much for Hunter but for the kids of NY. 
 
 Jut this past week I've started to work to connect some of my current
-students to [[http://tealsk12.org][TEALS]] as volunteers. If you read this blog you know I'm a
+students to [[http://tealsk12.org][TEALS]] volunteers. If you read this blog you know I'm a
 big fan of TEALS and have wanted to encourage my students to get
 involved for a while. Once we get some of our Hunter CS majors into
 schools around the city to help teach CS perhaps they can help spread
