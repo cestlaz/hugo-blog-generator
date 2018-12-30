@@ -7,7 +7,7 @@ tags:
 - cs
 categories: 
 - csed
-draft: true
+draft: false
 --- 
 
 Since 2015, [[https://twitter.com/ericwastl][Eric Wastl]] has gifted us each December with [[http://adventofcode.com][Advent of
