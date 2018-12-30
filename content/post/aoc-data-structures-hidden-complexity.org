@@ -1,0 +1,97 @@
+---
+title: Advent of Code, Data Structures, and Hidden Complexity
+date: 2018-12-30T15:17:14-04:00
+tags:
+- adventofcode
+- csed
+- cs
+categories: 
+- csed
+draft: true
+--- 
+
+Since 2015, [[https://twitter.com/ericwastl][Eric Wastl]] has gifted us each December with [[http://adventofcode.com][Advent of
+Code]] - a 25 day programming competition that I very much enjoy. This
+year I haven't been able to get to too many of the problems. I only
+completed the first two days on the day they were released, problem
+three a day late and then I didn't get back to the problems until
+almost 12/25 - the final day of the competition. I've spent a bit of
+time over the break working through the problems. I'm currently
+through 9. I started working through the problems in Clojure - part of
+my yearly attempt to dive into the language but then did a few in
+Python just to speed up my progress.
+
+Yesterday, I did [[https://adventofcode.com/2018/day/9][question 9]] which I found interesting as a teacher -
+so much so that I think I'll assign at some point in the future.
+At the core of the problem you have to maintain a list of items
+inserting and deleting items at assorted locations. I threw together
+this solution:
+
+#+BEGIN_SRC python
+{{< highlight python >}}
+num_players =431 # 9
+last_score = 70950 # 255
+players = [0 for x in range(num_players+1)]
+
+player=3
+board=[0,2,1]
+next_marble = 3
+index=1
+while next_marble < last_score:
+    if next_marble % 23 != 0:
+        #regular insert
+        L = len(board)
+        index=(index+1)%L
+        index=(index+1)%L
+        board.insert(index,next_marble)
+    else:
+        players[player]=players[player]+ next_marble
+        index=(index-7)%len(board)
+        players[player]=players[player]+board[index]
+        del board[index]
+    player=(player+1)%num_players
+    next_marble = next_marble + 1
+print(max(players))
+{{< / highlight >}}
+#+END_SRC
+
+It worked and I got my first star. This unlocked part 2 which changed
+the number of marbles in the game from 70950 to 70950<b>00</b>. This
+brings me to my first observation - hidden complexity. Seeing my input
+I knew my part 2 would be crazy slow. The solution requires you insert
+and delete into a list over and over again and I did it using a Python
+list and a Python list is backed by an array. This means that every
+insert and delete will be linear and I had a whole bunch of them.
+
+It's another great simple example of hidden complexity. Students and
+beginners use Python lists as if they were linked structures with
+direct indexing - the best of all worlds. It's great if you're dealing
+with small data sets but unless you're careful things can get very
+slow very fast. It's important that students learn about this and it
+appears that many don't. 
+
+Even though I knew the program would take forever to run it was my bed
+time so I started it on part two and turned in for the night.
+
+When I woke up I had an answer to part 2, entered it and earned my
+next star. 
+
+Of course I knew that the solution should really be written using a
+doubly linked list. The funny thing is that if you're comfortable with
+creating dynamic data structures like linked lists, writing a solution
+using a doubly linked list and running it on part 2 actually takes a fraction of
+the time of writing the original solution and running it. To make
+sure, I did it. I decided to code it up in Java since I might assign
+something like this to my students in C++. You can check it out [[https://github.com/zamansky/advent2018/tree/master/java][here]]. 
+
+The second take away was that it's actually beneficial for students to
+be able comfortable with pointers and dynamic memory and while
+creating a linked list let alone a tree can be tricky at first, [[https://cestlaz.github.io/posts/it-gets-easier-advent19/][it
+does get easier.]]
+
+With all the debate going on over coding vs computational thinking vs
+CS it's things like this - thinking about things like this that marks
+one of the ways a computer scientist is different from a programmer. 
+
+
+
