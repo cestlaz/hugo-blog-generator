@@ -1,0 +1,55 @@
+---
+title: Happy New Year 2019
+date: 2019-01-01T09:55:01-04:00
+tags: 
+- education
+- misc
+categories:
+- education
+draft: false
+--- 
+
+I've never been much of a New Years person. I get up really early and
+so don't usually stay up late and more to the point, as any teacher
+knows, the year really goes from September through June with that
+really long much needed  weekend that you regular folks call July and
+August tacked on to separate years.
+
+This whole January first thing is really more  of a half time break or
+perhaps an intermission.
+
+Regardless, I did start the calendar year productively - it was
+warm enough for a run and on my way back got my first [[https://www.citibikenyc.com/bikeangels/][Bike Angel]] point
+of the month and year.
+
+Since I see January 1 as more of a mid year point than a start, I'm
+not going to reflect back on what was or project what will be but I do
+have a few projects that I want to make some headway on before classes
+resum in a few weeks.
+
+First and foremost, I'm teaching Data Structures for the first time at
+Hunter. Sure, I've taught it dozens of times but this will be
+different. I haven't done it in C++ since 2003 and teaching it in
+college twice a week Mon/Thu for about 1:15 is not the same as high
+school where we meet every day for 0:43. I've already been boning up
+on my C++. Templates are much more of a pain than I remember them and
+I still much prefer toString to operator overloading. I think once
+I've written some more code and am back up to speed I'll have a lot of
+fun with the class.
+
+The other big project is that I want to make some progress on an
+[[https://cestlaz.github.io/posts/time-to-create-an-ethics-course/][Ethics course]] that I want to have as part of my soon to be approved (I
+hope) pre-service programs. I also want to make it available to
+undergrads. I've been collecting thoughts and ideas for a couple of
+months now and while I still believe that ethics is too important to
+just be contained within a course - it must be woven through all our
+courses, I do think I've got an overall plan that will result in a
+very solid course.
+
+There are a couple of other projects I'm working on that I Can't talk
+about right now but I have no doubt I'll be keeping myself busy.
+
+So to all the teachers out there, Happy Half Time and to everyone
+else, Happy New Year.
+
+
