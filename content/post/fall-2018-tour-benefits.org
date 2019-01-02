@@ -95,11 +95,11 @@ src="http://www.khomarch.com/wp-content/uploads/2017/01/kevin-hom-architect-univ
 src="https://static1.squarespace.com/static/59aec48e9f7456bae98b8609/5ad7b923575d1f7d69412830/5ad7b93d88251b1250984d58/1524087471280/mural-image-bths-2.JPG"
 >}}
 
-{{<figure 
-src=="https://c1.staticflickr.com/3/2646/5827444639_3d75789599_b.jpg"
->}}
 {{<figure
 src="https://www.bthsalumni.org/view.image?Id=812"
 >}}
- 
+{{<figure 
+src=="https://c1.staticflickr.com/3/2646/5827444639_3d75789599_b.jpg"
+>}}
+
 - 
