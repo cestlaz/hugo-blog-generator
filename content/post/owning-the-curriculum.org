@@ -1,0 +1,63 @@
+---
+title: Owning The Curriculum
+date: 2019-01-05T19:41:23-04:00
+tags: 
+- curriculum
+categories: 
+- curriculum
+draft: false
+--- 
+
+I spent a couple of days last week hunkered down working designing a
+CS Ethics course and of course it got me thinking about designing
+courses in general. 
+
+One of the topics I've ranted on is my disdain for canned
+curricula. I've never been a fan. This isn't to say I don't want to
+leverage other people's work. I'll take sample curricula, lessons, and
+all the resources I can get my hands on but I'd never just deliver
+them as is. Even back when I started as a math teacher and I had the
+NYCDOE lesson plan books to use as samples, I'd use those lessons as
+sources to develop my own.
+
+I was reminded why I do this as I was developing my ethics course. I
+want the course to have a significant amount of programming and for
+some of the projects US census data and the NYC data mine look to be
+good sources of data. I was led to these sources from some project
+ideas I found online but those projects provided the data pre
+processed. Had I been using these sources as a canned curriculum
+things would be fine until something changed. Either the resource went
+away or the direction of the class required something different. In
+either event, had I been happy to merely use someone elses canned
+materials I wouldn't be prepared.
+
+It turns out that you've got to do some digging before you can
+effectively use a resource like the US census data. Maybe you can use
+the [[https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml%5D][American Fact Finder]]. With it you can download a refined data set
+as a CSV but you'll still have to figure out how to use the tool and
+which data sets you need. Another approach is to [[https://www.census.gov/programs-surveys/acs/data/data-via-ftp.html][download the data via
+FTP]] but then you have to figure out how the files are arranged. 
+
+All of this is to say that you can't just go to census.gov and
+trivially get what you need and you certainly can't just send students
+there and say "good luck." I spent more hours that I'd care to admit
+last week figuring out the ins and outs of a variety of data sources
+and I've got many more hours ahead. It's taking a lot of time but at
+the end of the day, I'll own the knowledge. 
+
+At the end of the day the first time you offer a course most of your
+pre planning is going to go out the window. You need a framework, a
+direction, and a start but first time through you don't know how or
+where things will really go. If you're using someone else material,
+good luck when things take an unexpected turn. If you own the course,
+you'll be prepared.
+
+
+
+
+
+
+
+
+
+
