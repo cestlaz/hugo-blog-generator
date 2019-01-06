@@ -10,10 +10,10 @@
         <div class="content main__content clearfix">
                 
 
-        {{ $years := slice 2018 2017 2016 2015 2014 2013 2012 2011 2010}}
-{{$Scratch := newScratch}}
+          {{ $years := slice 2019 2018 2017 2016 2015 2014 2013 2012 2011 2010}}
+	  {{$Scratch := newScratch}}
 
-{{ range $y := $years}}
+	  {{ range $y := $years}}
   {{ $Scratch.Set (string  $y) "0" }}
 {{end}}
 

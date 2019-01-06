@@ -13,3 +13,4 @@ Hugo site to generate http://cestlaz.github.io
 - only printing tags with more than 1 in taglist
 - Adde archive page under the mainroad theme 
   - loops through post (new posts) and posts (old posts from nikola)
+- Modifued archive/list.html under theme to add 2019 to archive
