@@ -1,0 +1,75 @@
+---
+title: When does a new course really get developed
+date: 2019-01-07T08:49:17-04:00
+tags: 
+- curriculum
+categories: 
+- curriculum
+draft: false
+--- 
+
+Following up on my last post I thought I'd talk a bit more about
+course development. According to most powers that be it's all done
+ahead of time. Organizations and companies with curricula to sell
+package it all up ahead of time lesson by lesson unit by unit. When
+I create a new course at Hunter, they demand a sample syllabus during
+the approval process with a week by week outline, assignments reading
+and more. When I created CAPE for Google back in 2010 even though the
+programs man advocate knew the real deal he and I spoke many times
+about needing something on paper to satisfy the higher ups. 
+
+To me most of this is nonsense. When I create a new course I have an
+idea and a direction but little else. Of course there's much work to
+be done between idea and implementation but for me  a detailed
+curriculum that early is mostly a waste of time. Why? Because it all
+changes once you get in the classroom.
+
+I'll do the bare minimum to get by the gatkeepers. If they want a week
+to week, I give them a week to week but I won't stress over it. I
+then get to work on what I feel I need prior to running a course. A
+framework and the first few lessons in detail.
+
+Developing the framework means:
+
+ - understanding enough of the content to teach the course. 
+ - deciding on how you will teach or run the course
+ - developing rough outlines for units, possible assignments etc.
+ - finding and understanding resources like possible texts and tools
+   and also things like data sources mentioned in my previous post.
+
+And of course there's more. I'll also work out the first unit in day
+by day detail. 
+
+Another important aspect is that this framework design is where you
+put in your safety nets. What's the backup plan if unit 2 takes too
+long or students just aren't getting unit 3. Another important aspect
+is to prepare too much material. In my experience it usually takes
+longer to teach something than you originally plan but I still think
+it's better to plan too much rather than too little.
+
+Why do I only plan out the first unit in details? Because i know
+things will change once the rubber hits the road. Even if it doesn't
+change, developing specific lessons without regard to your current
+students seems rather odd. It reminds me of how [[http://www.bill-irwin.com/][Bill Irwin]] learned his
+role in [[https://en.wikipedia.org/wiki/Eight_Men_Out][Eight Men Out]]. Irwin's amazing but apparently never played
+baseball. He played Eddie Collins, the White Sox second
+baseman. Having not played himself, his action scenes were
+choreographed like a dance. The director would yell action and he'd do
+his dance. If the ball happened to go where it was supposed to you
+ended up with a bang bang play. If not, cut, retake. It worked for the
+movie but it's not a great idea for a teacher. How can you plan day 5
+of a class when the first four days and all the richness of the live
+classes and time between hasn't occurred. 
+
+Of course this means a lot of work under the gun but no one ever said
+that developing a new course was easy. It's reassuring that I'm not
+the only one who does the real class development in real time:
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Building the course as the semester goes, but the barebones syllabus is here. Thanks to <a href="https://twitter.com/guzdial?ref_src=twsrc%5Etfw">@guzdial</a>, we are using GP as the main language. Reading things like Pattern on the Stone, chapters from Constructionism book by Harel &amp; Papert.  <a href="https://t.co/CNgEQfcO1Z">https://t.co/CNgEQfcO1Z</a>.</p>&mdash; Aman Yadav (@yadavaman) <a href="https://twitter.com/yadavaman/status/1082280379153829888?ref_src=twsrc%5Etfw">January 7, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Finally having survived the first run through it's time to [[http://wiki.c2.com/?PlanToThrowOneAway][throw it
+away]]. Not really but it's time to take lessons learned and work them
+into the class. From there, it's incremental improvements.
+
+So there you have it, a summary of my approach to course creation.
