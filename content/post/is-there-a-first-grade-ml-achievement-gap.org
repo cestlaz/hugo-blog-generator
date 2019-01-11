@@ -1,5 +1,5 @@
 ---
-title: Is There A First Grade Machine Learning Achievement Gap?
+title: Is There a First Grade Machine Learning Achievement Gap?
 date: 2019-01-11T15:24:16-04:00
 tags: 
 - CT
