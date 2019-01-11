@@ -10,6 +10,7 @@ categories:
 - education 
 draft: false
 --- 
+
 Today was the fifth "To Code and Beyond" - a one day conference
 hosted at Cornell Technion and once again Diane Levitt put together
 a great show. The theme was Computational Thinking and the day
