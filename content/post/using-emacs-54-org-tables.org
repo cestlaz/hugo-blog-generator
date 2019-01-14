@@ -1,0 +1,43 @@
+---
+title: Using Emacs 54 Org Tables
+date: 2019-01-14T11:34:13-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: true
+--- 
+
+As you know I use Emacs for all sorts of things. In addition to
+coding, I use it for email, my schedule, note taking, and much much
+more. As part of my job at Hunter, I read and evaluate some of the
+Macaulay Honors College applications. I also have to evaluate all the
+applicants to my CS honors program. I described how I use Org-mode and
+Emacs to help with that [[https://cestlaz-nikola.github.io/posts/using-emacs-44-pdf/][here]]. Processing the Macaulay applications
+though is somewhat different. 
+
+I was given a list of student names and IDs as well as online access
+to their applications. If I wasn't an Emacs user I'd probably dump the
+list into a spreadsheet and go from there. It turns out, Org-mode has
+a really nice table editor with just the spreadsheet functionality
+that I needed. I had the ability to perform basic calculations on the
+data while also keeping the power of Emacs for editing purpose.
+
+Check out the video to see how it all works. 
+
+For more information, you can check out this [[https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][tutorial]] on Org-mode
+table formulas and the Org-mode [[https://orgmode.org/manual/The-Spreadsheet.html#The-Spreadsheet][documentation.]]
+
+Enjoy!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5vGGgfs0q3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
