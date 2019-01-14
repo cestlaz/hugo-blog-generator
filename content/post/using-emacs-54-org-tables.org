@@ -7,7 +7,7 @@ tags:
 - productivity
 categories: 
 - emacs
-draft: true
+draft: false
 --- 
 
 As you know I use Emacs for all sorts of things. In addition to
