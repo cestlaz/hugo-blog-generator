@@ -1,0 +1,62 @@
+---
+title: Thoughts On Code And Beyond - Computational Thinking
+date: 2019-01-14T17:48:27-04:00
+tags: 
+- CT
+- education
+- csed
+- csforall
+categories: 
+- education
+draft: false
+--- 
+
+The theme of this year's [[https://twitter.com/i/moments/1084877641285541889][To Code and Beyond]] was Computational
+Thinking. [[https://twitter.com/guzdial][Mark Guzdial]] gave the keynote. While the talk isn't
+currently online, check out [[https://www.youtube.com/watch?v=N3uCb-95fFE&t=5s][this talk]] that Mark gave last March. It's
+not the same but the second halves are and well worth a look.
+
+In the first half, Mark talked about other types of "thinking."
+Scientific thinking, engineering thinking and even historical
+thinking. All had a good amount of overlap with both each other and
+with computational thinking even as we haven't yet settled on what
+computational thinking actually is.
+
+This overlap is why I think that bringing CS into the primary grades
+gives us an opportunity to reduce the achievement gap between rich and
+poor. 
+
+I've already said that I'm not sold on hardcore CS and programming in
+the early grades but rather it's CT - the problem solving and
+methodologies of CS that can effectively be part of the earlier
+grades.
+
+Of course, that's easier said than done. While there has been some
+pushback recently we still have far too much emphasis on standardized
+tests and elementary school teachers are way overworked. Trying to get
+already overburdened teachers to add in a whole new subject area is a
+big ask. The opportunity is that we might be able to develop aspects
+of CT in a way that supports what elementary teachers are already
+doing, possibly under the unlabeled guise of scientific thinking,
+historical thinking, engineering thinking or some other thinking.
+
+This is already going on to a certain extent with individual teachers
+at individual schools. Logic games and problem solving techniques have
+always been explored by elementary school teachers who have freedom
+from tightly packed test based curricula. These could be considered CT
+and you could also add data collection and processing and I'm sure
+many other things as well. This is where CS/CT can fit in the
+elementary schools without adding to the teacher's current
+load. What's more, if we can figure out how to incorporate these CT
+concepts to support the subject matter already being studied we could
+help close the gap between the haves and the have nots.
+
+I've said many times before that I'm not an elementary school
+specialist but I still suspect this is the approach for CS in the
+primary grades at least for the near term. 
+
+I've already got a pretty full plate between my work with Hunters
+Daedalus CS honors program along with our pre-service programs being
+very close to going live but I'm also hoping to do some work in
+relating to this in the near future.
+
