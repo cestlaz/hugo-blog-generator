@@ -1,0 +1,21 @@
+---
+title: Solve A To Solve B
+date: 2019-01-18T19:36:59-04:00
+tags: 
+- adventofcode
+- cs
+- problem solving
+categories: 
+- cs
+draft: true
+--- 
+
+So many programming assignments involve a direct solution. Write a
+program to do this or write a problem to solve that. It's pretty
+typical. That's why I love it when I find a problem that's 
+
+position=< 9,  1> velocity=< 0,  2>
+position=< 7,  0> velocity=<-1,  0>
+position=< 3, -2> velocity=<-1,  1>
+position=< 6, 10> velocity=<-2, -1>
+https://adventofcode.com/2018/day/10
