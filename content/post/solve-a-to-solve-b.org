@@ -7,15 +7,146 @@ tags:
 - problem solving
 categories: 
 - cs
-draft: true
+draft: false
 --- 
+#+OPTIONS: tex:t
 
 So many programming assignments involve a direct solution. Write a
 program to do this or write a problem to solve that. It's pretty
-typical. That's why I love it when I find a problem that's 
+typical. There's nothing wrong with assignments like these. They allow
+students to practice what they've been learning and it gives them the
+opportunity to create some cool programs. All the same, I like it when
+there's an indirect problem. You're faced with a problem but in order
+to solve it you first have to solve some other problem
 
+That's why I liked [[https://adventofcode.com/2018/day/10][day 10]] from this year's Advent of Code. 
+
+At it's core the question presents you with a collection of points
+along with velocities in this form::
+
+#+BEGIN_EXAMPLE
 position=< 9,  1> velocity=< 0,  2>
 position=< 7,  0> velocity=<-1,  0>
 position=< 3, -2> velocity=<-1,  1>
 position=< 6, 10> velocity=<-2, -1>
-https://adventofcode.com/2018/day/10
+#+END_EXAMPLE
+
+Each point moves by adding the x and y components if its velocity each
+second. For example, the last two points listed above - points (3,-2)
+nad (6,10) would be transformed overtime as follows:
+
+| Point | Velocity | Second 0 | Second 1 | Second 2 | Second 3 | Second 4 |
+|-------+----------+----------+----------+----------+----------+----------|
+| 3, -2 | -1,1     | 3,-2     | 2,-1     | 1,0      | 0,1      | -1,2     |
+| 6,10  | -2,-1    | 6,10     | 4,9      | 2,8      | 0,7      | -2 6     |
+
+At some point in time, if you look at the points on a grid they will
+spell out a message or at least a sequence of letters. The question
+asks you to figure out that message. There's a complete example and a
+nice story around the problem on the [[https://adventofcode.com/2018/day/10][Advent of Code site]]. 
+
+The first thought is probably to run this as a simulation. Set up a
+loop, update the point locations, visualize and see if you have an
+answer. This isn't trivial for a beginner but it's certainly
+approachable. It also has a big problem. Unless you happen to have
+some optical character recognition libaray handy you have to draw and
+look at the output on every change. Given that it could take thousands
+of iterations, this is not practical at all. 
+
+We can do better by solving another problem first. The key insight is
+that each point travels along a line. In fact, this problem is a great
+time to talk about a parametric representation of a line like 
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+\(L=P+tV\) 
+
+Where \(P\)represents an \((x,y)\) point and \(V\) a direction vector
+\((dx,dy)\).
+
+Regardless of where the points start, at some point all of them will
+be contained within your field of view after which they will continue
+along their paths outside of that field of view. We can look at a
+bounding box for all of the points and when that bounding box is
+smallest we should be at or close to our message.
+
+This is readily accomplished. We can find a bounding box by finding the
+smallest and largest x and y coordinates for all the current points
+and using \((X_{min},Y_{min})\) and \((X_{max},Y_{max})\) as the
+diagonals of a bounding rectangle and then compare areas of these
+rectangles. They should decrease at first and then eventually
+increase. 
+
+{{< highlight python >}}
+  for time = range(0,some_large_value,stepsize):
+      new_pts = transform(pts,time) 
+      bbox = bounding_box(new_pts)
+      if (area(bbox) > area(previous_bbox)):
+          break // we're close to or at the smallest bounding box
+{{< /highlight >}}
+
+We can start with a big ~stepsize~ and then refine it down until we
+hone in on the smallest bounding box.
+
+From there, we can transform all the points using the time that
+resulted in the smallest bounding box and then display the points to
+see our message. We might have to go through a small window of times
+since the actual message might just be close to the configuration
+yielded from the smallest bounding box. Of course that visualization
+takes some doing - the actual viewing window might not align with your
+screeen coordinates, they could all, for example, be negative so
+you'll probably have to do one last transformation to translate and
+possibly scale the final points to make it all viewable.
+
+When I first solved the problem, I just dumped the coordinates into a
+2 dimentional array and printed it but afterwards I wrote a little
+clojurescript html5 canvas visualization:
+
+{{< figure height="20px" width="200px" src="/img/advent-2018-10.gif"
+>}}
+
+So there it is. It's not a trivial problem for beginners but it is doable. There's a
+lot to deal with:
+
+1. parse the data
+
+
+This isn't too bad. You could cover regular expressions but even
+without it isn't too big of a deal. You could also just use an editor
+to extract the important data or preprocess this for the kids.
+
+2. Figure out how to transform the points.
+
+This also isn't too bad. Just loop over all the points with ~newpoint
+= oldpoint + t * velocity~
+
+3. Figure out the bounding boxes
+
+Also not too bad. Loop over all the points to find the smallest and
+largest x and y coordinates
+
+4. Set up a loop to find the smallest bounding box and hence the time
+   that the message will appear.
+
+and then finally:
+
+5. draw the points to visually inspect the answer.
+
+This might be the most persnickety part. When I first coded it my
+output was upside down and backwards but good enough.
+
+I can't fully put my finger on it but I really enjoyed this problem. I
+hope you enjoyed my writeup. If you want to check out my solution for
+this (minus the clojurescript visualization) along with the other
+Advent of Code problems I finished this year you can find them [[https://github.com/zamansky/advent2018][here]].
+
+
+
+
+
+
+
+
+
+               
