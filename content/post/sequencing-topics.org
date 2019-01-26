@@ -1,0 +1,56 @@
+---
+title: Sequencing Topics
+date: 2019-01-26T16:06:08-04:00
+tags: 
+- csed
+- pedagogy
+- educaction
+- curriculum
+categories:
+- pedagogy
+draft: false
+--- 
+
+Monday's the start of the Spring semester. Other than the 8:00am start
+I'm looking forward to it. My 8:00am class is the honors/lab component
+that goes with CS1. I taught it last semester and during each of the
+past two years at Hunter. My second class is the follow up  - more OOP
+/ C++, data structures and some algorithms.
+
+The material is old hat. I've taught it in Java more times than I can
+count and also in C++ albeit many years ago. What's new is that I'm
+teaching my Hunter kids and I'm doing it in a college framework - two
+days a week, 1:15 a session. I'm not thinking too much about how I'll
+teach each class - I usually figure that out in the moment - not
+actually in the class but week to week based on the flow of the
+class. 
+
+Right now, I have to make final decisions on sequencing, at least for
+the start of the class. We got ahead of the game by covering most of
+the C++ topics - inheritance, templates, overloading etc. at the end
+of last semester so that
+leaves all the data structures, algorithms, dynamic structures, and
+memory management, recursion, and sorting and searching. If I have
+time I'd also love to get into some graph stuff. 
+
+Here's the plan, at lest for now.
+
+We'll start with recursion. They had the basics last term but now
+we'll talk about search - I usually focus this around a maze
+solver. After this we'll place recursion on hold - at least in terms
+of class time and move to linked lists and dynamic memory. We'll
+follow this with sorting. The idea is that students have trouble
+getting comfortable with both recursion and also with dynamic
+structures first time through. Rather than ploughing  through from
+recursion to the recursive sorts I'm hoping that putting the dynamic
+lists in between will give recursion some time to marinate in the
+background. Likewise I'm hoping that the dynamic memory stuff can
+marinate through the sorting unit for when we revisit it with stacks,
+queues, and trees after sorting.
+
+I don't know if this is the optimal way of sequencing the topics but I
+think it will work pretty well.
+
+We'll see as the semester progresses. If things are going swimmingly I
+can always call an audible.
+
