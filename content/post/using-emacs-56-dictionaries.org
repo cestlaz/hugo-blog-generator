@@ -1,0 +1,27 @@
+---
+title: Using Emacs Episode 56 - Dictionaries
+date: 2019-01-28T16:58:11-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+One of the great things about Emacs is that it's not just for writing
+programs. Sure, you can set it up as an IDE for just about every
+programming language under the sun but that's just the tip of the
+iceberg. I use Emacs for just about all my text processing. This
+includes writing blog posts, reading and writing emails, creating
+lesson plans and pretty much anything and everything having to do with
+text.
+
+Emacs has some nice packages that make it really easy to integrate
+dictionary and thesaurus lookups into your work flow.
+
+Here's a short video showing you how to set things up:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jtgulzjq7hk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
