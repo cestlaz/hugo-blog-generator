@@ -1,0 +1,99 @@
+---
+title: Github Classroom and Travis CI
+date: 2019-02-02T09:44:29-04:00
+tags: 
+- github
+- tools
+- pedagogy
+categories: 
+- tools
+draft: false
+--- 
+
+I've been using GitHub with my classes since GitHub's early days. Over
+time I've gotten my [[https://cestlaz.github.io/posts/sigcse-2017-github-4/][workflows down]]. I use a combination of shell
+scripts - many just written on the fly, GitHub organizations, and some
+naming conventions and protocols that have served me well. 
+
+A few years ago, the [[https://education.github.com/][GitHub Education team]] started [[https://classroom.github.com/][GitHub
+Classroom]]. I looked at it at the time. It was pretty cool but I had my
+workflow so I didn't adopt it. I still very much liked GitHub, the
+education team, and the product so I kept tabs on the project as time
+passed. 
+
+This semester I decided to go all in on GitHub Classroom. Why? A
+combination of my changing my workflow and part due to the GitHub
+education tools and community. At it's core, GitHub classroom does two
+things well:
+
+ 1. Assignment creation and distribution
+ 2. Repo management and organization.
+
+I thought I'd do a couple of posts and videos to show how I'm using
+everything. 
+
+Here's the first one.
+
+Interestingly enough I'm not going to talk at all about GitHub
+classroom for the remainder of this post. Instead I'm going to talk
+about TravisCI ([[https://travis-ci.com/][https://travis-ci.com/]],
+[[https://travis-ci.org/]]). Travis is a platform for continuous
+intergration. The idea is pretty simple. After setting things up,
+whenever you push code to a repo that Travis is watching, Travis
+starts a container for your repo and runs one or more scripts against
+the repo. This usually means tests. It turns out that this can be a
+useful sanity check for students. It's true that they can run tests on
+their assignments before submitting them but this way it's done
+automatically and after they submit. They can be sure that what
+they've submitted actually works.
+
+First you have to link your GitHub accoutn with Travis. To do this,
+just go to travis-ci.org and log in using GitHub. You can then set a
+bunch of options including which repos to run Travis on. The interface
+at travis-ci.com looks similar but a bit nicer. The .org site is free
+for open source or public repos  (as is the .com site, I think) but
+the good people at Travis will give you rights to use private repos
+for educational purposes for free. 
+
+The only other thing you have to do is create a [[https://yaml.org/][YAML]] file named
+ ~.travis.yml~ in your repo. Here's one I'm using to test C++ projecs:
+
+#+BEGIN_SRC yaml
+language: cpp
+compiler: clang
+script:
+  - make test
+  - ./test
+#+END_SRC
+
+This tells Travis to use the clang compiler (as opposed to, say g++)
+and then run ~make test~ and then ~./test~. If all the tests pass you
+get a green check and an email and you're good to go. If they don't
+you get a red X and also an email. Of course for this particular
+configuration to work you need ~Makefile~ and everything else needed
+to build the tests in the repo. In my case, I'm using [[https://github.com/onqtam/doctest][doctest]] for tests.
+
+Travis has support for a whole bunch of languages including Java,
+Python, and JavaScript and all of those have nice testing frameworks
+so regardless of what you're teaching with, Travis could be easily
+integrated. 
+
+In this video I show how I'm using TravisCI and also a simple Python
+setup. In the next post I'll get back to GitHub classroom and how
+TravisCI integrates into it.
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/-J8A5oWazvE" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+
+ 
+ 
+
+
+
+
+
+
+
