@@ -9,6 +9,7 @@ categories:
 draft: false
 --- 
 
+
 I stumbled upon a thread over in the APCS-A Facebook group the other
 day. It seems that the College Board is making some changes in their
 [[https://apcentral.collegeboard.org/about-ap/news-changes/ap-2019][registration timeline]]. In the past, students registered for the exam
