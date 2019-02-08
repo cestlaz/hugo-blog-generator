@@ -1,0 +1,140 @@
+---
+title: Java Interfaces
+date: 2019-02-08T09:40:44-04:00
+tags: 
+- APCS-A
+- pedagogy
+- cs
+- java
+categories: 
+- APCS-A
+draft: false
+--- 
+
+Two of the hardest topics to make meaningful to students in APCS-A are
+inheritance and interfaces. It's not that they're super difficult
+topics but rather that they're not often needed, useful, or superior
+to not using them on beginner assignments. More often than not the
+motivation is a bit forced as are the assignments. 
+
+Inheritance is its own can of worms and to be honest, something I've
+not found to be all that useful or necessary. The class abstraction
+made sense to me for a number of projects but deep inheritance just
+hasn't come up much. 
+
+In any event, today I thought I'd talk about interfaces.
+
+When Java was first built a decision was made not to allow multiple
+inheritance - the idea that a class can be derived from multiple
+parents. Multiple inheritance is powerful but it can also be
+complicated and confusing. By not including multiple inheritance Java
+ended up easier to work with than say C++ but there were times where
+you needed features that multiple inheritance provide. Specifically
+there are times when you need some functionality that operates across
+multiple unrelated classes. Without any other features, you'd have to
+start *all* of your classes from a single based class and include that
+functionality. Clearly not a good idea.
+
+The first useful example is probably ~Comparable~
+#+BEGIN_SRC java
+{{< highlight java>}}
+public interface Comparable<T> {
+    public int compareTo(T o);
+}
+{{< / highlight >}}
+#+END_SRC
+
+At first blush it might not seem all that useful. 
+
+Let's suppose you are doing something like finding the first String
+(alphabetically) from an array:
+
+#+BEGIN_SRC java
+{{< highlight java>}}
+  public static int findSmallest(String[] l, String item){
+      System.out.println(l.length);
+      int result = 0
+      for (int i = 1; i < l.length;  i++) {
+          if (l[i].compareTo(item)<0)
+              result = i;
+      }
+      return result;
+  }
+{{< / highlight >}}
+#+END_SRC
+
+That's easy enough but what if you had another class, ~Shape~ where
+you wanted to find the "smallest" based on area and a third class
+~Person~ where you want to find the smallest by age? Without
+interfaces you would need three independent search routines or set up
+a crazy inheritance hierarchy where ~String~, ~Person~ and ~Shape~ all
+come from the same parent. Instead, by having your two new classes
+implement the ~Comparable~ interface all three can use the same
+search:
+
+#+BEGIN_SRC java
+{{< highlight java>}}
+  public static int findSmallest(Comparable[] l, Comparable item){
+      System.out.println(l.length);
+      int result = 0
+      for (int i = 1; i < l.length;  i++) {
+          if (l[i].compareTo(item)<0)
+              result = i;
+      }
+      return result;
+  }
+{{< / highlight >}}
+#+END_SRC
+
+This is not entirely true. The above solution will give you compiler
+warnings. You'll have to decide if it makes sense to jump through the
+hoops necessary to get rid of the warnings or if it's sufficient to do
+some vigorous had waving.
+
+This is the benefit of interfaces. You can create functionality that
+works across classes. In addition to writing things like our
+ ~findSmallest~ above, if our classes implement ~Comparable~ we can sort
+collections of our classes using the built in sort methods.
+
+This is a benefit that our students can probably appreciate.
+
+Anther place interfaces come up and make sense are with GUI
+programming. It's pretty easy to show the utility of using interfaces
+with the assorted listeners. That said, Java GUI programming is
+something of a bear so maybe that's not the way to go.
+
+Where else can you explore interfaces in APCS-A? Any program where you
+have different entities that change in different ways over time. This
+might be a simulation where time passes via a control loop or maybe a
+game where time passes a turn at a time.
+
+For example, you might have a simulation with various resources that
+implement an interface with an ~update~ routine:
+
+#+BEGIN_SRC java
+{{< highlight java>}}
+  public interface updateAble{
+      public void update(World w);
+  }
+{{< / highlight >}}
+#+END_SRC
+
+Maybe a food resource updates by raising or lowering the amount of
+food it provides or perhaps an animal resource updates its location. You could
+have an array of objects that implement this interface and just call
+update on each one.
+
+You could do the same with a game. Maybe the human player's ~update~ 
+prompts for keyboard input while non player characters just calculate
+their next state.
+
+Interfaces are not the easiest thing to teach. The mechanics are
+straightforward but the motivation is frequently forced for
+beginners. I was never 100% happy with how I did it and now that I'm
+in a C++ shop it doesn't come up but I hope this is helpful to some of
+you out there.
+
+
+
+
+
