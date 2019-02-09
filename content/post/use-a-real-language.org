@@ -1,0 +1,89 @@
+---
+title: Use A Real Language
+date: 2019-02-09T15:08:18-04:00
+tags: 
+- csed
+- langauges
+categories: 
+- cseducation
+- csed
+- languages
+draft: false
+--- 
+
+#+BEGIN_QUOTE
+Why can't we use a real language!
+#+END_QUOTE
+
+This topic has been coming up a lot recently. Now I'm not talking
+about the Drag and drop vs textual language thing. Let me be clear. To
+me a Drag and Drop language can certainly be a real language and many
+are. I also think they're terrific when used correctly. I just think
+they're frequently misapplied in later grades. 
+
+No, I'm talking about people asking things like "Why do we have to use
+Java in our class, why can't we use a real language like ______." Or
+at Hunter, I might get "Why do we have to use C++, why can't we use
+Java." Back at Stuy I'd get the same question about Scheme and
+Netlogo. It actually doesn't really matter what language you
+use. Someone else, usually a non-teacher always knows better.
+
+All of this reminded me of when I was young. 
+
+I started with BASIC and then in high school programmed Fortran IV
+using punch cards on an [[https://en.wikipedia.org/wiki/IBM_1130][IBM 1130]]. At the time BASIC was considered a
+toy language and Fortran IV not to mention punch cards were
+yesterday's technology. I also took APCS the first year it was offered
+and that's where I learned Pascal.
+
+I then went to NYU - The Courant Institute of Mathematical Sciences. There
+we also used Pascal as the core language. That was the language used
+in CS1, Data Structures, and Algorithms. It was also the default
+language for other classes. That is, unless the class lent itself to
+a specific language such as Lisp for AI you'd probably use
+Pascal. I learned C early on in my college career and also took
+classes that used Ada, and 8088 Assembly. I mostly tried to stick with
+C. It was the hot language at the time and all the cool kids were
+using it. Some kids continued to use Pascal but it was universally
+derided. It wasn't a "real language." Nobody used it for anything
+serious.
+
+Senior year it was time to look for a job. I ended up going  to
+Goldman Sachs and developed for PCs running Windows 2.1 in C. They
+also hired a bunch of college grads to program the Stratus systems in
+PL1 and Cobol programmers for the mainframes. This was
+around 1989. Goldman and most other big companies started you in a
+training program. I already knew C but they ran a crash course for my
+group. They did the same for the Cobol kids although most of them had
+learned it in their business schools. The PL1 kids were grouped in
+with the C and Cobol groups and had to figure out PL1 on their own
+once they were assigned teams.
+
+My story tough, isn't about Goldman. It's about another big bank I
+interviewed with. I won't name them but it's a big firm that still
+exists today. I think they had at least a whole big building down on
+the street back when I interviewed but I don't remember. The interview
+process was tough and thorough. We talked about the firm, what they
+did, the platforms they developed and of course they drilled me on
+what I brought to the table. The funny thing was that their entire
+PC platform was built in, yep, you guessed it, Turbo Pascal. 
+
+Here was a really respected financial firm doing really interesting
+tech and they were using that fake toy language that no kid would ever
+use for real.
+
+So there you have it. All this "it's not a real language" stuff is
+largely nonsense. If it can solve your problem it's real. If it can
+teach your concept it's real. The rest is nonsense.
+
+As a side note, my first programming gig was in the mid 1980s for a
+ticket printing company - Arcus Simplex Brown. I worked on a computer
+ticket printing system for them. It was in BASIC and ran on a little
+PC running CP/M with a big line printer. Best I could figure they were
+still using the same system in 2012.
+
+{{< figure height="250px" width="250" src="/img/ticket.jpg" >}}
+
+So, don't get caught up with someone else's opinion of what's a real
+language just make sure your students are getting what they need.
+
