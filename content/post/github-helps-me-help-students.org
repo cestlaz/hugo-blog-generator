@@ -1,0 +1,39 @@
+---
+title: GitHub Helps Me Help Students
+date: 2019-02-11T18:55:22-04:00
+tags: 
+- github
+- git
+- tools
+categories:
+- tools
+draft: false
+--- 
+
+Earlier today I was reminded why I love GitHub in support of my
+classes. One of my students posted a question about our current
+lab. They posted a synopsis of the problem along with the error
+message.
+
+Since we're all working on GitHub the student's work was already up
+online Since I started using [[https://classroom.github.com][GitHub Classroom]] I was able to quickly
+navigate to the repo. This might have been enough but to really in to
+the students work I cloned the repo and went into Emacs. Using [[https://cestlaz.github.io/posts/using-emacs-47-magit/][Magit]],
+Emacs's Git interface I was quickly able to navigate the project and
+also see recent changes or in fact any changes to any of the student's
+project files. I didn't use it this time but [[https://cestlaz.github.io/posts/using-emacs-42-git-gutter/][Git Timemachine]] gives an
+even slicker way to see the history of changes for a specific file.
+
+With these tools it took almost no time to get the lay of the land and
+figure out where the student hit the wall. From there I posted a hint to nudge the student in the
+right direction.
+
+GitHub classroom makes the student repo management easy but the other
+tools were just plain old Git and Emacs. 
+
+Of course, for this to work, students have to play their part. If a
+student doesn't push their changes regularly up to GitHub I won't be
+able to see the diffs and help. When they do, it's a real world tool
+that once again has proven to be great at supporting education.
+
+
