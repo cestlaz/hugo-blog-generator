@@ -1,0 +1,88 @@
+---
+title: No Amazon HQ2 in NYC
+date: 2019-02-14T17:57:32-04:00
+tags: 
+- policy
+- NYTech
+- Tech
+categories:
+- NY Tech 
+draft: false
+--- 
+
+That was the big tech news today. I know there was a good deal of
+vocal outrage about the deal but to be honest I was pretty surprised
+by the news. Normally deals like these get steamrolled through for
+better or worse.
+
+I have decidedly mixed feelings about this. On the one hand, I have no
+problem with Amazon - I've got a bunch of former students working
+there. Mostly in Seattle but at least one in NYC. On the other hand
+there were a lot of things about the deal, none of them having to do
+specifically with Amazon as a company that made me very uneasy.
+
+Let's go through these issues from minor to major.
+
+First, I'm against special corporate incentives. In one ear I keep
+hearing that these were generic incentives are available to any
+company but in the other ear I keep hearing about special concessions
+for Amazon. I keep thinking about stadium and Olympic deals. Those are
+generally driven by politicians and money men with huge egos and from
+what I can tell they generally don't end up helping the little guy.
+
+Next we have backroom politics. Like so much in New York, it certainly
+appeared that this was a back room Cuomo deal where the local
+communities weren't included in the process. It wreaks of Cuomo
+Hubris and ego. 
+
+Third we have all the jobs. A recent poll indicated that residents
+welcomed the fact that this deal would "create new jobs" but the truth
+is that it would "create new jobs for outsiders who will come in and
+replace you." This isn't a knock on Amazon but it's probably the
+truth. The history of hypergentrification is not one of uplifting the
+poor into the middle class. It's more like bring in the middle and
+upper class from other communities and displace the poor. This would
+likely be the case with this much demand for tech talent this quickly.
+
+The local colleges, specifically CUNY will not be able to up the flow
+of tech graduates that quickly without a big infusion of resources and
+that's something that wasn't included in the deal. It's great that
+Amazon is supporting HS CS but tech companies aren't hiring kids out
+of high school with a single introductory experience like
+APCS-Principals. 
+
+Since New York will not be able to supply the software engineers on a
+dime the companies are going to bring them in from elsewhere. I
+remember talking to a tech executive a few years ago and he was
+telling me that he was going to have to "hire X software engineers in
+the next five years" and that while he "would love for them to be New
+Yorkers" he'd hire them from wherever he could get them. 
+
+Poor and working class people aren't all of a sudden going to be
+getting these high paying jobs. Sure, some will get into programs like
+[[https://www.pursuit.org/][Pursuit]] and get entry level coder jobs and the colleges will continue
+to produce what they're producing now and ramp up capacity as they are
+able but a lot of people  who were here during the bad times are just
+going to be forced out.
+
+At the end of the day most of this won't change a thing one way or the
+other. LIC is already on the upswing and rents are going through the
+roof. Companies will continue to need tech talent in NY and NY will
+continue to scramble to try to fill the need. Amazon already has a
+presence in NYC and if they want to avail themselves of the talent
+that comes from and wants to move to NY they'll continue to build
+their footprint here even without HQ2.
+
+For me the takeaway is that we have to be much more aware of all our
+residents and it is our obligation as a society to work to uplift
+those who haven't had the same opportunities as others. That means
+really looking hard at diversity, equity, and things like
+gentrification. It means not just bringing in jobs without having a
+plan and a path for those at the bottom of the economic ladder to
+climb up into those jobs. It means working with the communities for
+their and New York's benefit and not making deals that sound good and
+might be good for New York as a whole but get there by amputating the
+parts that we just don't want to deal with.
+
+ 
+
