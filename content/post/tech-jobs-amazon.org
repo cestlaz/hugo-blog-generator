@@ -1,0 +1,129 @@
+---
+title: Tech Jobs, Diversity, and Equity in the wake of the Amazon/NYC debacle
+date: 2019-02-15T11:14:59-04:00
+tags: 
+- policy
+- NYTech
+- Tech
+categories:
+- NY Tech 
+draft: false
+--- 
+
+I was planning on either following up on how I use GitHub classroom or
+commenting on the recent [[https://www.nytimes.com/2019/02/12/opinion/college-board-sat-ap.html%0A][NY Times opinion piece]] on the College Board
+but the follow up, fall out, and polarization from the Amazon NY thing
+has been stuck in my head so I thought I'd write a bit more about it.
+
+Like my [[https://cestlaz.github.io/post/no-amazon-hq/][previous post]], this isn't really about Amazon but rather about
+the long game, equity, and diversity and how a lot of people are
+fooling themselves.
+
+It's interesting that the communities I'm in are fairly polarized - my
+pure tech world frients are big time upset that the deal fell through while
+my pure educator friends, particularly the public school ones, are
+really happy things worked out the way they did.
+
+The big disappointment from the tech side revolves largely around the
+jobs lost. Lots of tech jobs no longer coming fast and furious. The problem is,
+who's going to fill them. We've been hearing for years that there's a
+tech talent problem. Every company at every meetup seems to say "oh,
+and we're hiring," Google's expanding as are, as far as I can tell,
+most of the other tech giants in the city. How can both be true? If we
+need those new jobs now then there must be a glut of tech people
+clamoring for employment. If indeed talent is hard to find, how will
+NY be able to fill this new need. 
+
+We all know the answer - import them. Companies that can have and will go to
+the "elite" institutions around the country and try to recruit the
+talent to NY. At the end of the day the politicians can look and say
+"behold, I have taken this slum and transformed it into a paradise"
+and that might technically be true. Problem is that they did it by
+further marginalizing and displacing those already on the fringes. 
+
+It's hard to see. When I was younger - before I was deeply immersed in
+public education all I saw was the gentrification - look the
+neighborhood has gotten better. Now I understand the cost. I'm reminded
+of Hofstadter's [[https://en.wikipedia.org/wiki/G%25C3%25B6del,_Escher,_Bach][GEB]] where the anteater is friends with Aunt Hillary -
+an ant colony and in fact was an ant surgeon. He "healed" the colony
+through strategic amputations. The colony remained healthy but at the
+cost of the individuals who didn't make the cut.
+
+The only way all these high paying tech jobs are going to come from NY
+if NY can generate them and the truth is, right now, we can't.
+
+Colleges nation wide are dealing with capacity issues. At least one
+dropped its CS minor - arguably more valuable than a CS major for may
+students. Stories abound on how hard it is to attract faculty and in
+NYC we also have to deal with real estate issues. At Hunter, we can't
+just plop down a new building for CS even if we did have the money. 
+
+This of course is not just a capacity issue but also a diversity and
+equity one and too many players are rearranging the deck chairs on the
+Titanic. Some tech players are making an honest effort to deal with
+[[https://www.usv.com/blog/our-first-network-wide-diversity-inclusion-survey][diversity]] and equity in a meaningful way, too many aren't. I was
+recently speaking with a friend at a big tech company. I was pitching
+him on supporting what I'm building at Hunter. He said he really
+wanted to help but his companies diversity plan, once you stripped
+away the shiny paint was poaching from FANG (or is it FAAMG)
+companies. The other thing I see is recruiting exclusively at "elite"
+private schools and trying to grab as many "underserved" candidates as
+possible. A third strategy involves counting everyone on your team for
+diversity counts even if many of them aren't really tech. Of course
+the elite colleges play the same game. When you've got an incoming
+class of let's say 2000 and you've got 10 times that many applicants
+with 4.0 GPAs and perfect test scores you can shape your class however
+you want but it's a zero sum game and doesn't provide opportunity for
+the masses.. 
+
+If we want to solve these issues we have to deal with K12 and if
+that's the case it's going to take at least 6 years maybe considerably
+more before we really see results and that's assuming we fix the
+college capacity issues.
+
+This brings me to CS for all. I'm a big believer in CS for All and
+I've dedicated a lot of time and energy on bringing quality CS
+education to the have nots but CS for All might not be the
+answer. First, many of us believe that it's not about turning everyone
+into a software engineer. True, by exposing everyone to CS we'll get a
+larger pool working towards that end but the intent isn't or at least
+shouldn't be as a feeder into the tech industry. 
+
+A bigger problem is ensuring that we indeed have quality CS for All
+for all and that's a real concern. Looking over the landscape here's
+what I'm seeing. Rich, well heeled schools are finding those few
+really knowledgeable CS teachers and many of the poor schools are
+getting quick and dirty training on some generic APCS-Principals
+class. Dedicated hard working teachers who want to do a great job but
+aren't being given the time and resources to really learn CS and CS
+pedagogy.  Now APCS-P can be a strong class or a weak one but in many
+cases by going for the quick fix with a scripted class and then saying
+"we're done" is condemning those kids to sub standard CS. Even if
+some do take CS1 in college my guess many will be underprepared and
+many will drop. Even with a good APCS-P, the fact that no one is
+paying attention to the complete pipeline and the transition from High
+School to College and through the major will mean that we're going to
+lose many of the kids along the way.
+
+The answer? Good pre-service programs will help - that's why I'm so
+bullish on the program we're developing at Hunter. A bad preservice
+program, however - one that is based on "you take it you teach it"
+won't prepare our teachers to prepare our kids. Even then, we're not
+going to really solve the problem until we deal with little things
+like, oh, you know, poverty. 
+
+I might sound pessimistic. Maybe I am but it doesn't change
+anything. I'm going to do my best to affect positive change in
+whatever circles I can be they large or small and many others are
+doing the same.
+
+All those jobs that aren't coming to NY?  They'd have been filled
+before any sensible fix to our NYC Tech pipeline problem yields fruit
+anyway and would likely have displaced the current fringe population
+rather than uplift them.
+
+
+
+
+
+
