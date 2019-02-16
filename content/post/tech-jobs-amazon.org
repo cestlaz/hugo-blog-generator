@@ -11,7 +11,7 @@ draft: false
 --- 
 
 I was planning on either following up on how I use GitHub classroom or
-commenting on the recent [[https://www.nytimes.com/2019/02/12/opinion/college-board-sat-ap.html%0A][NY Times opinion piece]] on the College Board
+commenting on the recent [[https://www.nytimes.com/2019/02/12/opinion/college-board-sat-ap.html][NY Times opinion piece]] on the College Board
 but the follow up, fall out, and polarization from the Amazon NY thing
 has been stuck in my head so I thought I'd write a bit more about it.
 
