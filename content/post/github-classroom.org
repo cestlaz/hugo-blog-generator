@@ -1,0 +1,88 @@
+---
+title: How I use Github Classroom
+date: 2019-02-17T16:42:48-04:00
+tags: 
+- github
+- tools
+- pedagogy
+categories: 
+- tools
+draft: false
+--- 
+
+It's been an amazingly unproductive weekend. Mostly because I've been
+sick with the flu. It sucks but since the rest of the family's away
+anway at least I'm not making everyone miserable.
+
+I did manage to stage my next couple of classes and figured that
+writing this post wouldn't take too much energy since it's mostly a
+video.
+
+Earlier, I talked about using [[https://cestlaz.github.io/post/github-classroom-travis/][GitHub and TravicCI]] and this time around
+I show how I use GitHub classroom to set up, disseminate, and collect
+assignments.
+
+Here are the important links you'll need to set things up yourself:
+
+ - To register an organization (so that you can use private repos for
+   free): [[https://education.github.com/discount_requests/new]]
+ - The main GitHub education page with lots of good stuff and links: https://education.github.com/
+ - GitHub Classroom: https://classroom.github.com/
+ - GitHub Classroom Assistant: https://classroom.github.com/assistant
+
+
+The video goes through the entire process but doesn't really much into
+grading. For grading I usually do something like the following:
+
+First I make a file named *repos* with the names of all the submitted
+repos:
+
+#+BEGIN_SRC sh
+cd THEDIRECTORYWITHALLTHEREPOS
+ls > repos
+#+END_SRC
+
+Then I'll use a script that looks something like this:
+
+#+BEGIN_SRC sh
+{{< highlight sh >}}
+  for i in `cat repos`
+  do
+      cd /tmp/235-assignment-02-02-16-2019-07-25-00/$i
+      NAME=`grep "** Name: " Readme.org | sed "s/** Name: //g"`
+      echo "================= $NAME ===================="
+      make test
+      ./test -s
+      echo "\n------------------------------------\n\n"
+  done > report
+{{< / highlight >}}
+
+#+END_SRC
+
+First I ~cd~ into the repo. Each repo has a file named *Readme.org*
+which has a line that looks like this ~** Name: Students Name~. The
+line that starts *NAME=* pulls out the student's name. It then echos a
+separator line with the sutdent's name in it, builds and runs the
+tests. ~./test -s~ runs the doctest tests. The ~-s~ says to print out
+the passing tests as well as the failing ones. The output of the whole
+loop is saved to a file named report.
+
+From there I can look at the report and get a quick overview of who's
+submissions worked and who's didn't. I still have to look at the
+students actual code but I usually navigate all of that in Emacs.
+
+Finally, for grades, I just use a Google Spreadsheet with a script I
+wronte to email grades to the students -
+https://cestlaz.github.io/posts/google-sheets/.
+
+You can easily adapt this processto use other languages wether you use Unit
+Tests or not. 
+
+So, GitHub classroom - check it out. 
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/2PuXdb8OLYo" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+
