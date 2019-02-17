@@ -38,8 +38,10 @@ First I make a file named *repos* with the names of all the submitted
 repos:
 
 #+BEGIN_SRC sh
+{{< highlight sh >}}
 cd THEDIRECTORYWITHALLTHEREPOS
 ls > repos
+{{< / highlight >}}
 #+END_SRC
 
 Then I'll use a script that looks something like this:
@@ -59,7 +61,7 @@ Then I'll use a script that looks something like this:
 
 #+END_SRC
 
-First I ~cd~ into the repo. Each repo has a file named *Readme.org*
+First I ~cd~ into the repo. Each repo has a file named *Readme.org* 
 which has a line that looks like this ~** Name: Students Name~. The
 line that starts *NAME=* pulls out the student's name. It then echos a
 separator line with the sutdent's name in it, builds and runs the
