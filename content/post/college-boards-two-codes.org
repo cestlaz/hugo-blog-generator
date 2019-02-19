@@ -1,0 +1,71 @@
+---
+title: Why the Thomas Friedman's editorial on the College Board's Two Codes left me concerned
+date: 2019-02-19T10:20:19-04:00
+tags:
+- policy
+- csed
+- AP
+categories:
+- policy
+draft: false
+--- 
+
+There was some buzz over [[https://www.nytimes.com/2019/02/12/opinion/college-board-sat-ap.html][this editorial]] about the College Board last
+week. The two codes every child needs - Coding and the US
+Constitution? Who could argue with that.
+
+I'm not going to disagree. Civics and CS are important and can't wait
+until college. The thing that left me chilled though was that nobody's
+paying attention to the fact that the College Board - a private entity
+with its own interests has so much influence over American education.
+
+In the piece, Friedman states:
+
+#+BEGIN_QUOTE
+So rather than have SAT exams and Advanced Placement courses based on things that you cram for and forget, they are shifting them, where they can, to promote the “two codes.”
+
+In 2016, the College Board completely revamped its approach toA.P. computer science courses and exams. 
+#+END_QUOTE
+
+Nothing wrong here but the AP program is supposed to offer "college
+level" work in high school. Back when the program started, from 
+best I can figure, they offered exams based on courses that were
+essentially HS implementations of college classes. Now they're
+flipping the script. They're dictating what they think should be
+taught at the high school level and, oh by the way, it's college level
+because it has the AP designation. The editorial goes into some
+details. Now, I'm not against what they're doing with AP US Gov, it
+sounds like a really good idea. I'm against their overall influence.
+ 
+The biggest concern I had though was with this:
+
+#+BEGIN_QUOTE
+Besides revamping the government course and the exam on that subject, Coleman and Sanford in 2014 made a staple of the regular SAT a long reading comprehension passage from one of the founding documents, such as the Constitution, or another important piece of democracy, like a great presidential speech. That said to students and teachers something the SAT had never dared say before: Some content is disproportionately more powerful and important, and if you prepare for it you will be rewarded on the SAT.
+#+END_QUOTE
+
+If we put this on the SAT, schools will teach it so the kids will do
+better the SAT.
+
+This should be chilling to everyone. 
+
+No, I'm not against the details but it's frightening to have a private
+entity with so much influence on public policy like
+education. Ultimately, it can't be good. Just because what the College
+Board's pushing in terms of civics jives with me doesn't mean they
+should be able to influence and manipulate curriculum across the
+nation to such a degree. The College Board is pretty much accountable
+to nobody. As long as students are told to take AP classes and the
+SAT, particularly with politicians and boards of education agreeing to
+pay the college board with taxpayers money, the public has very little
+say. Sure, more better civics and CS is good but who's to say the next
+initiative will be in the public's interest?
+
+The same can be said for any of the major education players - for and
+non profit alike both in and out of CS. We have to be more aware,
+vigilant, and vocal when the power players accomplish things by being
+the 800 pound gorilla even when we agree with what some of those
+things are.
+
+This is a big reason why I frequently speak out against the College
+Board and other power players, some of whom I greatly like, respect,
+and admire, and feel that others should feel obligated to do the same.
