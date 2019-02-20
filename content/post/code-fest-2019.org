@@ -2,8 +2,11 @@
 title: Hunter College Winter Codefest 2019
 date: 2019-02-20T17:34:00-04:00
 tags: 
+- hunter
+- cseducation
 categories: 
-draft: true
+- hunter
+draft: false
 --- 
 
 It's great to see how much Hunter CS has developed since starting here
