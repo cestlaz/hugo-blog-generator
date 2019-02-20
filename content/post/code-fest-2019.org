@@ -1,0 +1,46 @@
+---
+title: Hunter College Winter Codefest 2019
+date: 2019-02-20T17:34:00-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+It's great to see how much Hunter CS has developed since starting here
+there years ago. The latest endeavor is Winter Codefest. During the
+fall I was approached by one of my students who had asked an older
+Hunter CS student about their portfolio and found that the senior's
+portfolio was lacking. This student said we should do something to
+help encourage younger students to build that portfolio. 
+
+The result was Winter Codefest. A team of organizers was formed and
+they came up with the plan. Have students register teams right after
+Fall finals and have teams work on independent projects over the
+course of January before the Spring semester started. We'd then have an
+event where everyone would show off their work. We decided to limit
+participants to my Daedalus scholars this time around but planned from
+the get go to make it Hunter wide in the future.
+
+We ended up with about 24 participants spanning all three Daedalus
+cohorts with most of the participants in the second year group. 
+
+Due to the scheduling we couldn't hold the end of competition event
+until today. A bunch of us gathered along with some of our friends
+from the tech community to review the projects, network, and generally
+talk tech. All in all the event was a real success. All the
+participants learned new  technologies and now have one more show
+piece to talk about in interviews.
+
+This year was unquestionably a success and it's going to be a bigger
+one next year. The CS department is working on creating 1 and 2 credit
+projects courses that will be offered during the winter session. This
+will enable students to take the courses to develop a Winterfest
+project with the support of a class around it. We're also going to
+make the event available to all Hunter CS students. 
+
+It's really exciting to be part of developing programs like Hunter
+College CS, Programs that can be super transformative for young New
+Yorkers. It's even more exciting when your students take active
+leadership roles and help make our programs even more special.
+
+
