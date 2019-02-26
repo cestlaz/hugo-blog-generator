@@ -1,0 +1,33 @@
+---
+title: March PD for CS Teachers
+date: 2019-02-26T15:49:22-04:00
+tags: 
+- csed
+- pedagogy
+- cs
+categories: 
+- csed
+draft: false
+--- 
+
+Back in December we ran our first [[https://cestlaz.github.io/post/pd-apcs-a-and-beyond/][PD session for CS teachers]]. This was
+to address the need for professional development for teachers who were
+more experienced in terms of computer science - we aimed this at people who were ready to
+teach APCS-A, similar, or beyond and also to start to build a
+community for these teachers. 
+
+We had trouble setting things up for February but we're good to go for
+March, April and May.
+
+Just as with our first session, each session will consist of a content
+piece, a pedagogy piece, and will overall be driven by the
+participants.
+
+The next session is set for Thursday, March 14 from 5:00 - 8:00 and
+will be hosted by Digital Ocean. The sessions will earn you 3 CTLE
+hours and dinner will be provided.
+
+If you or a CS teacher you know is interested in this, they can sign
+up here: [[https://goo.gl/forms/DCXqPtwYS47Ooo8j1]]
+
+
