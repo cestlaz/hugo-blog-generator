@@ -1,0 +1,38 @@
+---
+title: SIGCSE 2019 - the keynotes
+date: 2019-03-04T15:25:59-04:00
+tags: 
+- sigcse
+- cs
+- education
+categories:
+- sigcse 
+draft: true
+--- 
+
+Just got back from my third SIGCSE and as usual it was terrific. 
+
+
+https://medium.com/bits-and-behavior/sigcse-2019-trip-report-celebrating-50-years-b3460835a09a
+* Keynote Marie de Jardin
+- fillin
+- Vision is what you think and you do it.
+- Friedman saw in speaker "Someday you can be a dean provost etc" -
+  what if you don't want to follow the the traditional path
+- Design “launch” courses not “weeder” courses. (Of course, this is
+  just good teaching).
+
+
+
+* Mark's keynote
+- If we teach CS in another subject can we teach enough?
+- they need things and we build stuff.
+- he said add to other areas like bootstrap does because it looks like
+  algebra
+  - he said we will take a step back before a step forward
+    - what about how we already don't teach proof and testing pressurs
+- partner with other departments - my comment out how about K12
+  teachers and difficulties
+
+
+* Blair Taylor
