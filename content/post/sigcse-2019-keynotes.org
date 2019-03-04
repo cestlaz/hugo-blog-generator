@@ -4,35 +4,172 @@ date: 2019-03-04T15:25:59-04:00
 tags: 
 - sigcse
 - cs
+- csed
 - education
 categories:
 - sigcse 
-draft: true
+draft: false
 --- 
 
-Just got back from my third SIGCSE and as usual it was terrific. 
+It's that time of the year to write a series of blog posts about
+SIGCSE. I thought I'd start with one on the keynotes. 
+
+There were four keynote speakers. Marie desJardins, Gloria Townsend,
+Mark Guzdial, and Blair Taylor. I wasn't at the first timer's lunch
+where Townsend spoke so I won't talk at all about that keynote.
+
+I'm also not going to summarize the talks. Andy Ko wrote up a terrific
+summary of his [[https://medium.com/bits-and-behavior/sigcse-2019-trip-report-celebrating-50-years-b3460835a09a][SIGCSE experience]] and did a much better job giving
+overviews to the keynotes than I ever could so I'll just refer you to
+Andy's [[https://medium.com/bits-and-behavior/sigcse-2019-trip-report-celebrating-50-years-b3460835a09a][blog post]]. Rather, I'm just going to talk a bit about what they
+left me thinking about. It might be something that's pretty tangential
+to the actual talk but hey, it's the direction that the speaker sent
+my brain to follow.
+
+* Marie des Jardin - the pinch hitter
+
+Marie desJardins wasn't supposed to be the keynote. She was filling in
+for a flu ridden [[https://en.m.wikipedia.org/wiki/Freeman_A._Hrabowski_III][Freeman Hrabowski]] at the last minute and she did a
+more than admirable job.
+ 
+The big line for me was her plea for us not to create "weed out"
+courses but rather to create "launch" courses. I think this resonated
+with many in the audience. It got me thinking about something that's
+been a concern of mine for a while. We see a lot of examples of making
+student's first CS experience more gentle and more varied. Probably
+the biggest example is APCS-P but you can also find it in many college
+CS0 classes. Hunter's no exception - we're now in the second year of a
+more varied CS0 class (although truth be told, our problem
+wasn't so much that our old CS0 was a gatekeeper but more that
+students hardly did any programming). 
+
+I started to become aware of the problem as I would hear stories of
+kids who did Girls Who Code programs who then dropped out of CS
+classes that were too hard and then later when my former students at
+Harvard told me that many kids "dropped like flies" in the class after
+CS50. I've also seen these problems at Hunter but at least here I know
+we're working on it. Having a more accessible entry point is terrific
+but not if you just set the kids up to fail one step down the line. It
+seems that not enough people are looking at the complete path: from
+first course to last and the transitions in between. This is a hidden
+danger. We can proudly say that diversity and enrollments are up based
+on those first experiences and no one's the wiser that we're killing
+the kids later on. We have to do better.
+
+* Mark Guzdial - the outstanding contributer
+
+Mark was this year's winner of SIGCSE's Award for Outstanding
+Contribution to CS Education. A well deserved award. Mark's talk was
+terrific and similar to the one he gave at the Code and Beyond
+conference in NY which I wrote about [[https://cestlaz.github.io/post/thoughts-on-code-and-beyond-ct/][here]]. 
+
+As with the previous keynote you can get a great summary if you read
+Andy's post linked above.
+
+One point Mark made was that he felt that all students should learn
+programming but if I remember the talk correctly he didn't make a
+strong statement about all students learning CS. He also said that
+first course our CS majors take shouldn't be the same as the first
+course for non majors. I see where Mark's coming from I'm not sure I
+agree. Well, I do agree given what a first CS course for a major
+typically looks like versus what a never-CS major might need for life but
+the few CS0 for non major courses I've seen don't leave their students
+with enough to continue on to the CS major or a minor (which could be
+valuable to a HUGE swath of students) so they end up taking the CS0
+for CS majors anyway. This means one more course and one more
+semester. More cost and more time spent. I'll say that I do agree with
+Mark UNLESS you can design a course that can address the needs of both
+parties and the truth is I think you can. We did it at Stuy. Students
+come back with that having been their only course and talk of its
+usefulness and utility and students come back having used it to launch
+a tech career in later high school, college, and beyond. What we built
+isn't perfect and is for a particular population but as proof of
+concept it's convinced me that a single course for both can be done
+
+Another one of Mark's big points was taking CS into other subject
+areas. I love this and I love when he said (apologies if the quote's a
+little off) "They need things and we can build stuff" as a call to
+action to partner with and to develop the languages and tools needed
+to support a new vision of CS embedded in other subject areas.
+
+My thoughts here are that as a community we are ignoring the realities
+of K12 education. Mark mentioned Bootstrap World, a sprogram both he
+and I like very much. It is embedded in Algebra classes and uses CS in
+Racket (nee Scheme) to support learning said algebra. Mark noted that
+Racket looks like Algebra and that's one of the reasons Bootstrap
+works. Another fact often left out is that algebra is frequently
+taught either over two years or with a double period allocated to
+it. It is given more time than most classes and that allows teachers to experiment
+a bit more with instruction. Even if we develop more tools like
+Bootstrap that align themselves to teaching other subjects those
+subject teachers might not have the time to dedicate to the new
+tool. Why not? That's another thing Mark indirectly mentioned. At one
+point he said that we might have to "take a step back" first in terms
+of results and quite frankly, K12 teachers sometimes can't take that
+chance. In addition to not wanting to give their current students a
+worse experience even with the promise that future classes would get a
+better one they have to face the specter of high stakes testing. If
+I'm using a new CS tool in a history class and my student's test
+results go down, they might have to repeat the class and the teacher
+could put their license in jeopardy.
+
+In the end I loved just about everything Mark had to say but it still
+got me thinking about a lot and to me that's one of the hallmarks of a
+great talk. 
+
+* Blair Taylor - the controversy
+
+Blair Taylor gave the final keynote and this one had some controversy
+around it. Andy's blog post again summarizes things well. 
+
+My only take on the content is that the talk was more about
+Dr. Taylor's journey and less about Cyber Security (I hate it that
+it's now just being called "cyber") but that was fine. 
+
+What I want to talk about here is not so much the controversy over how
+some people took parts of Dr. Taylor's talk and the Q&A at the end but
+rather the fact that more and more recently I've felt that as a
+community we can't talk about difficult issues concerning gender,
+race, and the like. 
+
+I consider myself an ally to under represented and under served groups
+but have found myself in situations recently where unless I 100%
+parrot one side's extreme view I'm accused of sexism or racism at
+which point ANYTHING I say is treated as such. One is not allowed to
+see any nuance in what is a very complex topic. 
+
+At one point, the speaker made a joke. She prefaced it with something
+like "I'm going to tell this offensive joke" and that she could,
+presumably because she is a women. The joke fell flat (although I've
+told the story of the keynote to a few women in tech and they chuckled
+and said they actually kind of liked the joke). My take was that the
+speaker was setting the stage to maybe dive into a difficult
+conversation. My take was also that some members of the audience right
+then and there decide that the speaker was wrong about all things. 
+
+After the talk I was a bit more convinced that this was the case as I
+read a tweet stream explaining what happened that included the joke
+but none of the context for the reader to make an informed decision. 
+
+In the end, I felt that Dr. Taylor has honestly worked for under
+represented groups and while this might be unpopular, her pragmatism of
+sometimes swallowing an insult and "having a sense of humor" is the
+right thing to do. Unfortunately, Dr. Taylor misread the audience and that
+some people decided somewhere in her talk that even though she was
+working to empower women in her own way, it wasn't "my way" so it was
+wrong. 
+
+The situation was unfortunate and my big fear is that as a community
+we still have a long way to go before we can have these conversations
+and personally, as someone who considers themselves an ally of the
+undeserved I'm becoming more gun shy of partaking in discussions.
 
 
-https://medium.com/bits-and-behavior/sigcse-2019-trip-report-celebrating-50-years-b3460835a09a
-* Keynote Marie de Jardin
-- fillin
-- Vision is what you think and you do it.
-- Friedman saw in speaker "Someday you can be a dean provost etc" -
-  what if you don't want to follow the the traditional path
-- Design “launch” courses not “weeder” courses. (Of course, this is
-  just good teaching).
+
+* That's all for now.
+
+So, that's my take on the keynotes. Much more to come on the
+conference in future posts. 
 
 
 
-* Mark's keynote
-- If we teach CS in another subject can we teach enough?
-- they need things and we build stuff.
-- he said add to other areas like bootstrap does because it looks like
-  algebra
-  - he said we will take a step back before a step forward
-    - what about how we already don't teach proof and testing pressurs
-- partner with other departments - my comment out how about K12
-  teachers and difficulties
-
-
-* Blair Taylor
