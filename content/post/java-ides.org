@@ -289,6 +289,13 @@ purely subjective.
 The biggest difference I'm seeing out of the box is that JGrasp
 doesn't do completions so depending on where you fall with that you
 might want Jgrasp for none, Geany for some, and VSCode for all.
+
+*[EDIT]* JGrasp has a very cool visualizer built in that will animate
+ your proram. Here's a [[https://www.youtube.com/watch?v=wuQowTV0o6s][video]] of it in action. I'm going to have to
+ play with this a bit and see if it pushes JGrasp up over the top for
+ me. 
+
+
 *** Processing
 [[https://processing.org/]]
 
