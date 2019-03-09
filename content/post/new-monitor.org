@@ -1,0 +1,54 @@
+---
+title: New Monitor
+date: 2019-03-09T17:38:09-04:00
+tags: 
+- hardware
+- misc
+categories: 
+- misc
+draft: false
+--- 
+
+<style>
+.zimage {
+float:right;
+margin:15px 15px 15px 15px ;
+}
+</style>
+
+{{% figure class="zimage" src="/img/monitors.jpg"  width="250px" %}}
+
+Got a new monitor today and wanted to share.
+
+
+My old one was a 27" Hanns G. Actually, the old ones - my old set up
+was 2 of them side by side. When I started at Hunter, I was given a
+piddly small monitor so I tried to buy my own 27" Hanns G to bring in
+but they were no longer available. The 27" jobs available then were
+much more expensive so my work monitor situation has been sadly
+lacking.
+
+The 2 27" setup worked pretty well but then I read [[https://hackernoon.com/the-best-display-for-programming-8aad0be4227d][this]] post and did a
+little research. It turns out that Costco has a great deal on an [[https://www.costco.com/LG-43UD79-B-43%2522-Class-Ultra-HD-4K-IPS-Monitor.product.100378322.html][LG
+43" 4K]] monitor so I took the plunge. I also had to pick up a [[https://www.amazon.com/EVGA-GeForce-Passive-Graphics-02G-P4-6332-KR/dp/B073VPKV26/ref=sr_1_3?keywords=gt+1030&qid=1552171987&s=gateway&sr=8-3][cheap
+video card]] to drive it since I was just using onboard video and my
+setup is pretty old.
+
+It's HUGE. I love it but am now working to figure out how best to set
+things up. 
+
+The added bonus is that I can now bring one or both of the 27"
+monitors to work!!!!!!
+
+If you're on the  market for a new monitor I have to say that I'm
+really happy with the LG. Just wanted to share.
+
+
+
+
+
+
+
+"
+
+
