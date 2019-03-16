@@ -1219,3 +1219,10 @@ textarea {
 		font-size: .6875rem;
 	}
 }
+
+
+.z_right_image {
+    float:right;
+    margin:15px 15px 15px 15px ;
+}
+

@@ -9,14 +9,8 @@ categories:
 draft: false
 --- 
 
-<style>
-.zimage {
-float:right;
-margin:15px 15px 15px 15px ;
-}
-</style>
 
-{{% figure class="zimage" src="/img/monitors.jpg"  width="250px" %}}
+{{% figure class="z_right_image" src="/img/monitors.jpg"  width="250px" %}}
 
 Got a new monitor today and wanted to share.
 
