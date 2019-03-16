@@ -1,0 +1,88 @@
+---
+title: Adapting A Nifty Assignment
+date: 2019-03-16T08:20:47-04:00
+tags: 
+- SIGCSE
+- CS
+- csed
+categories: 
+- csed
+draft: false
+--- 
+
+
+{{% figure class="z_image_center" src="http://nifty.stanford.edu/2019/popyack-nifty-post-it/samples/animation/Animated_325.gif" %}}
+
+
+The [[http://nifty.stanford.edu/][Nifty Assignments]] session at SGICSE is always a popular one.
+
+Go to [[http://nifty.stanford.edu/][the site]] and you'll find links to all the assignments presented
+from 1999 to the present year.
+
+On the one hand, it's a great resource. On the other, the assignments
+vary in nifty-ness depending on one's personal taste. To me, there
+seemed to be a run of nifty assignments that were really just "take a
+generic assignment and fancy up the graphics" mixed in with one's that
+I found really cool. There's also no way to really tell if an
+assignment scratches your fancy without clicking through and reading
+all of them.
+
+I thought I'd talk about one of the assignments presented at this past
+SIGCSE. I don't think I'll have an opportunity to use it directly but
+I did find it pretty nifty. I also thought I'd share some tweaks I'd
+consider if I were to use it.
+
+The assignment is Jeffrey L. Popyack's [[http://nifty.stanford.edu/2019/popyack-nifty-post-it/][Post-It Pandemoniim]] assignment.
+
+At first glance, or rather at the start of the presentation it seemed
+a pretty lightweight assignment - kids make a pixelated image by
+putting colored postit notes on a grid. That's a simple, nice
+intro to 2D arrays but not all that nifty. The nifty part came when
+you drilled down into the details. 
+
+The assignment starts with a GIF image. First you process it  with a program
+provided hich produces sheets describing a 3x5 section of the overall
+image. These sheets are ultimately distributed to the students
+perofming the activity. This still doesn't sound tremendously deep but
+the activity also lets you talk about file formats with color
+palettes. The idea that instead of storing the rgb triple for each
+pixel you store an index into a palette of 256 colors that's also
+embedded into the file. This is a great way to introduce indirect
+lookups. Another feature Poplyack spoke about was compression. He
+mentioned the project lending itself to Run Length Encoding. The idea
+that if the image has a run of adjacent pixels of the same color,
+let's say 9 reds in a row, instead of encoding them as "RRRRRRRRR" you
+would use something like "9R." Add this all together and it's pretty
+nifty. 
+
+I did have a problem, though with the compression part. During the
+talk, Poplyack talked about Run Length Encoding which is pretty simple
+and approachable to beginners. GIF, however, as far as I know uses
+Lempel-Ziv compression which is much more complex.
+
+If I were to use this assignment, I'd probable make a few changes. I'm
+not sure which of the following I'd actually do but here's what I
+would think about.
+
+First I would consider using the [[https://en.wikipedia.org/wiki/Netpbm_format][NetPBM]] formats. Some of these formats
+are simple ASCII. You can see some examples on the [[https://en.wikipedia.org/wiki/Netpbm_format][Wikipedia]]
+page. This lets them go directly from the file to the poster. You also
+have binary encoded versions of the format which adds a layer of
+complexity if desired.
+
+The second thing I would consider is using [[https://en.wikipedia.org/wiki/PCX][PCX]] files instead of
+GIFs. PCX is a pretty simple format. It uses a color palette and also
+RLE compression so while it's no longer as well known as GIF I think
+it might present a more accessible way of getting to a format with Run
+Length Encoding and a palette.
+
+I'm not sure of the exact direction I'd go in with this assignment but
+these are the additional things I'd think about. It's pretty nifty as
+is but as with a lot of nifty assignments, part of the fun is
+customizing it for your situation.
+
+
+
+
+
+

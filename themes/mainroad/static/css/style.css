@@ -1221,8 +1221,21 @@ textarea {
 }
 
 
-.z_right_image {
+.z_image_right {
     float:right;
+    margin:15px 15px 15px 15px ;
+}
+
+.z_image_center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+		 
+}
+
+.z_image_left {
+    float:left;
     margin:15px 15px 15px 15px ;
 }
 

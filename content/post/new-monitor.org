@@ -10,7 +10,7 @@ draft: false
 --- 
 
 
-{{% figure class="z_right_image" src="/img/monitors.jpg"  width="250px" %}}
+{{% figure class="z_image_right" src="/img/monitors.jpg"  width="250px" %}}
 
 Got a new monitor today and wanted to share.
 
