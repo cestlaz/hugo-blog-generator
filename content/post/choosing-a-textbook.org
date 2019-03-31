@@ -1,0 +1,105 @@
+---
+title: Choosing A Textbook
+date: 2019-03-31T10:41:16-04:00
+tags:
+- CSed
+- pedagogy
+categories: 
+- CSed
+draft: false
+--- 
+
+Now and again there are requests on the assorted CS Education forums
+asking about which text book to use. These requests are usually for
+APCS-A. There are usually a number of "I'm very happy with ..."
+replies but I thought I'd take a bit of a deeper dive into what
+teachers might want to consider when evaluating a textbook.
+
+It was never an issue when I started as a math teacher. The choice was
+generally already made and the school had one book for each subject
+level. Sometimes there were two if the school was transitioning from
+one book to another.
+
+The older books were in general more rigorous and at the same time
+more terse. The newer ones were more accessible but never seemed to
+give enough guidance for kids to approach the harder
+problems on their own. 
+
+In general, most teachers I know used them primarily as a source for
+homework problems.
+
+In the CS world, it seems like we have more options. 
+
+When I first starting teaching APCS-AB at Stuy we had to buy new books
+as the enrollment had just shot up. There weren't many books that
+covered both the programming and the data structures but I found one
+nad it was a good one:
+
+{{% figure class="z_image_center" src="https://pictures.abebooks.com/isbn/9780314933072-uk.jpg" %}}
+
+It was both accessible and was thorough. It wasn't a great source of
+exercises but it was no worse than the other options.
+
+When we moved to C++ it was pretty easy as the same book was still
+available, albeit now in two parts:
+<div>
+{{% figure class="z_image_right" src="https://images-na.ssl-images-amazon.com/images/I/31pkP2rZj5L._BO1,204,203,200_.jpg" %}}
+
+{{% figure class="" width="150px"  src="https://images-na.ssl-images-amazon.com/images/I/51BS6W1XRRL._SX394_BO1,204,203,200_.jpg" %}}
+</div>
+When we went to Java we couldn't find a book that covered both the
+programming and the data structures but settled on this one: 
+
+
+{{% figure class="z_image_center" src="https://i.ebayimg.com/images/g/N4oAAOSw4bVTmzOV/s-l1600.jpg" %}}
+
+Nowadays, particularly with data structures no longer being in issue
+at most high schools there are many more choices and even back then
+there was more to consider than I'm sure I realized.
+
+When we recommend books to our colleagues we're probably not being as
+helpful as we can when we say "we like ....""
+
+It's important to think about how the text book is going to be
+used. 
+
+Some text books weave a project, toolkit, or theme throughout
+the chapters. That's great if the teacher's going to align the course
+closely with the textbook. If you don't however, it can make later
+chapters harder on the students. If the text book develops, let's say,
+a graphics library in the early chapters and the teacher doesn't do
+the same, when the later chapters rely on this library students will
+find themselves in a bit of trouble. 
+
+Some textbooks develop these large projects or libraries but do so as
+add ons to each chapter. For most teachers that's probably a better
+bet.
+
+
+
+Does the textbook have a rich set of problems, questions, and
+examples? I haven't found many that are great but then it's probably
+not as important these days with resources like [[https://codingbat.com/java][Coding Bat]]. 
+
+Does the textbook present material in a way similar to the teacher? If
+it is, is that a good thing or not? On the one hand, it might make the
+book easier for the student that's "getting it" in class and then the
+book and the class reinforce each other. On the other hand, if I'm not
+connecting with a student, it's probably better if the textbook takes
+on a different voice.
+
+There are more questions one should ask themselves when desciding on a
+new textbook but I think you get the idea.
+
+For my classes, I've never strictly used the textbook. It's more meant
+as a reference and alternate resource for the kids. For this reason, I
+like a book that is more on the tutorial side. I generally don't use
+them for assignments but if the book has good ones, so much the
+better. As we cover a unit in class, I want the book to be available
+for the student who might need extra support. Nowadays, with so many
+free resources out there I try to leverage them as well. For my
+beginners at Hunter, I've been using [[https://automatetheboringstuff.com/][this]] and am pretty happy with it.
+
+So, what am I missing? What else should we be considering more so than
+just "I like the book."
+"
