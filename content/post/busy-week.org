@@ -1,0 +1,93 @@
+---
+title: Busy Week
+date: 2019-04-06T07:32:49-04:00
+tags: 
+- misc
+categories: 
+- misc
+draft: false
+--- 
+
+I'm glad it's Saturday morning. It's been a busy week. It looks like
+there's a couple more to plough through but hopefully then I can catch
+my breath over spring break.
+
+Why so busy? It's the same old story - you've got all those projects
+that you're waiting on and everything comes in at the same time.
+
+To start off, it's college decision season. The high school seniors
+all know their options and are deciding where to go. While we're still
+considering some applications to my Daedalus honors CS program, most
+of the offers have gone out or will go out within a couple of days.
+
+I started the week with an info session about the program. eBay was
+nice enough to host. I've held this session there now for the past
+three years. First time, I had about 20 attendees and am not sure if
+it made a difference in any high school senior's decision. Last year
+we had about 40 in the room but this year we reached capacity
+at 65. Each senior was allowed to brign a +1. Some didn't, many
+brought a parent but a few brought a friend. At the end of the
+session, most of the friends sought me out and asked if it was too
+late to apply. I told them where to fill everything out but
+unfortunately I didn't know if I would be allowed to consider them or
+not. 
+
+I also had about 10 of my current students at the event. This was the
+first time I was able to have that many. First time, I only had a
+handful in the program and last year we first had to reschedule due to
+weather and most of my students had class on the rain date. Having a
+bunch of current students there to mix and talk with the applicants
+was proabably the most important part of the evening. 
+
+At the end, the high schoolers had left and the students and I were
+BSing along with Paul, our host when Paul offered a tour and then went
+into an impromptu tech talk with the kids. I really
+wanted to get home to bed but the kids were loving it so I let it
+ride.
+
+All in all it was a great night for my current students and I'm hoping
+also for the high schoolers but it was a draining way to start the
+week.
+
+We also had a big CUNY2X event last week on Thursday evening. Around
+50 students interviewing with fifteen or so companies for summer
+internships. We've had this event three semesters in a row now. It's a
+long evening but at the end of the day lots of students get both
+interviewing experience as well as offers. 
+
+Things also started to move this past week on our CS Education
+programs but not in a good way. Rather than approving our programs
+they came back with a bunch of questions. It's rather frustrating
+since we cover everything they want and then some but they don't seem
+to be seeing it. For example, we've got a big chunk of our topics
+course where we'll essentially cover full stack development light and
+we cover way in excess of anything in NY's forthcoming standards on
+networks and systems not to mention things like cybersecurity,
+accessibility, UX and more in that unit but the state said they don't see
+any evidence to that effect. So I had too start to take our syllabi and bloat
+them with excruciating detail. Something I'll be doing over the
+weekend and into next week.
+
+To add to the week I had to pack. I've been pushing for an office move
+for about two years. When I came to Hunter they placed me physically
+in the Ed school. It made sense - I'm officially appointed there but
+I've done most of my work so far with CS. Even when my CSED programs
+start, many of the students will be grad students or working teachers
+so they won't be on campus much except for when they teach. On the
+other hand the CS undergrads are around all the time. Well, Monday I'm
+moving to a new office right by the all the CS action. 
+
+It's also been a busy semester for my course planning. I'm teaching
+data structures at Hunter for the first time. I've taught it many
+times before but that was to a known audience with a different
+toolset - Java instead of C++. To be honest, I'm not particularly
+happy with how I've been doing. I don't think I've been terrible but
+I've left plenty of classes feeling I've missed my marks. I know
+that it's something I'll have figured out and next time around I'll be
+back up to speed but it's made planning and reflection more of a time
+sink and it always bothers me when I don't feel my students are
+getting my best.
+
+So, it's been a busy week in a busy semester. For the most part, good
+things happening but I'm really looking forward to spring break.
+
