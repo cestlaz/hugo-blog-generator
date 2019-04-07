@@ -1,0 +1,102 @@
+---
+title: Implicit Curricula
+date: 2019-04-07T16:23:43-04:00
+tags: 
+- cseducation
+- curriculum 
+categories: 
+- CSeducation
+draft: false
+--- 
+
+The state got back to us the other week on our CSEd programs. Still no
+approval. 
+
+One of the requirements is that we have 12 graduate CS
+credits in our program and that in those courses these five major
+areas:
+
+- Algorithms and programming
+- Computing systems
+- Data and analysis
+- Impacts of computing
+- Networks and the internet
+
+as described in the [[https://k12cs.org/][K12 CS Framework]]. Even though many of the items
+described in the framework fit better in an education side course NY
+is requiring that it's all covered in CS courses offered by a CS
+department.  The state has more information [[http://www.nysed.gov/college-university-evaluation/computer-science-certificate-coursework-guidance][here]].
+
+To be honest, I'm not a fan of the K12 Framework and others have also
+voiced their concerns about it. Ultimately I think many states will
+use it as a certification guide and it will open the door to
+substandard preservice programs that will certify teachers lacking in
+CS content knowledge.
+
+Still, the programs we designed at Hunter more than covered all the
+required bases. 
+
+So, why did the state come back asking for clarification? Because not
+everything was explicit in our sample syllabi. As we all know, Syllabi
+are usually rather terse documents with just a couple of lines per
+topic, maybe also an assignment and some readings. If they contained
+all the richness of all the lessons they'd be volumes rather than the
+usual page or two. So, to provide the requested clarifications I've been spending
+the weekend breaking them out to show more detail.
+
+This got me thinking about the concept of implicit items in 
+curricula. Much of the richness of a lesson comes not from the
+description of the topic in the syllabus but also from related and
+ancillary items that aren't specifically listed - implicit items. One
+example I wrote about before is [[https://cestlaz.github.io/posts/2010-01-10-towers-of-hanoi.html/][the Towers of Hanoi]]. When I teach it,
+on the one hand, it's a lesson about a recursive solution to a problem
+but on the other hand there's all sorts of other richness to the
+lesson. We talk about
+
+ - Proof
+ - Run time
+ - Hard problems
+ - Moores law and the limits f computing power
+ - Alternate approaches to problems
+
+None of which is in a typical Towers of Hanoi lesson plan nor in most
+text books yet to me they're the most important, interesting parts of
+the lesson. 
+
+Another example is when I talk about changing the data structure
+rather than the code when I teach [[https://cestlaz.github.io/posts/2014-02-26-change-the-data/][search]]. 
+
+In our Ed proposals one such place was when we move from using an
+online IDE to a local development environment and discuss all sorts of ramifications
+another is when we create a web application in our topics class and
+things like authentication and security are discussed.
+
+I spent most of this weekend going through our proposals and  making
+sure it was clear everywhere we covered something relating to those "5
+areas" of computer science.
+
+The unfortunate thing is that of curricular material and  knowledge
+isn't easy to collect and share with others.
+
+
+I and others have written about lesson ideas on our blogs but there's
+no searchable, shareable, discoverable  place for either basic lesson
+material or these rich implicit items. I wrote about [[https://www.engage-csedu.org/][EngageCS]] and
+[[http://nifty.stanford.edu/][Nifty Assignments]] [[https://cestlaz.github.io/post/adapting-a-nifty-assignment/][before]] but they're really core lesson ideas and
+aren't really easy to find grab and use.
+
+I guess the closest project moving in this direction is probably
+[[https://cssplice-cm.github.io/][CSSplice Curriculum Materials Working Group]] that I found out about
+from [[https://twitter.com/AustinCorgiBart][Cory Bart]] at this past SIGCSE.
+
+Check out the project link and if you've got a great lesson with lots
+of implicit learnings going on, please share it in the comments.
+
+
+
+
+
+
+
+
+
