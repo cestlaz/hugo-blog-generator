@@ -36,19 +36,31 @@ maze.
 
 We represented a state as a board with the knight's current position and where it's been. An easy way to do this is to use an array of ints. So we have an empty 5x5 board:
 
+<verbatim>
 0 0 0 0 0
+
 0 0 0 0 0
+
 0 0 0 0 0
+
 0 0 0 0 0
+
 0 0 0 0 0
+</verbatim>
 
 Or a board after a few moves:
 
+<verbatim>
 1 0 0 0 0
+
 4 0 2 0 0
+
 0 0 5 0 0
+
 0 3 0 0 6
+
 0 0 0 0 0
+</verbatim>
 
 The kids saw three base cases:
 
@@ -62,15 +74,25 @@ at our maze code, we never checked bounds there. Why not. Well it
 turns out that our maze had wall all around. It was stored in a 2D
 array but the entire outer edge was wall. Why not do the same for the chess board:
 
+<verbatim>
 -1 -1 -1 -1 -1 -1 -1 -1 -1
+
 -1 -1 -1 -1 -1 -1 -1 -1 -1
+
 -1 -1  0  0  0  0  0 -1 -1
+
 -1 -1  0  0  0  0  0 -1 -1
+
 -1 -1  0  0  0  0  0 -1 -1
+
 -1 -1  0  0  0  0  0 -1 -1
+
 -1 -1  0  0  0  0  0 -1 -1
+
 -1 -1 -1 -1 -1 -1 -1 -1 -1
+
 -1 -1 -1 -1 -1 -1 -1 -1 -1
+</verbatim>
 
 Now, as long as we start on the board, if the Knight jumps off the
 edge, it will end on a -1 square and backtrack. By modifying our data
