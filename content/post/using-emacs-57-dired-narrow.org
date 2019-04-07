@@ -1,0 +1,32 @@
+---
+title: Using Emacs 57 Dired Narrow
+date: 2019-04-07T11:57:57-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+One of Emacs power features that I've never quite gotten into is
+[[https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html][dired]], the Directory Editor. I've already done a [[https://cestlaz.github.io/posts/using-emacs-38-dired/][video on the package]].
+It's really cool and I do use it at times but I still haven't started
+using it for my day to day.
+
+Well, I just started using a couple of packages that might change
+this. They're part of a set of dired addons that you can check out at the
+[[https://github.com/Fuco1/dired-hacks/tree/2c1234592aee91dcd9401bcd67213e6a4a464fd9][dired hacks]] page. The specific ones I'm talkign about are
+~dired-subtree~ and ~dired-narrow~. ~dired-subtree~ is cool but it's
+not the game changer. ~dired-narrow~ is. One of my issues with
+dired is that I can't see all the files I'm operating on easily at the
+same time. If I'm marking a large number of files to delete I want to
+be able to see all of them at once so I'm sure I'm not making a
+mistake. ~dired-narrow~ lets me easily do this.
+
+Check out the video to see the details:
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pZzDayi5lRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

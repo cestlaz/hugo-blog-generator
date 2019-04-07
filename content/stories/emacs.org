@@ -122,3 +122,4 @@ disable_comments = true
 ** [[/post/using-emacs-54-org-tables][Video 54 - Org Tables]]
 ** [[/post/using-emacs-55-irony-completions][Video 55 - Irony Completions]]
 ** [[/post/using-emacs-56-dictionaries][Video 56 - Dictionaries]]
+** [[/post/using-emacs-57-dired-narrow][Video 57 - Dired Narrow]]
