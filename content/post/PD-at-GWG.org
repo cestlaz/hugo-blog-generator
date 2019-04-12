@@ -1,0 +1,80 @@
+---
+title: CS Teacher PD at Grow with Google
+date: 2019-04-12T08:12:54-04:00
+tags: 
+- csforall
+- csed
+- cseducation
+categories: 
+- csed
+draft: false
+--- 
+
+Yesterday we held our third monthle Professional Development session
+for teachers of "APCS-A, Similar, and Beyond." It's great to see that
+we're starting to form a core of a community of CS teachers teaching
+some of the more advanced classes as there is a core group that keeps
+coming back for more. Even better is the fact that we're gaining a
+couple of new teachers at each session.
+
+Last time, we were at [[https://www.digitalocean.com/][Digital Ocean]], a cloud provide that has been
+very involved in education since their creation  and has been a
+tremendous boon to my education projects over the years. 
+
+This time we were hosted at [[https://events.withgoogle.com/grow-with-google-in-nyc/#content][Grow with Google]]'s new New York City
+space. It's a great space on the first two floors of Google's main
+building in Chelsea - 111 8th avenue. GWG looks like it will be a
+terrific resource for New Yorkers with workshops ranging from coding,
+resume writing, digital skills, and more. They also have offerings for
+both kids and adults. 
+
+They were also great hosts, providing a great room for us to run our
+session as well as a nice dinner to keep the teachers fueled.
+
+As usual, we had two major themes for our PD. First the pedagogy. My
+former coleage Topher started with a pair programming workshop. 
+
+{{% figure class="z_image_center" src="/img/gwg-topher.jpg" %}}
+
+Pair programming is a pretty common technique but it's deceptively
+difficult to do well. It's not as simple as "work in groups of two"
+and it can be a challenge to make sure both students are engaged and
+progressing while using this practice.
+
+Topher ran the group through a pair programming exercise and led a
+discussion as to some of the strategies he uses and some of the
+challenges he's face. I found it very helpful. Even small suggestions
+like when he has each pair draw their "team flag" on a piece of paper
+which they'll hold up if they want to ask for help. In the discussion
+after the workshop I mentioned that I've had more success with pair
+programming when I relate it to a series of code review lessons I've
+been doing and that if people were interested I'd talk about those
+lessons at a future session.
+
+Then we had dinner after which I did the content piece.
+
+{{% figure class="z_image_center" src="/img/gwg-z.jpg" %}}
+
+We first look at a bit of [[https://ccl.northwestern.edu/netlogo/][NetLogo]] for image procesing mostly so I
+could introduce the participants to NetLogo since it's really an
+underused, underappreciated environment. Then we talked a bit about
+the APCS-A image lab. This led to the meat of the content piece. We
+took a look at [[https://www.youtube.com/watch?v=6NcIJXTlugc&list=WL&index=44&t=0s][this video]] on seam carving. When I first saw it, I was
+blown away. Now it's an old technique but I'm still blown away by how
+it can be used as both motivation and a a platform to teach some
+dynamic programming. We then did a brief overview behind the basic
+ideas of dynamic programming and then developed the dynamic
+programming algorith that's used in Seam Carving. I'll probably write
+all of this up in more detail in a future post.
+
+Overall it was a great event. We have one more PD scheduled for May
+and then we'll start it up again in the Fall.
+
+It's great to have amazing partners like Google and Digital Ocean to
+help support our CS teachers and I'm looking forward to work with both
+of them for years to come.
+
+
+
+
+
