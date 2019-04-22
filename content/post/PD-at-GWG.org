@@ -10,7 +10,7 @@ categories:
 draft: false
 --- 
 
-Yesterday we held our third monthle Professional Development session
+Yesterday we held our third monthly Professional Development session
 for teachers of "APCS-A, Similar, and Beyond." It's great to see that
 we're starting to form a core of a community of CS teachers teaching
 some of the more advanced classes as there is a core group that keeps
@@ -32,7 +32,7 @@ They were also great hosts, providing a great room for us to run our
 session as well as a nice dinner to keep the teachers fueled.
 
 As usual, we had two major themes for our PD. First the pedagogy. My
-former coleage Topher started with a pair programming workshop. 
+former colleage Topher started with a pair programming workshop. 
 
 {{% figure class="z_image_center" src="/img/gwg-topher.jpg" %}}
 

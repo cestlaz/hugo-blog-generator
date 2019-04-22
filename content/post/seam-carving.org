@@ -1,0 +1,182 @@
+---
+title: Seam Carving and Dynamic Programming
+date: 2019-04-22T13:51:52-04:00
+tags: 
+- algorithms
+- cs 
+- csed
+categories: 
+- algorithms
+draft: false
+--- 
+
+It's spring break and for me that's always been a good time to explore
+some new ideas.
+
+Here's one that some of you might like, particularly if you're
+teaching APCS-A or something similar. 
+
+Many APCS-A teachers do a unit on image processing using the [[https://docs.google.com/viewer?url=http%253A%252F%252Fmedia.collegeboard.com%252FdigitalServices%252Fpdf%252Fap%252Fpicture-lab-studentguide.pdf%0A][picture
+lab]] ([[http://www.apcs.mathorama.com/index.php?n=Main.PictureLab][alternate resource]]). Image processing is a nice platform to
+explore two dimensional arrays. You basically use a 2D array of pixels
+(points) to represent an image. You can just use a 2D array of ints
+and store 0-255 at each location for a grayscale image and three ints
+per pixel for red, green, blue. For this you can just use a simple
+2D array of some color class - I think there's even one built into
+Java that you can use.
+
+I like to use the PPM format to save and later reload the images. PPM
+is a simple text format. It starts with a header, then an optional
+comment (starting with #), the width and height (4x4 in the example
+below), then the maximum color number. Here's an example:
+
+#+BEGIN_EXAMPLE
+P3
+# feep.ppm
+4 4
+15
+ 0  0  0    0  0  0    0  0  0   15  0 15
+ 0  0  0    0 15  7    0  0  0    0  0  0
+ 0  0  0    0  0  0    0 15  7    0  0  0
+15  0 15    0  0  0    0  0  0    0  0  0
+#+END_EXAMPLE
+
+You can even cut and paste the above into a file and view it with an
+image viewer. 
+
+You can find the full format specification [[http://netpbm.sourceforge.net/doc/ppm.html%0A][here]] ([[https://en.wikipedia.org/wiki/Netpbm_format][alternate resource]]). 
+
+The picture lab has a bunch of interesting exercise ideas but if
+you're looking for something "next level" check this out:
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/6NcIJXTlugc" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+
+I don't remember seam carving. It's no longer a new cutting edge
+technique but it still blows me away. It's also a really cool project
+for more advanced students for two reasons: one, it's not a toy
+assignment - it's from real research and two, it contains a very
+approachable example of dynamic programming which I'll talk about in a
+bit.
+
+If you watch the video, there are two pieces that can sound
+intimidating. One is the "dynamic programming algorithm." The other is
+when they talk about the "gradient magnitude." 
+
+Gradient magnitude. That sounds pretty hard. Actually, it could be
+worse. When I first starting looking at the basics of image processing
+it was described as "the derivative of the pixels." *The dirivative of
+the pixels????* I have to know calculus for this?????? Not really. I
+hate it when they use big words for simple ideas. All their really
+talking about is the difference between the color of neighboring
+pixels. That is, how much the color changes from one pixel to the
+next. Let's say you have a greyscale image (or have converted an image
+to greyscale by averaging the red green and blue values), if you have
+a vertical row of pixels with all the values of, let's say 200 and the
+row right next to it is also of values 200, then the two lines are of
+the same color - there is no difference. If one pixel has a value of
+200 and its neighbor has a value of 50, it changes quite a lot.
+
+The APCS-A picture lab describes a simple way to calculate this in
+exercise 9 (linked above). You can also just do a search on "edge
+detection tutorial" or "sobol edge detection tutorial" or something
+similar.
+
+For Seam Carving, you have to find a sequence of pixels from one side
+of the image to the other where the sum off all the differences is the
+lowest. This is where the dynamic programming comes in.
+
+[[https://en.wikipedia.org/wiki/Dynamic_programming][Dynamic Programming]] is a technique that, in basic terms takes a
+problem that decomposes into subproblems and you store the optimal
+subproblem solution rather than recalculating it.
+
+Probably the easiest example is Fibonacci numbers. You can generate
+Fibonacci numbers recursively using something like this:
+
+#+BEGIN_SRC python
+  def fib(n):
+      if n<=2:
+          return 1
+      else:
+          return fib(n-1)+fib(n-2)
+#+END_SRC
+
+It's very simple but it gets very slow very fast. That's because it
+keeps recalculating the same subproblems over and over and over.
+
+You can "fix" this by creating a list of previously found Fibonacci 
+numbers and just return them rather than recalculating:
+
+#+BEGIN_SRC python
+  fibs = [0]*1000 # make room for 1000 fib numbers
+
+  def fib(n):
+      if fibs[n] != 0:
+          # we already have the answer, just return it
+          return fibs[n]
+      else:
+          # otherwise, calculate it, store it, return it
+          f = fib(n-1)+fib(n-2)
+          fibs[n]=f
+          return f
+#+END_SRC
+
+and that's a dynamic programming solution for Fibonacci numbers,
+specifically using a technique known as [[https://en.wikipedia.org/wiki/Memoization][memoization]].  
+
+How does this apply to finding the proper seam to remove? The one with
+the lowest total change? 
+
+First, go through the image array and build a second 2D array where
+each element contains the pixels "gradient magnitude" or change using
+either the method described in task 9 of the picture lab or
+elsewhere. 
+
+For the first row, the sum of each pixels path so far is just the
+array element.
+
+For each successive row, the value of any pixel is going to be it's
+value plus one of the values abov it, either up left, up center, or up
+right. Specifically, the elements new value will be it's value + the
+smallest of the above three.
+
+For example, given this array representing the color changes:
+
+{{% figure class="z_image_center" src="/img/seam-mat1.png" %}}
+
+
+When calculating the second item in the second row, you'll consider
+the three values above it:
+
+{{% figure class="z_image_center" src="/img/seam-mat2.png" %}}
+
+The smallest is 0 so that 2 remains a 2. If we do this for every
+element in the second row we get the following:
+
+
+{{% figure class="z_image_center" src="/img/seam-mat3.png" %}}
+
+The green boxes added a 0 from the line above but the yellow ones
+added the smallest non zero value from the above  row. Note that the
+edges just considered the two values above them and didn't wrap.
+
+
+Working the rest of the way through, you get this final array:
+
+{{% figure class="z_image_center" src="/img/seam-mat4.png" %}}
+
+You can now easily identify the best seam to remove by finding the
+smallest value in the bottom row and working your way up to the top.
+
+All together this is very doable by an advanced APCS-A student and the
+results are very cool, particularly if you do it in an interactive
+environment like processing.
+
+So, check out seam carving. I'll leave you with one more link to a
+longer presentation on the topic: 
+
+[[https://www.youtube.com/watch?v=ZBtXl3EuU14][https://www.youtube.com/watch?v=ZBtXl3EuU14]]
+
