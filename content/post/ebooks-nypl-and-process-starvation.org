@@ -1,0 +1,84 @@
+---
+title: Ebooks, Nypl and Process Starvation
+date: 2019-04-26T12:04:45-04:00
+tags: 
+- misc
+categories: 
+- misc
+draft: false
+--- 
+
+I'm a big fan of E Ink e-readers. I had one a number of years ago. An [[https://www.mobiletechreview.com/gadgets/Astak-EZ-Reader.htm][Aztak EZ
+Reader]]. It was great. Small, cheap, and independent - that is, not
+tied in to Amazon or Barnes and Nobles and I found myself doing a lot
+more recreational reading with it. I still preferred paper for
+technical books but for easy reading  there was nothing like having
+tons of reading options always available.
+
+Alas it sadly committed suicide by diving from my hand onto the hard
+stone floor of the NY Post office as I waited on the passport line. I
+tried other e-readers since then but found E ink so much easier on the
+eyes. Not wanting to do my usual "schlepp all the books I might want
+to read" on vacation a few years ago, I bit the bullet and bought a
+kindle. 
+
+When I originally had the EZ-Reader I loaded it with mostly public
+domain books. With the Kindle, I have purchased a small number of
+books from Amazon to go along with all sorts of goodies from [[https://www.gutenberg.org/][Project
+Gutenberg]] but there's also been one HUGE change in the landscape. The
+[[https://nypl.overdrive.com/][New York Public Library]].  Public libraries are some of our greatest
+public goods and it's unfortunate that they're perpetually
+underfunded. Where else can a kid or indeed anyone go on any given day
+and spend time indoors with no expectation of spending money. What's
+more in addition to books and now movies and sometimes games they
+provide all manner of community services and programs to and for the
+public. In terms of e-books though, you can use the NYPL without
+leaving the comfort of your home.
+
+NYPL has a web site where you can search for and take out ebooks and
+have them sent right to your kindle for 28 days at a time. If they
+don't have enough copies - something of a ludicrous point for a
+digital resource, you can place it on hold. If it's close to being
+due, you can renew it unless someone else is on the queue at which
+point the renewal request becomes a hold request. It's all rather
+seamless.
+
+My reading habits now regularly include taking out books from the
+library and that's led to an interesting resource issue - process
+starvation.
+
+In case there are any on CS people reading this, everything running on
+your computer at any point in time is a process. Each process gets a
+small slice of computer time and it appears that the computer is
+running everything at once. Some processes have a higher priority and
+can get a bigger slice of time. On older "batch processing" systems,
+high priority processes or jobs would run before lower priority
+ones. For example, in a university setting, jobs submitted by
+professors would be run before jobs submitted by grad students before
+those submitted by undergrads. 
+
+This of course could lead to some processes never getting run if
+higher priority jobs keep getting submitted. There's an apocryphal
+story about a computer at MIT that had a job submitted in 1967 but
+still hadn't run in 1973.
+
+So what's happening to me? I have a number of free books just sitting
+on my kindle as well as books that I've purchased. My friend Paul said
+I had to read "Algorithms to Live By" so that's thre. So is "Captains
+Courageous" because I think I want to read it. There are also a bunch of
+others. The trouble is, I keep seeing books that I want to read in the
+library and I only have a 28 day window to read them, Most recently it
+was "Sapiens" but before that it was "Turn Right at Machi Picchu" and
+I read that right after "How Chance and Stupidity Have Changed
+History," "The Witch of Lime Street." and "The Man with the Sawed-Off
+Leg and Other Tales of a New York City Block." As soon as, or before I
+finish one, there's a new one on hold and then on loan and the books I
+own keep getting pushed back.
+
+Operating Systems usually implement process aging. If a job isn't
+handled fdor a long period of time its priority is increased. This
+means that eventually it will be run. I guess I could do that and just
+force myself to not read the next hot library book but I don't kow if
+I have that in me.
+
+
