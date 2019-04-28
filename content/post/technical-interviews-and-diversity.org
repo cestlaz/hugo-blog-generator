@@ -1,0 +1,124 @@
+---
+title: On Technical Interviews And Diversity
+date: 2019-04-28T11:27:46-04:00
+tags: 
+- tech
+- interviews
+- CS
+categories: 
+- NY Tech
+draft: true
+--- 
+
+I recently stumbled upon [[https://twitter.com/laurieontech/with_replies][Laurie Barth]] on Twitter and noticed a couple
+of tweets about tech interviews and the hiring process, something I've
+been thinking about recently.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Solid rant. I
+think the teach to the programming test market already exists. And
+it’s why interviewers who subscribe to these tactics get upset if a
+candidate admits they’ve seen the problem previously. Because it ruins
+the illusion that this is revealing how candidates think. <a
+href="https://t.co/DpHgQx0TST">https://t.co/DpHgQx0TST</a></p>&mdash;
+Laurie (@laurieontech) <a
+href="https://twitter.com/laurieontech/status/1121879805862064131?ref_src=twsrc%5Etfw">April
+26, 2019</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js"
+charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of the
+things I often think about is feeling like I got lucky making it
+through some of my interviews...and then killed it on the job. We know
+interviews don’t match the on the job skills, it’s about time we did
+something about it. <a
+href="https://t.co/xmUXkGvtoA">https://t.co/xmUXkGvtoA</a></p>&mdash;
+Laurie (@laurieontech) <a
+href="https://twitter.com/laurieontech/status/1122496300912717825?ref_src=twsrc%5Etfw">April
+28, 2019</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js"
+charset="utf-8"></script>
+
+I guess I've been thinking about it because I'm teaching a section of
+Data Structures which, along with Algorithms, provides the base
+knowledge you need to have a shot at the typical "Google Style"
+technical interview.
+
+I say "base knowledge" because just completing those two classes
+doesn't really prepare you. It gives you the building blocks but you
+really have to prep specifically for the types of questions they might
+give you. Unfortunately, for most kids it involves a whole lot of
+rejection and failure before you start getting offers. 
+
+You might get a problem that has a bad brute force solution and during
+the relatively short interview, devoid of your typical resources and
+comforts you have to turn it into a much more efficient one. The
+argument is that the interviewer is really trying to see how you think
+about a problem but having spoken to many, many tech employees who do these
+interviews that's a specious argument at best. It's really a test of
+"who has seen the problem or something similar before but can fake
+that they haven't the best." 
+
+While it's true that you will get some candidates who can solve the
+problems on the spot you're going to miss out on a whole bunch of
+great candidates who just don't do well on that "Google style" of
+interview. At the same time we keep hearing that, as Laurie tweeted,
+the skills required on the job don't match the ones needed to pass the
+interview. 
+
+This doesn't really matter to the big, hot companies. The Googles and
+Facebooks of the world. So many students coming out of college want to
+work for them that they can afford to miss on tons of great candidates
+so long as they hit on enough good ones. 
+
+I put the word "diversity" in the title of this post and you might
+wonder what I was going for there. So far, I'm just ranting about the
+interview process. This becomes a diversity and privilige issue
+because the process favors "elite" CS schools with established CS
+cultures. I'm not talking about the fact that they pre-select high
+performing candidates nor the fact that all the tech companies go to
+those schools, sometimes exclusively for recruiting. I'm talking about
+how the school's student tech culture helps prepare the students for
+the technical interview. 
+
+From my discussions with many graduates from many of these institutions, while
+classes don't prep for interviews, students at these CS schools
+regularly share interview questions. Friends and classmates talk about
+the questions they got and help each other out with practice
+sessions - formal or otherwise. I'm certainly not faulting students
+for doing this but it's another known  secret. We all know that the
+more tech interview questions you see the better prepared you'll be -
+both because you'll get better at that specific problem solving skill
+and also because you'll likely get interview questions that are
+already in your library. It's that latter part that makes the whole
+process very nod, nod, wink wink. 
+
+Nothing stops other students at other schools from doing similar but
+it's much harder at a commuter school where kids live off campus and
+have to work part time jobs. It's the reason I'm fighting so hard for
+space and working on building a postitive tech culture at Hunter. Not
+specifically for interviews but to help my students become a support
+network for each other.
+
+I'll finish by noting that while this "technical interview" process
+might more or less work for the big boys - the hot company du jour, it
+probably doesn't for eveyrone else. A buddy of mine was talking to me
+about the process he uses at his much smaller company. He noted that
+he could use the "Google interview" process for his future employees
+but since his company was much smaller and lesser known, people who
+did well would probably also get offers from the big boys and go work
+for them. His goal was to come up with a process that catches the
+great candidates that *don't* do well on the Google interview to try
+to catch the great talent that doesn't do well on today's technical
+interviews. A number of smaller companies seem to be starting to do
+this and from the few I've spoken to it seems to be going well.
+
+I get that big companies are machines and look for uniformity in all
+processes including the interview process but there has to be a
+better, more human way to evaluate talent than a one size fits all
+process where the norm is failure - particularly when it seldom
+relates to actual skills needed on the job.
+
+
+ 
+
