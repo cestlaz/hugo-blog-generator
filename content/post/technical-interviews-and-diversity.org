@@ -6,7 +6,7 @@ tags:
 - interviews
 - CS
 categories: 
-- NY Tech
+- NYTech
 draft: true
 --- 
 
