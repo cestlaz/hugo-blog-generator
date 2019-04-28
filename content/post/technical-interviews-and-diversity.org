@@ -6,8 +6,8 @@ tags:
 - interviews
 - CS
 categories: 
-- NYTech
-draft: true
+- NY Tech
+draft: false
 --- 
 
 I recently stumbled upon [[https://twitter.com/laurieontech/with_replies][Laurie Barth]] on Twitter and noticed a couple
