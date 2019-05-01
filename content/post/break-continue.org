@@ -1,0 +1,211 @@
+---
+title: Give me a break (and a continue)
+date: 2019-05-01T08:39:41-04:00
+tags: 
+- cs
+- programming
+- csed
+- coding
+- software engineering
+categories:
+- programming 
+draft: false
+--- 
+
+#+BEGIN_QUOTE
+What can I do to discourage my students from using the "break"
+statement?
+#+END_QUOTE
+
+That was more or less the gist of the comment and it elicited some
+good responses. This time the conversation was on Facebook but I've
+seen this one and participated in it many times before. I never liked
+the question when presented as a "how can I stop them" one.  I equally
+dislike when the offered advice is basically "never use break no
+matter what" or something similar. When writing code the best advice
+is rarely to never or always do something. The question should really
+be "when is it appropriate for my students to use a break statement
+and how can I steer them  towards using it correctly." The answer, of
+course is "it depends."
+
+For those unfamiliar with the statements, ~break~ jumps to the end and
+exits the loop or switch statement that encloses it. The ~continue~
+statement jumps up to the next iteration of its enclosing loop. I'll
+show some examples below.
+
+It's true that you never *need* to use break but in my opinion, if
+used correctly it can create clearer code. Let's look at a related
+situation. Suppose you write a function to find and return some item
+from  a data set (in pseudocode):
+
+#+BEGIN_SRC java
+{{< highlight "java" >}}
+  itemtype search(int id){
+      intemtype t;
+      boolean found = false;
+      for (i in dataset){
+          if (dataset[i].id == id){
+              t = dataset[i];
+              found = true;
+          }
+      }
+      if (found){
+          return t;
+      } else {
+          return notfounddataitemstuff;
+      }
+  }
+{{< /highlight >}}
+#+END_SRC
+
+You could tighten it up a bit but there are two things that I don't
+like about the above solution. First, it goes through the entire data
+set even if the item you're searching for is near the beginning. You
+could fix that by putting in a more complex loop boolean:
+
+{{< highlight "java" >}}
+for (i=0; i < numitems && !found ; i++) ...
+{{</highlight>}}
+
+Second. you've got the conditional after the loop. I find the
+following much clearer:
+
+#+BEGIN_SRC java
+  {{< highlight "java" >}}
+    itemtype search(int id){
+      
+        for (i in dataset){
+            if (dataset[i].id == id){
+                return dataset[i];
+            }
+        }
+        return notfounddataitemstuff;
+    }
+  {{< /highlight >}}
+#+END_SRC
+
+To me this is perfectly clear. Look for an item, if and when we find
+it, we're done so let's get out of here. If not, the loop finishes and
+we return the not found stuff at the end. It's clean, easy to
+understand, and potentially a little faster.
+
+You have a similar situation with ~break~. Without it you might have
+code like this:
+
+#+BEGIN_SRC java
+  {{< highlight "java" >}}
+  boolean found=false;
+  for (i=0; i < numitems && !found; i++){
+      if (dataset[i].id == id){
+          process dataset[i];
+          found = true;
+      }
+  }
+
+  {{< /highlight >}}
+#+END_SRC
+
+And with:
+
+#+BEGIN_SRC java
+  {{< highlight "java" >}}
+        for (i in dataset){
+            if (dataset[i].id == id){
+                process dataset[i];
+                break;
+            }
+        }
+
+  {{< /highlight >}}
+#+END_SRC
+
+Not significantly different. 
+
+People who don't like the break statement usually adhere to a very
+strict interpretation of structured programming - one entry point, one
+exit point but I'd argue that break (and continue) are not like
+arbitrary jumps. They're well defined and don't introduce spaghetti
+code. They either specifically exit a bounding language construct or
+jump to the next iteration. Actually, now that I think about it,
+~exceptions~ can be used in a way that mucks with clear code in a much
+more dangerous way than break and continue can.
+
+Here's an example with continue:
+
+#+BEGIN_SRC java
+    {{< highlight "java" >}}
+          for (i in dataset){
+
+              // do the processing that we do for all items
+	    
+              if (i.value < 0)
+                  continue; // don't do additional procesing for negatives
+
+              // do the additional processing of the positives
+          }
+  }
+  {{< /highlight >}}
+#+END_SRC
+
+as opposed to:
+
+#+BEGIN_SRC java
+    {{< highlight "java" >}}
+          for (i in dataset){
+	    
+              // do some processing on i
+
+              if (i.value >=0){
+                  // do the processing that we only do on positive ones
+              }
+          }
+  {{< /highlight >}}
+#+END_SRC
+
+Which is better? It's purely subjective. Nothing wrong with either.
+
+I'll share a final example. This one lifted from an [[https://cestlaz.github.io/post/globals-breaks-and-returns/][older post]] on
+"best practices." If you're writing an event handler, you could put
+the exit event in the loop boolean but I find including it
+as a case using a ~break~ to be cleaner:
+
+#+BEGIN_SRC c++
+{{< highlight "java" >}}
+while (true){
+      // do stuff
+
+      if (some event)
+          do that event;
+
+      if (some other event)
+          do that event;
+
+      // etc
+
+      if (exit event)
+          break;
+  }
+{{< /highlight >}}
+
+#+END_SRC
+
+At the end of the day, ~break~ and ~continue~, like most langauge
+constructs can be used for either good or evil. There have been times
+when they've led me to cleaner code so I've used them. At other times,
+using them would have been forced.
+
+If we agree that ~break~ and ~continue~ can be appropriate, the other
+question is when to introduce them. One comment from the most recent
+Facebook thread on this (name withheld since that's a semi-private
+forum) was that it shouldn't be right off the bat but rather after
+they're comfortable with loops, conditionals and booleans so that they
+can use the new constructs when they make sense and not willy-nilly. I
+tend to agree with this.
+
+Personally, I think it's important to show our kids constructs like
+~break~ and ~continue~ and it's also important for us to talk about
+good code and [[https://cestlaz.github.io/posts/best-practices-cli/][best practices]] but the important thing is that we don't
+have our kids blindly follow any practice but empower them to make good
+decisions based on their situations.
+
+
