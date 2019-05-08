@@ -1,0 +1,94 @@
+---
+title: The Hunter Daedalus Fall 2019 recruiting class
+date: 2019-05-08T08:25:12-04:00
+tags: 
+- college
+- hunter
+- cs education
+- education
+categories: 
+- CS Education
+draft: false
+--- 
+
+Now that high school seniors have all committed to their respective
+colleges I though I'd share some information on Hunter's incoming
+Daedalus (honors CS) cohort.
+
+I joke about the first cohort saying that nobody applied to the
+program. That's kind of true. I jointed Hunter a little over three
+years ago in late January. That was after high school seniors had
+already applied to college and at that time the program didn't
+exist. We found the first cohort by looking at students who had
+already applied to Hunter not expecting Daedalus to exist.
+
+It was 12 kids and we've lost a few since then. 
+
+The second cohort consisted of 24 students. We started adding
+[[https://en.wikipedia.org/wiki/William_E._Macaulay_Honors_College][Macaulay]] students into the mix. Macaulay is a CUNY wide honors
+scholarship program. Each campus has a cohort and it was part of an
+effort to bring CUNY back to it's "glory days" before open
+enrollment. The Macaulay kids saw that Daedalus was the place to be
+for CS in NYC and Hunter and wanted in. 
+
+Third year, we were up to 44 students. 
+
+Now, in our fourth year we're up to 50 which is a little over
+capacity - at least until I can find and hire a partner in crime  (and
+I am looking).
+
+Some other stats:
+
+| Year:                      | 2016  | 2017      | 2018     |      2019 |
+|----------------------------+-------+-----------+----------+-----------|
+| Size:                      | 12    | 24        | 44       |        50 |
+| Daedalus / Macaulay:       | N/A   | 75% / 25% | 75%/ 20% | 80% / 20% |
+| Approximate Applicants     | N/A   | ~150      | ~200     |  Over 320 |
+| Gender M/F %               | 80/20 | 75/25     | 50/50    |     75/25 |
+| Taken APCS / Beginner      | N/A   | N/A       | 50/50    |     50/50 |
+| Number of high schools     |       |           |          |        21 |
+| # students from beyond NYC | 0     | 0         | 0        |         2 |
+
+I also have stats on grades and test scores as well as the number of
+offers an the percent of acceptances. 
+
+Some thoughts on the stats:
+
+I try to spend as much time as I can doing outreach. This is horribly
+inefficient but it's slowly getting the word out. I might spend most
+of a day trekking out into the boroughs to [[https://cestlaz.github.io/post/fall-2018-tour-revisited/][talk to a class]] or a few
+classes at some school knowing that there will probably be very few
+fits for my program. I think I'm bringing important information to all
+of the kids but it's a low yield activity. Right now our biggest
+feeder schools are Stuyvesant, Brooklyn Tech, and Bronx Science. Next
+is Midwood. This makes sense as they're all *large* schools and they
+all have established CS classes. They'll probably continue to be the
+biggest feeders but I'm delighted by the fact that I'm getting
+students from 17 other schools including a couple from outside of
+NYC. 
+
+I'm less happy with the gender distribution. Twenty five percent isn't
+bad compared to the national numbers but we should be doing
+better. It's a tough nut to crack. When I visit to schools I'm
+normally sent to the CS classes so I'm already getting a gender skewed
+audience. Not sure the best approach to work on this. 
+
+On the other hand, I'm getting to enough of a general audience to have
+roughly a 50/50 split of students with APCS-A or beyond or what I
+would call a beginner. 
+
+As I get to know this new group and find out why they applied to
+Hunter Daedalus and ultimately decided to attend I'm hoping to be able
+to better fine tune my recruiting approach and outreach.
+
+As a bottom line I'm going to continue to work to make Hunter's
+Daedalus program the place to be for CS education in NY so that kids
+can get a top flight experience without paying a quarter of a million
+dollars.
+
+
+
+
+
+
+
