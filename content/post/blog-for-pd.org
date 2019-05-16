@@ -1,0 +1,73 @@
+---
+title: Blog For Self Professional Devleopment
+date: 2019-05-16T07:12:44-04:00
+tags:
+- csed
+- cs education
+- PD
+categories: 
+- cseducation
+draft: false
+--- 
+
+Lat day of the 2019 [[https://www.ncwit.org/summit/2019-ncwit-summit-women-and-it][NCWIT Summmit]]. Got up crazy early, got back from
+my run and saw this when I checked Twitter:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A1: CSTA,
+Twitter chats like this one, <a
+href="https://twitter.com/guzdial?ref_src=twsrc%5Etfw">@guzdial</a>
+and <a
+href="https://twitter.com/alfredtwo?ref_src=twsrc%5Etfw">@alfredtwo</a>&#39;s
+blogs among others. In all cases because those places start from
+assuming I&#39;m a CS teacher, rather than starting from assuming
+I&#39;m a teacher who is better at teaching something else. <a
+href="https://twitter.com/hashtag/csk8?src=hash&amp;ref_src=twsrc%5Etfw">#csk8</a>
+<a
+href="https://t.co/6DO77fzq0j">https://t.co/6DO77fzq0j</a></p>&mdash;
+Sarah Judd (@SarahEJudd) <a
+href="https://twitter.com/SarahEJudd/status/1128829652145979392?ref_src=twsrc%5Etfw">May
+16, 2019</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js"
+charset="utf-8"></script>
+
+I don't usually participate in Twitter chats. The format doesn't
+really work for me. I do frequently lurk though and while I didn't see
+this tweet until the morning after, another [[https://twitter.com/Todd_Lash/status/1128816582048673793][one]] by my [[https://twitter.com/Todd_Lash][Todd Lash]] caught
+my eye and I'll probably comment on that at some point in the near
+future.
+
+On Sarah's tweet I'll say that CS teachers should certainly frequent
+Alfred and Mark's blogs. I subscribe to and enjoy both. I'll add
+something that I've said before and that is if you're a CS teacher you
+should also blog.
+
+I get it - it takes time, it's hard to put yourself out there and if you're a
+relatively young teacher you might feel like you don't have much to
+say but I say so what.
+
+I've been blogging on and off for nine years now. I have no reason to
+believe I have anything more than a small readership but I do
+periodically get surprised at a conference with a "hey, I love your
+blog." Comments are few and far between and from "the usual
+suspects" but as I sad above, so what.
+
+Pick a lesson you just did and describe it. That's all it takes. Try
+something different a week later? Write it up. Rinse and repeat.
+
+Why have I found writing a blog to be good self-PD?
+
+- Writing the experience or the lesson makes me think through it
+  again. What worked, what didn't.
+- When I do a similar lesson in the future, I can look back on what I
+  did. It helps in iterating towards becoming a better teacher.
+- I get to see how I've evolved as a teacher over time. You don't get
+  this immediately but blog for a few years and then reread some early
+  posts. 
+- You could get some comments. I don't get a lot but the ones people
+  have left have proven useful to me. Some of the ones from people who
+  disagree have been the most useful.
+
+On top of this, some other new teacher might discover something you
+wrote up and find inspiration from it. 
+
+So, jump in a try it. Blogging for self-PD. 
