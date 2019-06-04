@@ -2,8 +2,13 @@
 title: AP Classes, Placing Students, and First Topic Exposures
 date: 2019-06-03T13:27:22-04:00
 tags: 
+- CS Education
+- APCS
+- CS0
+- CS1
 categories: 
-draft: true
+- CS Education
+draft: false
 --- 
 
 Just like last year, I'm taking in two classes worth of students in to
@@ -19,20 +24,19 @@ as a large lecture with small recitation/labs. It's Python based and
 the kids do a bunch of small programs in a variety of domains. They
 also cover a few "miscellaneous" topics including base conversions,
 truth tables, simple circuits, a baby look at an Assembly language
-andd an intro to C++ at the end.
+and an intro to C++ at the end. My version also uses
+Python but is much more of a deep dive and also brings in a few
+Softwae Engineering practices. I don't do the extras other than the
+C++ intro.
 
 CSCI135 is most analogous to APCS-A with the biggest difference being
-our core language is C++. That means memory management, references
-and all that good stuff. We also sequence things a little differently
-than AP. For instance, we don't do sorting at all until the second
-semester but do deal with pointers.
-
-I don't teach these exact courses. My version of CSCI127 also uses
-Python but is much more of a deep dive and also brings in a few
-Softwae Engineering practices. I also don't teach CSCI135. Most Hunter
-students take a 1 credit programming lab (CSCI136) to go along with
-CSCI135. I teach a 3 credit version of that where we do a bunch of
-enrichment.
+our core language is C++. That means memory management, references and
+all that good stuff. We also sequence things a little differently than
+AP. For instance, we don't do sorting at all until the second semester
+but do deal with pointers. I don't actually teach CSCI135 at all. Most
+Hunter students take a 1 credit programming lab (CSCI136) to go along
+with CSCI135. I teach a 3 credit version of that where we do a bunch
+of enrichment.
 
 On the student side, they come in with a range of CS experiences. Some
 are 100% new to the subject, some are self taught, a few have taken
@@ -41,11 +45,11 @@ a bunch have taken some CS in school with the largest numbers being
 either APCS-A or APCS-Principles. 
 
 I've found the quality of the outside experiences to be uneven at
-best. More often than not kids who come from them think they're
-experienced programmers and they really haven't learned anything. I've
+best. More often than not kids who come from them and think they're
+experienced programmers and really haven't learned anything. I've
 got to be careful with them but placement is easy. They  go to
 CSCI127. The same is true for kids coming in from APCS-P. APCS-P is
-also very uneven in terms of what the kids come out with but it's not
+also very uneven in terms of what the kids come out with and it's not
 a direct replacement for our CSCI127.
 
 The big question is what to do with the APCS-A kids. APCS-A does give
@@ -61,7 +65,49 @@ All of this has led to some discussion in our department recently -
 should APCS-A exempt students from our CS0? My argument is that it
 should. While I'm no fan of AP or of the AP Exam, kids having finished
 the class will have solved problems and built programs more complex
-than those we require in our CS0 course. 
+than those we require in our CS0 course. The counter argument relates
+to those few non programming topics that are covered in CSCI12700,
+specifically, number bases, truth tables, simple circuits, assembly,
+and into C++. The argument against placing the kids out of CS0 is that
+early exposure to those topics is valuable in preparing the students
+for later courses such as those in our required  systems/architecture
+track. 
+
+Does that early exposure really make a difference? In this case, I
+don't think it does. For some topics, specifically recursion, I've
+found that early lightweight exposure does help later on. We introduced
+recursion through Racket (nee Scheme) in Stuy's intro course and then
+later revisited it in ACPS-AB. While I never formally collected data,
+the early introduction seemed to help. On the other hand, I never
+found early exposure to truth tables, base conversions and circuits to
+make a difference even though we did do some of that in some
+experimental sections of Stuy's intro course and then revisted them in
+the senior systems course. 
+
+Why did it seem to make a difference for recursion and not for the
+other topics? Probably because the other topics are mechanical and
+don't require new thinking or deep thinking. You see it, you got
+it. Recursion on the other hand is a problem solving technique so
+there's more to understand so the early exposure seems to help.
+
+This also seems to be born out  at Hunter where my early cohorts
+didn't get those small extra topics but all did very well in the
+courses that "required" that knowledge.
+
+In the Fall this discussion will continue.  I'm not concerned about my
+kids as I have a fair amount of leeway in getting them into the
+classes they need. The trick is how to make sure that we're not
+forcing other kids to take classes they don't need. We need to get these
+kids to where they can start to interview for internships sooner
+rather than later. At the same time, we have to make sure we're not
+placing kids to far up the track and setting them up for failure. 
+
+
+
+
+
+
+
 
 
 
