@@ -2,8 +2,12 @@
 title: Do It First
 date: 2019-06-10T08:00:08-04:00
 tags: 
-categories: 
-draft: true
+- csed
+- cs education
+- pedagogy
+categories:
+- cs education 
+draft: false
 --- 
 
 Reading Garth Flint's end of year [[https://gflint.wordpress.com/2019/06/07/last-day-of-school-and-done-with-java/][post]] and Alfred Thompson's [[http://blog.acthompson.net/2019/06/how-well-can-you-code-projects-you.html][follow up]]
