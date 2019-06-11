@@ -1,0 +1,105 @@
+---
+title: Grokking Algorithms
+date: 2019-06-11T07:29:30-04:00
+tags: 
+- cs education
+- book review
+- algorithms
+categories: 
+- cs education
+draft: false
+--- 
+
+Someone mentioned [[https://www.manning.com/books/grokking-algorithms][Grokking Algorithms]] by Aditya Y. Bhargava in one of
+the CS educator Facbeook groups. It looked interesting so I thought
+I'd give it a once over.
+
+It's certainly an accessible book. Text mixed with cute line drawings,
+"hand written" text, diagrams and picture.s It reminded me of one of
+my favorite, most accessible  Calculus books [[https://www.goodreads.com/book/show/706622.Who_Is_Fourier_a_Mathematical_Adventure][Who Was Fourier]].
+
+Overall I enjoyed the book but I'm not sure what its best audience
+is. If you look at the selection of topics, it's a little
+haphazard. It introduces Big-O notation, sescrion sort, and intro
+recursion all of which are covered prior to an algorithms course. It
+also introduces linked lists in what I felt was an early and arbitrary
+place but then neither gave any more than a theoretical overview nor
+came back to them later. On the other hand, when the author covers
+QuickSort he at one point compares it to a MergeSort as if that were
+covered as well. On the more advanced side, there are Hash Tables,
+Dijkstra's Aalgorithm, Dyanmic Programming, and a few teasers at the
+end.
+
+The biggest downside of the book, to me, is that some of the topics
+seem to be great explanations of things as long as you already know
+them. The Linked List coverage is a great example of this. The author
+does a nice job relating Linked Lists to memory and how they are
+theoretically implemented under the hood. That said, unless you've
+already studied linked lists it probably isn't enough to go
+anywhere. This might be fine if you are to assume that the reader has
+already taken data structures but if that's the case, the linked list
+section is probably superflous.
+
+Another point I noted was that some of the coverage is pretty standard
+but some is great. I wasn't very impressed by the recursion chapter
+nor the coverage of Dijkstra's algorithm. They were fine but nothing
+special. On the other hand, I very much liked the way Bhargava laid
+out and discussed Dynamic Programming. To me, that section alone is probably
+worth the book. I don't think it's enough for you to build a unit on
+Dyanamic Programming but the author provides a great way of developing
+and talking about the subject and gives some nice examples. I also
+like the way it builds from Greedy Algorithms.
+
+To be fair, I read a couple of Amazon Reviews of the book and one
+reviewer loved the coverage of  Dijkstra's algorithm so there is a lot
+of subjectivity here. 
+
+A couple of other minor points worth thinking about are math and
+rigor. One of the quotes on the back of the book states:
+
+#+BEGIN_QUOTE
+This book does the impossible: it makes math fun and easy!
+#+END_QUOTE
+
+I've got to disagree with this. The book doesn't take any
+traditionally difficult math and magically make it trivial. Rather the
+book has some examples where basic math can be used to great
+effect. In one section, Bhargava talks about classifiers and
+similarity scores using the Distance Formula. It's somewhat similar to
+what I do [[https://cestlaz.github.io/posts/2014-01-07-rot13-gateway/][here]]. He's not making hard math easy but rather he's showing
+that basic math can be amazingly useful and you can do cool and
+powerful things with it. Nothing wrong with that. It's a great thing
+to do but it's not making hard math easy. The author also refers the
+reader to external references for more.
+
+The other point I want to mention is rigor - this is bound to come up
+whenever a book tries to be accessible. While it's true that the author
+seems to fudge or simplify a definition here and there I didn't find
+any major problems and think that his choices in terms of langauge,
+rigor, and fudge factor  are generally appropriate.
+
+So bottom line - who is this book for and should you get it?
+
+This is not a standalone algorithms book. You couldn't use it for a
+class by that name. The book mentions that it could be useful to a
+code school graduate and given the lack of consistency in what's
+covered in code schools that's probably a good recommendation. It
+gives some feel and flavor on a number of subjects, does nothing
+poorly and while it omits things that might be necessary, it does many
+things well.
+
+To me, this is an ideal book as resource for a teacher looking to
+stretch their APCS-A or APCS-AB class or possibly for an advanced
+student.
+
+I enjoyed the book. You probably will too.
+
+
+
+
+
+
+
+
+
+
