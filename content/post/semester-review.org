@@ -1,0 +1,79 @@
+---
+title: Year in Review - the classes
+date: 2019-06-12T09:02:19-04:00
+tags: 
+- cs education
+categories: 
+- cs education
+draft: false
+--- 
+
+Now that the semester's over I've had a chance to reflect a bit on my
+teaching over the past year. 
+
+This year I taught two classes each semester so the load was a little
+higher. First semester was one class of our CS0 and one of the
+lab/enrichment component that goes with CS1. Nothing big to report
+there as I've done them both before.
+
+The biggest difference was that I had to deal with two separate
+classes even though their one cohort. I can't say I did a
+particularly good job with that - something to keep working on next
+year.
+
+In the second semester the CS0 became the CS1 lab/enrichment and that
+went pretty well overall. I was unhappy with some of the scheduling.
+The students work on labs in class for a number of sessions and due to
+circumstances beyond my control I had to finish out the class with a
+number of consecutive lab classes whereas I would have much rather
+spread those out with the enrichment lessons. Not happy about it but
+there wasn't much I could do.
+
+The other class was data structures. This was the first time I was
+teaching it at Hunter, first time in C++ in well over a decade and
+first time in around five years. I think the class went alright but
+there was a lot of room for improvement. For one thing, C++ is not
+Java. In Java things are pretty restricted - there's pretty much one
+way to deal with linked list and dynamic structures. C++ is a little
+more complex. Do you do structs or classes? When do you introduce
+smart pointers (if at all)? Separate compilation and if so when? What
+about templates/generics - they're much more cumbersome and complex in
+C++. Also, don't get me started on exceptions. Lots of decisions to be
+made and once you make them it's hard to change directions.
+
+I decided to go with all classes, separate compilation, did
+templates/generics early but then constrained our data structures to a
+fixed type. Did regular pointers and then smart pointers a ways in.
+
+Because of all of the changes, I also missed the chance to use a
+number of my class motivations and tricks that I've used in the
+past. I should be able to mix those in next time around. Things like
+building  a linked list or studetns in class prior to studying them or
+playing out a mergesort with a deck of cards.
+
+Another thing I had to deal with that was new was the range of student
+backgrounds. I have a number of students in my program from NYCS's
+specialized schools and Stuy in particular. No surprise but the Stuy
+students have much more experience than the rest both in terms of time
+they've spent programming and in terms of what they've studied. All of
+the Stuy students had done most if not all of the data structures in
+Java and most had taken 3 years of CS and have completed many major
+projects. There were other students who did APCS-A plus another year but
+not the data structures and finally those who had just done
+APCS-A. They're all great kids and more experience doesn't equate to
+more ability but there's a big difference in terms of what you can do
+and how quickly you can do it after a year of APCS-A and a course or
+three beyond it.
+
+That was a tricky juggling and balancing act adn I think I'll handle
+it better next year.
+
+I didn't get to cover quite as much as I wanted in the Data Structures
+class and I certainly didn't cover it as well as I would have liked
+but I don't think I did a bad job. I've been in this racket long
+enough to know the ebbs and flows.
+
+Overall I was happy with the year teaching wise but see a lot of
+places where I want to do better and do more. 
+
+
