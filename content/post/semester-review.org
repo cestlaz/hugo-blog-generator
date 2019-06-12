@@ -17,7 +17,7 @@ lab/enrichment component that goes with CS1. Nothing big to report
 there as I've done them both before.
 
 The biggest difference was that I had to deal with two separate
-classes even though their one cohort. I can't say I did a
+classes even though they're one cohort. I can't say I did a
 particularly good job with that - something to keep working on next
 year.
 
