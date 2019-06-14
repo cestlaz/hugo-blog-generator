@@ -1,0 +1,101 @@
+---
+title: Back To Python
+date: 2019-06-14T15:53:54-04:00
+tags: 
+- Web Dev
+- Programming 
+categories: 
+- programming
+draft: false
+---
+
+With summer right around the corner I'm hoping to spend at least a
+little time on some personal coding projects. There are a few work
+related tools I'd love to develop and just some random areas of CS I'd
+like to explore. If I finish them, the work projects will be web
+based.
+
+I was thinking about using this as an opportunity to do a deeper dive
+into Clojure having used it for some experiments and competitions like
+[[https://adventofcode.com/][Advent of Code]] but at the end of the day I decided not
+to. It's not that Clojure wouldn't be a good language for web apps. It
+looks like it would be great. Rather, I'm finding the ecosystem and
+build systems in particular to be more trouble than they're worth for
+a side project - particularly when I want to accomplish more than
+becoming comfortable with the Clojure ecosystem. 
+
+Things were so much simpler in the old days. Way back when I was a
+software engineer at Goldman Sachs I worked on a couple of large,
+complex systems. All I had were a bunch of C files in a bunch of
+directories and a Makefile to build everything. Simple and
+straightforward. 
+
+If I'm working in C or C++ I can still do the same. 
+
+In Java I was always able to do the same since Make seemed to be
+accepted in the community. Now there seems to be many more
+options - Ant, Maven, and Gradle to name just three.
+
+Python was even easier - just set up your directory structure
+and ~__init__.py~ files and your good to go and by using a virtual
+environment, which is pretty easy, you can keep the entire development
+environment clean.
+
+Nowadays things are much more complex. Sure, I can create a simple
+Clojure program and run it but anything bigger and you need a build
+system. For a long time the tool was [[https://leiningen.org/][Leiningen]]. You define a project
+file using it's particular syntax and it can download dependencies,
+manage builds etc.. It actually doesn't look so bad if you're living
+in Clojure all the time but for a hobbyist like me I found myself
+looking for other peoples templates and hoping for the best. Whenever
+I needed my project to do things outside the norm I was pretty much
+out of luck. 
+
+Then came [[https://boot-clj.com/][Boot]] as an alternative. Where Leiningen used a descriptive
+configuration file, Boot used a configuration file that was basically
+Clojure code. It was different but to me, it had the same problems -
+documentation was lacking and too much magic going on behind the
+scenes. Finally, Clojure started to come with [[https://clojure.org/guides/deps_and_cli][build system]]. I want to
+like it but the documentation is even sparser and with three competing
+build systems with varying levels of use and documentation it's less
+than ideal for a guy like me.
+
+Things get messier when you add in Clojurescript - Clojurescript
+basically compiles Clojure code to Javascript. It has a great
+development environment and handles state really nicely but for a
+novice like me getting any of the build systems set up for Clojure and
+Clojurescript in a way that makes sense is more than I want to
+deal with right now.
+
+I don't mean to be unfair to Clojure and its ecosystem. I still really
+like the language and if I lived in it I'm sure I'd figure it all out
+and be happy with it. It's also no worse and arguably better than
+ecosystems for other languages. 
+
+Javascript, for example makes you chose between gulp, grunt, webpack,
+browserfity, parcel and maybe more. I think I finally got my head
+aroudn webpack and parcel but it's really the wild west. Of course
+those are just the Javsacript build systems you then have to make
+choices like VueJS or React or something else. 
+
+There's really no easy answer. 
+
+Putting my teacher hat on for a second this is also an issue that our
+students will have to deal with at some point. Are we helping them by
+keeping them in web based language silos and simple IDEs or hurting
+them? At what point do we transition them or do we leave it for them
+to do on their own? I'm not taking any position on this here and now
+but it's something worth thinking about.
+
+Back to my side projects. 
+
+So, for the sake of getting things done I think I'm going to fall back
+to Python. I don't need to deal with any complex build systems, I can
+write my web applications with Flask and it's also a nice platform for
+the other things I'd like to do.
+
+I'll still probably play with Clojurescript for the web frontend ut if
+that turns out to be proiblematics I'll just go back to VueJS.
+
+Time to get to work.
+
