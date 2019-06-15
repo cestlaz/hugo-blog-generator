@@ -1,15 +1,74 @@
 ---
-title: Celebrating Perfect Scores
+title: Celebrating Perfect AP Exam Scores
 date: 2019-06-15T12:24:01-04:00
 tags: 
+- AP
+- assessments
 categories: 
-draft: true
+- AP
+draft: false
 --- 
 
+So, it turns out that there were 601 perfect scores on this years
+APCS-A exam. Over on Facebook a great question was raised - what does
+this mean and should we celebrate this?
 
-601 perfect scores
+What does it mean? There's no way to know. Maybe the number of perfect
+scores is just scaling up linearly with test takers. Maybe More kids
+are being exposed to CS prior to APCS-A and that's leading to more
+correct answers. Are teachers teaching to the test? Maybe the test was
+just plain easier. 
 
-test too easy?
-Early exposure?
-MOre kids taking exams?
+In spite of my normal anti college board leanings, I don't really have
+an opinion on the why. What I do have an opinion on is whether we
+should celebrate these scores or not.
+
+Personally, I don't think we should. 
+
+Does a perfect score really mean so much? Has a student who gets every
+question correct really show that they know more or are a better
+computer science student then another student who merely scores a
+regular 5 (or an A on an in class assessment). 
+
+There have been countless times when I've looked over a test and found
+a really clever, innovative solution to a problem. Something that
+showed a much deeper understanding than the base solution I had in
+mind. More often than not those tests got dinged a point here or there
+for what I'd describe as minor errors. The students behind those tests
+were much stronger than many "perfect paper" students so celebrating
+the 100%s would be neither fair nor appropriate. More appropriate to
+share out the interesting solution and hopefully enrich the entire
+class.
+
+Celebrating perfect scores also encourages prepping for a perfect
+score. That means prepping to do a lot of multiple choice questions in
+a short period of time. That takes test specific drilling. I'd rather
+my students know the material well enough to get the score they need
+but would rather they not spend countless hours drilling for that
+perfect score. That extra prep time could be better spent in countless
+ways including something as simple as playing a game with some friends.
+
+
+A test - any test - is a limited, imperfect assessment.We should be
+moving away from high stakes tests and simplistic numeric grades and
+celebrating perfect scores in contrary to this. Celebrating a perfect
+test score misses the mark. We should be celebrating how our students
+work and progress not how they score on an imperfect testing implement
+be it the AP exam or one of our in class tests.
+
+
+To close, I'll leave you with a story. It's about a college acceptance
+but if you substitute perfect test score the gist is the same.
+
+I was talking to a friend of mine. His daughter went to Stuy and had
+just gotten into her dream school. It also, coincidentally was the
+school that her older brothers went to. I said to my friend "John, you
+must be very proud of your daughter on getting into her dream school."
+
+"No," John replied. "I'm not proud, I'm happy for her. I'm proud of her when she
+helps somebody." 
+
+It's not the outside, imperfect validations we should be celebrating.
+Rather we should be celebrating how our kids live, grow, and develop.
+
 
