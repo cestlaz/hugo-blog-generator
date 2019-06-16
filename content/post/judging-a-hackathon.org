@@ -1,5 +1,5 @@
 ---
-title: Judging a  High School Hackathon - StuyHacks VI
+title: Judging a  High School Hackathon - StuyHacks VIII
 date: 2019-06-16T17:32:10-04:00
 tags: 
 - hackathons
@@ -8,7 +8,7 @@ categories:
 draft: false
 --- 
 
-Today I got to be a judge at [[https://www.stuyhacks.com/][StuyHacks VI]]. This isn't the first time
+Today I got to be a judge at [[https://www.stuyhacks.com/][StuyHacks VIII]]. This isn't the first time
 I've been a judge there, I've been doing it for a few years now. I've
 also been lucky enought to have been asked to judge a handful of other
 local hackathons over the years.
@@ -76,7 +76,7 @@ hackathon either as a judge, a mentor, or just as someone to look at
 some youngsters projects and give some words of encouragement I highly
 recommend doing so.
 
-StuyHacks VI was a great event and I hope the organizers give me the
+StuyHacks VIII was a great event and I hope the organizers give me the
 opportunity to continue to be part of it in the future.
 
 
