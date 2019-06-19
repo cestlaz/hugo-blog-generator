@@ -1,0 +1,104 @@
+---
+title: Mongodb World 2019
+date: 2019-06-18T19:35:17-04:00
+tags: 
+- database
+- conferences
+- community
+- mongodb
+categories:
+- database 
+draft: false
+--- 
+
+For those of you who don't know, MongoDB is a very popular NoSQL
+database. NoSQL  is an overarching term describing databases that
+are not relational and don't implement Structured Query Language
+(SQL). In a relational database your data is stored in tables with
+columns - think spreadsheet where each row of the table is a record in
+the database. You link tables together via a common field or row
+name. NoSQL databases work differently. 
+
+MongoDB is a document store. In MongoDB a document is a [[https://json.org/][JSON]]
+object. Essentially a Javascript (or Python) dictionary. As a result
+you do things differently. I plan to write up something more on the
+differences between SQL and NoSQL in the near future.
+
+I've been using MongoDB on and off for a number of years. I use it for
+personal projects and also in the software development course I taught
+at Stuy. The community edition is free and easy to install and it's
+very easy for a beginner to get started.
+
+Let's say you wanted to store information about a students. You might
+create this dictionary:
+
+#+BEGIN_SRC python
+  student = { 'Last' : 'Hugginkis',
+              'First' : 'Amanda',
+              'ID' : 1245,
+              'Homeroom' : '5A',
+              'Schedule' : ['Eng','Math','Gym','CS','Lunch','Physcis',"Band"]}
+#+END_SRC
+
+You add this to your database like this:
+#+BEGIN_SRC python
+db.students.insert(students)
+#+END_SRC
+
+Later, you can query for all the students in Homeroom 5A:
+
+#+BEGIN_SRC python
+db.students.find({'Homeroom':'5A'})
+#+END_SRC
+
+Super quick and easy. It also comes with a nice REPL - essentially a
+Javascript interpreter -  to play with.
+
+I've spent the last two days at MongoDB World 2019. A great conference
+if you want to get up to speed on MongoDB. I left reminded of a number
+of great MongoDB products that I hadn't really used and a few new ones
+they're just launching:
+
+- Atlas
+  This is their DB as service. Don't want to administer your own
+  installation? Just spin up an Atlas cluster. The free tier is plenty
+  generous and you and your students can get up and running in under
+  10 minutes.
+
+- Compass
+  Back in the day you either interacted with MongoDB pragmatically
+  using a language driver or used their REPL shell. Compass is a
+  complete fully functional GUI. It can connect to your database, a
+  remote one, or an Atlas cluster. A game changer for database
+  management
+
+- Charts
+  This is really cool. You link MongoDB charts to an Atlas cluster and
+  then can interactively build dashboards and visualizations. You can
+  then embed the visualizations into your own web projects. 
+
+- Field Level Encryption
+Encrypting passwords for storage and similar practices are important
+but can be aslog. MongoDB now takes care of this for you. You can, for
+instance, tell your database to encrypt the password fields and your
+done. 
+- Data Lake
+This blew me away. Basically, it can take your AWS storage and let you
+query it as if it were a MongoDB database. It works with a variety of
+file formst - JSON, XML, CSV and more. Basically it transparently
+turns cloud storage into a database. 
+- Stitch
+  This allows for the building of serverless apps. Similar to Firebase
+  but it looks to interact with all the other MongoDB goodness I've
+  mentioned. .
+
+There were a few other neat things I learned about MongoDB and related
+products but those were the highlights.
+
+As usual, I left the conference energized.
+
+If you don't use MongoDB check it out for yourself and your
+students. In addition to being a great product, it's also a great
+company.
+
+
