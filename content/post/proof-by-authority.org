@@ -7,7 +7,7 @@ tags:
 - guest speakers
 categories: 
 - cs education
-draft: true
+draft: false
 --- 
 
 No,I'm not talking about[[https://en.wikipedia.org/wiki/Argument_from_authority][Argument from Authority]] - something that very
