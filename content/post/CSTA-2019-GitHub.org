@@ -1,0 +1,62 @@
+---
+title: CSTA 2019 - Using GitHub as a CMS
+date: 2019-06-26T12:09:48-04:00
+tags: 
+- CSTA
+- Conferences
+- Tools
+- github
+- git
+categories: 
+- CSTA
+draf: false
+--- 
+
+With ISTE ending, the next big event for CS treachers is the annual
+[[https://www.csteachers.org/page/2019conference][CSTA Conference]]. I first attended two years ago in Baltimore. Last
+year the conference, in Omaha was bigger and better in every way
+imaginable. I expect this year to be the best yet.
+
+I don't go to a lot of conferences so I don't have much to compare
+CSTA with but I like the fact that it's is about half the size of
+SIGCSE. At about 1000 attendees it still feels small enough to be
+intimate but at the same time large enough so that there's something
+for everyone and plenty of people to learn and share from and with.
+
+Just like last year, I'll be spending a lot of time at the GitHub
+booth so if you want to talk about how to use GitHub to support your
+students make sure to stop by and say hello.
+
+I'll also be giving a session with my long time partner in crime
+JonAlf. 
+
+Most of us know that Git is a version control system and that
+GitHub is pretty much the industry standard platform for using
+Git. Many of us also know that GitHub for Education has a great
+toolset to support using GitHub with your classes. Tools that help
+organize, distribute, collect, and assess assignments.
+
+Fewer people know that GitHub can be used to really easily create a
+web presence and as a way to distribute class material and you don't
+even have to use the command line if you don't want to. I use GitHub
+as a lightweight CMS with my classes, to host full blown web sites,
+and also to host this blog.
+
+Come join JonAlf and me on Tuesday at 11:15 in West 106C and we'll
+show you how you can use GitHub as a web presence as well.
+
+I also want to briefly mention that my better half, Devorah, is going
+to be with us at the GitHub booth running a really cool
+knitting/crocheting for  charity project (thanks to both CSTA and
+GitHub for facilitating this). I'll write more about it in a day or so
+but if you're going to be at CSTA2019 and you knit or crochet or want
+to learn, you can check the project out here:
+[[http://blanketstatementproject.com/][http://blanketstatementproject.com/]] (note that the site is hosted on
+GitHub and the source is [[https://github.com/blanketstatementproject/blanketstatementproject.github.io][here]]). 
+
+GitHub is also holding a pre-conference reception on July 7 from
+5:30 - 8:00. You can sign up [[https://csta-github-meetup.confetti.events/][here]]. 
+
+Hope to see many of you in a couple of weeks in Phoenix.
+
+
