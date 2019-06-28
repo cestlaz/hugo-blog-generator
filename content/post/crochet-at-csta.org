@@ -17,12 +17,11 @@ the newsletter and it sounds better.
 
 As some of you know, my wife Devorah is all about the fiber
 arts. Knitting, spinning, dying, weaving, the works. We've got a loom,
-two spinning wheels, 2 bobbin lace pillows, and bins and bins of
+two spinning wheels, two bobbin lace pillows, and bins and bins of
 deconstructed sheep, llamas, alpacas, and angora bunnies. I even got
-her some straw once in the hope that she would spin it into gold. I
-figured as teachers it would be a good retirement plan.  I even told
-her I'd introduce her to that Rumplestiltswhatever guy. That never
-happened. 
+her some straw once to spin into gold. I
+figured as teachers it would be a good retirement plan.  That never
+happened.
 
 At one point at a conference we attended, Devorah noted that she
 wasn't the only one knitting and an [[http://blanketstatementproject.com/][idea]] was born. She encouraged
@@ -36,9 +35,9 @@ You can read up about how this all went down [[https://cestlaz.github.io/posts/k
 
 Now, thanks to the CSTA and [[https://twitter.com/jakebask][Jake Baskin]]in particular along with the
 [[https://twitter.com/GitHubEducation][GitHub Education]] team led by [[https://twitter.com/mohardek][Moira Hardek]] we're bringing [[http://blanketstatementproject.com/][Blanket
-Statemnt]] to CSTA-2019. 
+Statement]] to CSTA-2019. 
 
-If you knit or crochet, swing by the GitHub booth, grab a yarn and
+If you knit or crochet, swing by the GitHub booth, grab a ball of yarn and
 some needles (or a crochet hook) and knit away. Bring completed blocks
 back to Devorah at the booth. 
 
