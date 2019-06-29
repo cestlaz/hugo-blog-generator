@@ -1,12 +1,12 @@
 ---
 title: Crochet at CSTA
-date: 2019-06-28T16:26:41-04:00
+date: 2019-06-29T05:03:59-04:00
 tags:
 - csta
 - blanket statement
 categories: 
 - csta
-draft: true
+draft: false
 ---
 
 {{% figure class="z_image_center" src="http://blanketstatementproject.com/img/yarn-logo.jpg"  width="250px" %}}
