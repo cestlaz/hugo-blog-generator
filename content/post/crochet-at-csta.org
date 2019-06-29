@@ -33,7 +33,7 @@ conference she put it together into a blanket a it was donated to
 
 You can read up about how this all went down [[https://cestlaz.github.io/posts/knitting-tech-conference/][here]] and [[https://cestlaz.github.io/post/catskills-blanket-2018/][here]]. 
 
-Now, thanks to the CSTA and [[https://twitter.com/jakebask][Jake Baskin]]in particular along with the
+Now, thanks to the CSTA and [[https://twitter.com/jakebask][Jake Baskin ]]in particular along with the
 [[https://twitter.com/GitHubEducation][GitHub Education]] team led by [[https://twitter.com/mohardek][Moira Hardek]] we're bringing [[http://blanketstatementproject.com/][Blanket
 Statement]] to CSTA-2019. 
 
