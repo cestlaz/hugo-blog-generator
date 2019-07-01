@@ -1,0 +1,169 @@
+---
+title: Math isn't always fun but so do fun things with math
+date: 2019-07-01T09:08:57-04:00
+tags: 
+- padagogy
+- math in cs
+- math
+categories: 
+- csed
+draft: false
+mathjax: true
+--- 
+
+Garth Flint recently wrote another [[https://gflint.wordpress.com/2019/06/25/programming-and-math-danger-will-robinson/][post]] talking about some of the PD
+going on in his neck of the woods. Garth talks about the disconnect
+between the professors putting on the PD and what goes on in the K12
+classrooms of the attending teachers. Here's the money quote:
+
+#+BEGIN_QUOTE
+“Why do all college CS profs think everyone loves math? Want to turn
+kids off to programming? Throw math at them.”
+#+END_QUOTE
+
+To a certain extend it makes sense - professors are content
+specialists. Getting a doctorate and doing research are deep dives
+into specific subject area specialties. What's more, once you get
+beyond teaching early for-major classes, you're also teaching a
+population that's just as passionate about the subject as the
+professor is. While it's true that there are plenty of non-major
+courses and non-majors who take higher level courses, college
+educators live much more in a subject specific echo chamber than K12
+educators.
+
+At the high school level, it's very different. Years ago my principal
+sat in on a lesson. I have no recollection of the lesson but
+afterwards she commented that at one point I mentioned something that
+I found cool. "So what" she said. How does that make it cool for the
+kids. While it's true that our passion can be infectious she was
+right. It has to be cool for them.
+
+Since so many CS Profs and even HS CS teachers have strong math
+backgrounds and really like math, that becomes a frequent fall
+back. Truth be told, although I'm not a math guy, I've fallen back on
+that myself. I've done the quadratic formula, correctly derided in
+Garth's post and the traditional mathy recursion problems.
+
+I'm guilty of this but not apologetic. It's ok to do some mathy stuff
+becuase there isn't a single magic bullet. Some kids will indeed love
+math, some games, some text processing, some art, some music and some
+other. There are a lot of domains in which we can apply programming
+and CS solutions and it make sense for us to use as few or many as
+necessary to best reach our kids.
+
+Math, though, is a little different than domains like games or
+music. We don't need games or music to program up solutions to
+problems but we sometimes do need math.
+
+So, what do we do?
+
+At least we should try to use math when there's a point to it. Maybe
+it won't be loved but at least there's a chance at it being
+appreciated.
+
+Let's look at the quadratic formula:
+
+Given a quadratic equation in the form: \(ax^2+bx+c=0\)
+
+You can find the roots using the quadratic formula: 
+
+\begin{equation}
+x = \frac{-b\pm \sqrt{b^2-4ac}}{2a}
+\end{equation}
+
+What's so cool about that? How about the discriminant? That's the
+\(b^2-4ac\) part. What's the point?
+
+I didn't really appreciate either until much later when I studied
+computer graphics. In computer graphics, there's a technique called
+[[https://en.wikipedia.org/wiki/Ray_tracing_(graphics)][Ray Tracing]]. It's typically results in very shiny surfaces and
+historically, ray traced images have included lots of spheres. When
+you see an add with really smooth shiny stuff, particularly ones
+with bright specular highlights, it's probably ray traced. I believe the movie
+"Cars" was the first movie that was entirely ray traced.
+
+I wouldn't do ray tracing with a class until it had at least pre-calc
+level math maturity but for an advanced group, it's very
+approachable. 
+
+The process involves tracing rays form the viewers eye through each
+point on the screen and seeing what object it hits first. Once it
+figures that out, it spawns rays from that point to each light source
+and sees what light sources it hits. It also spawns rays for
+reflection and refraction.
+
+Let's say you have a 1000x1000 screen. That would be 1,000,000 rays
+but since you might actually "supersample" - that is, subdivide each
+pixel on the screen into 16 subpixels and trace each of those rays and
+average the result. That's a lot of rays to trace and it can be crazy
+slow. I wrote my first ray tracer in the mid 90s. It didn't super
+sample and was pretty simple.  I started a render the night I finished
+it. By the next morning, it had only completed three lines. 
+
+Since for each ray you have to figure out which object it hits first,
+you've got to do a lot of math to figure out ray/object intersections. It
+turns out that the easiet is probably the ray/sphere intersection. It
+might seem that intersecting a box might be easier but intersecting a
+box is actually a lot of work. You have to:
+
+ 1. Note that a box is really 6 sides each being on an independent plane
+ 2. Figure out which plane the ray hit first
+ 3. Figure out if that intersection point is bounded by the four sides
+    of that face of the box.
+
+For a sphere, you have to go through a bunch of substitutions and
+simplifications but you end up with a single simple equation to solve.
+A quadratic equation and for this you can use the quadratic formula. 
+
+You're still left with a huge number of rays to compare
+with a huge number of spheres. 
+
+This is where the discriminant comes into play. The discriminant tells
+you the nature of the roots of the equation. For example, if the discriminant is
+negative, you have complex roots. Geometrically, if the discriminant
+is negative, it means the ray you're testing misses the sphere
+entirely. Here are the possibilities;
+
+| Discriminant | Means for a sphere / ray intersection   |
+|--------------+-----------------------------------------|
+| < 0          | Ray misses the sphere                   |
+| = 0          | Ray is tangental to the sphere          |
+| > =          | Ray intersects the sphere at two points |
+
+Since most rays will miss most spheres it means that instead of
+solving a bagillion quadratic equations with the square root and the
+division, you just do the discriminant and throw most of them away.
+
+Then, your solutions also tell you something useful:
+
+| Roots                     | Means                                                                    |
+|---------------------------+--------------------------------------------------------------------------|
+| double root               | Ray hits sphere at one point                                             |
+| both negative             | Ray is behind the viewers eye                                            |
+| both positive             | Ray is in line of sight - choose the smaller root for intersection point |
+| one negative one positive | Eye is inside the sphere                                                |
+
+
+This was the first time I really "got" how useful something like both
+the quadratic formula and the discriminant in particular could be. 
+
+While this isn't a lesson for newbies, there are a number of areas
+where we can do something neat that uses math rather than doing math
+for it's own sake.
+
+I've [[https://cestlaz.github.io/posts/2014-01-07-rot13-gateway/][written]] about using the distance formula for recommendation
+systems and an intro to decryption. Also using [[https://cestlaz.github.io/post/who-played-spiderman-3/][statistics]] for question
+answering. Other approachable programming projects that can make math
+more interesting would be clustering or a Bayes based classifier.
+
+If we look, we can find lots of places where teaching and using math
+makes sense. This way, the math and the CS both support and reinforce
+each other. Much better of a way to do it than merely because I
+thought it was "cool."
+
+
+
+
+
+
+
