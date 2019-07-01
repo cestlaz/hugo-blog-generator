@@ -1,5 +1,5 @@
 ---
-title: Math isn't always fun but so do fun things with math
+title: Math isn't always fun but you can do fun things with math
 date: 2019-07-01T09:08:57-04:00
 tags: 
 - padagogy
