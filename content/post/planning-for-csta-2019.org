@@ -1,0 +1,90 @@
+---
+title: Planning For CSTA 2019
+date: 2019-07-04T17:26:57-04:00
+tags: 
+- CSTA
+- PD
+- CS Education
+categories: 
+- CSTA
+draft: false
+--- 
+
+Looking forward to flying out to Phoenix for CSTA-2019 Saturday
+morning. The conference doesn't officially start until Sunday, Monday
+for me since I'm not doing any of the pre-conference workshops. We'll
+have most of Saturday as long as we're up to it, Sunday, and Monday
+morning. Actually, there is the GitHub reception on [[https://csta-github-meetup.confetti.events/][Sunday evening]] so
+that's kind of official conference stuff.
+
+As to the conference, I'm super looking forward to it. To me CSTA is
+ a people conference. SIGCSE by contrast is more of a sessions
+conference. SIGCSE is bigger and less intimate. I have a great time
+there catching up with friends from across the country and when my asocial
+self manages, making new ones but for me it's more content/session
+driven. There are always a bunch of sessions where I say to myself "I
+really should go to that."
+
+CSTA is more intimate so it seems easier to meet and talk to new
+people, even for asocial me. On the other hand, I find fewer "must
+see" sessions. This makes sense though. I no longer
+teach K12 and I had already designed and taught complete course
+sequences going from beginner through college level before the first
+CSTA conference.
+
+Don't get me wrong. There are lots of great sessions. It's more that
+many of the sessions I'm interested in are more "that looks cool" or
+"interesting" rather than, "I really need to see that for what I'm
+doing or where I'm at in my career."  Maybe it's just that it's really
+hard for the sessions to match the value added from CSTA's "hallway
+track" which I think is through the roof.
+
+Here are the sessions I'm zeroing in on:
+
+On Monday, the "Creativity in the K-12 Computing Classroom" BOF looks
+interesting so I'll probably try to hit it. On Saturday, I'm curious
+about the "Advanced CS Concepts in High School: One Tool to Rule Them
+All" session. Based on the description, I'm curious how much is about
+advanced concepts and how much about tooling and resources that let
+you get to interesting data and applications. The "How to teach AI
+across K-12" session could also be interesting.
+
+JonAlf and I will be doing our session on using GitHub in the next
+block so I pretty much have to be there :-).  In the afternoon, I'm
+looking at the "You can teach Machine Learning to HS students" mostly
+because I'm curious as to how the presenter's thoughts on the subject
+can add to what I've done in my classes. Actually, that's also why I'm
+interested in the earlier AI session. I'm also intrigued by Ed Campos'
+Bootstrap Data talk but I won't directly be going down that road in
+any classes soon so have to prioritize. 
+
+For the last block, I'm intrigued by the Embroidery talk but Nifty
+Assignments will probably win out.
+
+I haven't looked over Wednesday's schedule yet - I'll leave that for
+Tuesday evening. 
+
+I don't think I'll be going to most of these sessions, I'll probably
+spend a good amount of time at the GitHub booth hopefully talking shop
+with my fellow educators. 
+
+Besides, when I'm at the GitHub booth I also get to hang out with
+Devorah (my wife). Did I mention, she's doing a very cool
+[[http://blanketstatementproject.com/][knitting/crocheting for charity]] project that you all should check out?
+
+
+Hope to see all my old friends and meet many new ones in a few
+days!!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
