@@ -1,5 +1,5 @@
 ---
-title: New(ish) Blog cscheerleader.com
+title: New(ish) Blog - cscheerleader.com
 date: 2019-07-14T09:05:22-04:00
 tags: 
 - tech
