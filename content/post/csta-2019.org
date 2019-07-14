@@ -1,0 +1,13 @@
+---
+title: CSTA 2019
+date: 2019-07-14T07:23:27-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+- poster session
+- level of sessions (API or real)
+- robots and curriculum in vendor area
+- knitting
+- 

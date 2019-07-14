@@ -1,0 +1,27 @@
+---
+title: New(ish) Blog cscheerleader.com
+date: 2019-07-14T09:05:22-04:00
+tags: 
+- tech
+categories: 
+- misc
+draft: false
+---
+
+Many of us know [[https://twitter.com/cscheerleader][Ria Galanos]]. Ria - a longtime friend and longtime CS
+teacher who has been very active in the APCS community has started a
+new chapter as a software engineer at [[https://www.yext.com/][Yext]]. Ria's also started
+blogging about it.
+
+I don't know the direction the blog will take but I'm sure it will be
+influenced by Ria's years as an educator. I'm also sure it will be
+worth reading.
+
+This morning, Ria added an RSS feed to the blog so you won't miss a
+post. You can us a reader service like [[https://www.feedly.com][Feedly]] or if you're an Emacs
+wonk like me, [[https://cestlaz.github.io/posts/using-emacs-31-elfeed-3/][elfeed]].
+
+You can find Ria's blog at [[https://cscheerleader.com/][https://cscheerleader.com/]].
+
+Enjoy.
+
