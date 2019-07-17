@@ -1,0 +1,130 @@
+---
+title: A 10X Student Story
+date: 2019-07-17T15:39:40-04:00
+tags: 
+- misc
+categories:
+- misc 
+draft: false
+--- 
+
+There were a bunch of threads on the 10X Developer recently. You
+know - that mythical beast that's 10 times more productive than the
+regular software engineer. I didn't see any of the original threads
+but I'm guessing they started with "your startup needs them" and then
+moved to the "they can't work with anyone" along with tons of fun
+tongue and cheek 1X engineer tweets.
+
+It got me thinking about 10X students. 
+
+Regardless of what you think about 10X developers, 10X people do
+exist - at least to the way I'm thinking about them. There are people
+who in any given dimension are "better," however you define that, than
+other people. In our society, if they're 10X in popular sports we
+treat them like demi-gods and frequently when achievements are group
+efforts, we, as a society designate one individual as the 10X star and
+laud them rather than the group.
+
+Regardless, there are 10X people. At Stuy, I've had a chance to work
+with a number of them and I want to tell you a story about one and how
+it affected the way I look at my students.
+
+Let's go back to the early to mid 1990s. I was teaching my first crop
+of CS students. Many were math team aces. One in particular, Alex was
+a superstar. Alex would end up representing the US in the
+International Math Olympiad where he scored a perfect paper. He ended
+up going right from Stuy to grad school even though his friends, the
+math chair and I were trying to encourage him to start as an
+undergrad. Why were we pushing Alex not to skip undergrad? Because
+Alex was wired differently. While he was truly a genius with respect
+to mathematics and he did pretty well in his other classes by turning
+everything into a math problem he was not good with people. 
+
+His friends spent years pulling him out of his shell and seemed to be
+making progress but felt that if he ended up cloistered in grad school
+all progress would be lost. 
+
+In the end, he went to grad school but this story is about a
+programming competition.
+
+At some point, one of my students, Eliot, told me about the USACO and
+that he and a few others wanted to participate. It would be one day at
+Stuy - a Saturday I seem to recall. While Stuy was on the internet
+back then, the competition wasn't. We were working on IBM PS/2 machines
+running DOS. The students would write the programs and run them, print
+out their solutions and I would compare the solutions with the correct
+answers. When all was said and done I either had to mail a disk with
+the solutions or printouts, I forget which to Rob and Don in
+Wisconsin. 
+
+Over the course of the day, participants would come up to me with
+solutions and I'd check them off. At one point, Alex came up and said
+he was done. I asked him to bring up his printout. I got a blank
+stare. We went back and forth for a while with Alex seemingly being
+recalcitrant about not bringing it up but he finally did.
+
+Meanwhile, the other participants started to notice.
+
+I started to look over Alex's code. Lots of variables. Typically named
+X, XX, XXX, XXXX etc. Maybe there is something to the 10X dev not
+being able to write code well with others :-).
+
+I told Alex that I needed to see the printout with the input and
+output. He looked at me quizzically. Again we had a few minutes of
+back and forth and Alex went back to print out his results. 
+
+One again, the other students took note.
+
+Finally, Alex gave me the printout with the results and I started
+comparing the answers to the desired output - the answers were REALLLY
+LONG integers so I had to check digit by digit. All the while Alex
+looked at me as though I was nuts.
+
+The competition concluded, we packed up and I took the stragglers out
+for dinner at the local diner. 
+
+The next week, some students apologized for Alex's behavior. They
+thought it was rude. Not as bad as what another math ace would do to a
+teacher a couple of years later which caused that years math team to
+go west side story on him and almost beat their teammate up for
+disrespecting a teacher but still they thought Alex was out of line in
+the way he treated me during the competition.
+
+After thinking about Alex's interactions with people, I had a
+different take.
+
+My take was that Alex very much respected me. To him, at the start
+when he said he was done, he felt that I was a smart guy so I saw how
+trivial the problems would be for him to solve. He then understood
+that rules said that he had to give me the printout of the programs. 
+
+Then, to Alex, again, I was a smart guy so clearly I could instantly
+see that his printouts were correct so why was I insisting on the
+output? Finally when I had to compare the digits, Alex was very
+confused. "Z's a smart guy, surely he can instantly see that my
+answers are correct..." 
+
+Alex wasn't being disrespectful. He was showing me more respect than I
+deserved. 
+
+My interactions with Alex through the rest of the year as well as
+observing him with others confirmed this. This wasn't a super smart
+kid being a jerk and looking down on us mere mortals. Here was a kid
+who saw the world differently and thought that the rest of us had his
+gifts if not more.
+
+I've had the opportunity to interact with a number of 10X
+individuals. Some as students, some as peers and colleagues, and some
+as friends. More often than not, in my experience,  they're wonderful unassuming
+people. They assume I bring as much if not more to the table than they
+do and they value what I have to say. It's my insecurity that makes me
+uncomfortable if I don't have my A game. 
+
+Sure, sometimes they're jerks but most of the 10X people I've
+encountered are anything but. The nice thing is that when I do meet a
+10X who's a jerk, I can remind myself that I know an 11X who isn't so
+I don't have to waste my time on the 10X who is.
+
+
+
+
