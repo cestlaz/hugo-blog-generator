@@ -1,0 +1,64 @@
+---
+title: Codeland 2019
+date: 2019-07-22T19:46:38-04:00
+tags: 
+- misc
+- conferences
+- tech
+categories: 
+- misc
+draft: false
+--- 
+
+I spent today at [[https://codelandconf.com/][Codeland]], a one day conference in NYC designed for
+developers in the early stages of their careers. Just as at CSTA, I
+was there with the GitHub contingent.
+
+Codeland had talks and a keynote in a common auditorium, smaller
+breakout workshops and a couple of small vendor areas.
+
+I spent most of the morning upstairs in the GitHub lounge so I onl
+caught part of one morning talk. Up in the lounge we, along with the
+other vendors - IBM, Flatiron health, and Command Line Hero were
+available to talk shop and hang out with conference goers. To be
+honest, not too many people came by. I attribute that to the fact that
+we were up on the ninth floor and the elevators didn't work very
+well. We were in a nice space with plenty of areas for conference
+goers to relax, schmooze, get a snack and even play games but it was
+too much of an effort to get to us.
+
+I also decided not to attend any of the workshops and stayed up in the
+lounge. The workshops were targeted at new devs early in their career
+so while some looked interesting to me, I didn't want to take up a
+seat from anyone who really could benefit from them,
+
+After lunch, I relocated to the downstairs vendor area. That was much
+better. Since it was right near both the snacks and the main
+auditorium there was much more foot traffic. I also got to hear and
+see all the afternoon talks since audio and video were available right
+near where I was set up. They were pretty cool. 
+
+For me, the best part of the conference was the ability to talk with
+the conference attendees. On the one hand, I was there to talk GitHub
+but I also had the chance to talk general tech with them. I got to
+talk to people at all stages on their coding journeys. There were
+undergraduate students studying CS, second career people either in
+code schools or self learning, Former CS students who's lives had gone
+in other directions but now they're looking to get back into tech and
+more. I got to hear about the excitement of their adventures and tried
+to give advice and encouragement to those having a hard time breaking
+in to tech. Having shepherded so many people from neophytes to
+professionals I'd like to think I could provide some guidance to some
+of the people chatted with.
+
+I don't know if there are any other conferences like Codeland but if
+there aren't there should be. It can be hard to break into tech and
+Codeland created both a safe environment for tech newbies and also
+provided really valuable content. I wasn't familiar with [[https://www.codenewbie.org/][CodeNewbie]],
+the organization behind Codeland before but now I'll have to see if I
+can have a sit down with them to talk shop and tech ed.
+
+
+
+
+
