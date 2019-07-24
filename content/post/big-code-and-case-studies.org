@@ -1,0 +1,90 @@
+---
+title: Big Code And Case Studies
+date: 2019-07-24T11:22:12-04:00
+tags: 
+- cs education
+- APCS-A
+- software engineering
+categories:
+- cs-education
+draft: false
+--- 
+
+I'm enjoying reading about Ria Galanos' new chapter on her blog. In
+her [[https://cscheerleader.com/putting-it-all-together][most recent post]] Ria briefly talks about the fact that very few
+professional developers start from scratch and most work in existing
+large code bases. She wonders why the College Board got rid of the
+APCS-A case study and talked about how it gave students an opportunity
+to work on a multi-file complex system. Over the past few years others
+have wondered if the College Board should bring it back.
+
+While I agree that students should learn to work in a large code base
+at some point in time and there are a whole bunch of software
+engineering skills that would better serve the vast majority of CS
+students than what is taught in full undergraduate programs I have to
+disagree that bringing back the APCS-A case study is the way to go.
+
+I'm not against case studies and large complex CS projects in APCS-A
+per se but rather that tying a specific large project to the AP exam
+forces teachers to teach in a way that might not suit them or their
+students. The case study never worked for me. It never fit in with the
+way I liked to develop my classes. As a result it was merely a time
+sink. To be honest, most of the time I just paid it lip service with
+minimal coverage. It never seemed to affect my student's scores so it
+wasn't something I had to worry about. I also used to use a few texts
+over the years that integrated a large project throughout their
+chapters and since those also didn't mesh with the class it made large
+swaths of the books more difficult to work through when trying to use
+them to understand core concepts.
+
+I haven't looked at all the newly released materials yet but I did
+like the recent trend of making labs available that you could use to
+cover core concepts but you didn't have to. The same could be done for
+case studies. Nothing stops the College Board or independent providers
+from releasing things like Grid World or other case studies. Make them
+available for teachers who's classes are structured in ways that those
+case studies support the class rather than are a forced add on.
+
+Beyond this, we also have the issue with exposing kids to larger
+sometimes partially opaque code bases. This is pretty important but
+many students don't learn this until their on the job. 
+
+At Hunter, we do have a capstone project course where students do
+indeed create some large team application using multiple technologies
+but they do it largely on their own having not formally been prepared
+in their earlier classes for development in the large. In my
+experience, huge numbers of students from a wide array of well
+respected institutions do little better at this. Many students do have
+to work in a professors framework - write a "player" for the game and
+such but that's much more limited.
+
+So, we should be doing a better job at this but I'm also not sure if
+APCS-A is the place. While it might work well at a TJ, where Ria
+taught or Stuy where I spent most of my career, my gut tells me that
+this is something for a course later in the undergraduate sequence.
+
+Regardless of when this is covered (if it's covered at all) it's
+certainly worth teaching kids the common tooling to help them
+along. Back in the day I used [[https://en.wikipedia.org/wiki/Ctags][Ctags]] to navigate large complex C code
+bases. Ctags still exists in more modern forms and it and similar
+tools work for a variety of languages. Coding standards like those
+published by [[https://google.github.io/styleguide/javaguide.html][Google]] can make for an easier code based to understand
+and tools like [[https://www.oracle.com/technetwork/java/javase/documentation/index-jsp-135444.html][Javadoc]] and similar for other languages can create web
+based documentation where students can click through complex
+hierarchies and relationships. Tools like [[https://github.com/BurntSushi/ripgrep][Ripgrep]] and [[https://github.com/ggreer/the_silver_searcher][Silver Searcher]]
+can also be lifesavers in finding code across complex directory
+structures. Most if not all of these tools are directly supported in
+many editors and ides.
+
+So, where am I at on this. Let's not require any specific case study
+in APCS-A but let's make things like them available. On the other
+hand, it would be great if our students did indeed all have the
+opportunity to learn how to work in large complex pre-existing code
+bases but that's an issue well beyond just APCS-A and high school.
+
+
+
+
+
+
+
