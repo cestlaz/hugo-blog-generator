@@ -1,0 +1,65 @@
+---
+title: Outside Evaluators
+date: 2019-07-26T19:23:32-04:00
+tags:
+- cs education
+- assessment
+categories: 
+- cs education
+draft: false
+--- 
+
+I was planning on writing up all the exciting CS Education work I got
+to be involved in these past two days but I saw a post on one of the
+CS discussion forums that got me riled. 
+
+There's a teacher (name withheld to protect the innocent) who wants to
+create an advanced course for his students but his administration is
+requesting an outside measure of accountability. This sounds
+reasonable on the surface but I found it really insulting. 
+
+As teachers we're hired as the professional - the specialists with the
+responsibility to teach our students. Parents leave their children with us
+all day every day with the understanding that we'll do our best to do
+right by our charges. 
+
+Yet here we are being told "you can't be trusted to design a course
+for you students and assess them. You need an outsider for that." Now,
+I'm not advocating that teachers operate without supervision - it is
+indeed part of a school's administration's job to evaluate, support,
+and improve its faculty. What I am saying is that teachers should be
+trusted to teach and to assess. 
+
+Actually, we still do trust teachers in some areas. How many English
+classes are free not only of standardized tests but tests
+altogether. My kids were in band and chorus. The assessments were all
+performance based and all designed and administered by their
+teachers. Same with many art classes. It's funny how students in
+instrumental music and hands on art classes learn to love and
+appreciate the arts. At the same time, at least at Stuy, students who
+instead went through the paper and test based art and music
+appreciation classes left, let us say, less enthusiastic about the
+subject matter. 
+
+Even in more test based subjects - precalc is a great example here we
+trust the teachers to assess. There's no precalc regents or AP exam -
+everything's designed, implemented, and assessed in house.
+
+Just because CS is the new kid on the block doesn't mean that CS
+classes all need some external evaluator. If you don't trust your
+teachers to assess you shouldn't teach them to teach. 
+
+Now, this is not to say that there aren't time for external
+assessments or engaging outside parties to help us design, deliver,
+and assess educational experiences. High School CS teachers can use
+higher Ed CS people and tech industry players to great effect but it's
+the teacher that should drive these relationships and partnerships.
+
+The bottom line question is "do you trust your teachers or not." If
+you do, you should empower them and support them to do their
+thing. It's like a former teacher of mine always said: "to solve the
+education problem, hire great teachers and get the F out of the way!"
+On the other hand, if you don't trust your teachers, something's
+fundamentally wrong in your school.
+
+
