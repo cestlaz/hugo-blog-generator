@@ -58,7 +58,7 @@ structures from pre-colonial times.
 From there we drove in to Canada. On [[https://twitter.com/dougpete][Doug Peterson]]'s suggestion we
 stopped at the [[https://en.wikipedia.org/wiki/Welland_Canal][Welland Canal]] which connects Lake Ontario to Lake
 Erie. It's much wider than our own [[https://en.wikipedia.org/wiki/Erie_Canal][Erie Canal]] and ultimately connects
-the midwest ultimately to the port of Montreal or beyond.
+the midwest to the port of Montreal and beyond.
 
 
 {{< figure class="z_image_left" width="250px"
