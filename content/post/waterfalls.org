@@ -1,0 +1,145 @@
+---
+title: Waterfalls - a trip report
+date: 2019-08-06T19:18:13-04:00
+tags: 
+- misc
+categories:
+- misc 
+draft: false
+--- 
+
+
+No, this post is not about the [[https://en.wikipedia.org/wiki/Waterfall_model][Waterfall development model]]. Devorah
+and I had a chance to take a little vacation up north.
+
+First stop, Niagara Falls.
+
+{{< figure class="z_image_left" width="250px"
+src="https://lh3.googleusercontent.com/ZO1ALFs-adEiSXZiaHi7CTDl3GjdFr6x2D2zTzdW8__EeUH9TYp56pkcV4xeXqRk9E3bw0FcqJL_BpXgxKBR4GaOmqKhYffd-htNgIo7_IG4uQmKNzqyF4XHgb_B9iNKfson0P-uAnbVR9pmD7QlRRGfgAV6Ud9R39FvhB84n60y2RJCc5juo0iovB1qP7uuw6zjxP-7NfXWFmNk-8qdEqj0WNiwg8T-AeEwF3sdpLeD1IF9fWQGAky7akDvraG5fRnvM9REg9FuLSqlOBc1eX4J7HNE36FRILibiuxBQjFhBM9CKRS78-4eHD-EBsrpRxj7rJ0ds65txkq7_yubpd_yYyWYIWnIH81iDPdgw2K8TWHBVZuVmpgnKvkkFQ-wTzDthdilc1fyhWLyEms88K7JLloU3dLtIcGIZVi0TV0eLYjrJdK0ElgpolPJCpiDSU6Ic2roDXpJPyicuSgQ43N2XEsFStaJ2907pUvVkdZ1LzwmRkuOvTjLzfgcrVQbSiyfMAr9ftIPDylrv7xlvP-CxlhMjtAApLCSylizPXEmz2HozTQQFIbSFcX60GMXXSlES2lJG2rfezLCc4IfAmRxQ71ee3aEKznydjCwBpe9FICZkqwywykyUWgYrShuEclPsqKctU9cYZSx0qYpiRF8Y9S2qzJdkO0YZScY9h94RRqRA_JRr6xdmfBbHso9o1ylyrVQJ_NDIJjXdKSnOMwLJQ=w1495-h1121-no" 
+>}}
+
+{{< figure class="z_image_left" width="250px"
+src="https://lh3.googleusercontent.com/-TOrr0_0Q98rMZniXAUfalKk-PoB5wc03jeP4M6GCcu-lVmNtSjq5CDX3XT7BzMpntm1wsCI6AFjwAg7ZD3JFrxehhNd0FPKWMesVPuisx6bf6jCskGbE16KbSY09BzrL_dyl9vJHg-TKWEfYwzlWRQ5cvsRlDSd4YRbY5D5zPAb5RQGJvMooPLt0GrPe8ecPBgFlpnlkLio_U4pkz6JH18jtl9CkvC2yZiXUHwi4g5j0zUdJ4wquoWWDoahG0MwizIjYcT3lBbKsSxCwG64647T7uRSvRcetDnWXUwUWYpwKa9cbVUBx4zi7IHXzA71fqkzyraY8YWgHIvfyFxjBWP9l8P5aONWtXcITqQoIVIWg5n-O-MlcfsVKU3YRUsnpwFX0-YpBKC_UpVqIXwRT9cEOEp359QpdKtcoJ9yUVOWpzf4M3owAcj4Q3cZmy1R0oZdcbpVH_YNcrjgWfr9PfhbyDyuzc4_NRLcME8xJYIPmCRbTis-I9KfKrRyGzdMnwjTR_bVzfuDgwmrPjZ_5HeJsev5-qBbvdfmvnEO3LgOwk2BsnbUFaNLUeJvWPPfhgwrLPcnagRUiDsDOvSewYY4VIc4XC_wmR7fmXJOlYPmoj6eQ-aQxKPDhq7eEMUzKJ7RLCEanYe9a1YKryvg12ySdTeA5YxR=w448-h336-no"
+>}}
+
+<br clear="all">
+
+We did the Canada side 9 years ago when we did our Erie Canal bike
+trip (you can read about that by checking out some of my early [[https://cestlaz.github.io/posts/2010-08-05-erie-canal-day-1.html/][blog
+posts]]). This time, the American side. My take is that the Canadian
+side is more polished and all private attractions - think Times Square
+or Disney. On the American side, the town itself is somewhat run down
+but the attractions are all state park making them well maintained and
+affordable. We did the "touristy stuff" - Maid of the Mist and Cave of
+the winds, both of which were well worth it and also things like
+[[https://parks.ny.gov/parks/105/details.aspx][Whirlpool State Park]] and the [[https://www.nypa.gov/][Niagara Power Project]] along with a few
+other attractions. We got a nice dinner at the Niagara Culinary
+Institute and an okay one in [[https://www.tripadvisor.com/Restaurants-g48050-Lewiston_New_York.html][Lewiston]]. There were a few things we
+didn't get to do and I'm not sure there's enough to merit a return
+trip but we really enjoyed the day and a half we spend at the falls.
+
+Next up was half a day at Old Fort Niagara about 25 minutes north of
+the falls;
+
+{{< figure class="z_image_left" width="250px"
+src="https://lh3.googleusercontent.com/fe73nED0eFzSJX9Se32R4CHtPPhOLMn6-gfsnBVH1seeBx20IpnavPSiigUow1t4O94nONeDn-M53hD1iSBR_sjqQlazR9QAECAYfPSmHRS5llPebxl6OkbWPCNCWt_hIDKe07UtWvT5isdRWyo9S9u5vXq3n7vESKkihfdl83oksWuAZBA3noPJ1HYbXLcDWsbIHPi66FLbzZITw1NRdOjNymQamUop5F6r7jOE7m0xh-q_laEupotVu8x8rtPinrZ42kpAHsdgjbBe7wtcccd3xQiP8vTmuB4wGsnrdZhhN1qgSrg-WMUEXfDRfClNARZy5EBhwiQ_-tboWVjhsxjomRbDVoMnxhVjSXHRc7Ipmd4wtxcJCBMXs-fUttvqLWtpPzVV3YqVY0DrmpVxTRPGX-JrBAr9zHZuPvQ8tCTK9HVJCUQ7PoITo3XL8mtp-npj4DeBiuleor9sexUwAcUddSVdaT6a93BLS0vfYzjDJ9ED_GlD-PVrhSEbH_dVBt9rBzG1nw5MCvwZ-I1BCXddRZkL__4djy8MrdjqMRX4VEbLY3Z3jAsa_txrny1gp3jb-E7apYU4QuW_LikZP9X4PSvXuVt_Dbj2qOKbzWH8WdWd3cS0jroEgsL-diQQwAJDeeUlcQJyDoM2FAfgfzUwSTZJD1oL=w1495-h1121-no"
+>}}
+
+{{< figure class="z_image_left" width="250px"
+src="https://lh3.googleusercontent.com/P5eGSb8exZx2H74LF3UFNAMcA_Px8vb0AjNCInbXIASUyzni0UU5Ij3hWodUAKIfkZHNx9dgWounHvTTeqrI1nF0N92Y1eObkff5ablIobpaky_9i_DGeqFj0iT8pdlvQhie8q9YZvV8AoegUUA40gWZHeVgatdtgw076smv4vBC8nqG_0aB5K4wDkH0qC__8JLCNq_AVns0QNbAsVn1GmppA31ZRhCCyGq8Y6igWOa084lOppPXTQF7pA7ZwdnyWNEx6YUncJ3XuU1cuDcwbQmIO8uek5DWDNpFSCuQRECtTadt_oFPMscsa7uPIyLwUTThvfWuhLSs0eo7zy-z-UcXDGwyZT8SH4WmlsdFtl9UW2n62TleBUZB2Q_LGzmGpqABofrjWSaCTQY-qwMV2xVq5IvV5-I-9na9myVWbgDFJajKkiCj5yLkBDkeh48kV_3fC6WMdJo_8byCJEoQkn5rAx3SwyOsdf7gcjZmECI57VNr8p-SmklEWEQso3unRW_rhHcBLWV819Z8fh-S8AxPVAomlcM9yWzunjkBpCTj5Q8fgjsek9ijaXQqY_RZqLOFXKNaMcQ6qbC8BrY2nXM2L2EUgyYFhq9He0xAurxmhgSHJRJJW9cftBnFjSZ2jusHRgJ6Zj0JAijmbBhgcQK9tXx4oJJ7=w841-h1121-no"
+>}}
+
+<br clear="all">
+
+Lots of cool history from both the war of 1812, revolution  and the French and
+Indian war. We're such a young nation so it was cool to see standing
+structures from pre-colonial times.  
+
+From there we drove in to Canada. On [[https://twitter.com/dougpete][Doug Peterson]]'s suggestion we
+stopped at the [[https://en.wikipedia.org/wiki/Welland_Canal][Welland Canal]] which connects Lake Ontario to Lake
+Erie. It's much wider than our own [[https://en.wikipedia.org/wiki/Erie_Canal][Erie Canal]] and ultimately connects
+the midwest ultimately to the port of Montreal or beyond.
+
+
+{{< figure class="z_image_left" width="250px"
+src="https://lh3.googleusercontent.com/7TAtafilPV9NvwDsHgAywreQFofk3e-tuQRVKhM0nCXK_aW64Qh3T1_CMkHAW5xCe_us69b6IoNZUzSSgCOKmZDlvZCdAHElozy0HMfS8OHjLRwZaUbmklXPtn51MqYq2DxE5tDIwqyUiX_PRyLqwqz_jEPVXtI8A-RHmixd2K2mzqEWS1y40fabhTEaEoDFdPQQUDmOXi8XW3ZvFh0Dtx3Z8tUGoauqQneHsiY6Elrb5i6GjT2igsCuZQl9GCzagN0_Tb9f0Jo9E0zoDM2LshVtw74rF-i6iEngMs_-tt_3_iA87jlYc_dR8h5fiNNCxf6NdNhj0gmlNd9xhJYJrRhvvJJXytE0wFpeNvcW6JWlZqN-vi1y9HrSVv5-qK5e4GaPEx4Qip-isIkkhanYMOyjbmU4OzPrepp7TLD-iCbwvtaRY0lP20_pIPcWNMakvZ2kYno13oIQkMaKxNwQE8kYYEpqwiYVhjxFVhFZ211q4iQpSA7czWzs-HKDAHaiBvsO5QybzD5MCfmqJJmKsJjm8mnmey6NLcJH0Yw5V2nqwiMvQjUs8_cpiNniGR_pNiQ_pg9eWpW669CrrbKVJtQQfHIn3bo8b6LT2I6p8oMdFr6Zn6LYl3fkck4BzE0hnKzjRTTf3ZYLvVGQRpUxyNFQ7OUHgehK=w841-h1121-no"
+>}}
+
+{{< figure class="z_image_left" width="250px"
+src="https://lh3.googleusercontent.com/KE4LGNqZnGWVGWzJtOq-hsRDucc4oAXZqT1uW8Y4qSwLs6Wj2ZFsl1OdT8-3UzRXFdw0tIUxq3jzPaD-6P8iBBPbY-vPcyynCaqM7AgEbQLCxtQ1Ihvpit4Kj7f_7w6jXCscTHTTi0pmRwswHvRbpw6bHQ2wsMb4IDVd-s8OWaJKqa-VDx4GTBtSjPugmHNahTMB3DO76BLUCBdAQkbHBU3FknzPRXhT5xX2wwTlVeIsJL4DUZoaRmwXtaA2nzi-akv5YPRxom4b4ilhH3MybebtbGrlaCRFYLjEaQvVXUFCamhm5B2wkmSZ3bFto3QwMGfiI_G03TsOg5_vf3GY1gQCKM5hety8C2ZIV-IcQg8wtt_RQIpiSf-hHSNrgKDLsdPoJMB8Z_nf8-mSZAtCi0JJb1DB0ExRJLGysLayt6oiQyITjf-WZKCrLDVaoWehjZ1kkV3BcZZumiEbwshAwLqrzh_5UGDmvGEO8YSRzC7Srhp0M2R5XO2VfeWrKjkVAqiLIoc_tih_tOl8YFf59fjo_--BcauaZI0rKu2q1NGPu0asL2PLwZBCD0RgIdJQwHJkA5MOxNhT3ReMKJaZ5r_MP5SCWJs8ICTYtg4wEVMUgPj6Wpj0ZriRDFj7iKYWz1wIy56f1sIxd1J11S1SOfdNhRBttvZzcrqpjVePm62HjV2Lyw6g50KgP1akI7pVqNgaxmZUBjTZbiudntIix2yt_A=w1495-h1121-no"
+>}}
+
+<br clear="all">
+
+The image on the left is the cement barge St. Mary's Cement II being
+pushed by the pusher tug The Sea Eagle II. Using [[https://www.marinetraffic.com/][this]] site I was able
+to track it going over to Cleveland. That website is really cool - on
+it you can track *all* the boats. It also has an API so you can have
+your students use it in class projects. 
+
+The image on the right is the same boat a couple of minutes later
+after the lock emptied and lowered. Really cool. 
+
+We settled in that evening in Hamilton Onntario.
+
+Hamilton is known as the Waterfall Capital of the world.
+
+{{< figure class="z_image_left" width="250px"
+src="https://lh3.googleusercontent.com/lwrhZWCIFZfpSE2umVZZ970Soln9uv8pXztTajS_HL0cGDB_TWZy1TUVFpegO1t-_VgKXRPDn1xXl8A9XS2Y1kpPC0Zkwa0U4GL2zJsXgbebYkwv5OSzkdbd3vSCVPvBKg0tGp2q9ZSofLwQ14X6-r8wDV-qJaznFgy4kwDWFX2HDQCqgzToERtQNZwohM-_foWs4rFkuIlEp5JF_MnqDcRsJQvZIWIVQgMZ7C7zp4Na1Z73T_1h5IzZzEFZ3t2n7zjmVhNSL8mERoHjcMmsd1sEprre1uf5RTEoFWgAQCnoN4hDtyJPrO79zeCe_SKZGfH00m-Xn0gadFpm3r9msRaz4sI7Z1b8hvghxoN0ijeu39mQ9HhdTcuweJTioYmsFU35qNtjZuAWYxyEgQtiORVtzmzW9PFG27IiLFh7QuQcZK9FS5qsoXVcnU81-XdtiTgSrfqunfPk7zW7mc5NFhy8jxnt3-DcE0Pxi34BckLBme6wa-LsO1uyLQQ9KtPC174g9faDWQbHifEOiMcCG7VQGa1XBg7zlfdxi8b4Ts5NGzkQv3B1dMWXjP8CWEblxpMAMS_OQCNWwxLsOmZO-Z-7i3AZmaGat6d-tU0SevPv6P0ZDdxwIcvl5Zh8oswtuC3AMf6KDSbmCDsSVctRxUGURECXanyDW3wBMbYM6lqFKRYpcSCPzNknVDgrHYUboz3i6G9KHUbyx4lTJ46qrnypbg=w1495-h1121-no"
+>}}
+
+<br clear="all">
+
+It didn't disappoint. We didn't get to the two biggest falls - Webster
+and Tews but we spent a long day of walking the trails and did get to
+see six or seven of them including [[https://tourismhamilton.com/devils-punchbowl][the Devil's Punchbowl]], [[https://tourismhamilton.com/albion-falls][Albion
+Falls]], and [[https://tourismhamilton.com/felkers-falls][Felker's Falls]]. It's pretty cool that we're still in the
+city but are on these hiking trails. We could probably have done
+another day or two just hiking the rest of the falls and another day
+to see other local attractions like the botanical gardens.
+
+Our last stop was [[https://parks.ny.gov/parks/79/details.aspx][Letchworth State Park.]]
+
+Letchworth is truly a hidden gem just as the Ithaca area state parks -
+Treman, Buttermilk Falls, and Taughannock but more so.
+
+Beautiful waterfall and gorge views. You can go on a hardcore hike or
+just drive from view to view. At the south end you've got the three
+major waterfalls and at the north end the Mount Morris Dam. There's
+also some pretty good food at the Iris Inn which is at the south end
+of the park. We didn't stay there but if we go back, I think we will.
+
+If you haven't been and get a chance, you won't be
+disappointed. There's a reason Letchworth is called the Grand Canyon
+of the East. Not nearly as big or majestic but just as beautiful in
+it's own right.
+
+
+
+{{< figure class="z_image_left" width="250px"
+src="https://lh3.googleusercontent.com/Cp6aZxzJNS5ZZCMMu_CtIQNAB4p_M2_9T9qlROh7keHxJnIIsHik1QaupzyqXHqPVdYUD_S-FaJ25yiRtOcgL-YtL3oQbBDXG1zsQUy4hJtBPh2gRlRgNNPHwrtuYHMhEwflks6nqpyiQZtohN2Fxaz6-w95-YJlzV8ob4JJshVzrkAf9xTk3G0C6NDTMC9N1tdIMSr8-z8Y4M2HbsC8-T0YucUmJS4UyTJML4FaA4X9rbrKQKA5_biATYnfo56PDYunG6fPskH7qyfDOnZ-olp9NPzg3jEub5BThS5W2rZZ-8kgE0fmGUXecjd-bJf6ncIY9wmgA-PKH1xu-S6JykjWohbN37ADnc_3U3Phc3Hp71-qe9rZOfSk2HnD54xwz11ybH2i0n0_enfLWZGkm8n2u3LwzOsR-XenSw6yEqrBvexAq9khmn4xLHgBlajuuzYsP6XOOpNNKaNvScpTUEw4kWyHhyQZJMP6UUqT5mmxoNJ2Rg801fh-5qil69Lc-A7fjh5lQ2Hn1HVS5VCGYXRSnBeY6t70vGCbStiwl298Bb8l0rYHj-_bO6YSoDN1KzztcoNWgm-Y10KFyac5688H9cimISGzGBUhWFLy-EKnPHoulMINVy6ZXEu1Fa7TJS42nmQ7_9-FO8t0M8yZvAbJB3RFoHBZKhkOHedJBQWmEnbXYWKKWpWH1mlBU6ptcSrIWhnM-9jMZCA7vSQrMeYDpQ=w1495-h1121-no"
+>}}
+{{< figure class="z_image_left" width="250px"
+src="https://lh3.googleusercontent.com/fucLzS0UWdKXMzMHe9nIoGuqtG6T_qP31GM7uOa5ShlHJOWFwuXkvVbhUOVICBKP-x8lAxpf5vgu7UlU4_WB2Ynk9UuAgokLuKlFxqUBAM_h8TPq1NrtVmmi0oHABcPTv4UPlr5FwsZ8o2BcZpxVUkINOvQzqR8jY81qXzKCTU1gsy2adrW06HBk2FBxNEBnuNu0gBfjF1Oq4jcEcs2O4VNlpaXf9IGsWnCziwXFfXcQNp6WkjNwskGxffymEseUfjGzYoQzXs80OwrbKsHC0VYvnpwkj7CdZGlNOL6JQWMVV4F5_lw8THDmwjNYX1xczn2qHb51sdSRGqrADU2FSq478vsRwX37PmMP4VWct8KDEdQx-_2oRgrYNWlfVqXRAANZ4uQK9T3WXN0v0UnEtQlYkaotyjRhX95aeoPbdEz8z2VpjKfuu9rIOiuGW38RBKMLeA4723uFXAWVrp8e0FgbVBVAnSAx4TqO7BylD-QjHTZoX16QAVW3wbbeFXRwLjJCXs-QOuZrpa4s8Ks18YVvJn8WRrlGfLJmqVid1HupMlnMfpdE2SkYhhC29mu4tJRJn83kJkP85nPgeTj9P1oQG2kw2seyRDGpGiGud-EVOyq9zoaIZKm1TrlKONHEEwanWb44E-uO2hULcp_pAf1GJJF46pMsE-XjwZ7f0iUUkFwIxv9qWnrszyCYv74m0xvCfvjbGTj9V9yHVnDNVkdAEQ=w1495-h1121-no"
+>}}
+<br clear="all">
+
+
+{{< figure class="z_image_left" width="250px"
+src="https://lh3.googleusercontent.com/9aFZ-ftnDFvn2QuZrwFuwBJgetPNxhPQ7rrNcrCM2VeF3JUyuq6TL26Cfal8v_PgpDjsrNWEiW_Mp6ug9u0hyEQzvd-4ZfMxNS6MAiNuk0TpIjgkX_ahfVrlcl0NF5YOAKVVl6wuzlXQFN7m4806ohTHQcgAELfF8ha7PIIgd-L6M4fr1MeC9MWmYuFeIAM3jKpsCI-yInJNUYHSec_mqFnHv4HBkvrC6HEH-pAy9HR-Xun1EWJBch0GOpp6QS0hdn5Maz26RUOCxcW1O8IzBIpORu1w-8qVFNl6b_ESwQvqcHpTOBZZ1aRlxGSs8pamafDhtldeS-e2ZOZ6JHHyIeuMVv7tATz7Aiwoapb_Giy7gtJme9A4In3O2dSj5OQKYVFksGIFeZJdQK7MkmhR7EFEqGXgfo4NOXMYXQgkSdIoFdFNSkk35M3UkebX5iWeVRHd1iGryW-Su5rLGqo-e4P6ZdAqBZo1aCFzpFLOBAxty48ckKd6qb9ONsBYBnclKArpJCM-QmxZ1tuEg052vk2_8VF1Hp5jPle9Eg7qHRZmvhRp4FLLR3lxMCnv4UVj_hv8ATcWlOmv0pQKiBSU7uaBE4z2FmesgAKMIF8jgib6uLiImD7T93qQ1ribKYTsE7Wk2TYdIX9FrsUqyKU9lV1-RvJFB1C_8-ous4_uGe1jpUZajOWS8Fd4AhPfkUd1yng6eqgM6XJccUadZAEgTUOvVw=w1495-h1121-no"
+>}}
+{{< figure class="z_image_left" width="250px"
+src="https://lh3.googleusercontent.com/bMS7PphU4bf6S3tNZ9SCow8vzFXB7SgHd8YV6GlqvKSqs2sQSvbspwSGZdMXpfm35WxNCfr1Pmt9_GZEx2KXBS0UGZJhOJj11S_a1yDQOFG-C2usQLrAwTwAFPABjORmI02lMjgp8QgrW3QI7N7SjZEupZoXmjAi9Np4IeejivDCe0wLqUKEfZIpi6rTh0_MpkH9UK3LZEtqBOqnHaE2T5qPMSy7WIZZGqtmLJxsTwQpBDAuzMuRiXcgoSWOs4LoO692zaKGhO65PSqmy6lJZC_hmspWN5mbrKIAgqswvNublAVcA8UfLDa2EtOHGG-sULUc-ZMmjK93TL6AVyTiOeOrEYgCWgDBzohSHgBvQaW8vMBvnu2foJ42h6r3TF9fapKyhXe1FH2qi9vlTu3Bs44WHrZi5rPTUt7acpCD2pdatg2r_b_0CKKP1MO0l7I1cq-1q162GqVyCON4aMN0xzFQ75CMUL_YOWX0LtjYSxRaCh6OkhtqwCOQpdELeoVO_qyF57zyFZxJEggHAB3awX_VA_TpzE-eEcGF0URM4QjT7JyR3D1-KC_HxesReBkDUn91YRCD522o0alO4468mPL4s4eAN1E4-rYb6wRYj7n0o0bPgUT1lg8TlSQPxl8ehy8q55_zijFvloje44O5Q9eC6xhYpWTRvIlaSpou5BT6LArf6_e4zVbms90m2Qst91CFUHLg20d3ARz_dMQpywcveg=w841-h1121-no"
+>}}
+
+<br clear="all">
+
+We'll probably head through this way again we still haven't but want
+to get to Toronto. When we do we'll probably spend additional time in
+Hamilton and Letchworth. 
+
+Now it's back home and try to get in a few more restful days before
+the semester begins.
+
+
+
