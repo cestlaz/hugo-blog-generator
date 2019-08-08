@@ -2,8 +2,8 @@
 title: Exploring Complex Projects
 date: 2019-08-07T19:20:17-04:00
 tags: 
-categories:
 - software engineering
+categories:
 - software engineering 
 draft:false
 --- 
