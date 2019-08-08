@@ -5,7 +5,7 @@ tags:
 - software engineering
 categories:
 - software engineering 
-draft:false
+draft: false
 --- 
 
 A couple of weeks ago there were some discussions about students
