@@ -1,0 +1,153 @@
+---
+title: Exploring Complex Projects
+date: 2019-08-07T19:20:17-04:00
+tags: 
+categories:
+- software engineering
+- software engineering 
+draft:false
+--- 
+
+A couple of weeks ago there were some discussions about students
+working on and in larger projects. Most CS educators think it's a good
+idea to expose students to large projects even if we don't all agree
+as to what the best time is.
+
+Regardless of when, figuring out a large project can be a bear and
+that's not just true for students. I saw this on my Tweetstream about
+onboarding software engineers:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Leaving them alone with their laptop and telling them to look at the codebase. No purpose, directionless, no assistance or context or perspective. Show me a codebase that is documented exstensively enough to support that and I’ll be stunned. <a href="https://twitter.com/hashtag/devdiscuss?src=hash&amp;ref_src=twsrc%5Etfw">#devdiscuss</a></p>&mdash; Laurie (@laurieontech) <a href="https://twitter.com/laurieontech/status/1158911795341529088?ref_src=twsrc%5Etfw">August 7, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+If we're lucky enough to use a large project specifically designed for
+students there might be sufficient documentation but don't count on
+it so here are some suggestions and tools that might be helpful in
+figuring out a complex project. 
+
+** Description and Documentation
+
+Even if there isn't a huge amount of documentation the project might
+have a description or a Readme file. There also might be a build file -
+something like a Makefile that could give some indication as to the
+lay of the land. With a Readme or description you at least know what
+the project is supposed to do and if the build file isn't too complex
+you might get some clue as to code organization. 
+
+Another thing to look at is if there's consistent documentation. A
+Java project might follow the [[http://www.mcs.csueastbay.edu/~billard/se/cs3340/ex7/javadoctutorial.html][Javadoc]] specification and if so, the
+build system can probably build a web site that allows you to navigate
+through all the classes. Other languages support similar tools. Check
+out Doxygen which is like Javadoc but sypports a wide range of languages.
+
+** Tests
+
+Another thing to look for are a project's unit tests. If they exist
+they can give you some good insights into the project. You'll see how
+aspects of the code are used and also entry points to start looking at
+the code. 
+
+** Logging
+
+Next up - logging. You can add logging statements using your languages
+logging facilities or just print to stderr or a file. Put in a bunch
+of output statements along with time and location stamps and run the
+program. Then use one of the tools mentioned below to help parse the
+output. This can give an idea of what's running when and can
+eventually help you to understand the code. 
+
+** Debugging 
+
+Last up here is using a debugger. Load the project up in a debugger,
+set a breakpoint somewhere and let-er-rip. When you hit the breakpoint
+you can check the state of the application. Another idea is to set
+watchpoints. When you set a watchpoint you tell the debugger to watch
+until a variable is set to a particular value (or is greater or less
+than) and it breaks your program when that happens. Set a watchpoint
+and you can likewise check the programs state when your program
+breaks.
+
+Another think to look at is the stack trace under the debugger when
+you hit those watchpoint breaks. That will tell you the sequence of
+function calls when the watchpoint tripped.
+
+
+* Tools 
+
+Most programming environments also have some tools to make all of the
+above explorations a bit easier. Here are a few of my favorites.
+
+For the examples, we'll work in small three file project I set up. A
+small linked list in Java. It has three files:
+
+- Node.java
+- myLinkedList.java
+- Driver.java
+
+but it could have any number of files in any number of directories.
+
+** Ctags
+
+[[https://en.wikipedia.org/wiki/Ctags][Ctags]] goes way back. I first used ctags for C programs. Now there are
+a bunch of implementations for a bunch of languages. The idea is you
+run ctags (or etags or gtags etc.) and it creates an index if all your
+functions, classes, methods or whatever. Your editor can then easily
+jump from a call to a definition and back. Most editors support some
+version of ctags and some don't even need the ctags indexing
+engine. Here's an example of dumb-jump in Emacs which performs tag
+like searching without the indexing. We move our cursor to the add
+method, hit the magic key and we're taken to the definition:
+
+{{< figure class="z_image_center" src="/img/dumb-jump.gif" >}}
+
+This can be HUGE in understanding code.
+
+** Grep
+
+Grep is a pretty ancient tool going back to the 1970s.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NTfOnGZUZDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Bascially, it can search through a file or files for text. Most
+versions can use [[https://www.janmeppe.com/blog/regex-for-noobs/][Regular Expressions]] for wild card searches. 
+
+While ctags is great for navigating function and method calls
+sometimes you're just looking for a string. For example, if you're
+looking for the string "hello world" in your code  you can run ~grep
+"hello world" *java~. The problem here is that it will only work in
+one directory. That brings us to:
+ 
+
+** Ripgrep
+
+[[https://github.com/BurntSushi/ripgrep][Ripgrep]] is grep on steroids. There are a number of similar programs -
+Silver Searcher, Ack, and Git Grep to name three. They all are much
+faster than grep, can focus on files based on type, omit files based
+on various criteria, and more. Currently I've been using Ripgrep.
+
+I wanted to find the code I used in my blog to embed an code sample
+but couldn't remember exactly how to do it. Here's how I used ripgrep
+to help:
+
+{{< figure class="z_image_center" src="/img/rg.gif" >}}
+
+First I typed ~rg -t org python~. This looks at all the .org files in
+the project hierarchy for lines with the word ~python~. From there I
+saw that what the highlight code started with so I ran ripgrep
+again this time adding the ~-A5~ which printed out 5 lines after each
+match so I could see a complete example.
+
+This just scratches the surface but I'm hoping you get the idea. The
+other cool thing is that most editors integrate in ripgrep/silver
+searcher/ack functionality so you can do the search right in your
+editor and jump right over to the code in question.
+
+
+{{< figure class="z_image_center" src="/img/rg-emacs.gif" >}}
+
+
+* There's more
+
+I'm sure there are more tips out there but these are my go to
+techniques. Hope some of you find them helpful either for your own
+work of for your students.
+
