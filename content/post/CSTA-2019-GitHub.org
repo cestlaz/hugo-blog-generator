@@ -9,7 +9,7 @@ tags:
 - git
 categories: 
 - CSTA
-draf: false
+draft: false
 --- 
 
 With ISTE ending, the next big event for CS treachers is the annual
