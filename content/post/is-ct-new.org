@@ -1,0 +1,78 @@
+---
+title: Is Computation Thinking a new idea or a new opportunity
+date: 2019-08-25T16:32:17-04:00
+tags: 
+- computational thinking
+- elementary ed
+categories: 
+- computational thinking
+draft: false
+--- 
+
+Saw this earlier today.
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kind of
+works, doesn’t it?<br><br>Does every discipline do this — decide that
+the way experts think in that discipline is a special kind of
+“thinking” or “reasoning” or “literacy” that everyone really needs and
+that we should be teaching to all our children? <a
+href="https://t.co/cvNvpOMjZZ">pic.twitter.com/cvNvpOMjZZ</a></p>&mdash;
+Mark Guzdial (@guzdial) <a
+href="https://twitter.com/guzdial/status/1165624814759043073?ref_src=twsrc%5Etfw">August
+25, 2019</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js"
+charset="utf-8"></script> 
+
+{{% figure
+src="https://pbs.twimg.com/media/EC0hlfKXsAIjlK9?format=jpg&name=medium" 
+%}}
+
+In a talk Mark gave last year, he also talked about "historical
+thinking" and other "thinkings."
+
+This relates to something I've thought for a long time about CS and
+computational thinking in the early grades. Computational Thinking,
+whatever that actually is seems to be the route that CS is taking in
+the early grades. Young students aren't going to be coding up
+quicksorts and many elementary schools don't have the hardware
+resources needed anyway. Still, by approaching things through the CT
+lens maybe we can lay down a foundation for the future. Along the way,
+maybe some of these CT ideas can support students as they explore
+other subject areas. 
+
+This is all old ground for CT but what's this new opportunity?
+
+
+Well, as it turns out, some of what we'd now consider computational
+thinking has been going on in elementary schools for years. It's been
+going on under the guise of "logic," "problem solving," and other
+headings. More often than not, teachers in better resourced schools
+where there there is less standardized test pressure, teachers can
+spend time on these. There are also CT concepts like pattern matching
+and abstraction that are present in elementary school lessons but not
+necessarily labeled as such.
+
+Maybe computational thinking isn't all brand new. Maybe we're
+rebranding some ideas from other "thinkings." Problem solving and
+logic belong to many fields. This is all okay. All
+those other "thinkings" are in established fields. The way we do
+history, math, science, etc. in our schools is well established and
+it's left us, in many cases, with a tale of two cities. The haves and
+the have nots.
+
+Now we have CS and CT and all the related buzz. Even if the CT we can
+do in elementary schools isn't new, even if it overlaps with
+historical thinking or the others, we now have a new opportunity to
+change up how we do things in the early grades and maybe we can reduce
+the distance between those have and have nots. Let's see if we can
+take advantage of this opportunity.
+
+
+
+
+
+
+
+
+
