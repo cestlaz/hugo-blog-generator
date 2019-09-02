@@ -1,0 +1,166 @@
+---
+title: Different languages, different techniques, different solutions
+date: 2019-09-02T17:33:51-04:00
+tags: 
+- languages
+- paradigms
+- pedagogy
+categories:
+- languages
+draft: false
+--- 
+
+I spent this weekend diving back into Clojure or more specifically,
+Clojurescript. For those who don't know, Clojure is a Lisp that runs
+on the JVM. The solution it particularly seeks to "solve" is
+immutability. Clojurescript is Clojure that compiles to Javascript for
+web applications. Tooling aside, it's all pretty neat.
+
+I didn't do anything earth shaking, just a quick implementation of
+Conway's game of life and Snake. While the code isn't particularly
+good, you can check them out here ([[https://github.com/zamansky/clojure-snake][Snake]], [[http://github.com/zamansky/clojure-life][Life]]).
+
+The Life implementation got me thinking about the value of studying
+different languages or more specifically, different paradigms. A
+student who implements the game of life in Java will likely implement
+something very similar in C++ as both languages are Object Oriented /
+imperative. An implementation in Clojure or Haskell will likely look
+very different.
+
+Let's look a little deeper.
+
+[[https://en.wikipedia.org/wiki/Conway%2527s_Game_of_Life][Conway's Game of LIfe]] is a Cellular Automaton and when teaching a CS
+class in Java or C++ it's a really nice application of 2D arrays. On
+each turn, for each cell in the world, you calculate its living
+neighbors. If the cell is alive and it has 2 or 3 living neighbors, it
+stays alive to the next turn. If the cell isn't alive but has 3 living
+neighbors it will become alive. Otherwise the cell dies (or remains
+dead).
+
+In a Java type language, given a 2D array ~this_turn~ with the current
+world and you might get something like:
+
+#+BEGIN_SRC java
+{{< highlight java >}}
+  for (x = 0  x < max_x; x++){
+      for (y= = 0; y < max_y; y++){
+          n = count_living_neighbors(this_turn[x][y]);
+          if (this_turn[x][y] == alive and n == 2 or n ==3)
+              next_turn[x][y] = alive;
+          else if (this_turn[x][y]==dead and n==3)
+              next_turn[x][y] = alive;
+          else
+              next_turn[x][y] = deadl;
+      }
+  }
+
+  copy next_turn to this_turn;
+{{< /highlight >}}
+#+END_SRC
+
+It's a really nice application of 2D arrays and I've done it with my
+classes frequently over the years.
+
+Another language I've done *life* in is NetLogo. In NetLogo, you have
+a world represented by an x,y grid with each cell in the grid known as
+a patch. You write a program and all the patches run it
+independently. A life solution might look like this:
+
+#+BEGIN_SRC 
+{{< highlight netlogo >}}
+ask patches [ 
+  set n count nieghbors with [color =  red] ;; red cells will be alive
+  ifelse color = red 
+    [ ifelse n=2 or n = 3
+        [set nextcolor red]
+        [set nextcolor black]
+    ] 
+    [
+      ifelse n=3
+        [ set nextcolor red ]
+        [ set nextcolor black ]  
+    ]
+ask patches [set color nextcolor]
+{{</highlight>}}
+
+#+END_SRC
+
+My NetLogo is a little rusty so my syntax might be off but the idea is
+to:
+
+  1. have each patch count it's living neighbors and figure out it's
+     next state - alive (red) or dead (black)
+  2. have each patch set its color to the new state
+
+
+This is a very different solution. In NetLogo you never think about
+looping over the cells. It's much higher level. You think about each
+location as it's own entity whereas in the Java solution you're
+getting much more into the nitty gritty. 
+
+NetLogo and Java are very different languages and using them
+encourages you to solve problems in different ways. you'd likely
+never create a 2D array in NetLogo - you'd exploit the word as your
+array. Likewise you'd exploit the patches to distribute the work. In
+Java you'd probably wouldn't create a class to represent each patch in
+the array and then run each in a thread. That would be overkill for
+the problem at hand.
+
+Well, what about Clojure?
+
+Clojure isn't set up for 2D arrays, at least not as cleanly as a
+language like C++ or Java. One could use Java Interop - that is, the
+ability of Clojure to directly use Java but that would defeat the
+purpose of using Clojure. Clojure is all about lists, vectors, and
+maps. Instead of a 2D array of the world, I made a list (vector) where
+each element contained the location of a living cell. This is
+certainly more space efficient. It also let me operate on the world as
+a sequence of transformations to the data:
+
+
+ 1. Calculate all the possible next cells (the cells in the list plus
+    all their neighbors
+ 2. For each possible next cell, count it's living neighbors and
+    determine if the cell is alive in the next iteration
+ 3. Replace the list of cells with these new cells. 
+
+
+#+BEGIN_SRC clojure
+{{< highlight clojure >}}
+
+(defn generate [state]
+  "Generate and return the next state"
+  (let [potential-cells (for [[x y] state [dx dy] cell-bloc-3x3]
+                          [(+ x dx) (+ y dy)])
+        next-state (for [cell potential-cells]
+                     (if (alive? cell state) cell))]
+    (into #{} (remove nil?(into #{} next-state)))))
+
+{{</highlight>}}
+#+END_SRC
+
+You can see the complete code [[https://github.com/zamansky/clojure-life/blob/master/src/life.cljs][here]]. 
+
+This again is a very different way of thinking about the problem. In
+Java we looped over the world and made adjustments. Here we
+transformed the current set of cells into the next generations set of
+cells in a pipeline like fashion.
+
+Another feature of Clojure that results from its focus on immutability
+is that in programs like these the computational part of the program
+and the presentation part (the graphics) are totally separate. We
+first transform the data and then the UI displays the current
+data. Clojure does this very nicely and maybe I'll write a post on
+it but for now, I just want to point out that this is very different
+from NetLogo. In fact, I completely finished the program for life
+before I even thought about the interface. In NetLogo the interface is
+an integral part of the language.
+
+The point of all of this is that languages designed around different
+paradigms are worth exploring even if you never do real work in
+them. Even if you don't like or use Clojure you can take lessons from
+it's functional side and how it handles immutability and you can add
+those techniques to your toolkit when using C++ or Java. It doesn't
+mean you should write Java to look like Clojure but having a complete
+toolkit of paradigms to draw from and apply when appropriate can only
+be good for us and for our students.
