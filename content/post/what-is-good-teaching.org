@@ -1,0 +1,72 @@
+---
+title: What Is Good Teaching
+date: 2019-09-17T17:13:57-04:00
+tags: 
+- pedagogy
+- teaching
+categoriesf
+- teaching: 
+draft: false
+--- 
+
+I had a conversation with my principal during my last year at
+Stuy. She said "whenever the superintendent or high level education
+people come and ask to see our best teachers I can never bring them to
+Jim's class." Everyone knows that Jim is the best. I describe him as
+"the teacher I aspire to be."  What's the problem? The problem is that
+Jim didn't teach the way the powers that be wanted him to teach. He
+didn't do discovery learning, kids didn't work in groups, there's
+typically nothing that you could check off on the "best way to teach"
+list. Jim's an old school teacher. Teacher dominant. He leads the
+discussion, asks questions, circulates while the kids work on
+problems etc. Why does it work? A combination of things. He know his
+math, charisma, force of personality, empathy, and a lot of other
+factors. One could dismiss it as saying "it's Stuy, it's easy" but he
+was the best at a high needs school before he was the best at Stuy.
+
+I was thinking about this for a few reasons. One is I watched [[https://www.youtube.com/watch?v=g1ib43q3uXQ&list=WL&index=52&t=0s][this]]
+video by [[https://twitter.com/Felienne][Felienne Hermans]]. It's a good video, many good points. I
+particularly like when she talked about talking to a room of teachers
+about a new "discovery" about learning only to find that teachers have
+known it for decades. Basically, Felienne pushes back on the discovery
+learning and let them play that's dominated the CS Education
+space. She talks about her success with direct instruction. Another is
+that we're starting to see more acceptance and voices for
+direct instruction in the CS Ed space as a whole. 
+
+
+Personally, I think this is a good thing, after all, it's more my
+style. On the other hand, I don't want the pendulum to swing too
+far. I was talking to a history teacher at Stuy when they brought in
+the Danielson +nonsense+ Framework. She's a good teacher but she was
+sheepish about Danielson. She said that Danielson worked for her - it
+aligned with the way she taught and made her seem like the absolute
+best. She was and is an excellent teacher but we all have holes in our
+game. She didn't want to be held  up as an exemplar of great teaching
+where she knew that chances are there will be a successor to Danielson
+and chances are something else will be in vogue and she won't be so
+officially terrific anymore. 
+
+Right now, direct instruction is coming back. Who knows if it will
+become the darling of the policy makers but regardless, a teaching
+style or technique's value can't be determined without considering
+other factors. The teacher's personal style, the students, the
+resources, class time, and much more. 
+
+So, what is a teacher to do? Add all the tools to your toolbox. I'm
+not big on cooperative learning but I've peppered it in now and
+then. Sometimes, it's best to have the students discover things,
+something you've got to tell them. Sometimes they should work on
+things solo, sometimes in teams. I've taught classes that were all
+projects and classes that had limited projects. Acquire all the tools
+and use them as YOU think best. It's the teacher with the skin in the
+game. Not the policy makers, thought leaders, researchers, and
+influences. More importantly it's the teacher that knows their
+students best - where they are, what they need and how to do the best
+they can given the limited resources they have. 
+
+I'm obviously not excusing teachers who do one side lectures or who
+just phone it in but the majority of teachers work hard to do it right
+and should be given the freedom to do just that.
+
+
