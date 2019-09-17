@@ -4,8 +4,8 @@ date: 2019-09-17T17:13:57-04:00
 tags: 
 - pedagogy
 - teaching
-categoriesf
-- teaching: 
+categories:
+- pedagogy 
 draft: false
 --- 
 
