@@ -1,0 +1,106 @@
+---
+title: Advanced CS Early - Are they learning it or just using it?
+date: 2019-09-21T17:41:13-04:00
+tags: 
+- CS Education
+categories: 
+- CS Education
+draft: false
+--- 
+
+I recently took a look at the [[https://cryptopals.com/][Cryptopals Crypto Challenges]]. It's a
+series of challenges through which you can learn all about crypto abd
+crypto attacks. They say they'll eventually have solutions but since
+the site appears to be at least a few years old, who knows it they'll
+ever publish them.
+
+One interesting thing about the site is that it really doesn't have a
+lot of content to teach you the concepts around the challenges. At
+least not for the first few, the only ones I've looked at. You get a
+bit of sample input, the sample output, a short description and then
+you're off to the races.
+
+This means that you're going to do some web searching to figure out
+what the terms they use mean and how to approach the problems.
+
+The first challenge was to convert a string of hex digits into
+base64.  I'd never done this so I figured I should look up what base64
+was. I figured it was some encoding but exactly what was it?
+
+A quick search yielded a bunch of online encoder/decoders and also the
+Wikipedia page: "...Base64 is a *group* of binary-to-text encoding
+schemes..." - a *group*? Uh oh. Which scheme am I to use? It turned
+out that I was able to use the conversion table on the Wikipedia page
+but I digress.
+
+I decided to write the solution in Clojure and was about to do so bu
+decided to see if there was an idiomatic way to do this. I did a
+search. Most if not all of the searches resulted in links either to a
+Clojure library to encode and decode Base64 or example code that used
+said library. 
+
+If I wanted to I could code up a complete solution and not really
+learn anything about base64 encoding. I'm not talking about wholesale
+copying a solution off of StackOverflow. I'm talking about using the
+included Clojure (technically Java) Base64 conversion library. 
+
+This made me think about what I'm seeing some times in CS Ed and lots
+of time in drop in / opt in programs. 
+
+I'd hear about classes where students are doing unbelievable
+things. The kids made a neural network to do blah blah blah. I'd think
+to myself "that's upper level undergraduate work, how can they really
+understand all the math and CS to build that stuff when they're just
+taking Algebra and their first CS class?"
+
+It turns out, they weren't. They'd basically glue together libraries
+and use pre-existing tools. 
+
+This raises the question: "is this a good thing?"
+
+Maybe and maybe not.
+
+If those kids mentioned above aren't really studying AI but rather
+intro programming and they're using AI as part of the motivation, it
+can be terrific. It could inspire them to study AI later and that's
+great.
+
+On the other hand, if they think they're really learning AI, that's not so good.
+
+
+I've met kids who were in either classes or programs on
+cybersecurity. They were every confident in their knowledge and skills
+but it turned out that they didn't really learn anything in their
+classes. It was just a curated canned experience. In these cases the
+programs and classes weren't really helping the kids. I've met
+teachers who've told me about classes like these where the kids ended
+up getting jobs but then promptly got fired because they didn't really
+know anything more than a superficial view of the subject.
+
+
+In this day and age students can't write everything from scratch but
+I've always believed that they should have some idea as to what's
+going on under the hood. A friend would always say "never use a tool
+that you couldn't' write yourself" I concur. He didn't mean you have
+to write every line yourself but you should have a basic idea as to
+the underpinnings. 
+
+There are cool and interesting things at all levels of CS and CS
+education. I know we live in a day and age where teachers brag about
+how early they can cover some advanced topic with their kids but it's
+not a race. Let's teach the kids what they need when they need
+it. They don't need to think they can write a deep learning platform
+in year one. Right now I'm teaching college first year students. We
+don't cover the same things these kids will study in their 400 level
+electives. I'm fine with that. I cover some topics that allude to
+what's to come and I set the stage for their futures.  Let's design
+and implement CS experiences that make sense for our kids rather than
+giving them false experiences so that we can say that they're doing
+graduate level work in third grade.
+
+
+
+
+
+
+
