@@ -9,7 +9,7 @@ draft: false
 --- 
 
 I recently took a look at the [[https://cryptopals.com/][Cryptopals Crypto Challenges]]. It's a
-series of challenges through which you can learn all about crypto abd
+series of challenges through which you can learn all about crypto and
 crypto attacks. They say they'll eventually have solutions but since
 the site appears to be at least a few years old, who knows it they'll
 ever publish them.
@@ -33,7 +33,7 @@ schemes..." - a *group*? Uh oh. Which scheme am I to use? It turned
 out that I was able to use the conversion table on the Wikipedia page
 but I digress.
 
-I decided to write the solution in Clojure and was about to do so bu
+I decided to write the solution in Clojure and was about to do so but
 decided to see if there was an idiomatic way to do this. I did a
 search. Most if not all of the searches resulted in links either to a
 Clojure library to encode and decode Base64 or example code that used
