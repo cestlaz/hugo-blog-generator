@@ -1,0 +1,189 @@
+---
+title: Pig Latin - a beginner lesson with some depth
+date: 2019-09-25T17:11:29-04:00
+tags: 
+- CS Education
+- pedagogy
+categories:
+- CS Education 
+draft: false
+---
+
+I recently did a unit where I had my students convert words into [[https://en.wikipedia.org/wiki/Pig_Latin][Pig
+Latin]]. I like the problem because to start it only requires strings,
+functions and if statements but there is some depth to the unit.
+
+We start with simplified rules:
+ 
+ 1. If the word starts with a vowel, add "ay" to the end of the word
+ 2. If it starts with a consonant move the first latter to the end and
+    add "ay"
+ 3. don't worry about anything else
+
+Students usually start with something like this:
+
+#+BEGIN_SRC python
+{{< highlight python >}}
+  def piglatinify(word):
+      first = word[0]
+      if first == "a" or first == "e" or firts == "i" \
+         or first == "o" or first == "u":
+          result = word + "ay"
+      else:
+          result = word[1:] + first + "ay"
+      return result
+{{< /highlight >}}
+#+END_SRC
+
+
+as students realize it's much easier to check for vowels rather than
+consonants. 
+
+Some students discover that you can do any of the following instead of
+the big compound *or* :
+
+#+BEGIN_SRC python
+{{< highlight python >}}
+
+  first in ('a','e','i','o','u')
+
+  first in ['a','e','i','o','u']
+
+  first in "aeiou"
+
+{{< /highlight >}}
+#+END_SRC
+
+This allows us to talk a little about lists (and tuples if you like)
+as well as now strings are similar to them in certain ways.
+
+By itself, this is a nice little beginner project but it gets better. 
+
+Since we talked a bit about lists and strings in the refinement, we
+then talk about using python's ~split()~ method that parses a string
+on whitespace. We also talk about the ~for~ loop. Ultimately this
+leads us to writing a function to convert a sentence into Pig Latin:
+
+#+BEGIN_SRC python
+{{< highlight python >}}
+
+  def sentence-to-piglatin(sentence):
+      result_list = []
+      for word in sentence.split():
+          result_list.append(piglatinify(word))
+      return " ".join(result_list)
+{{< /highlight >}}
+#+END_SRC
+
+But this doesn't work with real sentences. Let's focus on two
+problems. The first is that it won't handle the period at the end of
+the sentence properly. It would take that last word, let's say *dog.* 
+and convert it to *og,day* rather than *ogday.*. It also doesn't
+handle capital letters. There are other issues but they have similar
+solutions to the ones we'll use for these two.
+
+This is where things get fun. 
+
+To handle the period, students frequently jump to modifying the *if* 
+conditions in ~piglatinify~ :
+
+#+BEGIN_SRC python 
+{{< highlight python >}}
+  def piglatinify(word):
+      first = word[0]
+      if first in "aeiou":
+          if word[-1] == '.':
+              result = word[:-1]+"ay."
+          else:
+              result = word+"ay"
+      else:
+          if word[-1] == '.':
+              result = word[1:-1]+first+"ay."
+          else:
+              result = word[1:] + first + "ay"
+      return result
+{{< /highlight >}}
+#+END_SRC
+
+or something similar.
+
+This is a straighforward working solution but it's also a great place to introduce the idea of changing the data
+instead of using complex conditionals to handle special cases (earlier
+posts [[https://cestlaz.github.io/posts/2014-02-26-change-the-data/][here]] and [[https://cestlaz.github.io/posts/advent-of-code-2016-2/][here]]).
+
+If we take out the period we can do our regular piglatinify and then
+add it back in. This leads us to a solution like this:
+
+#+BEGIN_SRC python
+{{< highlight python >}}
+  def piglatinify(word):
+
+      # at some point we added this
+      if len(word)==0:
+          return 0
+
+      # if the last character is a '.' store it and remove it from word
+      last_char = ''
+      if word[-1] == '.':
+          word = word[:-1]
+          last_char = '.'
+
+      first = word[0]
+      if first in 'aeiou':
+          result = word + "ay"
+      else:
+          result = word[1:] + first + "ay"
+
+      result = result + last_char
+      return result
+
+{{< /highlight >}}
+#+END_SRC
+
+We can do something similar to deal with words that start with upper
+case letters:
+
+#+BEGIN_SRC python
+{{< highlight python >}}
+  def piglatinify(word):
+
+
+      # at some point we added this
+      if len(word)==0:
+          return 0
+
+      # handle periods
+      # if the last character is a '.' store it and remove it from word
+      last_char = ''
+      if word[-1] == '.':
+          word = word[:-1]
+          last_char = '.'
+
+      # check for capital
+      starts_with_capital = False
+      if word[0] == word[0].upper():
+          starts_with_capital = True
+        
+      word = word[0].lower()+word[1:]
+
+      first = word[0]
+
+      if first in 'aeiou':
+          result = word + "ay"
+      else:
+          result = word[1:] + first + "ay"
+
+      result = result + last_char
+      if starts_with_capital:
+          result = result.capitalize()
+        
+      return result
+
+{{< /highlight >}}
+#+END_SRC
+
+You can approach other special cases similarly.
+
+So, there you have it. A fun little problem that you can do with your students
+early on in a CS0 with surprising depth.
+
