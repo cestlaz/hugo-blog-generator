@@ -1,0 +1,84 @@
+---
+title: Teaching techniques - industry to classroom and classroom to industry
+date: 2019-09-27T12:34:04-04:00
+tags: 
+- pedagogy
+- software engineering
+- CS Education
+categories: 
+- pedagogy
+draft: false
+--- 
+
+There are things we do in school and there are things we do in
+industry and they're not always the same. In school we might use a
+learning language or an IDE which gives additional support and at
+times even take away language features while at work you might you
+might make heavy use of continuous integration tools. 
+
+On the other hand, sometimes we use the same things. Java is used in
+schools and in industry, StackOverflow consulted in both and many
+schools use professional IDEs like Eclipse.
+
+While the things I mentioned above, whether the same or different are
+on the tooling side, there are also things on the technique side that
+are used both in school and in industry.
+
+The most well publicized concept is probably [[https://en.wikipedia.org/wiki/Pair_programming][Pair Programming]] - the
+idea of having two programmers develop using a shared
+computer. There's more to it than that and tons of variations but
+that's the crux of the idea. Proponents claim it increases programmer
+efficiency and lowers error rates but others would rather not follow
+the practice. Some feel that it's great in certain environments like
+when onboarding a new team member.
+
+We hear CS Teachers talk about pairing in their classes all the time -
+"It's an industry technique" but to me the interesting thing is that I
+think many teachers, particularly more senior ones came up with pair
+programming independent of it as an industry technique. It came out of
+not having enough computers. This invariably leads to kids pairing
+up. Now, you'll say "but pair programming isn't just two kids sharing
+a computer." I agree but when good teachers do group work it isn't
+just kids left to their own devices working in a group. Over time,
+teachers who "discover" pair programming come up with ways to make it
+effective in their classrooms.
+
+The other interesting thing is that pair programming serves different
+purposes at work vs in schoo. At work it's supposed to increase
+programming efficiency and help them develop better code more
+quickly. In the classroom, besides addressing the lack of computers,
+it's used as a tool to provide feedback to students, have them support
+each other, and create a cooperative supportive environment.
+
+Another technique CS teachers use is subgoal labeling. The gist here
+is that you write down or label smaller goals within your
+program. It's an idea I used for years but only relatively recently
+learned its name.
+
+The interesting thing here is that I used this idea as a professional
+programming well before I ever taught and I don't recall it ever being
+used in any of my classes. 
+
+The idea just made sense. I'd write a function and pepper it with
+comments indicating the parts s or subgoals I'd need to write code for
+to complete the function. I don't know if subgoal labelling is or ever
+was a prevelent technique in professional programming but the related
+idea of writing function stubs is. The idea here is that as you
+develop your program write out an empty placeholder function, a stub,
+when you realize you need it and fill it in later. This is something
+of a subgoal but at the function level.
+
+So, here we have two practices. One that is certainly used in both
+the classroom and in industry and one that likely is. The practices
+seem to be examples of convergent evolution. Developed independently
+but with similar albeit somewhat different benefits.
+
+There have to me more practices like this. If you know any, please
+share.
+
+
+
+
+
+
+
