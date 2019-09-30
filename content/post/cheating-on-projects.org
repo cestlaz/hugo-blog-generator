@@ -1,0 +1,96 @@
+---
+title: Cheating on CS projects
+date: 2019-09-30T17:33:02-04:00
+tags:
+- CS Education
+- Policy
+categories:
+- CS Education 
+draft: true
+--- 
+
+Alfred Thompson posted today about [[http://blog.acthompson.net/2019/09/the-problem-of-cheating-on-programming.html][cheating on CS class projects]]. It
+was in response to Garth Flint's post on [[https://gflint.wordpress.com/2019/09/26/finding-cool-projects-for-programming-classes/][finding interesting projects]]
+which in turn referenced earlier posts by Alfred and me.
+
+
+Garth laments that it's hard to find projects that are both
+interesting and meaty but where solutions can't easily be searched for
+online. Alfred notes that cheating will happen and that it's an ethics
+issue. This is why I try to create a culture of sharing and
+acknowledging credit (that is, citing sources) but I'm not naive
+enough to believe there isn't any cheating in my classes.
+
+I don't go nuts looking out for cheating but there are a number of
+things I do to try to help keep the students honest.
+
+1. Class time. More often than not students have some time in class to
+   work on any given project. This lets me get a handle on what they
+   actually know since I can interact with the student or team and
+   observe them interacting with each other. Even if a particular
+   project is all done out of class, over the course of the semester
+   you can get a pretty good idea as to what a student will produce on
+   their own.
+
+2. Project quizzes. For a big project, I'll sometimes give a quiz on
+   the day it's due. The quiz will be tied to the project - describe
+   a data structure or algorithm you used. If the student wrote the
+   project it's free points, if not they'll have problems. Of course,
+   this only requires that a student understands their project not
+   that they actually wrote it but at least that's something.
+
+3. Git logs. I get my students on GitHub early and that lets me look
+   at the commit logs for any given project. This usually can't be
+   used to find cheating but it lets me see what was committed when. 
+
+4. Be reasonable in terms of workload and expectations. *This is a
+   really important one*. Back at Stuy, it was made clear to me many
+   times that many students feel forced to cheat due to teachers
+   expecting far too much from them. If you're take 6 classes a day
+   and each gives you two hours of homework somethings got to give.
+
+   I always try to give a fair amount of work and only if I think it's
+   necessary and makes sense and as long a a student is up front about
+   any issues that arise I'll try to work with them on deadlines and
+   requirements.
+
+
+
+I could use a code plagiarism tester like [[https://theory.stanford.edu/~aiken/moss/][Moss]] but I usually don't
+bother.
+
+I also try to keep things in perspective. Usually things come clean in
+the end. Most classes have multiple measures - tests, homework,
+projects, classwork and more. Even if a student copies a project and
+gets away with it, it's just one measure and it likely won't move the
+needle all that much. True, a kid who's doing well might feel the need
+to cheat on one assignment (see item 4 above) but that's not a hill
+I'm willing to die on.
+
+Even if a kid in a 10th grade intro CS class cheats their way through
+they'll unlikely take any more CS as they'll be woefully
+unprepared. In that case, the one higher grade they got on their
+transcript due to cheating on CS projects probably won't make much of
+an overall difference and it certainly won't hurt the kids who take
+all your school's CS courses and apply to college to be CS majors.
+
+None of this is to say that cheating doesn't happen and I do believe
+we should keep an eye out and address it if and when it rares its ugly
+head. I'm just saying keep things in perspective. 
+
+When I pick projects I don't pay much attention to if they can be
+found online and I'm not the tightest screw when it comes to enforcing
+the rules in my classes. I know that's led to my being taken advantage
+of over the years and yes, that does bother me but I'd rather put my
+time and energy into the kids trying to do it right than those cutting
+the corners.
+
+
+
+
+
+
+
+
+
+
