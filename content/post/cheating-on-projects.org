@@ -6,7 +6,7 @@ tags:
 - Policy
 categories:
 - CS Education 
-draft: true
+draft: false
 --- 
 
 Alfred Thompson posted today about [[http://blog.acthompson.net/2019/09/the-problem-of-cheating-on-programming.html][cheating on CS class projects]]. It
