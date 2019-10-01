@@ -1,0 +1,69 @@
+---
+title: CSTA Awards 2020
+date: 2019-10-01T11:46:32-04:00
+tags: 
+- CSTA
+categories: 
+- CSTA
+draft: false
+--- 
+
+I'm guessing that pretty much everyone who stops by this blog knows
+about the [[https://csteachers.org/][CSTA]] (Computer Science Teacher's Association) and most of
+you probably know about some awards they, well, award. Just in case, I
+thought I'd share.
+
+Here are three awards, two of which are open for nominations /
+applications now. If you know someone deserving, nominate them. I'm
+guessing students don't really know about the Cutler-Bell award so if
+you have any deserving students, please share the info with them.
+
+* Champions of CS Awards
+
+Tell us about a student, educator, administrator, or organization that
+has achieved something in computer science this past year for the
+opportunity to be recognized as a 2019 Champion of Computer Science.
+
+The Champions of Computer Science Awards identify and promote
+students, teachers, administrators, and organizations who have made a
+significant impact to improve access to and the quality of CS
+education. These awards are presented by CSTA and Code.org.
+
+Nominations are due Oct. 21, 2019.
+
+Link to award site:
+[[https://www.cvent.com/c/abstracts/b2b495a4-4caf-4ed5-88b1-954d5a605b24][https://www.cvent.com/c/abstracts/b2b495a4-4caf-4ed5-88b1-954d5a605b24]]
+
+
+* Cutler-Bell Prize
+
+The ACM/CSTA Cutler-Bell Prize in High School Computing is a prize
+designed to recognize talented high school students intending to
+continue their higher education in the areas of computer science or
+technology. The program seeks to promote and encourage the field of
+computer science, as well as to empower young and aspiring learners to
+pursue computing challenges outside of the traditional classroom
+environment.
+
+Up to four winners will be selected annually and each will be awarded
+a $10,000 prize which will be administered through the financial aid
+department at the university the student will attend.
+
+Applications are due Jan. 12, 2020.
+
+Link to application / site:
+[[https://www.cvent.com/c/abstracts/e90beaf8-9035-4e10-862e-55a8a056f080][https://www.cvent.com/c/abstracts/e90beaf8-9035-4e10-862e-55a8a056f080]]
+
+* CS Teaching Excellence Awards
+
+The CS Teaching Excellence Awards, sponsored by CSTA and Infosys
+Foundation USA, are designed to recognize outstanding teaching by K–12
+computer science teachers. Winners demonstrate their excellent work
+inspiring students to explore the computer science field; effectively
+engage students in learning rigorous, standards-aligned, computer
+science content; and a focus on broadening participation of
+underrepresented students in computing.
+
+Applications open the spring of 2020.
+
+
