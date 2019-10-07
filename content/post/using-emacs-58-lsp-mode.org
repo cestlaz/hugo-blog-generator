@@ -1,0 +1,64 @@
+---
+title: Using Emacs 58 - lsp-mode
+date: 2019-10-07T11:57:57-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+I've been wanting to check out [[https://github.com/emacs-lsp/lsp-mode][lsp-mode]] under Emacs for a while
+now. LSP stands for [[https://langserver.org/][Language Protocol Service]]. The idea is that you
+have a standard interface between your editor and some language
+server. If you program in multiple languages and each has an LSP
+server you end up, in theory, with a simpler configuration and a
+consistent interface.
+
+This certainly sounds more appealing than how we did it in the old
+days where you have some ad hoc configuraiton for each language you
+work in. At times I'm working or dabbling in a whole bunch of
+languages. At times, my Emacs configuration has had separate sections
+for each of the following languages:
+
+- Emacs Lisp
+- Python
+- Java
+- C and C++
+- Clojure
+- Processing
+- Scheme
+- Haskell
+- Rust
+- OCaml
+
+and more. 
+
+This can get messy.
+
+So, LSP sounds cool but when I've tried to get it going in the past
+I've always had troubles. This time, I tried a different approach. I
+decided to declare .emacs.d bankruptcy. I cleared out my .emacs.d
+directory and started fresh. Not really fresh - I copied over The
+critical parts of my configuration to start with - Swiper, email and
+org config and a few other things. Then I got lsp-mode working for
+Python and C++. Now I'm going to migrate over more of my old
+configuration as I discover I want, miss, or need things. We'll see
+how it goes.
+
+The new configuration can be found here:
+[[https://github.com/zamansky/dot-emacs][https://github.com/zamansky/dot-emacs]]
+
+
+Check out the video to see the details:
+
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/zg6JJI-kwhE" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+
+
