@@ -2,8 +2,10 @@
 title: You Can't Win If You Don't Enter
 date: 2019-10-08T17:19:47-04:00
 tags: 
+- career
 categories: 
-draft: true
+- misc
+draft: false
 ---
 
 Or, as Wayne Gretzky said "You miss 100% of the shots you don't take."
@@ -12,7 +14,7 @@ Why do I mention this?
 
 Because I've been hearing way too often from young people who are too
 quick to deny themselves opportunities and too often these are
-students who have come from less advantaged backgrounds.
+from students who have come from less advantaged backgrounds.
 
 It's Fall and I've been making my rounds visiting local schools to
 talk to seniors about colleges in general and Hunter CS in
@@ -20,13 +22,40 @@ particular. I end the talk going over my Daedalus program which is
 Hunter's honors CS scholarship program.
 
 Since starting my "Fall tour" I've hard from too many students both in
-person and via email - "I don't think I have the grades for," "I'll
+person and via email saying things like "I don't think I have the grades for," "I'll
 never make it in," "It's a waste of time for me to apply." They might
 be talking about my program or they might be talking about some other
 college. Sometimes the students would indeed have less than a punchers
-chance to get in but other times their academic portfolio would
-certainly get their foot in the door. In all cases it made me sad that
-these students were denying themselves possible opportunities.
+chance to get in to the program in question but other times their
+academic profile would certainly get their foot in the door. In all
+cases it made me sad that these students were denying themselves
+possible opportunities. 
+
+As I talk to these students I share instances where people who have
+not met the required "paper profile" had indeed made the cut. I make
+sure to be honest with them - I don't sell them a bill of goods. They
+chances of acceptance might be small but in the greater scheme of
+things the cost of an application is insignificant compared to the benefit
+of possibly getting into the program you really want (or at least
+think you want).
+
+I've seen similar self doubt behaviour from college kids and young
+adults. Some don't apply for jobs because they dont' have every single
+skill listed on a job requirements page or the company is too
+lofty. Here I try to explain how these listings get made - how an HR
+person adds every single possible skill. I don't advocate lying on a
+resume or job application but if they've got the core skills or domain
+skills required for the job but not everything, apply - let the
+company say no.
+
+As I mentioned at the top, too often I've been hearing things like
+these from less advantaged kids. Kids that start with less and have to
+fight for more.
+
+It's hard enough for young people on their journeys through life. I
+wish they wouldn't make it harder by denying themselves potential
+opportunities by not applying.
+
 
 
 
