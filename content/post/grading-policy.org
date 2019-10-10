@@ -6,7 +6,7 @@ tags:
 - assessments
 categories: 
 - pedagogy
-draft: true
+draft: false
 --- 
 
 I was working on writing a midterm the other day so figured I'd talk a
