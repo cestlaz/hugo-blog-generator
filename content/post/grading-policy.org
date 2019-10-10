@@ -1,0 +1,70 @@
+---
+title: My test grading policy
+date: 2019-10-09T17:13:24-04:00
+tags: 
+- pedagogy
+- assessments
+categories: 
+- pedagogy
+draft: true
+--- 
+
+I was working on writing a midterm the other day so figured I'd talk a
+bit about my test grading policy.
+
+Before getting to the specifics, let me set the stage. I spent most of
+my career at Stuyvesant - a public magnet school in
+NYC. There are many great students who are interested in learning but
+there's also a focus on grades. and this leads to a non-insignificant portion of
+the student body that is grade obsessed and will do everything and
+anything for every point possible. 
+
+We called it grade grubbing. 
+
+Grade grubbing goes beyond asking for points you think you deserve and
+it comes in many forms. It's when you BS your way through an essay or
+paper and put in as many key phrases as possible and hope the teacher
+only sees those when scanning through hundreds of papers. It's taking
+that same paper and only showing the key correct phrases during an
+appeal and ignoring the contradictory key phrases a few lines
+below. It's when you write an answer in a somewhat ambiguous way that
+if marked wrong allows for an appeal. It's appealing a low grade
+because "I always get over 95" and it even involves cheating
+sometimes and changing answers after the fact.
+
+Now, this isn't the majority of the class. It's only a small percent
+but it's pretty annoying and it had a bit of influence on my testing
+policy.
+
+So, what's my policy? It's pretty simple. 
+
+Rule 1 - once I return the test you can't ask me anything about your
+exam until either we go over the exam in class or if we don't until
+after I've shared the answer key with the class. If you do ask me
+about the exam before we've gone over it you forfiet your right to ask
+for any points back on any mismarked questions. 
+
+Rule 2 - If you appeal a question for points - that is come up and say
+"I got this question right" and it turns out that you are correct, you
+get your points. If, on the other hand, the quesiton is incorrect, I
+reserve the right to take off the points deducted a second time. That
+is, if you originally lost 5 points you could now lose up to 10.
+
+This might sound harsh and somewhat jerky but it really isn't. Due to
+the nature of CS exams students can always be 100% certain that their
+answer is correct because they can always try it out on a
+computer. That's the point. If something is marked wrong, I want the
+student to take the time to see what's going on before appealing the
+grade. Questions that can't be absolutely tested are of course excempt
+from this policy.
+
+If a student comes up to me and says "hey, i know this is wrong - I
+tested it and I'm not asking for points, I just don't understand
+what's going on" I would never deduct more points and in fact have
+sometimes lowered deductions.
+
+As it turns out, I've never actually ended up taking off extra points.
+
+The whole idea is to stop the reflexive grade grubbing and get
+students to think about the problems and solutions. It also helps in
+keeping teacher harrassment to a minimum :-). 
