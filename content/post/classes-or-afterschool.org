@@ -1,0 +1,74 @@
+---
+title: Classes Or After school programs - which is more important for female retention in CS?
+date: 2019-10-14T21:47:18-04:00
+tags: 
+- APCS-A
+- CS Education
+categories: 
+- APCS-A
+draft: false
+--- 
+
+
+This morning Mark Guzdial tweeted on his latest post:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Results from
+Longitudinal Study of Female Persistence in CS: AP CS matters,
+After-school programs and Internships do not <a
+href="https://t.co/GOzp3045Hp">https://t.co/GOzp3045Hp</a></p>&mdash;
+Mark Guzdial (@guzdial) <a
+href="https://twitter.com/guzdial/status/1183699009766121473?ref_src=twsrc%5Etfw">October
+14, 2019</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js"
+charset="utf-8"></script> 
+
+
+I'm glad Mark wrote about this as it's something that's important to
+both research and publicize but it's really not a surprise.
+
+I'm going to start by dismissing the statement that "... participation in
+the Aspirations awards program were teh best predictors of persistence
+three years after the high school survey in both CS and other
+technology-related majors." To me, that's a water is wet statement -
+girls who apply for an award where they talk about their aspiriations
+in computing are more likely to do more computing. 
+
+The other stuff merits more of a look. Classes and APCS-A in
+particular vs after school programs. Since APCS-A is as far as I know
+always an elective there's probably some selection bias here. If a
+girl elects to take a college level CS class, perhaps there's already
+some interest in pursuing CS in college. Further, and I really hate to
+say this, given the male dominated aspects frequently present in our
+CS classes, a girl who was interested in CS and survives APCS-A might
+be more likely to continue on and succeed having weathered the storm. 
+
+Now let's look at the out of school programs. There are a number of
+issues here. Many don't really cover CS or legit programming, many
+allow one group member to basically carry the team, and many are
+really entrepreneurship programs using the CS marketing hype. They
+don't really prepare students for what's to come in CS. When a
+student then takes a CS class in college they're ill prepared and drop
+the subject. I've seen it happen. Unfortunately, many of those after
+school programs are masters of marketing and fundraising. Some get big
+money from the Googles of the world but they're never held accountable
+for preparing kids to fail. Rather, they're lauded and praised as
+saviors of education. 
+
+Going further, after school programs are usually taught by volunteers,
+not teachers. They don't necessarily understand the nuances of
+teaching and they don't necessarily prepare you for your next CS
+experience. You then end up in a college course of 300, are ill
+prepared to succeed, fall through the cracks and drop out. Take APCS-A
+in HS and you're going to be in a class of 30 and in a much more
+supportive, forgiving  environment. A much better place to prepare you
+for what's to come.
+
+All in all the idea that girls are more likely to follow a CS path
+with a solid high school experience than with an outside club or
+activity is hardly a surprise. What is more of a surprise to me is the
+fact that it's taken so long to start getting the word out.
+
+
+
+
+
