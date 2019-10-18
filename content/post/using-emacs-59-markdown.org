@@ -14,7 +14,7 @@ Org-mode is my markup of choice. I spend the vast majority of my time working
 on text files working in org-mode. Since GitHUb started rendering
 org-mode files in their site I've also used org-mode for things like
 Readme files in my projects. I even force it on my students at
-times. WHen I make an assignment, I seed it with an org-mode file that
+times. When I make an assignment, I seed it with an org-mode file that
 they have to modify - that is - fill in things like their names, group
 members etc..
 
@@ -31,7 +31,7 @@ and rendering modes. I settled on [[https://github.com/seagle0128/grip-mode/tree
 You can check out the video to see grip-mode along with some of the
 other modes I tried here:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IlhkYmUU-ns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IlhkYmUU-ns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></ifram>e
 
 Enjoy.
 
