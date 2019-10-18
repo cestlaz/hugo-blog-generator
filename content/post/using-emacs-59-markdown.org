@@ -1,0 +1,40 @@
+---
+title: Using Emacs 59 - markdown
+date: 2019-10-18T11:57:57-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+Org-mode is my markup of choice. I spend the vast majority of my time working
+on text files working in org-mode. Since GitHUb started rendering
+org-mode files in their site I've also used org-mode for things like
+Readme files in my projects. I even force it on my students at
+times. WHen I make an assignment, I seed it with an org-mode file that
+they have to modify - that is - fill in things like their names, group
+members etc..
+
+That said, sometimes I have to work in plain old [[https://guides.github.com/features/mastering-markdown/][markdown]]. This is
+almost always when I'm working on something collaboratively and more
+often than not it's documentation on a project living on GitHub.
+
+So, given that I have to work with Markdown, time to use some Emacs
+magic to make it easy and fun.
+
+To start, Emacs has a [[https://github.com/jrblevin/markdown-mode/tree/f3c54e34cc5228001af36a5301883325319f21d4][markdown mode]] along with a bunch of previewing
+and rendering modes. I settled on [[https://github.com/seagle0128/grip-mode/tree/4c7014c8151e522b9dd94f878478087bf92ab10e][grip mode]]. 
+
+You can check out the video to see grip-mode along with some of the
+other modes I tried here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IlhkYmUU-ns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Enjoy.
+
+
+
+
