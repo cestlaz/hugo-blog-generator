@@ -1,0 +1,101 @@
+---
+title: What companies look for in a tech hire
+date: 2019-10-20T13:18:04-04:00
+tags: 
+- NY Tech
+- Career
+categories:
+- NY Tech 
+draft: false
+--- 
+
+My friend Ria tweeted this earlier today:
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you are a software developer/engineer, please reply with a trait (or traits) that you look for in hiring new engineers (new grads). This can be something you glean from a resume, technical interview, behavorial interview, or all of the above.</p>&mdash; Ria Galanos (@cscheerleader) <a href="https://twitter.com/cscheerleader/status/1185937705689112577?ref_src=twsrc%5Etfw">October 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+I'm not hiring for a tech company but I thought I'd share some
+thoughts anyway.
+
+A bunch of years ago, I was at a big meeting at the NYCDOE. It was
+related to the creation of AFSE. The meeting was attended by a bunch
+of NY Tech company heavyweights, DOE people, and me. At this point in
+the project, the DOE was pushing the school as one that would produce
+"Google ready" software engineers from high school. They were also
+insisting on no academic screen so many students would be coming in
+multiple years below grade level. 
+
+I contended that you could have a great school without a screen but it
+was horribly unrealistic to expect to produce "Google ready" engineers
+from an incoming class that's starting far below grade level and it's
+wrong t say you will. Either don't have a screen and don't make such
+ridiculous claims or if you really intend to deliver, have some manner
+of screen.
+
+So, during the meeting, the DOE wanted to sell the idea that academic
+performance wasn't important to the tech community and this is where
+this post meets Ria's tweet. 
+
+One of the DOE reps asked the company "What do you look for in a
+potential hire? Things like creativity, right?" 
+
+The tech company took the bait. They responded as the DOE planned:
+
+ - creativity
+ - teamwork
+ - hard working
+ - reliable
+
+and so on. A long list of soft skills and truth be told, I agreed that
+these things were and are important.
+
+The DOE people thought that there point was made but I had other
+plans. I asked a follow up question:
+
+"Where do you look for these kids?"
+
+At which point the tech people responded:
+  
+  - Stanford
+  - MIT
+  - CMU
+
+etc.
+
+These companies recruited exclusively at institutions that already did
+extreme academic prescreening. The soft skills are important but they
+take on even more importance when you've already narrowed your search
+down to "kids who made it in and through MIT."  None of the
+applicants they considered topped out barely passing 10th grade math.
+
+
+Some of the tech people at the meeting got the point. Some didn't.
+
+If you're only going to recruit from the "usual suspects" you're never
+going to expand the pool, never going to achieve a diverse talent
+pool, and never really provide opportunities to a huge number of
+terrific young people who don't have the ivy league pedigree.
+
+I had a related conversation with a friend of mine recently where I tried to
+further drive home the point. He was talking about how important it
+was for a young student who wanted to break into tech to have side
+projects - how that an extensive portfolio would always catch his
+eye. I told him that this eliminates many terrific low income
+students.
+
+It's easy to ask a well to do kid to spend free time on either a
+portfolio, activity or project (and I'll note that a non-tech project
+or activity can be as or more impressive and important than a tech
+one) but a low income kid probably has to work and their job is likely
+not going to further their tech careers. Require the side project,
+eliminate the poor kid.
+
+All of this is to say that it's really hard to say that even when a
+hiring agent looks for something, there's a lot more going on behind
+the scenes. It's something I've become very aware of at Hunter and
+something I've been trying to push the NY Tech community to
+understand.
+
+
+
+

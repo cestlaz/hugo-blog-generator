@@ -1,0 +1,91 @@
+---
+title: High Ed Web 2019
+date: 2019-10-16T08:34:04-04:00
+tags: 
+- web
+- support
+categories: 
+-  web
+draft: false
+--- 
+
+I spent the last few days in Milwuakee at [[https://2019.highedweb.org/][High Ed web 2019]], a
+conference for higher education web professionals. Most attendees were
+college web developers or designers along people who run web
+operations at colleges and universities and related vendors. Being a
+CS teacher, I was a bit of an outsider but still got a lot out of the
+conference. 
+
+It was our first time in Milwuakee so we had to see some sights.
+
+The Bronz Fonz on the riverwalk:
+
+{{% figure src="/img/highwebed/fonz.jpg" class="z_image_center" width="200px"  %}}
+
+Then there was [[https://duckduckgo.com/?q=Gertie+the+duck&t=lm&atb=v181-1&ia=web][Gertie the duck]]:
+
+{{% figure src="/img/highwebed/gertie.jpg" class="z_image_center" width="200px"  %}}
+
+And then more ducks by the river:
+
+{{% figure src="/img/highwebed/ducks.jpg" class="z_image_center" width="200px"  %}}
+
+Later, we had a transcendental meal at [[http://www.oddduckrestaurant.com/][The Odd Duck]]. 
+
+{{% figure src="/img/highwebed/oddduck.jpg" class="z_image_center" width="200px"  %}}
+
+Apparently, Milwaukee loves their ducks.
+
+We also hit the lakefront, [[https://www.mpm.edu/][Public]],[[https://mam.org/][ Art,]] [[http://www.chudnowmuseum.org/][Chudnow]], and [[https://www.msoe.edu/grohmann-museum/][Grohmann]] museums,
+public market and few other things. 
+
+{{% figure caption="Art Museum on the lake" src="/img/highwebed/artmuseum.jpg" class="z_image_center" width="200px"  %}}
+
+All were cool but I'd say that the Grohmann was the standout - if
+you're in Milwaukee, make the time for it. 
+
+As to the conference itself I attended a few interesting sessions. One
+talk was on [[http://agilemanifesto.org][Agile]] by [[http://twitter.com/elfin_john][John Wililams]] (no, not [[https://en.wikipedia.org/wiki/John_Williams][THAT]] John Williams). John
+spoke about Agile as a mindset rather than a specific tech/development
+thing and talked about how the classic comedy Airplane! was develped
+as an Agile project. It made me think of how Computational Thinking
+really isn't [[https://cestlaz.github.io/post/is-ct-new/][anything new]] or how OOP design patterns were developed by
+an [[https://en.wikipedia.org/wiki/Christopher_Alexander][architect]]. 
+
+Another talk by [[http://twitter.com/svenhaas][Sven Haas]] gave me a fresh perspective from the IT
+manager's point of view. We rail all the time in the CS education
+forums about how hard it is to get our schools IT teams to install the
+development environments and tools we want to use with our
+Students. Sven reminded me that for every single request we make of
+our infrastructure people, there are tons of ramification. Long
+term software maintenance and versioning, security, legal
+ramifications, and more. Sven also reminded me that all to often
+parties, including teachers and students, talk across each other
+rather than to each other - "I need this installed" rather than having
+a conversation about needs and jointly developing solutions.
+
+There were also a couple of more technical talks I enjoyed. 
+
+The conference organizers also did a great job. Kudos to the Milwuakee
+convention center for having their restrooms in order:
+
+{{% figure src="/img/highwebed/stalls.jpg" class="z_image_center" width="200px"  %}}
+
+And for the conference team on adding the signs for further
+clarification.
+
+A big highlight for me was reconnecting with [[https://twitter.com/maccabeelevine][Maccabee]]. Mac was in my
+class at Stuy way back around '95. We've been in touch but as his
+career has took him out of NYC it's been years since we've seen each
+other in person. Always great to see an old friend.
+
+{{% figure src="/img/highwebed/mac.jpg" class="z_image_center" width="200px"  %}}
+
+
+I probably won't be back to High Ed Web. While it's a great
+conference, I'm not really the intended audience. When you can only go
+to so many things a year due to time and money you have to call your
+shots. I will say though, if you're in the higher ed web space, you should really check
+it out.
+
+
