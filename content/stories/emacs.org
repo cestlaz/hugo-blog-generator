@@ -125,3 +125,4 @@ disable_comments = true
 ** [[/post/using-emacs-57-dired-narrow][Video 57 - Dired Narrow]]
 ** [[/post/using-emacs-58-lsp-mode][Video 58 - lsp-mode]]
 ** [[/post/using-emacs-59-markdown][Video 59 - markdown]]
+** [[/post/using-emacs-60-restclient][Video 60 - restclient]]

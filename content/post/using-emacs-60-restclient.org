@@ -1,0 +1,65 @@
+---
+title: Using Emacs 60 - Restclient
+date: 2019-10-25T11:57:57-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+I started to work on a web application the other day. It's nothing
+special but if I ever finish it, it will be a pretty complete
+project. The backend will be a [[https://restapitutorial.com/][REST]] API and I'm planning on writing
+the frontend in Clojurescript. 
+
+The problem with developing a web application like this is that you
+can't really write the front end until you have enough of the backend
+to provide data. Also, writing the backend would be much easier if you
+already had a front end to test it with. 
+
+Pretty annoying.
+
+What you basically have to do is use some system to make all the API
+calls with all the required data. The most fundamental way to do this
+is to use a command line tool like [[https://curl.haxx.se/][curl]]. For example, from a terminal
+I might write something like this to make a login call:
+
+#+BEGIN_SRC curl
+curl --data "email=myemail&password=mypassword" https://localhost:8080/login
+#+END_SRC
+
+It works but is clunky and you end up using the mouse a lot to cut and
+paste data.
+
+Web browsers like Firefox and Chrome also have extensions ([[https://techbeacon.com/app-dev-testing/5-top-open-source-api-testing-tools-how-choose][link]], [[https://www.guru99.com/testing-rest-api-manually.html][link]])
+but I find them somewhat bulky with their mouse / form based
+interfaces.
+
+Emacs to the rescue!!!!!!!!
+
+I discovered [[https://github.com/pashky/restclient.el][restclient]] for Emacs a couple of years ago but only now
+am reaping the benefits. It's really amazing. I can easily set up REST
+querries, use all the editing power of Emacs, and even save the
+queries for later.
+
+I didn't find this until after I made the video but you can even use
+restclient in [[https://github.com/alf/ob-restclient.el][org-mode]]. 
+
+It's all very cool.
+
+Details in the video:
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/L7Jcoe3oHTs" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+
+Enjoy.
+
+
+
+
