@@ -1,0 +1,102 @@
+---
+title: School Visit Update 2019
+date: 2019-11-06T12:25:17-04:00
+tags: 
+- outreach
+- CS
+categories: 
+- outreach
+draft: false
+--- 
+
+I've been spending a lot of time at area high schools this fall. Today
+I was at [[https://en.wikipedia.org/wiki/Franklin_Delano_Roosevelt_High_School_(New_York_City)][FDR High School]] in Broooklyn.
+
+{{% figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/FDR_HS_20th_Av_jeh.jpg/330px-FDR_HS_20th_Av_jeh.jpg"
+align="centr" width="500px" %}}
+
+I only learned about FDR HS a little over a year ago when I met their
+CS teacher [[https://twitter.com/jhans404][Josh Hans]] at a NYC PD event. I visit last fall and then
+again today.
+
+Whenever I visit a school it's a different experience. Sometimes I
+speak to the CS classes, sometimes at an event like a CS Week
+hackathon, once I even got to address an entire senior class in an
+auditorium. 
+
+I really loved how Josh and FDR set things up for me today.
+
+Before I get to the arrangement, let's talk about the talk.
+
+When I meet with a room of seniors, even a room full of CS students, I
+know that only a few students are going to end up with me at
+Hunter. A room of 30 seniors should probably end up in something like
+25 different colleges. I also know that even in a CS class many of
+the students will end up pursuing other majors.
+
+I really don't think it's right for me to take a full class period and
+talk just about Hunter and my Daedalus program so instead I start by
+talking about college choices. I try to share things that I've learned
+over my career as a student, teacher, parent, and now someone reading
+applications with my audiuence. Things I've learned from both my
+experiences and through my relationships with former students. At the
+end we talk about Hunter, Hunter CS and the Daedalus program.
+
+I've been told that the approach has been really valuable to the
+majority of students I've delivered it to.
+
+There were a few things that Josh set up today that made it a lot of
+fun. First, we were in the auditorium. I had Josh's APCS-A class but
+he also invited a couple of others. I also had APCS-P students and
+also a class of Calculus students. This was a big deal. Just like
+everyone, I'm working hard to build a program with a diverse
+population and sometimes outreach is difficult. Specifically, if a
+school only allows me to speak with their APCS-A students, I
+frequently end up with a pre-culled group. If a school, for example,
+has a very low percentage of women in their APCS-A class and that's
+where I'm speaking, I'm not going to be able to convince many women to
+look into what we're offering. By having the calc sutdents in the
+audience I had a more diverse audience and also almost certainly had
+the chance to expose some students to CS in a new and different
+way. Now, don't get me wrong. Given the nature of my program, I really
+love talking to APCS-A students and going with probability, they're
+the most likely the ones to want my program but I love casting the
+wider net.
+
+The other think Josh did was he gave me two periods. My talk usually
+takes most of a period with little time for discussion. It should take
+less but I tend to go into yammer mode and start telling
+stories. Sorry - it's just what I do. With two periods we had plenty
+of time for discussion afterwards. What's more, after most of the
+students left, I was left with about 6 students who wanted to continue
+to talk. I really enjoyed that. 
+
+Once I was done I did what I usually do - went to the local bakery to
+bring home some baked goods. I stopped at the [[https://www.google.com/maps/place/18th+Avenue+Bakery/@40.6212881,-73.9847415,17z/data=!4m8!1m2!2m1!1sbakery!3m4!1s0x0:0xd4dca91422790dec!8m2!3d40.6217849!4d-73.9877902][18th street Bakery]]. An
+Italian place and got an assortment. Also had a great chat with the
+lady at the counter. It reminded me of when I'd go to [[https://www.yelp.com/biz/moishes-kosher-bakery-new-york][Moishes Bakery]]
+before they closed albeit Italian rather than Jewish. 
+
+I pointed to a pile of cookes and asked "what are these?" and she
+merely said "No!!!!!" We joked back and forth and she explained that
+they were on the older side and didn't feel right selling them and was
+going to throw the rest of the batch out. They'd bake new ones for
+tomorrow. I was disappointed not to try a new cookie but glad that I
+wasn't sold stale goods. It was like at Moishes when I once asked
+about the Babka and was told "that was made  on Wednesday, you don't
+want it. This is what's fresh. New Babka tomorrow.
+
+So, then, on the way home, thinking about Moishes and realizing that
+there were  also Jewish bakeries in the neighborhood I decided to see
+if I could find [[https://en.wikipedia.org/wiki/Kichel][Kichel]] - one of Devorah's favorite cookies. I
+sometimes make them but haven't in a while. I found some at [[https://www.google.com/maps/place/Korn's+Bakery/@40.630628,-73.9799457,17z/data=!4m9!1m3!2m2!1sbakery!6e5!3m4!1s0x0:0xf6f303e4b6cd6dfe!8m2!3d40.6308331!4d-73.9764149][Korn's]]
+Bakery and then it was back into Manhattan.
+
+So, overall a succesful day. I got to talk to a bunch of great High
+School cookies and got tasty neighborhood baked goods. 
+
+I've hit a bunch of schools already this fall as I work to spread the
+gospel about CS and about Hunter's [[http://info.huntercs.org][Daedalus]] program and am still
+looking to get more on the schedule so if you know a school that's a
+good fit a visit, hit me up.
+
