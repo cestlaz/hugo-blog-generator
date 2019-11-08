@@ -1,0 +1,174 @@
+---
+title: I Speak Jive
+date: 2019-11-08T07:48:14-04:00
+tags:
+- CS Education
+- Lessons
+categories: 
+- CS Education
+draft: false
+--- 
+
+When I wrote about the [[https://cestlaz.github.io/post/highedweb2019/][HighWebEd]] I mentioned [[https://twitter.com/elfin_john][John William]]''s talk on
+Agile. He spoke about how the movie Airplane! was filmed in an Agile
+manner and gave as an example the development of the "jive" scenes. 
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/zdCjbJ6NEfc" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+
+Apparently the creative team had a script but it wasn't working. The
+first pair that read for the role, Norman Gibbs and Al White had their
+ownd take. Not only dir the team cast them on the spot and follow
+their creative lead (hence Agile) but they also apparently apologized
+to the two actors as the original attempt was so bad compared t what
+Gibbs and White brought to the table.
+
+Of course, I would be negligent if I didn't mention that the third
+person to really make the jive sequence was Barbara Billingsley of
+Leave it to Beaver fame.
+
+So, coming home, I had the Airplane! and the jive scenes in the back
+of my mind. The other day at home, somehow or other we were chatting
+about that great American masterpiece, The Muppet Show and of course,
+the Sweedish Chef.
+
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/OUU6Rt6bi1U" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+This brought me back the the [[https://muppet.fandom.com/wiki/Encheferizer\][Encheferizer]] (live version [[http://www.tuco.de/home/jschef.htm][here]]).
+
+So how is jive from Airplane! related to The Sweedish Chef?
+
+*Filters!!!!!!!!*
+
+A filter, in this context, is a program that takes data as input, in
+this case a stream of text. Does some transformation to it and then
+spits out the transformed text.
+
+Way back, Unix systems had a program called [[https://en.wikipedia.org/wiki/Jive_filter][jive]] that "translated"
+text into Jive along with other filters including cockney and valspeak which
+converted text to like, um, Valley Girl speak dontcha know. It was,
+like, totally tubular. Of course one filter was named *chef*, known as
+the encheferizer which translated into Sweedish Chef talk.
+
+Over time, the list of filters grew. Some were silly, some fun, and,
+yes, some were kindof offensive.
+
+(side bar: as I write this bit of history, I just feel as though I've
+been transported to Doug Peterson's [[https://dougpete.wordpress.com/2019/11/03/whatever-happened-to-183/][Whatever happened to...]] posts and
+feel as though I shoudl write something like: Do you remember using
+filters? Which ones did you use? etc.)
+
+Anyway, somewhere in here there's the making of some nice class
+projects but the challenge was how to do the translation. Some things
+are easy. One filter was the Fudd filter which translated to [[https://en.m.wikipedia.org/wiki/Elmer_Fudd][Elmer
+Fudd]] speak. It's easy enough to substitute *w* for *l* in a word as
+Elmer says "Hew wow" instead of "Hello" but it's hard to know if you've
+got enough translation rules so that your students text will change
+enough to be entertaining.
+
+Fortunately, I found [[- https://github.com/hyperrealm/talkfilters][this]] repo. It's an implementaiton of a whole
+bunch of filters:
+
+#+begin_quote
+austro (Think Ahhnolld), b1ff (a web newbie), brooklyn, butthead (as
+in Beevis and), chef, cockney, drawl, dubya, fudd, funetak, jethro,
+jive, kraut, newspeak, pansy, pirate, postmodern, redneck, valspeak, warez
+#+end_quote
+
+I couldn't get the system to compile but was able to dive into the
+source code to see the rules. They're in the *.l* files. All of those
+files are source for the [[https://en.wikipedia.org/wiki/Lex_%2528software%2529][Lex]] parser generator but even if you aren't
+familiar with Lex you should be able to figure out most of the rules.
+
+Some of the translators rely mostly on simple letter
+substitutions. Fudd is such a filter:
+
+{{< highlight lex >}}
+"r"         gtf_printf("w");
+"l"         gtf_printf("w");
+"qu"        gtf_printf("qw");
+"th "       gtf_printf("f ");
+"th"        gtf_printf("d");
+"n."        gtf_printf("n, uh-hah-hah-hah. ");
+"R"         gtf_printf("W");
+"L"         gtf_printf("W");
+"Qu"        gtf_printf("Qw");
+"QU"        gtf_printf("QW");
+{{< /highlight >}}
+
+
+
+
+Dubya, on the other hand goes more with word substitutions:
+
+{{< highlight lex >}}
+[Tt]errorist		|
+[Oo]sama		|
+[Bb]in(-|{WB})[Ll]ad(e|i)n	{ switch(gtf_random(3))
+				  {
+				  case 0: gtf_puts_case("bad guy"); break;
+				  case 1: gtf_puts_case("evildoer"); break;
+				  case 2: gtf_puts_case("terrier"); break;
+				  }
+				}
+[Uu]njustified/{NW}	     gtf_puts_case("pre-emptive");
+[Cc]ontra/{NW}		     gtf_puts_case("freedom-fighter");
+[Un]nder		     gtf_puts_case("misunder"); BEGIN(INW);
+[Mm]isunderstand	     gtf_puts_case("misunderestimate"); BEGIN(INW);
+[Mm]isunderstood             gtf_puts_case("misunderestimated"); BEGIN(INW);
+[Kk]ill/{NW}		     gtf_puts_case("oblitifry");
+[Kk]illed/{NW}		     gtf_puts_case("oblitifried");
+[Dd]destroy/{NW}	     gtf_puts_case("destructifry");
+[Dd]destroyed/{NW}	     gtf_puts_case("destructifried");
+[Rr]esonat/{NW}		     gtf_puts_case("resignat");
+[Ee]ven(-|{WB})[Hh]anded/{NW} gtf_puts_case("foreign-handed");
+[Ee]mbitter		     gtf_puts_case("embetter"); BEGIN(INW);
+[Ff]allability/{NW}	     gtf_puts_case("fallacy");
+[An]tidote/{NW}		     gtf_puts_case("anecdote");
+{{< /highlight >}}
+
+Some, like chef, pirate, and aust do some of both:
+
+{{< highlight >}}
+[Tt]h		gtf_puts_case("z");
+w		gtf_puts("v");
+ou		gtf_puts("u");
+"de "		gtf_puts("d ");
+"le "		gtf_puts("l ");
+"me "		gtf_puts("m ");
+"ne "		gtf_puts("n ");
+"re "		gtf_puts("r ");
+"ve "		gtf_puts("v ");
+[Cc]		gtf_puts_case("s");
+[Pp]ie		gtf_puts_case("mozer's pie");
+[Ss]teak        gtf_puts_case("shnitzel");
+[Gg]overnor	gtf_puts_case("govenator");
+{{< /highlight >}}
+
+Some also deal with more complex situations such as only substituting
+letters if they're at the end of words and the like.
+
+All of this is leading to a huge number lesson and project
+possibilities from simple text replacements in an intro class to
+something much more ambitious in a later class.
+
+I was looking to vary some of the things we do in Hunter and I think
+I'll add some language filters to the mix.
+
+
+
+
+
+
+
+
+
+
+
