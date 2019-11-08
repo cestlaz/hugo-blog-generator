@@ -21,7 +21,7 @@ picture-in-picture" allowfullscreen></iframe>
 
 Apparently the creative team had a script but it wasn't working. The
 first pair that read for the role, Norman Gibbs and Al White had their
-ownd take. Not only dir the team cast them on the spot and follow
+owned take. Not only dir the team cast them on the spot and follow
 their creative lead (hence Agile) but they also apparently apologized
 to the two actors as the original attempt was so bad compared t what
 Gibbs and White brought to the table.
@@ -33,7 +33,7 @@ Leave it to Beaver fame.
 So, coming home, I had the Airplane! and the jive scenes in the back
 of my mind. The other day at home, somehow or other we were chatting
 about that great American masterpiece, The Muppet Show and of course,
-the Sweedish Chef.
+the Swedish Chef.
 
 
 <iframe width="560" height="315"
@@ -43,7 +43,7 @@ picture-in-picture" allowfullscreen></iframe>
 
 This brought me back the the [[https://muppet.fandom.com/wiki/Encheferizer\][Encheferizer]] (live version [[http://www.tuco.de/home/jschef.htm][here]]).
 
-So how is jive from Airplane! related to The Sweedish Chef?
+So how is jive from Airplane! related to The Swedish Chef?
 
 *Filters!!!!!!!!*
 
@@ -55,7 +55,7 @@ Way back, Unix systems had a program called [[https://en.wikipedia.org/wiki/Jive
 text into Jive along with other filters including cockney and valspeak which
 converted text to like, um, Valley Girl speak dontcha know. It was,
 like, totally tubular. Of course one filter was named *chef*, known as
-the encheferizer which translated into Sweedish Chef talk.
+the encheferizer which translated into Swedish Chef talk.
 
 Over time, the list of filters grew. Some were silly, some fun, and,
 yes, some were kindof offensive.
