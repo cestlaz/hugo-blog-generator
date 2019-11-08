@@ -58,11 +58,11 @@ like, totally tubular. Of course one filter was named *chef*, known as
 the encheferizer which translated into Swedish Chef talk.
 
 Over time, the list of filters grew. Some were silly, some fun, and,
-yes, some were kindof offensive.
+yes, some were kind of offensive.
 
 (side bar: as I write this bit of history, I just feel as though I've
 been transported to Doug Peterson's [[https://dougpete.wordpress.com/2019/11/03/whatever-happened-to-183/][Whatever happened to...]] posts and
-feel as though I shoudl write something like: Do you remember using
+feel as though I should write something like: Do you remember using
 filters? Which ones did you use? etc.)
 
 Anyway, somewhere in here there's the making of some nice class
@@ -73,7 +73,7 @@ Elmer says "Hew wow" instead of "Hello" but it's hard to know if you've
 got enough translation rules so that your students text will change
 enough to be entertaining.
 
-Fortunately, I found [[- https://github.com/hyperrealm/talkfilters][this]] repo. It's an implementaiton of a whole
+Fortunately, I found [[- https://github.com/hyperrealm/talkfilters][this]] repo. It's an implementation of a whole
 bunch of filters:
 
 #+begin_quote
