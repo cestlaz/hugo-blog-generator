@@ -55,7 +55,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen></iframe>
 
 
-I don't remember seam carving. It's no longer a new cutting edge
+Seam Carving is no longer a new cutting edge
 technique but it still blows me away. It's also a really cool project
 for more advanced students for two reasons: one, it's not a toy
 assignment - it's from real research and two, it contains a very
