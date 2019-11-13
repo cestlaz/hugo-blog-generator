@@ -136,7 +136,7 @@ Dubya, on the other hand goes more with word substitutions:
 
 Some, like chef, pirate, and aust do some of both:
 
-{{< highlight >}}
+{{< highlight lex >}}
 [Tt]h		gtf_puts_case("z");
 w		gtf_puts("v");
 ou		gtf_puts("u");
