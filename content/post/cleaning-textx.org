@@ -1,0 +1,132 @@
+---
+title: Working with texts part 1 - cleaning the data
+date: 2019-11-15T16:18:51-04:00
+tags: 
+- PD
+- computer science
+- pedagogy
+categories:
+- teaching 
+draft: false
+--- 
+
+I run periodic professional development sessions here in New York with
+my partner in crime JonAlf Dyrland-Weaver. I call them PD for "APCS-A,
+similar or beyond" and they're designed to fill a professional
+development gap. We try to run them once a month but it's a little
+less frequent than that.
+
+The NYCDOE has taken on the monster task of CS for all and since
+they're trying to get to everyone they have to run a bazillion
+sessions but all at an introductory level. Beyond that, most PD is
+tied to a curriculum, program, or product. We decided to run sessions
+for teachers who are ready for more both pedagogically and content
+wise while not affiliating with any specific provider. We're just
+about the CS and the teaching of CS.
+
+Yesterday we had our first session of the year and the content topic
+was text processing. Along the way, we used it as an opportunity to
+highlight subgoal labeling as a teaching technique.
+
+There's a lot you can do in both CS0 and CS1 with text and document
+processing. By the end of yesterday's session we had discussed a bunch
+of possibilities based on the text processing technique known as a
+"bag of words" which basically takes a text and just considers all the
+words it contains. What are the words and how many times does each
+word occurs. No consideration of order, grammar, or anything else. Just
+words and counts. We also talked a bit about more advanced possibilities
+like playing with an inverted index. I'll talk about both of those in
+a future post. 
+
+For today, let's talk about what we have to do before we even begin -
+preprocessing the data.
+
+We grabbed a bunch of texts from [[https://www.gutenberg.org/][Project Gutenberg]]. Specifically, "Moby
+Dick", a translation of my favorite play "Cyrano de Bergerac" and the
+Book of Psalms from the Bible. I also made a copy of the first chapter
+of "Moby Dick" so we had a shorter corpus to play with and typed up
+the first scene of "Macbeth" - all thirteen lines of it.
+
+It's easy enough to read in the data in a language like Python:
+
+{{< highlight python >}}
+f = open("cyrano.txt")
+raw_data = f.read()
+{{< /highlight >}}
+
+but if you're using a bag of words you've got to do some cleaning.
+
+To start, all Project Gutenberg texts contain a whole bunch of front
+and back matter with lots of words. If you don't get rid of them
+you'll get extra words in your bag. I forgot to do this and was a bit
+surprised to see phrases like "Pay a trademark license" in the Book of
+Psalms.
+
+It's easy enough to just cut the tops and bottoms of each file off
+with an editor and that's when we can read our data into our program
+and the fun begins.
+
+First we had to turn everything into lower case;
+
+
+{{< highlight python >}}
+lower_data = raw_data.lower()
+{{< /highlight >}}
+
+and then the big part - we want to get rid of all the punctuation. We
+first tried something like this:
+
+{{< highlight python "linenos=inline" >}}
+stuff_to_remove = ".:;'0123456789"
+cleaned_letters = [x for x in lower_data if x not in stuff_to_remove]
+cleaned_string = "".join(cleaned_letters)
+{{< /highlight >}}
+
+The second line is a list comprehension. It iterates through each
+letter in lower_data and copies it into the resultant list only if the
+letter is not in our stuff_to_remove list.
+
+For example, if we had ~lower_data = "abc123def g"~ we'd get a result
+of ~["a","b","c","d","e","f"," ","g"]~. We then use the join in line 3
+to turn it back into a string ~"abcdef g"~.
+
+This worked pretty well but we found that there were problems. There
+were characters that we didn't account for like long dashes that
+connected words and we didn't have an easy way to put them in our
+removal string.
+
+This led to take 2. Instead of deciding what to throw away, let's
+decide what to keep;
+
+{{< highlight python "linenos=inline" >}}
+stuff_to_keep = "abcdefghijklmnopqrstuvwxyz \t\n"
+cleaned_letters = [x for x in lower_data if x in stuff_to_remove]
+cleaned_string = "".join(cleaned_letters)
+{{< /highlight >}}
+
+This worked better (and yes, I know I could have used isalpha() but I
+didn't remember it at the time) but still had problems. We had words
+that were formerly separated by punctuation with no spaces that were
+now combined into new invalid words. We also had things like chapter
+headings in our text and other stray words that we probably wanted to
+get rid of.
+
+All of this led to rich conversation among the teachers present and
+can do the same in class. What do you clean? What do you keep? Is it
+worth the effort to write all sorts of cleaning code to get rid of a
+couple of stray bits of bad data or can we get the results we want by
+leaving it in? There's no universally right answer and that's part of
+the beauty of doing things like this with a class - it's something
+that can make them think.
+
+Once we made our final cleaning decisions it's a simple matter to
+convert the long string of text into a list of words:
+
+
+{{< highlight python "linenos=inline" >}}
+wordlist = cleaned_string.split()
+{{< /highlight >}}
+
+
+Now we're ready to start building our bag of words but that's a post
+for another day.
