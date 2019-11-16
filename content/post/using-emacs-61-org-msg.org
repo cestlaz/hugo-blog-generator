@@ -1,0 +1,88 @@
+---
+title: Using Emacs 61 - org-msg
+date: 2019-11-16T05:00:57-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+By living in Emacs I get a consistent interface across all sorts of
+tasks - programming, lesson planning, making presentations, preparing
+documents, and yes, even email. I've been using [[https://cestlaz.github.io/posts/using-emacs-39-mu4e/][mu4e]] as my Emacs email
+client for a while now. Currently, I'm using Emacs for my work email
+and Gmail for personal. I've been thinking of going whole hog to mu4e
+and possibly migrating from Gmail to a new email provider for the
+personal stuff but there are still a few pain points with Emacs email:
+
+- rich text emails (embedded links, images, etc)
+- calendar integration
+- contacts 
+- periodic Maildir sync problems with mbsync
+
+Calendar integration isn't a make or break issue and contacts with
+mu4e is good enough so that leaves two pain points. Formatted emails
+which I think is now pretty much solved (see below) and the Maildir
+stuff.
+
+On the Maildir side, I'm trying deal with my email across four
+machines - work laptop, work desktop, home laptop, home desktop. I
+originally synced each one separately and that worked but I was having
+archive problems - it seems that I was only archiving on the local
+machine so if I archived an email at work and I needed to get to it at
+home, I was out of luck. 
+
+Then, I moved to sharing my Maildir using Syncthing - an opensource
+Dropbox-alike. That mostly worked but if I wasn't careful I'd get
+syncing errors where I have to go into my Maildir directory and
+manually rename or remove messages - a real pain.
+
+If anyone out there has a solution (and [[http://pragmaticemacs.com/emacs/fixing-duplicate-uid-errors-when-using-mbsync-and-mu4e/][this]] fix doesn't fully work
+for me), I'd love to hear about it.
+
+Let's get back to the formatted email. I was already to create an
+email in org mode using ~org-mu4e-compose-org-mode~ which I think is
+built in to either org-mode or mu4e but it's limited. It formats
+tables, outlines, and source blocks but I can't easily make a source
+block for something like *dot* or *ditaa* and embed the result. I
+found a solution recently. It's [[https://github.com/jeremy-compostella/org-msg][org-msg]] - a terrific package that lets
+you compose an email in org-mode. It seems to have better support than
+org-mu4e-compose-org-mode. It does the basic formatting, tables, etc
+and also executes source blocks. The only thing that was missing for
+me was LaTeX formatting but I use that so rarely I don't really care.
+
+The package author, Jeremy Compostella, is also very responsive. When
+I first installed org-msg it wasn't integrating seamlessly with
+mu4e. It was still workable but I had to manually insert some
+configuration at the top of all my emails. I opened an issue on this
+and within a day it was fixed.
+
+It also has a very cool preview mode so you can see what you're
+sending. On that, though, I did have an issue but I'm pretty sure it's
+an Emacs / org-mode issue and not an org-msg issue. On my desktop,
+when I run the preview, it opens my browser with the email formatted
+correctly. When I do the same on my laptop, it runs GitHub Classroom
+Assistant - an application I installed and use for other
+purposes. I've had this happen before with other emacs xdg things. If
+anyone else has seen this and better has a solution, I'd love to hear
+about that as well.
+
+Anyway, here's a video that shows org-msg in action:
+
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/cPZe0AGOUJU" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
