@@ -1,0 +1,26 @@
+---
+title: Using GitHub issues for class communicatoin
+date: 2019-11-17T16:17:37-04:00
+tags: 
+- teaching
+- git
+- github
+categories: 
+- teaching
+draft: false
+--- 
+
+Last week I talked about using [[https://cestlaz.github.io/post/communicating-with_students/][GitHub issues]] as a mechanism for class
+communication. I thought it might be helpful to follow up on it and
+also felt that a video would be better than text.
+
+So, here it is, 16 minutes on how you can use GitHub issues for class
+communication. I don't show examples of everything like @ tagging but
+I think it shows some of the power of using GitHub and GitHub
+classroom beyond just a software repo and versioning.
+
+Enjoy.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SNsjMKYoLr8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
