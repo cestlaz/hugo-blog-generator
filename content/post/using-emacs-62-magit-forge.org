@@ -1,0 +1,38 @@
+---
+title: Using Emacs 62 Magit Forge
+date: 2019-11-19T12:25:58-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+Ever since I started looking at Magit as a "git dashboard" instead of
+as a "git interface" it's been yet another Emacs killer app to me. I
+just recently started playing with [[https://github.com/magit/forge][forge]] which allows [[https://github.com/magit/magit][Magit]] to
+interface and interact with git "forges" like GitHub. This allows you
+to work on issues and pull requests without ever leaving Emacs.
+
+Here's a video on how easy it is. The video doesn't show this but the
+first time you fire forge up it will prompt you for credentials. 
+
+Also, if you aren't familiar with GitHub issues, check out the
+post/video I made a few days ago ([[https://cestlaz.github.io/post/git-issues/][link]]) and you can check out my
+earlier post/video on Magit as well ([[https://cestlaz.github.io/posts/using-emacs-47-magit/][link]]).
+
+Enjoy.
+
+
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/wgI8r3Nx_BI" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
