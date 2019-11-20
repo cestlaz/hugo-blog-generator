@@ -1,0 +1,143 @@
+---
+title: Working with texts part 2 - bag of words
+date: 2019-11-20T08:15:41-04:00
+tags: 
+- CS
+- data structures
+- nltk
+categories:
+- CS 
+draft: false
+--- 
+
+Following up on a [[https://cestlaz.github.io/post/cleaning-textx/][previous post]], we're going to continue to talk about
+playing with text. This time, building and working with a bag of words
+from a text. 
+
+A bag of words is a simple language processing model where you just
+consider individual words in a text. What they are and how many times
+they occur. This is a pretty simple model but you can still have a
+good bit of fun with your students with it.
+
+For example, if you take a text like this:
+
+#+begin_quote
+This land is your land
+this land is my land
+#+end_quote
+
+Once you clean the a data as per the previous post you get the
+following bag:
+
+| word | Count |
+|------+-------|
+| is   |     2 |
+| land |     4 |
+| my   |     1 |
+| this |     2 |
+| your |     1 |
+
+Not too interesting but it gets more interesting on a larger text. We
+used:
+
+ - Act 1 Scene 1 from Macbeth (for testing - it's only 13 lines)
+ - Cyrano de Bergerac (because it's my favorite play)
+ - Moby Dick (chapter 1)
+ - Moby Dick (full text)
+ - The Book of Psalms
+
+Assuming a cleaned string with all the text, building the bag is
+pretty easy:
+
+
+{{< highlight python "linenos=inline" >}}
+
+cleaned_text = "a string with all the cleaned text"
+bag={}
+for word in cleaned_text.split():
+  bag.setdefault(word,0)
+  bag[word] = bag[word] + 1
+{{< /highlight >}}
+
+
+The ~setdefault~ in line three says that if ~word~ isn't a key in the
+dictionary then insert it with a value of 0, otherwise, if ~word~ *is*
+already a key in the dictionary do nothing. This saves us from
+constructs like:
+
+
+{{< highlight python "linenos=inline" >}}
+  if word not in bag:
+      bag[word]=1
+  else:
+      bag[word] = bag[word] + 1
+{{< /highlight >}}
+
+
+Once we have our bag we can do some explorations. Take out all the
+values using ~bag.values()~ and sort them. Ask "what words are going
+to occur most frequently?" It's easy to guess that it will be words
+like *the*, *of*, *and* etc.. Words that don't really tell us anything
+about the text. It's a fun puzzle to figure out where the
+"interesting" words start and even the question of what might make a
+word in a text "interesting." Words like *the*, *and", etc. are known
+as [[http://xpo6.com/list-of-english-stop-words/][stop words]]. Depending on the application, you might want ot remove
+them. Then again, you might not.
+
+Usually we take a bit of time just to play with the bag, looking at
+the types of words in various count ranges. Sometimes we'll make bags
+for different chapters of books and compare them. This is also when I
+cover Python list comprehensions which make experimenting on bags of
+words much cleaner. Say, for instance you want to find all the words
+that occur between 50 and 100 times. Without list comprehensions you
+might write:
+
+
+  {{< highlight python "linenos=inline" >}}
+  result = []
+  for word in bag:
+      if bag[word] >= 50 and bag[word] <= 100:
+          result.append(word) # or (word,count) or whatever
+  {{< /highlight >}}
+
+
+While with the comprehension it's:
+
+
+
+  {{< highlight python>}}
+  result = [ word for word in bag if bag[word] >= 50 and bag[word] <= 100]
+  {{< /highlight >}}
+
+
+
+Besides basic exploring, what else can you do? You can make word
+vectors, that is a list or vector where an element is 1 if the word is
+present and 0 otherwise. Then you can do simple document
+comparisons. You can kick this up a notch if you calculate word
+frequencies based on the bag counts and use these. 
+
+You can also do basic sentiment analysis. Download a list of
+"positive" and "negative" words and then check bags against them. You
+can check to see how many negative or positive words are in a bag or
+you can work with frequencies. You can also use other categories. 
+
+While we were discussing this at our PD, some teachers thought that
+their classes might ahve a hard time doing all of this  from scratch
+but thought that they could provide either the cleaning code or the
+bag building code and have the students build experiments off of the
+base. I thought it was a great idea.
+
+At the end of our session we all agreed to think about how we might
+build a lesson or unit out of this bag of words idea. I'll leave you
+all with some web sites that use these ideas in what I think are
+interesting ways:
+
+ - [[http://davidamackenzie.com/tmbg_lyrics/][They Might Be Giants Lyrics]]
+ - [[https://blogs.sap.com/2014/01/07/measuring-word-use-frequency-in-rap-song-lyrics/][Word use in rap lyrics]]
+ - [[https://genius.com/Sameoldshawn-rap-stats-breaking-down-the-words-in-rap-lyrics-over-time-annotated][Another analysis of rap lyrics]]
+ - [[https://towardsdatascience.com/text-analysis-of-successful-song-lyrics-e41a4ccb26f5][Analysis of succesful song lyrics]]
+
+
+Enjoy!
+
