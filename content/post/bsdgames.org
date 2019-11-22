@@ -1,0 +1,47 @@
+---
+title: Lesson and project inspiration from old BSD games
+date: 2019-11-22T13:55:09-04:00
+tags: 
+- CS
+- APCS-A
+categories: 
+- CS Ed
+draft: false
+--- 
+
+When I was writing the [[https://cestlaz.github.io/post/i-speak-jive/][I Speak Jive]] post, the first thing I had to do
+was find those old programs. It turned out to be harder than I
+thought. I found online versions but it took a while to find [[https://github.com/hyperrealm/talkfilters][this]]
+GitHub repo.
+
+On the way, I seemed to recall that these might be bundled with a
+bunch of old [[https://github.com/vattam/BSDGames][BSD games]] so I took a look at the BSD games package for
+Linux. While I didn't find the filters, I found a whole bunch of old
+programs that I hadn't played with in years along with a few that I
+never knew existed. To me it felt like an interesting project and
+lesson treasure trove so I wanted to share.
+
+I think this makes more sense to do as a video so I can actually show
+the programs as they run so check out the video at the end of this
+post.
+
+In the video I talk about controlling the cursor on the screen so that
+students can write programs like the ones I demo. That can be done in
+a number of ways. You could use a library like [[https://github.com/mabe02/lanterna][lanterna]] for Java or
+[[https://en.wikipedia.org/wiki/Curses_%2528programming_library%2529][curses]] or ncurses for C but you can also just use Ansi Escape
+codes. Basically you print out [[http://ascii-table.com/ansi-escape-sequences-vt-100.php][special escape squences]] to move the
+cursor, clear the screen and even set text and background colors. For
+example, to move the cursor to the middle of the screen and print
+*Hello* you would use this: ~System.out.print("^[[12;40HHello");~ The
+first ~^[~ is actually the ascii code for the escape character. I
+enter it in Emacs by typing Control-q then hitting the escape
+key. Other editors will have a way of doing the same.
+
+So here you go -- old BSD games. I hope you get as many ideas out of
+this as I did.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uyvh1Q9SLbE" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
