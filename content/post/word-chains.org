@@ -7,7 +7,7 @@ tags:
 - nltk
 categories:
 - CS 
-draft: true
+draft: false
 --- 
 
 At this point, we've done a fair amount of playing with text so it's
