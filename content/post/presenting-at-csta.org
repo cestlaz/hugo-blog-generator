@@ -1,0 +1,88 @@
+---
+title: Presenting At CSTA 2020
+date: 2019-11-26T13:05:45-04:00
+tags: 
+- community
+- CS Education
+categories: 
+- community
+draft: false
+--- 
+* Presenting at CSTA 2020
+I noticed a few tweets and posts from people announcing that they'd be
+presenting at CSTA2020 - the big computer science teachers conference
+held every July.
+
+A common thread in a few of these were trepidation's
+presenters. Excited to be doing this but nervous.
+
+It's interesting that teachers, myself included, sometimes get nervous
+before presentations even though we present every day as part of our
+jobs. I know it's different as we have the same kids every day but
+even day 1 jitters each semester aren't the same as the presentation
+anxiety that some of us face.
+
+I'm certainly not a super master seasoned presenter. I've done it a
+few times at CSTA and other venues and this year JonAlf and I will be
+running a GitHub workshop but I thought I'd share some words of
+encouragement anyway.
+
+** You're really just talking shop.
+
+Basically, you're a teacher talking about teaching and I think we all
+love to do that. 
+
+** It's an audience of friends
+
+CSTA is a conference primarily of teachers - our colleague.s Everyone
+coming to your session is already interested in your opinion and going
+in as a supportive audience. They *want* to hear from you.
+
+I'll go back to the previous point - you're basically talking shop
+with friends. 
+
+
+** CSTA still feels intimate
+
+In spite of its rapid growth, the CSTA conference still feels
+intimate. It's not a huge conference where you can attend a talk or
+meet someone at breakfast and never find them again. It's big enough
+so that you *can* avoid anyone you want to dodge but you can pretty
+much find time to spend with anyone you want to as well. This can turn
+your talk more into a starting point for a longer convesation - how
+cool is that.
+
+** Don't forget to enjoy it
+
+I used  to get really nervous when giving LARGE talks - we're talking
+to an audience of one or two thousand. I've only done that a few
+times. A couple of times at the New York Tech Meetup and once when I
+was the faculty graduation speaker at Stuy when my best friend was the
+guest speaker and my daughter was in the graduating class. 
+
+I was pretty nervous before I hit the stage at Stuy when a colleague
+gave me some great advice - "take the time to enjoy the moment." I
+remembered that just as I said above - I was about to talk to
+friends. Two thousand of them, but friends nonetheless. I was reminded
+to slow down and take it in. Enjoy the moment. I've tried to do that
+with any presentation I've given since. 
+
+
+
+** Final thoughts
+
+As  a final thought I'll leave you by paraphrasing something that I
+think was said by Pinchas Zuckerman - the world class violist and
+violinist (who I think also used to wear a shirt proclaiming "I
+vibrato when I play baroque - Deal with it!!!!!).
+
+He said that you should always be smiling when you're
+performing. Either your performance is going well and you're creating
+beautiful music or it's going horribly but it will be over soon. :-)
+
+
+Already looking forward to July.
+
+
+
+
