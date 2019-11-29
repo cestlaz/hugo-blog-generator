@@ -1,0 +1,64 @@
+---
+title: Advent Of Code 2019
+date: 2019-11-29T09:02:09-04:00
+tags: 
+- CS
+- coding
+- competition
+- problem solving
+- adventofcode
+categories: 
+- competitions
+draft: false
+--- 
+
+It's almost December which means it's almost time for [[http:/adventofcode.com][Advent of Code
+2019]]. Advent of code is an annual computer programming competition
+created and ruyn by [[https://twitter.com/ericwastl][Eric Wastl]]. It's been running since 2015. I've
+written about it before, mostly from a teacher's point of view ([[https://cestlaz.github.io/post/solve-a-to-solve-b/][Solve
+A to Solve B]], [[https://cestlaz.github.io/post/aoc-data-structures-hidden-complexity/][Data structures and Hidden Complexity]], [[https://cestlaz.github.io/posts/advent-2017-4-6/][Tools can shape
+how we think]] and a few others). 
+
+Basically, Eric releases one poblem a day at midnight from Dec 1
+through Dec 25. Each problem has two parts with a correct solution to
+part 1 unlocking part 2. Problems can be solved using any language as
+each challenge just requires you to enter the correct result rather
+than you submitting code. This allows you to use any language or even
+no language at all.
+
+In terms of difficulty, some problems are certainly doable by students
+in CS1 or even CS0. In fact, Eric takes great pains to keep from using
+CSSpeak so as to make the problems approachable even if you aren't a
+CS major or professional.
+
+If you're a CS Teacher you can find some great lesson and problem
+ideas here. If you're a student, they're great interview prep and will
+stretch your problem solving capabilities. If you're just a techie,
+they're just fun challenges. 
+
+There aren't any prizes so it's all just for the fun of it. You can
+also get help and see great discussions on the challenges over on the
+Advent of Code [[https://www.reddit.com/r/adventofcode/][subreddit]]. Lots of people also put their solutions up
+online. I've never finished but you can find a bunch of my old
+solutions up on [[https://github.com/zamansky?utf8=%25E2%259C%2593&tab=repositories&q=adve&type=&language=][GitHub]]. 
+
+Finally, you can get to the challenges from previous years by just
+adding the year to the url, that is:
+ - [[http://adventofcode/2019][http://adventofcode/2019]]
+ - [[http://adventofcode/2018]]
+ - [[http://adventofcode/2017]]
+ - [[http://adventofcode/2016]]
+ - [[http://adventofcode/2015]]
+
+
+
+
+Finally, here's a really interesting video by Eric on the whole AoC
+thing:
+
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/bS9882S0ZHs" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
