@@ -44,11 +44,11 @@ solutions up on [[https://github.com/zamansky?utf8=%25E2%259C%2593&tab=repositor
 
 Finally, you can get to the challenges from previous years by just
 adding the year to the url, that is:
- - [[http://adventofcode/2019][http://adventofcode/2019]]
- - [[http://adventofcode/2018]]
- - [[http://adventofcode/2017]]
- - [[http://adventofcode/2016]]
- - [[http://adventofcode/2015]]
+ - [[http://adventofcode/2019][http://adventofcode.com/2019]]
+ - [[http://adventofcode.com/2018]]
+ - [[http://adventofcode.com/2017]]
+ - [[http://adventofcode.com/2016]]
+ - [[http://adventofcode.com/2015]]
 
 
 
