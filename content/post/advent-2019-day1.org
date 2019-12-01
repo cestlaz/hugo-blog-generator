@@ -1,0 +1,173 @@
+---
+title: Advent of Code 2019 Day1
+date: 2019-12-01T14:23:35-04:00
+tags: 
+- Advent of Code
+- programming
+- CS
+categories: 
+- Advent of Code
+draft: false
+--- 
+
+Like most programming challenges, [[http://adventofcode.com][Advent of Code]] ramps out from
+easier, more accessible problems to harder, more complex ones. As
+such, a number of the early challenges are great problems for early CS
+students. 
+
+I thought that while I watched my NY Giants play valiantly in their
+attempt to get a high draft pick I'd talk about today's [[https://adventofcode.com/2019/day/1][challenge]]
+from a teacher's point of view.
+
+The summary of part one is that you have a list of inputs (masses of
+components) and for each one you have to perform a calculation (how
+much fuel is needed). The answer will be the sum of the fuels.
+
+The most challenging part of this for a beginner might be reading in
+the data but that's not too much of a challenge:
+
+#+BEGIN_SRC python 
+{{< highlight python >}}
+data = open("day01.dat").readlines()
+{{< /highlight >}}
+#+END_SRC
+
+Now we can calculate part1:
+
+#+BEGIN_SRC python :results output
+{{<highlight python >}}
+  data = open("day01.dat").readlines()
+
+  sum = 0
+  for mass in data:
+      sum = sum + int(mass)//3 - 2
+  print(sum)
+{{< /highlight >}}
+#+END_SRC
+
+Part 2 adds a twist. Now, you have to also consider the fuel needed
+for the fuel you've added. Basically, you have to calculate how much
+fuel you'll need for a given item and then how much fuel you'll need
+for that fuel. You repeat this until the amount of fuel you need is
+either 0 or negative. See [[https://adventofcode.com/2019/day/1][the challenge]] for more info on this. 
+
+This is our first "teaching moment." This is going to be messy to work
+into our part1 solution but if we had factored out the original fuel
+calculation we could probably reused it and maybe more of our
+solution:
+
+#+BEGIN_SRC python :results output
+{{<highlight python >}}
+  data = open("day01.dat").readlines()
+
+  def calc_fuel(mass):
+      return int(mass)//3 - 2
+
+  sum = 0
+  for mass in data:
+      sum = sum + calc_fuel(mass)
+  print(sum)
+{{</highlight>}}
+#+END_SRC
+
+
+Now we can just add an inner loop that repeatedly adds the fuel costs.
+
+#+BEGIN_SRC python :results output
+{{<highlight python >}}
+  data = open("day01.dat").readlines()
+
+  def calc_fuel(mass):
+      return int(mass)//3 - 2
+
+  sum = 0
+  for mass in data:
+      fuel = calc_fuel(mass)
+      while fuel > 0:
+          sum = sum + fuel
+          fuel =  calc_fuel(fuel)
+  print(sum)
+{{</highlight>}}
+#+END_SRC
+
+
+More "teachable moments." We have to change up variables in our fuel
+calculations (lines 8 and 11) and for a beginner, the loop within a
+loop can be somewhat muddled. It's more complex but it's doing
+something that *is* more complex. It's also good nested loop practice.
+
+For more advanced students, if they're familiar with list
+comprehensions you can really celan up part 1:
+
+#+BEGIN_SRC python :results output
+{{<highlight python >}}
+  data = open("day01.dat").readlines()
+  data = [int(x) for x in data] # convert to ints before starting
+
+  def calc_fuel(mass):
+      return mass//3 - 2
+
+  # part 1
+  part1 = sum([calc_fuel(x) for x in data])
+{{</highlight>}}
+#+END_SRC
+#+END_SRC
+
+but I think part 2 either stay's more or less as is.
+
+Personally, I wrote my solutions in Clojure:
+
+#+BEGIN_SRC clojure
+{{<highlight clojure >}}
+(ns day01
+  (:require [clojure.string :as string]
+            [utils :as u]))
+
+
+(def test-masses [12 14 1969 100756])
+
+;; load data
+(def masses (->>
+             (slurp "day01.dat")
+             string/split-lines
+             (map u/parse-int)
+             ))
+
+
+(defn calc-mass-part1 [mass]
+  (- (quot mass 3) 2))
+
+(defn part1 [masses]
+  "calculate fuel for each mass then sum them all"
+  (reduce + (map calc-mass-part1 masses)))
+
+
+
+(defn calc-mass-part2
+  ([mass] (calc-mass-part2 mass 0))
+  ([mass cost]
+   "Same as part 1 but loop to calculate fuel for the fuel"
+   (let [fuel (calc-mass-part1 mass)]
+     (if (<= fuel 0)
+       cost
+       (recur fuel (+ cost fuel))))))
+  
+(defn part2 [masses]
+  (reduce + (map calc-mass-part2 masses )))
+
+(defn main []
+(println (str "Part1: " (part1 masses)))
+(println (str "Part2: " (part2 masses)))
+)
+
+(main)
+{{</highlight>}}
+#+END_SRC
+
+So that's day 1. I don't know if I'll write up any more or, given my
+travel and work schedule for the week,if I'll even be able  to work
+on more problems until next weekend. 
+
+In any event. If you're teaching CS0 or CS1 students, you should
+really check out Advent of Code.
+
