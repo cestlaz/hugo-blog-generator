@@ -1,0 +1,170 @@
+---
+title: Advent 2019 Day 2
+date: 2019-12-02T17:11:43-04:00
+tags: 
+- Advent of Code
+- programming
+- CS
+categories: 
+- Advent of Code
+draft: false
+---
+
+[[https://adventofcode.com/2019/day/2][Day 2]] of Advent of Code 2019 was also pretty straightforward and once
+again I wrote [[https://github.com/zamansky/advent2019/blob/master/day02.clj][my solution]] in Clojure but in order to talk about this
+from a teacher's point of view, we'll look at a [[https://github.com/zamansky/advent2019/blob/master/day02.py][Python solution]]. 
+
+At its core, this is a simulation problem - read the data into an
+array or list and write a program to run through the steps. At first I
+was hoping that the solution would consume the data - that is, once
+you read past an instruction you don't go back to it. If it was, I was
+going to try to write some clever reduce. It wasn't. In this problem,
+any instruction could affect any part of the data set. This means you
+have to keep the entire data set in memory and preferably in a random
+access structure like an array. 
+
+Step 1 is to read in the data and convert it into a list of integers.
+#+BEGIN_SRC python
+{{< highlight python >}}
+data  = [ int(x) for x in open("day02.dat").read().split(",")]
+{{< /highlight >}}
+#+END_SRC
+
+If you don't know comprehensions you can just do something like this:
+
+#+BEGIN_SRC python
+{{< highlight python >}}
+  data = []
+  for item in open("day02.dat").read().split(","):
+      data.append(int(item))
+{{< /highlight >}}
+#+END_SRC
+
+Now we just have to run the simulation:
+
+#+BEGIN_SRC python
+{{< highlight pythonf "linenos=inline" >}}
+def run_program(program):
+    ip = 0
+    while True:
+        op = program[ip]
+        if op == 99:
+            break
+        a = program[ program[ip+1] ]
+        b = program[ program[ip+2] ]
+        dest = program[ip+3]
+        if op == 1:
+            program[dest] =  a + b
+        else:
+            program[dest] = a * b
+        ip = ip + 4
+    return program[0]
+
+def part1(program):
+    program[1]=12
+    program[2]=2
+    return run_program((program))
+{{< /highlight >}}
+#+END_SRC
+
+The most likely source of error here is forgetting to change the
+values in ~program[1]~ and ~program[2]~ in lines 18 and 19 as
+specified in the question. The other likely error is forgetting to do
+the two level indirection in lines 7 and 8. That is writing
+~program[ip+1]~ and ~program[ip+2]~ by mistake. Truth be told, I made
+both of these mistakes but I didn't find them to be "interesting"
+mistakes. 
+
+The interesting part of this program is part 2 where instead of
+setting ~program[1]~ to ~12~ and ~program[2]~ to ~2~ you have to try
+values between 0 and 99 inclusive for each entry until you find a
+specific answer. 
+
+This is a great platform to talk about memory. The problem refers to
+the values you put into ~program[1]~ as *nouns* and ~program[2]~ as
+*verbs*. The issue is that every time you run your program for a
+specific *noun verb* combination you change the array (list)
+representing your program. If you don't reset the array to its
+original contents before the next run, the next run will be working
+off of new values and therefore give you incorrect results. 
+
+This is a great platform for discussion. Students usually start with
+*pass by value* semantics so passing a list to a function and then
+having the list change can seem weird even though it can still be pass
+by value:
+
+#+BEGIN_SRC python
+{{< highlight python >}}
+  # bad example to follow
+  def change_list(l):
+      l[3] = 9999
+
+  l=[1,2,3,4,5,6,7]
+  change_list(l)
+  # changes l[3] to 9999
+{{< /highlight >}}
+#+END_SRC
+
+Here's a finished solution:
+
+#+BEGIN_SRC python
+{{< highlight python "linenos=inline" >}}
+data  = [ int(x) for x in open("day02.dat").read().split(",")]
+
+def run_program(program):
+    ip = 0
+    while True:
+        op = program[ip]
+        if op == 99:
+            break
+        a = program[ program[ip+1] ]
+        b = program[ program[ip+2] ]
+        dest = program[ip+3]
+        if op == 1:
+            program[dest] =  a + b
+        else:
+            program[dest] = a * b
+        ip = ip + 4
+    return program[0]
+
+def part1(data):
+    program = data[:]
+    program[1]=12
+    program[2]=2
+    return run_program((program))
+
+
+def part2(data):
+    results = []
+    for noun in range(100):
+        for verb in range(100):
+            program = data[:]
+            program[1] = noun
+            program[2] = verb
+            r = run_program(program)
+            results.append( (100*noun+verb, r))
+    ans = [ x for x in results if x[1]==19690720]
+    return ans
+    
+print(part1(data))
+print(part2(data))
+{{< /highlight >}}
+#+END_SRC
+
+Note that in line 30 we copy over the original data for each noun,verb
+combo. also note the list comprehension in line 35 to find the final
+answer. 
+
+One last potential error point is notice that we had to add the array
+copy in line 20. Otherwise part1 will change the data and if we run it
+before part2 we won't get the correct result.
+
+So there it is. Another nice problem and even though it's a
+straightforward problem, there's still some interesting meat to
+discuss with your students.
+
+Tomorrow, snowstorm notwithstanding, I'll be heading up to Albany for
+the remainder of the week so might not be able to get to day 3 and
+beyond until Friday so who knows if I'll post any more of these
+write ups.
+

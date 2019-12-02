@@ -1,5 +1,5 @@
 ---
-title: Advent of Code 2019 Day1
+title: Advent of Code 2019 Day 1
 date: 2019-12-01T14:23:35-04:00
 tags: 
 - Advent of Code
@@ -97,7 +97,7 @@ loop can be somewhat muddled. It's more complex but it's doing
 something that *is* more complex. It's also good nested loop practice.
 
 For more advanced students, if they're familiar with list
-comprehensions you can really celan up part 1:
+comprehensions you can really clean up part 1:
 
 #+BEGIN_SRC python :results output
 {{<highlight python >}}
