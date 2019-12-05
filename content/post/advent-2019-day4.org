@@ -1,0 +1,167 @@
+---
+title: Advent 2019 Day 4
+date: 2019-12-04T19:32:34-04:00
+tags: 
+- Advent of Code
+- programming
+- CS
+categories: 
+- Advent of Code
+draft: false
+---
+
+[[https://adventofcode.com/2019/day/4][Day 4]]. Most of the day was spent working on the NY State CS standards
+to I didn't figure to have much time to work on the
+problem. Fortunately, I was able to knock out part 1 before work
+started and part 2 was a quick adjustment when I got back to it at the
+start of lunch.
+
+Once again, it was a problem with a few interesting teacher side
+aspects.
+
+I only wrote a [[https://github.com/zamansky/advent2019/blob/master/day04.clj][Clojure solution]] today so that's what I'll use for my
+code examples.
+
+The gist was that you were going to use a 6 digit integer as a
+password but only  subset of the numbers between a start and end
+point. Only numbers in that range for which these two properties held:
+
+1. There were at least one repeated digit, that is 123445 is o since
+   we have two consecutive 4s but 124354 isn't
+2. The digits are increasing. That is, given any digit, the digit to
+   its right has either the same or a greater value.
+
+You had to find the number of "valid passwords."
+
+At first read this sounds like a math problem but it really
+isn't. Looking at the first constraint, if you convert the number to a
+string, looking to see that at least two consecutive characters are
+the same is pretty easy - it's just a simple loop. 
+
+It turns out that it's even easier using [[https://www.regular-expressions.info/][Regular Expressions]]. Regular
+expressions (regex) aren't usually an explicit part of a CS sequence
+but man are they useful. Basically they allow you to set up a pattern
+that will match text. Some examples:
+
+| pattern   | Description                             | Matches | doesn't match |
+|-----------+-----------------------------------------+---------+---------------|
+| aa[0-9]bb | Matches aa a digit than bb              | aa3bb   | ax3b, aacbb   |
+| a+bb[a-z] | one or more of a then two b then an a-z | aabbc   | aabcb         |
+
+
+You can use parentheses to form a "match group" and then use "\1" to
+match the group, so this regular expression:
+
+{{< highlight  regex>}}
+([0-9])\1
+{{< /highlight >}}
+
+will match two any substring with two of digits, adjacent. Many regex
+engines allow you to use *\d* instead of *[0-9]* as a shorthand for
+match a single digit.
+
+Here's the line that will take a list of potential passwords in a
+variable *passwords* and return a list that only containsn the
+passwords that meet the two consecutive of the same digit rule.
+
+
+{{< highlight clojure >}}
+(filter #(re-seq #"(\d)\1" %) passwords)
+{{< /highlight >}}
+
+I knew that Python has a *partition* function that would take a string
+with a potential password (I convert the number to a string before
+doing the regex test above). It would take a string "1245" and convert
+it into something like this *(1,2), (2,3), (3,4), (4,5)*. Here's the instruction:
+
+{{< highlight clojure >}}
+
+(map #(partition 2 1 %) passwords)
+
+{{< /highlight >}}
+
+Next we test each pair in the partition to see that the first value in
+the pair is less than or equal to the second one:
+
+{{< highlight clojure >}}
+(map #(every? (fn [ [a b]] (<= (int a) (int b))) %) passwrods)
+{{< /highlight >}}
+
+
+Pull out the ones where the above is true and count them:
+
+{{< highlight clojure >}}
+(count (filter true?))
+{{< /highlight >}}
+
+And that's part one.
+
+The Python equivalent would be easier to read for the non-lisper but
+the idea is the same and pretty straightforward. 
+
+What I like is that we just solved a number problem without math, just
+text processing.
+
+Part 2 is more of the same. This time we still need a pair of adjacent
+same digits but runs of 3 or more didn't count. Now, 122234 wouldn't
+be a valid password because the run is of 3 while 1222344 would
+because while the repeated 2s don't count the 4s would.
+
+Fortunately, this is just more text processing:
+
+  1) Check to make sure the sequence is increasing (as above)
+  
+  2) Remove all the sequences of 3 or more repeats. This can also be
+     xdone using a regular expression search and replace. In Clojure
+     it's:
+     {{< highlight clojure >}}
+     cleaned (string/replace s #"([0-9])\1\1+" "") 
+     {{< /highlight >}}
+     The [0-9]\1\1+ says match any sequence of 3 or more of the same
+     digit and we replace it with an empty string.
+  
+  3) If the remaining string has a pair of adjacent same digits (as
+    above) its a valid password.
+
+
+And that's it. Both parts solved as a text processing problem. What
+I love here is that it seems to be a numeric problem but it has a text
+based solution. Certainly something worth talking about.
+
+Another thing I thought about as a teacher but didn't pay attention to
+in my solution was efficiency. My range consisted of about 500,000
+values to check. Not huge enough to make a time difference but it's
+worth noting that there are only about 500 that fulfill the
+"increasing" requirement but almost 200,000 that have a double digit
+subsequence. 
+
+This means it could be more efficient to look for increasing first and
+throw away most of the data and then do the digit test. This type of
+ordering can be a big deal for other problems so could be worth
+discussing. 
+
+Another issue is pipelining. Are you looping over the entire (or even
+culled) data set over and over or can you take each number and put it
+through a sequence of tests and/or transformations - the pipeline
+could also lead to a more efficient solution.
+
+Lots of good teacher fodder.
+
+In closing I'll mention one last thought - not mine but rather a
+suggestion I found while perusing the Advent of Code subreddit after I
+had submitted my solutions 
+
+Someone noted that since a valid number has increasing digits, if
+digits appear more than once they *have* to be adjacent to each
+other. If they weren't they'd violate the increasing restriction. This
+means that you could solve this problem more numerically by:
+
+1. do the "increasing" test
+2. Find the sum of the counts of each digit value (0 through 9)
+3. Test to see if at least one digit appears twice.
+
+Based on tomorrows schedule I doubt I'll get to AoC day 5 but we'll
+see.
+
+
+
