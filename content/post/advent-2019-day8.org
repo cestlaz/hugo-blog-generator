@@ -66,7 +66,7 @@ For part 1, I wanted to have lists where each list was all the values
 of each pixel across the layers. This meant [[https://en.wikipedia.org/wiki/Transpose][transposing]] the matrix -
 tat is, if you look at the above list of lists as a matrix, switching
 the rows and columns. This was pretty easy to do in Clojure using
-~(apply mapv vector matrix)~ but it should be too hard in other
+~(apply mapv vector matrix)~ but it shouldn't be too hard in other
 languages.
 
 Next, we have to keep the first non-transparent color we see in each
