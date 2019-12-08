@@ -1,0 +1,102 @@
+---
+title: Advent 2019 Day - 8
+date: 2019-12-08T08:42:32-04:00
+tags: 
+- Advent of Code
+- programming
+- CS
+categories: 
+- Advent of Code
+draft: false
+--- 
+
+I spent most of last week up in Albany working on the NY State K12 CS
+Standards so fell a bit behind. I had to go back to complete [[https://adventofcode.com/2019/day/5][day 5]] but
+still haven't finished [[https://adventofcode.com/2019/day/7][day 7]] which builds on day 5 which in turn
+builds on [[https://adventofcode.com/2019/day/2][day 2]]. I might not get to finishing 7 for a while but it
+looks like a good chance to play with [[https://www.braveclojure.com/core-async/][core.async]] - Clojure's
+facilities for concurrency. I also want to write up [[https://adventofcode.com/2019/day/6][day 6]] but today
+let's look at [[https://adventofcode.com/2019/day/8][day 8]].
+
+Day 8 is image processing problem so it fits nicely into an APCS-A
+type class. You're given the height and width of the image and you're
+told that the image comes in layers. The input is a long string of
+digits. So, if you're told that the width is 5 and height is 3 you
+might get this as your input representing an image with 3 layers:
+
+
+{{< highlight text >}}
+100210120100120001102020112100000121002110102
+{{< /highlight >}}
+
+
+Adding commas and spaces:
+
+{{< highlight text >}}
+10021,01201,00120   00110,20201,12100   00012,10021,10102
+{{< /highlight >}}
+
+The first part of the task is to find the layer with the most 0s and
+return the number of 1s multiplied with the number of 2s.
+
+This is just a nice little data parsing problem. You have to break the
+input into ~width*height~ chunks, see which has the most zeros, count
+the ones and the twos and return the result. 
+
+Part 2 is where the image stuff comes in. We're told that a color
+value of 0 is black, 1 is white, and 2 is transparent. We're also told
+that the image's actual color is the first color it sees (black or
+white) when going through the layers. Depending on how you read in
+your data, this could be easy or hard. You have to scan down the
+layers and keep the first non-transparent color. 
+
+For part 1, I read my data into a list of lists where each item was a
+layer. I did this in Clojure, but the Python representation of the
+sample image above might look something like this:
+
+{{< highlight python >}}
+[ [1,0,0,2,1,0,1,2,0,1,0,0,1,2,0],
+  [0,0,1,1,0,2,0,2,0,1,1,2,1,0,0],
+  [0,0,0,1,2,1,0,0,2,1,1,0,1,0,2]]
+{{< /highlight >}}
+
+There was no reason to subdivide each layer into rows and columns.
+
+For part 1, I wanted to have lists where each list was all the values
+of each pixel across the layers. This meant [[https://en.wikipedia.org/wiki/Transpose][transposing]] the matrix -
+tat is, if you look at the above list of lists as a matrix, switching
+the rows and columns. This was pretty easy to do in Clojure using
+~(apply mapv vector matrix)~ but it should be too hard in other
+languages.
+
+Next, we have to keep the first non-transparent color we see in each
+list.
+
+The final fun part is then taking the colors and printing out the
+final image.
+
+Here's what I got:
+
+{{< highlight text >}}
+XXX  XXXX  XX   XX  X  X 
+X  X X    X  X X  X X X  
+X  X XXX  X    X  X XX   
+XXX  X    X    XXXX X X  
+X    X    X  X X  X X X  
+X    X     XX  X  X X  X 
+{{< /highlight >}}
+
+
+What's nice about this problem from a teacher's point of view? First,
+it's the puzzle aspect of finding the hidden text. Second, it's an
+image problem which in APCS-A usually means 2D arrays but you can also
+solve it without any 2D matrices. My solution involved a bunch of
+filtering of data and the matrix transpose. Both interesting concepts
+to bring to your classes.
+
+If you want to see my Clojure solution, you can find it [[https://github.com/zamansky/advent2019/blob/master/day08.clj][here]].
+
+
+
+
+
