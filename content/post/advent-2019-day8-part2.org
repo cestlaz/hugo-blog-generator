@@ -1,0 +1,74 @@
+--- 
+title: Advent 2019 Day 8 - addendum - generating inputs
+date: 2019-12-08T17:04:30-04:00
+tags: 
+- Advent of Code
+- programming
+- CS
+categories: 
+- Advent of Code
+draft: false
+---
+
+As I sad in my last post, [[https://adventofcode.com/2019/day/8][day 8]] would be a nice project or lesson in
+an APCS-A or college CS1 class. Another nice problem would be to
+write a program to generate an image in the format required by the
+question. Alternatively, a teacher doing day 8 with their classes
+might want to generate a bunch of images for the students to test
+their decoders on. 
+
+I thought I'd write one to see how appropriate it would be for the
+students. I tried to do it without anything fancy or advanced.
+
+To start, you'll need a way to generate the block text for the
+images. I found [[http://www.patorjk.com/software/taag/#p=display&f=Banner3&t=Hello][this]] site and used the *Banner3* font. I generated
+some text and saved it in a file. The important thing for our purposes
+is that any space will count as white and any character as black.
+
+The encoded image is a N * Width * Height sequence of digits  where
+each Width * Height sequence of digits represents one layer. See the
+[[https://adventofcode.com/2019/day/8][problem text]] for details.
+
+You can follow along with the code [[https://github.com/zamansky/advent2019/blob/master/day08-generator.py][here]]. 
+
+So, here's how the program works:
+
+The top 51 lines of the program consist of a routine which I'll
+describe later and code to handle command line argument (to set the
+number of layers).
+
+Then, on line 55 I erad  in the file with the source image (from stdin). 
+
+In line 57 through 63, I loop over the data and changed each non space
+or newline to a star character. I really don't have to do this but I
+wanted to see what the image looked like in just "black and white."
+
+Line 65 through 67 is where I split on the newlines. Now I could take
+the length of any line to get the image width and the number of lines
+the height.
+
+70 through 79 creates a long list for the image. At each location, I
+generate a list of values. Each list has one entry per layer. The
+actual pixel value (1 or 0) is stored at a random location. Everything
+before that is a random choice between the real color and transparent
+and everything after is just random. Details for that step are in the
+~genpixel~ routine.
+
+Finally, in 83 through 89 I loop over each layer and for each layer
+the image and and output all the values into a single string. 
+
+This is then output to stdout while the dimensions go to stderr.
+
+If I had a source image in a file named "hello.dat" I'd convert it to
+source input for day 8 by typing ~cat hello.dat | python3 day08-generator.py
+-l 10 > day08-input.dat~. This would create a 10 layer input.
+
+That's it. Once again, the code is all [[https://github.com/zamansky/advent2019/blob/master/day08-generator.py][here]]. It would make for another
+nice student assignment or for a teacher to prepare inputs for the
+class.
+
+Enjoy.
+
+
+
+
