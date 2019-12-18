@@ -1,0 +1,28 @@
+---
+title: Multi Stage Assignments - the good and the bad - Advent of Code
+date: 2019-12-12T17:19:27-04:00
+tags: 
+- Advent of Code
+- programming
+- CS
+categories: 
+- Advent of Code
+draft: true
+--- 
+
+In the real world you're usually not building your own projects from
+scratch. Much more frequently you're working on a team and you and
+other players come and go over time. 
+
+This is in stark contrast to most CS educational experiences where
+students typically complete relatively small assignments from
+beginning to end. One of my biggest fears way back when as I was about
+to graduate college was when I woke up one night in a cold sweath "oh
+crap - in a couple of weeks I'm going to have to actually produce good
+code. Not just code good enough to get by the grader."
+
+So, as a general rule,  having students build a project and then later
+extend it or, even better, having them extend another student's project
+can be a very good experience.
+
+
