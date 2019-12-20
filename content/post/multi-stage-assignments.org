@@ -7,7 +7,7 @@ tags:
 - CS
 categories: 
 - Advent of Code
-draft: true
+draft: false
 --- 
 
 In the real world you're usually not building your own projects from
@@ -23,6 +23,78 @@ code. Not just code good enough to get by the grader."
 
 So, as a general rule,  having students build a project and then later
 extend it or, even better, having them extend another student's project
-can be a very good experience.
+can be a very good experience. On the other hand, it can also be a
+very bad one.
+
+It's a great feeling when you leverage a previous project to create
+something new. On the other hand, there can be tremendous frustration
+if the original project forms a faulty foundation and you have to go
+back and rebuild and even then you're never 100% sure that you're
+building on a solid base.
+
+Building on a previous project has been big in this years [[http://adventofcode.com][Advent of
+Code]]. It started with [[https://adventofcode.com/2019/day/2][day 2]] when we were asked to write a simple
+computer that ran "intcode programs." Not a bad little challenge. It
+then returned in [[https://adventofcode.com/2019/day/5][day 5]] where we had to add a number of features to our
+intcode machines. This too was a nice assignment. It had to be built
+on a correct and complete day 2 solution but as far as I could tell,
+regardless of how you completed day 2 there was a straightforward way
+to extend it to integrate the requirements for day 5.
+
+Things got interesting in [[https://adventofcode.com/2019/day/7][day 7]] and this is where a teacher, or
+competition designer for that matter has to start being careful. Day 5
+had us modify and build on day 2 but day 7 had us *use* what we
+created in days 2 and 5. From a teacher who's building assignments
+point of view, this changes the equation. Day 2 and 5 had you build
+something that took some input and produced some output. Now, in day 7
+you had to do something on top of your intcode machine, feed it into
+it (or them as it turned out) and get an output. Depending on the
+assumptions you made in building your intcode machine you would either
+have an easy time with day 7 or you'd have to go back and redo day 2
+and/or 5 - much less fun. As part 2 of day 7 had us running multiple
+intcode machines "simultaneously," my set up didn't work. I still have
+to go back and finish that problem.
+
+Herein lies a big problem with multi part assignments. Unless you
+really lay out the parameters of the early assignment students can,
+and frequently will make assumptions you never dreamed of. Those
+assumptions can make their lives easier in parts 2 and beyond but it
+can also leave them with an impossible task. This on top of any
+student that doesn't finish the early version to begin with.
+
+Moving on, [[https://adventofcode.com/2019/day/9][day 9]] added some more features to the intcode machine and
+since then, days [[https://adventofcode.com/2019/day/11][11]], [[https://adventofcode.com/2019/day/13][13]], [[https://adventofcode.com/2019/day/15][15]], [[https://adventofcode.com/2019/day/17][17]], and [[https://adventofcode.com/2019/day/19][19]] have all used our intcode
+machine. I've had issues with my machine for days 11 and 13 and have
+to fix my intcode machine's input/output handling to finish those
+challenges but my machine worked well enough to complete days 15, 17,
+and 19.
+
+So, at the end of the day building on a previous project can be very
+cool and for a student very rewarding but it can also be really
+challenging. On top of the issue I've already talked about this can
+also leave students in a very uneasy state when extending a project by
+using it rather than building on it. Did they write the early parts
+fully correctly or just enough to get by the early test cases? It can
+be very unsettling to work on an uncertain foundation. What's more,
+while a teacher can even provide base code, this might only be useful
+to help check results as now having a student use provided code adds
+yet another challenge (albeit one that provides many useful lesosns).
+
+
+As to doing this in Advent of Code? I doubt [[https://twitter.com/ericwastl][Eric Wastl]] and the other
+organizers will read this but in case they do, this isn't a complaint
+about Advent of Code. I love the event and we can all quibble about
+details we like or don't like. Advent of Code also isn't a class with
+a grade and if I never finish, let's say, day 11, there are no
+consequences - unlike if a student doesn't finish part 2 of a graded
+project. 
+
+I'm writing this because I think there are some interesting parallels
+between creating an event like Advent of Code and designing projects
+and lessons for students and more interestingly , where those //s
+diverge.
+
+Now to get to grading. Hoping to get done to spend at least a few
+minutes on [[https://adventofcode.com/2019/day/20][day 20]]. 
 
 
