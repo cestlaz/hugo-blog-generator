@@ -1,0 +1,114 @@
+---
+title: Keeping Current Between Semesters
+date: 2019-12-27T11:56:23-04:00
+tags: 
+- tech
+- CS
+categories: 
+- tech
+draft: false
+---
+
+People say that one of the impossible problems for CS teachers is
+keeping current - they say the field is constantly changing, how can a
+teacher keep up with all the new things going on.
+
+Well, on the one hand it isn't true - most of the core of CS is the
+same. We still teach roughly the same programming constructs, data
+structures and algorithms. 
+
+On the other hand, it is true. When I was in college, OOP was just
+starting to pick up steam and now an established and one might argue,
+dominant paradigm. Functional programming has been around forever but
+is only recently making inroads into the mainstream. Some fields have
+radically changed. Just look at AI and related fields now that data is
+so abundant. I remember looking over a Natural Language Processing
+text in the mid 90s and it was all about programs with tons of if
+statements. A later edition read more like a statistics text book.
+
+Then there are the changing technologies - the web and how we program
+it, new languages, embedded systems are more accesible and much more.
+
+So the field both changes and stays the same.
+
+One of the ways I try to stay on top of things is with my own personal
+projects. We encourage our students to write side projects
+to scratch itches so why shouldn't we do the same.
+
+This might be taking a course like when I did the Stanford online AI
+and ML courses or it might be writing something like when I wanted to
+figure out that [[https://reactjs.org/][React]] thing that was all the rage a couple of years
+ago but ended up diving more deeply into  [[https://vuejs.org/][Vue.js]] as I felt it made
+more sense.
+
+Now that we're between semesters at Hunter I thought I'd scratch an
+itch related to [[https://classroom.github.com/classrooms][GitHub Classroom]]. I love the tool but it has two pain
+points. First, you end up accumulating a HUGE number of repositories
+(one per student per assignment) and deleting them is a bear of a
+task. The second is that while you can download all the submissions
+for a given assignment, there's no easy way to download all the
+assignments for a given student. There are also some issues mapping
+student names to GitHub accounts but I've pretty much worked that one
+out.
+
+So, I figured I'd spend some time this December and January learning
+some new technologies adn writing something to make those pain points
+go away.
+
+So, what will I be learning about?
+
+**** The GitHub API
+
+I've worked with APIs before and even messed around with [[https://developer.github.com/][GitHub's]]. The
+change is that their [[https://developer.github.com/v4/][latest]] version uses GraphQL which brings me to my
+first brand new technology:
+
+**** GraphQL
+
+[[https://graphql.org/][GraphQL]] is a query language developed by Facebook for APIs. In spite
+of the name, it has nothing to do with databases. The idea is instead
+of a bunch of random REST endpoints with every API call being
+different you have one endpoint. You put together a query describing
+what you want and the services responds with your content. 
+
+It looks pretty neat but we'll see.
+
+**** Reagent / Clojurescript
+
+The next thing I'll be playing with is [[https://clojurescript.org/][Clojurescript]] and [[https://reagent-project.github.io/][Reagent]]. I've
+been playing on and off with Clojure for a while ahd Clojurescript
+transpiles Clojure to Javascript instead of compiling for the
+JVM. I've  already made a few [[https://github.com/zamansky/clojure-life][small]] [[https://github.com/zamansky/clojure-breakout][projects]] [[https://github.com/zamansky/clojure-snake][using]] it and like it much
+better for the web than Javascript. [[https://www.learnreagent.com/][Reagent]] is essentially React for
+Clojurescript.
+
+
+***** Electron
+
+I thought for a while about doing this as a command line tool since
+that's how I usually work but decided that if I do finish it something
+GUI based might be useful to more people. I then considered a web
+applicaiton but realized that wouldn't do since there isn't a way to
+clone GitHub repos from a web application due to security issues. 
+
+I then briefly considered doing a Clojure based GUI which would
+basically be something like a Java Swing application but then decided
+to explore [[https://electronjs.org/][Electron]]. An Electron appication is essentially a locally
+run web application. You write it in a similar manner to a web app -
+HTML/CSS/JS or in my case Clojurescript but then it's run locally on a
+platfomr based on the open source Chromium browser. Since it's running
+locally it has access to the local filesystem and resources.
+
+I've already started to play with things and already learned a
+lot. Looking forward to coming out of this with a bunch of new
+technologies and tools in the toolbelt and maybe an application that
+will solve a couple of annoyances with what's overall a great product.
+
+
+
+
+
+
+
+
+
