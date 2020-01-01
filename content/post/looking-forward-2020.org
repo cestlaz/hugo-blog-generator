@@ -1,5 +1,5 @@
 ---
-title: What I'm looking foward to in 2020
+title: What I'm looking forward to in 2020
 date: 2020-01-01T12:45:44-04:00
 tags: 
 - misc
