@@ -1,0 +1,72 @@
+---
+title: What I'm looking foward to in 2020
+date: 2020-01-01T12:45:44-04:00
+tags: 
+- misc
+categories: 
+- misc
+draft: false
+--- 
+
+Happy new year to everyone.
+
+I've been reading some prediction posts this morning on blogs and
+social media. Big national and world level stuff. I've never been much
+for predictions so I thought I'd share some more local and personal
+things I'm looking forward to in the coming year.
+
+
+First a couple of big ones. 
+
+I'm just about to complete my fourth year at Hunter. Time really does
+fly. It's been a long road but late in 2019 NY State finally approved
+our CS Teacher Certification programs!!!!  That's big news. Some day
+I'll go into the frustrations and ridiculousness that caused a year
+plus delay but now that's all in the past and we're good to go. We've
+got a Masters program for aspiring teachers and a certificate program
+for teachers who are already licensed in another subject area.
+
+The plan is to run a summer intensive in July and have our first
+cohort through the program by the end of 2020. We have a real
+opportunity here to get ahead of things and build a group of certified
+master CS teachers in and for NYC. This can be relly big and is very
+exciting.
+
+The other big thing for me has to do with the other big initiative I
+started at Hunter - the Daedalus CS Scholars program. The program has
+been growing each year both in terms of students and in terms of
+programs and student opportunities. The exciting thing for me is that
+we're about to have our first graduates. The Daedalus program didn't
+exist four years ago and now it's a big part of Hunter CS and soon it
+will be sending graduates out into the world. I'm super happy and
+proud of what the students have done and continue to do.
+
+Both of these really excite me. When I started, I figured it would be
+about five years to get things running smoothly so to have both in
+existence in 4 is super cool. 
+
+Other things I'm looking forward to? I'll be giving a talk at SIGCSE2020
+in a couple of months on how to take your students from GitHub
+neophytes to pull request masters and then a full workshop version at
+CSTA2020. I'm stoked about going to both conferences and also to help
+Devorah once again run her  [[http://blanketstatementproject.com/][Blanket Statement]] project at CSTA.  If I can get the
+funding there are also a couple of other conferences I'd love to
+attend. 
+
+I also looked over the list of speakers for CSTA2020 (harder to
+navigate for SIGCSE) and am really  excited to see many friends
+present. Also noticed Mark Emry will be presenting and really hope to
+see Mark in person after something like over a dozen years.
+
+On the personal side of things, Batya moved into her own apartment
+just before the new year and Devorah's setting up Batya's room as a
+fiber studio so we'll have some adjustments on the home front but all
+good and all exciting.
+
+
+I'm sure there are other exciting things to come in 2020 but that's
+enough for now.
+
+
+
+
