@@ -1,0 +1,140 @@
+---
+title: Pushback To CS for All
+date: 2020-01-02T08:27:20-04:00
+tags: 
+- CS For All
+- Policy
+categories: 
+- CS For All
+draft: false
+--- 
+
+On the last day of 2019, [[https://twitter.com/audreywatters][Audrey Waters]] wrote a great piece on [[https://hackeducation.com/2019/12/31/what-a-shitshow][The 100
+Worst Ed-Tech Debacles of the Decade]]. I agree with most of them but
+felt it was worth looking at a one in particular. Specifically number 6 -
+"Everyone Should earn to Code."  I might dive in to some others later
+but we'll stick with number 6 for today.
+
+I read over these right after reading Alina Adam's two posts
+[[https://newyorkschooltalk.org/2019/12/what-is-computer-science-the-doe-doesnt-know-cs4all-part-2/][questioning NYC's CS For All initiative]]. 
+
+Audrey made some very good points on CS for All (or everyone should
+learn to code). It's industry driven - giving them more of an outsized
+influence over education and she questions the tech job crisis. I'll
+personally add that it's problematic that so much of the emphasis -
+particularly in the public schools is CS for jobs. I get it - a well
+paying job is a ticket up the economic ladder and this can be a huge
+deal for low income families. That said, it's problematic at best when
+the attitude is education for jobs for the poor and well rounded
+education for life for  the rich.
+
+While Audrey wrote on 100 items a few paragraphs each, Alina wrote two
+posts on CS for All in NYC and pushed back hard. One line that
+resonated with me was her response to the DOE's claim that " “Students
+with computer science degrees are some of the highest-paid college
+graduates”  responding with:
+
+#+begin_quote
+"You know what else is a very useful skill for jobs and graduating
+college? Reading comprehension and basic mathematics skills." 
+#+end_quote
+
+
+This was a sticking point with me that got me in trouble with DOE on
+the AFSE project. They insisted the high school would create industry
+ready software engineers our of high school in spite of them coming in
+well below grade level. They were wrong. CS is not a substitute for
+other important subjects. I personally do think CS for All is *very* 
+important and I'll address that shortly but I view it as one more
+fundamental - in addition to reading and writing not at the expense
+of.
+
+Now let me push back on the pushback.
+
+CS as a K12 academic discipline is very young. In NYC, things didn't
+really get rolling until [[https://twitter.com/fredwilson][Fred Wilson]] (from industry) started to push
+things around 10 years go. There were some other small efforts at individual
+schools and regions around the country. The national movement, in
+spite of the CSTA being in existence for twenty years or more  didn't
+gain any real traction until code.org came onto the scene - also driven by
+industry. While I agree very much with Audrey and other's concerns
+about industry's outsized influence and have publicly criticized
+code.org and others on it without Fred, CS Ed doesn't happen in NYC
+and without Hadi Partovi I'd guess that there wouldn't be the national
+push either.
+
+This is all to say that the field is young so addressing what I think
+are Alina's core points, depending on the teacher, a student's CS
+experience can be a total waste of time or it can be life changing in
+a good way. This is also true of other subject areas. A bad teacher
+can destroy a kid in any subject area as much as good one can
+uplift. This will be more of a problem in CS until the system starts
+to produce properly prepared teachers - teachers who know both the CS
+content and how to teach it. That will take some time and we're
+starting to do that at Hunter. On the other hand, we'll never get
+there unless we start. In the long run, CS teachers should be of
+comparable quality to teachers of other disciplines which is, of
+course, another can of worms to dig into.
+
+Putting that aside, I'll also push back on the pushback that teaching
+CS isn't valuable for everyone and I'll do that on two fronts. The
+first is in response to Alina's contention that "Computer science will
+have very few applications for most people later in life." While most
+people won't become professional programmers or software engineers
+many (most?) people will work with data. It could be some deep
+analysis or it could be merely managing company or personal
+contacts. A rudimentary background in programming allows one to
+automate data processing and focus on the core task. A much simpler
+example of this is typing when writing. If you can type, you can focus
+fully on the content you're producing. If you can't your focus is
+split - part on the content and part on the keys. 
+
+We teach a variety of subjects. We teach languages in spite of the
+fact that we don't require students learn them to fluency. Everyone
+has to take some classes in the arts, multiple sciences, economics,
+math - some of which makes sense and some maybe not so much, English
+and more. Is CS any less important than taking a smattering of French?
+How about Algebra 2 and Trig?  A year of bio, chem, and physics?
+Students should be exposed to many fields and I think it would be hard
+for an honest person to say that CS is less important that every
+single one of the other required classes we force upon our
+students.
+
+When students are struggling with fundamentals - math/English some
+want to put more resources into them - usually at the expense of the
+arts - there are many people, myself included that feel that this is a
+ *huge* mistake. All our students should be entitled to a well rounded
+education. They should take art and music, and have the opportunity to
+learn an instrument. They should be exposed to a myriad of subjects,
+ways of thinking, and yes, things that will lead to possible career
+paths. 
+
+CS is one of these subjects. It's just the new kid on the block. This is
+the other reason why CS for All (beyond "Eveveryone should program")
+is so important. It's not that CS should replace art or music or
+another important subject but that our students deserve to be exposed
+to it. 
+
+Some will quibble that there's no room but, at least in NY State
+there is - I looked over the requirements and in fact, you can have 3
+years of CS in High School along with all the requirements plus a
+couple of other electives but I'm not advocating for that. I'm also
+not sure that NY's plan to have CS at every "grade band" is the right
+way to go. I think that if you have the right experience you can do
+right by the kids in a one year, single period high school
+introduction to CS that includes programming (and I'm not talking
+APCS-P). 
+
+So, there it is. CS For All or programming for everyone might end up a
+debacle and NYC's CS For All might turn out to be a waste in spite of
+the hard work of many strong educators but if that's the case it's
+going to be due to implementation, politics, and influence not because
+all our students won't benefit from learning CS.
+
+
+
+
+
+
+
+
