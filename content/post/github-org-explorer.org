@@ -1,0 +1,65 @@
+---
+title: GitHub Org Explorer
+date: 2020-01-03T14:40:40-04:00
+tags: 
+- tools
+- github
+categories:
+- tools 
+draft: false
+--- 
+
+I'm a big fan of [[https://classroom.github.com][GitHub Classroom]] and use it for all of my class
+assignments. It's great for organizing, distributing, and collecting
+assignments and gets the kids used to using real world tools at the
+same time. I've written a bunch of posts on how I use it:
+
+- [[https://cestlaz.github.io/post/github-classroom/][How I use GitHub Classroom]]
+- [[https://cestlaz.github.io/post/communicating-with_students/][Communicating with Students - meybe GitHub to the rescue]]
+- [[https://cestlaz.github.io/posts/sigcse-2017-github-4/][GitHub as a tool for education]] (part of a 4 part series)
+
+As well as a couple of others.
+
+Since I like doing things on the command line I've been using GitHub's
+[[https://github.com/education/classroom-assistant][Classroom Assistant]] to download repos. It's a nice tool - I can
+download any or all repos for any given assignment at once.
+
+Still, this leaves me wanting in three areas. 
+
+First is roster integration. They have some rudimentary work done on
+this but it's not quite there yuet.
+
+Second is being able to download repos based on other criteria. For
+example, downloading all of the assignments from a single student.
+
+Third is deleting repos. GitHub Classroom uses GitHub organizations to
+store submissions. You get one per student (or group) per
+assignment. This gets really big really fast and it pollutes your
+GitHub account with lots of repos that, quite frankly, I don't want
+once the semesters done.
+
+If only there was a way to address this....
+
+Well, given that the good people at GitHub publish their [[https://developer.github.com/][APIs]] one can
+write their own applications to use with or integrate with GitHub. 
+
+I wrote a small app, still experimental but functional. It's an
+[[https://electronjs.org][Electron]] app (another thanks to GitHub) written in Clojurescript. I
+might write about creating it later but for now, I just wanted to
+share the app in case it's useful to anybody.
+
+Once you log in you can go to any of your GitHub organizations. Since
+GitHub Classrooms are based on organizations this will present you
+with all the repos for a given one. Then you can filter via regular
+expressions and then either export or delete them. For me it's the
+missing piece. I plan to add roster support some time in the future.
+
+If anyone's interested, here's the GitHub repo: [[ https://github.com/zamansky/github-org-explorer][https://github.com/zamansky/github-org-explorer]]
+
+And a short video walkthrough of how it works.
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/e-gNzuBG3mU" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
