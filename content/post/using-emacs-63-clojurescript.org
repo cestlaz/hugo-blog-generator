@@ -1,0 +1,52 @@
+---
+title: Using Emacs 63 ClojureScript
+date: 2020-01-09T08:11:52-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+I've been playing with ClojureScipt for my web projects recently and
+really like it. Much more fun than any of the JavaScript frameworks
+I've used. 
+
+Still, getting started was somewhat difficult due to the number of
+options in tooling and uneven documentation and learning resources.
+
+Here's a video that shows how I use Emacs for ClojureScript
+development but the focus of the video is on how to get started with
+ClojureScript and Emacs takes a back seat other than an example of my
+workflow.
+
+On the Clojurscript side I'm using [[https://shadow-cljs.org/][shadow-cljs]] which I like very much
+along with [[https://tailwindcss.com/][tailwindcss]] for styling. I also mention [[https://github.com/nvm-sh/nvm][NVM]] for managing
+node/npm etc. which you'll also need. 
+
+On the Emacs side you'll see a bit of [[https://github.com/clojure-emacs/cider][cider]] along with [[https://github.com/Fuco1/smartparens][smartparens]] and
+you can find my full config at https://github.com/zamansky/dot-emacs.
+
+I was thinking about also making the following ClojureScript videos if
+the communities find value in them and I have time:
+
+ 1. How to create reusable components like an input field with label.
+ 2. Creating a simple Electron app using shadow-cljs.
+ 3. Creating something with both  server side and client side.
+ 4. Also open to suggestions
+
+I don't pretend to be a cljs or webdev master so please let me know if
+I'm doing anything horribly wrong and let me know if you want more.
+
+
+Enjoy.
+
+
+
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/BZNJi5pP8fU" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>

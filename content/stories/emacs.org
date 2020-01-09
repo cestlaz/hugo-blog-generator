@@ -128,3 +128,4 @@ disable_comments = true
 ** [[/post/using-emacs-60-restclient][Video 60 - restclient]]
 ** [[/post/using-emacs-61-org-msg][Video 61 - org-msg]]
 ** [[/post/using-emacs-62-magit-forge][Video 62 - Magit Forge]]
+** [[/post/using-emacs-63-clojurescript][Video 63 - ClojureScript]]
