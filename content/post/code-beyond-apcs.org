@@ -1,0 +1,118 @@
+---
+title: APCS Statistics
+date: 2020-01-10T17:51:14-04:00
+tags: 
+- APCS
+- CSFroAll
+categories: 
+- APCS
+draft: true
+--- 
+
+
+Yesterday was, I think the fourth, To Code and Beyond conference hosted by
+[[https://twitter.com/diane_levitt][Diane Levitt]] at Cornell Technion. I might blog about a few of the
+talks but for today let's start with one.
+
+In spite of my anti College Board bias, I really enjoyed Barbara
+Ericson's talk on APCS statistics. Barbara's been breaking down the
+APCS numbers for years - how many took the exam(s), how many passed
+them. By state, gender, etc. It's all up on her [[https://cs4all.home.blog/][blog]].
+
+While Barb had earlier provided the data online, in her talk, she 
+did a great job drawing out and highlighting important and interesting
+points. 
+
+The TL;DR summary takeaways from the talk were:
+
+- There has been some progress.
+- We can do better.
+- We have to do better.
+- The numbers are sometimes so low that it wouldn't take much to do
+   better.
+- That isn't enough.
+
+One point of comparison that came up was that while the number of APCS
+exams is growing they still pale in comparison to the AP English and
+AP Calc numbers. This makes sense though. Calc is generally percieved
+as "the next math class" so students who finish precalc prior to
+senior year will normally move on to calc. Even more so now than in
+the past with more and more schools implementing a 4 year math
+requirement. AP English is also a special case since it basically
+replaces a regular English class so it might not even add anything to
+a students day depending on the workload of AP vs their school's
+regular English class.
+
+Personally, I don't care how many APCS exams are given but I'd love to
+see a quality year of CS Education required in high schools across the
+country.
+
+All of Barbara's analysis is based on the public data that the College
+Board releases. I got to thinking about all the factors we can't
+account for since the data either isn't released by the College Board
+or isn't available at all.
+
+First, the data is on the state level. How many states are small
+enough and homogeneous enough that we can treat them as a unit?
+Certainly not NY. I'd love to see the AP data broken down by NYC vs
+the rest of the state. It would also be great to be able to run stats
+that looked at school factors. All this data could be made available.
+
+If we had more data to play with we might learn or at least be able to
+explore some interesting things.
+
+Take APCS-P. In 2019 7553 exams were given in New York State with 5239
+passing. Now, it turns out that Brooklyn Tech decided to require
+APCS-P of all of its students. Tech has a population of over 6000 so
+figure about 1500 APCS-P tests or around 20% of the state. That's from
+JUST ONE SCHOOL!!!!!!  It's also a test school. Just about every Stuy
+student who takes APCS-A passes the exam so I'd guess the vast
+majority of Tech APCS-P test takers do the same. Take out 1500 passing
+exams and see what that does to the pass rate. Once again we have a
+HUGE influence by one school.
+
+I'm don't know if this means anything one way or another but it is
+interesting.
+
+Going further, it would be great to know how schools are making
+decisions as to what to offer and to whom. Is APCS-P required? Are the
+students in the class(es) required to take the exam? Required classes
+and requiring exams generally up the participation rates but lower pass
+rates. How much elective room do students have? The questions go on
+and on. I'm of the belief that two of the reasons for APCS-P's rapid
+growth and adoption are that it's low hanging fruit. Schools want to
+do some CS and this checks the box. Also, schools can move up in those
+BS school ratings by having their kids take more AP exams and having a
+relatively easy AP exam that can be passed by 9th and 10th graders is
+an easy way to build your reputation.
+
+Of course, the ratings game doesn't always serve students. I once
+heard a talk given by the principal of the highly lauded school
+P-Tech. He proudly proclaimed that in his previous school BETA (he was
+principal of the Bronx Engineering and Tech Academy prior to P-Tech)
+he took kids that came in far behind in math and they all passed the
+Honors APCS Calc exam. I later checked - BETA students took 228 AP exams
+during the year in question and only 10 passed. The principal parlayed
+these wonderful results into a much higher profile principalship of a
+school so highly regarded it was mentioned by name at a State of the
+Union address but I think it's horribly cruel to set students up to
+fail so. 
+
+Getting back to Barbara's talk - even with the limited granularity of
+the data provided by the college board we can learn some interesting
+things. Given the newness of APCS-P and in fact the newness of the CS
+For All push it will be years before we can really figure anything out
+but it's all food for thought. 
+
+Thanks to Barbara for continuing on what she described as "an unpaid
+job for life" as we're all the beneficiaries of her work.
+
+ 
+
+
+
+
+
+
+
+
