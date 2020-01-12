@@ -1,0 +1,35 @@
+---
+title: Clojurescript Components
+date: 2020-01-12T12:19:00-04:00
+tags: 
+- clojurescript
+- webdev
+- clojure
+categories:
+- clojure 
+draft: false
+--- 
+
+I got some positive feedback from my first Clojurescript [[https://cestlaz.github.io/post/using-emacs-63-clojurescript/][post and
+video]] so I thought I'd continue with the series.
+
+Here we'll continue to build a simple
+Clojurescript/Shadow-cljs/Reagent/Tailwindcss application by creating
+some reusable components. It's one of the things that make
+Clojurescript so nice for web development. 
+
+Here's a link to the GitHub repo with the code:
+[[https://github.com/zamansky/shadow-cljs-demo][https://github.com/zamansky/shadow-cljs-demo]]
+
+
+
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/_CTTbC6owS0" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
