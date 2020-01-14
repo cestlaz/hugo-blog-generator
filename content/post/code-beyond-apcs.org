@@ -6,7 +6,7 @@ tags:
 - CSFroAll
 categories: 
 - APCS
-draft: true
+draft: false
 --- 
 
 
