@@ -1,0 +1,83 @@
+---
+title: Teacher Centric Teaching
+date: 2020-01-14T08:27:09-04:00
+tags: 
+- pedagogy
+- teaching
+- education
+categories:
+- pedagogy 
+draft: false
+--- 
+
+Every few years the experts give us some new magic bullet, some new
+ +teaching fad+ research based pedagogical technique. Teachers are
+ trained in it, forced to use it - frequently as a one size fits
+ all. If we do, we're good teachers, if we don't we get the dreaded
+ ineffective on our annual ratings.
+
+I was reminded of this when reading [[https://twitter.com/guzdial][Mark Guzdial]]'s recent blog post on
+[[https://computinged.wordpress.com/2020/01/13/computing-education-lessons-learned-from-the-2010s-what-i-got-wrong/][things he got wrong]] in Computing Education. It's a really great
+post. Mark mentioned [[https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_education)][constructivism]] and it made me think of a few
+years ago when constructivism was all the rage. If you didn't set your
+class up for [[https://en.wikipedia.org/wiki/Discovery_learning][discovery learning]] all the time you were clearly a bad
+teacher. I'd sit on on CS PD sessions, listen to principals and
+supervisors talk about what they wanted to see in classes and on and
+on.
+
+If you weren't a constructivist educator you weren't a good educator.
+
+Of course a few years earlier it was something else.
+
+Back when I started it was cooperative learning and
+cooperative learning isn't just group work - you had to follow the
+formula. Each student in a group had a role, there were specific
+stages of work and everything had to be just so.
+
+There were other fads along the way. 
+
+If you were lucky and had a good supervisor you didn't have to worry
+about the fads, the research, the nonsense. You could focus on your
+development as a teacher. They might work with you on questioning, for
+instance - regardless of the flavor of the month, a teacher will ask
+questions and facilitate discussion and they will surely insulate you
+from whatever nonsense the bean counters want to see as long as you're
+doing right by your students. On the other hand, a bad supervisor
+would mean stressful set up observations.
+
+Even without Mark's post, I've been thinking about this a lot since
+we're about to launch our CS Teacher Certification programs at
+Hunter so I've been thinking about these fads from a teacher
+preparation point of view. 
+
+Many of these fads have some value - they're tools in the toolbelt to
+be used as needed. The problem is that supervisors, and in my
+experience, professional development and teacher preparation programs
+make teaching 100% about the student. While the student is in fact the
+customer and who's development is the goal of our work, you can't
+ignore other factors. Environment and resources are two of these other
+factors and a big one is the teachers individual strengths,
+weaknesses, and tendencies.
+
+Cooperative Learning never really worked for me - at least not whole
+hog. As a "Cooperative Learning teacher" I'd be meh at best. On the
+other hand, I've taken plays from the cooperative learning playbook
+and applied them as I've seen useful. Sometimes it didn't work,
+sometimes to great effect.
+
+As a teacher, I always took the advice of one of my early fencing
+mentors. I was receiving conflicting advice from multiple well
+respected coaches and more experienced fencers. My mentor said "listen
+to what they all have to say, think about it, figure out what best
+will work for you and do that."
+
+As to running my teacher prep programs, I'm going to do my best to
+make sure that we do recognize that teachers bring different things to
+the table and it will my job to help them maximize their
+effectiveness. This means that we can't blindly follow the favored
+teaching techniques du jour but rather we have to look at all sorts of
+methods and combine them with our teachers strengths, abilities, and
+tendencies, and their specific classroom situations.
+
+It should be fun.
+
