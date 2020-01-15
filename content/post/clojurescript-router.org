@@ -8,7 +8,6 @@ categories:
 - clojurescript 
 draft: false
 --- 
-
 In this video we'll look at creating a small router. 
 
 I originally looked at using one of the available libraries to set up
