@@ -1,0 +1,54 @@
+---
+title: Clojurescript - building a simple router
+date: 2020-01-15T09:37:17-04:00
+tags: 
+- clojurescript
+- webdev
+categories:
+- clojurescript 
+draft: false
+--- 
+
+In this video we'll look at creating a small router. 
+
+I originally looked at using one of the available libraries to set up
+routing. I considered [[https://github.com/metosin/reitit][reitit]] and [[https://github.com/juxt/bidi][bidi]] but in the end decided to figure
+out how to do it myself. 
+
+It turns out that whenever you change the hash part of a url -
+everything following a # at the end of a url you get a ~hashchange~
+event. You can handle that with
+
+{{< highlight clojure >}}
+ (.addEventListener js/window "hashchange" #(handleroutes routes %))
+{{< /highlight >}}
+
+where ~handleroutes~ is your function to actually handle the routes.
+
+You can then get the actual value of that last hash part of the url
+with:
+
+{{< highlight clojure >}}
+(.-location.hash js/window)
+{{< /highlight >}}
+
+Once you map that to whatever function you want you update the history
+and mount the new page:
+
+{{< highlight clojure >}}
+   (.history.replaceState js/window {} nil loc)
+   (mount newpage) 
+{{< /highlight >}}
+
+All the code is up on GitHub: [[https://github.com/zamansky/shadow-cljs-demo][https://github.com/zamansky/shadow-cljs-demo]]
+
+There are still things I need to figure out. Specifically, how can I
+route without the #. That is, I can do it, but the page reloads every
+time rather than just remounting the component I want. 
+
+The video goes through the entire process. Enjoy.
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/mbUHkfH6B9g" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
