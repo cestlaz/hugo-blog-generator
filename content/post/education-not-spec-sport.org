@@ -1,0 +1,65 @@
+---
+title: Education is not a spectator sport
+date: 2020-01-17T08:07:26-04:00
+tags: 
+- policy
+- education
+categories:
+- education 
+draft: false
+--- 
+
+As many of you know, the CS Education programs I designed here at
+Hunter were finally approved by NY State late last year. We're
+planning to get started this summer. I've received many questions
+about the program and will write up the details here sooner or later
+but one question I frequently get is "will it be offered online?" This
+is also something I've been asked more than once internal to Hunter.
+
+Some of these requests make sense - we're in the heart of NYC so
+someone out on Long Island or further afield upstate won't be able to
+take our courses in person. This is the advantage of online
+education. You can partake, or probably more often, consume it from
+anywhere. Leaving out completion rates, that makes things very
+attractive. Online is also very popular with bean counters. With it
+you can set up practically unlimited class sizes. Lots of potential
+profits. 
+
+On the other hand, is it better?
+
+While there are certainly many things you can learn online, is it the
+same? Some argue that if a professor is straight out lecturing you
+might as well watch the video. Probably true but is a dynamic
+professor lecturing online the same as in person?
+
+Is a recorded concert the same as attending live? What about a
+Broadway show? Sporting event?
+
+I'll listen to music at home, watch a ballgame or even a recording of
+a live show but it isn't the same. Even when presenter-audience
+interaction and audience-audience interaction is at a minimum - say a
+classical concert, the live experience is both different, superior,
+and more memorable than the memorex.
+
+Now, there's certainly value added by augmenting classes with online
+content but all too often it's used for cost cutting or profit
+making. See [[https://dianeravitch.net/2019/07/18/oklahoma-legislator-questions-why-state-is-giving-millions-to-virtual-charter-school/][Virtual]] or [[https://dianeravitch.net/2019/08/14/ohio-gets-another-virtual-charter-school/][Cyber]] Charter schools for details.
+
+At the end of the day education is not a spectator sport.
+
+ It's built on the relationship between student, teacher, and
+classmates. You can get some of that online and online is great when
+there are truly no other alternatives. If we can ever figure out
+[[https://cestlaz.github.io/post/communicating-with_students/][online engagement]], then technology will be even better at augmenting
+(not replacing) good, live instruction. I'm certainly going to look
+into offering parts of my classes remotely specifically for people
+outside of NY City but we're a long way from remote education being
+even close to as good as in person.
+
+
+
+
+
+
+
+
