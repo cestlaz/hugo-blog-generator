@@ -129,3 +129,4 @@ disable_comments = true
 ** [[/post/using-emacs-61-org-msg][Video 61 - org-msg]]
 ** [[/post/using-emacs-62-magit-forge][Video 62 - Magit Forge]]
 ** [[/post/using-emacs-63-clojurescript][Video 63 - ClojureScript]]
+** [[/post/using-emacs-64-notmuch][Video 64 - Notmuch]]

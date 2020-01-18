@@ -1,0 +1,76 @@
+---
+title: Using Emacs 64 - Notmuch
+date: 2020-01-18T08:52:01-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+I've been using the gmail web interface for a long time. My first
+email or at least the oldest one still in the system dates back to Oct
+18, 2004 7:29am. It was a letter to a buddy about an indoor turkey
+fryer and if he needed a lift to Fairway the following morning to
+shop.
+
+Before that, I used my [[http://panix.com][Panix]] shell account - probably with [[https://en.wikipedia.org/wiki/Pine_%2528email_client%2529][PINE]]. Work
+email was using my own servers at Stuy along with either PINE or Emacs
+using VM mode which has long been deprecated.
+
+I haven't bitten the bullet and left gmail yet but I thought it was
+time to move my personal email over to an Emacs client. I currently
+use [[https://www.djcbsoftware.nl/code/mu/][MU4E]] and am pretty happy with it but figured I'd give another
+contender a try - [[https://notmuchmail.org/][Notmuch]]. Both rely on some other backend to pull
+email form an imap server. I'm currently using mbsync. I'm not
+thrilled with it but then, I'm not thrilled with offlineimap which is,
+as best I can figure the only other alternative.
+
+In the video I'll show a bit about notmuch and how it comapres to
+mu4e. Both are nice packages and I'd love one email client that
+combined the best of both and maybe added a bit more shine.
+
+At their cores, both mu4e and notmuch are built on top of [[https://xapian.org/][xapain]] and
+leverage search to manage your emails. Here are a few of the key
+differences:
+
+** Mu4e
+- Folder based
+- Easier to handle separate email accounts (and keep them separate)
+- Better org-mode integration
+- Automatically calls your IMAP sync program
+- Changes things on the server (moves, deletes etc.)
+
+** Notmuch
+- Tags based
+- Doesn't touch or change anything on the serer (doesn't delete or
+  move things there, just tags locally)
+- Combines multiple accounts to appear as one
+ 
+
+Both have a nice search based interface.
+
+Right now, the fact that notmuch doesn't seamlessly delete emails
+from the server might be a deal breaker for me. I have a limited quota
+at Hunter so I really do have to watch the overall amount of storage I
+use.
+
+For now, I'm going to start pulling down my email and seeing how I
+like mu4e for all my email needs. I'll probably play a bit more with
+notmuch as well and who knows....
+
+
+Here's my post and video on setting up and using mu4e:
+
+https://cestlaz.github.io/posts/using-emacs-39-mu4e/
+
+
+And here's the current one on notmuch:
+
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/GlrsoIwJ-UM" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
