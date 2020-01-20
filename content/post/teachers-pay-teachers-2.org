@@ -1,5 +1,5 @@
 ---
-title: Teachers Pay Teachers - part 2
+title: Teachers Pay Teachers - part 2 - the report
 date: 2020-01-20T10:03:27-04:00
 tags: 
 - policy
@@ -10,32 +10,102 @@ categories:
 draft: true
 --- 
 
-https://www.govtech.com/computing/Report-Most-Teacher-Created-Online-English-Materials-Subpar.html
+
+Continuing from yesterday, what about the [[https://www.govtech.com/computing/Report-Most-Teacher-Created-Online-English-Materials-Subpar.html][article]] and [[https://fordhaminstitute.org/national/research/supplemental-curriculum-bazaar][report]] on pay
+and free teacher resources.
+
+The report looked at three sources - one pay and two free. They came
+up with a number of results but I think they largely missed the point.
+
+Their bottom line conclusion was that 'Overall, reviewers rate most
+of the materials as “mediocre” or “probably not worth using”.' They
+also didn't seem to find that neither the for profit or free sources
+were universally better.
+
+The one thing I can agree with though is that a consistent rating
+system for the types of resources found on these sites would be very
+helpful.
+
+I think the main problem with the report has to do with what they were
+looking for. They concluded things like the resources didn't line up
+well with standards, didn't have good assessments, didn't address
+cultural diversity and a few other "didn't dos,"  As I said, I think they
+missed the point.
+
+It felt to me that the reviewers were looking for rote
+experiences. Download a lesson and follow the script.
+
+In spite of what reformers would have you think, this isn't
+teaching. A teacher new to a class might start with a well worked out
+curriculum and largely follow it verbatim but as they develop their
+chops they'll want the curriculum and all related materials to become
+their own.
+
+A downloaded resource, taken as is, will likely not address a specific
+classes cultural diversity, at least not more than in the general
+sense because it was designed for the authors class and that's a good
+thing. It's up to the person doing the downloading to take the
+resource and then adapt it for their students in their situation. This
+is why most of the items that the report considers bad to me are both
+inevitable and fine. There is no universal lesson that you can cut and
+paste to all schools. To expect it is rubbish.
 
 
+On the CS side, there's a good amount of sharing of materials as well
+as providers well, providing content. Some is free some not but there
+is a lot available. Forgetting about whole curricula resources, three
+lesson / experience sites  I'm
+reasonably familiar with are the SIGCSE [[http://nifty.stanford.edu/][Nifty Assignments]] and now the
+CSTA's [[https://sites.google.com/site/cstaniftyassignments/][corresponding project]] along with [[https://www.engage-csedu.org/][Engage CS]].
 
-https://fordhaminstitute.org/national/research/supplemental-curriculum-bazaar
+The biggest problem with the Nifty sites is that they're arranged
+chronologically by the conference year they were presented. There are
+no tags nor easy way to search.  Engage CS gives you some level of
+searching like for course level, keyword, resource type, and more.
 
-Now, to the report. I read over the executive summary and skimmed the
-report.  To quote it 'Overall, reviewers rate most of the materials as
-“mediocre” or “probably not worth using”.' The report also didn't seem
-to show that either the private or public resources were consistently
-superior.
+Both sites claim to have their own format that's common to all
+submissions but that's really not the case. They'll all have the same
+sections but the way each section is written up is up to the author.
 
-Going further the report talks about the materials shortcomings in
-terms of standards alignment, culteral diversity, assessments and a
-handful of other buzzword items. 
+To me, that's not a problem. Each resource was written by some
+educator with the intent of sharing but since each author is unique so
+to will be the content they produce. 
 
-The one thing I'll agree on between the article and report is when
-they say that all of these resources "need a consolidated rating
-system akin to Rotten Tomatoes."  Beyond that, I think both the
-article and report are of little value. 
+The real value of all these resources are to get ideas - lesson
+motivations, code samples, project ideas etc.. Sure, I wish they were
+more discoverable via search - better tagged and yes, even better
+rated but the value is from reading what some other teacher has done
+and then pulling out aspects that can work for you.
 
-In the CS Educatio space there's a good amount of sharing of materials
-as well as providers well, providing content. Some is free some not
-but there is a lot available. 
+I've rarely used a Nifty Assignment nor something from EngageCS
+explicitly but I have gotten value from both sites (CSTA Nifty
+assignments are newer and I've been at all the CSTA sessions so
+haven't actually used the site). 
+
+Would I ever use a resources "as published?" Perhaps - if
+it was really well aligned with how I do things. 
+
+Would I pay? Probably not. I'm not against paying for resources from a
+philosophical point of view. Charge a fair price and give a reasonable
+assurance that what you're selling has value and provide some value
+beyond the free sites. I haven't used Teachers Pay Teachers and
+probably won't look at Amazon's thing when it's launched but to me,
+they would have to bring value in terms of curation and search. If
+they do at a fair price, then they may be worth using.
+
+When I started teaching there was no public internet. None of this
+existed. Teachers kept binders or books of lesson plans and if you
+were lucky you could borrow from a friend or colleague. New York's DOE
+at one point had a few teachers in each subject area submit lesson
+plans for "lesson books" which they published for each core
+subject. My chairman wrote some of the math ones and those materials
+largely got me through my first year. 
+
+Today we have an embarrassment of riches. That comes with the price
+that we have to actually read and evaluate all of the materials we're
+presented with but I'll take today's resources over what I started with
+any day.
 
 
-https://www.ncwit.org/project/engagecsedu
 
 
