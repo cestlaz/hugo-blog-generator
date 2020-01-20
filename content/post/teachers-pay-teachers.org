@@ -6,7 +6,7 @@ tags:
 - teaching
 - curriculum
 categories: 
-- teachiung
+- teaching
 draft: false
 --- 
 

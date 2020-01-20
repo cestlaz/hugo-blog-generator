@@ -6,12 +6,15 @@ tags:
 - teaching
 - curriculum
 categories: 
-- teachiung
+- teaching
 draft: true
 --- 
 
+https://www.govtech.com/computing/Report-Most-Teacher-Created-Online-English-Materials-Subpar.html
 
 
+
+https://fordhaminstitute.org/national/research/supplemental-curriculum-bazaar
 
 Now, to the report. I read over the executive summary and skimmed the
 report.  To quote it 'Overall, reviewers rate most of the materials as
