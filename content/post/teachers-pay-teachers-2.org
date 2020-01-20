@@ -1,0 +1,38 @@
+---
+title: Teachers Pay Teachers - part 2
+date: 2020-01-20T10:03:27-04:00
+tags: 
+- policy
+- teaching
+- curriculum
+categories: 
+- teachiung
+draft: true
+--- 
+
+
+
+
+Now, to the report. I read over the executive summary and skimmed the
+report.  To quote it 'Overall, reviewers rate most of the materials as
+“mediocre” or “probably not worth using”.' The report also didn't seem
+to show that either the private or public resources were consistently
+superior.
+
+Going further the report talks about the materials shortcomings in
+terms of standards alignment, culteral diversity, assessments and a
+handful of other buzzword items. 
+
+The one thing I'll agree on between the article and report is when
+they say that all of these resources "need a consolidated rating
+system akin to Rotten Tomatoes."  Beyond that, I think both the
+article and report are of little value. 
+
+In the CS Educatio space there's a good amount of sharing of materials
+as well as providers well, providing content. Some is free some not
+but there is a lot available. 
+
+
+https://www.ncwit.org/project/engagecsedu
+
+

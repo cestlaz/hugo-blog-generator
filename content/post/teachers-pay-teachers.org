@@ -1,0 +1,59 @@
+---
+title: Teachers Pay Teachers  - part 1 - should they
+date: 2020-01-20T08:43:37-04:00
+tags: 
+- policy
+- teaching
+- curriculum
+categories: 
+- teachiung
+draft: false
+--- 
+
+There was a bit of buzz a couple of months ago when Amazon announced
+an online marketplace for educational resources. It wasn't a new
+concept - on the pay side, [[https://www.teacherspayteachers.com/?msclkid=a426c2c1625613061bc19ce4cdcb6a0a&utm_source=bing&utm_medium=cpc&utm_campaign=Search%2520-%2520Branded%2520-%2520Desktop&utm_term=teachers%2520pay%2520teachers&utm_content=Brand%2520Name][Teachers Pay Teachers]] has been around for a
+while and in terms of free, there are many online resources but
+they're not necessarily well organized or curated. What was the buzz?
+Should teachers be charging their peers for class materials or should
+they be providing them for free.
+
+I was going to blog about it then but never got around to it The other
+day, someone posted [[https://www.govtech.com/computing/Report-Most-Teacher-Created-Online-English-Materials-Subpar.html][this]] article which questioned the quality of both
+free resources and pay ones. The article, based on [[https://fordhaminstitute.org/national/research/supplemental-curriculum-bazaar][this report]] by the
+Fordham Institute looked at ELA resources. The report also only looked
+at Teachers Pay Teachers and two free sites - ReadWriteThink and Share
+My Lesson excluding many other teacher resources that could be, for
+all we know, better curated and more discoverable. As an aside, I was
+turned off by the reports referring to their evaluators as "experts"
+which is a description I personally would question. Still, there's
+some good fodder for thought.
+
+I'll get to the report in the next post but for now let's tackle the
+question that started the initial buzz - should teachers be charging
+each other for materials?
+
+It depends. If you're paid by a school to develop materials they
+belong to the school. In NY you can take a sabbatical to build a
+course so anything you build during that time would be DOE property
+and therefore you couldn't sell it. Same thing if you're being paid
+off hours to develop materials. The gray area comes when you're lesson
+planning. Most real planning and development happens outside of
+school hours. In an typical school day teacher are typically
+allocated around 40 minutes to do all their planing, grading,
+and paperwork so realistically most materials as well as planing,
+paperwork, and grading are done off hours. This being the case, I'm of
+the belief that those materials belong to the teacher (although I've
+met some DOE educrats who would disagree).
+
+So, should they sell it? Well, they have every right to. That said, my
+personal feelings and practice is that if you've developed something
+for yourself and have not spent extra time or effort to prepare it for
+others then I think you should make it freely available to your
+peers. On the other hand, if you spend extra time and effort to make
+it useful for and usable by others then by all means charge if you'd
+like.
+
+I'll tackle the report in the next post and we'll look at some of the
+resources available on the CS side.
+
