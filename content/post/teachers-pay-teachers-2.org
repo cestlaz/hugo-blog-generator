@@ -7,7 +7,7 @@ tags:
 - curriculum
 categories: 
 - teaching
-draft: true
+draft: false
 --- 
 
 
@@ -35,7 +35,7 @@ missed the point.
 It felt to me that the reviewers were looking for rote
 experiences. Download a lesson and follow the script.
 
-In spite of what reformers would have you think, this isn't
+In spite of what reformers would have you think, that isn't
 teaching. A teacher new to a class might start with a well worked out
 curriculum and largely follow it verbatim but as they develop their
 chops they'll want the curriculum and all related materials to become
@@ -63,9 +63,9 @@ chronologically by the conference year they were presented. There are
 no tags nor easy way to search.  Engage CS gives you some level of
 searching like for course level, keyword, resource type, and more.
 
-Both sites claim to have their own format that's common to all
-submissions but that's really not the case. They'll all have the same
-sections but the way each section is written up is up to the author.
+The sites present resources in a format that's superficially
+ consistent but the truth is, once you get past the headings they can
+ be written up in radically different ways.
 
 To me, that's not a problem. Each resource was written by some
 educator with the intent of sharing but since each author is unique so
