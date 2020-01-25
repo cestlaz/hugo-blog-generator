@@ -1,4 +1,4 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:cestlaz/cestlaz.github.io.git
+	url = https://github.com/cestlaz/cestlaz.github.io
 	branch = master
