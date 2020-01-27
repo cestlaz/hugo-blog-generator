@@ -1,0 +1,28 @@
+---
+title: Sorting By Hand
+date: 2020-01-26T13:10:47-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+Natan commenting on work the  other day:
+
+<blockquote>
+
+"You have two lists. One is sorted, the other is not. Every item in
+one list corresponds to an item in the other. Is it faster to sort the
+unsorted list and then merge them, or simply go through the unsorted
+list in order and pair each item with the item you can find in the
+presorted list?" is a question I asked today in the dressing room of
+an off-Broadway theater. I've used RegEx at my job before, but I never
+thought Big O notation would become relevant!
+
+Let this be submitted as evidence that a computer science education is
+valuable no matter what field you go into. That, or I'm just a
+particular kind of crazy.
+</blockquote>
+
+There's clearly an unplugged activity here :-)
+
+
