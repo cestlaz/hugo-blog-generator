@@ -1,10 +1,18 @@
 ---
-title: Sorting By Hand
+title: Sorting by hand or searching and inserting
 date: 2020-01-26T13:10:47-04:00
 tags: 
+- unplugged
+- algorithms
 categories: 
-draft: true
+- unplugged
+draft: false
 --- 
+
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 
 Natan commenting on work the  other day:
 
@@ -23,6 +31,64 @@ valuable no matter what field you go into. That, or I'm just a
 particular kind of crazy.
 </blockquote>
 
+
 There's clearly an unplugged activity here :-)
 
+As a programming exercise, it's pretty easy to analyze. Since one list
+is sorted, you can use a binary search for each insertion. That's \( n \)
+searches of \(lgn\) each yields an \( nlogn \)  run time. Of course,
+if the sorted list is an array and you have to shift all the elements
+down in linear time for each insert, that changes things.
+
+Sorting first is also \(nlogn\). Use an \(nlogn\) sort and then merge
+the two lists which is linear. Here though, you will also either have
+to ultimately do the shifting for insertions or use extra space by
+making an new array or list for the two merged sets.
+
+The interesting discussion points here are the issues like in place
+vs not and the extra time needed for the shifts.
+
+Unplugged though allows for even richer discussion.
+
+Having humans step through computer algorithms can be popular
+activities at times and they can also be very instructive but as
+humans, we're not optimized the same ways computers are. While we
+might perform some tasks using set algorithms and those algorithms
+might be the same as on a computer, more often than not, they're
+different - at least at a higher thought level.
+
+Let's take the insertion solution to our problem. Code wise, we'd use
+a binary search. Humans however don't use binary search. If we did, it
+would actually be pretty inefficient.  We'd have to locate the exact
+middle which would probably require specific counting and already
+we've used linear time. Even if we guessed the first middle correctly,
+each additional split would require we find a new middle and again,
+realistically, each time we'd count - more linear components.
+
+In reality, we'd probably use a guided type search. The specific
+problem involved inserting letters from an unsorted pile into
+envelopes in a sorted pile so we'd jump down in the envelope pile by a
+guess amount based on the letter we're looking for - Last name Tucker,
+we'd jump close to the end. For Davis, near the front. If we ended up
+far off, we'd jump again, if not, we'd rifle through one by one for
+the insertion point. There are similarities to a binary search but
+it's a very different algorithm. We couldn't easily code up our guided
+search as we have an intuitive instant ability to decide where to jump
+to and when to jump but on the other hand we're slower if we use the
+proven \(logn\) binary search.
+
+Sorting is similar. On the computer we'd probably use our langauges
+built in sort which would be \(nlogn\). By hand, we'd probably use
+some sort of bucket sort with merging in the individual piles. Even if
+we were sorting continuous values as opposed to discrete ones like
+names, we'd probably use buckets. 
+
+All of this can lead to very rich discussion - how we do things vs how
+the computer does and even more, how we decide how to do things. Maybe
+with a small data set we don't even do a bucket sort but more of an
+insertion or selection type sort. How do we decide what our jumps our
+when we're searching by hand or our bucket demarcations when sorting?
+
+Lots of good stuff here, all because somebody at Natan's job forgot to
+sort the letters before they printed them out.
 
