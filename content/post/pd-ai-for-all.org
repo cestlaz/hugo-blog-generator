@@ -1,0 +1,58 @@
+---
+title: AI For All
+date: 2020-01-31T07:00:01-04:00
+tags: 
+- AI
+- CS
+categories: 
+- AI
+draft: false
+--- 
+
+Yesterday we had another Professional Development Workshop for High
+School CS Teachers and as usual, I wnat to express my thanks to
+[[digitalocean.com][Digital Ocean]] for continuing to provide space, food, and great overall support.
+
+This time though, instead of JonAlf and I having
+to run the show we had a guest speaker. We were joined by [[https://twitter.com/SarahEJudd][Sarah Judd]]
+of [[http://ai-4-all.org/about/what-is-ai/][AI4ALL]]. 
+
+Sarah gave an overview of what AI4ALL was up to and why but the core
+of her presentation was taking us through some of the exercises 
+they have been developing at AI4All. Specifically, they're developing
+what they call [[http://ai-4-all.org/open-learning/][AI4All Open Learning]] which consists of curricular
+materials aimed at high school students. 
+
+As we only had a short time, Sarah took us on a whirlwind tour of what
+they're building from the baseline concepts of AI that she feels (and
+I agree) that every students should know up to specific AI topics like
+neural nets. Obviously you can't cover even a single course in one
+evening professional development session but Sarah did a great job
+giving both a taste and an overview.
+
+The activities were all engaging and and covered both ethical/societal
+issues as well as the technical/CS. I appreciated that the materials weren't
+presented as canned experiences but rather tools that a teacher would
+use to deliver their own experiences. On the other hand I'm skeptical
+of the website's claims of "No AI or computer science experience
+necessary." I'm a firm believer that a CS teacher must know both CS
+and how to teach it - maybe not at first due to necessity, but
+ultimately. Regardless, Sarah has both real teaching experience and CS
+knowledge and I put more faith in what she's saying than a PR blurb on a
+web site. 
+
+
+Now you'll notice I haven't said anything specific about Sarah's
+presentation or AI4All and that's because Sarah will be giving a
+variation of it at SIGCSE in March. If you teach high school and are
+going to be at SIGCSE, I highly recommend you check out her session.
+
+If not, perhaps I'll blog more specifics after the event.
+
+
+
+
+
+
+
+
