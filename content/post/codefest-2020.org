@@ -16,14 +16,6 @@ and getting feedback from and networking with tech professionals.
 Enter Hunter Codefest 2020
 
 <style>
-.row {Having seen what
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
 .flip {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -33,10 +25,8 @@ Enter Hunter Codefest 2020
 }
 </style>
 
-<div class="row">
-{{< figure class="z_image_left flip" width="30%" src="/img/codefest2020/codefest.jpg">}}
-{{< figure class="z_image_right flip" width="30%" src="/img/codefest2020/google.jpg">}}
-</div>
+{{< figure class="z_image_left flip" width="50%" src="/img/codefest2020/codefest.jpg">}}
+{{< figure class="z_image_right flip" width="50%" src="/img/codefest2020/google.jpg">}}
 
 
 
