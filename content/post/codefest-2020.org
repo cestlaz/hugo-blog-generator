@@ -1,5 +1,5 @@
 ---
-title: Codefest 2020
+title: Hunter Codefest 2020
 date: 2020-02-01T13:41:03-04:00
 tags: 
 - pipeline
@@ -17,7 +17,7 @@ Enter Hunter Codefest 2020
 #+BEGIN_EXPORT html
 
 <style>
-.row {
+.row {Having seen what
   display: flex;
 }
 
