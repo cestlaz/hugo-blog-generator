@@ -2,8 +2,11 @@
 title: Codefest 2020
 date: 2020-02-01T13:41:03-04:00
 tags: 
-categories: 
-draft: true
+- pipeline
+- hunter
+categories:
+- Hunter
+draft: false
 --- 
 
 Two of the challenges faced by young computer science students are
