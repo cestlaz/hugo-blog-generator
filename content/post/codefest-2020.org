@@ -14,6 +14,7 @@ finding the time to build independent projects for their portfolios
 and getting feedback from and networking with tech professionals.
 
 Enter Huner Codefest 2020
+#+BEGIN_EXPORT html
 
 <style>
 .row {
@@ -40,6 +41,7 @@ Enter Huner Codefest 2020
 <div class="colunm flip"> <img src="http:/img/codefest2020/codefest.jpg"></div>
 <div class="columm flip"> <img src="http:/img/codefest2020/google.jpg"></div>
 </div>
+#+END_EXPORT
 
 
 Hunter, like most colleges has a Fall semester that runs from late
