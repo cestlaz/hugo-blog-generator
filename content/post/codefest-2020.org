@@ -1,0 +1,101 @@
+---
+title: Codefest 2020
+date: 2020-02-01T13:41:03-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+Two of the challenges faced by young computer science students are
+finding the time to build independent projects for their portfolios
+and getting feedback from and networking with tech professionals.
+
+Enter Huner Codefest 2020
+
+<style>
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.flip {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+</style>
+
+
+
+
+<div class="row">
+<div class="colunm flip"> <img src="http:/img/codefest2020/codefest.jpg"></div>
+<div class="columm flip"> <img src="http:/img/codefest2020/google.jpg"></div>
+</div>
+
+
+Hunter, like most colleges has a Fall semester that runs from late
+August through the end of Decemeber and a Spring semester that starts
+at the end of January and runs through late may. There's generally
+around a month between the two. Sometimes a student can take one of
+the few courses offered during this "Winter semester" but more often
+than not the time is wasted.
+
+At Hunter, students can do a number of things during this break. Some get short term
+mini internships, others take part in our tech bootcamps. Now, they
+can all participate in Codefest.
+
+We launched in late December at the end of finals. Students are given
+a theme and form groups. They then have a month to build a
+project. It's a great opportunity to learn how to work on a team and
+explore tools that you wouldn't normally use in a regular CS class.
+
+Friday was the payoff. We all gathered at GoogleNYC for a big
+celebration. Each group was set up at a table with professional
+Software Engineers. Mostly Googlers but wa also invited some outside
+guests. They'd then spend time with discussing the project. After a
+while, the Googlers would rotate to another project.
+
+Rinse and repeat.
+
+{{< figure src="/img/codefest2020/gil.jpg" width="50%"
+caption="Current Googler and Hunter CS grad Gil advising our current students."  >}}
+
+
+{{< figure src="/img/codefest2020/sarah.jpg" width="50%" caption="My former Stuy student and current Googler Sarah doing the same."  >}}
+
+
+Afterwards we had some demos and then a big networking session where
+our Hunter CS students got to spend more time getting to know and
+getting advice from a host of Googlers and other software engineers
+while enjoying refreshments.
+
+
+Not everyone could make it due to class but we had a pretty strong
+turnout.
+
+{{< figure class="flip" src="/img/codefest2020/everyone.jpg" width="75%"  >}}
+
+
+Our student organizers did most of the heavy lifting and made the
+whole event work from start to finish. Here are Leo, Angela, Shariar,
+and Tracey. Our two other organizers, Miguel and Kun couldn't make it
+as Miguel was travelling and Kun had an interview for an internship.
+
+{{< figure src="/img/codefest2020/organizers.jpg" width="50%" caption="Everyone"  >}}
+
+
+Special thanks to Brendan and hist team of Googlers who helped make
+this happen. I also want to say thanks to the dozen or so of my former
+students currently at Google who stopped by to help.
+
+Everyone was super impressed with what the students produced. It was
+a great event and it'll be even better next year.
+
+
+
