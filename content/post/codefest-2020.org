@@ -73,7 +73,7 @@ while enjoying refreshments.
 Not everyone could make it due to class but we had a pretty strong
 turnout.
 
-{{< figure class="flip" src="/img/codefest2020/everyone.jpg" width="75%"  >}}
+{{< figure class="flip" src="/img/codefest2020/everyone.jpg" width="75%" caption="everyone" >}}
 
 
 Our student organizers did most of the heavy lifting and made the
@@ -81,7 +81,8 @@ whole event work from start to finish. Here are Leo, Angela, Shariar,
 and Tracey. Our two other organizers, Miguel and Kun couldn't make it
 as Miguel was travelling and Kun had an interview for an internship.
 
-{{< figure src="/img/codefest2020/organizers.jpg" width="50%" caption="Everyone"  >}}
+{{< figure src="/img/codefest2020/organizers.jpg" width="50%"
+caption="Our organizers"  >}}
 
 
 Special thanks to Brendan and hist team of Googlers who helped make
