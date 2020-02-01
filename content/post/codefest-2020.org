@@ -73,7 +73,7 @@ while enjoying refreshments.
 Not everyone could make it due to class but we had a pretty strong
 turnout.
 
-{{< figure class="flip" src="/img/codefest2020/everyone.jpg" width="75%" caption="everyone" >}}
+{{< figure class="flip" src="/img/codefest2020/everyone.jpg" width="75%" >}}
 
 
 Our student organizers did most of the heavy lifting and made the
