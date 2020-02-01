@@ -34,8 +34,8 @@ Enter Hunter Codefest 2020
 </style>
 
 <div class="row">
-{{< figure class="colunm flip" src="/img/codefest2020/codefest.jpg">}}
-{{< figure class="colunm flip" src="/img/codefest2020/google.jpg">}}
+{{< figure class="column flip" src="/img/codefest2020/codefest.jpg">}}
+{{< figure class="column flip" src="/img/codefest2020/google.jpg">}}
 </div>
 
 
