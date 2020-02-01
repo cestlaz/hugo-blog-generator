@@ -13,7 +13,7 @@ Two of the challenges faced by young computer science students are
 finding the time to build independent projects for their portfolios
 and getting feedback from and networking with tech professionals.
 
-Enter Huner Codefest 2020
+Enter Hunter Codefest 2020
 #+BEGIN_EXPORT html
 
 <style>
