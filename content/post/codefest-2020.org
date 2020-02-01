@@ -25,10 +25,10 @@ Enter Hunter Codefest 2020
 }
 </style>
 
-<br clear="all">
-{{< figure class="z_image_left flip" width="50%" src="/img/codefest2020/codefest.jpg">}}
-<br clear="all">
-{{< figure class="z_image_right flip" width="50%" src="/img/codefest2020/google.jpg">}}
+
+{{< figure class="z_image_left flip" width="250px" src="/img/codefest2020/codefest.jpg">}}
+
+{{< figure class="z_image_left flip" width="250px" src="/img/codefest2020/google.jpg">}}
 <br clear="all">
 
 
