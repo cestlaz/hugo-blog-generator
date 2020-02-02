@@ -1,0 +1,65 @@
+---
+title: Using Emacs 65 - Live Python
+date: 2020-02-02T13:13:09-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+The other day I stumbled upon Emacs's [[https://github.com/donkirkby/live-py-plugin][Live Coding]] plugin. It takes
+interactive coding up to the next level. 
+
+Normally, when you code Python, if you're working in a REPL, every
+time you hit <Enter> the line you just typed is evaluated. When you're
+working ina source file, you're just editing until you send the file
+into a Python interpreter.
+
+With this module, your file is continually evaluated as you type and
+it shows you the results in a side window. 
+
+If you type in:
+
+{{< highlight python >}}
+a = 20
+b = 30
+c = a + b
+print(c+c)
+{{< /highlight >}}
+
+The live python window will display something like:
+
+{{< highlight python >}}
+a = 20
+b = 30
+c = 50
+print(100)
+{{< /highlight >}}
+
+
+If you change one of the variables, everything updates.
+
+It gets even cooler when you add loops, functions, and even recursion.
+
+There's also support for unit testing.
+
+It works, to varying degrees with Emacs, PyCharmm, Sublime Text and
+there's even a browser version. Emacs handles the basics and it seems
+that the Sublime Text version adds support for some graphing. PyCharm
+has that plus turtle graphics.
+
+
+While this is *very* cool, to be honest, I don't know how useful this
+is going to be but I'm very excited to play with it in the Fall when
+I'll be teaching Python again.
+
+Check out this short video to see it in action:
+
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/bYy90EUAh98" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
