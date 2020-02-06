@@ -1,0 +1,128 @@
+---
+title: Riffing on the CS Ed Podcast - Episode 1 - David Malan
+date: 2020-02-06T16:42:08-04:00
+tags:
+- tools
+- CS Ed
+categories: 
+- CS Ed
+draft: false
+--- 
+
+I saw a couple of posts the other day about the [[https://sites.duke.edu/csedpodcast/][CS Ed Podcast]]. 
+
+Kristin Stephens-Martinez of Duke interviewed (or will interview) six
+CS educators on a variety of topics. There are four posted so far:
+
+- David Malan
+- Dan Garcia
+- Amy Ko
+- Mark Guzdial
+
+Before I started I thought I'd listen to a few and then share some
+thoughts but I found so much to unpack  in the second episode where
+Dan talks about testing that I decided to share my thoughts on the
+first episode, then Dan's and then see if find anything to comment on
+in episodes three and beyond.
+
+All the podcasts are available via the link above and transcripts are
+also provided - a nice touch for a number of reasons. It not only
+increases accessibility, it also makes the episodes potentially more
+discoverable via search engine and certainly more searchable. For me it was
+helpful as I only listen to podcasts while working out - running or in
+the gym so being able to search a text page to double check what I
+thought I heard while struggling to finish mile six or seven was a
+boon.
+
+In episode 1, Stephens-Martinez interviewed David Malan of CS50
+fame. The interview was mostly about tools used in CS50.
+
+Even though I'm not going to comment on CS50 as it wasn't the direct
+topic of the interview I feel I should share my bias in case any comes
+through. I'm not a fan of CS50. This is an opinion I formed by talking
+to a number of my former students who have taken/TA'd CS50 and/or
+courses that follow it combined with my own thoughts and beliefs about
+CS Education. That said, I have no first hand exposure to Harvard's
+CS50 nor have I ever met Mr. Malan so I reserve the right to change my
+point of view at some point in the future.
+
+** Summary stats
+- Did I enjoy the podcast? Yes - I'd give it 4/5 on the making running
+  bearable scale. The interview flowed well and a lot of information
+  was shared. 
+- Did I learn anything? Honestly, no. This was probably due to the
+  topic but more on that below.
+- Should you listen? Yes. Again, more below.
+
+** Thoughts
+
+A theme of the podcast was that Malan wants his students to be exposed
+to and end up using real tools but uses the CS50 tools to scaffold
+their way. Not having a huge amount of exposure I won't comment on how
+well this works but it's philosophically similar to my beliefs where I
+start my beginners in a simplified environment like Thonny for Python
+and have them "graduate" up to a more full featured yet less forgiving
+editor. 
+
+One of the tools they talked about was [[https://github.com/cs50/help50][help50]] - a command line tool to
+improve on error messages (there's also a web interface
+availabe). Instead of typing ~gcc myfile.c~ students would type
+~hepl50 gcc myfile.c~ and instead of getting just the cryptic error
+message you'd also get an improved message. In my short time playing
+with it I couldn't actually get a better error but I only played with
+it for a few minutes. 
+
+I like the idea of sharing both the original error message as well as
+the improved one but can't really comment further. What I would have
+loved to hear, however was how they transition the kids first to use
+the tool and then to grow out of it. I'd also be curious to see if
+there were differences between adoption of  and graduation from the
+tool as well as it's effectiveness for the Harvard population where
+everyone is pre-selected to be high performing in terms of class
+performance vs an institution that takes all comers. 
+
+Another tool I liked was [[https://cs50.readthedocs.io/style50/][style50]] which tells you if and how your code
+violates coding standards but doesn't automatically fix it.
+
+This is something I show my classes just using our editors style
+checkers. I have Emacs set up to give me a red tick when I violate
+style but only says what's wrong when I move the cursor over and it
+doesn't auto correct. 
+
+I like this as it raises student awareness but they actually have to
+make the change and learn to either code in an approved style or make
+a conscious decision to violate style.
+
+For me, the missing part of the interview was the "how." How do you
+get the students to adopt the tool and how do you get them to outgrow
+them. 
+
+At the end, podcasts get to share something from tech that they find
+cool and Mr. Malan shared containers - Docker images as an
+example. The idea that you can package something for students and know
+that they all get the same package with the same versions of all the
+required tools. That seems to make sense but I think there's another
+side, a downside  to containers both in terms of using them in classes
+and in terms of the direction we're going with containers in tech. All
+of that though is a topic for another day.
+
+The podcast also covered other tools and if you haven't listened yet
+you should. 
+
+As I found a lot of rich material in Dan's interview I'll almost
+certainly write something about that. Also probably on Amy's about
+debugging. Spoiler alert - both are worth listening to. Dan's runs
+about 40 minutes and Amy's 24. I haven't listened to Mark's yet but
+expect that to be worth our time as well.
+
+One thing I do want to point out is that all six interviews for this
+series are of college professors - no K12 teachers. Not sure why that
+decision was made but I found it to be interesting. Anyone who knows
+me is aware that I'm much more of a teacher as craftsman guy rather
+than a "the research says" guy so I have my bias but regardless, I
+think that interviewing a professor, a high school teacher, and an
+early grade teacher could give some very interesting and contrasting
+perspectives.
+
+
+
