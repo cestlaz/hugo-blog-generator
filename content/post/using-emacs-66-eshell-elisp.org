@@ -1,5 +1,5 @@
 ---
-title: Using Emacs 66 - an eshell switchert in elisp
+title: Using Emacs 66 - an eshell switcher in elisp
 date: 2020-02-08T08:12:22-04:00
 tags:
 - emacs
