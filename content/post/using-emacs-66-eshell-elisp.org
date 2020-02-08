@@ -1,0 +1,91 @@
+---
+title: Using Emacs 66 - an eshell switchert in elisp
+date: 2020-02-08T08:12:22-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+I thought it was time to give [[https://masteringemacs.org/article/complete-guide-mastering-eshell][eshell]] in Emacs another try. It has some
+pretty cool features but for whatever reason, I've never really been
+able to adopt Emacs as my go to shell.
+
+Eshell out of the box is pretty cool but could use some
+enhancements. When launching at login it doesn't know about the path
+you set in your .bashrc or .zshrc in my case files. It just seemed to
+have problems with paths in general but that was fixed with the
+exce-path-from-shell package. The prompt also needed some fixing up
+along with some other tweaks. 
+
+I found [[https://github.com/manateelazycat/aweshell][aweshell]] which looked promising but it wasn't on melpa so I
+had to clone it separately. I also noticed that it basically tied
+together some packages I could download myself and added a shell
+switcher but didn't bind the keys.
+
+I thought I'd dive into elisp -something I haven't done in a while to
+write my own.
+
+Here's my current complete eshell config:
+
+{{< highlight elisp >}}
+(use-package exec-path-from-shell
+  :ensure t
+  :config
+  (exec-path-from-shell-initialize))
+
+
+    (use-package fish-completion
+    :ensure t
+    :config
+    (global-fish-completion-mode))
+  ;; (use-package eshell-prompt-extras 
+  ;; :ensure t
+  ;; :config
+  ;; (setq epe-show-python-info nil)
+  ;; )
+
+  (use-package eshell-git-prompt
+  :ensure t
+  :config
+  (eshell-git-prompt-use-theme 'git-radar)
+  )
+
+{{< /highlight >}}
+
+And here's the code I ended up with for my shell switcher:
+
+{{<highlight elisp >}}
+
+#+BEGIN_SRC emacs-lisp
+  (require 'cl-lib)
+  (defun select-or-create (arg)
+    "Commentary ARG."
+    (if (string= arg "New eshell")
+        (eshell t)
+      (switch-to-buffer arg)))
+  (defun eshell-switcher (&optional arg)
+    "Commentary ARG."
+    (interactive)
+    (let* (
+           (buffers (cl-remove-if-not (lambda (n) (eq (buffer-local-value 'major-mode n) 'eshell-mode)) (buffer-list)) )
+           (names (mapcar (lambda (n) (buffer-name n)) buffers))
+           (num-buffers (length buffers) )
+           (in-eshellp (eq major-mode 'eshell-mode)))
+      (cond ((eq num-buffers 0) (eshell (or arg t)))
+            ((not in-eshellp) (switch-to-buffer (car buffers)))
+            (t (select-or-create (completing-read "Select Shell:" (cons "New eshell" names)))))))
+{{</highlight>}}
+
+I currently bound eshell-switcher to ~CTRL-z e~. 
+
+The video goes through the whole process:
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/-dIjFZBDt64" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
