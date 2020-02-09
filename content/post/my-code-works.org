@@ -1,0 +1,97 @@
+---
+title: My code works -- and I have no idea why!!!
+date: 2020-02-09T16:22:18-04:00
+tags: 
+- development
+- cs
+categories:
+- development 
+draft: false
+--- 
+
+{{< figure src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-4l2Bv_a85wYiS-5pWgYdfb6lb50CIwZ3GvjtNIwqVL1VruoL"
+
+>}}
+
+
+
+One of my pet annoyances is how code ecosystems have gotten more and
+more complex. Sometimes I think tool designers put together build
+systems to show how clever they are rather than to solve dependency
+problems as cleanly and simply as possible.
+
+Over the break I wrote [[https://cestlaz.github.io/post/github-org-explorer/][GitHub Org Explorer]] - a tool to help deal with
+GitHub classroom repositories. It worked but was using "basic"
+authentication where it sent a username and password with every
+request. As GitHub was deprecating that from their API I started to
+look at converting the application to use oauth. 
+
+First I threw together a little [[https://github.com/zamansky/clojurescript-electron-oauth-test][proof of concept app]] that just
+authenticated with GitHub and then started to move that code into my
+explorer app.
+
+First problem -- the code that that worked in the proof of concept was
+crashing out in my actual app. I ultimately did a line by line
+analysis and couldn't find a difference. Even the configuration files
+appeared the same. 
+
+Finally, in a fit of desperation, I killed all the supporting
+libraries that the build system installed and downloaded them again. 
+
+It worked!!!!!
+ 
+It didn't inspire much confidence though.
+
+So, I went on and finished converting the app to oauth. All done,
+right? Wrong.
+
+I tried to build everything on another system and it crashed
+out. Weird. It worked on one machine but not another. 
+
+Solved that problem by wiping out the entire build system - node and
+npm using nvm and shadow-cljs and it worked.
+
+But it didn't. 
+
+There was one final hurdle. 
+
+When I used the build system to compile and run in "development" mode
+everything worked. Compile for production? Not so much.
+
+What could it be?
+
+After about a day of fretting, I discovered  that for some reason,
+when compiling for dev you get certain libraries including a string
+formatting one I was using. When compiling for production you didn't
+get them. Why would anyone set up a build system that way???????
+
+Given that I'm using a bunch of tools that I'm new to - using
+shadow-cljs to go from clojurescript to javascript all ending up with
+a build for the electron platform - I just stopped using the library 
+
+Problem solved. 
+
+Well, sort of. 
+
+I can now run my app but I'm still not filled with confidence.
+
+Now, I've been at this game for a very long time. I've been
+programming for around 40 years. Imagine what it's like for student or
+beginner.
+
+I can't tell you how many times I've seen a post on the learn
+programming subreddit from some beginner who learned using an online
+tool or in a class that had them develop in a sandbox and they left
+with no clue how to write a real program outside of the classroom
+environment. If they're not prepared to merely write a program outside
+of some courseware system they'll have little chance going up against
+webpack, lienengen, cmake and the like.
+
+I'm not saying that we should throw our beginners out into the wild
+and start them with vi, C, and autotools but nobody's paying attention
+to the whole journey from Hello World to the real world.
+
+Somebody should.
+
+
+
