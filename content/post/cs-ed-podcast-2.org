@@ -1,0 +1,39 @@
+---
+title: Cs Ed Podcast 2 - Dan Garcia on tests
+date: 2020-02-11T08:41:21-04:00
+tags:
+- tools
+- CS Ed
+categories: 
+- CS Ed
+draft: true
+--- 
+
+
+* Dan Garcia
+if all his kids fail it's on him
+** Mult choice tests
+- likes multiple choice now with good distractors
+- to me distractors are like "gotcha" questions
+- bad way to cope with bad situation of large lecture classes
+** Time to make test
+12 hours
+** Time to take test
+1/6
+- I think average student should finsh with time
+** Test stuff
+- just ask what to do - not a big story -test what you test
+- ask a twist on last test (spiraling)
+- do they get the general idea
+- point values based on what was covered and how much
+- exam morale - tell them it's the hard question
+- easy to grade
+- use gradescope
+- the idea of group exams - or give xam then give back and have group
+  do it. like cooperative learning
+- give exams on computers
+** My notes
+- flow of test easy to hard
+- not all or nothing questions
+
+
