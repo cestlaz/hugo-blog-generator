@@ -13,10 +13,42 @@ https://sites.duke.edu/csedpodcast/2019/12/23/episode-2-dan-garcia/#more-143
 
 
 Episode 2 of the CS Ed podcast had Dan Garcia talk about
-exam creation. 
+exam creation. Dan hit on a lot of important points and there's no way
+I can weave them into a sensible narrative so let's just look at them
+individually.
+
+** Multiple choice.
+
+Dan started right out front saying that he's come around to being ok
+or maybe even liking multiple choice  having referenced the ability
+top make "good distractors."
+
+This is something that I think I'll never agree with. On the one hand,
+there is the idea of multiple guess but what really gets me is that
+multiple choice questions, by definition, are gotcha questions. You're
+supposed to have distractors to pull you away from the right path. To
+make a mistaken answer seem ok. I hate gotcha questions. Besides,
+halfway decent multiple choice questions are really hard to write. 
+
+To me, MC questions are really a sometimes necessary tool to make up
+for the fact that teachers are overworked and never have enough time
+to grade. This might make them a necessary evil but it doesn't make
+them good. We might have to resort to them if we're "teaching" a class
+of hundreds or perhaps thousands  but we shouldn't have classes
+anywhere near that size. 
+
+Another problem with MC is that multiple choice tests seem to
+frequently test speed rather than knowledge. APCS-A is a good example
+of this. You have 90 minutes to answer 40 questions. That's a bit over
+2 minutes per question. That's a race not an assessment. 
+
+
+
+http://blog.acthompson.net/2020/02/are-large-classes-answer-to-computer.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ComputerScienceTeacher+%28Computer+Science+Teacher+-+Thoughts+and+Information+from+Alfred+Thompson%29
 
 
 * Dan Garcia
+
 if all his kids fail it's on him
 ** Mult choice tests
 - likes multiple choice now with good distractors
