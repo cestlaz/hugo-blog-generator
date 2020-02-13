@@ -13,7 +13,11 @@ https://sites.duke.edu/csedpodcast/2019/12/23/episode-2-dan-garcia/#more-143
 
 
 Episode 2 of the CS Ed podcast had Dan Garcia talk about
-exam creation. Dan hit on a lot of important points and there's no way
+exam creation. 
+
+*NOTE* We shouldn't need tests / all our kids should be able to do well
+
+Dan hit on a lot of important points and there's no way
 I can weave them into a sensible narrative so let's just look at them
 individually.
 
