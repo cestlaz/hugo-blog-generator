@@ -9,6 +9,12 @@ categories:
 draft: true
 --- 
 
+https://sites.duke.edu/csedpodcast/2019/12/23/episode-2-dan-garcia/#more-143
+
+
+Episode 2 of the CS Ed podcast had Dan Garcia talk about
+exam creation. 
+
 
 * Dan Garcia
 if all his kids fail it's on him
