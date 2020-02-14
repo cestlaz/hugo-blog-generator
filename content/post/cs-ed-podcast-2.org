@@ -1,5 +1,5 @@
 ---
-title: Cs Ed Podcast 2 - Dan Garcia on test creation
+title: CS Ed Podcast 2 - Dan Garcia on test creation
 date: 2020-02-13T08:41:21-04:00
 tags:
 - tools
