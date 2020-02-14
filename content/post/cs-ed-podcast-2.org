@@ -1,25 +1,26 @@
 ---
-title: Cs Ed Podcast 2 - Dan Garcia on tests
-date: 2020-02-11T08:41:21-04:00
+title: Cs Ed Podcast 2 - Dan Garcia on test creation
+date: 2020-02-13T08:41:21-04:00
 tags:
 - tools
 - CS Ed
 categories: 
 - CS Ed
-draft: true
+draft: false
 --- 
-
-https://sites.duke.edu/csedpodcast/2019/12/23/episode-2-dan-garcia/#more-143
-
-
-Episode 2 of the CS Ed podcast had Dan Garcia talk about
+Episode 2 of the [[https://sites.duke.edu/csedpodcast/][CS Ed podcast]] had Dan Garcia talk about
 exam creation. 
 
-*NOTE* We shouldn't need tests / all our kids should be able to do well
-
+This wasn't a podcast about the value of exams - in class, high stakes
+or otherwise. In fact Dan says in the podcast it would be great to "get grades out of
+the equation. Grades are gonna be an impediment to learning." But
+recognizes that we have not say in this most of the time (and I'll add
+that though I agree grades can and do perform a function) so we should
+be creative in terms of assessment.
+ 
 Dan hit on a lot of important points and there's no way
-I can weave them into a sensible narrative so let's just look at them
-individually.
+I can weave them into a sensible narrative so I'll just hit a bunch of
+points and riff from there.
 
 ** Multiple choice.
 
@@ -46,36 +47,208 @@ frequently test speed rather than knowledge. APCS-A is a good example
 of this. You have 90 minutes to answer 40 questions. That's a bit over
 2 minutes per question. That's a race not an assessment. 
 
+Finally, I find multiple choice questions hard to write and time
+consuming to typeset and format. I guess if I were better at the
+distractors this might not be the case but a short
+answer version of a MC question is always easier for me to write and
+not much harder to grade.
+
+* Test creation
+
+Half a day. Twelve hours. That's how long Dan says it takes him to
+make a test. That sounds about right. There's no two ways about
+it. Creating a good exam is hard work. Creating a bad one is easy and
+quick but that's not a good answer.
+
+Let's think about this for a minute. A college professor might teach
+one or two classes a semester. A college lecturer three, maybe 4. A
+high school teacher teaches 5 classes. Typically two or three
+different subjects. They basically get 40 minutes at work a day to
+prep and that includes EVERYTHING - lesson planning, grading, test
+creation, working with students. The whole kit and caboodle. Even with
+two preps rather than three that's an additional 24 hours just to
+create those two tests. More since you'll need multiple versions of
+each. 
+
+Of course we can mitigate this a it by reusing and modifying questions
+from old exams and sharing with colleagues but writing exams is a bear. 
+
+It's no wonder teachers turn to multiple choice test banks.
+
+Really glad Dan spent time on this as teachers have to realize that
+it's not just them.
 
 
-http://blog.acthompson.net/2020/02/are-large-classes-answer-to-computer.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ComputerScienceTeacher+%28Computer+Science+Teacher+-+Thoughts+and+Information+from+Alfred+Thompson%29
+* How long is too long?
+
+I frequently struggle with test duration. It sounds like it's a common
+problem. Dan has his TAs test the tests hoping they can do it in one
+sixth the students time. He found, though that his slowest TAs might
+take one third of the allocated time.
+
+When I started, I heard ratios from math teachers ranging from
+students take twice the time I would on my exams up to five times
+longer. 
+
+It's hard to get it right but it's important that tests are tests of
+knowledge and ability not speed. At Stuy where class periods were 43
+minutes I'd try for tests that took the typical student 33 - 35
+minutes. Just enough time to go over the exam. You might ace the exam,
+you might fail but time wouldn't be the issue.
+
+* Content
+
+This was a big one. Dan talks about students expectations - are tests
+cumulative or just since the last unit. Making sure test content is
+proportional to lesson content. Watching out for test morale - letting
+kids know hard questions are hard, test flow and much more. Not too
+much to say here other than if you haven't listen to the podcast.
+
+* Backstory
+
+One content point that I do want to drill down on is Dan's stating
+that we sometimes give too much backstory on questions. "If you want
+them to sort a list, make them sort a list! You don’t have to tell a
+story about the list...." Too often tests are races and even when they
+aren't a student has to first read the question, understand it, make
+sure there are no gotchas, formulate and write down a solution. Giving
+a complex backstory from which the students have to glean the real
+question in a timed high pressure environment is just too much. There
+are other places where you can ask a general question with a big back
+story and have students solve the poblem.
+
+This made me think of technical interviews which are all
+backstory. The truth though is that most kids solve them by pattern
+matching. They prep by doing similar problems and look for key
+phrases. Have unlimited memory and need fast access - there's probably
+a hash table involved. Something have an easy solution but it's too
+slow - think recurison. Recursion is obvious but too slow - dynamic
+programming. It's a "have I seen this question before" more so than a
+real test of a potential employees ability.
+
+The other thing it made me think is that while I very much agree with
+Dan, it flies  in the face of what teachers have been forced to deal
+with in the last couple of decades. It's all about the word problem
+where the kid must sleuth out the question. So many high stakes exams
+are as much reading exams as they are content exams. I'm not even
+going to get into how this affects non English speakers but let's just
+say this is a real issue.
+
+* Tests on computers and other test taking formats
+
+Towards the end, Dan talks about having an on-computer part of an
+exam. I like having the students do live on computer exams but they
+also have their issues. I'm not so concerned about cheating. I give
+them the resources they can use and truth be told, the end results
+don't differ much from when I've used paper exams or other
+assessments. I am always concerned about a computer breaking but
+fortunately that hasn't really been a problem.
+
+What has been a problem however is the fact that speed can become an
+issue. Some kids know how to type others don't. This can be a HUGE
+advantage in a CS0 or CS1 class. When you're thinking about what
+letter to type you're not thinking about the problem and in general
+beginners are very slow. I always tell my second year students to look
+at what they can do as an overnight assignment. They realize that
+what's now overnight was a large semester project back in their first
+year. This all means that you really have to be careful about the
+length of a computer based test. 
+
+Another thing Dan mentioned was giving group tests. Students would
+work in teams. He noted that in the group, The collective score was
+always higher than the top individual score. I get the idea and it's
+probably true trend wise but can't be universally true if your tests
+are actually compatible. Given a fair test, surely some students can
+ace it in which case the group can only equal the top scorer.
+
+This group test reminded me of cooperative learning which was all the
+rage back in the day. Of course cooperative learning is no longer "it"
+but while it never was the silver bullet it is notable that it had
+some good ideas and it sounds like Dan is implementing some of them
+albeit without the same name.
+
+* Thoughts on grading
+
+I'll disagree here with Dan's contention that we should all use
+Gradescope. I've come out against autograders before so I'll just
+summarize here. I'm not entirely against autograders. They're great
+for rudimentary answers and can also provide a level of instant
+student feedback. The flip side is that in order to get to know your
+students you have to look at their work. You might not learn much from
+multiple choice answers but you will if you look at code they've
+written out or other long form answers. I get that you can't do this
+with huge classes but again, I'll say we shouldn't have huge
+classes. To use an autograder as a necessity is one thing but to say
+it's better rather than just a time save is another. Now, you can use
+autograding tools effectively to cull and sort and draw your attention
+to things to look at by hand and that's a plus but I haven't seen too
+much of that in current tools.
+
+Rather than an autograder, I try to use testing frameworks on short
+answers  and to provide instant feedback. Specifically I use [[https://github.com/onqtam/doctest][doctest]]
+for C++ and [[https://docs.python.org/2/library/unittest.html][unittest]] for Python. They provide students with instant
+answer feedback while at the same time introducing them to practical
+software engineering sensibilities.
+
+* Some of my memorable tests
+
+I thought here I'd share a few exams I've given that I found
+memorable.
+
+First was a five question long answer exam. I gave it to my kids
+telling them "Answer three of the five questions. You can select any
+three but when grading, I will only grade quesitons 1, 2 and 4." Some
+students had some real issues with this. Led to an interesting
+discussion as to about choice and consequences. I didn't do this in
+order to mess with the kids. It was back in the day when you had to
+send exams to the central copy room to be copied and needed about a
+weeks lead time. I didn't know the direction the class would take so
+wrote questions 3,4, and 5 to hedge my bets. By the time we got to the
+test, question 4 made sense while 3 and 5 would have been really super
+hard.
+
+A second test, well quiz I gave once was a single question that was
+something like this: 
+
+#+begin_quote
+take the next 20 minutes to share with me your thoughts on cellular
+automata. Consider why we studied it. Was it interesting? Why, why
+not? What did you learn?
+#+end_quote
+
+Some students absolutely loved it. Others loathed it. The freedom gave
+some kids license to give me super creative interesting answers. Some
+really needed more constraints and had tremendous difficulty.
+
+Finally, I once gave a semi-gag test. The instructions on the front
+said that you had to proceed in order. You WERE NOT TO look ahead. It
+was a mix of real CS questions and goof questions like:
+
+- sprint up to the blackboard, draw a smiley on the board, then return
+  to your seat and go on to the next question.
+- Stand up, do 10 jumping jacks, sit and proceed to the next question
+- Stand up and raise your right hand. When you see someone else with
+  their hand raised, walk to them and give them a high five. Then
+  return to your seat nad proceed to the next question.
+
+The last page had an answer key and instructed the students to grade
+themselves before handing it in.
+
+Overall the class enjoyed the exam.
+
+What was interesting, was that after class a few student appoached me
+either in person or via email saying that they felt really bad but
+they looked at the end of the exam when it started so saw the
+answers. They felt they cheated and wanted to let me know and
+understood if they got  zeros (which of course, I didn't give them). 
 
 
-* Dan Garcia
+* Final thoughts
 
-if all his kids fail it's on him
-** Mult choice tests
-- likes multiple choice now with good distractors
-- to me distractors are like "gotcha" questions
-- bad way to cope with bad situation of large lecture classes
-** Time to make test
-12 hours
-** Time to take test
-1/6
-- I think average student should finsh with time
-** Test stuff
-- just ask what to do - not a big story -test what you test
-- ask a twist on last test (spiraling)
-- do they get the general idea
-- point values based on what was covered and how much
-- exam morale - tell them it's the hard question
-- easy to grade
-- use gradescope
-- the idea of group exams - or give xam then give back and have group
-  do it. like cooperative learning
-- give exams on computers
-** My notes
-- flow of test easy to hard
-- not all or nothing questions
+Wow. That was long but I said before that there was a lot to unpack. 
 
+I left a bunch out of this and it's already a really long post. I
+might write more on test creation and administration at some other
+point but the takeaway from this is listen to the [[https://sites.duke.edu/csedpodcast/][podcast]] if you
+haven't already.
 
