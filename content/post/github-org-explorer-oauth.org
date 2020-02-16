@@ -1,0 +1,46 @@
+---
+title: Github Org Explorer - now with oauth
+date: 2020-02-16T12:53:59-04:00
+tags: 
+- tools
+- github
+categories:
+- tools 
+draft: false
+--- 
+
+A while ago I wrote about a small side project - [[https://cestlaz.github.io/post/github-org-explorer/][GitHub Org Explorer]] -
+a small tool to make it easier to manager GitHub repositories based on
+organization. I'm using it as a replacement for the GitHub provided
+Classroom Assistant. I find it more flexible in terms of exporting
+assignments to my own machine and it allows me to delete repos en
+masse which is critical after the semester is over.
+
+Shortly after I released it I found that GitHub was going to sunset
+the basic authentication I was using so I had to convert the
+application to support oauth.
+
+So, here it is. 
+
+Along the way I had a few headaches. I wrote about them [[https://cestlaz.github.io/post/my-code-works/][here]]. Mostly
+versioning issues surrounding the node ecosystem. I still haven't
+figured it all out but I think I've gotten everything working
+alright. 
+
+
+If you want to check it out, you can grab it off GitHub. Here's the
+repo: [[https://github.com/zamansky/github-org-explorer][https://github.com/zamansky/github-org-explorer]]. 
+
+Here's the short runthrough video I made. Logging in looks different
+but everything operates the same way:
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/e-gNzuBG3mU" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
