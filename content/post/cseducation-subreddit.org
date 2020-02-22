@@ -1,0 +1,104 @@
+---
+title: The CS Education Subreddit
+date: 2020-02-22T07:37:20-04:00
+tags: 
+- community
+categories:
+- community 
+draft: false
+--- 
+
+[[https://twitter.com/amyjko?ref_src=twsrc%255Etfw%257Ctwcamp%255Etweetembed%257Ctwterm%255E1230982366706860032&ref_url=https%253A%252F%252Fpublish.twitter.com%252F%253Fquery%253Dhttps%25253A%25252F%25252Ftwitter.com%25252Famyjko%25252Fstatus%25252F1230982366706860032%2526widget%253DTweet][Amy Ko]] posted this yesterday:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">CSEd people:
+many have struggled to use Twitter for discussion. How about Twitter
+for broadcasting, but when replies turn to discussion, we use <a
+href="https://t.co/2oivuriOoU">https://t.co/2oivuriOoU</a>? It&#39;s a
+better (albeit imperfect) platform for civil discourse. Subreddit mods
+<a
+href="https://twitter.com/AustinCorgiBart?ref_src=twsrc%5Etfw">@AustinCorgiBart</a>
+<a
+href="https://twitter.com/zamansky?ref_src=twsrc%5Etfw">@zamansky</a>?</p>&mdash;
+Amy J. Ko (@amyjko) <a
+href="https://twitter.com/amyjko/status/1230982366706860032?ref_src=twsrc%5Etfw">February
+21, 2020</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js"
+charset="utf-8"></script> 
+
+I'd love to see more traffic [[https://reddit.com/r/CSEducation][there]]. For full disclosure, I'm one of
+the moderators but in my defense, I'm not much of a moderator and as
+[[https://twitter.com/AustinCorgiBart/status/1230992957467168768][Cory]] said, I too am happy to either keep moderating or to step aside.
+
+Twitter is nice for broadcasting but not great for
+meaty discussions. The character limit does make you think out what
+you're saying but it's also a headache and tweet storms are an
+inelegant solution at best. Once you start mixing in replies threads
+become hard to follow. 
+
+An interesting case study of Twitter conversation is over at [[https://twitter.com/home][Fred
+Wilson]]'s blog  [[https://avc.com][AVC]]. Fred recently rebooted his long standing blog and
+is now using Twitter for comments whereas he previously used [[https://disqus.com][Disqus]].
+I haven't done an in depth analysis but there appears to be far fewer
+comments and less in depth conversation than in his blogs past
+incarnations. This could just be my perceptions but given the large
+readership, it might be an interesting thing to analyze.
+
+As to other communication tools, I've written about them with respect
+to classroom communications [[https://cestlaz.github.io/posts/class-communications/][here]] and [[https://cestlaz.github.io/post/communicating-with_students/][here]]. Many of the same issues
+exist for using these tools as a professional community.
+
+Facebook groups are private, undiscoverable, hard to search, and
+scattered. They also exist in the Facebook silo. Data goes in but it
+never comes out. I also can't access those Facebook groups using
+anything other than Facebook.
+
+Email is a great default. Nowhere else to go - things just show up in
+your inbox. I'm on the APCS mailing list as well as SIGCSE. One
+problem is the no quoting policy which makes threads hard to follow
+and discoverability and long term searchability are a problem.
+
+Slack? Just no.
+
+So let's think about reddit. 
+
+You can go to the site to read it but you can also subscribe using an
+RSS/Atom reader like Feedly. If you post a comment you get replies via
+email and an alert in reddit. It's discoverable, public, and
+searchable. It even appears to support chats and a wiki.  Hits all the
+buttons for me.
+
+We could do a better job with the subreddit - add resource links to
+the sidebar for instance - I just started to do that now. 
+
+My friend [[https://twitter.com/cscheerleader/status/1231177418708267008][Ria]] commented on how she wasn't happy that people could post
+anonymously. I tend to agree with her - I've always used my real
+identity in forums and would prefer others do the same but that's not
+a dealbreaker to me. I'd rather an open community with anonymous
+posting allowed than Zuck's world.
+
+Another issue that is sure to be raised is openness. Some teachers
+don't want their discussions public where students can find
+them. Sometimes this is to separate class from life and sometimes
+because class related issues are being discussed. I've never had an
+issue with this. Having spent close to 30 years in the classroom I've
+always been pretty open and public. Sure, sometimes a student can find
+an old assignment or blog post going over something but so what, maybe
+they'll learn something. The only time I see this as really being an
+issue is that you don't want to talk about specific student issues in
+a public forum to protect the students privacy. It's harder to ask
+your colleagues for help with some specific student related problem.
+
+Now, much of what I'm guessing Amy was talking about was the CS
+Educator type discourse that doesn't get into those weeds but I see
+these communities as for all educators (which I'm sure Amy does as
+well, just separating my read on her specific tweet).
+
+So, please do join us over in [[https://www.reddit.com/r/CSEducation/][CSEducation]] over on Reddit. If you want
+to subscribe via an rss or atom reader just use this link:
+[[https://reddit.com/r/CSEDducation/.rss]].
+
+
+
+
+
+
