@@ -1,0 +1,35 @@
+---
+title: Using Emacs Episode 67 - Emacs vs Vi a rant with some historical perspective
+date: 2020-02-23T07:57:08-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+I've been meaning to do my version of the Emacs VI rant for a while. A
+few years ago I staged out a video showing what it would be like for a
+beginner to start with Emacs, Vim, Atom, and Sublime Text but decided
+it would be long, unwieldy and clunky to present - particularly when
+it came to customization. 
+
+I tabled it for a while but recently have been seeing a bunch of
+threads, videos and posts talking about Emacs and Vim. Some are really
+well done, balanced and sensible like Derek Taylor's over on
+[[https://www.youtube.com/watch?v=VaBdlcYaZLQ][DistroTube]]. On the other hand, I saw plenty of what makes me
+nuts. People claiming things like style is objectively better than
+the other or was created with speed or ergonomics in mind so is
+superior and the like.
+
+Here's my take. I think it's a little different than some of the other
+rants because I look a bit at history and evolution and also at the
+day to day reality of editing. Hope you enjoy it.
+
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/0M6erlK57go" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
