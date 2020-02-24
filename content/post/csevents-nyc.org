@@ -1,0 +1,23 @@
+---
+title: CSEvents.nyc
+date: 2020-02-24T18:52:08-04:00
+tags: 
+- community
+categories:
+- community
+draft: false
+--- 
+
+A couple of weeks ago, a handful of CS Ed folks got together. One
+issue we discussed was that of finding CS related events both for
+students and teachers. 
+
+One of our conveners, Dan Fenjves of [[https://www.upperlinecode.com/][UPPERLINE CODE]] talked about
+possibly hosting a central site. Today, Dan announced
+http://csevents.nyc/. A site where organizers can submit and students
+and teachers can find upcoming events. Right now it's NY centric but
+it does list some events beyond the city.
+
+If you're planning an event or CS Educational opportunity, submit it,
+if you're looking for one, check it out.
+
