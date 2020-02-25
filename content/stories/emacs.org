@@ -132,3 +132,4 @@ disable_comments = true
 ** [[/post/using-emacs-64-notmuch][Video 64 - Notmuch]]
 ** [[/post/using-emacs-65-live-python][Video 65 - Live Python]]
 ** [[/post/using-emacs-66-eshell-elisp][Video 66 - Eshell - Elisp]]
+** [[/post/using-emacs-67-emacs-rant][Video 67 - Emacs vs Vi(m)]]
