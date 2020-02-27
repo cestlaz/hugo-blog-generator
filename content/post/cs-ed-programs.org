@@ -1,0 +1,83 @@
+---
+title: Hunter Launches CS Teacher Certification Programs
+date: 2020-02-26T18:50:11-04:00
+tags: 
+- cs education
+- cs4all
+categories: 
+- cs education
+draft: false
+---
+
+It took a while but we're finally here. Hunter College is launching
+it's [[https://education.hunter.cuny.edu/admissions/graduate-programs/computer-science/][Computer Science Teacher Certification]] programs. This was the
+second big initiative I've been working on at Hunter. The first was
+the Daedalus undergraduate CS scholars program. The Daedalus program
+started my first year and is now providing the best value (and in my
+opinion best) undergraduate CS opportunity in New York. 
+
+CS Certification took longer. I had to design the programs, they had to
+make it through the whole CUNY governance process which even under
+ideal circumstances takes around a year and then up through NYSED. Oh,
+and we had to convince the state to create a certification area in the
+meantime.
+
+In any event, we're live and will kick off our certificate program
+this summer. That's the program designed for teachers already
+certified in another subject area seeking to add the CS credential.
+
+So, what does the program look like? 
+
+It combines content and pedagogy. It was designed to give teachers the
+CS they need and the knowledge of how to teach it. 
+
+In terms of content, you need some depth. In my opinion, that depth
+should be at least a class beyond what you'd normally expect to
+teach. For example a math teacher's classes would max out with BC Calc
+so I'd want a math teacher to have a math class beuond that. Since we
+max out with APCS-A, my program takes teachers through data
+structures - APCS-AB or CS2. 
+
+Teachers also need breadth. They don't need to have a full course in
+AI or a full class in Graphics etc. but a course that gives them
+exposure to a number of fields. Enough to teach a unit, mentor a
+precocious student, or learn more on their own to develop new
+courses. We have a topics course for that.
+
+To round out the CS part of the program we have a programming heavy
+ethics course. While ethics are woven throughout all the courses - CS
+and CS Ed we felt that this standalone course also adds great value to
+our program.
+
+This is a far cry from what I've seen in many other CS Ed programs
+which follow the "you take it you teach it" philosophy. Basically
+teachers take Exploring CS, APCS-P, and APCS-A and viola, you've got
+CS teachers. Not in my book.
+
+Then we mix in the CS Ed. Two methods course where we introduce
+additional content and how to teach it and also a curriculum design
+course. The methods courses are based on current best practices and on
+what I've learned helping teachers develop over the years but I'm
+particularly excited about the curriculum design course. Over the
+years I had to take there curriculum design courses and didn't learn a
+thing about curriculum design in any of them. Over the years, I
+developed units, classes and full programs and learned a few
+tricks. That in turn developed into the course. Teachers will study
+existing curricula and develop their own and since the course
+integrates fieldwork, they'll deliver it as well.
+
+While I had internal help at Hunter, I want to send a special thanks
+to JonAlf, Sam, and Topher - three of the best teachers I know who
+provided feedback, assistance, and inspiration (sometimes without
+knowing it) along with other friends in education, academia, and
+industry throughout New York State who made sure I designed a program
+that would work for teachers across New York State.
+
+If you're looking to become certified to teach CS in New York schools,
+check us out. You can find more info [[https://education.hunter.cuny.edu/admissions/graduate-programs/computer-science/][here]]. 
+
+
+
+
+
+
