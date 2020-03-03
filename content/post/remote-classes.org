@@ -1,0 +1,60 @@
+---
+title: Remote Classes
+date: 2020-03-03T09:34:40-04:00
+tags: 
+- pedagogy
+
+categories: 
+- community
+draft: false
+--- 
+
+Over at [[https://avc.com][AVC]] Fred Wilson just posted about [[https://avc.com/2020/03/outschool-can-help-your-school-prepare-for-unexpected-closures/][Outschool's efforts]]
+to support students and teachers in the event of school closures due
+to the Coronavirus. All the details and relevant links are in the
+post. 
+
+I looked a bit into Outschool when Fred first [[https://avc.com/2019/05/outschooling/][wrote about them]] but
+never had a chance to do a deep dive.
+
+Now, internet based teaching is not going to be as effective as in
+person teaching but I was thinking about how far things have come.
+
+After superstorm Sandy, Stuy was closed for about a week. Instead of
+losing all the time my classes and I decided to try to do us some
+internet schooling. We used Google tools and things went pretty well. 
+
+I wrote about what we did and some concluding thoughts [[https://cestlaz.github.io/posts/2012-10-31-sandy-bridge.html/][here]] and
+[[https://cestlaz.github.io/posts/2012-11-02-back-to-work/][here]]. 
+
+Back then - 2012 - the technology was close but not quite there. Now,
+with tools like [[https://zoom.us][Zoom]] and I'm guessing [[https://outschool.com/][Outschool]], which is probably
+more fine tuned for education rather than meetings you have some nice
+all in one or at least most in one solutions. I had to use a YouTube
+broadcast and separate documents and chats. Today's tools tie all of
+those together along with screen sharing. Maybe Outschool even has a
+shared virtual blackboard - that would be pretty cool. Add in
+something like Trello and GitHub and we're really cooking.
+
+It really reminds me that [[https://en.wikipedia.org/wiki/Apache_Wave][Google Wave]] was really a product ahead of
+it's time. 
+
+As I said above, internet teaching will not be as effective as
+live. It's more of a show and do rather than an interactive class and
+I go through some of the other issues in the my two posts linked above
+but we're getting better. Certainly way better than closing a school
+and doing nothing. 
+
+Hats off to Outschool for providing their services to the community. I
+hope few have to use them but am thankful they're there.
+
+
+
+
+
+
+
+
+
+
+
