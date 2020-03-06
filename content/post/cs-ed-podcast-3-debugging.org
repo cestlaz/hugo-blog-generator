@@ -1,0 +1,114 @@
+---
+title: CS Ed Podcast 3 -  Debugging
+date: 2020-03-06T08:40:26-04:00
+tags: 
+- CS Ed
+- debugging
+categories:
+- debugging 
+draft: false
+--- 
+
+<blockquote>
+Everyone knows that debugging is twice as hard as writing a
+  program in the first place. So if you're as clever as you can be
+  when you write it, how will you ever debug it? 
+
+-- Brian Kernighan
+</blockquote>
+
+Debugging is what the [[https://sites.duke.edu/csedpodcast/2020/01/07/episode-3-amy/#more-197][third episode]] of the CS Ed Podcast was all
+about. Kristin Stephens-Martinez of Duke University speaks with Amy Ko
+of the University of Washington.
+
+The long and the short  of it is that debugging is hard, teaching is
+hard, and teaching debugging is hard.
+ 
+Without even getting to the difficulties, one of the interesting
+points discussed was that debugging is normally not the priority in CS
+classes. Classes, lessons, and assignments are about learning to
+program not how to debug programs. That makes debugging an add on and
+an unpredictable one at that. Students will have to deal with bugs and
+the time necessary not to mention the cognitive load isn't really
+factored in.
+
+This also got me thinking about designing debugging
+experiences. That's also really hard. It's easy enough to insert
+syntax errors but if students see them in an intelligent editor
+they'll be clued in to their locations. On paper, it's trickier but
+either are more cases of learning the syntax than debugging a
+program. To debug I'm thinking you really have to create a program or
+part of a program with the intent for it to do something and have it
+fail or do something else.
+
+Teachers could also make code samples that don't work as a result of
+logic errors but those are also hard. They can be too obvious -
+remember students are explicitly looking to fix them not discovering
+an unintended error in their own code or they can be so convoluted
+that in reality someone faced with the code would just rewrite it.
+
+So, what to do?
+
+Amy mentions that she asks students to write down what the program
+should do. If they don't understand what it should do it's even harder
+to understand what it's doing wrong. When a student comes to me saying
+"my program doesn't work" I'll frequently ask them what they want it
+to do. We then segue to "what did you tell the computer to do." I
+frequently tell students that computers are really bad at doing what
+you want them to do but really great at doing what you tell them to
+do. This leads to a couple of techniques. One, described here in
+another Brian Kernighan quote:
+
+<blockquote>
+Another effective [debugging] technique is to explain your code to
+someone else. This will often cause you to explain the bug to
+yourself. Sometimes it takes no more than a few sentences, followed by
+an embarrassed "Never mind, I see what's wrong. Sorry to bother you."
+This works remarkably well; you can even use non-programmers as
+listeners. One university computer center kept a teddy bear near the
+help desk. Students with mysterious bugs were required to explain them
+to the bear before they could speak to a human counselor.
+</blockquote>
+
+This of course related directly to [[https://en.wikipedia.org/wiki/Rubber_duck_debugging][rubber duck debugging]]. Also code
+tracing works well at this point. Rubber Duck Debugging is interesting
+because it's a example of convergent evolution having developed
+independently in both industry and education. Code tracing is
+interesting because it's used both to teach an understanding of
+programming and also as a debugging technique.
+
+Another point that came up is that as instructors we see the same
+errors from each new crop of students. Now, what do we do about it? Is
+it worth the students hitting that error wall and figuring out? Should
+we scaffold or prepare them? How much? It's an interesting point to
+ponder and there's no single right answer.
+
+A final point from the podcast related to CS culture as Amy pointed
+out: 
+
+<blockquote>
+ I Think it also interacts a lot with–going back to the culture of
+ computing–computer science, especially in higher education, is a
+ place where people like to signal their intelligence, right? It’s not
+ a place where we say, “You know, I had a hard time with this. I
+ worked really hard to get to this level of understanding.” It’s a
+ place where people say, “I figured it out because I’m smart and I’m
+ clever. Look at this clever thing I did.” Right?
+</blockqoute>
+
+Over my career I've found this to be true and it's something of a
+contradiction to the fail early and openly dictum we hear so often. I
+ray of light though is that at least at the more introductory levels
+there are efforts to change this culture.
+
+So, if you haven't listened to episode 3 take the time to do so. It's
+only about 25 minutes. 
+
+There's a lot more to talk about with debugging - using debuggers and
+other tools, testing, code reviews and on and on but for now I'll
+leave you with one last though on debugging with another Brian
+Kernighan quote:
+
+<blockquote>
+The most effective debugging tool is still careful thought, coupled with judiciously placed print statements.
+</blockquote>
