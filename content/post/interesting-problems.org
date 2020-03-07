@@ -1,0 +1,55 @@
+---
+title: Interesting Problems
+date: 2020-03-07T08:12:55-04:00
+tags: 
+- PD
+- CS 
+- teaching
+categories:
+- teaching 
+draft: false
+---
+
+I organize a monthly professional development session for CS
+teachers. It's targeted at teachers who are beyond the beginner stage
+and don't want yet another hello world blinky arduino scratch
+workshop. Don't get me wrong, given the need for CS teachers we need
+plenty of beginner workshops but we also need to take teachers to the
+next level. I refer to my workshops as being for teachers of APCS-A,
+similar, or beyond. Participants get three hours of CTLE credit and
+thanks to our gracious hosts at [[http://digitalocean.com][Digital Ocean]] get to use a great space
+and enjoy a free meal.
+
+I particularly enjoyed last weeks workshop for two reasons. One is
+that we talked about "interesting problems." This in itself is
+interesting because different teachers find different things
+interesting. For me, this time around, I was thinking of problems that
+could be approached by beginners but had some interesting insight that
+allowed them to look at the problem differently and solve it more
+efficiently. 
+
+The second reason I liked this session is because I wasn't the only
+one presenting!!!
+
+I started the session talking about the Happy Ladybugs problem - a
+Hackerrank problem I wrote about [[https://cestlaz.github.io/posts/happy_ladybug/][here]].
+
+I then passed off to Justin who talked about finding the [[https://en.wikipedia.org/wiki/Convex_hull][convex hull]]
+bounding a set of points. Justin talked about how you can relate this
+abstract geometry problem to real world problems like bounding
+neighborhoods as well as how this can be graphically motivated and
+then moved to discussing [[https://en.wikipedia.org/wiki/Convex_hull_algorithms][algorithms]]. Students can pretty easily come
+up with a in inefficient O(n^4) solution and then Justin talked about
+incrementally guiding them through alternate solutions ending with
+something that runs in O(nlgn). At the end of the day we had a problem
+that could be done in a variety of ways with students at different
+levels of experience. 
+
+We then moved to Barry's presentation of a [[http://www.baphl.org/20/][puzzle hunt]] problem he
+adapted. It involved decoding, translation, number bases and Barry
+uses it as a platform to work with stacks.
+
+I finished the evening talking about three problems but we didn't look
+at solutions. These were teasers for next time when we also hope to do a
+SIGCSE recap.
+
