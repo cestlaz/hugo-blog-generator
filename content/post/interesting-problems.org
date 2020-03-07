@@ -10,6 +10,8 @@ categories:
 draft: false
 ---
 
+
+
 I organize a monthly professional development session for CS
 teachers. It's targeted at teachers who are beyond the beginner stage
 and don't want yet another hello world blinky arduino scratch
