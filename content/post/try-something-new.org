@@ -1,0 +1,63 @@
+---
+title: Try Something New - Quicksort
+date: 2020-03-09T11:11:51-04:00
+tags: 
+- pedegogy
+- sorting
+categories:
+- pedagogy
+draft: false
+--- 
+
+Many teachers are reluctant to try new things. Sometimes it's a bad
+case of "I'vealwaysdoneitthisway-itis." Sometimes it's not being
+comfortable with the new way or not having the time to develop
+whatever happens to be needed for the lesson and sometimes it's even
+coming from a good place. 
+
+What's that good place? Concern - if I try this new way and it doesn't
+work I'm going to lose some students and never get them back. My
+population is too at risk. 
+
+Ok, I buy that but I don't agree with it.
+
+There will be a normal ebb and flow to your lessons anyway. Some days
+will be great, some not so much. Some lessons will be amazing, some
+will put the kids to sleep. Besides, you can almost always recover
+from a bad experience the following week.
+
+Last week was Quicksort time. I've approached the problem in a variety
+of ways over the years. I straight out presented the algorithm,
+approached it from a [[https://cestlaz.github.io/posts/2010-03-14-sorting-from-top-and-from-bottom.html/][functional point of view]], [[https://cestlaz.github.io/posts/quick-sort-starting/][put a specific element
+in place]], approached it from a [[https://cestlaz.github.io/posts/2014-03-12-select-to-sort.html/][select the nth smallest]] item point of view
+and probably a few others.
+
+This time, I thought I'd try code tracing. The motivation was that the
+in place partition algorithm can be a little hairy. The idea is
+actually pretty simple but first year CS2 students can find it
+difficult. This time, I presented them with the code and some trial
+runs for them to trace through. From there we developed the algorithm
+
+I won't know if this approach was effective or not until next week but
+my gut was telling me that it was a bit bumpy. I don't think I was
+effectively  able to connect from the code they worked through up to
+the algorithm. Some of the other approaches I've tried over the years
+left me equally unimpressed with myself but at the end of the day they
+weren't disasters so I'm guessing the class will ultimately prove to
+have been alright. Right now, I think the approach I used a couple of
+years ago of motivating quicksort by putting a specific element in
+place works best for me and my classes. 
+
+The moral of the story? I tried something. I don't think it worked
+particularly well. That's okay. I'll probably rework it and try it
+again in the future but as for today I know my kids will be
+fine. Maybe I botched the quicksort a bit but I'll fix that over the
+next few classes.
+
+The real lesson of the day - Don't be afraid to try something new. We
+want our students to be unafraid of failure. We should be as
+well. It's rare the stakes are so high that we can't stumble an bumble
+a bit of a lesson and not recover. 
+
+When I was just starting out one of my mentors gave me some great
+advice: "You can always fix it tomorrow."
