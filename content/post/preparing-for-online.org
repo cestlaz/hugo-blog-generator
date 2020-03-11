@@ -1,0 +1,61 @@
+---
+title: Preparing to teach Online
+date: 2020-03-10T23:54:18-04:00
+tags: 
+- edtech
+- online
+categories:
+- online 
+draft: false
+--- 
+
+I've been seeing some tweets over the past couple of days about the
+wonders of online teaching. How it's at least as good or better than
+in person or how we should have been doing it all along. 
+
+Rubbish.
+
+If you say that online is better than in person that says more about
+the (low) quality of your teaching than it does about the quality of
+online tech teaching resources.
+
+I mean, it's pretty clear that anything you can do online you can do
+in person since you can still avail yourselves of the same tech tools
+while you can also do the in person live stuff. Online you've only got
+online.
+
+Looking at it another way, is an online show, concert, or sporting
+event (weather notwithstanding) ever better than the live thing?
+There's something about in person even when you take away the
+connection between teacher and students and students and students that
+makes it special.
+
+While online isn't better there are times where it's necessary or can
+be used to complement or enhance in person. 
+
+Hunter hasn't made any announcements about any closings due to COVID19
+but it would be foolish not to prepare. I also want to figure out if
+some of my CS Teacher Certification program can be offered remotely as
+not all interested teachers can get to campus. For these reasons and a
+few more, I think I'd like to try to do at least a couple of my
+classes remotely over the next few of weeks (sooner if it's forced
+upon us).
+
+Technology shouldn't be a problem - all my students get a laptop as
+part of the Daedalus program. The only questions are will they have
+sufficient bandwidth if they're joining from home and if they have a
+suitable location from where they can connect in.
+
+As part of Hunter's School of Education I can use Zoom and that has
+the video conferencing, chat, screen sharing and whiteboarding. The
+only thing I have to workout  is how to use the breakout room features
+for group work and to see if that can flow nicely in the class. I've
+got a couple of lessons that should work pretty well as first time
+experiments so overall it should be pretty easy to give it a go.
+
+Will it be as good as live? No. Will it be better than nothing?
+Absolutely. Is it worth burning a live class to learn a bit about
+online - to see what can be done without extensive training and class
+prep and to see what can be leveraged in a pinch? I think so.
+
+If it happens, I'll report back.
