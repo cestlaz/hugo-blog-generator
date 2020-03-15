@@ -1,0 +1,71 @@
+---
+title: Using Emacs Episode 68 - Tramp and org-publush
+date: 2020-03-14T20:57:08-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+I maintain a couple of small simple web sites. One provides
+information about my undergraduate [[http://info.huntercs.org/scholars/][honors CS program]] and another that
+isn't live yet is a FAQ for my [[http://info.huntercs.org/teacher_ed/faq.html][CS teacher certification program]]. 
+
+Traditionally I would use ssh to connect to the host machine, fire up
+Emacs and edit the html files to update the sites. I always forget
+that with Emacs we can do better.
+
+One way is with [[https://www.emacswiki.org/emacs/TrampMode][Tramp Mode]]. I was reminded of this by JCS's recent
+[[https://irreal.org/blog/?p=8705][post]]. With Tramp, you can open a file on a remote host and edit it in
+place. This means I get my full Emacs config but am editing the file
+over there!!! It's very slick but I always forget about it even though
+I had already made [[https://cestlaz.github.io/posts/using-emacs-25-tramp/][a video on it]]. 
+
+Tramp is cool but I was still editing the html directly. I figured it
+would be easier to just use org-mode but that required figuring out
+how to make the html produced by org-mode look nice. Fortunately, it's
+not hard.
+
+We can turn off the default CSS used by org-mode
+using:
+
+#+BEGIN_SRC org
+#+OPTIONS: html-style:nil
+#+END_SRC
+
+Or if we want add custom CSS using one or more of these:
+
+#+BEGIN_SRC org
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style1.css" />
+#+HTML_HEAD_EXTRA: <link rel="alternate stylesheet" type="text/css" href="style2.css" />
+#+END_SRC
+
+We can also embed html and custom CSS in our org-files.
+
+[[https://orgmode.org/manual/CSS-support.html][This page]] from the org-mode documentation also lists many of the html
+components that are styled by default. 
+
+Armed with custom CSS we can use the org-mode exporting facilities to
+convert the file to a web page but the final step is to use
+[[https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html][org-publish]]. This lets us export one or more org-mode files and save
+the result in some specified directory. You can also publish static
+files like CSS files and images to go with the org to html
+files. Finally by using the tramp syntax we can publish to a remote
+host. 
+
+The goes through all of this. 
+
+Enjoy.
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/tlCOsigPjk8" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
