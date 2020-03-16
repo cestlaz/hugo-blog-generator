@@ -1,5 +1,5 @@
 ---
-title: Using Emacs Episode 68 - Tramp and org-publush
+title: Using Emacs Episode 68 - Tramp and org-publish
 date: 2020-03-14T20:57:08-04:00
 tags:
 - emacs
