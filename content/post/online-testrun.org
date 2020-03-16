@@ -1,0 +1,74 @@
+---
+title: Teaching online - a test run
+date: 2020-03-16T16:49:36-04:00
+tags:
+- online
+categories: 
+- online
+draft: false
+--- 
+
+Hunter's classes are still on hiatus while we figure out how we're
+going to deliver instruction remotely. I have it easier than
+most. First, my students all get laptops as being part of the Daedalus
+program. This doesn't mean they have great internet access or access
+at all but it does mean they have a device that can run everything we
+need them to run. I don't yet know if they all have adequate internet
+access but I'm hoping it's either not an issue or one that we can
+easily figure out.
+
+Next, software. Again, I'm lucky. Zoom seems to be the best of breed
+for synchronous stuff and as faculty in the school of education, I
+have an account. The rest of the CS faculty don't. The rest of Hunter
+has to use some combination of Blackboard based tools and freely
+available stuff. 
+
+Today, we tested everything out. I had about 10 students volunteer. We
+did a Zoom meeting and tried all the feature: 
+
+- public and private chat
+- screen sharing
+- whiteboards
+- breakout rooms
+
+The breakout rooms were the big thing I wanted to check out. They're a
+little clunky but overall pretty nice. It's a bit kludgey when someone
+joins the conference after breakout rooms are formed but overall it
+worked well.
+
+For async stuff we'll mostly stick with the same tools - email, GitHub
+and GitHub classroom but I think we'll also give Slack another go. My
+problem with Slack is that it didn't seem to work well within the
+students day. It may work for a professional in front of their screen
+most of the day but students are in and out of class and other
+obligations. They'll miss the real time flow and then have to navigate
+through a muddy thread stream to catch up.
+
+Now with everyone working from home Slack might be a better fit. We'll
+see.
+
+Thursday I go live. 
+
+I think the lesson I'm planning for my CS1 translates pretty easily to
+online but might have to work my CS2 plans. In any event we'll see how
+it goes.
+
+I'm sure the rest of the semester will be challenging for all of us
+but I also know it's okay if we fumble through and make mistakes. [[https://cestlaz.github.io/post/focus-to-feel-normal/][It's
+not all about the content]]. 
+
+Would love to hear from my fellow teachers how it's working with
+them. Alfred Thompson has already been blogging about [[http://blog.acthompson.net/2020/03/teaching-from-homeday-1.html][his experiences]]
+with going remote so we're getting play by play from a rural private
+(Catholic) high school. I'll add the NYC public college
+experience.
+
+If you want to share how it's going for you but don't blog, send it as
+a long comment or do a guest post.
+
+We'll all be more isolated physically over the next few weeks so let's
+share more in the digital world.
+
+
+
+ 
