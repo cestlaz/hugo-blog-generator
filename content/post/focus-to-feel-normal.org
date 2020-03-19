@@ -3,6 +3,7 @@ title: Focus To Feel Normal
 date: 2020-03-14T17:46:35-04:00
 tags: 
 - community
+- covid-19
 categories:
 - community 
 draft: false

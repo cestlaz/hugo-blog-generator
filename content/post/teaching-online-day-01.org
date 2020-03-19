@@ -1,0 +1,80 @@
+---
+title: Teaching Online -  Day 01
+date: 2020-03-19T11:48:20-04:00
+tags: 
+- online
+- covid-19
+categories: 
+- online
+draft: false
+--- 
+
+I taught my first two online classes this morning. The first one from
+8:10 - 9:25 and the second from 9:45 - 11:00.
+
+
+Toolset:
+
+- Zoom meetings
+- Emacs (yes, not just an editor)
+
+First up Zoom.
+
+I think I want a video camera on policy. All my students should have
+laptops with working cameras. Some students might have issues with
+showing even a small bit of what's behind them so I don't want to make
+it required but I really wish they'd also have cameras on.
+
+Why?
+
+To get some level of visual feedback and interaction. Having made over
+60 [[https://cestlaz.github.io/stories/emacs/][Emacs videos]] I'm used to talking to my own screen but when you know
+you've got a live audience that you're working with it's different. If
+I'm just talking to a bunch of black boxes with names in them I don't
+feel any connection with my students. If I see them I feel we're
+together.
+
+This was also an issue when I went to screen sharing. Now Zoom handled
+the screen sharing terrifically.  You can share either one specific
+window, a virtual whiteboard or your whole screen. When sharing,
+though, instead of seeing a bunch of small windows with lots of people
+in them you only see around four which isn't representative of the
+whole class. Better than nothing but I wish I had a long line of boxes
+that could easily scroll.
+
+Another thing with the screen sharing - it worked great but this is
+also where two monitors would be helpful. I went from two 30" monitors
+to one 43" 4K monitor. I love my current setup but it seems with Zoom
+you share all or nothing. I'm guessing with two monitors I could share
+one monitor and use the other for notes and staging. With one big
+monitor I can't do this - I have to share the whole screen. Not a huge
+problem but makes things a bit less smooth.
+
+This is where Emacs comes in.
+
+For a decent part of the lesson, I'd share my Emacs window. Since I
+can split the window and quickly jump between buffers (screens) I
+could bring up a variety of things. I had a shell in one buffer so I
+could run terminal stuff, a source code buffer, one in org-mode for
+outlines and table work and one in artist mode for rudimentary
+diagramming. I think it worked reasonably well for a first shot.
+
+Finally, we also used the Zoom chat. Some students would mic on and
+off to take part but more used the chat. It was a bit weird at
+first. I'd talk, they'd write but both classes got into a pretty good
+tempo after a while. I think it could work. Interesting though was
+that my first class had a bunch of cross class chat in the general
+(public) chat during the lesson. Silly remarks back and forth. Truth
+be told, I liked it. My second class didn't although there might have
+been some of that in private chats.
+
+I asked the classes to share what their other instructors are doing
+and using and I'm really interested in hearing. I'm also hoping that
+they're open with me in terms of what's working and what isn't. I want
+this to be the best experience for them that we can create and I'm not
+so proud as to think I know how to do it and that they don't know
+better.
+
+Now to plan for the next one.
+
+

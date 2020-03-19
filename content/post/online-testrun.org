@@ -3,6 +3,7 @@ title: Teaching online - a test run
 date: 2020-03-16T16:49:36-04:00
 tags:
 - online
+- covid-19
 categories: 
 - online
 draft: false
