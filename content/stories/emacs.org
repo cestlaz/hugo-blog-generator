@@ -134,3 +134,4 @@ disable_comments = true
 ** [[/post/using-emacs-66-eshell-elisp][Video 66 - Eshell - Elisp]]
 ** [[/post/using-emacs-67-emacs-rant][Video 67 - Emacs vs Vi(m)]]
 ** [[/post/using-emacs-68-tramp-org-publish][Video 68 - Tramp and org-publish]]
+** [[/post/using-emacs-69-floobits][Video 69 - Floobits]]

@@ -1,0 +1,38 @@
+---
+title: Using Emacs 69 Floobits
+date: 2020-03-21T10:52:37-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+Hunter, like most other schools has gone remote. I taught my first two
+[[https://cestlaz.github.io/post/teaching-online-day-01/][online classes]] on Thursday. Currently, I'm using Zoom for synchronous
+stuff and a mailing list and slack for async. 
+
+There are still some missing pieces. When we're all together, it's
+easy to look at a student's work and talk them through issues. It's
+also easy to get students to work together, at least to a point. With
+everyone locked up in their own homes, real time collaboration is
+harder. Sure, we can use tools like GitHub issues and pull requests
+for async code commentary but what about live help and pairing? If
+we want to use an online environment, [[https://repl.it][repl.it]]  - a platform I very
+much like fits the bill. On the other hand, what do you use if you
+want to work collaboratively in real time using a local editor. 
+
+That's where [[https://floobits.com][Floobits]] comes in. Floobits is a platform that provides
+for collaborative live editing. It works with Emacs, Neovim, Sublime
+Text, Atom, and IntelliJ (and maybe all the Jetbrains IDEs). They
+support a free tier which only has public workspaces but that's fine,
+as far as I'm concerned, for educational purposes. 
+
+Check out the video to see how I set it up:
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/-0x4PV1EB5w" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
