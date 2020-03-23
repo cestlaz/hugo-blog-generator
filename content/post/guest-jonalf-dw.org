@@ -1,5 +1,5 @@
 ---
-title: Guest POst - Missing out on a great opportunity in education
+title: Guest Post - Missing out on a great opportunity in education
 date: 2020-03-23T06:53:49-04:00
 tags: 
 - policy
@@ -7,10 +7,26 @@ tags:
 - guest
 categories: 
 - policy
-draft: true
+draft: false
 --- 
 
+* Preamble
 
+I've never accepted a guest post before but when my friend and long
+time colleague JonAlf Dyrland-Weaver said he had something to say I
+was all for it. 
+
+JonAlf's one of the best teachers I know - he started at Brandeis HS and
+has been at Stuy forever. Really sharp guy, great teacher, and really
+perceptive. When he has something to say it's 100% worth listening
+to. 
+
+To JonAlf - since I know this is one of my blog posts you'll actually
+read - you should set up a blog of your own. The community would be
+all the better for it.
+ 
+*  Missing out on a great opportunity in education
+** By JonAlf Dyrland-Weaver
 In the wake of the COVID-19 crisis, educators across the nation are
 adapting to remote learning. I’ve watched my colleagues work hard
 putting together plans on how to deliver content, engage students and
@@ -23,29 +39,29 @@ thinking through what my plan was going to be, a particular thought
 kept nagging at me:
 
 
-How much of this work will be seen?
+** How much of this work will be seen?
 
 
 We are facing an amazing opportunity in the world of education. Think
 of how many lessons, worksheets, notes, examples, etc. are being put
 out in some electronic form.
 
-How much of this work will be seen?
+** How much of this work will be seen?
 
 Students will (hopefully) have access to the materials for their
 classes, and teachers in the same school may also be able to.
 
-How much of this work will never be seen?
+** How much of this work will never be seen?
 
 What about the teacher three states away that’s struggling to find good resources or new problems?
 
-How much of this work will never be seen?
+** How much of this work will never be seen?
 
 What about the student in a different district, perhaps one that has
 shut down entirely, who just wants to learn and do some work in order
 to help fill the days?
 
-How much of this work will never be seen?
+** How much of this work will never be seen?
 
 The internet gives us the ability to put all of these resources out
 there to the public, and it pains me to think about how much of this
@@ -64,11 +80,17 @@ you have the knowhow, or would like to learn, there are ways to make
 your work publicly available. Last summer Mike and I ran a session at
 the CSTA conference on using GitHub for just this purpose, and hope to
 run a workshop on it this summer (For those interested, I made a brief
-tutorial about how to do this: https://youtu.be/KzSE_H3rfMs).
+tutorial about how to do this.
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/KzSE_H3rfMs" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
 
 For my part, I’ll be putting everything on my class websites, if you
 need any ideas for intro to cs in python here’s my class:
-https://www.stuycs.org/intro1-dw/. If your’re looking for advanced cs,
+[[https://www.stuycs.org/intro1-dw/][https://www.stuycs.org/intro1-dw/]]. If your’re looking for advanced cs,
 I’ve got a computer graphics class here:
-https://www.stuycs.org/graphics-dw/.
+[[https://www.stuycs.org/graphics-dw/][https://www.stuycs.org/graphics-dw/]].
 
