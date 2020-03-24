@@ -1,0 +1,92 @@
+---
+title: Necessity is the mother of invention
+date: 2020-03-23T18:59:40-04:00
+tags: 
+- pedagogy
+- teaching
+categories: 
+- teaching
+draft: false
+--- 
+
+I didn't expect to read a Fred Wilson post on [[https://avc.com/2020/03/teaching-online/][teaching online]] but
+that's what I found when I visited [[https://avc.com/][his blog]] this morning. Don't get me
+wrong - I suspect that Fred has the makings of a great teacher, it's
+just not what I expected to find. There have been many posts about
+education but I don't recall any about teaching or more specifically
+the art of teaching. I did find [[https://avc.com/2011/07/teaching/][this post]] though which actually speaks
+to some of the thoughts today's post got churning.
+
+Fred describes what sounds like a typical "lecture style" lesson he's
+delivered numerous times. This time, it would be delivered via
+Zoom. Now, Zoom is great but it's harder to do an interactive
+lecture - ie active learning online than it is to do in person which
+is what I'm guessing led him to set up some starter Google sheets and
+use these shared documents for an active project based class.
+
+At the end of the post, now that he came up with what sounds like
+a much stronger approach. Fred wonders if he'll ever teach this class
+any other way. 
+
+The first thing I thought was that this would be even better in
+person. I don't know the specifics but I could think of a number of
+ways of running this. All in person with time to work on the
+spreadsheets is one. Giving some pre-work and the sheets and then pick
+up somewhere in the middle is another. In person gives the feel - the
+live interaction where a teacher can read the class but there's no
+reason why we can't also leverage tech tools like shared Google
+sheets in a live classroom.
+
+Then I got thinking about necessity being the mother of
+invention. Nothing stops us from changing things up, from trying
+something in normal times but when the norm is disrupted sometimes it
+spurs creativity or changes focus. I
+try to continually evolve as a teacher but I'm no better than anyone
+else and get caught in ruts. I force myself to try new
+things. Sometimes they work and it's great and sometimes [[https://cestlaz.github.io/post/try-something-new/][they
+don't]]. Live and learn. On the other hand, when all if a sudden you can't do things the
+usual way the brain works on alternatives. 
+
+One example was the lesson where I
+"invented" live coding. It was a direct result of a forced change -
+for some reason, and I don't recall why, I couldn't do things the way I
+wanted that day so I winged it. Years later, I was chatting with a
+former student and he, out of the blue mentioned that that lesson had
+a profound influence on him. 
+
+Right now, I'm teaching using Zoom, slack, videos and email. Not being
+in a room with my kids sucks. I feel less connected and it's much
+harder to read the class. What am I doing? On the one hand, I'm not
+trying to change that much at once as I want my students to have some
+stability in an uncertain time but I am working on new things. The
+nice thing is that whatever I come up with I can share with my fellow
+teachers here and take with me back into the classroom. 
+
+This was my big takeaway but the post also reminded me of why I turn
+to teachers before I turn to "the research" or policy makers on how to
+teach. Fred described the evolution of a lesson and a teaching
+technique. What he essentially described is what teachers do every day
+and we have to do it accounting for all the variables that the
+research can't. We teach multiple classes a day every day of the
+week. We try things, assess the results, rinse and repeat. I get that
+all teachers don't do this but the good ones do.
+
+The final thought I had was with the reality that while coming up with
+interesting active learning experiences is great it also takes a lot
+of time and there's not much time when you're teaching five classes a
+day five days a week to 150 kids along with grading, advising, and
+everything else. This is why I tell young teachers that you always
+want to evolve and improve but not every lesson is going to be a home
+run and that's okay.
+
+It's particularly important for teachers to remember this now as
+across the nation they're re-inventing their syllabi on the fly to
+move from in person to online and they're doing it without time,
+training, and in some cases tools. 
+
+Do the best you can and continue to develop your toolset. Not every
+new online experience will be great but if they're sincere, your kids
+will know. In the end we'll all be okay and back to normal but with a
+whole bunch of new tricks up our sleeves.
+
+
