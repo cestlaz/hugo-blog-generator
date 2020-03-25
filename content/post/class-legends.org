@@ -1,0 +1,116 @@
+---
+title: Class Legends
+date: 2020-03-25T15:43:54-04:00
+tags: 
+- teaching
+- community
+categories:
+- community 
+draft: false
+--- 
+
+Let's talk about something other than distance learning and COVID-19.
+
+You know you've been doing something a long time when you've got
+legends.
+
+Over on my alumni mailing list JonAlf shared a web site showing off
+what his current students were doing in their computer graphics
+class. Somewhere in the thread, Con replied:
+
+
+<blockquote>
+Someone should put up a video of the fabulous and fantastically famous
+hand animation called FINGER.MDL. It dates from a little before my
+time, but stories elevated it to legendary status.
+</blockquote>
+
+
+Indeed it had reached legendary status. Other projects over the years
+including Larry's anatomically correct robot had also risen to
+infamy. 
+
+A little later in the thread the project's author Josh chimed in and
+shared his original source code. He still had it from May 1995. I'm
+not entirely surprised - I had a copy of the code as well. The trouble
+is it was written in Turbo-C on a DOS machine. Good luck compiling it
+on a modern system. Fortunately, Josh was able to build and run the
+project using an emulator. Check out the  marginally NSFW video at the
+end of the post.
+
+So, what's the legend? Well, in addition to being a pretty terrific
+project - particularly when you remember the horsepower it was running
+on and that it was written by a student who was concurrently finishing
+APCS, there's a story.
+
+It starts in one of my APCS classes. Students were working on final
+projects. Tom was working on Tetris - an impressive project for APCS
+done in Turbo Pascal. Tom wanted to add music to the project and had a
+clever way of doing it. Back then you could get basic sounds by
+turning on and off the speaker at certain frequencies. Tom had two
+arrays, one with frequencies and one with durations.
+
+Something like: 
+
+{{< highlight python >}}
+notes=[440,523,440,659,...]
+durations=[20,50,15,30,...]
+{{< /highlight >}}
+
+Then for the game loop
+
+{{< highlight python >}}
+#+begin_src python
+
+  current_note=0
+  note = notes[current_note]
+  duration = durations[current_note]
+  play(note) # starts the note playing until you change or stop it
+  while game_not_over:
+      duration = duration - 1
+      if duration <= 0:
+          current_note = (current_note+1)%length(notes)
+          note = notes[current_note]
+          duration = durations[current_note]
+          play(note) # starts the note playing until you change or stop it
+      # the rest of the game loop
+  stop_playing() # stop the speaker
+
+    
+
+#+end_src
+{{< /highlight >}}
+
+Still, he had to figure out all the frequencies and durations for
+"Korobeiniki," the tetris song. The class was more than happy to help.
+
+Everyone's working to help figure this out for Tom. It's all pretty
+cool when in walks Jinx Perullo - Stuy's new principal along with the
+President of the New York City Board of Education. The President's jaw
+drops as she hears a cacophony of Tetris music and screen after screen
+of Tetris being played!!!!! 
+
+Jinx makes an abrupt about face and drags the dignitary out of the
+room. 
+
+Fast forward a week or so. We're in the graphics class at the end of
+the day - it was held during an non-existent after school period so
+that the students could attend. Josh's working on his graphics program
+at a computer by the door.
+
+Jinx walked in again. This time with the school's chancelor to be
+greeted by:
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/Ca_8q3ct6J4" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+Once again, a quick about face.
+
+For some reason Jinx never brought important people to my classes
+again.
+
+
+Those were indeed the good old days.
+
