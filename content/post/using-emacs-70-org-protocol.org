@@ -1,0 +1,115 @@
+---
+title: Using Emacs 70 Org Protocol
+date: 2020-03-27T15:15:28-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+I spent part of today cleaning up my Emacs workflow. Specifically, how
+I capture emails and links into org-mode
+
+I already wrote about how I used org-capture ([[https://cestlaz.github.io/posts/using-emacs-23-capture-1/][here]] and [[https://cestlaz.github.io/posts/using-emacs-24-capture-2/][here]]). It's
+pretty clean and easy but there was one thing that always nagged at
+me. When I capture from mu4e within Emacs by hitting ~C-c m~ it's set
+up to automatically populate the capture template with a link to the
+email labelled with the email's subject. When I do it from Gmail or
+to store a web link as a bookmark, I have to copy and paste the link
+in manually.
+
+That's where [[https://orgmode.org/worg/org-contrib/org-protocol.html][org-protocol]] comes in. We can use org-protocol to link
+between a browser and Emacs. 
+
+First you have to run Emacs as a server. You can start the Emacs
+server using ~(server-start)~ but I always run emacs using a shortcut
+key bound to ~emacsclient -c -a ""~. This runs emacsclient and
+connects to my running Emacs server but if the server isn't running it
+starts it. That meant that I only had to add ~(require 'org-protocol)~
+to my Emacs config file.
+
+I followed the instructions in the documentation by typing in these
+lines:#using-emacs-70-org-protocol.org#
+
+{{<highlight bash >}}
+gconftool-2 -s /desktop/gnome/url-handlers/org-protocol/command '/usr/local/bin/emacsclient %s' --type String
+
+gconftool-2 -s /desktop/gnome/url-handlers/org-protocol/enabled --type Boolean true
+{{</highlight>}}
+
+but that didn't seem to work.
+
+I ended up following the instructions I found in [[https://stackoverflow.com/questions/7464951/how-to-make-org-protocol-work][this post]] creating a
+file named ~org-protocol.desktop~ in the folder
+ ~~/.local/share/applications~ containing:10-years-blogging.org
+{{<highlight bash>}}
+[Desktop Entry]
+Name=org-protocol
+Exec=emacsclient %u
+Type=Application
+Terminal=false
+Categories=System;
+MimeType=x-scheme-handler/org-protocol;
+{{</highlight>}}
+
+and then running ~update-desktop-database
+~/.local/share/applications/~.
+
+This seemed to do the trick. 
+
+I also modified my link capture template: 
+
+{{<highlight lisp>}}
+("l" "Link" entry (file+headline "~/Sync/orgfiles/links.org" "Links")
+                    "* %a %^g\n %?\n %T\n %i")
+{{</highlight>}}
+
+Finally, to get things basically to work, I installed [[https://github.com/sprig/org-capture-extension][this]]
+extension. I configured it to use my "l" or link capture
+template. Once everything was installed I went to a web site and
+clicked the plugin. I was popped into Emacs with the capture template
+up and filled in. I did it again, this time marking text and hitting
+the button and again everything worked.
+
+Looking at the template, the ~%a~ is replaced by the web page link,
+the ~%i~ with the marked text, the ~%T~ with the timestamp and the
+cursor is left at the ~%?~.
+
+I wanted to make one more change. I wanted to also use this for
+storing Gmail links. The problem was that I wanted my links to be
+sored in a file named ~links.org~ while I wanted my Gmails stored
+under my main org file ~i.org~. By reading the org-protocol page I
+found that I could just create a bookmark.
+
+Copied mostly from the docs, I made a bookmark with this as the link
+(all in one line):
+
+{{<highlight javascript>}}
+  javascript:location.href='org-protocol://capture://m/'+
+      encodeURIComponent(location.href)+'/'+
+      encodeURIComponent(document.title)+'/'+
+      encodeURIComponent(window.getSelection())
+{{</highlight>}}
+
+It worked perfectly. 
+
+This time I used this as the template:
+
+{{<highlight lisp>}}
+("m" "Mail To Do" entry (file+headline "~/Sync/orgfiles/i.org" "To Do and Notes")
+  "* TODO %a\n %?" :prepend t)
+{{</highlight>}}
+
+That's it. Now I can store emails in Emacs or Gmail as well as
+bookmarks without any cut and paste. 
+
+Here's a video with the walkthrough:
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/FYKcVKg0OCU" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
