@@ -32,7 +32,7 @@ starts it. That meant that I only had to add ~(require 'org-protocol)~
 to my Emacs config file.
 
 I followed the instructions in the documentation by typing in these
-lines:#using-emacs-70-org-protocol.org#
+lines:
 
 {{<highlight bash >}}
 gconftool-2 -s /desktop/gnome/url-handlers/org-protocol/command '/usr/local/bin/emacsclient %s' --type String
@@ -44,7 +44,7 @@ but that didn't seem to work.
 
 I ended up following the instructions I found in [[https://stackoverflow.com/questions/7464951/how-to-make-org-protocol-work][this post]] creating a
 file named ~org-protocol.desktop~ in the folder
- ~~/.local/share/applications~ containing:10-years-blogging.org
+ ~~/.local/share/applications~ containing:
 {{<highlight bash>}}
 [Desktop Entry]
 Name=org-protocol
