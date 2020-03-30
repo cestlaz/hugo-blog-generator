@@ -1,0 +1,65 @@
+---
+title: Limitations Of Remote Teaching
+date: 2020-03-30T14:41:35-04:00
+tags: 
+- pedagogy
+- teaching
+categories:
+- teaching 
+draft: false
+--- 
+
+While tools like Zoom, Slack and others are a tremendous boon as we're
+forced to do all our teaching remotely the limitations become apparent
+as we settle in and try to go beyond the basics of an offsite meeting.
+
+Today was [[https://cestlaz.github.io/post/code-review-2/][code review]] day in my CS1 class. It's a lesson that I enjoy
+teaching and I think my students get a lot out of it. Today we had to
+do it remote. The mechanics were largely the same:
+
+ 1. Pair off the kids.
+ 2. Have them write out a commentary on their partners code without discussion
+ 3. pair off again
+ 4. Have one review the others code but this time via discussion and
+    note taking.
+ 5. Get everyone together and discuss
+
+Zoom supported all the basics. Splitting the class was pretty easy via
+the breakout room interface and students were able to flag me when
+they wanted to bring me in to their breakout. It was also pretty easy
+to move newcomers into a room. There were some interface nits that
+Zoom has to address like how when I entered and left a breakout room I
+ended up losing part of the breakout window interface but I figured
+out a workaround.
+
+The big difference and limitation was that I couldn't just lurk. In
+a live in person class, I get a top down view. I can basically see what all the
+pairs are doing. I can't get the details from a distance but I can
+basically see what's going on. I can also sidle over near a group to
+see how they're doing without being obtrusive. I can also see some of
+the students screens and notebooks to get the gist of what's going on
+and focus in on individual conversations.
+
+You can't do these things with Zoom and I daresay you can't with any
+remote conferencing platform. When I wasn't in a breakout room I was
+alone in the main room. When I was in a breakout room it was obvious I
+joined and that in and of itself changed the room dynamic. I also
+couldn't see anything the kids were writing on paper or on screen
+unless they explicitly shared it. 
+
+All of this changes the dynamic big time and limits my effectiveness
+as a teacher. 
+
+Don't take this to mean I'm down on Zoom. I'm really loving the tool
+and without it or similar products my students would be getting *much* 
+less during this crisis. 
+
+It's just a reminder that teaching is a contact sport and as much as
+some people will tell you otherwise the best instruction is in person
+in a small class with a knowledgeable dynamic teacher. We're not
+getting back there this semester but here's hoping that we get back by
+Fall.
+
+
+
+
