@@ -1,0 +1,118 @@
+---
+title: To Zoom or not to Zoom
+date: 2020-04-07T14:03:13-04:00
+tags: 
+- tools
+- ed tech
+- covid19
+categories: 
+- ed tech
+draft: false
+--- 
+
+Zoom has been on a wild ride. As teachers scrambled to try to deliver
+instruction from there homes to student homes Zoom quickly became a
+favorite. It was easy, performed well, and had features that other
+services seemed to lack. Features like being able to mute students and
+for me a big one - breakout rooms. Now, these features weren't
+flawless as I mentioned [[https://cestlaz.github.io/post/limitations-of-remote-teaching/][in my last post]] but that's okay. Zoom wasn't
+designed to be a virtual classroom and has worked remarkably well
+given that it was designed as a tool for traditional business. 
+
+Soon though there was blowback. 
+
+Zoom has privacy issues.
+
+Zoom is sharing your data with Facbook.
+
+Zoom is insecure.
+
+[[https://en.wikipedia.org/wiki/Zoombombing][Zoombombing]] will destroy our kids.
+
+And the love affair was over.
+
+I quickly began noticing "Zoom shaming" on Twitter and Facbook. Public
+figures and even other teachers shaming teachers for wanting to
+continue with Zoom. 
+
+In NYC, the DOE quickly moved to ban the tool. Showing their usual
+level of respect for teachers, they announced this at the very end of
+the week and told them they had to figure out how to live without it
+by Monday morning. Oh, by the way, technically teachers are hourly
+employees. This came on top of them canceling spring break - a break
+that many teachers were counting on to both catch their breath and
+also to figure out this brave new world, after all they were given
+pretty much zero lead time and zero training and have been doing all
+this under the gun and yet still have done a yeoman's job of caring
+for their students.
+
+But I digress. I don't really want to talk about the DOE and our
+government's shortcomings here. I want to specifically address Zoom.
+
+Let's talk about the data sharing. Is that an issue? Sure. I don't
+know the extend of the data that they were sharing but users should
+have control over their data and information. Forget about
+regulations, just in terms of right and wrong this should all be
+transparent and teachers, students, and parents should be able to opt
+in or out and there should be no downside to opting out. What gets me
+though is that the DOE is all of a sudden concerned about student
+data!!! When did that happen. Seems hypocritical that now this is an
+issue as opposed to, well, sharing data with the college board,
+charter schools, and who knows how many other private entities. 
+
+Next up, zoombombing and the like. It seems that if you follow
+best practices - having students use names and using a conference
+password and waiting fooms that's taken care of.
+
+Security? I keep hearing about Zoom's lack of encryption. I'm not an
+encryption expert but there is still transport level end to end
+encryption. It's just that Zoom isn't encrypting data at the
+endpoints. From what I understand this could still leave a conference
+open to man in the middle attacks but I'm really not sure how great
+the risk is. What I do know is I keep seeing posts and tweets by
+people who I'm fairly sure no next to nothing about either encryption
+or network security spouting off as experts.  
+
+The bottom line is that most teachers are going well above and beyond
+to do the best they can for their students. I'll also say that the DOE
+and politicians care for students as a whole but teachers care for
+them as individuals and that's important to remember. Teaching is
+already incredibly hard. Teaching a single class doesn't just involve
+standing and teaching for 40 minutes. It involves planning, then
+teaching, then reflecting. A synchronous tool like Zoom best
+approximates this. It might not be the best way to do things remotely
+but it's a quick way to connect with your students and to give them
+something both in terms of content and normalcy while figuring out how
+to do it better (hence the importance of that now erased spring
+break). If a teacher has to go async or only do chatting async they
+still have to do all the planning and reflecting but also might have
+to make videos without the benefit of feedback, copious handouts or
+who knows what. Maybe Zoom isn't the best tool but for many teachers
+it's the best tool for right now.
+
+Teachers should be given access to all manner of tools and be trusted
+to make the appropriate decision given the circumstances. Does Zoom
+have issues? Sure. Might it violate policy or regulation? Sure but
+these are not normal circumstances.
+
+When I was rounding up strays on 9/11, fleeing from Stuy as the towers
+fell, ultimately taking them to my apartment in Chelsea only to later
+deliver them home I'm sure I violated any number of DOE
+regulations. In the days and weeks that followed I'm sure I violated
+more as I attempted to work to connect students and families together
+and then to deliver the best instruction I could under trying
+circumstances. You know what - I bet those students and their parents
+didn't care that I violated any policies. Years later I heard from
+parents - parents of kids that I didn't even teach thanking me for
+what I did for them and their children. When you're in a crisis it's
+about the kids not about regulations. If Zoom is the best tool right
+now for a teacher and their kids, let them use Zoom. If there are
+issues, fix the issues or transition to something else but only by
+giving them the time so that the students aren't hurt by the process.
+
+Trust teachers to do the right thing. A former teacher, friend and
+mentor of mine, [[https://cestlaz.github.io/posts/2012-05-09-my-favorite-year-teacher.html/][Herb Greenhut]] once said that it was easy to solve
+the education problem: "Hire great teachers and get the F out of the
+way." We've got a lot of great teachers. The system should support
+them but if they aren't going to do that, at least "get the F out of
+the way."
