@@ -1,0 +1,58 @@
+---
+title: It's okay, I Get It
+date: 2020-04-10T14:13:08-04:00
+tags:
+- teaching
+- 
+categories:
+- teaching 
+draft: false
+--- 
+
+I was reading Mary Clair Wright's new [[https://computationalthinkinginroom112.com/][blog]] the other day. It's always
+great to see another teacher sharing publicly online.
+
+One line caught my eye in her [[https://computationalthinkinginroom112.com/2020/04/07/ap-csa-enrichment-gone-awry/][latest post]] - 
+
+<blockquote>
+Remote instruction is weird, I can’t see them. I have to trust that they will message me with questions.
+</blockquote>
+
+This is a real problem. It's hard enough in a regular class where we
+can pick up an all sorts of cues and use all sorts formal and informal
+assessments but when the students are on the other end of a
+teleconference or even more challenging an email or chat it's even
+harder.
+
+It's also a reminder of how important those non verbal clues and
+student feedback can be.
+
+It's great if we can create an environment where our students will ask
+for help if they don't know something but even under normal
+circumstances there's the danger of students thinking they get
+it. If a student is totally lost they'll usually know they're totally
+lost but after that, it's not so clear. 
+
+A student might think they get it if they can basically follow along
+with what's being presented. It's pretty easy to watch another student
+or a teacher go through explaining a solution step by step and think
+you really know what's going on. Similarly they can read through an
+example in a text or on a web site and think they understand. A little
+better is when they can do the first couple of problems in the book
+but those frequently mimic the samples and don't require any
+additional insight. Even in a traditional class a student can go week
+to week like this and really think they understand things and then
+they get hit over the head on a test or right before a big assignment
+is due. 
+
+This isn't the student's fault. It's hard to know what you don't know
+and truth be told, we don't really teach our students how to study and
+self assess. It's also really hard for teachers to assess this even in
+person. Now that we're all remote it's yet another huge red flag to
+look out for.
+
+No solutions here today and no suggestions just yet another concern as
+we continue to work to do right by our kids.
+
+
+
