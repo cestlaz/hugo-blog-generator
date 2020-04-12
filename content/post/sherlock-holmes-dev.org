@@ -1,0 +1,20 @@
+---
+title: Sherlock Holmes, consulting developer
+date: 2020-04-12T08:34:40-04:00
+tags: 
+- development
+categories:
+- development
+draft: false
+--- 
+
+Stuart Halloway is a name in the Clojure community. I was rewatching
+one of his talks this morning and I thought some of you would enjoy
+it. Lots of gems on approaching programming and development. 
+
+Nothing radical or new here but lots of good stuff very well presented.
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/OUZZKtypink" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
