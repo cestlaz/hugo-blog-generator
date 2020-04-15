@@ -1,0 +1,38 @@
+---
+title: Varying Remote Teaching
+date: 2020-04-15T08:33:20-04:00
+tags: 
+- teaching
+- Ed tech
+categories:
+- teaching 
+draft: false
+--- 
+
+When we first went remote I jumped on Zoom. I already new the
+technology and it most simulated a live class. Basically, it was the
+best combination if quick, easy, and effective and we were under the
+gun to get something going and give our students some sense of
+normalcy and continuity.
+
+As we settled in though, it made sense to try some different
+things. One was the "lab packet." A self contained document with
+instructions and partial walkthroughs. One of my classes is already
+set up to do a number of labs in this way so that was an easy thing to
+try.  Basically it ended up being an asynchronous experience with me
+being available using the usual suspects - Slack and email. 
+
+I tried something different this past Monday. It was synchronous with
+me available on Slack but we didn't use Zoom. I set up a series of
+videos. Each video was fairly short and most had a small assignment at
+the end. I asked the class to fill out a form after each
+video/assignment. The topic was binary trees.
+
+The whole process seemed to go well but I'll report back once I've
+finished going over the feedback emails I've gotten from the class.
+
+
+I'm particularly proud of this video that I made for the class, enjoy:
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OvwIyQJ-s40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
