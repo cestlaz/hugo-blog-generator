@@ -1,0 +1,62 @@
+---
+title: Email or USPS
+date: 2020-04-17T14:00:41-04:00
+tags: 
+- misc
+categories:
+- misc 
+draft: false
+--- 
+
+USPS is in financial trouble. That's been pretty well documented
+recently. Most reasonable people will recognize that the USPS is both
+an important service and while it receives no taxpayer support would
+be profitable were it not for the GOP imposing [[https://www.truthorfiction.com/is-usps-losing-money-because-of-a-2006-pension-law/][unfair and unrealistic
+pension funding requirements]] in 2006.
+
+Although I'm an ardent supporter of the post office and feel that
+privatization of such an important intuition would be criminal today I
+want to talk about some small repercussions of so many things going to
+email rather than snail mail. Small in the greater sense but maybe
+pretty big to the people affected.
+
+Back in the old days college acceptances went out via old fashioned
+paper mail. It took a bit of time but it was super reliable no matter
+where you lived. Nowadays I'm pretty sure college acceptances are
+still sent out via USPS but you can also find out online. That's
+terrific. The potential issue comes up for opportunities that are only
+announced via email. This is the case for my program and also for a
+number of other college and university honors program that I'm aware
+of. Part of this is certainly due to timing as the window from getting
+applications to confirming participation is very small but it's still
+unfortunate.
+
+This past year, I've had a few cases of bad email addresses. For one
+reason or another I had to reach out to a candidate only to get the
+email bounced back. This isn't really horrible as I've always been
+able to hunt down a correct address either through Hunter or through
+my friends teaching at the high schools. The real problem is that
+students don't always read or see all their emails. 
+
+I had a student who applied for my program with an active email but
+their high school school somehow sent over to Hunter one that the student didn't
+use. Had I not caught it by chance that student who's now with us and
+doing great wouldn't be. In another case I was talking to a student
+who by chance new another student who we offered a seat but never took
+it. It came up in conversation that this kid was very unhappy at the
+college they ended up going to. I asked why they didn't take our offer
+to be in the Daedalus program. We later found out that the student
+never saw the offer. It either went to a non-used address or a SPAM
+filter or was just buried in the inbox. 
+
+This is a problem. Not so much for those of us running these
+programs - we're going to fill with qualified, deserving
+students. Rather for qualified and deserving students who miss out on
+the chance.
+
+When something goes out via USPS we can be fairly certain it will at
+some point in the near future be in the hands of the intended
+recipient. USPS is really good at that. With email, we can't always be
+sure.
+
+
