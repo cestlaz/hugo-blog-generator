@@ -1,0 +1,65 @@
+---
+title: Arbitrary Trees
+date: 2020-04-27T18:45:50-04:00
+tags: 
+- data structures
+- trees
+- cs
+categories: 
+- data structures
+draft: false
+--- 
+
+It's been 10 days from my last post. Not really a big break for me
+historically but certainly a big one given how much I've been posting
+this year. 
+
+Been under the weather for the past couple of weeks dealing with
+COVID-19. Haven't had super bad symptoms and as symptoms have been
+getting fewer and less severe I'm hoping I'm close to a full recovery.
+
+In any event, I'm feeling good enough for a quick post.
+
+In my data structures class we've been working on binary trees. Most
+of the unit is focused on [[https://en.wikipedia.org/wiki/Binary_search_tree][Binary Search Trees]]. They used to be a big
+part of the B part of the old APCS-AB and are still a mainstay of
+college CS2 classes. 
+
+As usual, we covered all the basics. Creation, insertion, search,
+traversal, and deletion. We discovered the run times and how a tree
+structure can yield lgn behavior but can also degenerate to linear. We
+also give a preview of more advanced data structures like red/back and
+2-3 trees that address these issues (not to mention things like BTrees
+and Splay trees).
+
+One side topic I always like talking about during this unit though are
+arbitrary trees. That is, trees where each node can have an arbitrary
+number of children. Students usually start by creating nodes with an
+array of children and then sometimes a linked list of children but I
+like discussing something simpler. A tree where in each node you hold
+two pointers - a pointer to the first child and a pointer to the next
+sibling. I like this because internally it's the same as a binary
+search tree where you also have two pointers in each node a left and a
+right. Same "physical" representation but two very different
+variations.
+
+{{% figure class="z_image_center" src="/img/arbtree.png" %}}
+
+The image on the left is the actual arbitrary tree and the one on the
+right shows the internal representation.
+
+In terms of applications, the file system is a
+great example of an arbitrary tree. Another one that I like even more
+is the DOM representation of a web page. That's nice because there are
+Javascript functions to get the next sibling.
+
+I put a short video together for my class. Here it is in case anyone
+is interested. It's code agnostic so would be suitable for an APCS-A
+class that also covers data structures.
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/K1lR3ssgxLc" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+ 
