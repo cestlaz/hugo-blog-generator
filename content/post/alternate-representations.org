@@ -1,0 +1,19 @@
+---
+title: Alternate Representations
+date: 2020-04-28T12:54:05-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+There was a comment on my last post about arbitrary trees on Reddit
+talking about how this type of data structure was a hold
+from arbitary tree
+
+knights tour border
+
+maze implicit data structure
+
+array as buckets
+
+
