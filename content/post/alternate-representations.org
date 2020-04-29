@@ -6,8 +6,15 @@ categories:
 draft: true
 --- 
 
-There was a comment on my last post about arbitrary trees on Reddit
-talking about how this type of data structure was a hold
+There was a comment on my last post about [[https://cestlaz.github.io/post/arbitrary-trees/][arbitary trees]] on Reddit
+talking about how this type of data structure was a hold over from the
+old days when computer resources were more limited. Nowadays having a
+list of children makes more sense. The comment was of course correct
+but I still think it's worth teaching representations like the one I
+spoke of in my [[https://cestlaz.github.io/post/arbitrary-trees/][last post]]. 
+
+
+
 from arbitary tree
 
 knights tour border
