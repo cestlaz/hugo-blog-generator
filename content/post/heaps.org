@@ -1,0 +1,80 @@
+---
+title: Heaps
+date: 2020-05-01T13:53:43-04:00
+tags: 
+- data structures
+categories: 
+- data structures
+draft: false
+---
+
+Continuing with the theme of alternate representations we just 
+started [[https://en.wikipedia.org/wiki/Heap_(data_structure)][heaps]]. Specifically [[https://en.wikipedia.org/wiki/Binary_heap][binary heaps]]. 
+binary min and max heaps.
+
+Heaps are one of my favorite topics in CS2. If you're not familiar
+with them, a binary min heap is a complete binary tree that enforces
+the heap property. By being complete we mean that every level except
+possibly the last one is full - that is 2 children. The last level is
+as filled left to right. 
+
+The heap property for a min heap is that the key value stored in any
+node is less than the values in it's children. Heaps are frequently
+used as priority queues. There are plenty of great web sites and
+videos that talk all about heaps - creating them, standard operations,
+run time etc. 
+
+One of the things I love about them though is that they tie together
+arrays and trees. Up until now, we've been using pointers to represent
+trees. Our binary trees are represented by a class with a pointer to a
+root node. Each node has pointers to left and right
+children. Technically you could represent a heap in this way but with
+a heap you have to be able to not only navigate easily from parent to
+child but also from child to parent. This would make things a bit
+unwieldy with additional parent pointers. 
+
+Instead consider the following tree:
+
+{{<figure src="/img/heap/heap1.png" >}}
+
+I've numbered each of the nodes with the root - node 0 holding a key
+value of 10. We can easily store this tree in an array:#heaps.org#
+
+{{<figure src="/img/heap/heap1-array.png" >}}
+
+We have an easy relationship between parent and child. Given any node ~n~,
+its children are located at ~2n+1~ and ~2n+2~. Likewise we can use
+integer division  ~(n-1)/2~ to find a node's parent. Easy peasy. This
+is both easy and efficient and of course we can also go from an array
+to a tree and in fact, the [[https://en.wikipedia.org/wiki/Heapsort][heapsort]] algorithm takes an arrray and
+rearranges the elements into a heap and then uses heap operations to
+sort the array all in place and in O(nlgn) time.
+
+Here we have another cool representation. We can of course represent a
+tree by explicitly creating classes for nodes with all the required
+pointers but here we are implicitly creating a tree by using a mapping
+to relate nodes.
+
+We could of course do this for any binary tree:
+
+
+{{<figure src="/img/heap/heap2.png" >}}
+{{<figure src="/img/heap/heap2-array.png" >}}
+
+*NOTE:* Nodes 11 and 12 in the tree above should be 13 and 14. I messed up the
+graphviz dot source for the diagram and am too lazy to
+correct. Likewise there should be two extre cells in the array and the
+32 and 50 should be in cells 13 and 14 respectively. 
+
+This is where the completeness comes in. The fact that a heap is
+complete and the last level is filled in left to right means that
+there aren't any unused cells in the array. If we just had any old
+binary tree like the one above, we're going to waste space. It could
+still at times be a useful representation.
+
+I like talking to my students about these types of data structures and
+representations. Without considering cases like this you can get
+programmers who adhere to the saying that "If your only tool is a
+hammer then every problem looks like a nail."
+
+
