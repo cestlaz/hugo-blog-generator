@@ -136,3 +136,4 @@ disable_comments = true
 ** [[/post/using-emacs-68-tramp-org-publish][Video 68 - Tramp and org-publish]]
 ** [[/post/using-emacs-69-floobits][Video 69 - Floobits]]
 ** [[/post/using-emacs-70-org-protocol][Video 70 - org-protocol]]
+** [[/post/using-emacs-71-openwith][Video 70 - openwith]]

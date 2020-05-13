@@ -1,0 +1,38 @@
+---
+title: Using Emacs 71 Openwith
+date: 2020-05-13T11:45:39-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+I spend most of my time in Emacs but still use the shell and browser
+for some things. One of the things I use my shell for is to launch
+libreoffice to view and edit docx files and spreadsheets, evince for
+pdf files and imagemagick for image files. Yes, I know I can view all
+of these in Emacs but there are a few limitations:
+
+1. Emacs chokes on large files
+2. I can't edit the docx file or the image
+
+So, I hop to the shell and launch the program I need on the files in
+question. It's fine but it does mean I end up with two windows for
+each operation - the terminal from which I run, say, libreoffice and
+libreoffice itself. I will also have my browser and one ore more Emacs
+windows open so things can get a bit cluttered.
+
+Now, on the Emacs side, one tool that I still haven't gotten myself to
+regularly use is dired. I figured dired could be made to do what I
+want - quickly and easily launch programs to view and edit my files.
+
+By default, dired opens files in a new Emacs buffer. That's fine for
+text files but not the behavior I want for docx and other files. It
+turns out there are a number of good solutions. The one that I'll
+likely stick with is [[https://github.com/jpkotta/openwith/tree/1dc89670822966fab6e656f6519fdd7f01e8301a][openwith]] but there are other options as
+well. Check out the video for more:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_qjJ5UzInRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
