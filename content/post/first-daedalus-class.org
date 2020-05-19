@@ -1,0 +1,56 @@
+---
+title: Hunters first Honors CS Cohort
+date: 2020-05-19T07:41:29-04:00
+tags: 
+- Hunter
+categories: 
+- Hunter
+draft: true
+--- 
+
+Almost four and a half years ago I left Stuyvesant and joined Hunter
+College. One of the initiatives I was charged with was the creation of
+a computer science honors program - the Daedalus scholars. Now, a
+little over four years later, our first cohort is graduating.
+
+I'm super proud of that first cohort and what we've collectively been
+building. 
+
+I joined Hunter at the end of January 2016 - a month after college
+applications had closed. This meant that we had to build our first
+cohort after the fact. Nobody applied to Hunter to be a part of the
+Daedalus scholars because we didn't exist. 
+
+Still, by looking at the students who had already applied to Hunter we
+found a few that were interested and qualified. We lost a few along
+the way - a student who really wanted an engineering program, one who
+had already conditionally been accepted to another school but took our
+money for the semester (I really hate it when people exploit a system
+like this but that's another story), one who really didn't know what
+CS was and ended up not liking the subject, and one who really wanted
+to leave the city. 
+
+During our first semester, some Macaulay students found out about our
+program and wanted to join so we padded our numbers with a small
+number of them. Overall we ended up with a small group of 12.
+
+As I said, I'm proud of all of them for what they did at Hunter and
+for what lies ahead.
+
+Now, four years later we get hundreds of applicants including a
+growing number from outside the city and are taking in many more great
+students. I don't know the other colleges that our first cohort
+members were accepted to but now we're competing for students with
+Stony Brook, NYU, RIT, and in some cases bigger "names." My goal was
+for us to become the best value CS and the best CS in NYC and we're
+well on our way. with the first cohort, we prototyped some activities
+and events that have evolved into staples - tech mentoring, codefest,
+interview prep and more. 
+
+Our first cohort led the way and I'm super proud of them. Now they'll
+become our first graduates and continue to be resource for both each
+other and future Hunter CS students. This is now the start of another
+endeavor - it took decades to create the StuyCS Mafia and now I get to
+repeat the process with HunterCS  but this time, since I know what's
+to come I can enjoy the show as it unfolds.
+
