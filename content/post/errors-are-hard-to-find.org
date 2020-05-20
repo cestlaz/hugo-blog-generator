@@ -94,7 +94,7 @@ calculate \(X^e\  mod\  n\ \) where e is your key and n is the product of the
 primes you selected. I chose 7 and 13 as my primes which made my
  *n* 91. 
 
-*OF COURSE IT DIDN"T WORK!!!!!** It worked for A, B, and C because
+*OF COURSE IT DIDN"T WORK!!!!!* It worked for A, B, and C because
 they had ascii values of 65, 66, and 67 -  all less than 91. Once I
 added lower case letters all was lost. The characeter 'e' has an ascii
 code of 101. There's no way I can get some encoded value back to 101
