@@ -1,0 +1,116 @@
+---
+title: Errors Are Hard To Find
+date: 2020-05-20T08:10:54-04:00
+tags: 
+- debugging
+categories:
+- debugging 
+draft: false
+mathjax: true
+--- 
+
+Programming is amazing. You get the thrill of victory and [[https://www.youtube.com/watch?v=Asxr5v9arH4][the agony of
+defeat]]. It's a great feeling when you write something and it works -
+even it it's small and simple. It also feels good to hunt down,
+discover and eliminate subtle bugs in our code. On the other hand,
+I'll frequently feel like a bozo when I pour over my code for days
+only to find a super silly error. Unfortunately, that's the most kind
+of error. It helps if you can laugh at yourself. It's something I've
+written about [[https://cestlaz.github.io/posts/2015-12-17-im-an-idiot.html/][before]].
+
+As a teacher it's something I try to convey to my students. When they
+don't see a bug, it's probably not them. It's like when they read an
+essay over and over and don't see their mistake because their brain
+autocorrects.
+
+So, what had me kicking myself this time?
+
+I'm going to be teaching a CS topics course as part of our teacher
+certification program this summer. I already have a lot of possible
+topics to choose form:
+
+ - WebDev via Flask
+ - 3D Graphics / transformations
+ - Ray Tracing
+ - Data mining
+ - Machine Learning
+ - NLP
+ - and more
+
+I had never quite grokked *Blockchain* - specifically its use as a
+platform so I thought I'd see about that as a topic. I started
+playing, exploring and building but when I got to signing transactions
+that led me to add *Public Key Encryption* as another topic.
+
+Traditional encryption requires a key to be used by both parties. This
+means that both parties can both encrypt and decrypt so they must
+trust each other. This leads to some issues:
+
+  1. Both parties have to share the key securely.
+  2. All parties with the key can encrypt and decrypt. 
+
+On the other hand, public key encryption uses two keys. A public one
+that everyone has access to is used to encrypt data and a private one
+known only to the owner. This can be used to decrypt the data. This
+means I can share my public key with the world and receive secure
+transmissions that only I can decrypt. It also means that two parties
+can share secure data with each other without both parties knowing the
+others private key.
+
+I decided that it would be a good idea to get my head around all of
+this.
+
+There are a bunch of good resources on the web but the basic idea is
+that you take two primes - large primes, multiply them together, chant
+some mystic incantations and come up with a private and a public
+key. You can then use one key to encrypt a message and the other to
+decrypt that encrypted message. 
+
+For this to work, you want to use large primes but to work through the
+math and make sure I got it, I started with small numbers - 7
+and 13. I went through all the math, everything worked and it made
+sense.
+
+Now time to write some code.
+
+I wrote up a small program and things seemed to work and then decided
+to set up a mock student application - something that would encrypt a
+sentence. If I were writing this "for real" I would figure out some
+reasonable way to chunk my data for encryption but for this test I
+figured it would be easy to just take each character from the input
+string and encrypt it.
+
+First few tests worked. I encrypted and decrypted "ABC." Then I tried
+the classic "Hello World!" and things went kablooey.
+
+I was getting weird results and couldn't for the life of me figure out
+why. Every time I did an individual test it seemed to work.
+
+Finally, it clicked - Duh, of course it wasn't working.
+
+When you encrypt or decrypt a number, which in our case is a
+character, it involves modulo arithmetic. Given a  number *X* you
+calculate \(X^e\  mod\  n\ \) where e is your key and n is the product of the
+primes you selected. I chose 7 and 13 as my primes which made my
+ *n* 91. 
+
+*OF COURSE IT DIDN"T WORK!!!!!** It worked for A, B, and C because
+they had ascii values of 65, 66, and 67 -  all less than 91. Once I
+added lower case letters all was lost. The characeter 'e' has an ascii
+code of 101. There's no way I can get some encoded value back to 101
+if I'm modding by 91. 
+
+D'oh
+
+From there it was an easy fix - I just had to account for this. I
+selected larger primes, derived new keys and everything worked. 
+
+I felt pretty stupid but on the other hand I got that surge of joy at
+it finally working.
+
+Now I can confidently add both Public Key Encryption and Blockchain to
+possible topics for my classes. It was also another reminder that
+finding bugs is hard. That's something not only important for us to
+remember but also important that we convince our students of this.
+
+
