@@ -122,7 +122,7 @@ light for a beginner. This time in C++:
 {{< highlight c >}}
   #include <iostream>
 
-  int main(){}
+  int main()
   {
     std::cout << "Why does my program crash before it even gets to this??????";
 
