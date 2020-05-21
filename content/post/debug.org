@@ -1,0 +1,164 @@
+---
+title: More thoughts on debugging 
+date: 2020-05-21T08:11:25-04:00
+tags:
+- debugging
+categories:
+- debugging 
+draft: false
+mathjax: true
+--- 
+
+Yesterday's post on [[https://cestlaz.github.io/post/errors-are-hard-to-find/][errors]] led to some interesting discussion over on
+Facebook. Specifically on teaching students to use a debugger. 
+
+My contention is that while it's easy to demonstrate a debugger it's
+hard to get student buy in. In my CS0, we start with [[https://thonny.org/][Thonny]] which has
+a great integrated debugger. In my CS1 I also show and use
+gdb. Regardless of my approach the subset of students who actively end
+up using the debugger has remained both constant and small.
+
+A few students will use the debugger in the very early stages to help
+understand basic constructs but fewer will go back to the tool later
+when a real error occurs. One of the difficulties probably relates to
+the fact that it's hard to present a natural, organic example of using
+a debugger. You either have to force an appropriate error situation or
+you have to wait and hope for the right situation to present itself at
+a good time.
+
+Truth be told, I don't use debuggers all that much. Mostly, I'll use
+them in C or C++ to get in the ballpark of where my error is - usually
+via postmortem debugging. 
+
+In any event, while the students should know of the existence and
+power of debugging tools the real skill is how to think about your
+craft.
+
+Whether one uses a debugger or print statements the questions are
+really: 
+
+- what problem is the student trying to solve - do they understand it?
+- How are they solving it?
+- What specifically are they telling their program to do? 
+
+That last one is important. I always tell my students that "Computers
+are really bad at doing what you want them to do but they're really
+good at what you tell them to do!" 
+
+Here are some errors that I've seen stump kids time and time again:
+
+A typical intro to recursion problem is the Fibonacci numbers. The
+recursive definition gives:
+
+
+\[
+f(n) = \left\{
+\begin{array}{ll}
+1 & if x \leq 2 \\
+f(n-1) + f(n-2) & otherwise
+\end{array}
+\right.
+\]
+
+This translates directly to code
+
+#+begin_src java
+
+  {{< highlight java >}}
+  int fib(int n){
+      if (n<2)
+          return 1;
+      else
+          return (n-1) + (n-2);
+  }
+{{< /highlight >}}
+#+end_src
+
+See the problem?
+
+I see this at least a couple of times a year. 
+
+The student writes ~(n-1) + (n-2)~ instead of ~f(n-1) + f(n-2)~. In
+fact, when they read off their code they're more likely than not to
+say it correctly - the brain autocorrects. It's just when you read an
+essay with a glaring mistake over and over. A debugger might bring
+attention to this but then so can careful code tracing. This is a time
+that rubber duck debugging can also be effective. Another good
+strategy would be to just take a break and come back with fresh eyes.
+
+Another one is when students are starting to work with loops and
+arrays. I've seen all sorts of variations on the error so will only
+share one. Suppose the students are looking for the largest in a data
+set. I might see code like this:
+
+
+#+begin_src java
+
+  {{< highlight java >}}
+  smallestIndex = 0;
+  for (i=1;i<=listSize;i++){
+      if (a[i] < a[i-1]){
+          smallestIndex = i;
+      }
+  }
+  {{< /highlight >}}
+#+end_src
+
+Once again, the student will usually describe the algorithm correctly
+but their code is comparing adjacent elements not each element against
+a "source of truth." The computer is doing what they told it to do not
+what they want it to do.
+
+A debugger would probably be more helpful here but again, it all comes
+down to careful analysis of the code. 
+
+In the previous two examples, a debugger could help but the real
+requirement is careful code tracing be it via tool, print statements
+or by hand. Here's an example where a debugger can really shed some
+light for a beginner. This time in C++:
+
+
+#+begin_src c++
+{{< highlight c >}}
+  #include <iostream>
+
+  int main(){}
+  {
+    std::cout << "Why does my program crash before it even gets to this??????";
+
+    int a;
+    int b;
+    // more code here
+
+    // something here that results in a segfault and a crashed program
+  
+    return 0;
+  }
+
+  {{< /highlight >}}
+#+end_src
+
+What causes the error isn't important. What happens is that students
+start to add print statements and ultimately get to the point where a
+print is the very first line of the program and it still outputs
+nothing.
+
+The culprit here is output buffering. ~cout~ is the same as
+ ~System.out.print~ - no newline. The output buffers and won't actually
+appear until you send a ~\n~. If your program crashes before then you
+won't see anything. This is why we have ~cerr~ in C++,  ~stderr~ for C
+and ~System.err~ in Java. The error streams are unbuffered and will
+ output immediately. Not as good but still effective would be adding a
+ newline to the original print statement. 
+
+In any event, this is a case where stepping through with a debugger
+can be truly enlightening. 
+
+Now with all of this, the real key is to carefully consider what
+you're trying to do and how you end up communicating it in
+program. I'd love to find a way to convince more students of the
+utility of a good toolset that includes debuggers but I'd also just
+love to be more effective in getting them to carefully read and
+analyze their code.
+
+
