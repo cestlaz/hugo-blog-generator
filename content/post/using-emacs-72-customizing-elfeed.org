@@ -1,0 +1,65 @@
+---
+title: Using Emacs 72 - Customizing Elfeed
+date: 2020-05-21T14:47:59-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+I made this video write after I made the [[https://cestlaz.github.io/post/using-emacs-71-openwith/][openwith]] one so even though
+I don't mention anything in this video, I wanted to share some updates
+on dired and openwith.
+
+I got a lot of suggestions on alternate ways to achieve the workflow I
+was seeking - being able to open a file using an external viewer. One
+person noted that under newer versions of Emacs, the ~W~ key is bound
+to the command ~(browse-url-of-dired-file)~ which does exactly what I
+wanted. Problem solved with no customizing or extra packages. 
+
+It's a good thing I got a solution when I did - I needed it. I've been
+reviewing applications for my new Teacher Certification program. It's
+a 21 credit graduate program that results in participants receiving a
+brand spanking new New York State Computer Science teaching
+license. The applications consist of a bunch of files incuding PDFs,
+images (photos), doc and text files and source code samples. I've got
+all the applications in a Google drive which I've downloaded and now I
+can just drop into dired and go through each directory, hit ~enter~ for
+source code and it's loaded in an Emacs buffer and ~W~ for everything
+else.
+
+Now for today's video. It's about a small customization I made to the
+elfeed RSS reader. It's also about the advantages and limitations of
+Emacs built in documentation. I'm not particularly strong in elisp -
+I'm a dabbler at best but even so, using Emac's built in help I was
+able to get to elisp code that was very close to what I wanted to do
+and then customize it. It also looks at the limitations - there still
+some code that I looked at that I have no clue as to what it does.
+
+Specifically, elfeed lets you open a link in an external brower by
+hitting ~b~. That's how I like reading most of my feeds. I'll scroll
+up and down and hit ~b~ for what I want to read. The trouble is that
+when you hit ~b~ focus goes to the browser and at the same time,
+elfeed marks the entry as read and advances. I want it not to mark as
+read. After I made the video, I decided I also didn't want elfeed to
+advance to the next story. 
+
+Here's what I did.
+
+I went in to elfeed and instead of typing ~b~ on an entry, I ran
+~(describe-key~)~ which is bound to ~C-h k~. I then typed ~b~ which
+revealed that it ran ~elfeed-search-browse-url~. I followed the
+hyperlinks in the help to open ~elfeed-search.el~ and found the
+function. From there I just copied it over to my Emacs config, tweaked
+it and voila, problem solved.
+
+The video has all the details. Enjoy.
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/G1NGNR40lB4" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
