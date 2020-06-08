@@ -5,7 +5,7 @@ tags:
 - hardware
 categories:
 - hardware 
-draft: true
+draft: false
 --- 
 
 I'm writing this on my new [[https://www.pine64.org/pinebook-pro/][Pinebook Pro]] - a $200 ARM based Linux
@@ -37,7 +37,7 @@ that there's an emmc enable switch inside that sometimes ended up in
 the off position. I had to take out the eight screws from the bottom,
 pop the case and flip the switch. Seems like that's something that
 could have been caught before they closed the cases but it wasn't too
-big of a deal. It is, however a deal breaker for a novice
+big of a deal. It is, however a deal breaker for a novice.
 
 From there it booted fine. Right into Manjaro Linux running
 KDE. Everything seemed to work. Next I tried to boot of an SD card -
@@ -48,9 +48,9 @@ Back to Manjaro. Being a Linuxmint user and having not used Manjaro in
 about two years it took a bit of time to get the lay of the land but
 just about everything worked. I installed syncthing which I use
 instead of dropbox, zsh, and built Emacs from source. It took forever
-but worked. Well, worked with some font problem. I ended up installing
+but worked. Well, worked with some font problems. I ended up installing
 Emacs 27 from the Manjaro repositories and everything went
-seemelessly. Even though I ended up not using the suorce built Emacs
+seemelessly. Even though I ended up not using the source built Emacs
 it did show that the G++ toolchain all worked well.
 
 I also tested Java and Clojure. No problems though starting Clojure
