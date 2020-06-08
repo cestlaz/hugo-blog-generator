@@ -1,0 +1,79 @@
+---
+title: Pinebook Pro - an $200 Linux Laptop
+date: 2020-06-07T17:24:57-04:00
+tags: 
+- hardware
+categories:
+- hardware 
+draft: true
+--- 
+
+I'm writing this on my new [[https://www.pine64.org/pinebook-pro/][Pinebook Pro]] - a $200 ARM based Linux
+laptop. The Pinebook Pro comes from the [[https://www.pine64.org/][Pine64]] project. As you could
+figure out, they do the Pine64 which is similar to a Raspberry Pi and
+they've got some cool projects. In addition to the Pinebook pro
+they've also got the Pine Tab and Pine Phone and more. Now, you're not
+going to be able to go to their site and say "I need 30 of these for
+my class" - at least not for the Pinebook pro but it is a pretty cool
+proof of concept and hobbyist machine and it shows that we could have
+affordable devices for our schools and less afluent students. 
+
+I got the PbP out of curiousity and also to see if I could find a low
+cost solution for Hunter College students. All of my honors students
+get laptops but the rest of Hunter CS is on their own so a low cost
+device is pretty attractive.
+
+The specs are pretty decent - 1080P 14" screen, 4GB of memory, 64GB
+mmc (upgradeable), USB-C, long battery life and more. They claim that
+it can drive an external 4k monitor but I haven't tested this yet.
+
+So, does it deliver?
+
+Overall yes but with a few caveats. It's still on the side of a
+tinkerer/hobbyist device.
+
+Out of the box it seemed DOA - it wouldn't boot. I found in the forums
+that there's an emmc enable switch inside that sometimes ended up in
+the off position. I had to take out the eight screws from the bottom,
+pop the case and flip the switch. Seems like that's something that
+could have been caught before they closed the cases but it wasn't too
+big of a deal. It is, however a deal breaker for a novice
+
+From there it booted fine. Right into Manjaro Linux running
+KDE. Everything seemed to work. Next I tried to boot of an SD card -
+Debian this time. Worked like a charm though the distribution kept
+dropping WIFI.
+
+Back to Manjaro. Being a Linuxmint user and having not used Manjaro in
+about two years it took a bit of time to get the lay of the land but
+just about everything worked. I installed syncthing which I use
+instead of dropbox, zsh, and built Emacs from source. It took forever
+but worked. Well, worked with some font problem. I ended up installing
+Emacs 27 from the Manjaro repositories and everything went
+seemelessly. Even though I ended up not using the suorce built Emacs
+it did show that the G++ toolchain all worked well.
+
+I also tested Java and Clojure. No problems though starting Clojure
+seemed to take a day and a half. 
+
+Other tests included installing the Cinnamon and Mate desktop
+environments. The only thing I haven't been able to install
+succesfully has been a VPN. On the battery front, I haven't used it
+long enough in a sitting to put a dent in it.
+
+Now, at $200, this isn't going to be a speed demon. My default config
+does a bunch of things so even opening a terminal with zsh has some
+lag. Once loaded though things are smooth. I would have loved more
+memory but 4GB seems sufficient for day to day stuff and student work.
+
+Will his become my day to day laptop? I don't know. I think if I can
+slim down some of my config it might.
+
+If you're looking for an innexpensive Linux laptop and are comfortable
+tinkering and reading some forums check out the Pinebook. If it was an
+option, I'd love to get these for my students instead of the
+overpriced Dells we have to get them every year.
+
+
+
+
