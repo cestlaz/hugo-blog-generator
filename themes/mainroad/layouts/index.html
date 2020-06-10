@@ -6,7 +6,7 @@
 	</div>
 	{{- end }}
 	{{- $postSections := ($.Param "postSections" | default (slice "post")) }}
-	{{- $paginator := .Paginate ( where .Data.Pages "Section" "in" $postSections ) }}
+	{{- $paginator := .Paginate ( where .Site.RegularPages "Type" "in" $postSections ) }}
 	{{- range $paginator.Pages }}
 		{{- .Render "summary" }}
 	{{- end }}
