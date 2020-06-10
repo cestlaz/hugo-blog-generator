@@ -1,0 +1,55 @@
+---
+title: A Quick Pinebook Pro update
+date: 2020-06-10T17:10:51-04:00
+tags: 
+- hardware
+categories: 
+- hardware
+draft: false
+---
+
+Since posting about my new [[https://cestlaz.github.io/post/pinebook/][Pinebook Pro]] I've gotten a few questions as
+it pertains to teaching CS so I thought I'd give a quick update.
+
+In terms of software here's what I've actually gotten working: 
+
+ - libreoffice (comes preinstalled)
+ - C/C++ toolchain (manjaro package install)
+ - Java (manjaro package install)
+ - Emacs (built from scratch and manjaro install)
+ - NetLogo (had to customize the startup script as per the NetLogo
+   FAQ)
+ - Racket (had to compile from source)
+
+I've also heard the VSCode works with no issues.
+
+It's also manjaro which is a little different from Ubuntu which is
+probably more well known. I installed a program named [[https://computingforgeeks.com/yay-best-aur-helper-for-arch-linux-manjaro/][yay]] for
+package management which also gave me access to the community packages
+(like extra repos for Ubuntu). 
+
+The biggest difference I've had between Manjaro and Ubuntu is with
+Ubuntu I'd search for packages with ~apt-cache search package~ and
+install with ~apt-get install package~ while with yay it's ~yay -Ss
+package~ then ~yay -S package~. It's a little more nuanced but it
+isn't harder, just different.
+
+The other difference is that the Pinebook is set up with Manjaro
+running KDE plasma which is a different interface but all common
+windowing interfaces are fairly similar.
+
+A final point I want to mention is that the Pinebook Pro price of
+$200 represents the cost of the unit. The Pine64 people don't make any
+money on this. It's about getting the units out there and building a
+community. First, this means that you won't be able to go online and
+order class sets of these (at least I don't think you'd be able to do
+so) and that if a device such as this were made by a tradional vendor
+it would cost at least a bit more so that they could make a hopefully
+fair profit. 
+
+That said, this is a very functional Linux laptop for around $200. It
+proves what you can do and After a few days use I highly recommend it.
+
+
+
+$200
