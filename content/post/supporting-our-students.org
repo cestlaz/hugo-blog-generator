@@ -1,0 +1,92 @@
+---
+title: Supporting Our Students
+date: 2020-06-12T12:22:26-04:00
+tags: 
+- misc
+categories: 
+- misc
+draft: false
+--- 
+
+
+
+Austin Cory Bart put together a great [[https://acbart.github.io//2020/06/10/race-in-cs1/][post]] about supporting Black
+students in CS1. Cory asked about this on the SIGCSE mailing list and
+in his post he both breaks things down and shares all the resources
+that he compiled from the ensuing discussion. 
+
+There's a lot of good stuff both in the post and in the links but
+there's a lot to get lost in. As teachers we can sometimes affect
+change at a department or school level but we can always make a
+difference in our classes and with our students.
+
+I titled this post "Supporting Our Students" and not "Supporting Black
+Students." I'm certainly *not* pulling any all lives matter BS but
+rather reflecting back on something that shaped my approach with my
+students and started to open my eyes and that specific experience for
+me was an all students experience.
+
+I cut my teach at Seward Park High School down on the Lower East
+Side. It was a high poverty school and a very diverse one. I had
+top flight honors students, criminal thugs, druggies, sweet kids whom
+the system failed and everything else you can imagine. The main groups
+were classified back then as Chinese and Hispanic and then Black then
+White but within those groups there were subdivisions. Shortly before
+I got the gig the school had brokered an in school truce between the
+factions of Chinese gangs and while the term of the day was
+Hispanic the students were from a variety of places.
+
+One day I was talking to a guidance counselor in the hall. We didn't
+know each other - I shanghaied her in another conversation - I had
+something to ask. She said "wait - you're Zamansky right?" Yep. "I was
+wondering who you were, all the students want to be in your class." I
+was confused. I wasn't super popular - I was just in about a year and
+a half. I also wasn't so good. I'd rate myself as an above average
+very raw young teacher but that's about it. She explained that I was
+one of the only teachers where students from all the population groups
+wanted to be in my class. The Hispanic students, for instance all
+wanted to be in Pablo Chang's math class, the Chinese in another
+teachers but apparently I appealed to everyone equally. 
+
+I started to think about why that might be the case and it got me
+thinking about what I had learned in my short time teaching. Prior to
+teaching I led a pretty sheltered life. I went to public school up
+until college and had a pretty diverse group of friends but as a kid
+you can be pretty oblivious to economic and race related
+differences. As an adult I went to a private college, NYU, and started off
+at Goldman Sachs. Not exactly a recipe for awareness. I quickly
+realized that not all kids learned the same, thought the same and
+going further, lived the same.
+
+It taught me that it's not merely about talking to your students, it's
+about listening to them. Given time and the chance, they'll open up
+and you'll learn about their challenges. When it seems there giving
+you a song and dance, don't assume they're trying to pull a fast
+one. Give them the benefit of the doubt. You'll get burned now and
+again by a kid taking advantage but things have a way of coming clean
+and if you don't give the kid the benefit of the doubt you can
+irreparably harm your relationship. Trust is key in
+education.  Besides I've been burned way more by giving the benefit of
+the doubt to people professionally than as a teacher and at the end of
+the day I'd rather lose sleep angry over being taken advantage of than
+lose sleep feeling guilty for damaging my relationship with a student
+for the wrong reasons.
+
+If you treat your students like people - young people but  people
+nonetheless and earnestly listen and try to learn from them and learn
+about them that's your guide. I'm not saying I'm particularly good at
+helping my kids - I'm your stereotypical socially awkward computer
+geek but the more I listened the more I understood the individual
+issues my students had to deal with. My Black students, my immigrant
+students, my poor students and all the rest. Sure there were common
+themes but every one has a unique story.
+
+While we teach our assorted subjects to our students really at the end
+of the day more so than teaching any specific computer science I hope
+to be a force for good in their lives and their development as
+people. The best way I can do that is to listen, try to learn, try to
+understand and then try to help and support.
+
+
+
+
