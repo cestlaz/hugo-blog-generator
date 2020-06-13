@@ -1,3 +1,4 @@
+
 {{ define "main" }}
 <main class="main list" role="main">
 	{{- with .Title }}
@@ -5,65 +6,6 @@
 		<h1 class="main__title">{{ . }}</h1>
 	</header>
 	{{- end }}
-
-<h1>Archive</h1>
-        <div class="content main__content clearfix">
-                
-
-          {{ $years := slice 2020 2019 2018 2017 2016 2015 2014 2013 2012 2011 2010}}
-	  {{$Scratch := newScratch}}
-
-	  {{ range $y := $years}}
-  {{ $Scratch.Set (string  $y) "0" }}
-{{end}}
-
-	  
-	  {{ range $y := $years}}
-{{ range where  $.Site.RegularPages "Section" "post" }}
-{{ if eq .Date.Year (int $y)}}
-       {{ $Scratch.Set (string $y) (string (add 1 (int ($Scratch.Get (string $y))))) }}
-    {{end}}
-  {{ end}}
-	  {{end}}
-
-	  {{ range $y := $years}}
-
-	  {{ range where  $.Site.RegularPages "Section" "posts" }}
-
-          {{ if eq .Date.Year (int $y)}}
-       {{ $Scratch.Set (string $y) (string (add 1 (int ($Scratch.Get (string $y))))) }}
-    {{end}}
-  {{ end}}
-{{end}}
-          
-
-
-	  {{ range $v := $years}}
-
-	  <h3>{{ $v}} - {{ $Scratch.Get (string $v)}} Posts: </h3>
-
-  <ul>
-  {{ range where $.Site.Pages "Section" "post"}}
-    {{ if eq  .Date.Year  $v }}
-      <li>
-	{{dateFormat "Monday January 2 2006" .Date }} - <a href="{{.RelPermalink}}"> {{.Title}} </a>
-      </li>
-    {{end}}
-      {{end}}
-  </ul>
-
-    <ul>
-  {{ range where $.Site.Pages "Section" "posts"}}
-    {{ if eq  .Date.Year  $v }}
-      <li>
-	{{dateFormat "Monday January 2 2006" .Date }} - <a href="{{.RelPermalink}}"> {{.Title}} </a>
-      </li>
-    {{end}}
-      {{end}}
-  </ul>
-{{end}}
-	</div>
-
 
 </main>
 

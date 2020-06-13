@@ -1,0 +1,38 @@
+---
+title: Time For A New Theme
+date: 2020-06-13T09:03:05-04:00
+tags: 
+- blog
+categories: 
+- blog
+draft: false
+--- 
+
+While setting up my [[https://cestlaz.github.io/post/pinebook-update/][Pinebook Pro]] I wanted to make sure I could write
+blog posts. [[https://golang.org/][Go]] and [[https://gohugo.io/][Hugo]] installed and ran no problem but I switched to
+Hugo in April 2020 back when it was version .49 or something like
+that. Now it's up to .73. It turns out there have been a few
+changes. First, I set up my blog with two directories for posts. One
+for the posts I wrote originally in Jekyll and one for the ones I
+wrote for Hugo. I had to make a few changes to get that to work with
+the new version.
+
+I also discovered that my archive page no longer works under the
+current version of Hugo. As I poked around a little more, it turns out
+that HTML embedding changed so I'm going to have to tweak all my Emacs
+posts as well as posts where I embed tweets or other content.
+
+All of this is to say that some or maybe many of my older posts will
+be wonky until I can get around to fixing them. 
+
+Rather than figuring out how to fix them under my current blog theme I
+figured it was also a good time to explore a new Hugo theme so don't
+be surprised if the overall look here changes a few times over the
+next few posts.
+
+Hopefully I'll be able to get everything working again sooner rather
+than later.
+
+
+
+
