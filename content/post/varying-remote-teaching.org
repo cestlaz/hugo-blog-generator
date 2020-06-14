@@ -35,4 +35,7 @@ finished going over the feedback emails I've gotten from the class.
 I'm particularly proud of this video that I made for the class, enjoy:
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OvwIyQJ-s40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/OvwIyQJ-s40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  #+end_export html
+  

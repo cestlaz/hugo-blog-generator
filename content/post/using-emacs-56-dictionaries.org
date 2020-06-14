@@ -23,5 +23,8 @@ dictionary and thesaurus lookups into your work flow.
 
 Here's a short video showing you how to set things up:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Jtgulzjq7hk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Jtgulzjq7hk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  #+end_export html
+  
 

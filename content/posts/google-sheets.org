@@ -46,7 +46,10 @@ GmailApp.sendEmail(email , subject,msg);
 Here's a video walking through sending emails to a list of people from
 a spreadsheet. The code is underneath.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EvQC1N9JMs0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EvQC1N9JMs0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  #+end_export html
+  
 
 #+BEGIN_SRC javascript
 {{< highlight "javascript" >}}

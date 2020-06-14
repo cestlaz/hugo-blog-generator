@@ -169,7 +169,10 @@ Macros FTW!!!!
 
 Here's the video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5zuSUbAHH8c" frameborder="0" allowfullscreen></iframe>
+#+begin_export html
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/5zuSUbAHH8c" frameborder="0" allowfullscreen></iframe>
+ #+end_export html
+ 
 
 Enjoy.
 Relevant links:

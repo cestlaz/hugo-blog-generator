@@ -40,7 +40,10 @@ key. Other editors will have a way of doing the same.
 So here you go -- old BSD games. I hope you get as many ideas out of
 this as I did.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uyvh1Q9SLbE" frameborder="0"
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Uyvh1Q9SLbE" frameborder="0"
+  #+end_export html
+  
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 

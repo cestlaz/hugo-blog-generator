@@ -88,7 +88,10 @@ Here's the config I'm using:
 
 Check them both out:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yUfA-7wWNKA" frameborder="0" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/yUfA-7wWNKA" frameborder="0" allowfullscreen></iframe>
+  #+end_export html
+  
 
 Relevant links:
 - Video series overview page:

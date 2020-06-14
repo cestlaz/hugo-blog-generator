@@ -34,4 +34,7 @@ justify using Emacs.
 
 Check out the video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1IYsiHXR620" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/1IYsiHXR620" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  #+end_export html
+  

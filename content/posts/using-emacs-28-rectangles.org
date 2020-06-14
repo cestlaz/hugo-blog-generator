@@ -33,7 +33,10 @@ https://www.gnu.org/software/emacs/manual/html_node/emacs/Rectangles.html
 
 And the video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pcA5NeEudgU" frameborder="0" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pcA5NeEudgU" frameborder="0" allowfullscreen></iframe>
+  #+end_export html
+  
 
 Enjoy.
 Relevant links:

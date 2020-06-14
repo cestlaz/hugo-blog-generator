@@ -31,7 +31,10 @@ and rendering modes. I settled on [[https://github.com/seagle0128/grip-mode/tree
 You can check out the video to see grip-mode along with some of the
 other modes I tried here:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IlhkYmUU-ns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></ifram>e
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/IlhkYmUU-ns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></ifram>e
+  #+end_export html
+  
 
 Enjoy.
 

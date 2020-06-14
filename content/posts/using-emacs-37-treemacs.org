@@ -26,7 +26,10 @@ I suspect I won't integrate a file browser side bar into my workflow -
 I've probably spent too many years with Emacs built in buffer commands
 but if like that type of interface, definitely check Treemacs out.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ACg6RnVdw8k" frameborder="0" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ACg6RnVdw8k" frameborder="0" allowfullscreen></iframe>
+  #+end_export html
+  
 
 
 

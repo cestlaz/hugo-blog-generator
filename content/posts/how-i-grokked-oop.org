@@ -183,4 +183,7 @@ really a big fan of OOP. I'll use it but it's not my go to paradigm.
 I'll leave you with this video which talks about why:
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QM1iUe6IofM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+begin_export html
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/QM1iUe6IofM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ #+end_export html
+ 

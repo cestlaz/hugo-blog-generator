@@ -33,7 +33,10 @@ out the relevant code and am placing it down under the video.
 Here's what I've found so far:
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/srFQwTvbaxY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/srFQwTvbaxY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  #+end_export html
+  
 
 * Company config (so far):
 #+BEGIN_SRC emacs-lisp

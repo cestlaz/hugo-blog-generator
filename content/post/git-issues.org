@@ -20,7 +20,10 @@ I think it shows some of the power of using GitHub and GitHub
 classroom beyond just a software repo and versioning.
 
 Enjoy.
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/SNsjMKYoLr8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  #+end_export html
+  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SNsjMKYoLr8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 

@@ -35,4 +35,7 @@ turns out there are a number of good solutions. The one that I'll
 likely stick with is [[https://github.com/jpkotta/openwith/tree/1dc89670822966fab6e656f6519fdd7f01e8301a][openwith]] but there are other options as
 well. Check out the video for more:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_qjJ5UzInRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/_qjJ5UzInRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  #+end_export html
+  

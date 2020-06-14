@@ -20,4 +20,7 @@ libclang for completions. It's pretty slick. Now the only thing I
 think I'm missing is header file completions. If you've got a good
 setup for that, please share.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GRdZuc1Z4WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GRdZuc1Z4WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  #+end_export html
+  

@@ -26,7 +26,10 @@ Cellular Automata to solve problems. I've written about some of this.
 I also saw this video over the weekend. It's a short interview from
 2014. It's worth a watch.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xOCe5HUObD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/xOCe5HUObD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  #+end_export html
+  
 
 
 I had the opportunity to meet Conway briefly  once about a decade ago. It was

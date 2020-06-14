@@ -75,7 +75,10 @@ To help get started here are links to a couple of cheat sheets:
 I'll probably use dired more frequently but again, would love to hear
 how other people are using it.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Fg7HmmRYWy8" frameborder="0" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Fg7HmmRYWy8" frameborder="0" allowfullscreen></iframe>
+  #+end_export html
+  
 
 
 

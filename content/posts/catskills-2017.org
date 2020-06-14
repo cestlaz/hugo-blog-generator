@@ -32,7 +32,10 @@ of talks it has all the amazing extras.
 [[https://twitter.com/songadaymann][Jonathan "Song a Day" Mann]] has been with us all three years of the
 conference to write summary songs for each day.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iM2RmmJrBTI" frameborder="0" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iM2RmmJrBTI" frameborder="0" allowfullscreen></iframe>
+  #+end_export html
+  
 
 
 There are hikes

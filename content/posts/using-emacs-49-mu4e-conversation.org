@@ -43,4 +43,7 @@ I'll report back once I give it a fair shake but in the meantime if
 anyone out there has had the time to play with it, let us know what
 you think.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V5efS8uXANI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/V5efS8uXANI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  #+end_export html
+  

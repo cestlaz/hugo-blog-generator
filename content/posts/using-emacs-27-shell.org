@@ -60,7 +60,10 @@ Enjoy
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pjhRFMUxBB4" frameborder="0" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pjhRFMUxBB4" frameborder="0" allowfullscreen></iframe>
+  #+end_export html
+  
 
 Relevant links:
 - Video series overview page:

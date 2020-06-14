@@ -57,4 +57,7 @@ I've also used pandoc to move between org-mode and word files.
 
 If you haven't checked out pandoc, you should.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qVUZsH-MDRM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/qVUZsH-MDRM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  #+end_export html
+  

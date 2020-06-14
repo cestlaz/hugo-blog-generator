@@ -10,7 +10,10 @@ draft: false
 This video will step you through setting up Emacs to use [[http://melpa.org/#/][MELPA]] for packages.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/49kBWM3RQQ8?list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg" frameborder="0" allowfullscreen></iframe>
+#+begin_export html
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/49kBWM3RQQ8?list=PL9KxKa8NpFxIcNQa9js7dQQIHc81b0-Xg" frameborder="0" allowfullscreen></iframe>
+  #+end_export html
+  
 
 
 We configured emacs by creating a folder named *.emacs.d* and creating a

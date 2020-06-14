@@ -105,7 +105,10 @@ This can be HUGE in understanding code.
 
 Grep is a pretty ancient tool going back to the 1970s.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NTfOnGZUZDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+begin_export html
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/NTfOnGZUZDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ #+end_export html
+ 
 
 Bascially, it can search through a file or files for text. Most
 versions can use [[https://www.janmeppe.com/blog/regex-for-noobs/][Regular Expressions]] for wild card searches. 
