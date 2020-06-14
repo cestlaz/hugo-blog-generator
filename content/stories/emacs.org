@@ -7,7 +7,7 @@ categories = ["emacs"]
 disable_comments = true
 +++
 
-** Link to current configuration: [[https://github.com/zamansky/using-emacs][https://github.com/zamansky/using-emacs]]
+** Link to current configuration: [[https://github.com/zamansky/using-emacs][https://github.com/zamansky/dot-emacs]]
 
 ** [[http://cestlaz.github.io/posts/using-emacs-introduction][Introduction]]
 
