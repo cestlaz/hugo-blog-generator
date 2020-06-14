@@ -1,0 +1,44 @@
+---
+title: Using Emacs 73 - Ripgrep and updating the blog
+date: 2020-06-14T11:58:11-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+As I said in my [[As I mentioned in my ][last post]], I'm moving to a new Hugo theme. I decided
+on [[https://github.com/mitrichius/hugo-theme-anubis][Anubis]]. It's simple and clean. Unfortunately, in this change over,
+many things broke. Specifically, all my embedded html. Using earlier
+version of Hugo I could directly embed HTML and it would render. Now I
+have to bracket the HTML with special org markup - *#+begin_export html* and *#+end_export html*. 
+
+#+begin_example
+#+begin_export html
+<h1>html stuff to render goes in here </h1>
+#+end_export html
+#+end_example
+
+Minimally I had to find all my embedded videos and all my embedded
+Tweets. There's probably a lot more. Fortunately with Emacs this is
+pretty easy. I used [[https://github.com/dajva/rg.el][rg.el]] which is an Emacs front end to [[https://github.com/BurntSushi/ripgrep][ripgrep]]. If
+you don't know ripgrep, it's kind of like a super fast, super enhanced grep on
+steroids. 
+
+In Emacs, I was able to do a ripgrep search which created a buffer
+containing all the embedded html fragments from all my blog posts
+across all the directories. I then used Emacs' [[https://github.com/mhayashi1120/Emacs-wgrep][wgrep]] feature which
+allowed me to edit that combined buffer and save all the results back
+to the original files. 
+
+All in all it just took a few minutes. There are still some things I
+have to clean up from older posts but at least the site is workable now.
+
+Check out the video for a walkthrough:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OcR-Ke2CiPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
