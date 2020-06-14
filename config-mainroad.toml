@@ -1,0 +1,112 @@
+baseURL = "https://cestlaz.github.io/"
+languageCode = "en-us"
+title = "C'est la Z"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "cestlaz" # Enable comments by entering your Disqus shortname
+googleAnalytics = "UA-126185083-1" # Enable Google Analytics by entering your tracking id
+
+
+[outputs]
+home = ["HTML","RSS"]
+
+[mediaTypes]
+[mediaTypes."application/rss"]
+suffixes = ["xml"]
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "rss"
+
+
+
+
+[Author] # Used in authorbox
+  name = "Mike Zamansky"
+  bio = "Teaching Curmudgeon"
+  avatar = "/assets/thluffy.png"
+
+[Params]
+  subtitle = "Musings about education, computer science, and maybe a few other miscellaneous topics." # Subtitle of your site. Used in site header
+  description = "" # Site description. Used in meta description
+  copyright = "Mike Zamansky" # copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = true # Show "Read more" button in list if true
+  authorbox = false # Show authorbox at bottom of pages if true
+  toc = false # Enable Table of Contents
+  post_navigation = true # Show post navigation at bottom of pages if true
+  postSections = ["post","posts"] # the section pages to show on home page and the "Recent articles" widget
+  #postSections = ["blog", "news"] # alternative that shows more than one section's pages
+  #dateformat = "2006-01-02" # change the format of dates
+mathjax = false # Enable MathJax
+mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
+  #mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+menu="main"
+[menu]
+[[menu.main]]
+identifier="home"
+name="Home"
+url="/"
+weight=1
+
+[[menu.main]]
+identifier="emacs"
+name="Emacs"
+url="/stories/emacs"
+weight=3
+
+[[menu.main]]
+identifier="categories"
+name="Categories"
+url="/categories"
+weight=8
+
+[[menu.main]]
+identifier="tags"
+name="Tags"
+url="/tags"
+weight=8
+[[menu.main]]
+identifier="archive"
+name="Archive"
+url="/archive"
+weight=8
+[[menu.main]]
+identifier="oldblog"
+name="Old Blog"
+url="https://cestlaz-nikola.github.io/"
+weight=8
+
+[[menu.main]]
+identifier="rss"
+name="RSS"
+url="/rss.xml"
+weight=9
+[[menu.main]]
+identifier="about"
+name="About"
+url="/about"
+weight=9
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = true # Configure layout for single page/s
+  # Enable widgets in given order
+  widgets = ["subscribe", "search", "recent", "categories", "taglist", "social"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = true # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[Params.widgets.social]
+  # Enable parts of social widget
+#  facebook = "zamansky"
+  twitter = "zamansky"
+#  linkedin = "zamansky"
+ # telegram = "username"
+# github = "zamansky"
+ # gitlab = "zamansky"
+  email = "zamansky@gmail.com"
+#  google_plus = "profileid"
