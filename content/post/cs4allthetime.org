@@ -31,8 +31,11 @@ Does it mean you offer it as an elective? If so, when?
 I think about this a fair amount but decided to write something up
 when I saw this tweet:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">STEM related career interests are largely developed before high school (Sadler, Sonnert, Hazari, &amp; Tai, 2012) <a href="https://twitter.com/hashtag/csforall?src=hash&amp;ref_src=twsrc%5Etfw">#csforall</a> <a href="https://twitter.com/hashtag/csedweek?src=hash&amp;ref_src=twsrc%5Etfw">#csedweek</a> <a href="https://t.co/TiAUvpP3bQ">https://t.co/TiAUvpP3bQ</a></p>&mdash; Lana Peterson (@tyLanasaurusrex) <a href="https://twitter.com/tyLanasaurusrex/status/1070475730562084864?ref_src=twsrc%5Etfw">December 6, 2018</a></blockquote>
+#+begin_export html
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">STEM related career interests are largely developed before high school (Sadler, Sonnert, Hazari, &amp; Tai, 2012) <a href="https://twitter.com/hashtag/csforall?src=hash&amp;ref_src=twsrc%5Etfw">#csforall</a> <a href="https://twitter.com/hashtag/csedweek?src=hash&amp;ref_src=twsrc%5Etfw">#csedweek</a> <a href="https://t.co/TiAUvpP3bQ">https://t.co/TiAUvpP3bQ</a></p>&mdash; Lana Peterson (@tyLanasaurusrex) <a href="https://twitter.com/tyLanasaurusrex/status/1070475730562084864?ref_src=twsrc%5Etfw">December 6, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  #+end_export html
+  
 
 I responded that I've seen many kids get their first exposure in high
 school and from that go on to careers in tech so it's clear to me that

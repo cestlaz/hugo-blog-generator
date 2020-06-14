@@ -14,7 +14,8 @@ I recently stumbled upon [[https://twitter.com/laurieontech/with_replies][Laurie
 of tweets about tech interviews and the hiring process, something I've
 been thinking about recently.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Solid rant. I
+#+begin_export html
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Solid rant. I
 think the teach to the programming test market already exists. And
 it’s why interviewers who subscribe to these tactics get upset if a
 candidate admits they’ve seen the problem previously. Because it ruins
@@ -25,9 +26,12 @@ href="https://twitter.com/laurieontech/status/1121879805862064131?ref_src=twsrc%
 26, 2019</a></blockquote> <script async
 src="https://platform.twitter.com/widgets.js"
 charset="utf-8"></script>
+  #+end_export html
+  
 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of the
+#+begin_export html
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">One of the
 things I often think about is feeling like I got lucky making it
 through some of my interviews...and then killed it on the job. We know
 interviews don’t match the on the job skills, it’s about time we did
@@ -38,6 +42,8 @@ href="https://twitter.com/laurieontech/status/1122496300912717825?ref_src=twsrc%
 28, 2019</a></blockquote> <script async
 src="https://platform.twitter.com/widgets.js"
 charset="utf-8"></script>
+  #+end_export html
+  
 
 I guess I've been thinking about it because I'm teaching a section of
 Data Structures which, along with Algorithms, provides the base

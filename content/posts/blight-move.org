@@ -53,8 +53,11 @@ your classes years into the future.
 
 I was reminded of this when I saw this tweet the other day:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">For anyone wondering, this poll was in response to the quote:<br><br>&quot;They may forget what you said, but they will never forget how you made them feel.&quot; <a href="https://t.co/QHMXTxjeLA">https://t.co/QHMXTxjeLA</a></p>&mdash; Adam Boxer (@adamboxer1) <a href="https://twitter.com/adamboxer1/status/1041051593255411713?ref_src=twsrc%5Etfw">September 15, 2018</a></blockquote>
+#+begin_export html
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">For anyone wondering, this poll was in response to the quote:<br><br>&quot;They may forget what you said, but they will never forget how you made them feel.&quot; <a href="https://t.co/QHMXTxjeLA">https://t.co/QHMXTxjeLA</a></p>&mdash; Adam Boxer (@adamboxer1) <a href="https://twitter.com/adamboxer1/status/1041051593255411713?ref_src=twsrc%5Etfw">September 15, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  #+end_export html
+  
 
 I don't know the context of the quote but [[https://twitter.com/adamboxer1][Adam Boxer]]'s reply in the
 tweet stream seems to indicate that it comes from the thought that

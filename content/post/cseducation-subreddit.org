@@ -10,7 +10,8 @@ draft: false
 
 [[https://twitter.com/amyjko?ref_src=twsrc%255Etfw%257Ctwcamp%255Etweetembed%257Ctwterm%255E1230982366706860032&ref_url=https%253A%252F%252Fpublish.twitter.com%252F%253Fquery%253Dhttps%25253A%25252F%25252Ftwitter.com%25252Famyjko%25252Fstatus%25252F1230982366706860032%2526widget%253DTweet][Amy Ko]] posted this yesterday:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">CSEd people:
+#+begin_export html
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">CSEd people:
 many have struggled to use Twitter for discussion. How about Twitter
 for broadcasting, but when replies turn to discussion, we use <a
 href="https://t.co/2oivuriOoU">https://t.co/2oivuriOoU</a>? It&#39;s a
@@ -23,7 +24,9 @@ Amy J. Ko (@amyjko) <a
 href="https://twitter.com/amyjko/status/1230982366706860032?ref_src=twsrc%5Etfw">February
 21, 2020</a></blockquote> <script async
 src="https://platform.twitter.com/widgets.js"
-charset="utf-8"></script> 
+charset="utf-8"></script>
+  #+end_export html
+  
 
 I'd love to see more traffic [[https://reddit.com/r/CSEducation][there]]. For full disclosure, I'm one of
 the moderators but in my defense, I'm not much of a moderator and as

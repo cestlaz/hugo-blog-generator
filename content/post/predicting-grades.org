@@ -12,7 +12,8 @@ draft: false
 
 Just saw this:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Evaluation
+#+begin_export html
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Evaluation
 metric idea: take snapshots of students&#39; grades each week
 (specifically, the grade they actually see in your LMS). How well do
 these correlate with your final assigned grade? Were students getting
@@ -21,6 +22,8 @@ href="https://twitter.com/AustinCorgiBart/status/1129743671639838720?ref_src=tws
 18, 2019</a></blockquote> <script async
 src="https://platform.twitter.com/widgets.js"
 charset="utf-8"></script>
+  #+end_export html
+  
 
 
 It made me think of a couple of conversations I had with more senior

@@ -9,8 +9,11 @@ draft: false
 
 I tweeted this the other day:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Why don&#39;t so many  teachers and professors understand that the test or assignment you can do in 15 minutes will take your beginning students at least an hour and probably a lot more to complete.</p>&mdash; Mike Zamansky (@zamansky) <a href="https://twitter.com/zamansky/status/986609723557404673?ref_src=twsrc%5Etfw">April 18, 2018</a></blockquote>
+#+begin_export html
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Why don&#39;t so many  teachers and professors understand that the test or assignment you can do in 15 minutes will take your beginning students at least an hour and probably a lot more to complete.</p>&mdash; Mike Zamansky (@zamansky) <a href="https://twitter.com/zamansky/status/986609723557404673?ref_src=twsrc%5Etfw">April 18, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  #+end_export html
+  
 
 
 What led to the tweet was a discussion I was having with some students

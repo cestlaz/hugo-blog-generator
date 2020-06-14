@@ -76,7 +76,10 @@ CS Education in general.
 I'd also like to mention Devorah's [[http://blanketstatementproject.com/][Blanket Statement]]
 project. Crowdsourcing knitting a blanket for a child in need. 
 
+#+begin_export html
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">And the total is ... 44 blocks crafted during <a href="https://twitter.com/hashtag/CSTA2019?src=hash&amp;ref_src=twsrc%5Etfw">#CSTA2019</a> . 3 are not pictured as I still have to finish them off. Look for the final, finished product early next week. If anyone still has blocks, message me for my snail mail. Thank you all! <a href="https://t.co/ZLDcEEK9ig">pic.twitter.com/ZLDcEEK9ig</a></p>&mdash; BlanketStatement (@BlanketStmtProj) <a href="https://twitter.com/BlanketStmtProj/status/1149798258002280448?ref_src=twsrc%5Etfw">July 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+#+end_export html
+
 
 Somewhere between 20 and 40 attendees spent time with
 Devorah at the GitHub booth putting idle hands to good use. Devorah

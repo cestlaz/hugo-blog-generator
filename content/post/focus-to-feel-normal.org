@@ -12,7 +12,8 @@ draft: false
 
 Austin Cory Bart tweeted this a little while ago.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I don&#39;t
+#+begin_export html
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I don&#39;t
 always consider how much power I have as a faculty. Right now, I&#39;d
 really like to expend that power to make my students understand that I
 don&#39;t want them focused on my course during a global pandemic. Not
@@ -21,7 +22,9 @@ right now. Later, but not right now.</p>&mdash; Austin Cory Bart
 href="https://twitter.com/AustinCorgiBart/status/1238565390575456262?ref_src=twsrc%5Etfw">March
 13, 2020</a></blockquote> <script async
 src="https://platform.twitter.com/widgets.js"
-charset="utf-8"></script> 
+charset="utf-8"></script>
+  #+end_export html
+  
 
 While Cory's right about this it's also good to remember that as
 we're all going remote, focusing on our courses can be important for

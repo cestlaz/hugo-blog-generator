@@ -12,7 +12,10 @@ draft: false
 My friend Ria tweeted this earlier today:
 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you are a software developer/engineer, please reply with a trait (or traits) that you look for in hiring new engineers (new grads). This can be something you glean from a resume, technical interview, behavorial interview, or all of the above.</p>&mdash; Ria Galanos (@cscheerleader) <a href="https://twitter.com/cscheerleader/status/1185937705689112577?ref_src=twsrc%5Etfw">October 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+#+begin_export html
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you are a software developer/engineer, please reply with a trait (or traits) that you look for in hiring new engineers (new grads). This can be something you glean from a resume, technical interview, behavorial interview, or all of the above.</p>&mdash; Ria Galanos (@cscheerleader) <a href="https://twitter.com/cscheerleader/status/1185937705689112577?ref_src=twsrc%5Etfw">October 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  #+end_export html
+  
 
 I'm not hiring for a tech company but I thought I'd share some
 thoughts anyway.

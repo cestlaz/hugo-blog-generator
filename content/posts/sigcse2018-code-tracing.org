@@ -56,8 +56,11 @@ The presentation was terrific and all true and I'm sure of tremendous
 value to anyone in the audience not familiar with code tracing but it
 was also the presentation that led me to compose this tweet:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Loving the <a href="https://twitter.com/hashtag/sigcse2018?src=hash&amp;ref_src=twsrc%5Etfw">#sigcse2018</a> sessions but so many talks from higher Ed people remind me that while k12 can learn much about content from higher Ed, profs could learn so much from teachers about teaching</p>&mdash; Mike Zamansky (@zamansky) <a href="https://twitter.com/zamansky/status/967066702143000578?ref_src=twsrc%5Etfw">February 23, 2018</a></blockquote>
+#+begin_export html
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Loving the <a href="https://twitter.com/hashtag/sigcse2018?src=hash&amp;ref_src=twsrc%5Etfw">#sigcse2018</a> sessions but so many talks from higher Ed people remind me that while k12 can learn much about content from higher Ed, profs could learn so much from teachers about teaching</p>&mdash; Mike Zamansky (@zamansky) <a href="https://twitter.com/zamansky/status/967066702143000578?ref_src=twsrc%5Etfw">February 23, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  #+end_export html
+  
 
 While Xie's presentation was terrific, code tracing and teachers
 showing explicit code tracing strategies to kids is nothing new. I

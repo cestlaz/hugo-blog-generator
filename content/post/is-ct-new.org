@@ -12,7 +12,8 @@ draft: false
 Saw this earlier today.
 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kind of
+#+begin_export html
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kind of
 works, doesn’t it?<br><br>Does every discipline do this — decide that
 the way experts think in that discipline is a special kind of
 “thinking” or “reasoning” or “literacy” that everyone really needs and
@@ -22,7 +23,9 @@ Mark Guzdial (@guzdial) <a
 href="https://twitter.com/guzdial/status/1165624814759043073?ref_src=twsrc%5Etfw">August
 25, 2019</a></blockquote> <script async
 src="https://platform.twitter.com/widgets.js"
-charset="utf-8"></script> 
+charset="utf-8"></script>
+  #+end_export html
+  
 
 {{% figure
 src="https://pbs.twimg.com/media/EC0hlfKXsAIjlK9?format=jpg&name=medium" 

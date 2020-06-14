@@ -13,7 +13,8 @@ draft: false
 Lat day of the 2019 [[https://www.ncwit.org/summit/2019-ncwit-summit-women-and-it][NCWIT Summmit]]. Got up crazy early, got back from
 my run and saw this when I checked Twitter:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A1: CSTA,
+#+begin_export html
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A1: CSTA,
 Twitter chats like this one, <a
 href="https://twitter.com/guzdial?ref_src=twsrc%5Etfw">@guzdial</a>
 and <a
@@ -29,6 +30,8 @@ href="https://twitter.com/SarahEJudd/status/1128829652145979392?ref_src=twsrc%5E
 16, 2019</a></blockquote> <script async
 src="https://platform.twitter.com/widgets.js"
 charset="utf-8"></script>
+  #+end_export html
+  
 
 I don't usually participate in Twitter chats. The format doesn't
 really work for me. I do frequently lurk though and while I didn't see

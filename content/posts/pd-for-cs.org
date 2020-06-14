@@ -12,11 +12,17 @@ draft: false
 I saw a couple of tweets from Sarah Judd this morning:
 
 
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">A lot of CS Ed PD assumes you are new to CS. I really want CS Ed PD for people like us that came from a CS background and want to understand the pedagogy for CS in particular better. Do you know of some?</p>&mdash; Sarah Judd (@SarahEJudd) <a href="https://twitter.com/SarahEJudd/status/1011785286693552139?ref_src=twsrc%5Etfw">June 27, 2018</a></blockquote>
+#+begin_export html
+  <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">A lot of CS Ed PD assumes you are new to CS. I really want CS Ed PD for people like us that came from a CS background and want to understand the pedagogy for CS in particular better. Do you know of some?</p>&mdash; Sarah Judd (@SarahEJudd) <a href="https://twitter.com/SarahEJudd/status/1011785286693552139?ref_src=twsrc%5Etfw">June 27, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  #+end_export html
+  
 
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Yes! I love SIGCSE and CSTA. I just feel like... Math teachers don&#39;t get PD that starts with &quot;and this is how you add and subtract!&quot; and I&#39;d love more CS PD that assumes the content is there, and can focus on the pedagogy.</p>&mdash; Sarah Judd (@SarahEJudd) <a href="https://twitter.com/SarahEJudd/status/1011966102795059200?ref_src=twsrc%5Etfw">June 27, 2018</a></blockquote>
+#+begin_export html
+  <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Yes! I love SIGCSE and CSTA. I just feel like... Math teachers don&#39;t get PD that starts with &quot;and this is how you add and subtract!&quot; and I&#39;d love more CS PD that assumes the content is there, and can focus on the pedagogy.</p>&mdash; Sarah Judd (@SarahEJudd) <a href="https://twitter.com/SarahEJudd/status/1011966102795059200?ref_src=twsrc%5Etfw">June 27, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  #+end_export html
+  
 
 
 It wasn't the first time I've heard this refrain. Last year I attended

@@ -17,7 +17,10 @@ Regardless of when, figuring out a large project can be a bear and
 that's not just true for students. I saw this on my Tweetstream about
 onboarding software engineers:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Leaving them alone with their laptop and telling them to look at the codebase. No purpose, directionless, no assistance or context or perspective. Show me a codebase that is documented exstensively enough to support that and I’ll be stunned. <a href="https://twitter.com/hashtag/devdiscuss?src=hash&amp;ref_src=twsrc%5Etfw">#devdiscuss</a></p>&mdash; Laurie (@laurieontech) <a href="https://twitter.com/laurieontech/status/1158911795341529088?ref_src=twsrc%5Etfw">August 7, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+#+begin_export html
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Leaving them alone with their laptop and telling them to look at the codebase. No purpose, directionless, no assistance or context or perspective. Show me a codebase that is documented exstensively enough to support that and I’ll be stunned. <a href="https://twitter.com/hashtag/devdiscuss?src=hash&amp;ref_src=twsrc%5Etfw">#devdiscuss</a></p>&mdash; Laurie (@laurieontech) <a href="https://twitter.com/laurieontech/status/1158911795341529088?ref_src=twsrc%5Etfw">August 7, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  #+end_export html
+  
 
 If we're lucky enough to use a large project specifically designed for
 students there might be sufficient documentation but don't count on

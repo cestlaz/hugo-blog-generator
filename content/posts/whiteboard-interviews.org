@@ -12,8 +12,11 @@ A few days ago, I saw a [[https://theoutline.com/post/1166/programmers-are-confe
 whiteboard interviews:
 
 #+BEGIN_html
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hello, my name is David. I would fail to write bubble sort on a whiteboard. I look code up on the internet all the time. I don&#39;t do riddles.</p>&mdash; DHH (@dhh) <a href="https://twitter.com/dhh/status/834146806594433025">February 21, 2017</a></blockquote>
+#+begin_export html
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hello, my name is David. I would fail to write bubble sort on a whiteboard. I look code up on the internet all the time. I don&#39;t do riddles.</p>&mdash; DHH (@dhh) <a href="https://twitter.com/dhh/status/834146806594433025">February 21, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  #+end_export html
+  
 #+END_html
 
 I'm not a huge fan of the whiteboard interview but I think many of the

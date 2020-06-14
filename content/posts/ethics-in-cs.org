@@ -14,8 +14,11 @@ while. Probably since I saw [[https://www.nytimes.com/2018/02/12/business/comput
 
 I was reminded when I saw this tweet by Hadi the other day:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This message is bigger than Facebook. Computer science faces an ethics crisis. That’s why <a href="https://twitter.com/codeorg?ref_src=twsrc%5Etfw">@codeorg</a> covers ethics and digital citizenship in our computer science courses. (And we’re thankful that most of the largest tech companies support us) <a href="https://t.co/roSkAzANQM">https://t.co/roSkAzANQM</a></p>&mdash; Hadi Partovi (@hadip) <a href="https://twitter.com/hadip/status/977673429485731840?ref_src=twsrc%5Etfw">March 24, 2018</a></blockquote>
+#+begin_export html
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This message is bigger than Facebook. Computer science faces an ethics crisis. That’s why <a href="https://twitter.com/codeorg?ref_src=twsrc%5Etfw">@codeorg</a> covers ethics and digital citizenship in our computer science courses. (And we’re thankful that most of the largest tech companies support us) <a href="https://t.co/roSkAzANQM">https://t.co/roSkAzANQM</a></p>&mdash; Hadi Partovi (@hadip) <a href="https://twitter.com/hadip/status/977673429485731840?ref_src=twsrc%5Etfw">March 24, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  #+end_export html
+  
 
 I think we can all agree that bringing ethics and digital citizenship
 and, frankly, citizenship in general to our students is important. What I wonder is

@@ -65,8 +65,11 @@ Of course this means a lot of work under the gun but no one ever said
 that developing a new course was easy. It's reassuring that I'm not
 the only one who does the real class development in real time:
 
-<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Building the course as the semester goes, but the barebones syllabus is here. Thanks to <a href="https://twitter.com/guzdial?ref_src=twsrc%5Etfw">@guzdial</a>, we are using GP as the main language. Reading things like Pattern on the Stone, chapters from Constructionism book by Harel &amp; Papert.  <a href="https://t.co/CNgEQfcO1Z">https://t.co/CNgEQfcO1Z</a>.</p>&mdash; Aman Yadav (@yadavaman) <a href="https://twitter.com/yadavaman/status/1082280379153829888?ref_src=twsrc%5Etfw">January 7, 2019</a></blockquote>
+#+begin_export html
+  <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Building the course as the semester goes, but the barebones syllabus is here. Thanks to <a href="https://twitter.com/guzdial?ref_src=twsrc%5Etfw">@guzdial</a>, we are using GP as the main language. Reading things like Pattern on the Stone, chapters from Constructionism book by Harel &amp; Papert.  <a href="https://t.co/CNgEQfcO1Z">https://t.co/CNgEQfcO1Z</a>.</p>&mdash; Aman Yadav (@yadavaman) <a href="https://twitter.com/yadavaman/status/1082280379153829888?ref_src=twsrc%5Etfw">January 7, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  #+end_export html
+  
 
 Finally having survived the first run through it's time to [[http://wiki.c2.com/?PlanToThrowOneAway][throw it
 away]]. Not really but it's time to take lessons learned and work them

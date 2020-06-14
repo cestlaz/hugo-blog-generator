@@ -12,9 +12,12 @@ draft: false
 
 I saw this tweet the day along with the ensuing thread:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Seriously, who emails a professor with words like &quot;u&quot; and &quot;plz hlp&quot;? Am I allowed to put language in my syllabus that penalizes students for obnoxious, intentional misspellings? Maybe: -1% to your course grade multiplied by the edit distance of the word with its correction?</p>&mdash; Austin Cory Bart (@AustinCorgiBart) <a href="https://twitter.com/AustinCorgiBart/status/1068386945854779392?ref_src=twsrc%5Etfw">November 30, 2018</a></blockquote>
+#+begin_export html
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Seriously, who emails a professor with words like &quot;u&quot; and &quot;plz hlp&quot;? Am I allowed to put language in my syllabus that penalizes students for obnoxious, intentional misspellings? Maybe: -1% to your course grade multiplied by the edit distance of the word with its correction?</p>&mdash; Austin Cory Bart (@AustinCorgiBart) <a href="https://twitter.com/AustinCorgiBart/status/1068386945854779392?ref_src=twsrc%5Etfw">November 30, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js"
 charset="utf-8"></script>
+  #+end_export html
+  
 
 I wanted to reply but as usual, I decided to reply in a blog post so
 that it doesn't get lost in the Twitterverse. This way I can go back

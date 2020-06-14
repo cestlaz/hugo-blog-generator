@@ -13,7 +13,8 @@ draft: false
 I woke up to this tweet by Mark Guzdial today:#pro-version-or
 ed-version.org#
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">An indication
+#+begin_export html
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">An indication
 that CS Ed in US high schools is about vocational training: 2 (of 5)
 recommended sessions at the <a
 href="https://twitter.com/csteachersorg?ref_src=twsrc%5Etfw">@csteachersorg</a>
@@ -25,7 +26,9 @@ Mark Guzdial (@guzdial) <a
 href="https://twitter.com/guzdial/status/1265986599952822272?ref_src=twsrc%5Etfw">May
 28, 2020</a></blockquote> <script async
 src="https://platform.twitter.com/widgets.js"
-charset="utf-8"></script> 
+charset="utf-8"></script>
+  #+end_export html
+  
 
 This led to a lively discussion throughout the day with lots of likes
 and lots of comments. Two themes emerged. One wondered if the CSTA

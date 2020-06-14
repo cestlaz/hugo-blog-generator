@@ -34,7 +34,8 @@ and she said...."
 
 What made me think og this was this Tweet by [[https://twitter.com/b0rk][Julia Evans]]:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">i&#39;m not
+#+begin_export html
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">i&#39;m not
 sure if this advice is too obvious/basic but I really like to approach
 confusing debugging situations by first looking at where my
 understanding of the system is fuzzy, not by immediately trying to
@@ -43,6 +44,8 @@ href="https://twitter.com/b0rk/status/1143313949640810498?ref_src=twsrc%5Etfw">J
 25, 2019</a></blockquote> <script async
 src="https://platform.twitter.com/widgets.js"
 charset="utf-8"></script>
+  #+end_export html
+  
 
 I don't know Julia personally, but we have mutual friends and I've been following
 her online for a while. She makes cool "zines" and interesting blog

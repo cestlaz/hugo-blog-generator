@@ -51,7 +51,8 @@ really try to look at the assignment using our student's eyes.
 
 Neal Plotnick tweeted: 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The lack of
+#+begin_export html
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The lack of
 experience with coding for Ts combined with canned, cloud based
 curricula has allowed classrooms to be created with Ts pushing
 assignments out and relying on automated grades. I don’t have a CS
@@ -61,6 +62,8 @@ href="https://twitter.com/NeilPlotnick/status/1137340790554996736?ref_src=twsrc%
 8, 2019</a></blockquote> <script async
 src="https://platform.twitter.com/widgets.js"
 charset="utf-8"></script>
+  #+end_export html
+  
 
 And this is a real concern for me. I get it - we're building a plane
 while flying it and that places teachers in situations where they have

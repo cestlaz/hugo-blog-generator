@@ -12,6 +12,7 @@ draft: false
 
 This morning Mark Guzdial tweeted on his latest post:
 
+#+begin_export html
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Results from
 Longitudinal Study of Female Persistence in CS: AP CS matters,
 After-school programs and Internships do not <a
@@ -20,7 +21,9 @@ Mark Guzdial (@guzdial) <a
 href="https://twitter.com/guzdial/status/1183699009766121473?ref_src=twsrc%5Etfw">October
 14, 2019</a></blockquote> <script async
 src="https://platform.twitter.com/widgets.js"
-charset="utf-8"></script> 
+charset="utf-8"></script>
+#+end_export html
+ 
 
 
 I'm glad Mark wrote about this as it's something that's important to

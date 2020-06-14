@@ -238,8 +238,11 @@ schools and why.
 
 I tweeted this the other day:
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">would love to see this experiment - take the entire staff / faculty / admin of one of the 20 or so middle schools that are the primary feeders to the spec schls and swap them with another middle school and see what happens.</p>&mdash; Mike Zamansky (@zamansky) <a href="https://twitter.com/zamansky/status/1003074760786501632?ref_src=twsrc%5Etfw">June 3, 2018</a></blockquote>
+#+begin_export html
+ <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">would love to see this experiment - take the entire staff / faculty / admin of one of the 20 or so middle schools that are the primary feeders to the spec schls and swap them with another middle school and see what happens.</p>&mdash; Mike Zamansky (@zamansky) <a href="https://twitter.com/zamansky/status/1003074760786501632?ref_src=twsrc%5Etfw">June 3, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ #+end_export html
+ 
 
 The truth is that if you did this, the high performing school would
 probably continue to be high performing and the low performing one
