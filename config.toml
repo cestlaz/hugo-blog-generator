@@ -2,7 +2,7 @@ baseURL = "https://cestlaz.github.io/"
 languageCode = "en-us"
 title = "C'est la Z"
 paginate = "10" # Number of posts per page
-theme = "mainroad"
+theme = "anubis"
 disqusShortname = "cestlaz" # Enable comments by entering your Disqus shortname
 googleAnalytics = "UA-126185083-1" # Enable Google Analytics by entering your tracking id
 
@@ -36,12 +36,14 @@ baseName = "rss"
   authorbox = false # Show authorbox at bottom of pages if true
   toc = false # Enable Table of Contents
   post_navigation = true # Show post navigation at bottom of pages if true
+  mainSections = ["post","posts"] # the section pages to show on home page and the "Recent articles" widget
   postSections = ["post","posts"] # the section pages to show on home page and the "Recent articles" widget
   #postSections = ["blog", "news"] # alternative that shows more than one section's pages
   #dateformat = "2006-01-02" # change the format of dates
-mathjax = false # Enable MathJax
-mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
   #mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+
 menu="main"
 [menu]
 [[menu.main]]
@@ -56,17 +58,6 @@ name="Emacs"
 url="/stories/emacs"
 weight=3
 
-[[menu.main]]
-identifier="categories"
-name="Categories"
-url="/categories"
-weight=8
-
-[[menu.main]]
-identifier="tags"
-name="Tags"
-url="/tags"
-weight=8
 [[menu.main]]
 identifier="archive"
 name="Archive"
