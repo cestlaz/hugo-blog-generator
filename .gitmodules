@@ -2,6 +2,3 @@
 	path = public
 	url = git@github.com:cestlaz/cestlaz.github.io.git
 	branch = master
-[submodule "themes/anubis"]
-	path = themes/anubis
-	url = https://github.com/mitrichius/hugo-theme-anubis.git
