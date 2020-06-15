@@ -1,0 +1,62 @@
+---
+title: A new book on teaching CS in K12 - and I wrote a chapter!!
+date: 2020-06-15T07:08:12-04:00
+tags: 
+- curriculum
+categories: 
+- curriculum
+draft: false
+--- 
+
+I was involved in a really exciting project a few months ago and now
+that it's available, it's time to tell everyone about it.
+
+There's a new book on teaching CS in K12 - [[https://www.shuchigrover.com/atozk12cs/][Computer Science in K12]]. 
+
+I got an email a few months ago from [[https://twitter.com/shuchig][Shuchi Grover]]. Okay, actually a
+DM over twitter. I hadn't officially met Shuchi although I'm pretty
+sure we've been at the same table or group in a conference or two but
+I did know her from reputation. Shuchi was putting together a book on
+teaching CS in K12 and asked if I was interested in contributing a
+chapter. I was flattered and honored and since I've never written a
+chapter in a book I agreed. 
+
+The book's made up of 26 chapters with a who's who of authors
+including teachers, professors, researchers, and other CS Ed adjacent
+professionals. Check out the full [[https://www.shuchigrover.com/atozk12cs/authors/][cast of characters]]. It was cool to
+see many friends involved in the project. It should be a welcome
+addition since I don't think there's anything like in currently out. 
+
+I haven't read the full book - I'm anxiously awaiting my copy to
+arrive but with chapter titles ranging from concepts like "Data Structures" and
+"Repetition and Recursion" to techniques like "Questions and Inquiry"
+and "Guided Exploration Through Unplugged Activities" it should be a
+really valuable resource to teachers rather than just a book to use in
+a class and keep on the shelf.
+
+I worked on the chapter on functions. Once again I was paired with my
+long time partner in crime JonAlf Dyrland-Weaver. Jens Monig, whom I
+hadn't known prior also worked on the chapter contributing the drag
+and drop material - something that neither JonAlf nor I felt
+particularly comfortable with doing ourselves.
+
+One weird thing, though it makes sense, was that I never interacted
+with most of the other authors - just my chapter co-authors and
+Shuchi. Nothing wrong with it but given the number of friends working
+on the book and a chance to meet new friends it would have been great
+to have something like a meetup at SIGCSE had it happened. On the
+other hand, working with Shuchi was terrific. This not only gave me a
+chance to contribute to a book but it also got us together and now I
+look forward to future collaborations.
+
+The other big take away for me was that writing the chapter was
+fun. I've been playing with the idea of writing a book on teaching CS
+but wasn't sure I'd enjoy the process. Now I think I might and I might
+get started in August when I think I'll finally have some project
+time. What do all of you think? 
+
+For now, check out [[https://www.shuchigrover.com/atozk12cs/][Computer Science in K-12]]. 
+
+Just released on Amazon in [[https://www.amazon.com/Computer-Science-K-12-Z-Programming/dp/1734662700/][Color]] and [[https://www.amazon.com/dp/1734662719/][Black and White]].
+
+
