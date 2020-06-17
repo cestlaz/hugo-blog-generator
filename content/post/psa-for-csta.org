@@ -1,0 +1,30 @@
+---
+title: PSA on CSTA (NYC)
+date: 2020-06-17T11:43:42-04:00
+tags: 
+- misc
+categories:
+- misc 
+draft: false
+--- 
+
+Just a quick public service announcemnt.
+
+Up until now CSTA-NYC has been using Meetup to organize and advertise
+events but now they're moving over to using the CSTA site as their
+platform. 
+
+If you're a CS teacher you should be a part of CSTA. There's both a
+free tier and a plus tier which costs $50 a year.  I've been a plus
+member since that level became available. If you're a NYC teacher, you
+should join the CSTA NYC chapter. If you're already coming to CSTA-NYC
+events, you should still go to the CSTA web site and check to make
+sure you're part of the NYC chapter so that you don't miss any
+exciting announcements or events. 
+
+Read the tweet below for instructions:
+
+
+
+{{< tweet 1273276485638504455 >}}
+
