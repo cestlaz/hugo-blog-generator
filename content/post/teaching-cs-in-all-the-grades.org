@@ -1,0 +1,76 @@
+---
+title: Teaching Cs In All The Grades
+date: 2020-06-27T12:29:06-04:00
+tags: 
+- PD
+categories: 
+- PD
+draft: false
+--- 
+
+I'm kicking off a couple of exciting summer projects next week and
+it's been pointed out to me a couple of times that I'll be working
+with educators at every level to help them to deliver CS instruction
+to students at every level. What an opportunity to be a part of and
+learn from - working with every level of teacher for every level of
+student. I'm part of the teaching teams but I think I'm also going to
+learn a lot.
+
+So, how is this happening? 
+
+One project I'm working on, entering its second year is a [[/post/ct-in-primary-grades/][project]] on
+computational thinking in the early grades. [[https://twitter.com/yadavaman][Aman Yadav]] and I, with the
+support of the Robin Hood Foundation will be working with primary
+grade teachers to develop experience that both teach computational
+thinking and use CT to support the core subject areas. As we had last
+time, we'll have both working teachers and pre-service teachers - that
+is, Hunter students close to earning their teaching degrees and
+certifications. In the Fall, the pre-service teachers will student
+teach under the supervision of the working teachers in our
+program. 
+
+Based on what we did last year I'm convinced that this years cohort
+will get a lot out of the experience but I'm also convinced that the
+workshop still faces the limitations of any professional development
+style training - short duration, one shot, and no long term
+support. PD can be valuable but I'm 100% convinced it's not the answer
+in terms of preparing CS teachers. At the end of the workshop, our
+teachers will have learned something about CT, be more comfortable
+with it, and have designed some lessons that they'll deliver in the
+Fall. It's a start but it's not the end. 
+
+The game changer brings me to the other group of people
+participating - four full time Hunter Faculty members. They all teach
+in our School of Education. The aim is to see where we can add CT to
+our pre-service classes. This moves the needle. If we do it right,
+soon enough, every Hunter College primary grade teaching candidate
+will be learning about Computational Thinking in their required Ed
+classes. That's how you do it - get it into pre-service.
+
+So, that has me working with pre-service and in-service teachers as
+well as full time research faculty. That's a lot of levels of
+educators but it's not all the grades.
+
+That's the other project we're kicking off on Monday and one that I
+plan to write a lot about over the next month and into next year. 
+
+We're finally kicking off our Computer Science Teacher certification
+program. We've got a cohort of a little over 20 teachers that will
+take part in a month long intensive followed by more coursework in
+the Fall. When they're done, they'll be among the first certified
+computer science teachers in New York State. The cohort consists
+mostly of High School teachers but we've got some middle school in
+there as well. 
+
+This too is a game changer. We're not giving a curriculum to follow or
+scripts to copy but rather we're teaching serious CS and how to teach
+it. Of course it doesn't hurt that the cohort is comprised of strong,
+experienced teachers. 
+
+So there it is - all the levels of teachers to all the levels of
+students. I'm super excited to be part of both of these game changing
+projects and can't wait for Monday when we get to work.
+
+
+
+
