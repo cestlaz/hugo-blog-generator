@@ -1,0 +1,34 @@
+---
+title: Teacher Cert Week 1
+date: 2020-07-02T13:48:21-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+Time for an update on our NY State Teacher Certification Program. 
+
+We kicked off on Monday. Twenty two students working wiht three
+instructors from 9:00 - 3:00 every day. We've been using a combination
+of synchronous with Zoom and async using Slack and GitHub
+discussions. We're using GitHub as our main platform.
+
+Day 0 was very Zoom heavy but we're trying to balance one big Zoom
+session a day combined with other work so as to minimize fatigue. 
+
+1. first day rough
+
+2. flow improved afterwards
+
+3. class comeraderie building - independant zooms
+
+4. still working on it
+
+5. video presentation other instructor on chat works well
+
+
+6. lots of work building on the fly - students from different backgrounds
+
+7. we're covering CS now and a lot overall
+
+8 exciting first week
