@@ -1,0 +1,50 @@
+---
+title: Productive Fidgeting at CSTA2020 - Build a Blanket for good
+date: 2020-07-06T15:49:30-04:00
+tags: 
+- knitting
+categories:
+- knitting 
+draft: false
+--- 
+
+{{< figure  src="/img/blanket2019.png" >}}
+
+It's almost time for CSTA2020. I'm looking forward to it but since
+it's going remote it is going to be interesting.
+
+Since CSTA is, at least to me, very much a  "people conference" as
+opposed to a "session conference" it'll be interesting to see how it
+all plays out.
+
+One of the things I was super excited about last year was Devorah's
+getting her [[http://blanketstatementproject.com/][Blanket Statement]] project off the ground. The whole idea
+was to have knitters and crocheters make squares while attending
+conference sessions instead of incessantly checking their
+phones. Productive fidgeting she calls it. At the end, Devorah put the
+squares together into a blanket and it was donated to a child in need.
+
+{{< tweet 1150878754916450304 >}}
+
+
+It was really cool. Our friends at GitHub Education provided space at
+their booth where Devorah could teach knitters or people could stop by
+on a break to make a square or two.
+
+It was really cool.
+
+While we can't do it again in person we can do it remotely. So, if you
+knit or crochet, pick up those needles or hooks while you're watching
+those sessions and knit some squares. 
+
+You can email your squraes to Devorah and she'll put them all together
+into a blanket or you can donate them locally. 
+
+You can find more details at [[http://blanketstatementproject.com]] or
+email Devorah at [[http://mailto:blanketstatementproject@gmail.com][blanketstatementproject@gmail.com]]. 
+
+Hope to see many friends at CSTA2020 and hope many do some productive
+fidgeting to crowdsource a blanket for a chile in need.
+
+
+
