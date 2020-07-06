@@ -33,11 +33,13 @@ repo: [[https://github.com/zamansky/github-org-explorer][https://github.com/zama
 
 Here's the short runthrough video I made. Logging in looks different
 but everything operates the same way:
-
+#+begin_export html
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/e-gNzuBG3mU" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen></iframe>
+
+#+end_export
 
 
 

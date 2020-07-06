@@ -57,9 +57,11 @@ missing piece. I plan to add roster support some time in the future.
 If anyone's interested, here's the GitHub repo: [[ https://github.com/zamansky/github-org-explorer][https://github.com/zamansky/github-org-explorer]]
 
 And a short video walkthrough of how it works.
-
+#+begin_export html
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/e-gNzuBG3mU" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen></iframe>
+
+#+end_export
 
