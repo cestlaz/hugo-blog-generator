@@ -1,0 +1,61 @@
+---
+title: Hunter's CS Teacher Certification program Week 2
+date: 2020-07-12T10:31:53-04:00
+tags: 
+- education
+- pedagogy
+categories: 
+- education
+draft: false
+--- 
+
+Time for some thoughts after week 2.
+
+Since this is the inaugural edition of our program and there was no
+way to really know what the cohort would be like we've been adjusting
+on the fly. This was expected but we're finally starting to settle
+in. We're still finding more zoom heavy days but as we move towards
+the end of our data structures segment there should be fewer of those.
+
+The cohort is progressing nicely. They're working hard - we've got
+some members who are former CS majors or otherwise came in with a
+strong CS background but many were relative beginners. They're all
+coming along. We have to remind them that some topics just take
+time. I've taught these subjects for years at Stuy but also at Hunter
+College and NYU and recursion just takes time. So do Linked Lists and
+dynamic data structures. It's typical for CS majors not to be really
+comfortable with them for a couple of years. I think I was near the
+end of my college days before I'd roll out a pointer based solution to
+a problem with the same comfort as with an array. So, the long and
+short is that they're doing great.
+
+When we started, we tried to integrate a discussion of pedagogy with
+the CS but found that we were expecting too much as the CS was new to
+a large portion of the group. We decided instead to model assorted
+teaching techniques but keep the analysis and discussion mostly to the
+CS. Last Friday though we spent most of the morning looking back at
+the pedagogy. It was a rich discussion. We loved that many of the
+teachers commented on "when we modeled" one technique or another. We
+ended up spending a good amount of time talking about scaffolding and
+code skeletons, code reading and tracing, live coding and a bunch of
+others. What was also cool was that some of the techniques we modeled
+didn't come up in our discussion originally (we had to interject them)
+and some things we did unintentionally were also highlighted by the
+cohort. 
+
+It was a fun and productive morning. 
+
+Another thing that came out of the discussion was our use of
+technology but I'm saving that for another post. 
+
+Finally, I'm remembering that a month long summer intensive is, well,
+intensive. It's really draining. After Friday's session was done and
+JonAlf, Topher and I debriefed, I just crashed for the night and
+pretty much took Saturday off save making one video that we'll need on
+Monday. It's also hard on the students - 12 credits in one month. 
+
+That said, we're chugging along and they're doing great. More
+confident than ever that we're going to have a 21 new leaders in CS Ed
+in NY come the program's conclusion.
+
+
