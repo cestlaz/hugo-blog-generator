@@ -1,0 +1,84 @@
+---
+title: Virtual Conferences - CSTA 2020
+date: 2020-07-13T16:27:02-04:00
+tags: 
+- csta
+categories:
+- csta 
+draft: false
+--- 
+
+I'm wasn't supposed to be in NYC this week. I was supposed to be in
+Arlington Virginia with around one thousand of my CS Teacher friends
+at CSTA2020. Devorah was going to spend the days at the GitHub booth
+[[https://cestlaz.github.io/post/blanket-statement-2020/][teaching knitting]] and I was going to do a GitHub workshop and
+generally enjoy the show
+
+Of course nobody's traveling these days and CSTA2020 is running
+remote. This is my second virtual conference as I attended parts of MongoDB
+world a few weeks ago.
+
+I'm still forming my opinion on CSTA2020 but I thought I'd share my
+thoughts in progress.
+
+To start, virtual conferences aren't the same as in person - they
+can't be. For me, CSTA is a person first conference rather than
+session first. That is, I get most of my value from the hallway
+track. That's not to say I don't enjoy the sessions, it's just that
+for me personally, I get more from the chats than from the talks. By
+contrast, for me SIGCSE is more about the sessions. There are a few
+reasons why things fall this way but there neither here nor there.
+
+So, since there can't really be a hallway track, I was wondering how
+CSTA2020 would feel. 
+
+TL;DR - it's different but still pretty great.
+
+Keynote's are keynotes wether virtual or in person so not much to say
+in them so let's move to the sessions. CSTA is using hopin.to and it's
+working pretty well. MongoDB used another platform that seemed to be
+more glitchy. Hopin's been working pretty seamlessly for me. I'm
+presenting tomorrow so we'll see if that changes my view. None of the
+sessions I attended brought any participants "on stage" so
+interactions were through the chat. It worked pretty well but at times
+there was so much chatter that things flew off the screen before you
+could read them.
+
+Overall, I'm digging the plaltform. Not the same as in person but it's
+a good approximation.
+
+The vendor / exhibit area worked pretty much the same way so not much
+to say there. 
+
+Overall the interface is pretty smooth. Navigation could be smoother
+and so could user search but overall, pretty nice.
+
+So, where are we at? We've got a pretty good platform for sessions
+with decent navigation, chat, and messaging but what about that
+hallway track. 
+
+We don't have one but we have a pretty cool alternative. Hopin has a
+networking feature. When you drop in, you're matched with someone else
+randomly for a 5 minute video chat. After five minutes, its over. You
+can come back in and chat with someone else or be done with it.
+
+I really like this feature.
+
+For someone asocial and somewhat awkward like me, it's great. Five
+minutes isn't too long to get awkward but it's enough for a brief chat
+and you can follow up later. The randomness lets you meet new people.
+
+In some ways it's better than in person. I frequently fly solo at
+conferences. At this point I know a decent amount of people but when
+at a new conference, it's hard to break in. The reason is that many
+colleges or schools send groups of teachers and they cluster together
+making it hard for an individual to join in. I see it and fee it all
+the time, With this platform, you're dumped in one on one - no worries
+about cliques. 
+
+So, what's the verdict. 
+
+I'm loving the networking feature and liking the overall tool. I hope
+CSTA's in person next year but I'll be a happy attendee even if we
+remain remote.
+
