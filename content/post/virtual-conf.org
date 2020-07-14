@@ -8,7 +8,7 @@ categories:
 draft: false
 --- 
 
-I'm wasn't supposed to be in NYC this week. I was supposed to be in
+I wasn't supposed to be in NYC this week. I was supposed to be in
 Arlington Virginia with around one thousand of my CS Teacher friends
 at CSTA2020. Devorah was going to spend the days at the GitHub booth
 [[https://cestlaz.github.io/post/blanket-statement-2020/][teaching knitting]] and I was going to do a GitHub workshop and
