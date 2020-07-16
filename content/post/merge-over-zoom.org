@@ -1,0 +1,62 @@
+---
+title: Merge Over Zoom - A Hunter CS Certification Program Update
+date: 2020-07-16T19:00:55-04:00
+tags: 
+- pedagogy
+categories: 
+- pedagogy
+draft: false
+--- 
+
+
+
+
+We've been talking sorting and searching in our teacher certification
+program and today was all about the merge sort. One of the strategies
+we use when teaching it in person involves sorting a deck of cards by
+[[/posts/2014-02-27-dumbass/][Tom Sawyering]] it with the class. It's fun and it's effective but you
+can't do it over Zoom. What to do? We didn't want to just jump into
+the nuts and bolts of merge sort. We could - we've got a great group
+of teachers who could handle it but we're not just talking about
+content in the program we're also talking about pedagogy.
+
+How could we adapt a divide and conquer algorithm where we split a
+deck of cards and pass it out to the class to a remote environment.
+
+Here's what we came up with.
+
+I started with a story about how I pitched Hunter about having a party
+with this first cohort when they all earn their NY State CS Teaching
+Certificates (assuming we could have a party in person). They said yes
+but to keep costs down I had to get them a list of possible
+restaurants to order from sorted by lowest price. We decided to use
+Chinese restaurants and the price of pork dumplings. 
+
+I had a long list and was going to have to go to the seamless page for
+each one and get the price and then sort them. Not fun.
+
+Since I'm running the program but have two instructors - JonAlf and
+Topher working with me, we decided I could "volunteer" each to do half
+the list. They weren't happy so they looked for Teaching Assistants to
+pawn the work off on but having none went to the students. We
+continued with the split until a bunch of students each had to look up
+one and only one restaurant to find the price of the pork. We then
+passed the restaurants and prices back up the chain and voila - merge
+sort. .
+
+We basically were able to replicate the in class card sorting
+experience with something that we could do over Zoom. It went over
+pretty well. 
+
+We're going to talk more about what we did and why and the idea of
+actively engaging students in different ways over virtual conference
+technologies tomorrow. 
+
+It was all pretty cool.
+
+
+
+
+
+
+
