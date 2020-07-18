@@ -28,13 +28,13 @@ We've been doing list processing in Python over the past few days. We already di
 
 {{< highlight python >}}
 def find_max(L):
-maxval = L[0]
-i=0
-while i<len(L):
-if L[i]>maxval:
-maxval=L[i]
-i += 1
-return maxVal
+  maxval = L[0]
+  i=0
+  while i<len(L):
+    if L[i]>maxval:
+     maxval=L[i]
+  i += 1
+  return maxVal
 {{< / highlight >}}
 
 We've also done basic searching, counting elements, removing elements, etc.
@@ -48,18 +48,18 @@ than the "mode so far." Pretty much the same idea as find_max (but in this case,
 
 {{< highlight python >}}
 def mode(L):
-modecount = L.count( L[0] )
-modes = [ L[0] ]
-i = 1
-while i < len(L):
-c = L.count(L[i])
-if c > modecount:
-modecount = c
-modes = [ L[i] ]
-elif c==modecount and L[i] not in modes:
-modes.append( L[i] )
-i += 1
-return modes
+  modecount = L.count( L[0] )
+  modes = [ L[0] ]
+  i = 1
+  while i < len(L):
+    c = L.count(L[i])
+    if c > modecount:
+      modecount = c
+      modes = [ L[i] ]
+    elif c==modecount and L[i] not in modes:
+      modes.append( L[i] )
+    i += 1
+  return modes
 {{< / highlight >}}
 
 
@@ -86,11 +86,8 @@ finding - elections. The winner is "the mode of the ballots."
 
 Of course we don't use the above algorithm. We usually tally or count the ballots. We go through the ballots once, each time adding one to the appropriate candidates "bucket."
 
-<div align="center">
-<a href="/img/tally.png" rel="lightbox">
-<img width="50%" src="/img/tally.png" class="" alt="" />
-</a>
-</div>
+
+![](/img/tally.png)
 
 From here, it's a short step to see that we can use a list. It's
 indices represent the grade values and the data in the list the counts
@@ -98,23 +95,23 @@ or tallies:
 
 {{< highlight python >}}
 def fastmode(L):
-i=0
-counts = []
-while i<max(L)+1:
-counts.append(0)
-i+=1
-i=0
-while i < len(L):
-counts[ L[i] ] += 1
-i += 1
-modecount = max(counts)
-modes = []
-i=0
-while i < len(counts):
-if counts[i]==modecount:
-modes.append(i)
-i=i+1
-return modes
+  i=0
+  counts = []
+  while i<max(L)+1:
+    counts.append(0)
+    i+=1
+  i=0
+  while i < len(L):
+    counts[ L[i] ] += 1
+    i += 1
+  modecount = max(counts)
+  modes = []
+  i=0
+  while i < len(counts):
+    if counts[i]==modecount:
+    modes.append(i)
+    i=i+1
+  return modes
 {{< / highlight >}}
 
 We go through the list once to build the tallies and then the "tally"
