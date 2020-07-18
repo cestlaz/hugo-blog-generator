@@ -27,7 +27,6 @@ At the core of the problem you have to maintain a list of items
 inserting and deleting items at assorted locations. I threw together
 this solution:
 
-#+BEGIN_SRC python
 {{< highlight python >}}
 num_players =431 # 9
 last_score = 70950 # 255
@@ -52,8 +51,7 @@ while next_marble < last_score:
     player=(player+1)%num_players
     next_marble = next_marble + 1
 print(max(players))
-{{< / highlight >}}
-#+END_SRC
+{{</highlight >}}
 
 It worked and I got my first star. This unlocked part 2 which changed
 the number of marbles in the game from 70950 to 70950<b>00</b>. This
