@@ -19,6 +19,7 @@ draft: false
 
 Natan commenting on work the  other day:
 
+#+begin_export html
 <blockquote>
 
 "You have two lists. One is sorted, the other is not. Every item in
@@ -33,6 +34,8 @@ Let this be submitted as evidence that a computer science education is
 valuable no matter what field you go into. That, or I'm just a
 particular kind of crazy.
 </blockquote>
+
+#+end_export
 
 
 There's clearly an unplugged activity here :-)
