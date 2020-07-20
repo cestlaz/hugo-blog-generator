@@ -1,0 +1,66 @@
+---
+title: Github and Student Feedback
+date: 2020-07-20T16:12:47-04:00
+tags: 
+- tools
+categories: 
+- tools
+draft: false
+--- 
+
+Beyond the CS specifics We've been primarily using three tools in our
+summer certification program.
+
+1. Zoom for video conferencing
+2. Slack for text based communicaiton
+3. GitHub for just about everything else
+
+We use GitHub as a CMS - a place to share code and assignments as well
+as collect them. We're also playing with GitHub discussions although
+that's fallen somewhat to the wayside with Slack being preferred. 
+
+One of the choices I'm digging more than ever is [[https://classroom.github.com/][GitHub Classroom]] for
+assignments. Recently GitHub added a feedback feature powered through
+what known as Pull Requests. You just have to check the "feedback"
+button when you create an assignment. I also set my notifications so I
+receive an email alert whenever a students submits anything.
+
+Whenever a student updates an assignment or in Git parlance commits
+and pushes up a change, I get an email alert. The email includes: 
+
+1. The repo where the change was made 
+2. A brief message describing the most recent change
+3. A link the the students GitHub account
+4. A link to the actual change.
+
+Clicking on the change and I get to a screen like this:
+
+{{< figure src="/img/github-diff.png/" >}}
+
+A summary of exactly what changed. I see lines that were deleted,
+lines that were added and lines that were modified. At the top I see
+the one line brief description which the student put in when making
+the commit. I can also easily navigate through their assignment both
+to see other parts of it as well as earlier versions.
+
+If you scroll down the page there's a place you can leave a comment
+which will go to the student. 
+
+This all makes for a very quick and easy feedback mechanism. You can
+also go to the "pull request" section of the repo (link at the top of
+the repo page) where you can find all the comments.
+
+All in all this provides a very quick and painless way of seeing what
+students are up to and a quick way to provide some feedback.
+
+The only catch is that this only works when the students actively push
+changes up to GitHub. While this group of teachers have been great
+that's sometimes a challenge with high school or college
+students. Working on strategies to get this type of buy in from my
+first years in the Fall.
+
+So, GitHub Classroom's feedback mechanism? A big win and more great
+work from the GitHub education team.
+
+
+
