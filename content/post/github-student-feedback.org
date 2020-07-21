@@ -35,7 +35,7 @@ and pushes up a change, I get an email alert. The email includes:
 
 Clicking on the change and I get to a screen like this:
 
-{{< figure src="/img/githubdiff.png/" >}}
+{{< figure src="/img/githubdiff.png" >}}
 
 A summary of exactly what changed. I see lines that were deleted,
 lines that were added and lines that were modified. At the top I see
