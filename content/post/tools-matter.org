@@ -1,0 +1,117 @@
+---
+title: Tools matter when teaching (and learning)
+date: 2020-07-22T07:52:24-04:00
+tags: 
+- tools
+- pedagogy
+categories: 
+- toiols
+draft: true
+--- 
+
+One of our teacher certification cohort members asked for some help on
+our Slack the other day. It was about a side project - he was learning
+him so Javascript. It's always very cool to see teachers exploring
+things that can help with their craft on their own.
+
+The whole situation reminded me  about how important good tooling is
+and why, in spite of its popularity, javascript has some severe issues
+as a learning language and I'm a guy that actually likes javascript. 
+
+The project was a small interactive javascript todo application and he was
+having trouble getting a button to react. I grabbed his code off
+GitHub, fired up a server and took a look. Indeed, there were
+issues. Some of the interface worked - you could type in a new item
+and hit enter or click an add button and it worked. You could check or
+uncheck items and you could delete them individually. Everything
+worked except the clear button which did nothing. Weird.
+
+Exploring the code, here were some of the key sections:
+
+{{< highlight js>}}
+// there were sections like this
+const filterOption = document.querySelector(".filter-todo");
+const clearButton = document.querySelector(".clear-button");
+
+// then more code 
+
+// then some of this
+filterOption.addEventListener("click", filterTodo);
+clearButton.addEventListener("click", clearTodos);
+
+// and more code
+
+{{</highlight>}}
+ 
+I just pulled out the lines relevant to what he was doing and to the
+error so be aware that it's all out of context. 
+
+
+The ~document.querySelector~ lines get references to DOM elements -
+elements on the page. The ~addEventListener~ then links a function to
+the event. So, when you click on the *clear* button on the web site,
+it's supposed to run the function ~clearTodos~ and when you click on
+the *filter* button it will run *fiterTodo*. There's more linking of
+events to elements in the code.
+
+What was really weird was that parts and in fact most of the interface
+was working and just the clear button was not. To make matters worse,
+looking both at the server output and the actual web page, there was
+no indication of anything wrong. Even if you looked at the developers
+console in the browser it didn't really give you a clue.
+
+It didn't take me *too* long to find the error but that's only because
+I spent hours on similar errors back when I learned javascript. Back
+then though I lost hours of time on errors like these and I was
+learning JS decades into my career as a computer science teacher and
+professional.
+
+What was going on?
+
+When javascript executes  ~querySelector~ it returns a reference to an
+element in the web page. If that element doesn't exist, it returns
+ ~null~. As it turned out, at least in the version I looked at, there
+was no element on the page identified by the class *filter-todo*. The
+result was that after executing
+
+{{< highlight js>}}
+const filterOption = document.querySelector(".filter-todo");
+{{</highlight>}}
+
+~filterOption~ is set to refer to null.
+
+Then later, this code: 
+{{< highlight js>}}
+filterOption.addEventListener("click", filterTodo);
+{{</highlight>}}
+
+crashes the program because you can't call the ~addEventListener~
+method on ~null~ which is what ~filterOption~ is set to.
+
+Therein lies the problem. I commented out the two lines, the program
+ran, and the *clear* button was clickable.
+
+The killer was that the tool gave some pretty weird results - it
+wasn't all or nothing. Parts of the interface responded but parts
+didn't. There was no actionable feedback. The only feedback was indeed
+this error: *TypeError: filterOption is null* but this seems wholly
+unrelated to the clear button and since most of the interface was
+responsive it seemed even weirder.
+
+My best guess was that the web browser executed the JS code
+until the crash so anything that parts of the user interface that were
+wired up prior to that null pointer reference did indeed run.
+
+The lack of feedback and this manner of execution can make javascript
+really tough on both beginners and self learners. It's also tough with
+a teacher if they don't really know the ins and outs of the toolset.
+
+This was all just a reminder that tools matter. Java, Python, and C++
+might not give the best error messages but generally the tooling isn't
+so bad. They could of course, be better, and I'm not arguing that any
+of them are ideal learning environments but JS has a long way to
+go. On the other hand, languages and environment specifically made for
+learning have issues as well. The bottom line in choice of tools is
+that there's no magic bullet and the answer is as usual, "it depends."
+
+
