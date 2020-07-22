@@ -6,7 +6,7 @@ tags:
 - pedagogy
 categories: 
 - toiols
-draft: true
+draft: false
 --- 
 
 One of our teacher certification cohort members asked for some help on
