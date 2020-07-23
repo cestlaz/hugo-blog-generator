@@ -69,7 +69,7 @@ disable_comments = true
 ** [[http://cestlaz.github.io/posts/using-emacs-27-rectangles][Video 28 - Rectangles]]
 
 
-** [[http://cestlaz.github.io/posts/using-emacs-29%20elfeed][Video 29 - elfeed 1 ]]
+** [[http://cestlaz.github.io/posts/using-emacs-29-elfeed][Video 29 - elfeed 1 ]]
 
 ** [[http://cestlaz.github.io/posts/using-emacs-30-elfeed-2][Video 30 - elfeed 2 - Hydras ]]
 
