@@ -1,0 +1,51 @@
+---
+title: Hunter College CS Teacher Certification - Final Project Fun Time
+date: 2020-07-28T10:09:25-04:00
+tags: 
+- education
+categories: 
+- education
+draft: false
+--- 
+
+
+Well, we just delivered the last formal piece of instruction for the
+summer intensive. Writing this post between visits to breakout rooms
+as the cohort works on their final projects.
+
+Tomorrow and Thursday will be presentation time. Each group will give
+spend thirty minutes teaching us all about some topic in CS along with
+the plan for how we could teach the topic to our kids. We've got a few
+more things to talk about as a group but it's mostly time to sit back
+and enjoy the show.
+
+It's been a long hard month for JonAlf Topher and me. A lot of work
+goes in to a first time program and when you're meeting every day all
+day with off hours student support there's not a lot of time for the
+inevitable steering that comes with something new.
+
+Now though we can sit back and enjoy some presentations by some great
+teachers and provide some meaningful feedback. We've got a nice list
+of topics.
+
+ - Blockchain
+ - Genetic Algorithms
+ - Data Mining
+ - Machine Learning
+ - Natural Language Processing
+ - Public Key Encryption
+ - Data Visualization
+ - Classic AI - Decision Trees
+ - Classic AI - search
+ - Databases / SQL
+
+Obviously we're not going to learn everything about topics like NLP or
+ML but rather a single unit that can be done in a lass.
+
+In the end, the idea is that every cohort member will have a nice set
+of topics and support materials from which to choose for their classes.
+
+Should be a lot of fun.
+
+
+
