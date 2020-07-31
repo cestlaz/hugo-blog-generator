@@ -1,0 +1,97 @@
+---
+title: Teaching Methods
+date: 2020-07-31T10:54:47-04:00
+tags: 
+- pedagogy
+categories:
+- pedagogy 
+draft: true
+--- 
+
+Our summer intensive was, well, pretty intensive. We met all day every
+day for a month and knocked out four classes. 
+
+- Programming (CS1)
+- Data Structures
+- Topics
+- Methods
+
+If you ever took or taught a summer session class, you know that time
+is tight and generally you cover a little less than in a fall or
+spring semester class. N credits in 5 weeks just isn't the same as
+those same N credits spread over 13. 
+
+How did we recapture some time? First, we had some pre-work and second
+we integrated some of the courses. We couldn't really do it with
+programming and data structures and we were less successful at
+integrating the topics than we liked but it made the most sense with
+methods, in fact, I think the methods part of the class was more
+successful as a result of it's integration with the other subjects
+than it would have been as a stand alone.
+
+Here's what we did.
+
+We first thought about covering methods as we taught topics - that is,
+present something using some teaching technique, cover the topic and
+then also dive in to the technique. This turned out to be a
+mistake. The teachers that came in with a strong CS background  seemed
+fine but for the ones newer to the subject matter, it was too much at
+once. We had to alter course.
+
+So we did.
+
+We continued to model various methods and sometimes made a side remark
+here or there but focused on the CS. After a few days in, we were
+ready to spend a day on pedagogy. We broke the class into groups and
+had them reflect on the content we taught - how did we teach it? Why
+did we approach it the way we did? Did it work? This led to some rich
+discussion of both CS teaching techniques and teaching in general. We
+were very happy with how it all went.
+
+We then went back to content but added more side bits here and there
+about the teaching methods - as they became more comfortable with the
+CS we were able to integrate more methods talk in with the CS talk. At
+our next formal pedagogy lesson, we again talked about new techniques
+that were modeled but also looked at alternative approaches and
+took a deeper look at our individual cohort members student
+populations. 
+
+Some of the methods we discussed included: 
+
+- Live Coding 
+- Subgoal labeling
+- Make predictions
+- Modifying existing code
+- code tracing
+- diagramming
+- scaffolded assignments (code skeletons)
+- Rubber Duck Debugging
+- Code sharing (presenting)
+- writing implementations of library code
+- slack techniques (reacts polls, channels, ) 
+- thought-grooming/sparking warm-up Qs/tasks
+- relevant quotes at warm-up
+
+and more but the list doesn't really do the discussion justice. Take
+"live coding" for example - that's not just writing code in front of
+the class. There's a rich discussion here - how do you narrate? Is it
+truly live or from a note sheet? How about discussing workflow while
+modeling it? How about live coding subgoals? The actual class is much
+richer than just "live coding."
+
+In addition to integrating methods into the teaching of content, we
+also merged it with the topics course for some of the assessment. For
+topics, each group created a class or unit on some area of CS and
+included in the documents they prepared and presentation was a
+discussion of how it might bet taught. I know that they all came in as
+experienced teachers so weren't starting with nothing but man, they
+knocked it out of the park. I'll be talking more about the topics in a
+later post.
+
+I'll probably say this a lot in my summer intensive wrap up posts but
+it was such a treat working with a cohort of great educators and also
+to have two of the best teachers I know to work with as the teaching
+team.
+
+
+
