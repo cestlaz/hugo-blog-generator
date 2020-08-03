@@ -1,5 +1,5 @@
 ---
-title: Teaching Methods
+title: Preparing CS Teachers - teaching methods
 date: 2020-07-31T10:54:47-04:00
 tags: 
 - pedagogy
