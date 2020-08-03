@@ -1,0 +1,81 @@
+---
+title: Preparing CS Teachers - what to leave in, what to leave out
+date: 2020-08-03T08:17:23-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+Teachers always make decisions in their courses - what to leave in,
+what to leave out. I've seen programming and data structure classes
+where everything is written from scratch and others where a few things
+are explained and the students just use built in types like the
+java LinkedList  or Arrays.sort() method.
+
+Do too much from scratch and you'll never finish the curriculum. Do to
+little and the students won't really understand what's going on and
+walk a path towards being programmers or coders rather than computer
+scientists. Most teachers work somewhere between the extremes.
+
+We not only had to make these decisions for our CS content but also
+for our methods. We decided to leave out two particular
+methods that are very popular - pair programming and Parsons
+problems. We did mention both in passing and did a little talk on pair
+programming but the treatment was far less than say live coding,
+subgoal labeling or the many other teaching techniques we decided to
+explicitly cover. 
+
+Why did we leave out these two topics? 
+
+Partly pragmatism and pragmatism is something that's always left out
+when talking about teaching. Let's look at Parsons problems. If you're
+unfamiliar with them, they're basically scrambled code
+fragments. Students have to put them in order. They're cool puzzles
+and a nice change of pace. but you have to create them and get them to
+your students. That didn't fit all that well with us. By the time we
+got to content that would benefit from Parsons problems our pace or approach
+didn't really fit using them. It's also worth noting that we haven't
+seen any good online Parson problem generator systems which would be
+both a boon to problem creation and potentially distribution and
+assessment. 
+
+There just wasn't that much bang for the buck in giving them more than
+lip service. Since our cohort was composed of experienced teachers, we
+were confident that they can find the appropriate Parsons problems
+resources and use them where appropriate in their classes.
+
+On pair programming we had similar pragmatic issues - it didn't fit
+all that well given how tight the program was and we had to figure out
+how bet to do it remotely on the fly. We also knew that the cohort had
+all been to at least some NYC CS4All training and so were at least
+exposed to the idea. Still, we, or more accurately, Topher, who's had
+great success getting student buy in did do a brief talk on the
+subject. Some of the things we covered were: 
+
+  - How to motivate pair programming in a collaborative way
+  - What activities can you give the navigator while the driver's
+    setting up the environment to involve them.
+  - How in the "real world" some developers love PP and some hate it
+    and that there are many variations on the theme.
+  - You'd not always going to get student buy in.
+
+That last point is *very* important. Teachers are going to try things
+that don't always work and unfortunately, the system of evaluation
+doesn't promote such necessary experimentation. What's more every time
+you go to a professional development or training session or head
+something online it's about how the presented did it and it worked
+perfectly and if you follow the same recipe it'll work for you. It
+might, but then, it might not. It's all about building the toolbox of
+tricks and using them when appropriate and even then, not every lesson
+is going to be John Keating or Jaime Escalante on the big screen.
+
+So, in the end we made choices. We're they the right ones? I think
+so. Next time around the cohort will be different and the
+circumstances a little as well. Will we make the same choices? Maybe,
+we'll have to wait and see. 
+
+
+
+
+
+

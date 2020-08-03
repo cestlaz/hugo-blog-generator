@@ -1,0 +1,73 @@
+---
+title: CS Teacher Certification - Topics in CS
+date: 2020-08-02T13:25:51-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+Officially, the last course of the summer was "Modern Topics in
+Computer Science." The idea was that K12 CS teachers on the one hand
+need depth beyond the typical terminal high school course, hence data
+structures and also breadth so that they could create electives, mix
+teasers in to the regular courses, or help precocious students with
+independent or semi-independant explorations. 
+
+If someone was teaching this in a typical fall or spring semester
+course, they'd probably have a list of topics and spend a couple of
+weeks on each. We wanted to do it a little differently. 
+
+The original thought was to integrate some of the topics in with the
+earlier computer science but there weren't too many opportunities due
+to the compressed nature of the program. Instead, a few days before we
+wrapped up data structures we gave the cohort a list of potential
+topics and asked them to select one. Since the cohort had all already
+been teaching CS and had differing content backgrounds we also
+encouraged them to choose a topic not on the list.
+
+When it was time for them to begin work on the topics part of the
+intensive, they all shared their desired topic. Fortunately, things
+worked out. We ended up with two solo students and a bunch of small
+teams. The teams were tasked with learning about the topic and
+designing a lesson or unit covering it. This could be for their
+current students or some other hypothetical group. Each group would
+also have to create a program or programs to show an implementation
+and or use of the topic. Once they chose their topics, we picked a few
+out of the remaining selections as topics that we'd present. 
+
+The next few days were Topher, JonAlf and I delivering our topics and
+the cohort working in groups. When they worked, we'd drop in and
+support. The final two days consisted of the groups presenting their
+work.
+
+The topics they selected were:
+
+  - Data Mining
+  - Public Key Encryption
+  - Blockchain
+  - Natural Language Processing
+  - Classic AI - Decision Trees
+  - SQL / Cyber Security
+  - Visualization
+  - Machine Learning / Cipher Decryption
+  - Genetic Algorithms
+  - Classic AI - Search
+
+We weren't sure exactly what to expect but we were blown away both in
+terms of the CS content as well as what they prepared in terms of
+lessons and units. 
+
+Since this is just year one of the program we thought we'd get ahead
+of the game and set up a site where we could host and share these
+units and other resources so check them out [[https://github.com/hunter-teacher-cert/Teacher-Resources/blob/master/README.org][here]]. 
+
+We didn't have a strict format for the cohort to use so each one is a
+little different but each link's README.md file will get you started.
+
+As I said, we were blown away by their work but super proud that we
+also have the bonus of being able to make their work available to the
+general CS Ed community. If you're looking to create a unit in any of
+these, check them out.
+
+
+
