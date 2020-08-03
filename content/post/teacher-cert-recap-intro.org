@@ -1,12 +1,12 @@
 ---
 title: Preparing teachers to teach CS
-date: 2020-07-31T15:26:49-04:00
+date: 2020-08-03T06:16:52-04:00
 tags:
 - teaching
 - CSEd
 categories: 
 - teaching
-draft: true
+draft: false
 --- 
 
 Now that the summer portion of Hunter College's Advanced Certificate
