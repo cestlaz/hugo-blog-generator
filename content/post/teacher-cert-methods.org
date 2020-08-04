@@ -1,11 +1,11 @@
 ---
-title: Preparing CS Teachers - teaching methods
-date: 2020-07-31T10:54:47-04:00
+title: Preparing CS Teachers - adding methods to our madness
+date: 2020-08-04T06:47:08-04:00
 tags: 
 - pedagogy
-categories:
-- pedagogy 
-draft: true
+categories: 
+- pedagogy
+draft: false
 --- 
 
 Our summer intensive was, well, pretty intensive. We met all day every
