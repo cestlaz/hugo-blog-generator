@@ -1,5 +1,5 @@
 ---
-title: Preparing CS Teachers
+title: Preparing CS Teachers - adding methods to our madness
 date: 2020-08-04T06:47:08-04:00
 tags:
 - pedagogy
