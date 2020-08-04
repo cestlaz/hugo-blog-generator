@@ -5,7 +5,7 @@ tags:
 - pedagogy
 - CSEd
 categories:
-- teaching-cs-in-all-the-grades.org
+- teaching
 draft: false
 --- 
 
