@@ -1,10 +1,12 @@
 ---
 title: CS Teacher Certification - Topics in CS
-date: 2020-08-02T13:25:51-04:00
+date: 2020-08-05T07:13:01-04:00
 tags: 
 categories: 
-draft: true
+draft: false
 --- 
+
+
 
 Officially, the last course of the summer was "Modern Topics in
 Computer Science." The idea was that K12 CS teachers on the one hand
