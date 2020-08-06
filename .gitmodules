@@ -1,7 +1,3 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:cestlaz/cestlaz.github.io.git
-	branch = master
 [submodule "themes/anubis"]
 	path = themes/anubis
 	url = git@github.com:cestlaz/hugo-theme-anubis.git
