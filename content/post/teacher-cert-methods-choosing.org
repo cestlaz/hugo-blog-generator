@@ -9,10 +9,6 @@ categories:
 draft: false
 --- 
 
-
-
-
-
 Teachers always make decisions in their courses - what to leave in,
 what to leave out. I've seen programming and data structure classes
 where everything is written from scratch and others where a few things
@@ -59,12 +55,12 @@ exposed to the idea. Still, we, or more accurately, Topher, who's had
 great success getting student buy in did do a brief talk on the
 subject. Some of the things we covered were: 
 
-  - How to motivate pair programming in a collaborative way
-  - What activities can you give the navigator while the driver's
-    setting up the environment to involve them.
-  - How in the "real world" some developers love PP and some hate it
-    and that there are many variations on the theme.
-  - You'd not always going to get student buy in.
+- How to motivate pair programming in a collaborative way
+- What activities can you give the navigator while the driver's
+  setting up the environment to involve them.
+- How in the "real world" some developers love PP and some hate it
+  and that there are many variations on the theme.
+- You'd not always going to get student buy in.
 
 That last point is *very* important. Teachers are going to try things
 that don't always work and unfortunately, the system of evaluation
@@ -80,9 +76,3 @@ So, in the end we made choices. We're they the right ones? I think
 so. Next time around the cohort will be different and the
 circumstances a little as well. Will we make the same choices? Maybe,
 we'll have to wait and see. 
-
-
-
-
-
-
