@@ -1,0 +1,73 @@
+---
+title: Teacher Cert Topics Curriculum
+date: 2020-08-04T11:10:41-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+I've frequently been asked for curricula. I'll hear from a school or
+someone otherwise involved in a school or education and they'll ask
+for a course they can drop in and teach.
+
+I explain it doesn't work that way. A syllabus or curriculum is only
+so good. A great curriculum with a bad teacher will still be bad but a
+great teacher can do a lot to salvage a horrible curriculum.
+
+
+A curriculum only goes so far. At it's most sparse, it's a list of
+topics. At the other end we frequently see worked out prescribed
+lessons that can be a boon to a beginner but in the end constrains
+great teachers. 
+
+As a side note, this was something I noticed years ago when touring
+elementary schools for my own children. We saw one school where
+everything was in lockstep - every classroom looked basically the
+same. Every teacher taught the same subject at the same time as every
+other teacher each day and what they taught and how they taught it was
+tightly controlled. We opted for  a school where the teachers were
+much more free to actually teach. The school in question was well
+regarded and the more we dug in the more we realized that the
+strictness the principal imposed helped bring the bad teachers up to a
+certain level and got most students through the standardized tests but
+there was no joy. Great teachers weren't allowed to teach. It was a
+perfect example of a Bloomberg era stat mill. 
+
+Anyway back to CS.
+
+I was thinking about this while we watched the summer cohort's topic
+presentations. Three of the topics were ones that I teach annually -
+AI Search, NLP, and Cipher decryption. Some of the others I'm planning
+on mixing in next year. The presentations and supporting materials
+were all terrific but in every case, the teachers chose to spin and
+emphasize aspects different to those I would emphasize.
+
+In the case of the cipher decryption lesson, the cohort emphasized the
+machine learning type aspect. I spin the lesson more towards a
+recommender system. Neither is better or worse. My guess is that we
+each selected aspects that were exciting to us and riffed on
+those. Similarly the other groups brought up nuances and emphases that
+differed from mine. 
+
+It was terrific.
+
+If you look at a syllabus, the search topic might just say "Depth
+First Search." It might be in the recursion section of the class and
+thus lead you to teaching a recursive solution or it might be in
+the data structure / stack section and lead you to implement your own
+stack. If the curriculum is fleshed out it'll give more specifics but
+will it talk about states and state space? How about implicit data
+structures? 
+
+There's so much richness to a well taught course that's never captured
+by a curriculum and that includes tangents, side stories and limitless
+discoveries. 
+
+When I talk to my students decades later it's usually not those lines
+on the syllabus they remember but the richness that lives in the ether
+of a well taught class.
+
+So cool that our certification program created an environment where
+we've been able to mix the spices from so many different chefs and
+each of us is leaving with something new and richer.
+
