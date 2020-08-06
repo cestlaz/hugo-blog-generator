@@ -1,10 +1,17 @@
 ---
 title: Preparing CS Teachers - what to leave in, what to leave out
-date: 2020-08-03T08:17:23-04:00
-tags: 
-categories: 
-draft: true
+date: 2020-08-06T07:37:12-04:00
+tags:
+- pedagogy
+- CSEd
+categories:
+- teaching
+draft: false
 --- 
+
+
+
+
 
 Teachers always make decisions in their courses - what to leave in,
 what to leave out. I've seen programming and data structure classes
