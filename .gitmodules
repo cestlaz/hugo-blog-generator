@@ -5,3 +5,7 @@
 [submodule "themes/anubis"]
 	path = themes/anubis
 	url = git@github.com:cestlaz/hugo-theme-anubis.git
+[submodule "cestlaz.github.io"]
+	path = cestlaz.github.io
+	url = https://github.com/cestlaz/cestlaz.github.io
+	branch = master
