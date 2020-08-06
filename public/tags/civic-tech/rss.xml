@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>civic tech on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/civic-tech/</link>
+    <description>C&#39;est la Z (civic tech)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/civic-tech/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>PDF 2016 - How we lost the open web</title>
+      <link>https://cestlaz.github.io/posts/pdf2016-lost-in-the-silo/</link>
+      <pubDate>Sat, 11 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/pdf2016-lost-in-the-silo/</guid>
+      <description>&lt;p&gt;
+I spent the last couple of days attending &lt;a href=&#34;http://go.personaldemocracy.com/&#34;&gt;Personal Democracy Forum
+2016&lt;/a&gt;, described on their landing site as:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+The world’s leading conference exploring and analyzing technology&amp;#39;s
+impact on politics, government, and society.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+That&amp;#39;s the reason why I haven&amp;#39;t posted my latest Emacs video.
+&lt;/p&gt;
+&lt;p&gt;
+PDF is a great conference and raised a huge number of important
+issues. I&amp;#39;ll probably blog about a few over the next few weeks.
+&lt;/p&gt;
+&lt;p&gt;
+One topic that I&amp;#39;ve already lamented about has been the way we as a
+society are allowing so much information to be silo-ed in platforms
+like Facebook.
+&lt;/p&gt;
+&lt;p&gt;
+I use Facebook as much as the next guy but it always irks me when I
+see a CS Education post followed by rich discussion hidden within
+Facebook&amp;#39;s walls and not available for discovery to the outside world
+and the future.
+&lt;/p&gt;
+&lt;p&gt;
+I generally don&amp;#39;t get a lot of comments on my posts, but when I do,
+more appear in the Facebook link to my post rather than publicly on
+the post itself.
+&lt;/p&gt;
+&lt;p&gt;
+At the conference, we watched a video by &lt;a href=&#34;https://en.wikipedia.org/wiki/Hossein_Derakhshan&#34;&gt;Hossein Derakhshan&lt;/a&gt; which
+talked about the direction the web is moving in and the red flags it
+should raise with all of us. He echoed my concerns and beyond but in a much more
+eloquent way.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m urging you to take the less than ten minutes to watch this
+video. I know school&amp;#39;s winding down for all of us but for those of you
+who are teachers out there - share this with your students. I&amp;#39;m sure a
+rich discussion will follow.
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/oBLAZZd_Xqc&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

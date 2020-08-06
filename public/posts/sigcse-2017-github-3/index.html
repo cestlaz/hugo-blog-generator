@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>SIGCSE 2017 - a path to github part 3 - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="SIGCSE 2017 - a path to github part 3" />
+<meta property="og:description" content="I wanted to write this up earlier but, as so frequently happens all my dormant work projects decided it was time to rise up and demand instant attention.  When we left off, we had students pulling code and submitting homework via github.  Form here, it&#39;s an easy step to have them working on a small project in their own repo. In fact, sometimes, I&#39;ll jump right to a two person project where one person creates the repo and invites the other (and me) as a collaborator." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/sigcse-2017-github-3/" />
+<meta property="article:published_time" content="2017-03-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-03-30T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="SIGCSE 2017 - a path to github part 3"/>
+<meta name="twitter:description" content="I wanted to write this up earlier but, as so frequently happens all my dormant work projects decided it was time to rise up and demand instant attention.  When we left off, we had students pulling code and submitting homework via github.  Form here, it&#39;s an easy step to have them working on a small project in their own repo. In fact, sometimes, I&#39;ll jump right to a two person project where one person creates the repo and invites the other (and me) as a collaborator."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">SIGCSE 2017 - a path to github part 3</h1>
+        </header>
+        <div class="content">
+            <p>
+I wanted to write this up earlier but, as so frequently happens all my
+dormant work projects decided it was time to rise up and demand
+instant attention.
+</p>
+<p>
+When we left off, we had students pulling code and submitting homework
+via github.
+</p>
+<p>
+Form here, it&#39;s an easy step to have them working on a small project
+in their own repo. In fact, sometimes, I&#39;ll jump right to a two person
+project where one person creates the repo and invites the other (and
+me) as a collaborator.
+</p>
+<p>
+Once here, it&#39;s important to emphasize the normal workflow:
+</p>
+<ol>
+<li>
+<p>
+<code>git pull</code>
+</p>
+</li>
+<li>
+<p>
+edit stuff with an occasional <code>git add</code>, <code>git rm</code>,  or <code>got mv</code>
+</p>
+</li>
+<li>
+<p>
+commit
+</p>
+</li>
+<li>
+<p>
+and an occasional <code>git push</code>
+</p>
+</li>
+</ol>
+<p>
+Regardless of how much you emphasize the workflow you&#39;re now going to
+have to cover merges as well how to recover from problems by going to
+an earlier revision.
+</p>
+<p>
+For going back to earlier versions or otherwise recovering from
+disasters, I don&#39;t show them the &#34;right&#34; way of doing things. I show
+them a way that&#39;s easy to remember and reliably works without tons of
+searching for answers.
+</p>
+<p>
+First, given some repo, I have them clone a version under another
+name:
+</p>
+<div class="src src-sh">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git clone git@github.com:hunterdaedalus/classcode.git newdirname</code></pre></div></code></pre></div>
+</div>
+<p>
+Now, they have the original repo and a clone under the directory
+<strong><strong>newdirname</strong></strong>.
+</p>
+<p>
+I have them go into that new copy and use <code>git log</code> to go through the
+logs to find an earlier version that they want to go back to.
+</p>
+<p>
+The log will look something like this:
+</p>
+<div class="verse-block">
+<p>
+commit 67eceb5e0a01ca5f5fb54ace65a4fe134f71edae
+Author: Mike Zamansky &lt;zamansky@gmail.com&gt;
+Date:   Sat Feb 25 12:32:26 2017 -0500
+</p>
+<p>
+updated Makefile
+</p>
+<p>
+commit 7efed10eb6015276b0cb82874ce786dc68a683ae
+Author: Mike Zamansky &lt;zamansky@gmail.com&gt;
+Date:   Sat Feb 25 08:45:34 2017 -0500
+</p>
+<p>
+broke out main –&gt; main and shapes
+</p>
+<p>
+commit e8b5c240123a7cb17920d52b4aba9cf5787ddab2
+Author: Mike Zamansky &lt;zamansky@gmail.com&gt;
+Date:   Sat Feb 25 08:36:29 2017 -0500
+</p>
+<p>
+added lab3 code
+</p>
+<p>
+commit 6d5bcf866306334ddc5c6a48e8f49fb39ddbcb18
+Author: Some other coder &lt;somone@somewhere.net&gt;
+Date:   Sun Feb 19 19:29:51 2017 -0500
+</p>
+</div>
+<p>
+Find the hash that they want to get back to and <strong><strong>checkout</strong></strong> that
+version (you normally only have to use the first few characters of
+the hash):
+</p>
+<div class="src src-sh">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git checkout 7efed10</code></pre></div></code></pre></div>
+</div>
+<p>
+Now they can grab what they want, copy it into the working copy of the
+repo, <strong><strong>commit</strong></strong> the changes and <strong><strong>push</strong></strong> them back.
+</p>
+<p>
+For Merging, I start by having them do it manually. I&#39;ll have them
+load the file in question into their editor and look for the chunks
+that look like this:
+</p>
+<div class="verse-block">
+<p>
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; A
+lines in file A
+<code class="verbatim">=====</code>
+lines in file B
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; B
+</p>
+</div>
+<p>
+They&#39;ll manually make the changes, then save, commit and push back.
+</p>
+<p>
+Later, I&#39;ll show them a couple of tools to help along the way. I
+usually show ediff in emacs along with meld.
+</p>
+<p>
+Once they&#39;ve been doing this for a while, it&#39;s easy to expand group
+sizes. After that, I&#39;ll introduce <strong><strong>issues</strong></strong> via the github interface.
+</p>
+<p>
+The last big topic is branches.
+</p>
+<p>
+First I show basic branches and merging. Here&#39;s a pretty good <a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging">run
+through</a>. Afterwards, I&#39;ll show how branching works in conjunction with
+github. This is also a good time to emphasize that students have to
+actually read the messages that git gives them when things don&#39;t  go
+well. In most cases, the message will contain the exact thing to type
+to fix the problem (such as linking a branch with a branch up on
+github).
+</p>
+<p>
+Now is also the time to introduce pull requests and how to use them to
+support code review. The general setup I recommend is one branch per
+group member and a main &#34;deployment&#34; branch with group members
+creating more branches as they see fit.
+</p>
+<p>
+That&#39;s about it. I&#39;ve followed this process, more or less, over a
+semester, over a year, and over multiple years. It&#39;s worked for me, I
+hope some of this helps you as well.
+</p>
+<p>
+In the next and probably last git/github post I&#39;ll talk about the
+educational benefits that I&#39;ve discovered along the way. After that,
+I&#39;ll get back to some emacs videos, other SIGCSE stuff and my normal rants.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2017-03-30</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

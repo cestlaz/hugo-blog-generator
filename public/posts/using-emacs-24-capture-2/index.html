@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Using Emacs - 24 - Org Capture 2 - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Using Emacs - 24 - Org Capture 2" />
+<meta property="og:description" content="Not much in today&#39;s actual post. The video is a continuation of the last one on org-capture.  The video goes over how I set things up to pop up a new frame to do a capture even if emacs isn&#39;t on screen (as long as it&#39;s running) by hitting F1. I would have preferred to bind to C-c c - the same as within emacs but I havn&#39;t figured out how to do that in Ubuntu or Mint Linux yet." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/using-emacs-24-capture-2/" />
+<meta property="article:published_time" content="2016-12-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-12-03T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Emacs - 24 - Org Capture 2"/>
+<meta name="twitter:description" content="Not much in today&#39;s actual post. The video is a continuation of the last one on org-capture.  The video goes over how I set things up to pop up a new frame to do a capture even if emacs isn&#39;t on screen (as long as it&#39;s running) by hitting F1. I would have preferred to bind to C-c c - the same as within emacs but I havn&#39;t figured out how to do that in Ubuntu or Mint Linux yet."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Using Emacs - 24 - Org Capture 2</h1>
+        </header>
+        <div class="content">
+            <p>
+Not much in today&#39;s actual post. The video is a continuation of the last one on <a href="http://cestlaz.github.io/posts/using-emacs-23-capture-1">org-capture</a>.
+</p>
+<p>
+The video goes over how I set things up to pop up a new frame to do a
+capture even if emacs isn&#39;t on screen (as long as it&#39;s running) by
+hitting <strong><strong>F1</strong></strong>. I would  have preferred to bind to <strong><strong>C-c c</strong></strong> - the
+same as within emacs but I havn&#39;t figured out how to do that in Ubuntu
+or Mint Linux yet.
+</p>
+<p>
+Here&#39;s the elisp code for the configuration file to do the heavy
+lifting. I can&#39;t for th elife of me remember who&#39;s blog I found it
+on. If anyone knows, please leave a comment - I&#39;d like to give credit
+where credit&#39;s due:
+</p>
+<div class="src src-emacs-lisp">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(defadvice org-capture-finalize
+(after delete-capture-frame activate)
+<span style="color:#e6db74">&#34;Advise capture-finalize to close the frame&#34;</span>
+(if (<span style="color:#a6e22e">equal</span> <span style="color:#e6db74">&#34;capture&#34;</span> (<span style="color:#a6e22e">frame-parameter</span> <span style="color:#66d9ef">nil</span> <span style="color:#e6db74">&#39;name</span>))
+(<span style="color:#a6e22e">delete-frame</span>)))
+
+(defadvice org-capture-destroy
+(after delete-capture-frame activate)
+<span style="color:#e6db74">&#34;Advise capture-destroy to close the frame&#34;</span>
+(if (<span style="color:#a6e22e">equal</span> <span style="color:#e6db74">&#34;capture&#34;</span> (<span style="color:#a6e22e">frame-parameter</span> <span style="color:#66d9ef">nil</span> <span style="color:#e6db74">&#39;name</span>))
+(<span style="color:#a6e22e">delete-frame</span>)))
+
+(use-package noflet
+:ensure <span style="color:#66d9ef">t</span> )
+(defun make-capture-frame ()
+<span style="color:#e6db74">&#34;Create a new frame and run org-capture.&#34;</span>
+(interactive)
+(make-frame <span style="color:#f92672">&#39;</span>((name <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;capture&#34;</span>)))
+(select-frame-by-name <span style="color:#e6db74">&#34;capture&#34;</span>)
+(delete-other-windows)
+(noflet ((switch-to-buffer-other-window (buf) (switch-to-buffer buf)))
+(org-capture)))</code></pre></div></code></pre></div>
+</div>
+<p>
+The command I bind to the keyboard shortcut in my window manager:
+</p>
+<div class="src src-bash">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">emacsclient -ne <span style="color:#e6db74">&#34;(make-capture-frame)&#34;</span></code></pre></div></code></pre></div>
+</div>
+<p>
+There will be a third capture video in a few weeks where I&#39;ll talk
+about scheduling and agendas. Right now, I&#39;m playing with org-gcal to
+sync with my Google calendar and want to figure out a config I&#39;m happy
+with before making that video.
+</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/gjr9mP01oWE" frameborder="0" allowfullscreen></iframe>
+<p>
+Relevant links:
+</p>
+<ul>
+<li>
+<p>
+Video series overview page:
+</p>
+</li>
+<li>
+<p>
+<a href="http://cestlaz.github.io/stories/emacs">http://cestlaz.github.io/stories/emacs</a>
+</p>
+</li>
+<li>
+<p>
+Code:
+</p>
+</li>
+<li>
+<p>
+<a href="https://github.com/zamansky/using-emacs/tree/master"><a href="https://github.com/zamansky/using-emacs/tree/master">https://github.com/zamansky/using-emacs/tree/master</a></a>
+</p>
+</li>
+</ul>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2016-12-03</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/emacs">#emacs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

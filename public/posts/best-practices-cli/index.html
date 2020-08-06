@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Are best practices always the best? - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Are best practices always the best?" />
+<meta property="og:description" content="I&#39;ve been trying to be an active participant on the CS Educators StackExchange. You should try to as well!!!  I answered a question about using the command line which led to a back and forth. I gave an example of something I might do in class to illustrate the power of using the command line and linked to some of my past posts. There was some back and forth in the comments - some of the participants weren&#39;t happy with my code as they felt it was filled with poor coding practices." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/best-practices-cli/" />
+<meta property="article:published_time" content="2017-06-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-06-21T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Are best practices always the best?"/>
+<meta name="twitter:description" content="I&#39;ve been trying to be an active participant on the CS Educators StackExchange. You should try to as well!!!  I answered a question about using the command line which led to a back and forth. I gave an example of something I might do in class to illustrate the power of using the command line and linked to some of my past posts. There was some back and forth in the comments - some of the participants weren&#39;t happy with my code as they felt it was filled with poor coding practices."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Are best practices always the best?</h1>
+        </header>
+        <div class="content">
+            <p>
+I&#39;ve been trying to be an active participant on the <a href="https://cseducators.stackexchange.com/">CS Educators
+StackExchange</a>. You should try to as well!!!
+</p>
+<p>
+I answered a question about using the command line which led to a back
+and forth. I gave an example of something I might do in class to
+illustrate the power of using the command line and linked to some of
+my past <a href="http://cestlaz.github.io/categories/cli/">posts</a>. There was some back and forth in the comments - some of
+the participants weren&#39;t happy with my code as they felt it was filled
+with poor coding practices.
+</p>
+<p>
+I&#39;m not going to comment on the discussion other than to say that I
+make no apologies for how I use the Linux tools and the command line
+as my methods have served me well over the years. I also make no
+apologies on how I teach my students as I seem to have by and large
+done right by them over the years as well.
+</p>
+<p>
+The crux was that I was showing what I might type in a class without
+any of the class commentary. It wasn&#39;t meant to be a script in a file
+let alone reusable code or a full blown program.
+</p>
+<p>
+I don&#39;t want to spend time here talking about &#34;best practices&#34; for
+shell scripting. There are plenty of <a href="https://jvns.ca/blog/2017/03/26/bash-quirks/">resources</a> a search engine away.
+</p>
+<p>
+The question is that how universal are best practices and is it more
+important that we teach specific best practices or rather that we have
+a discussion with our students about best practices.
+</p>
+<p>
+Some general best practices are probably pretty universal – &#34;write
+clear code&#34; but I&#39;ve seen best practices that when followed
+religiously just don&#39;t always make sense:
+</p>
+<ul>
+<li>
+<p>
+never break out of a loop
+</p>
+</li>
+<li>
+<p>
+one return statement per function
+</p>
+</li>
+<li>
+<p>
+always or never do anything in particular
+</p>
+</li>
+<li>
+<p>
+all code should be commented
+</p>
+</li>
+<li>
+<p>
+always use an ORM
+</p>
+</li>
+</ul>
+<p>
+to list a few.
+</p>
+<p>
+So, best practices aren&#39;t always best. More like guidelines to think
+about when you&#39;re programming and then you and your team can make
+smart decisions.
+</p>
+<p>
+So, when I wrote those lines over on StackExchange, was I really
+showing my students how to code badly? The code:
+</p>
+<div class="src src-bash">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ls *gif | <span style="color:#66d9ef">while</span> read i
+<span style="color:#66d9ef">do</span>
+f<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>basename $i .gif<span style="color:#e6db74">`</span>
+convert $i -resize 200x200 smaller-$f.gif
+<span style="color:#66d9ef">done</span></code></pre></div></code></pre></div>
+</div>
+<p>
+doesn&#39;t exist in a vacuum. We start with an ls to see the directory,
+we use the <strong><strong>echo</strong></strong> throughout to test things before we run it live
+and then we run it live in such a way that it can&#39;t be
+destructive. I&#39;ve been using the command line this way for decades and
+while I&#39;ve screwed plenty of things up, it&#39;s never been due to a bad
+command line shell practice.
+</p>
+<p>
+The important part is the discussion with the class:
+</p>
+<ul>
+<li>
+<p>
+would this be appropriate in a script file?
+</p>
+</li>
+<li>
+<p>
+what are the dangers
+</p>
+</li>
+<li>
+<p>
+why and when is it ok?
+</p>
+</li>
+</ul>
+<p>
+etc.
+</p>
+<p>
+It&#39;s not our job to dictate to our students which best practices to
+follow but rather to prepare them to make smart decisions.
+</p>
+<p>
+This year, I&#39;m back to using C++ in class after maybe two decades. I&#39;m
+not up on current C++ best practices. I was wondering what was best:
+</p>
+<div class="src src-c++">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">
+</code></pre></div>
+</div>
+<div class="src src-c++">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">
+</code></pre></div>
+</div>
+<div class="src src-c++">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">
+</code></pre></div>
+</div>
+<p>
+or even if we should use &#34;\n&#34; vs endl.
+</p>
+<p>
+I did my research, presented the results to my students and we talked
+about what they should consider when making their decision.
+</p>
+<p>
+Students don&#39;t need us to blindly
+spout best practices. They can read them online or in a book. They do
+need us to guide them towards critically thinking about them.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2017-06-21</div>
+    
+    <div class="post-taxonomies">
+        
+            
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

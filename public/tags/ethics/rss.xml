@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ethics on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/ethics/</link>
+    <description>C&#39;est la Z (ethics)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/ethics/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Time To Create An Ethics Course</title>
+      <link>https://cestlaz.github.io/posts/time-to-create-an-ethics-course/</link>
+      <pubDate>Sat, 21 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/time-to-create-an-ethics-course/</guid>
+      <description>&lt;p&gt;
+I think it&amp;#39;s time for me to start developing a CS Ethics class.
+&lt;/p&gt;
+&lt;p&gt;
+An ethics course isn&amp;#39;t a replacement for having teachers that live and
+model good behavior and weave ethical issues throughout the curriculum
+but still, adding a separate course on top of that has its merits.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not in a rush to create this course. I might be done in a month or
+it might take a couple of years. When I&amp;#39;m done, I&amp;#39;ll add it as an
+option in my CS Teacher education programs but hopefully it will be an
+attractive course for undergrad CS majors as well.
+&lt;/p&gt;
+&lt;p&gt;
+While it&amp;#39;s easy enough to come up with possible topics - privacy,
+moral responsibilities, biased algorithms, net neutrality and on and
+on I&amp;#39;m looking for this course to have a serious coding component. I
+want the students to build things to really understand the
+implications of what they&amp;#39;re studying.
+&lt;/p&gt;
+&lt;p&gt;
+One topic I definitely want to cover is &lt;a href=&#34;https://news.harvard.edu/gazette/story/2011/10/youre-not-so-anonymous/&#34;&gt;anonimity&lt;/a&gt;. I&amp;#39;d love to find
+the right combination of data sets and have the class discover that
+some hidden information in the sets isn&amp;#39;t nearly as hidden as it seems
+to be. When I was at Stuy, I was thinking about
+having the kids give me permission to use their class schedules since
+even with names removed we could probably identify many kids by
+electives and overlapping classes. I have no idea what I&amp;#39;ll be able to
+do at Hunter. If I can come up with something good I think this will
+form the basis of a pretty amazing part of the class.
+&lt;/p&gt;
+&lt;p&gt;
+Another project I&amp;#39;d love to put together is something dealing with a
+biased algorithm. Again, I don&amp;#39;t know where this will go, maybe
+something where I can seed the class so that different groups
+implement some project differently and we can then analyze each groups
+biases, hidden or otherwise.
+&lt;/p&gt;
+&lt;p&gt;
+Beyond these two, I&amp;#39;m not sure.
+&lt;/p&gt;
+&lt;p&gt;
+How about you? Anyone out there have any good ideas for programming
+projects for an ethical CS course? If so, please share. It might be a
+while but when I do finish putting this together I&amp;#39;ll be sure to
+publish whatever the end result is.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

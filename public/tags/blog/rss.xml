@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/blog/</link>
+    <description>C&#39;est la Z (blog)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Jun 2020 09:03:05 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/blog/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Time For A New Theme</title>
+      <link>https://cestlaz.github.io/post/time-for-a-new-theme/</link>
+      <pubDate>Sat, 13 Jun 2020 09:03:05 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/time-for-a-new-theme/</guid>
+      <description>&lt;p&gt;
+While setting up my &lt;a href=&#34;https://cestlaz.github.io/post/pinebook-update/&#34;&gt;Pinebook Pro&lt;/a&gt; I wanted to make sure I could write
+blog posts. &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; and &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; installed and ran no problem but I switched to
+Hugo in April 2020 back when it was version .49 or something like
+that. Now it&amp;#39;s up to .73. It turns out there have been a few
+changes. First, I set up my blog with two directories for posts. One
+for the posts I wrote originally in Jekyll and one for the ones I
+wrote for Hugo. I had to make a few changes to get that to work with
+the new version.
+&lt;/p&gt;
+&lt;p&gt;
+I also discovered that my archive page no longer works under the
+current version of Hugo. As I poked around a little more, it turns out
+that HTML embedding changed so I&amp;#39;m going to have to tweak all my Emacs
+posts as well as posts where I embed tweets or other content.
+&lt;/p&gt;
+&lt;p&gt;
+All of this is to say that some or maybe many of my older posts will
+be wonky until I can get around to fixing them. 
+&lt;/p&gt;
+&lt;p&gt;
+Rather than figuring out how to fix them under my current blog theme I
+figured it was also a good time to explore a new Hugo theme so don&amp;#39;t
+be surprised if the overall look here changes a few times over the
+next few posts.
+&lt;/p&gt;
+&lt;p&gt;
+Hopefully I&amp;#39;ll be able to get everything working again sooner rather
+than later.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

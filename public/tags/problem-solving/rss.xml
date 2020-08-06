@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>problem solving on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/problem-solving/</link>
+    <description>C&#39;est la Z (problem solving)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Nov 2019 09:02:09 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/problem-solving/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Advent Of Code 2019</title>
+      <link>https://cestlaz.github.io/post/advent-of-code-2019/</link>
+      <pubDate>Fri, 29 Nov 2019 09:02:09 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-of-code-2019/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s almost December which means it&amp;#39;s almost time for &lt;a href=&#34;http:/adventofcode.com&#34;&gt;Advent of Code
+2019&lt;/a&gt;. Advent of code is an annual computer programming competition
+created and ruyn by &lt;a href=&#34;https://twitter.com/ericwastl&#34;&gt;Eric Wastl&lt;/a&gt;. It&amp;#39;s been running since 2015. I&amp;#39;ve
+written about it before, mostly from a teacher&amp;#39;s point of view (&lt;a href=&#34;https://cestlaz.github.io/post/solve-a-to-solve-b/&#34;&gt;Solve
+A to Solve B&lt;/a&gt;, &lt;a href=&#34;https://cestlaz.github.io/post/aoc-data-structures-hidden-complexity/&#34;&gt;Data structures and Hidden Complexity&lt;/a&gt;, &lt;a href=&#34;https://cestlaz.github.io/posts/advent-2017-4-6/&#34;&gt;Tools can shape
+how we think&lt;/a&gt; and a few others). 
+&lt;/p&gt;
+&lt;p&gt;
+Basically, Eric releases one poblem a day at midnight from Dec 1
+through Dec 25. Each problem has two parts with a correct solution to
+part 1 unlocking part 2. Problems can be solved using any language as
+each challenge just requires you to enter the correct result rather
+than you submitting code. This allows you to use any language or even
+no language at all.
+&lt;/p&gt;
+&lt;p&gt;
+In terms of difficulty, some problems are certainly doable by students
+in CS1 or even CS0. In fact, Eric takes great pains to keep from using
+CSSpeak so as to make the problems approachable even if you aren&amp;#39;t a
+CS major or professional.
+&lt;/p&gt;
+&lt;p&gt;
+If you&amp;#39;re a CS Teacher you can find some great lesson and problem
+ideas here. If you&amp;#39;re a student, they&amp;#39;re great interview prep and will
+stretch your problem solving capabilities. If you&amp;#39;re just a techie,
+they&amp;#39;re just fun challenges. 
+&lt;/p&gt;
+&lt;p&gt;
+There aren&amp;#39;t any prizes so it&amp;#39;s all just for the fun of it. You can
+also get help and see great discussions on the challenges over on the
+Advent of Code &lt;a href=&#34;https://www.reddit.com/r/adventofcode/&#34;&gt;subreddit&lt;/a&gt;. Lots of people also put their solutions up
+online. I&amp;#39;ve never finished but you can find a bunch of my old
+solutions up on &lt;a href=&#34;https://github.com/zamansky?utf8=%25E2%259C%2593&amp;amp;tab=repositories&amp;amp;q=adve&amp;amp;type=&amp;amp;language=&#34;&gt;GitHub&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+Finally, you can get to the challenges from previous years by just
+adding the year to the url, that is:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://adventofcode/2019&#34;&gt;&lt;a href=&#34;http://adventofcode.com/2019&#34;&gt;http://adventofcode.com/2019&lt;/a&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://adventofcode.com/2018&#34;&gt;http://adventofcode.com/2018&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://adventofcode.com/2017&#34;&gt;http://adventofcode.com/2017&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://adventofcode.com/2016&#34;&gt;http://adventofcode.com/2016&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://adventofcode.com/2015&#34;&gt;http://adventofcode.com/2015&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Finally, here&amp;#39;s a really interesting video by Eric on the whole AoC
+thing:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/bS9882S0ZHs&#34;&gt;https://www.youtube.com/embed/bS9882S0ZHs&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maze Solving (for real) and Code Tracing</title>
+      <link>https://cestlaz.github.io/post/maze-solving-code-tracing/</link>
+      <pubDate>Sat, 20 Jul 2019 16:40:16 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/maze-solving-code-tracing/</guid>
+      <description>&lt;p&gt;
+Every year for the past sixteen we venture down to Lancaster Pa. for a
+weekend of car camping. Actually, there&amp;#39;s not much camping anymore. I
+used to be a bit more hardcore having done a few sections of the
+Appalachian Trail in my youth. Now, as I&amp;#39;ve gotten older I&amp;#39;ve come to
+appreciate little things like air conditioning, showers, beds, and
+toilets. So, nowadays we usually try to get a cabin at a camp site. I
+get my amenities but we still get a campfire and s&amp;#39;mores.
+&lt;/p&gt;
+&lt;p&gt;
+We mostly come down for &lt;a href=&#34;https://www.cherrycrestfarm.com/&#34;&gt;Cherry Crest Farm&lt;/a&gt;&amp;#39;s corn maze. We first did it
+when the kid were little. It sounded a little hokie but everyone keeps
+enjoying it so much we keep coming back. They&amp;#39;ve got a big maze - over
+5 acres. Each year it&amp;#39;s a different theme. This year was in honor of
+the moon landing. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure class=&#34;z_image_center&#34;&gt;
+    &lt;img src=&#34;https://bloximages.newyork1.vip.townnews.com/lancasteronline.com/content/tncms/assets/v3/editorial/d/de/dde02460-7aa5-11e6-a29b-2360b2195be3/57d991b552906.image.jpg&#34;
+         alt=&#34;An older maze&#34; width=&#34;200&#34; height=&#34;200&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;An older maze&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+The maze is split up into 15 sections in a 3 x 5
+grid. When you start you get an empty game board. As you work your way
+through the maze, you find these mailboxes each containing a section
+of map. You can also see what the overall maze picture looks like and
+how it&amp;#39;s sectioned off. The maze usually has a handful of major
+graphical components and each is enclosed in colored tape. For
+instance the moon might be surrounded by yellow tape and the astronaut
+in black. In the image above, the wheels of the tractor might be taped
+in one color and the cabin another.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure class=&#34;z_image_left&#34;&gt;
+    &lt;img src=&#34;https://lh3.googleusercontent.com/57LXNOhdME_k1K03HpCtIi2MnyF3WEhEY84kuX9RO1fKwJ67j2o6xFRCsO_TpUfI7t91Jcy7f56xAU6eNtR_9kDQesz8yZhoKFvAJCj-MuwDXgrhGQYACDiyfIKhO3gWNEDy2_uMZL-0zvkTlW_t6S8QidBcf8cceulKXvX6Ix3rXkHyxIcC7O6u7fLGQgb6f4Bd1iymy7APyLjqDGf6TC6ejqmDQ8ThFTfyO6kABcA8NXH6P_XO82X65lmGwVEXFVZiuzYYGO_zfOT3B0QZW3giBexk7lSJgVpdRF9OnbYQrC0nEva_pFT_79uEAbdXFSEdH8uCAAuyse6gnyunpDI0xWSffdyAPtGZZ5V_7JJmN61PFUvckWuVJC8FzCnsK_sLmi015ZxwY4M9dhhXrCmAWzhzCj4tyFcNfiot22luXnrRiWXek5Rxa0F-7UBQVZYX-I-SY2Si1ZpQrTBW8Nzi2Fo16U4HFW1yK-zd1sBhxwwZtLkQS3PxbsoUL61M5dsCWSsbjNB9gjjYA9K7MaJUSFaRN4HAXuyiUuwpa4lMXYtAmnF6mZxWpL2QPYFD5qWiZq1XUrgpwWmL6HQ3kUI5zcd87YbHPpEtbjAOte8_NQAM0jTk3rwwyEsN6n59RvUm3hA2lwIeoP2hB8QQVeFctYpsPzlF=w1752-h1314-no&#34; width=&#34;200&#34; height=&#34;200&#34;/&gt; 
+&lt;/figure&gt;
+ 
+&lt;figure class=&#34;z_image_center&#34;&gt;
+    &lt;img src=&#34;https://lh3.googleusercontent.com/MUujLBf7vV4Pr4FiLMS8mpAL0JKmyrpRRCz3uJdB61MSC0y43FADSJL-qbd92iVUEDTlQmDh1urIjySMAomjZa2gM4nQIHpLDipV84YsKYIr4pnt2SGN1INsYSHoNULPomSG-d3C1M-gbNxnD1WB6fOjAM-2E_xqu8OObeLt5UtVxtYRsQ0AEWTH5YNk2O5RZ3O085SlTeQV5xFqIUblvEGTA700wCksy4ohH9kqmRBhXiuOKhwYPn_wCQhp1_lgM4wnrvt0DUCqMX8j8hQw7bGbOnE6P-itprrwrFRhwlnQ4XuQWfmQLPadCUcT7fQC_hy6xIvmB9HGoNBDTKsHyCr_-Vuh7FPdZ6FjL_Ks59LADO9D9hgyhKzH6lkBAuBjiXgTyVIu-oHeyEqTTV2lFhvZRbq3zGEkq8Lo64dSibNO2NzdNwLJyQlNQseBKlfTCIOx2m2Z3haoeXcYY9sqjbmOzdfL_1qL1yVqNNnkl9U_8SvYXO9yQFAmZrptfYVmlEtDBnpNkFnbPGKopdc3pksgK2mzgTn7rnLM-VsQbi2mSPsjmGevsMQt1-ERL5OOcrEb2v8hu2WeGZ5Dhe5oG7GFXBBx3Xzi6p478evz0YB2ZuIfvbc6K2sMFlEltJCZvgnjn3GeevI-yolHKlHDMPktG8kvLAk_=w1752-h1314-no&#34; width=&#34;200&#34; height=&#34;200&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;br clear=&amp;#34;all&amp;#34;&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+For the ultimate challenge you have to find all fifteen pieces, answer
+a bunch of questions in a crossword (where the answers are strewn
+throughout the maze) and find your way to the exit. It  usually takes
+us about an hour and a half. There are also a bunch games, mini
+activities, and even a cafe in the middle. 
+&lt;/p&gt;
+&lt;p&gt;
+Since we&amp;#39;re a CS family we joke about how to solve the maze - left
+hand rule, breadth first search, iterative deepening etc. At times, we
+actually do use a mini breadth first routine. There are four of us,
+when we get to an intersection, we split and explore down to the next
+decision point. If two people made it to that decision point, we might
+split again. I guess it&amp;#39;s a mini combo of breadth first and iterative
+deepening since we never stray too far from our anchor point. 
+&lt;/p&gt;
+&lt;p&gt;
+Over the years, I&amp;#39;ve also thought about how we handle solving the maze
+in terms of approach and temperament - particularly as it gets hot
+under the sun and we start to get hungry. The other week when I read
+Cunningham, Ke, Guzdial, and Ericson&amp;#39;s article from ITiCSE 2019 about
+&lt;a href=&#34;https://dl.acm.org/citation.cfm?id=3319788&#34;&gt;sketching and tracing code&lt;/a&gt; I started thinking about some parallels,
+most notably the idea in the paper that the novices questioned trace
+for patterns and goals rather than strictly tracing programs all the
+way through - that rather than &amp;#34;being the computer&amp;#34; they trace less
+formally until they think they see the pattern and how it will lead to
+a goal. The paper notes that this is in spite of the fact that this
+type of tracing doesn&amp;#39;t seem to yield better results.
+&lt;/p&gt;
+&lt;p&gt;
+When we start the maze we usually just wander. The logic is that no
+path is going to be better than any other so we&amp;#39;ll probably run into a
+mailbox or two. These are our explorations like an initial look at the
+code. Then we get systematic. We look at the map piece we just found
+and try to figure out which path to take next. If we hit an
+intersection we try to logic which path is best. We use all our info -
+map pieces, what the overall maze looks like, the sectioning tape,
+other landmarks, and even any visible maze edges. This is like the
+formal code trace where the student is still going through the trace
+in detail.
+&lt;/p&gt;
+&lt;p&gt;
+Then, our search degenerates. We get cocky - we know what the maze
+looks like so we wing it. This is when the student thinks they know
+the intent of the code so they can now figure out the
+answer. Invariably, we&amp;#39;re wrong. 
+&lt;/p&gt;
+&lt;p&gt;
+Ultimately, we get hot, tired, hungry and a little
+grumpy. Fortunately, we now recognize this and it&amp;#39;s our sign to look
+at our map and start being smart again - do the formal trace. 
+&lt;/p&gt;
+&lt;p&gt;
+Once we get to this point we usually finish pretty quickly. We figure
+out the best way to get o sections we haven&amp;#39;t visited, find those
+pieces and then the exit. Once done, it&amp;#39;s off to &lt;a href=&#34;https://www.goodnplenty.com/&#34;&gt;Good&amp;#39;N Plenty&lt;/a&gt; to
+re-hydrate and eat way too much food.
+&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t know if any of this means anything but it&amp;#39;s some food for
+thought. Maybe there is something to look at in human general problem
+solving practices and not just classroom or computer science ones. Who
+knows.
+&lt;/p&gt;
+&lt;p&gt;
+In any event, get down to Lancaster PA if you can and check out the
+maze. It might be hokie but it&amp;#39;s a lot of fun.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Solve A To Solve B</title>
+      <link>https://cestlaz.github.io/post/solve-a-to-solve-b/</link>
+      <pubDate>Fri, 18 Jan 2019 19:36:59 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/solve-a-to-solve-b/</guid>
+      <description>&lt;p&gt;
+So many programming assignments involve a direct solution. Write a
+program to do this or write a problem to solve that. It&amp;#39;s pretty
+typical. There&amp;#39;s nothing wrong with assignments like these. They allow
+students to practice what they&amp;#39;ve been learning and it gives them the
+opportunity to create some cool programs. All the same, I like it when
+there&amp;#39;s an indirect problem. You&amp;#39;re faced with a problem but in order
+to solve it you first have to solve some other problem
+&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s why I liked &lt;a href=&#34;https://adventofcode.com/2018/day/10&#34;&gt;day 10&lt;/a&gt; from this year&amp;#39;s Advent of Code. 
+&lt;/p&gt;
+&lt;p&gt;
+At it&amp;#39;s core the question presents you with a collection of points
+along with velocities in this form::
+&lt;/p&gt;
+&lt;pre class=&#34;example&#34;&gt;
+position=&amp;lt; 9,  1&amp;gt; velocity=&amp;lt; 0,  2&amp;gt;
+position=&amp;lt; 7,  0&amp;gt; velocity=&amp;lt;-1,  0&amp;gt;
+position=&amp;lt; 3, -2&amp;gt; velocity=&amp;lt;-1,  1&amp;gt;
+position=&amp;lt; 6, 10&amp;gt; velocity=&amp;lt;-2, -1&amp;gt;
+&lt;/pre&gt;
+&lt;p&gt;
+Each point moves by adding the x and y components if its velocity each
+second. For example, the last two points listed above - points (3,-2)
+nad (6,10) would be transformed overtime as follows:
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Point&lt;/th&gt;
+&lt;th&gt;Velocity&lt;/th&gt;
+&lt;th&gt;Second 0&lt;/th&gt;
+&lt;th&gt;Second 1&lt;/th&gt;
+&lt;th&gt;Second 2&lt;/th&gt;
+&lt;th&gt;Second 3&lt;/th&gt;
+&lt;th&gt;Second 4&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3, -2&lt;/td&gt;
+&lt;td&gt;-1,1&lt;/td&gt;
+&lt;td&gt;3,-2&lt;/td&gt;
+&lt;td&gt;2,-1&lt;/td&gt;
+&lt;td&gt;1,0&lt;/td&gt;
+&lt;td&gt;0,1&lt;/td&gt;
+&lt;td&gt;-1,2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6,10&lt;/td&gt;
+&lt;td&gt;-2,-1&lt;/td&gt;
+&lt;td&gt;6,10&lt;/td&gt;
+&lt;td&gt;4,9&lt;/td&gt;
+&lt;td&gt;2,8&lt;/td&gt;
+&lt;td&gt;0,7&lt;/td&gt;
+&lt;td&gt;-2 6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+At some point in time, if you look at the points on a grid they will
+spell out a message or at least a sequence of letters. The question
+asks you to figure out that message. There&amp;#39;s a complete example and a
+nice story around the problem on the &lt;a href=&#34;https://adventofcode.com/2018/day/10&#34;&gt;Advent of Code site&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+The first thought is probably to run this as a simulation. Set up a
+loop, update the point locations, visualize and see if you have an
+answer. This isn&amp;#39;t trivial for a beginner but it&amp;#39;s certainly
+approachable. It also has a big problem. Unless you happen to have
+some optical character recognition libaray handy you have to draw and
+look at the output on every change. Given that it could take thousands
+of iterations, this is not practical at all. 
+&lt;/p&gt;
+&lt;p&gt;
+We can do better by solving another problem first. The key insight is
+that each point travels along a line. In fact, this problem is a great
+time to talk about a parametric representation of a line like 
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;script type=&amp;#34;text/javascript&amp;#34; src=&amp;#34;&lt;a href=&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;&gt;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML&lt;/a&gt;&amp;#34;&amp;gt;
+&amp;lt;/script&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+\(L=P+tV\) 
+&lt;/p&gt;
+&lt;p&gt;
+Where \(P\)represents an \((x,y)\) point and \(V\) a direction vector
+\((dx,dy)\).
+&lt;/p&gt;
+&lt;p&gt;
+Regardless of where the points start, at some point all of them will
+be contained within your field of view after which they will continue
+along their paths outside of that field of view. We can look at a
+bounding box for all of the points and when that bounding box is
+smallest we should be at or close to our message.
+&lt;/p&gt;
+&lt;p&gt;
+This is readily accomplished. We can find a bounding box by finding the
+smallest and largest x and y coordinates for all the current points
+and using \((X_{min},Y_{min})\) and \((X_{max},Y_{max})\) as the
+diagonals of a bounding rectangle and then compare areas of these
+rectangles. They should decrease at first and then eventually
+increase. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; time &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,some_large_value,stepsize):
+      new_pts &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; transform(pts,time) 
+      bbox &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; bounding_box(new_pts)
+      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (area(bbox) &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; area(previous_bbox)):
+          &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;//&lt;/span&gt; we&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;re close to or at the smallest bounding box&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+We can start with a big &lt;code&gt;stepsize&lt;/code&gt; and then refine it down until we
+hone in on the smallest bounding box.
+&lt;/p&gt;
+&lt;p&gt;
+From there, we can transform all the points using the time that
+resulted in the smallest bounding box and then display the points to
+see our message. We might have to go through a small window of times
+since the actual message might just be close to the configuration
+yielded from the smallest bounding box. Of course that visualization
+takes some doing - the actual viewing window might not align with your
+screeen coordinates, they could all, for example, be negative so
+you&amp;#39;ll probably have to do one last transformation to translate and
+possibly scale the final points to make it all viewable.
+&lt;/p&gt;
+&lt;p&gt;
+When I first solved the problem, I just dumped the coordinates into a
+2 dimentional array and printed it but afterwards I wrote a little
+clojurescript html5 canvas visualization:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/advent-2018-10.gif&#34; width=&#34;200px&#34; height=&#34;20px&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+So there it is. It&amp;#39;s not a trivial problem for beginners but it is doable. There&amp;#39;s a
+lot to deal with:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+parse the data
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+This isn&amp;#39;t too bad. You could cover regular expressions but even
+without it isn&amp;#39;t too big of a deal. You could also just use an editor
+to extract the important data or preprocess this for the kids.
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Figure out how to transform the points.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+This also isn&amp;#39;t too bad. Just loop over all the points with &lt;code&gt;newpoint
+= oldpoint + t * velocity&lt;/code&gt;
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Figure out the bounding boxes
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+Also not too bad. Loop over all the points to find the smallest and
+largest x and y coordinates
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Set up a loop to find the smallest bounding box and hence the time
+that the message will appear.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+and then finally:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+draw the points to visually inspect the answer.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+This might be the most persnickety part. When I first coded it my
+output was upside down and backwards but good enough.
+&lt;/p&gt;
+&lt;p&gt;
+I can&amp;#39;t fully put my finger on it but I really enjoyed this problem. I
+hope you enjoyed my writeup. If you want to check out my solution for
+this (minus the clojurescript visualization) along with the other
+Advent of Code problems I finished this year you can find them &lt;a href=&#34;https://github.com/zamansky/advent2018&#34;&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Breaking down problems and writing</title>
+      <link>https://cestlaz.github.io/posts/whats-next/</link>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/whats-next/</guid>
+      <description>&lt;p&gt;
+This question appeared on Facebook a few days ago:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+Does anyone have an effective way to teach students how to break down
+a problem into steps and then solve each step one by one? I think my
+students are struggling with a large question and breaking it in
+subsequent parts.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+There were some good suggestions. I wanted to add something but didn&amp;#39;t
+have time then so I thought I&amp;#39;d write it up now.
+&lt;/p&gt;
+&lt;p&gt;
+As an aside, it took me forever to find the post again over on
+Facebook. If there&amp;#39;s a way to mark posts or save a direct link I&amp;#39;d
+love to hear it. I had to look through all the CS Ed groups I belong
+to manually until I found it again.
+&lt;/p&gt;
+&lt;p&gt;
+When I read the program I was reminded of a PD session we had to
+attend back at Stuyvesant. Back then the fad was &lt;a href=&#34;https://en.wikipedia.org/wiki/Writing_across_the_curriculum&#34;&gt;Writing Across the
+Curriculum&lt;/a&gt;. Every teacher in every class was to give some significant
+writing assignment, evaluate it and provide feedback. Let&amp;#39;s forget the
+fact that most of us never had any training or preparation to do so.
+&lt;/p&gt;
+&lt;p&gt;
+On that PD day the guest speaker was &lt;a href=&#34;https://en.wikipedia.org/wiki/William_Zinsser&#34;&gt;William Zinsser&lt;/a&gt;. The first thing
+he said was that what we were being asked to do by our principal was
+bunk. He then proceeded to give advice on  simple good writing.
+&lt;/p&gt;
+&lt;p&gt;
+The procedure he recommended following was to ask yourself (or have
+the student ask themselves) &amp;#34;what does my audience need to know next?&amp;#34;
+That&amp;#39;s your next sentence. Then ask the question again. Rinse and
+repeat until done.
+&lt;/p&gt;
+&lt;p&gt;
+It was simple and it made sense. It also applied to introductory CS
+problems. When starting out, students have a limited CS / programming
+tool box so a good question for them to ask when trying to solve a
+problem is not only &amp;#34;what do I need to do next? but also &amp;#34;what can I
+do next?&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+When students have a limited CS vocabulary and set of idioms - loops,
+conditionals, functions, whatever, there will only be so many things
+they can do to move a problem along. If they go through the things the
+&lt;strong&gt;&lt;strong&gt;can&lt;/strong&gt;&lt;/strong&gt; do they will likely fall on to what they &lt;strong&gt;&lt;strong&gt;should&lt;/strong&gt;&lt;/strong&gt; do.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s similar to doing a proof in geometry. Students have a set of
+givens. Given that set, what can they do? They only know so many
+theorems at the beginning.
+&lt;/p&gt;
+&lt;p&gt;
+Over time, they&amp;#39;ll recognize patterns and develop as problem solvers.
+&lt;/p&gt;
+&lt;p&gt;
+If you&amp;#39;re part of the AP CS A teachers facebook group you probably saw
+the question. Many good answers were posted. I just wanted to add this
+thought to the collection.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

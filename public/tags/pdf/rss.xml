@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pdf on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/pdf/</link>
+    <description>C&#39;est la Z (pdf)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/pdf/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Using Emacs 44 - An org-mode workflow for application processing</title>
+      <link>https://cestlaz.github.io/posts/using-emacs-44-pdf/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/using-emacs-44-pdf/</guid>
+      <description>&lt;p&gt;
+One of my titles at Hunter College is Director of the Daedalus CS
+Honors program. It&amp;#39;s something like a Hunter specific, CS specific
+version of the CUNY Macaulay Honors program.
+&lt;/p&gt;
+&lt;p&gt;
+Hunter gives all its students the ability to get a great computer
+science education at a fraction of the cost of a private institution
+and if you&amp;#39;re a Daedalus scholar you also get a scholarship, a laptop,
+special classes (with me :-) ), activities and more. Just the other
+day we visited  &lt;a href=&#34;http://samsungnext.com/&#34;&gt;Samsung Next&lt;/a&gt; accelerator and earlier in the year we
+made our annual visit to &lt;a href=&#34;http://www.catskillsconf.com/&#34;&gt;Catskills Conf&lt;/a&gt;, arguably my favorite event of
+the year.
+&lt;/p&gt;
+&lt;p&gt;
+When deciding on which students to recommend for acceptance, I try to
+glean as much information as I can about each applicant. When I feel
+there&amp;#39;s not enough information, I&amp;#39;ve been known to reach out to
+recommenders and other sources for more. But first I go through the
+applications. For each student, I&amp;#39;m provided with a pdf file with a
+bunch of data and also an entry in an internal Hunter online form with
+even more.
+&lt;/p&gt;
+&lt;p&gt;
+For the first cohort, this wasn&amp;#39;t a big deal. I hadn&amp;#39;t even started at
+Hunter when the applications closed so there was no
+outreach. Everything was after the fact so there were very few
+students to evaluate.
+&lt;/p&gt;
+&lt;p&gt;
+Last year, I was able to do some outreach and we had around 60 or so
+applications for a little over 20 spots.
+&lt;/p&gt;
+&lt;p&gt;
+This year, there are well over 100 applicants (and we&amp;#39;re looking to
+grow the program by a large number of students). All of a sudden, it
+wasn&amp;#39;t so easy to navigate all the pdf files.
+&lt;/p&gt;
+&lt;p&gt;
+Emacs to the rescue. Using a combination of org-mod,  &lt;a href=&#34;https://github.com/politza/pdf-tools&#34;&gt;pdf-tools&lt;/a&gt;, and
+&lt;a href=&#34;https://melpa.org/#/org-pdfview&#34;&gt;org-pdfview&lt;/a&gt; I&amp;#39;ve come up with a workflow that I very much like.
+&lt;/p&gt;
+&lt;p&gt;
+Take a look and let me know what you think:
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LFO2UbzbZhA&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

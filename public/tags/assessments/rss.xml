@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>assessments on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/assessments/</link>
+    <description>C&#39;est la Z (assessments)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Oct 2019 17:13:24 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/assessments/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>My test grading policy</title>
+      <link>https://cestlaz.github.io/post/grading-policy/</link>
+      <pubDate>Wed, 09 Oct 2019 17:13:24 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/grading-policy/</guid>
+      <description>&lt;p&gt;
+I was working on writing a midterm the other day so figured I&amp;#39;d talk a
+bit about my test grading policy.
+&lt;/p&gt;
+&lt;p&gt;
+Before getting to the specifics, let me set the stage. I spent most of
+my career at Stuyvesant - a public magnet school in
+NYC. There are many great students who are interested in learning but
+there&amp;#39;s also a focus on grades. and this leads to a non-insignificant portion of
+the student body that is grade obsessed and will do everything and
+anything for every point possible. 
+&lt;/p&gt;
+&lt;p&gt;
+We called it grade grubbing. 
+&lt;/p&gt;
+&lt;p&gt;
+Grade grubbing goes beyond asking for points you think you deserve and
+it comes in many forms. It&amp;#39;s when you BS your way through an essay or
+paper and put in as many key phrases as possible and hope the teacher
+only sees those when scanning through hundreds of papers. It&amp;#39;s taking
+that same paper and only showing the key correct phrases during an
+appeal and ignoring the contradictory key phrases a few lines
+below. It&amp;#39;s when you write an answer in a somewhat ambiguous way that
+if marked wrong allows for an appeal. It&amp;#39;s appealing a low grade
+because &amp;#34;I always get over 95&amp;#34; and it even involves cheating
+sometimes and changing answers after the fact.
+&lt;/p&gt;
+&lt;p&gt;
+Now, this isn&amp;#39;t the majority of the class. It&amp;#39;s only a small percent
+but it&amp;#39;s pretty annoying and it had a bit of influence on my testing
+policy.
+&lt;/p&gt;
+&lt;p&gt;
+So, what&amp;#39;s my policy? It&amp;#39;s pretty simple. 
+&lt;/p&gt;
+&lt;p&gt;
+Rule 1 - once I return the test you can&amp;#39;t ask me anything about your
+exam until either we go over the exam in class or if we don&amp;#39;t until
+after I&amp;#39;ve shared the answer key with the class. If you do ask me
+about the exam before we&amp;#39;ve gone over it you forfiet your right to ask
+for any points back on any mismarked questions. 
+&lt;/p&gt;
+&lt;p&gt;
+Rule 2 - If you appeal a question for points - that is come up and say
+&amp;#34;I got this question right&amp;#34; and it turns out that you are correct, you
+get your points. If, on the other hand, the quesiton is incorrect, I
+reserve the right to take off the points deducted a second time. That
+is, if you originally lost 5 points you could now lose up to 10.
+&lt;/p&gt;
+&lt;p&gt;
+This might sound harsh and somewhat jerky but it really isn&amp;#39;t. Due to
+the nature of CS exams students can always be 100% certain that their
+answer is correct because they can always try it out on a
+computer. That&amp;#39;s the point. If something is marked wrong, I want the
+student to take the time to see what&amp;#39;s going on before appealing the
+grade. Questions that can&amp;#39;t be absolutely tested are of course excempt
+from this policy.
+&lt;/p&gt;
+&lt;p&gt;
+If a student comes up to me and says &amp;#34;hey, i know this is wrong - I
+tested it and I&amp;#39;m not asking for points, I just don&amp;#39;t understand
+what&amp;#39;s going on&amp;#34; I would never deduct more points and in fact have
+sometimes lowered deductions.
+&lt;/p&gt;
+&lt;p&gt;
+As it turns out, I&amp;#39;ve never actually ended up taking off extra points.
+&lt;/p&gt;
+&lt;p&gt;
+The whole idea is to stop the reflexive grade grubbing and get
+students to think about the problems and solutions. It also helps in
+keeping teacher harrassment to a minimum :-). 
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Celebrating Perfect AP Exam Scores</title>
+      <link>https://cestlaz.github.io/post/celebrating-perfect-scores/</link>
+      <pubDate>Sat, 15 Jun 2019 12:24:01 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/celebrating-perfect-scores/</guid>
+      <description>&lt;p&gt;
+So, it turns out that there were 601 perfect scores on this years
+APCS-A exam. Over on Facebook a great question was raised - what does
+this mean and should we celebrate this?
+&lt;/p&gt;
+&lt;p&gt;
+What does it mean? There&amp;#39;s no way to know. Maybe the number of perfect
+scores is just scaling up linearly with test takers. Maybe More kids
+are being exposed to CS prior to APCS-A and that&amp;#39;s leading to more
+correct answers. Are teachers teaching to the test? Maybe the test was
+just plain easier. 
+&lt;/p&gt;
+&lt;p&gt;
+In spite of my normal anti college board leanings, I don&amp;#39;t really have
+an opinion on the why. What I do have an opinion on is whether we
+should celebrate these scores or not.
+&lt;/p&gt;
+&lt;p&gt;
+Personally, I don&amp;#39;t think we should. 
+&lt;/p&gt;
+&lt;p&gt;
+Does a perfect score really mean so much? Has a student who gets every
+question correct really show that they know more or are a better
+computer science student then another student who merely scores a
+regular 5 (or an A on an in class assessment). 
+&lt;/p&gt;
+&lt;p&gt;
+There have been countless times when I&amp;#39;ve looked over a test and found
+a really clever, innovative solution to a problem. Something that
+showed a much deeper understanding than the base solution I had in
+mind. More often than not those tests got dinged a point here or there
+for what I&amp;#39;d describe as minor errors. The students behind those tests
+were much stronger than many &amp;#34;perfect paper&amp;#34; students so celebrating
+the 100%s would be neither fair nor appropriate. More appropriate to
+share out the interesting solution and hopefully enrich the entire
+class.
+&lt;/p&gt;
+&lt;p&gt;
+Celebrating perfect scores also encourages prepping for a perfect
+score. That means prepping to do a lot of multiple choice questions in
+a short period of time. That takes test specific drilling. I&amp;#39;d rather
+my students know the material well enough to get the score they need
+but would rather they not spend countless hours drilling for that
+perfect score. That extra prep time could be better spent in countless
+ways including something as simple as playing a game with some friends.
+&lt;/p&gt;
+&lt;p&gt;
+A test - any test - is a limited, imperfect assessment.We should be
+moving away from high stakes tests and simplistic numeric grades and
+celebrating perfect scores in contrary to this. Celebrating a perfect
+test score misses the mark. We should be celebrating how our students
+work and progress not how they score on an imperfect testing implement
+be it the AP exam or one of our in class tests.
+&lt;/p&gt;
+&lt;p&gt;
+To close, I&amp;#39;ll leave you with a story. It&amp;#39;s about a college acceptance
+but if you substitute perfect test score the gist is the same.
+&lt;/p&gt;
+&lt;p&gt;
+I was talking to a friend of mine. His daughter went to Stuy and had
+just gotten into her dream school. It also, coincidentally was the
+school that her older brothers went to. I said to my friend &amp;#34;John, you
+must be very proud of your daughter on getting into her dream school.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+&amp;#34;No,&amp;#34; John replied. &amp;#34;I&amp;#39;m not proud, I&amp;#39;m happy for her. I&amp;#39;m proud of her when she
+helps somebody.&amp;#34; 
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s not the outside, imperfect validations we should be celebrating.
+Rather we should be celebrating how our kids live, grow, and develop.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predicting Grades</title>
+      <link>https://cestlaz.github.io/post/predicting-grades/</link>
+      <pubDate>Sat, 18 May 2019 12:03:10 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/predicting-grades/</guid>
+      <description>&lt;p&gt;
+Just saw this:
+&lt;/p&gt;
+  &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Evaluation
+metric idea: take snapshots of students&amp;#39; grades each week
+(specifically, the grade they actually see in your LMS). How well do
+these correlate with your final assigned grade? Were students getting
+good estimates?&lt;/p&gt;&amp;mdash; Austin Cory Bart (@AustinCorgiBart) &lt;a
+href=&#34;https://twitter.com/AustinCorgiBart/status/1129743671639838720?ref_src=twsrc%5Etfw&#34;&gt;May
+18, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async
+src=&#34;https://platform.twitter.com/widgets.js&#34;
+charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;
+It made me think of a couple of conversations I had with more senior
+teachers early in my career.
+&lt;/p&gt;
+&lt;p&gt;
+They&amp;#39;d tell me &amp;#34;by and large, you know what the kids are going to get
+after a few week.&amp;#34; By and large they were right. Sure there were some
+kids that would turn it on midway and raise end up earning a higher
+grade and some who fell off a cliff but for the most part, you knew
+pretty early. 
+&lt;/p&gt;
+&lt;p&gt;
+This doesn&amp;#39;t mean that you don&amp;#39;t need assessments along the way - both
+to inform the student on how they&amp;#39;re doing and to inform both teacher
+and student on how to best proceed in order to benefit the student. Of
+course, sometimes, even when you present some students will their dire
+situations they can remain in denial for a remarkable period of time.
+&lt;/p&gt;
+&lt;p&gt;
+At Stuy, the standing grading policy was 2 full period exams each marking
+period - this meant at least 6 a semester. Add to that a final which
+usually counted as two tests and we had more than enough to drop the
+lowest grade - a practice followed by many teachers. Depending on
+subject you&amp;#39;d also add in papers, projects, quizes, Homework,
+participation and anything else you&amp;#39;d like weighted in a variety of ways.
+&lt;/p&gt;
+&lt;p&gt;
+As an interesting aside, I was able to evaluate my senior classes at Stuy
+entirely on projects - no tests but not my sophomore classes. Stuy
+students were so conditioned on exams that they really needed them to
+keep themselves honest. It took time to ween them off. 
+&lt;/p&gt;
+&lt;p&gt;
+I started at Seward Park High School and that school had a similar policy. 
+&lt;/p&gt;
+&lt;p&gt;
+In any event, those teachers that told me that you&amp;#39;d know the final
+grades early on were pretty spot on. A number of times I tried an
+experiment - for final grades, I&amp;#39;d first write down what I thought the
+grades would be and then I ran all the assessments through the
+weighted average formula. The &amp;#34;guesses&amp;#34; were almost always pretty spot
+on.  I also compared the final grades to the second marking period
+grades. I chose the second because the first marking period grades
+were just letters - E for excellent, S satisfactory, N needs
+improvement, and U. There was some movement but it was more from my
+grading up or down due to the amrking period rather than a real
+change. I would grade down in the second marking period and up in the
+third.  
+&lt;/p&gt;
+&lt;p&gt;
+This isn&amp;#39;t to say that Cory&amp;#39;s suggestion doesn&amp;#39;t make sense and it
+also doesn&amp;#39;t mean that I or other teachers are fabulous estimators -
+for all I know, I was biasing some subjective students grades based on
+some preconceived notion I wasn&amp;#39;t aware of making the final grade a
+self fulfilling prophecy. 
+&lt;/p&gt;
+&lt;p&gt;
+In any event, I was able to do this when I was teaching in high school
+but not so far in college. Maybe it&amp;#39;s because I&amp;#39;ve only been at Hunter
+for three years and I developed my high school chops over
+decades. Maybe it&amp;#39;s because I have far less contact time with the
+students - 2 days a week for an hour fifteen vs five days a week for
+43 minutes a shot. It could be that there were more opportunities for
+assessment in high school due to more contact time. I&amp;#39;m really not
+sure. Something to ponder further.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Do the students finish the tests or does the test finish the students</title>
+      <link>https://cestlaz.github.io/posts/tests-finish-students/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/tests-finish-students/</guid>
+      <description>
+&lt;p&gt;
+I tweeted this the other day:
+&lt;/p&gt;
+  &lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Why don&amp;#39;t so many  teachers and professors understand that the test or assignment you can do in 15 minutes will take your beginning students at least an hour and probably a lot more to complete.&lt;/p&gt;&amp;mdash; Mike Zamansky (@zamansky) &lt;a href=&#34;https://twitter.com/zamansky/status/986609723557404673?ref_src=twsrc%5Etfw&#34;&gt;April 18, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;
+What led to the tweet was a discussion I was having with some students
+about not having enough time on tests which led to a discussion of
+having to drop everything to spend every waking hour on a project.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-1&#34;&gt;
+Let&amp;#39;s talk about tests.
+&lt;/h3&gt;
+&lt;p&gt;
+I&amp;#39;m not saying that tests are the best forms of assessment - most of
+the time I&amp;#39;d much rather have students work on projects. There are,
+however, times when tests make sense or are otherwise appropriate.
+&lt;/p&gt;
+&lt;p&gt;
+In any event, writing a test is hard. Rather, writing good test is
+hard. It&amp;#39;s certianly easy enough to put a bunch of multiple choice or
+short answer questions on paper and it&amp;#39;s easy enough to give a hard
+equation to solve or some code to write but creating a good test is a
+task and half. You first have to figure out what you&amp;#39;re trying to
+assess - memory, thought process, synthesizing concepts? Then you want
+to construct questions that give you insights into your students
+knowledge and thought process.
+&lt;/p&gt;
+&lt;p&gt;
+Some things that I consider when putting together a test:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Does it ramp up in difficulty - that is, are there some &amp;#34;gimme
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+questions&amp;#34; and some challenges.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Are questions all or nothing - if a kid doesn&amp;#39;t see things my way
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+are they dead in the water.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Will the test repeatedly penalize or reward the same concept over
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+and over again on the test.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Do I cover all the concepts I want to assess.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Do you make kids waste time with boilerplate code.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Do the questions take so long to read and digest that there&amp;#39;s little
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+time to form and write down answers.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Do the answers convey anything about the students thought process or
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+just correctness.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Is it easy or impossible to grade and grade fairly.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+What about length? To me a well crafted test should be completed by
+the average student with a few minutes to spare - enough time to check
+a couple of answers. This is not to say that they&amp;#39;ll ace the exam,
+just finish it. Far too many teachers make tests an assessment of
+speed and accuracy at speed rather than understanding. That might
+actually be important in certain contexts - preparing for the APCS-A
+multiple choice section as an example but in general, it&amp;#39;s not a good
+way of assessing what a student really knows.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s also important that the the average student can achieve a score
+that you expect from an average student. That&amp;#39;s probably in the 80s on
+a 0-100 scale or a B. Yes, I know, C is supposed to be average but
+with grade inflation being what it is…
+&lt;/p&gt;
+&lt;p&gt;
+You should &lt;strong&gt;NOT&lt;/strong&gt; give an assessment where the average score is
+something like 17 out of 100 with the top student earning a 37. Sure,
+you can curve it but it also places a lot of stress on the
+students. You might do this from time to time - you might misjudge the
+difficulty of a test or your class but it shouldn&amp;#39;t be a regular
+occurence. Teachers sometimes forget about the psychological affect
+that a unfair test can have on a student even if the teacher &amp;#34;fixes&amp;#34; it
+after the fact.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+Don&amp;#39;t be afraid to experiment or have some fun.
+&lt;/h3&gt;
+&lt;p&gt;
+It&amp;#39;s also ok to try different things. One year, having just completed
+a unit on Cellualar Automata I decided to give a quiz. I figured it
+would take the kids 10 to 15 minutes so I gave them 30. The quiz was
+something like the following:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+You have 30 minutes to compose something on a sheet of paper that when
+I review it convinces me that you know something about the Cellular
+Automata Unit we just completed.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+Some kids loved the quiz, some hated it. The ones that hated it had
+been trained for years as expert standardized test takers and this
+level of freedom really freaked the out.
+&lt;/p&gt;
+&lt;p&gt;
+Another time, I gave a multi page test of serious questions mixed with
+crazy shenanigans. Question one would be some CS problem followed by
+some instructions like &amp;#34;stand up, do 5 jumping jacks and sit down&amp;#34; or
+&amp;#34;shout out your favorite olde timey exclamation&amp;#34; or even &amp;#34;stand up, if
+or when you see another student standing, switch seats with the and
+continue the test.&amp;#34; The test started with explicit instructions not to
+read ahead but to read and do each question in order. The last page
+was the answer key and I asked the kids to self-grade. Interestingly
+enough the grading was pretty honest. After that one, I received a few
+apology emails from kids who read to the end first encouraging me to
+give them failing grades for cheating. Wow, I wasn&amp;#39;t expecting
+that. The test was something of an end of year goof. The CS questions
+were really easy - I wanted to reward them with something silly and
+easy - a guaranteed A after a year of hard work.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
+Tests to drive instruction and future practice
+&lt;/h3&gt;
+&lt;p&gt;
+As a final point to ponder, tests shouldn&amp;#39;t only be about grades. A
+well crafted test should drive instruction. Kids will get answers
+wrong - will your questions be crafted so that you can gain insights
+into why the got them wrong.
+&lt;/p&gt;
+&lt;p&gt;
+In an early class you might notice things like:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+kids printing rather than returning answers
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+kids not understanding scope
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+kids having difficulty with idioms like &lt;code&gt;i=i+1&lt;/code&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+kids needing more scaffolding to approach a problem
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+This can drive instruction moving forward.
+&lt;/p&gt;
+&lt;p&gt;
+Over time you&amp;#39;ll also learn how to fine tune your tests and other
+assessments.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-4&#34;&gt;
+Next time, we&amp;#39;ll talk about projects
+&lt;/h3&gt;
+&lt;p&gt;
+Unless of course I get distracted by another blog topic or shiny
+object.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

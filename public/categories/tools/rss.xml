@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/categories/tools/</link>
+    <description>C&#39;est la Z (tools)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jul 2020 16:12:47 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/categories/tools/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Github and Student Feedback</title>
+      <link>https://cestlaz.github.io/post/github-student-feedback/</link>
+      <pubDate>Mon, 20 Jul 2020 16:12:47 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/github-student-feedback/</guid>
+      <description>&lt;p&gt;
+Beyond the CS specifics We&amp;#39;ve been primarily using three tools in our
+summer certification program.
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Zoom for video conferencing
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Slack for text based communicaiton
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+GitHub for just about everything else
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+We use GitHub as a CMS - a place to share code and assignments as well
+as collect them. We&amp;#39;re also playing with GitHub discussions although
+that&amp;#39;s fallen somewhat to the wayside with Slack being preferred. 
+&lt;/p&gt;
+&lt;p&gt;
+One of the choices I&amp;#39;m digging more than ever is &lt;a href=&#34;https://classroom.github.com/&#34;&gt;GitHub Classroom&lt;/a&gt; for
+assignments. Recently GitHub added a feedback feature powered through
+what known as Pull Requests. You just have to check the &amp;#34;feedback&amp;#34;
+button when you create an assignment. I also set my notifications so I
+receive an email alert whenever a students submits anything.
+&lt;/p&gt;
+&lt;p&gt;
+Whenever a student updates an assignment or in Git parlance commits
+and pushes up a change, I get an email alert. The email includes: 
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+The repo where the change was made 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+A brief message describing the most recent change
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+A link the the students GitHub account
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+A link to the actual change.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+Clicking on the change and I get to a screen like this:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/githubdiff.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+A summary of exactly what changed. I see lines that were deleted,
+lines that were added and lines that were modified. At the top I see
+the one line brief description which the student put in when making
+the commit. I can also easily navigate through their assignment both
+to see other parts of it as well as earlier versions.
+&lt;/p&gt;
+&lt;p&gt;
+If you scroll down the page there&amp;#39;s a place you can leave a comment
+which will go to the student. 
+&lt;/p&gt;
+&lt;p&gt;
+This all makes for a very quick and easy feedback mechanism. You can
+also go to the &amp;#34;pull request&amp;#34; section of the repo (link at the top of
+the repo page) where you can find all the comments.
+&lt;/p&gt;
+&lt;p&gt;
+All in all this provides a very quick and painless way of seeing what
+students are up to and a quick way to provide some feedback.
+&lt;/p&gt;
+&lt;p&gt;
+The only catch is that this only works when the students actively push
+changes up to GitHub. While this group of teachers have been great
+that&amp;#39;s sometimes a challenge with high school or college
+students. Working on strategies to get this type of buy in from my
+first years in the Fall.
+&lt;/p&gt;
+&lt;p&gt;
+So, GitHub Classroom&amp;#39;s feedback mechanism? A big win and more great
+work from the GitHub education team.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pro Version Or Education Version</title>
+      <link>https://cestlaz.github.io/post/pro-version-or-ed-version/</link>
+      <pubDate>Fri, 29 May 2020 19:00:13 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/pro-version-or-ed-version/</guid>
+      <description>&lt;p&gt;
+I woke up to this tweet by Mark Guzdial today:#pro-version-or
+ed-version.org#
+&lt;/p&gt;
+  &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;An indication
+that CS Ed in US high schools is about vocational training: 2 (of 5)
+recommended sessions at the &lt;a
+href=&#34;https://twitter.com/csteachersorg?ref_src=twsrc%5Etfw&#34;&gt;@csteachersorg&lt;/a&gt;
+conference are on Github and Agile. Is &lt;a
+href=&#34;https://twitter.com/CSforALL?ref_src=twsrc%5Etfw&#34;&gt;@CSforAll&lt;/a&gt;
+a Silicon Valley jobs program? &lt;a
+href=&#34;https://t.co/n8ugnmTU84&#34;&gt;https://t.co/n8ugnmTU84&lt;/a&gt;&lt;/p&gt;&amp;mdash;
+Mark Guzdial (@guzdial) &lt;a
+href=&#34;https://twitter.com/guzdial/status/1265986599952822272?ref_src=twsrc%5Etfw&#34;&gt;May
+28, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async
+src=&#34;https://platform.twitter.com/widgets.js&#34;
+charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;
+This led to a lively discussion throughout the day with lots of likes
+and lots of comments. Two themes emerged. One wondered if the CSTA
+conference should be highlighting these talks about professional
+sensibilities and the other questioned the use of tools designed for
+industry vs those designed for schools.
+&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s look at the former first. For full disclosure JonAlf and I are
+co-presenters of the GitHub session that was highlighted. Truth be
+told I had no idea it was highlighted until I read Mark&amp;#39;s tweet
+:-). CSTA is a conference for teachers, K12 teachers. Teachers go
+to learn new practices. Sure there are sessions about advocacy and
+the like but
+it&amp;#39;s really more like a multi day professional development session on
+steroids. That&amp;#39;s one of the things that makes it so wonderful. If a
+session gives teachers something of value it&amp;#39;s worth presenting. It
+can be what they teach, how they teach, or something ancillary to
+teaching even things as mundane as gradebook management. If it helps
+make a CS teacher better, it&amp;#39;s appropriate to include. 
+&lt;/p&gt;
+&lt;p&gt;
+I can&amp;#39;t say why any particular session was chosen for highlight
+but it really isn&amp;#39;t a big deal. There are always sessions on specific lesson
+ideas, cross curricular stuff, ethics, standards, equity, CS4All,
+APCS, and lots lots more. 
+&lt;/p&gt;
+&lt;p&gt;
+Now, what I&amp;#39;d like to see would be a banner on the conference page
+where every time you go there it displays a random assortment of
+sessions that are being offered. 
+&lt;/p&gt;
+&lt;p&gt;
+What about the second point - professional tools or educational ones. First
+let&amp;#39;s lump things together, git is a tool, so is GitHub. Same for
+agile - it&amp;#39;s a tools as are programming languages. Now a great
+craftsman is a great craftsman but their job is a whole lot easier
+with a full chest of quality tools. 
+&lt;/p&gt;
+&lt;p&gt;
+If a professional tool makes a teacher better it&amp;#39;s worth learning. 
+&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s look at agile. I&amp;#39;ve never used terms like scrum or sprint in my
+class but pair programming comes out of agile and that&amp;#39;s become a
+mainstay of CS classes. Same thing for the short development cycle and
+all the testing. These are agile concepts that we take for granted as
+education tools. Are we going to use everything about agile in every
+CS class? No. Does it belong in CS when CS is embedded in other
+subject areas? Who knows but if a teacher gets exposed to it at CSTA
+then they can make an informed decision and use it when and as
+appropriate. 
+&lt;/p&gt;
+&lt;p&gt;
+What about git/GitHub? I wouldn&amp;#39;t teach using it when CS is embedded
+but I might in a HS programming course and I certainly would in APCS-A
+or beyond. I&amp;#39;ve found that there are many positives of using them and
+I&amp;#39;ve written about it before on this blog. 
+&lt;/p&gt;
+&lt;p&gt;
+The truth is that both git and agile provide ways of increasing
+student communication and collaboration and these are good things.
+&lt;/p&gt;
+&lt;p&gt;
+Even if I decided that my classes shouldn&amp;#39;t use git, I&amp;#39;d still use it
+for my web presence and to distribute materials and that too makes it
+worth learning.
+&lt;/p&gt;
+&lt;p&gt;
+Just because a tool came from industry it&amp;#39;s not
+necessarily bad and if it came fro education it&amp;#39;s not necessarily
+good. 
+&lt;/p&gt;
+&lt;p&gt;
+Thonny is a beginner Python IDE. It was designed specifically to be a
+learner environment. It&amp;#39;s great for that. Eclipse is a professional
+IDE and I hate it for education. Other people disagree with me on both
+counts.
+&lt;/p&gt;
+&lt;p&gt;
+On the other hand I&amp;#39;ve seen tools written by people in education that
+are god awful.
+&lt;/p&gt;
+&lt;p&gt;
+Then you also have well designed education tools but they fill a
+narrow niche - they&amp;#39;re so specialize that a teacher and student can
+only use them in a specific case. A teacher then needs to find
+multiple tools for their multiple classes and students need to learn
+even more.
+&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s assume we have a bunch of these educational tools and their all
+pretty well designed and help students get to whatever it is they&amp;#39;re
+supposed to learn. Taken individually each tool seems great but taken
+as a whole? Where&amp;#39;s the line? Is it better to have the teacher learn
+and support a handful of these and students learn even more or should
+they spend more time/efforn to learn one or two tools where the tool
+will beuseful beyond the narrow scope of the specialized one.
+&lt;/p&gt;
+&lt;p&gt;
+The answer is of course, it depends.
+&lt;/p&gt;
+&lt;p&gt;
+I was part of a workshop this past summer and this came up. We were
+looking at a pretty sweet specialized tool that worked really well for
+one niche area. We also looked at Google Sheets which were less
+intuitive but more versatile and universal. Which to use? We never
+came up with a compelling answer either way. 
+&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s nothing inherently bad about industry tools and there&amp;#39;s
+nothing inherently good about educational ones. It&amp;#39;s true that
+industry tools are designed for industry but education tools are by
+and large not designed by teachers. They might be designed by people
+who teach as part of their job or who have taught but that&amp;#39;s not the
+same thing. Sometimes they hit but sometimes they miss their mark.
+&lt;/p&gt;
+&lt;p&gt;
+In math class we would typically draw arcs and circles on the board
+with a giant chalk compass. It was specifically designed for
+education. You know what works better? A shoelace.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Zoom alternatives that aren&#39;t from MicroGoogle</title>
+      <link>https://cestlaz.github.io/post/bigbluebutton/</link>
+      <pubDate>Mon, 25 May 2020 16:33:17 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/bigbluebutton/</guid>
+      <description>&lt;p&gt;
+As we scrambled to move online in March we used what we knew, what we
+heard of and what we were allowed. This usually meant Zoom, Google
+Meet, or Microsoft Teams.
+&lt;/p&gt;
+&lt;p&gt;
+I settled on Zoom. It worked and worked pretty well. There were a few
+things I felt they could improve on but given that Zoom wasn&amp;#39;t
+designed as a teaching tool I&amp;#39;ve been pretty happy with it.
+&lt;/p&gt;
+&lt;p&gt;
+Now that the emergency rush has passed we have time to see if there
+are some better alternatives. First up is &lt;a href=&#34;https://bigbluebutton.org/&#34;&gt;BigBlueButton&lt;/a&gt;. I&amp;#39;ll write up
+another cool platform that&amp;#39;s based on BigBlueButton in some future
+post.
+&lt;/p&gt;
+&lt;p&gt;
+To start, BBB is open source. That&amp;#39;s a big plus in my book. This means
+we can self host it. Now, this can be a problem if installation and
+maintenance is a pain but so far, it&amp;#39;s been carefree.
+&lt;/p&gt;
+&lt;p&gt;
+Next, it has some nice features. It supports pretty much everything
+that Zoom supports including: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+join passwords
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+waiting room
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Brady Bunch view 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+chat
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+reactions (raise hand etc.)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+a shared whiteboard
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+screen sharing
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+breakout rooms
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+optional session recording. 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+polling 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+and adds a few:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+a shared note space
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+shared whiteboard is really a presentation that you can upload
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+A simple html5 client 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+BBB is also based on &amp;#34;classrooms&amp;#34; rather than meetings which as
+a teacher seems cleaner and makes more sense.
+&lt;/p&gt;
+&lt;p&gt;
+If you want to try it out and I highly recommend you do, you can do so
+on their web site.
+&lt;/p&gt;
+&lt;p&gt;
+Hosting is also pretty easy. I was originally turned off by the
+strangely specific requirement of Ubuntu 16.04 but since Digital
+Ocean - my preferred cloud provider lets me directly install that or
+many other versions it wasn&amp;#39;t a problem. You&amp;#39;ll also need a box with
+4GB memory and 4 cores. 
+&lt;/p&gt;
+&lt;p&gt;
+You can follow the install instructions on the BBB home page but it
+was easier to follow &lt;a href=&#34;https://github.com/bigbluebutton/bbb-install&#34;&gt;these&lt;/a&gt; instructions. Here&amp;#39;s exactly what I did
+(culled from the longer explanations on the bbb-install site I just
+linked):
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Create the DO droplet or install an Ubuntu 16.04 mathine.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Log in and run &lt;code&gt;apt-get update&lt;/code&gt;, &lt;code&gt;apt-get dist-upgrade&lt;/code&gt; and
+&lt;code&gt;apt-get upgrade&lt;/code&gt;.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Set up DNS for the box so you can get to it by name. To do this I
+went to Google domains and added an entry for
+bigbluebutton.huntercs.org.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+I ran (all one line):
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | bash -s -- -v xenial-22 -s bbbtest.huntercs.org -e zamansky@gmail.com -g&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&amp;gt;}}
+&lt;/p&gt;
+&lt;p&gt;
+    This downloads and installs BBB and also uses &lt;strong&gt;certbot&lt;/strong&gt; to set up
+    ssl for secure connections.
+&lt;/p&gt;
+&lt;p&gt;
+After this was done, I created an admin account:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cd greenlight/
+docker exec greenlight-v2 bundle exec rake admin:create&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&amp;gt;}}
+&lt;/p&gt;
+&lt;p&gt;
+At this point I was up and running so I went to the host and logged in
+using the admin credentials that the above command gave me.
+&lt;/p&gt;
+&lt;p&gt;
+Next, log in, go to the user profile and change the admin account&amp;#39;s
+login and password. I also went to the org site settings and changed
+registration so that people had to be invited - this only affects who
+can create classrooms. Anyone can join as long as the teacher lets the
+in.
+&lt;/p&gt;
+&lt;p&gt;
+As a last step you should remove the demos: &lt;code&gt;apt-get purge
+bbb-demo&lt;/code&gt;. The home page and install web site has more info on those.
+&lt;/p&gt;
+&lt;p&gt;
+You&amp;#39;re now ready to go. Make classrooms, invite your students and
+you&amp;#39;re off. 
+&lt;/p&gt;
+&lt;p&gt;
+Check it out. so far, I&amp;#39;m liking it better than the non free non open
+source alternatives offered by Zoom, Microsoft, and Google. 
+&lt;/p&gt;
+&lt;p&gt;
+Next, well look at another platform  that&amp;#39;s based on BBB that adds
+some very cool features for CS Teachers.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Github Org Explorer - now with oauth</title>
+      <link>https://cestlaz.github.io/post/github-org-explorer-oauth/</link>
+      <pubDate>Sun, 16 Feb 2020 12:53:59 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/github-org-explorer-oauth/</guid>
+      <description>&lt;p&gt;
+A while ago I wrote about a small side project - &lt;a href=&#34;https://cestlaz.github.io/post/github-org-explorer/&#34;&gt;GitHub Org Explorer&lt;/a&gt; -
+a small tool to make it easier to manager GitHub repositories based on
+organization. I&amp;#39;m using it as a replacement for the GitHub provided
+Classroom Assistant. I find it more flexible in terms of exporting
+assignments to my own machine and it allows me to delete repos en
+masse which is critical after the semester is over.
+&lt;/p&gt;
+&lt;p&gt;
+Shortly after I released it I found that GitHub was going to sunset
+the basic authentication I was using so I had to convert the
+application to support oauth.
+&lt;/p&gt;
+&lt;p&gt;
+So, here it is. 
+&lt;/p&gt;
+&lt;p&gt;
+Along the way I had a few headaches. I wrote about them &lt;a href=&#34;https://cestlaz.github.io/post/my-code-works/&#34;&gt;here&lt;/a&gt;. Mostly
+versioning issues surrounding the node ecosystem. I still haven&amp;#39;t
+figured it all out but I think I&amp;#39;ve gotten everything working
+alright. 
+&lt;/p&gt;
+&lt;p&gt;
+If you want to check it out, you can grab it off GitHub. Here&amp;#39;s the
+repo: &lt;a href=&#34;https://github.com/zamansky/github-org-explorer&#34;&gt;&lt;a href=&#34;https://github.com/zamansky/github-org-explorer&#34;&gt;https://github.com/zamansky/github-org-explorer&lt;/a&gt;&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the short runthrough video I made. Logging in looks different
+but everything operates the same way:
+&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34;
+src=&#34;https://www.youtube.com/embed/e-gNzuBG3mU&#34; frameborder=&#34;0&#34;
+allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GitHub Org Explorer</title>
+      <link>https://cestlaz.github.io/post/github-org-explorer/</link>
+      <pubDate>Fri, 03 Jan 2020 14:40:40 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/github-org-explorer/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;m a big fan of &lt;a href=&#34;https://classroom.github.com&#34;&gt;GitHub Classroom&lt;/a&gt; and use it for all of my class
+assignments. It&amp;#39;s great for organizing, distributing, and collecting
+assignments and gets the kids used to using real world tools at the
+same time. I&amp;#39;ve written a bunch of posts on how I use it:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://cestlaz.github.io/post/github-classroom/&#34;&gt;How I use GitHub Classroom&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://cestlaz.github.io/post/communicating-with_students/&#34;&gt;Communicating with Students - meybe GitHub to the rescue&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://cestlaz.github.io/posts/sigcse-2017-github-4/&#34;&gt;GitHub as a tool for education&lt;/a&gt; (part of a 4 part series)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+As well as a couple of others.
+&lt;/p&gt;
+&lt;p&gt;
+Since I like doing things on the command line I&amp;#39;ve been using GitHub&amp;#39;s
+&lt;a href=&#34;https://github.com/education/classroom-assistant&#34;&gt;Classroom Assistant&lt;/a&gt; to download repos. It&amp;#39;s a nice tool - I can
+download any or all repos for any given assignment at once.
+&lt;/p&gt;
+&lt;p&gt;
+Still, this leaves me wanting in three areas. 
+&lt;/p&gt;
+&lt;p&gt;
+First is roster integration. They have some rudimentary work done on
+this but it&amp;#39;s not quite there yet.
+&lt;/p&gt;
+&lt;p&gt;
+Second is being able to download repos based on other criteria. For
+example, downloading all of the assignments from a single student.
+&lt;/p&gt;
+&lt;p&gt;
+Third is deleting repos. GitHub Classroom uses GitHub organizations to
+store submissions. You get one per student (or group) per
+assignment. This gets really big really fast and it pollutes your
+GitHub account with lots of repos that, quite frankly, I don&amp;#39;t want
+once the semesters done.
+&lt;/p&gt;
+&lt;p&gt;
+If only there was a way to address this….
+&lt;/p&gt;
+&lt;p&gt;
+Well, given that the good people at GitHub publish their &lt;a href=&#34;https://developer.github.com/&#34;&gt;APIs&lt;/a&gt; one can
+write their own applications to use with or integrate with GitHub. 
+&lt;/p&gt;
+&lt;p&gt;
+I wrote a small app, still experimental but functional. It&amp;#39;s an
+&lt;a href=&#34;https://electronjs.org&#34;&gt;Electron&lt;/a&gt; app (another thanks to GitHub) written in Clojurescript. I
+might write about creating it later but for now, I just wanted to
+share the app in case it&amp;#39;s useful to anybody.
+&lt;/p&gt;
+&lt;p&gt;
+Once you log in you can go to any of your GitHub organizations. Since
+GitHub Classrooms are based on organizations this will present you
+with all the repos for a given one. Then you can filter via regular
+expressions and then either export or delete them. For me it&amp;#39;s the
+missing piece. I plan to add roster support some time in the future.
+&lt;/p&gt;
+&lt;p&gt;
+If anyone&amp;#39;s interested, here&amp;#39;s the GitHub repo: &lt;a href=&#34; https://github.com/zamansky/github-org-explorer&#34;&gt;&lt;a href=&#34;https://github.com/zamansky/github-org-explorer&#34;&gt;https://github.com/zamansky/github-org-explorer&lt;/a&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+And a short video walkthrough of how it works.
+&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34;
+src=&#34;https://www.youtube.com/embed/e-gNzuBG3mU&#34; frameborder=&#34;0&#34;
+allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evaluating Java IDES for teaching teachers.</title>
+      <link>https://cestlaz.github.io/post/java-ides/</link>
+      <pubDate>Fri, 08 Mar 2019 13:29:18 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/java-ides/</guid>
+      <description>
+&lt;p&gt;
+Since Hunter uses C++ as it&amp;#39;s core language, I haven&amp;#39;t used Java much
+in the past three years. That&amp;#39;s going to change pretty soon. Once we
+start offering our CS teacher Certificate and Masters programs I&amp;#39;ll
+once again start teaching with Java as that&amp;#39;s one of the langauges
+that we want to prepare our teachers with.
+&lt;/p&gt;
+&lt;p&gt;
+That means deciding on a set of tools and so I&amp;#39;ve been spending time
+evaluating Java programming environments with an eye on the
+beginner since not only do the teachers I work with have to be
+comfortable with the tool but more importantly they will have to be
+able to support the tool for all of their students.
+&lt;/p&gt;
+&lt;p&gt;
+One tool we&amp;#39;re likely to use is &lt;a href=&#34;https://repl.it/&#34;&gt;repl.it&lt;/a&gt;. That&amp;#39;s an online environment
+for Java and a bunch of other languages. There&amp;#39;s a lot to like about
+it and teachers might go with it or a similar cloud based option in
+their classes but it&amp;#39;s important that we also prepare teachers to
+build programs locally.
+&lt;/p&gt;
+&lt;p&gt;
+So, here&amp;#39;s my criteria and here&amp;#39;s what I found.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-1&#34;&gt;
+The tool has to install easily on all platforms
+&lt;/h3&gt;
+&lt;p&gt;
+I started with my desktop Linux machine. I&amp;#39;m running LinuxMint which
+is pretty mainstream and I installed the Java tools using Mint&amp;#39;s
+package manager. The packages are openjdk-11 and it looks like running
+Java 10. If the IDE or editor I installed  didn&amp;#39;t work off the bat it
+was no good. If it installed and I liked it I&amp;#39;ll pass it off to
+friends who use Windows and Macs to see if the install there is
+equally seamless.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+The tool has to be easy to run 
+&lt;/h3&gt;
+&lt;p&gt;
+After install you have to be able to run it easily. No fancy &lt;code&gt;java
+-jar blah blah blah&lt;/code&gt;.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
+I&amp;#39;m not looking for a professional tool
+&lt;/h3&gt;
+&lt;p&gt;
+Professional tools can be too compex and do too much for students. I
+was looking for the sweet spot of giving a nice amount of support but
+not giving away the store.
+&lt;/p&gt;
+&lt;p&gt;
+Here are the tools I looked at (and you can debate if something
+belongs in the other category in some cases):
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-4&#34;&gt;
+Editors
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Emacs
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Gedit
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Vim
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Sublime Text
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Atom
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Jedit
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;headline-5&#34;&gt;
+IDES
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Eclipse
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+DrJava
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Geany
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+BlueJ
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+IntelliJ
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+VSCode
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+JGrasp
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;headline-6&#34;&gt;
+Editor vs IDE
+&lt;/h3&gt;
+&lt;p&gt;
+The line between editor and IDE is a blurry one. I tend to think of an
+editor as multi-purpose and multi-language where an also useful for
+non programming text realted tasks whereas an IDE comes with more
+programming bells and whistles. The truth is, though. that some IDES
+can do well with non programming tasks and many editors are pretty
+close to IDEs.
+&lt;/p&gt;
+&lt;p&gt;
+In any event, for a teacher, there&amp;#39;s something to be said for keeping
+it &amp;#34;close to the metal&amp;#34; and have them use an editor to edit source
+code and compile from the command line. This doesn&amp;#39;t mean they
+shouldn&amp;#39;t also see IDEs and perhaps use them with their students but
+a teacher should know a little more about what&amp;#39;s going on than just
+load a program, write some code, and click run. If a teacher is that
+limited you end up in situations similar to that common comment from
+people who finish a beginner course on Codecademy - &amp;#34;I finished the
+course and I can program in their environment but I don&amp;#39;t know how to
+actually make something anywhere else.&amp;#34;
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-7&#34;&gt;
+The Editors
+&lt;/h3&gt;
+&lt;p&gt;
+Here the idea would be start as I mentioned above. Edit files adn then
+compile on the command line. Eventually, though, many of these tools
+can be used as IDEs
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-8&#34;&gt;
+Emacs
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;https://www.gnu.org/software/emacs/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve got to start with my tool of choice although I can&amp;#39;t really be
+unbiased. I think it gets a bad wrap because it&amp;#39;s old and out of the
+box looks plain but, yes, you can use your mouse and it does have
+menus. The upside is that it can do everything an IDE can do and a
+thousand times more. I do email, read rss feeds, maintain my calendar
+and more in Emacs. 
+&lt;/p&gt;
+&lt;p&gt;
+The downside is that it doesn&amp;#39;t do Java well out of the box and kids
+like shinier objects. 
+&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t think I&amp;#39;d start the teachers with Emacs but I&amp;#39;d probably shift
+my instruction to using it at some point and show some of the cooler
+features (many highlighted in my &lt;a href=&#34;https://cestlaz.github.io/stories/emacs/&#34;&gt;Emcacs videos&lt;/a&gt;)
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-9&#34;&gt;
+Gedit
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://wiki.gnome.org/Apps/Gedit%0A&#34;&gt;https://wiki.gnome.org/Apps/Gedit%0A&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This is a plain simple editor. You can bucket in notepad+ and whatever
+the basic Mac editor is in here. Nothing special and nothing
+fancy. It&amp;#39;s easy enough to load, edit a file and save but not much
+more. I&amp;#39;d be fine using it were it not for better options.
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-10&#34;&gt;
+Vim
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.vim.org/&#34;&gt;https://www.vim.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+No
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-11&#34;&gt;
+Sublime Text
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.sublimetext.com/%0A&#34;&gt;https://www.sublimetext.com/%0A&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This was the hotness for a while and it&amp;#39;s a pretty slick editor. I
+can&amp;#39;t recommend it for teachers though for two reasons. One is that
+it&amp;#39;s not free (although it isn&amp;#39;t expensive). The other is that it&amp;#39;s
+not open source. There were other hot editors before sublime and when
+their companies folded or sunset the editor all those plugins and
+customizations had to be redone on a new platform. 
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-12&#34;&gt;
+Atom
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://atom.io/&#34;&gt;https://atom.io/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Atom&amp;#39;s an editor I want to like. It&amp;#39;s open source and looks pretty
+neat but it seems more focused on the JS ecosystem. I couldn&amp;#39;t find
+enough Java related plugins to make it better than Gedit although it
+was easy to theme and customize the keys. Were I not an Emacs guy I&amp;#39;d
+probably use Atom for much of my non-Java development but it doesn&amp;#39;t
+seem like a great fit for Java
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-13&#34;&gt;
+Jedit
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.jedit.org/&#34;&gt;http://www.jedit.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This looked like the strongest contender for Java. Not too
+complicated. Nice syntax highlighting out of the box. It doesn&amp;#39;t do
+completion but that&amp;#39;s arguably a good thing when teaching
+programming (incidentally, Emacs doesn&amp;#39;t do completion out of the box
+but it can be added so you can up the tools ability as the class moves
+along). From my limited explorations you can install plugins like a
+Java Linter and you can run a console from inside JEdit which means
+you can actually type things like &lt;code&gt;javac file.java&lt;/code&gt; and then run the
+program all from within the editor.
+&lt;/p&gt;
+&lt;p&gt;
+Jedit also has some nice builtin macros for boilerplate code like
+setters and getters.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-14&#34;&gt;
+IDEs
+&lt;/h3&gt;
+&lt;h4 id=&#34;headline-15&#34;&gt;
+Eclipse 
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.eclipse.org&#34;&gt;https://www.eclipse.org&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve used eclipse before and as a Java environment, it&amp;#39;s actually
+pretty nice. You can customize the keys so I set mine to Emacs. It has
+a lot of plugins, you can compile and test your program from within
+the IDE and do tons of other things. It&amp;#39;s a VERY nice professional
+tool.
+&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t like it for teaching for three reasons. First, it does too
+much. By giving too much professional support kids rely too much on
+the tool. Second, it&amp;#39;s made for big projects using build systems not
+small AP class programs consisting of one or two files where you run
+javac manually. Yes, you can do this in Eclipse but it seems more
+awkward. Third, becasue there&amp;#39;s so much going on you need a HUGE
+screen and kids and schools might not have enough screen real estate.
+&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s also a fourth reason which is that I installed Eclipse using
+LinuxMint&amp;#39;s package manager and it crashed when running. If I&amp;#39;m going
+to recommend a teacher roll out a tool that all of their students are
+going to install at home on their own, at the very least it has to
+install and run seamlessly.
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-16&#34;&gt;
+DrJava
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.drjava.org/&#34;&gt;http://www.drjava.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Like Eclipse, I&amp;#39;ve used DrJava before. It&amp;#39;s similar to DrRacket (nee
+Scheme) and Dr. Python. It&amp;#39;s close to perfect. You get highlighting,
+helpful error finding, can run your program from within Dr. Java and
+more.
+&lt;/p&gt;
+&lt;p&gt;
+The killer problem is that I can&amp;#39;t get the latest version to
+run. Actually the first problem is that it&amp;#39;s just a jar file so you
+have to run it with &lt;code&gt;java -jar drjava.jar&lt;/code&gt;. Beyond that, it didn&amp;#39;t
+work out of the box. It loaded but compilign and running didn&amp;#39;t After
+some mucking around, I got it to compile but it doesn&amp;#39;t run the
+programs. 
+&lt;/p&gt;
+&lt;p&gt;
+This is too bad because when it runs it&amp;#39;s a terrific learning
+environment.
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-17&#34;&gt;
+BlueJ
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://bluej.org/&#34;&gt;https://bluej.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This is another tool that was DOA. I tried the debian package as well
+as the jar file. Couldn&amp;#39;t get it working. 
+&lt;/p&gt;
+&lt;p&gt;
+I have used an older version so I&amp;#39;ll describe that instead just
+remember things might be different in the current version.
+&lt;/p&gt;
+&lt;p&gt;
+BlueJ does one thing very well - objects. It visually shows object
+creation and relationships. I recall that you can create an opject,
+click on it&amp;#39;s box in a visual graph pane, inspect it, instantiate new
+ones and in general explore and expirement. If you&amp;#39;re big on OOP and
+like Object First by all means check BlueJ out. It&amp;#39;s probably best in
+class for that approach.
+&lt;/p&gt;
+&lt;p&gt;
+On the other hand, it&amp;#39;s a one trick pony. If you, like me, are not all
+in on OOP or an Objects first and all the time approach it&amp;#39;s probably
+not the tool for you. 
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-18&#34;&gt;
+Geany
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.geany.org/&#34;&gt;https://www.geany.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I hadn&amp;#39;t heard of this one before but it looks like a contender. It
+has a  pretty clean interface and it worked out of the box. I
+installed it using the package manager.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/geany.png&amp;#34; width=&amp;#34;250px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+Class browser on the right, files on the left and console (terminal),
+compiler status etc on the bottom. It supports some level of
+autocomplete but it doesn&amp;#39;t do everything. I&amp;#39;m not sure yet but it
+might hit the completion sweet spot.
+&lt;/p&gt;
+&lt;p&gt;
+It says it does snippets but I haven&amp;#39;t figured that out yet. 
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-19&#34;&gt;
+IntelliJ
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.jetbrains.com/idea/&#34;&gt;https://www.jetbrains.com/idea/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+IntelliJ is fro JetBrains. They make a bunch of IDEs each focussed on
+a different toolset but all with the same look and feel. You can also
+add plugins to each to make them multi-modal. I believe the editor at
+the core is JEdit. I&amp;#39;ve used their IDEs in the past and as far as
+professional IDEs go I like them. They&amp;#39;re more lightweight than say
+Eclipse and don&amp;#39;t need the real estate.
+&lt;/p&gt;
+&lt;p&gt;
+Still, I think it&amp;#39;s too much for a beginner. For example, you can
+in theory run your program from the build menu but, much like Eclipse,
+it takes you to a configuration screen. I was pretty lost and I&amp;#39;m not
+a beginner. Much like Eclipse it&amp;#39;s made for projects not small class
+programs. 
+&lt;/p&gt;
+&lt;p&gt;
+I found the Python version of JetBrains IDEs more approachable
+probably because the ecosystem is much simpler.
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-20&#34;&gt;
+VSCode
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;https://code.visualstudio.com/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This one shocked me - I actually found myself liking a Microsoft
+product. I guess this really isn&amp;#39;t your father&amp;#39;s Microsoft.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/vscode.png&amp;#34; width=&amp;#34;250px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+Much like Geany it has a clean interface and like Geany you don&amp;#39;t need
+a whole Java build system. It does more completions out of the box
+which you may or may not like as well as snippets. A single key will
+compile and run your program and on top of all that it has en &amp;#34;Emacs&amp;#34;
+setting for keybindings.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not sure if I like Geany or VSCode better but I think both are
+really good options. I&amp;#39;d probably lean towards Geany due to the less
+robust completions. Were I writing code for real rather than teaching,
+I&amp;#39;d probably go the other way.
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-21&#34;&gt;
+JGrasp
+&lt;/h4&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/vscode.png&amp;#34; width=&amp;#34;250px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+JGrasp feels much the same as the other contenders - Geany and VSCode
+but the interface just looks a bit clunkier to me. I know that&amp;#39;s
+purely subjective. 
+&lt;/p&gt;
+&lt;p&gt;
+The biggest difference I&amp;#39;m seeing out of the box is that JGrasp
+doesn&amp;#39;t do completions so depending on where you fall with that you
+might want Jgrasp for none, Geany for some, and VSCode for all.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;[EDIT]&lt;/strong&gt; JGrasp has a very cool visualizer built in that will animate
+ your proram. Here&amp;#39;s a &lt;a href=&#34;https://www.youtube.com/watch?v=wuQowTV0o6s&#34;&gt;video&lt;/a&gt; of it in action. I&amp;#39;m going to have to
+ play with this a bit and see if it pushes JGrasp up over the top for
+ me. 
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-22&#34;&gt;
+Processing
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://processing.org/&#34;&gt;https://processing.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not going to talk about processing but I felt that it would be
+negligent not to mention it at all. Processing is a IDE, wrapper and
+graphical library that&amp;#39;s essentially Java under the hood (although
+there are Processing bindings in many other languages probably the
+most well known now is &lt;a href=&#34;https://p5js.org/&#34;&gt;p5.js&lt;/a&gt;). It&amp;#39;s great if you want to do graphical
+work or base your class around the libraries that are available to
+processing which include ones for web cameras, hardware access,
+networking, sound and more but it&amp;#39;s not the same as an IDE or editor
+for traditional Java development.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-23&#34;&gt;
+Notes
+&lt;/h3&gt;
+&lt;p&gt;
+Just about all of these tools have multiple themes and are fairly
+customizable so don&amp;#39;t go by the screenshots above, on the homepages or
+what they look like when you first install them.
+&lt;/p&gt;
+&lt;p&gt;
+All of the tools I liked installed right out of the box either by
+using the package manager or downloading and extracting from an
+archive. I can&amp;#39;t say yet if they install as easily on a Mac or Windows
+box but since Linux is usually the unloved stepchild of sortware
+packaging and distribution my guess is that if anything it&amp;#39;ll be
+easier on those platforms.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-24&#34;&gt;
+Conclusions
+&lt;/h3&gt;
+&lt;p&gt;
+I&amp;#39;ll always be an Emacs guy. Org-mode is too useful and I can get IDE
+like behavior for pretty much any language I want to work in. In some
+cases like Clojure, I haven&amp;#39;t seen an IDE that can match Emacs and
+Cider, it&amp;#39;s premier Clojure development setup. I also haven&amp;#39;t a Git
+interface nearly as slick and powerful as &lt;a href=&#34;https://magit.vc/&#34;&gt;Magit&lt;/a&gt; which works under
+Emacs.
+&lt;/p&gt;
+&lt;p&gt;
+For my teachers though, I&amp;#39;ll probably start with Geany or VSCode,
+switch to Emacs for myself at some point in the program and make sure
+to spend time on the command line along the way.
+&lt;/p&gt;
+&lt;p&gt;
+If I missed any editors or IDEs or have something to add on one of the
+ones I mentioned, please share in the comments.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How I use Github Classroom</title>
+      <link>https://cestlaz.github.io/post/github-classroom/</link>
+      <pubDate>Sun, 17 Feb 2019 16:42:48 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/github-classroom/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s been an amazingly unproductive weekend. Mostly because I&amp;#39;ve been
+sick with the flu. It sucks but since the rest of the family&amp;#39;s away
+anway at least I&amp;#39;m not making everyone miserable.
+&lt;/p&gt;
+&lt;p&gt;
+I did manage to stage my next couple of classes and figured that
+writing this post wouldn&amp;#39;t take too much energy since it&amp;#39;s mostly a
+video.
+&lt;/p&gt;
+&lt;p&gt;
+Earlier, I talked about using &lt;a href=&#34;https://cestlaz.github.io/post/github-classroom-travis/&#34;&gt;GitHub and TravicCI&lt;/a&gt; and this time around
+I show how I use GitHub classroom to set up, disseminate, and collect
+assignments.
+&lt;/p&gt;
+&lt;p&gt;
+Here are the important links you&amp;#39;ll need to set things up yourself:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+To register an organization (so that you can use private repos for
+free): &lt;a href=&#34;https://education.github.com/discount_requests/new&#34;&gt;https://education.github.com/discount_requests/new&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+The main GitHub education page with lots of good stuff and links: &lt;a href=&#34;https://education.github.com/&#34;&gt;https://education.github.com/&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+GitHub Classroom: &lt;a href=&#34;https://classroom.github.com/&#34;&gt;https://classroom.github.com/&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+GitHub Classroom Assistant: &lt;a href=&#34;https://classroom.github.com/assistant&#34;&gt;https://classroom.github.com/assistant&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The video goes through the entire process but doesn&amp;#39;t really much into
+grading. For grading I usually do something like the following:
+&lt;/p&gt;
+&lt;p&gt;
+First I make a file named &lt;strong&gt;repos&lt;/strong&gt; with the names of all the submitted
+repos:
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;cd THEDIRECTORYWITHALLTHEREPOS
+ls &amp;gt; repos&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Then I&amp;#39;ll use a script that looks something like this:
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i in &lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;cat repos&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+      cd /tmp/235-assignment-02-02-16-2019-07-25-00/$i
+      NAME&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;grep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;** Name: &amp;#34;&lt;/span&gt; Readme.org | sed &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;s/** Name: //g&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;
+      echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;================= &lt;/span&gt;$NAME&lt;span style=&#34;color:#e6db74&#34;&gt; ====================&amp;#34;&lt;/span&gt;
+      make test
+      ./test -s
+      echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\n------------------------------------\n\n&amp;#34;&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt; &amp;gt; report&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+First I &lt;code&gt;cd&lt;/code&gt; into the repo. Each repo has a file named &lt;strong&gt;Readme.org&lt;/strong&gt; 
+which has a line that looks like this &lt;code&gt;** Name: Students Name&lt;/code&gt;. The
+line that starts &lt;strong&gt;NAME=&lt;/strong&gt; pulls out the student&amp;#39;s name. It then echos a
+separator line with the sutdent&amp;#39;s name in it, builds and runs the
+tests. &lt;code&gt;./test -s&lt;/code&gt; runs the doctest tests. The &lt;code&gt;-s&lt;/code&gt; says to print out
+the passing tests as well as the failing ones. The output of the whole
+loop is saved to a file named report.
+&lt;/p&gt;
+&lt;p&gt;
+From there I can look at the report and get a quick overview of who&amp;#39;s
+submissions worked and who&amp;#39;s didn&amp;#39;t. I still have to look at the
+students actual code but I usually navigate all of that in Emacs.
+&lt;/p&gt;
+&lt;p&gt;
+Finally, for grades, I just use a Google Spreadsheet with a script I
+wronte to email grades to the students -
+&lt;a href=&#34;https://cestlaz.github.io/posts/google-sheets/.&#34;&gt;https://cestlaz.github.io/posts/google-sheets/.&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+You can easily adapt this processto use other languages wether you use Unit
+Tests or not. 
+&lt;/p&gt;
+&lt;p&gt;
+So, GitHub classroom - check it out. 
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/2PuXdb8OLYo&#34;&gt;https://www.youtube.com/embed/2PuXdb8OLYo&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GitHub Helps Me Help Students</title>
+      <link>https://cestlaz.github.io/post/github-helps-me-help-students/</link>
+      <pubDate>Mon, 11 Feb 2019 18:55:22 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/github-helps-me-help-students/</guid>
+      <description>&lt;p&gt;
+Earlier today I was reminded why I love GitHub in support of my
+classes. One of my students posted a question about our current
+lab. They posted a synopsis of the problem along with the error
+message.
+&lt;/p&gt;
+&lt;p&gt;
+Since we&amp;#39;re all working on GitHub the student&amp;#39;s work was already up
+online Since I started using &lt;a href=&#34;https://classroom.github.com&#34;&gt;GitHub Classroom&lt;/a&gt; I was able to quickly
+navigate to the repo. This might have been enough but to really in to
+the students work I cloned the repo and went into Emacs. Using &lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-47-magit/&#34;&gt;Magit&lt;/a&gt;,
+Emacs&amp;#39;s Git interface I was quickly able to navigate the project and
+also see recent changes or in fact any changes to any of the student&amp;#39;s
+project files. I didn&amp;#39;t use it this time but &lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-42-git-gutter/&#34;&gt;Git Timemachine&lt;/a&gt; gives an
+even slicker way to see the history of changes for a specific file.
+&lt;/p&gt;
+&lt;p&gt;
+With these tools it took almost no time to get the lay of the land and
+figure out where the student hit the wall. From there I posted a hint to nudge the student in the
+right direction.
+&lt;/p&gt;
+&lt;p&gt;
+GitHub classroom makes the student repo management easy but the other
+tools were just plain old Git and Emacs. 
+&lt;/p&gt;
+&lt;p&gt;
+Of course, for this to work, students have to play their part. If a
+student doesn&amp;#39;t push their changes regularly up to GitHub I won&amp;#39;t be
+able to see the diffs and help. When they do, it&amp;#39;s a real world tool
+that once again has proven to be great at supporting education.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Github Classroom and Travis CI</title>
+      <link>https://cestlaz.github.io/post/github-classroom-travis/</link>
+      <pubDate>Sat, 02 Feb 2019 09:44:29 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/github-classroom-travis/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;ve been using GitHub with my classes since GitHub&amp;#39;s early days. Over
+time I&amp;#39;ve gotten my &lt;a href=&#34;https://cestlaz.github.io/posts/sigcse-2017-github-4/&#34;&gt;workflows down&lt;/a&gt;. I use a combination of shell
+scripts - many just written on the fly, GitHub organizations, and some
+naming conventions and protocols that have served me well. 
+&lt;/p&gt;
+&lt;p&gt;
+A few years ago, the &lt;a href=&#34;https://education.github.com/&#34;&gt;GitHub Education team&lt;/a&gt; started &lt;a href=&#34;https://classroom.github.com/&#34;&gt;GitHub
+Classroom&lt;/a&gt;. I looked at it at the time. It was pretty cool but I had my
+workflow so I didn&amp;#39;t adopt it. I still very much liked GitHub, the
+education team, and the product so I kept tabs on the project as time
+passed. 
+&lt;/p&gt;
+&lt;p&gt;
+This semester I decided to go all in on GitHub Classroom. Why? A
+combination of my changing my workflow and part due to the GitHub
+education tools and community. At it&amp;#39;s core, GitHub classroom does two
+things well:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Assignment creation and distribution
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Repo management and organization.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+I thought I&amp;#39;d do a couple of posts and videos to show how I&amp;#39;m using
+everything. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the first one.
+&lt;/p&gt;
+&lt;p&gt;
+Interestingly enough I&amp;#39;m not going to talk at all about GitHub
+classroom for the remainder of this post. Instead I&amp;#39;m going to talk
+about TravisCI (&lt;a href=&#34;https://travis-ci.com/&#34;&gt;&lt;a href=&#34;https://travis-ci.com/&#34;&gt;https://travis-ci.com/&lt;/a&gt;&lt;/a&gt;,
+&lt;a href=&#34;https://travis-ci.org/&#34;&gt;https://travis-ci.org/&lt;/a&gt;). Travis is a platform for continuous
+intergration. The idea is pretty simple. After setting things up,
+whenever you push code to a repo that Travis is watching, Travis
+starts a container for your repo and runs one or more scripts against
+the repo. This usually means tests. It turns out that this can be a
+useful sanity check for students. It&amp;#39;s true that they can run tests on
+their assignments before submitting them but this way it&amp;#39;s done
+automatically and after they submit. They can be sure that what
+they&amp;#39;ve submitted actually works.
+&lt;/p&gt;
+&lt;p&gt;
+First you have to link your GitHub accoutn with Travis. To do this,
+just go to travis-ci.org and log in using GitHub. You can then set a
+bunch of options including which repos to run Travis on. The interface
+at travis-ci.com looks similar but a bit nicer. The .org site is free
+for open source or public repos  (as is the .com site, I think) but
+the good people at Travis will give you rights to use private repos
+for educational purposes for free. 
+&lt;/p&gt;
+&lt;p&gt;
+The only other thing you have to do is create a &lt;a href=&#34;https://yaml.org/&#34;&gt;YAML&lt;/a&gt; file named
+ &lt;code&gt;.travis.yml&lt;/code&gt; in your repo. Here&amp;#39;s one I&amp;#39;m using to test C++ projecs:
+&lt;/p&gt;
+&lt;div class=&#34;src src-yaml&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;language&lt;/span&gt;: cpp
+&lt;span style=&#34;color:#66d9ef&#34;&gt;compiler&lt;/span&gt;: clang
+&lt;span style=&#34;color:#66d9ef&#34;&gt;script&lt;/span&gt;:
+  - make test
+  - ./test&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+This tells Travis to use the clang compiler (as opposed to, say g++)
+and then run &lt;code&gt;make test&lt;/code&gt; and then &lt;code&gt;./test&lt;/code&gt;. If all the tests pass you
+get a green check and an email and you&amp;#39;re good to go. If they don&amp;#39;t
+you get a red X and also an email. Of course for this particular
+configuration to work you need &lt;code&gt;Makefile&lt;/code&gt; and everything else needed
+to build the tests in the repo. In my case, I&amp;#39;m using &lt;a href=&#34;https://github.com/onqtam/doctest&#34;&gt;doctest&lt;/a&gt; for tests.
+&lt;/p&gt;
+&lt;p&gt;
+Travis has support for a whole bunch of languages including Java,
+Python, and JavaScript and all of those have nice testing frameworks
+so regardless of what you&amp;#39;re teaching with, Travis could be easily
+integrated. 
+&lt;/p&gt;
+&lt;p&gt;
+In this video I show how I&amp;#39;m using TravisCI and also a simple Python
+setup. In the next post I&amp;#39;ll get back to GitHub classroom and how
+TravisCI integrates into it.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/-J8A5oWazvE&#34;&gt;https://www.youtube.com/embed/-J8A5oWazvE&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

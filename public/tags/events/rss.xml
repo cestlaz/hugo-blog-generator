@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>events on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/events/</link>
+    <description>C&#39;est la Z (events)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/events/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Competitions and Hackathons</title>
+      <link>https://cestlaz.github.io/posts/hs-competitions/</link>
+      <pubDate>Fri, 06 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/hs-competitions/</guid>
+      <description>&lt;p&gt;
+Today&amp;#39;s the last day of spring break. After the weekend it&amp;#39;s back to
+the grind. It really hasn&amp;#39;t been much of a spring break. The rain and
+the snow made for very little spring and between working on the Hunter
+/ CUNY2X Internship program and reviewing applications for my Hunter
+Daedalus CS Honors program there has been very little break.
+&lt;/p&gt;
+&lt;p&gt;
+Today was no exception - I spent much of the day working but I did
+take a few hours to head over to Cornell Tech on Roosevelt
+Island. Why? To check out the &lt;a href=&#34;https://www.cs.cornell.edu/events/cornell-high-school-programming-contest&#34;&gt;Cornell High School Progrmaming
+Contest&lt;/a&gt; - first time in NYC.
+&lt;/p&gt;
+&lt;p&gt;
+I was invited by my friend and organizer &lt;a href=&#34;https://twitter.com/diane_levitt&#34;&gt;Diane Levitt&lt;/a&gt;. I only stayed
+for an hour or so but it was shaping up to be a great event. It looked
+like around a hundred kids from maybe a dozen or so schools and it was
+run simultaneously with high schoolers on the Ithaca campus where the
+competition has been running for a few years.
+&lt;/p&gt;
+&lt;p&gt;
+The format was similar to other high school programming competitions
+I&amp;#39;ve been to. Teams of two or three sharing a single computer to solve
+a number of programming problems that varied in difficulty. You can
+check out a few &amp;#34;warm up&amp;#34; problems on the competition &lt;a href=&#34;https://www.cs.cornell.edu/events/cornell-high-school-programming-contest&#34;&gt;site&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+The competition reminded me of the &lt;a href=&#34;https://www.sjcny.edu/long-island/academics/programs-departments/mathematics-and-computer-science/programming-competition&#34;&gt;St. Joseph&amp;#39;s High School
+Programming Competition&lt;/a&gt; held every spring but in NYC so more
+convenient for city dwellers. I went to the St. Joseph&amp;#39;s competition a
+few times and I&amp;#39;m a big fan. I particularly like the awards luncheon
+after the competition. If I were to make one suggestion to the
+organizers there it would be to mix the seating at the luncheon so
+that kids get to sit with and spend time with kids from different
+schools.
+&lt;/p&gt;
+&lt;p&gt;
+These competitions contrast nicely with hackathons like &lt;a href=&#34;http://stuyhacks.com/%0A&#34;&gt;StuyHacks&lt;/a&gt;
+for which I acted as a judge a couple of months ago. Competitions are, well,
+competitive. Hackathons can be but don&amp;#39;t have to be. Competitions are
+about solving problems, hackathons, building things. Each can speak to
+a different kind of student.
+&lt;/p&gt;
+&lt;p&gt;
+Both competitions and hackathons have problems as well. On the competition
+side we have:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Schools with more developed CS programs dominate
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+A single strong student can carry a team
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Some kids don&amp;#39;t like or do well in the competitive environment
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+And on the hackathon side:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+24 hours of straight work is just a bad idea and a bad thing to
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+encourage.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Big advantage to teams that bring prefab code.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Big advantage to kids with experience.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Both types of events are great opportunities for young
+programmers. They&amp;#39;re celebrate academic work, bring tech kids together
+as a community and when done right are
+something of a CS party. Neither type of event speaks to all kids so
+it&amp;#39;s great to have both competitions and hackathons to go along with
+other types of events available for our kids.
+&lt;/p&gt;
+&lt;p&gt;
+Another thing I love abut the Cornell and St, Joseph&amp;#39;s competitions
+along with StuyHacks is that they&amp;#39;re open to all schools and hence all
+students. There&amp;#39;s room for the novice and also the expert and you
+don&amp;#39;t have to be in a particular school or program to participate.
+&lt;/p&gt;
+&lt;p&gt;
+There are other events beyond these three. There are online
+competitions like &lt;a href=&#34;http://www.usaco.org/&#34;&gt;the USACO&lt;/a&gt;, competitions on HackerRank and Topcoder,
+&lt;a href=&#34;http://halite.io&#34;&gt;Halite&lt;/a&gt; along with it&amp;#39;s hackathon which is great but specialized and in
+person ones that are farther away like the &lt;a href=&#34;http://pclassic.org/%0A&#34;&gt;PClassic&lt;/a&gt; in Philidelphia
+and Rowan&amp;#39;s &lt;a href=&#34;http://elvis.rowan.edu/rupc/%0A&#34;&gt;HS programming competition&lt;/a&gt; in New Jersey but it&amp;#39;s great to
+see great local opportunities like these emerging and hopefully
+running for years to come.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

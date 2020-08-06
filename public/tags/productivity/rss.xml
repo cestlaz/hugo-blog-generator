@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>productivity on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/productivity/</link>
+    <description>C&#39;est la Z (productivity)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jun 2020 11:58:11 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/productivity/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Using Emacs 73 - Ripgrep and updating the blog</title>
+      <link>https://cestlaz.github.io/post/using-emacs-72-rg/</link>
+      <pubDate>Sun, 14 Jun 2020 11:58:11 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-72-rg/</guid>
+      <description>&lt;p&gt;
+As I said in my &lt;a href=&#34;As I mentioned in my &#34;&gt;last post&lt;/a&gt;, I&amp;#39;m moving to a new Hugo theme. I decided
+on &lt;a href=&#34;https://github.com/mitrichius/hugo-theme-anubis&#34;&gt;Anubis&lt;/a&gt;. It&amp;#39;s simple and clean. Unfortunately, in this change over,
+many things broke. Specifically, all my embedded html. Using earlier
+version of Hugo I could directly embed HTML and it would render. Now I
+have to bracket the HTML with special org markup - &lt;strong&gt;#+begin_export html&lt;/strong&gt; and &lt;strong&gt;#+end_export html&lt;/strong&gt;. 
+&lt;/p&gt;
+&lt;pre class=&#34;example&#34;&gt;
+#+begin_export html
+&amp;lt;h1&amp;gt;html stuff to render goes in here &amp;lt;/h1&amp;gt;
+#+end_export
+&lt;/pre&gt;
+&lt;p&gt;
+Minimally I had to find all my embedded videos and all my embedded
+Tweets. There&amp;#39;s probably a lot more. Fortunately with Emacs this is
+pretty easy. I used &lt;a href=&#34;https://github.com/dajva/rg.el&#34;&gt;rg.el&lt;/a&gt; which is an Emacs front end to &lt;a href=&#34;https://github.com/BurntSushi/ripgrep&#34;&gt;ripgrep&lt;/a&gt;. If
+you don&amp;#39;t know ripgrep, it&amp;#39;s kind of like a super fast, super enhanced grep on
+steroids. 
+&lt;/p&gt;
+&lt;p&gt;
+In Emacs, I was able to do a ripgrep search which created a buffer
+containing all the embedded html fragments from all my blog posts
+across all the directories. I then used Emacs&amp;#39; &lt;a href=&#34;https://github.com/mhayashi1120/Emacs-wgrep&#34;&gt;wgrep&lt;/a&gt; feature which
+allowed me to edit that combined buffer and save all the results back
+to the original files. 
+&lt;/p&gt;
+&lt;p&gt;
+All in all it just took a few minutes. There are still some things I
+have to clean up from older posts but at least the site is workable now.
+&lt;/p&gt;
+&lt;p&gt;
+Check out the video for a walkthrough:
+&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/OcR-Ke2CiPo&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 72 - Customizing Elfeed</title>
+      <link>https://cestlaz.github.io/post/using-emacs-72-customizing-elfeed/</link>
+      <pubDate>Thu, 21 May 2020 14:47:59 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-72-customizing-elfeed/</guid>
+      <description>&lt;p&gt;
+I made this video write after I made the &lt;a href=&#34;https://cestlaz.github.io/post/using-emacs-71-openwith/&#34;&gt;openwith&lt;/a&gt; one so even though
+I don&amp;#39;t mention anything in this video, I wanted to share some updates
+on dired and openwith.
+&lt;/p&gt;
+&lt;p&gt;
+I got a lot of suggestions on alternate ways to achieve the workflow I
+was seeking - being able to open a file using an external viewer. One
+person noted that under newer versions of Emacs, the &lt;code&gt;W&lt;/code&gt; key is bound
+to the command &lt;code&gt;(browse-url-of-dired-file)&lt;/code&gt; which does exactly what I
+wanted. Problem solved with no customizing or extra packages. 
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s a good thing I got a solution when I did - I needed it. I&amp;#39;ve been
+reviewing applications for my new Teacher Certification program. It&amp;#39;s
+a 21 credit graduate program that results in participants receiving a
+brand spanking new New York State Computer Science teaching
+license. The applications consist of a bunch of files incuding PDFs,
+images (photos), doc and text files and source code samples. I&amp;#39;ve got
+all the applications in a Google drive which I&amp;#39;ve downloaded and now I
+can just drop into dired and go through each directory, hit &lt;code&gt;enter&lt;/code&gt; for
+source code and it&amp;#39;s loaded in an Emacs buffer and &lt;code&gt;W&lt;/code&gt; for everything
+else.
+&lt;/p&gt;
+&lt;p&gt;
+Now for today&amp;#39;s video. It&amp;#39;s about a small customization I made to the
+elfeed RSS reader. It&amp;#39;s also about the advantages and limitations of
+Emacs built in documentation. I&amp;#39;m not particularly strong in elisp -
+I&amp;#39;m a dabbler at best but even so, using Emac&amp;#39;s built in help I was
+able to get to elisp code that was very close to what I wanted to do
+and then customize it. It also looks at the limitations - there still
+some code that I looked at that I have no clue as to what it does.
+&lt;/p&gt;
+&lt;p&gt;
+Specifically, elfeed lets you open a link in an external brower by
+hitting &lt;code&gt;b&lt;/code&gt;. That&amp;#39;s how I like reading most of my feeds. I&amp;#39;ll scroll
+up and down and hit &lt;code&gt;b&lt;/code&gt; for what I want to read. The trouble is that
+when you hit &lt;code&gt;b&lt;/code&gt; focus goes to the browser and at the same time,
+elfeed marks the entry as read and advances. I want it not to mark as
+read. After I made the video, I decided I also didn&amp;#39;t want elfeed to
+advance to the next story. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s what I did.
+&lt;/p&gt;
+&lt;p&gt;
+I went in to elfeed and instead of typing &lt;code&gt;b&lt;/code&gt; on an entry, I ran
+&lt;code&gt;(describe-key&lt;/code&gt;)~ which is bound to &lt;code&gt;C-h k&lt;/code&gt;. I then typed &lt;code&gt;b&lt;/code&gt; which
+revealed that it ran &lt;code&gt;elfeed-search-browse-url&lt;/code&gt;. I followed the
+hyperlinks in the help to open &lt;code&gt;elfeed-search.el&lt;/code&gt; and found the
+function. From there I just copied it over to my Emacs config, tweaked
+it and voila, problem solved.
+&lt;/p&gt;
+&lt;p&gt;
+The video has all the details. Enjoy.
+&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34;
+src=&#34;https://www.youtube.com/embed/G1NGNR40lB4&#34; frameborder=&#34;0&#34;
+allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 71 Openwith</title>
+      <link>https://cestlaz.github.io/post/using-emacs-71-openwith/</link>
+      <pubDate>Wed, 13 May 2020 11:45:39 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-71-openwith/</guid>
+      <description>&lt;p&gt;
+I spend most of my time in Emacs but still use the shell and browser
+for some things. One of the things I use my shell for is to launch
+libreoffice to view and edit docx files and spreadsheets, evince for
+pdf files and imagemagick for image files. Yes, I know I can view all
+of these in Emacs but there are a few limitations:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Emacs chokes on large files
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+I can&amp;#39;t edit the docx file or the image
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+So, I hop to the shell and launch the program I need on the files in
+question. It&amp;#39;s fine but it does mean I end up with two windows for
+each operation - the terminal from which I run, say, libreoffice and
+libreoffice itself. I will also have my browser and one ore more Emacs
+windows open so things can get a bit cluttered.
+&lt;/p&gt;
+&lt;p&gt;
+Now, on the Emacs side, one tool that I still haven&amp;#39;t gotten myself to
+regularly use is dired. I figured dired could be made to do what I
+want - quickly and easily launch programs to view and edit my files.
+&lt;/p&gt;
+&lt;p&gt;
+By default, dired opens files in a new Emacs buffer. That&amp;#39;s fine for
+text files but not the behavior I want for docx and other files. It
+turns out there are a number of good solutions. The one that I&amp;#39;ll
+likely stick with is &lt;a href=&#34;https://github.com/jpkotta/openwith/tree/1dc89670822966fab6e656f6519fdd7f01e8301a&#34;&gt;openwith&lt;/a&gt; but there are other options as
+well. Check out the video for more:
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/_qjJ5UzInRI&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 70 Org Protocol</title>
+      <link>https://cestlaz.github.io/post/using-emacs-70-org-protocol/</link>
+      <pubDate>Fri, 27 Mar 2020 15:15:28 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-70-org-protocol/</guid>
+      <description>&lt;p&gt;
+I spent part of today cleaning up my Emacs workflow. Specifically, how
+I capture emails and links into org-mode
+&lt;/p&gt;
+&lt;p&gt;
+I already wrote about how I used org-capture (&lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-23-capture-1/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-24-capture-2/&#34;&gt;here&lt;/a&gt;). It&amp;#39;s
+pretty clean and easy but there was one thing that always nagged at
+me. When I capture from mu4e within Emacs by hitting &lt;code&gt;C-c m&lt;/code&gt; it&amp;#39;s set
+up to automatically populate the capture template with a link to the
+email labelled with the email&amp;#39;s subject. When I do it from Gmail or
+to store a web link as a bookmark, I have to copy and paste the link
+in manually.
+&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s where &lt;a href=&#34;https://orgmode.org/worg/org-contrib/org-protocol.html&#34;&gt;org-protocol&lt;/a&gt; comes in. We can use org-protocol to link
+between a browser and Emacs. 
+&lt;/p&gt;
+&lt;p&gt;
+First you have to run Emacs as a server. You can start the Emacs
+server using &lt;code&gt;(server-start)&lt;/code&gt; but I always run emacs using a shortcut
+key bound to &lt;code&gt;emacsclient -c -a &amp;#34;&amp;#34;&lt;/code&gt;. This runs emacsclient and
+connects to my running Emacs server but if the server isn&amp;#39;t running it
+starts it. That meant that I only had to add &lt;code&gt;(require &amp;#39;org-protocol)&lt;/code&gt;
+to my Emacs config file.
+&lt;/p&gt;
+&lt;p&gt;
+I followed the instructions in the documentation by typing in these
+lines:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;gconftool-2 -s /desktop/gnome/url-handlers/org-protocol/command &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/usr/local/bin/emacsclient %s&amp;#39;&lt;/span&gt; --type String
+
+gconftool-2 -s /desktop/gnome/url-handlers/org-protocol/enabled --type Boolean true&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+but that didn&amp;#39;t seem to work.
+&lt;/p&gt;
+&lt;p&gt;
+I ended up following the instructions I found in &lt;a href=&#34;https://stackoverflow.com/questions/7464951/how-to-make-org-protocol-work&#34;&gt;this post&lt;/a&gt; creating a
+file named &lt;code&gt;org-protocol.desktop&lt;/code&gt; in the folder
+ &lt;code&gt;~/.local/share/applications&lt;/code&gt; containing:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Desktop Entry&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+Name&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;org-protocol
+Exec&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;emacsclient %u
+Type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Application
+Terminal&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;false
+Categories&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;System;
+MimeType&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;x-scheme-handler/org-protocol;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+and then running &lt;code&gt;update-desktop-database
+~/.local/share/applications/&lt;/code&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+This seemed to do the trick. 
+&lt;/p&gt;
+&lt;p&gt;
+I also modified my link capture template: 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;l&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Link&amp;#34;&lt;/span&gt; entry (file+headline &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/Sync/orgfiles/links.org&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Links&amp;#34;&lt;/span&gt;)
+                    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;* %a %^g\n %?\n %T\n %i&amp;#34;&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Finally, to get things basically to work, I installed &lt;a href=&#34;https://github.com/sprig/org-capture-extension&#34;&gt;this&lt;/a&gt;
+extension. I configured it to use my &amp;#34;l&amp;#34; or link capture
+template. Once everything was installed I went to a web site and
+clicked the plugin. I was popped into Emacs with the capture template
+up and filled in. I did it again, this time marking text and hitting
+the button and again everything worked.
+&lt;/p&gt;
+&lt;p&gt;
+Looking at the template, the &lt;code&gt;%a&lt;/code&gt; is replaced by the web page link,
+the &lt;code&gt;%i&lt;/code&gt; with the marked text, the &lt;code&gt;%T&lt;/code&gt; with the timestamp and the
+cursor is left at the &lt;code&gt;%?&lt;/code&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+I wanted to make one more change. I wanted to also use this for
+storing Gmail links. The problem was that I wanted my links to be
+sored in a file named &lt;code&gt;links.org&lt;/code&gt; while I wanted my Gmails stored
+under my main org file &lt;code&gt;i.org&lt;/code&gt;. By reading the org-protocol page I
+found that I could just create a bookmark.
+&lt;/p&gt;
+&lt;p&gt;
+Copied mostly from the docs, I made a bookmark with this as the link
+(all in one line):
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;javascript&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;location&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;org-protocol://capture://m/&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+      encodeURIComponent(&lt;span style=&#34;color:#a6e22e&#34;&gt;location&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+      encodeURIComponent(document.&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+      encodeURIComponent(window.&lt;span style=&#34;color:#a6e22e&#34;&gt;getSelection&lt;/span&gt;())
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+It worked perfectly. 
+&lt;/p&gt;
+&lt;p&gt;
+This time I used this as the template:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;m&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mail To Do&amp;#34;&lt;/span&gt; entry (file+headline &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/Sync/orgfiles/i.org&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;To Do and Notes&amp;#34;&lt;/span&gt;)
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;* TODO %a\n %?&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;:prepend&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s it. Now I can store emails in Emacs or Gmail as well as
+bookmarks without any cut and paste. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s a video with the walkthrough:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/FYKcVKg0OCU&#34;&gt;https://www.youtube.com/embed/FYKcVKg0OCU&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 69 Floobits</title>
+      <link>https://cestlaz.github.io/post/using-emacs-69-floobits/</link>
+      <pubDate>Sat, 21 Mar 2020 10:52:37 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-69-floobits/</guid>
+      <description>&lt;p&gt;
+Hunter, like most other schools has gone remote. I taught my first two
+&lt;a href=&#34;https://cestlaz.github.io/post/teaching-online-day-01/&#34;&gt;online classes&lt;/a&gt; on Thursday. Currently, I&amp;#39;m using Zoom for synchronous
+stuff and a mailing list and slack for async. 
+&lt;/p&gt;
+&lt;p&gt;
+There are still some missing pieces. When we&amp;#39;re all together, it&amp;#39;s
+easy to look at a student&amp;#39;s work and talk them through issues. It&amp;#39;s
+also easy to get students to work together, at least to a point. With
+everyone locked up in their own homes, real time collaboration is
+harder. Sure, we can use tools like GitHub issues and pull requests
+for async code commentary but what about live help and pairing? If
+we want to use an online environment, &lt;a href=&#34;https://repl.it&#34;&gt;repl.it&lt;/a&gt;  - a platform I very
+much like fits the bill. On the other hand, what do you use if you
+want to work collaboratively in real time using a local editor. 
+&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s where &lt;a href=&#34;https://floobits.com&#34;&gt;Floobits&lt;/a&gt; comes in. Floobits is a platform that provides
+for collaborative live editing. It works with Emacs, Neovim, Sublime
+Text, Atom, and IntelliJ (and maybe all the Jetbrains IDEs). They
+support a free tier which only has public workspaces but that&amp;#39;s fine,
+as far as I&amp;#39;m concerned, for educational purposes. 
+&lt;/p&gt;
+&lt;p&gt;
+Check out the video to see how I set it up:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/-0x4PV1EB5w&#34;&gt;https://www.youtube.com/embed/-0x4PV1EB5w&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs Episode 68 - Tramp and org-publish</title>
+      <link>https://cestlaz.github.io/post/using-emacs-68-tramp-org-publish/</link>
+      <pubDate>Sat, 14 Mar 2020 20:57:08 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-68-tramp-org-publish/</guid>
+      <description>&lt;p&gt;
+I maintain a couple of small simple web sites. One provides
+information about my undergraduate &lt;a href=&#34;http://info.huntercs.org/scholars/&#34;&gt;honors CS program&lt;/a&gt; and another that
+isn&amp;#39;t live yet is a FAQ for my &lt;a href=&#34;http://info.huntercs.org/teacher_ed/faq.html&#34;&gt;CS teacher certification program&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+Traditionally I would use ssh to connect to the host machine, fire up
+Emacs and edit the html files to update the sites. I always forget
+that with Emacs we can do better.
+&lt;/p&gt;
+&lt;p&gt;
+One way is with &lt;a href=&#34;https://www.emacswiki.org/emacs/TrampMode&#34;&gt;Tramp Mode&lt;/a&gt;. I was reminded of this by JCS&amp;#39;s recent
+&lt;a href=&#34;https://irreal.org/blog/?p=8705&#34;&gt;post&lt;/a&gt;. With Tramp, you can open a file on a remote host and edit it in
+place. This means I get my full Emacs config but am editing the file
+over there!!! It&amp;#39;s very slick but I always forget about it even though
+I had already made &lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-25-tramp/&#34;&gt;a video on it&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+Tramp is cool but I was still editing the html directly. I figured it
+would be easier to just use org-mode but that required figuring out
+how to make the html produced by org-mode look nice. Fortunately, it&amp;#39;s
+not hard.
+&lt;/p&gt;
+&lt;p&gt;
+We can turn off the default CSS used by org-mode
+using:
+&lt;/p&gt;
+&lt;div class=&#34;src src-org&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#+OPTIONS&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;: html-style:nil&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Or if we want add custom CSS using one or more of these:
+&lt;/p&gt;
+&lt;div class=&#34;src src-org&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#+HTML_HEAD&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;: &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; type=&amp;#34;text/css&amp;#34; href=&amp;#34;style1.css&amp;#34; /&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;#+HTML_HEAD_EXTRA&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;: &amp;lt;link rel=&amp;#34;alternate stylesheet&amp;#34; type=&amp;#34;text/css&amp;#34; href=&amp;#34;style2.css&amp;#34; /&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+We can also embed html and custom CSS in our org-files.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://orgmode.org/manual/CSS-support.html&#34;&gt;This page&lt;/a&gt; from the org-mode documentation also lists many of the html
+components that are styled by default. 
+&lt;/p&gt;
+&lt;p&gt;
+Armed with custom CSS we can use the org-mode exporting facilities to
+convert the file to a web page but the final step is to use
+&lt;a href=&#34;https://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html&#34;&gt;org-publish&lt;/a&gt;. This lets us export one or more org-mode files and save
+the result in some specified directory. You can also publish static
+files like CSS files and images to go with the org to html
+files. Finally by using the tramp syntax we can publish to a remote
+host. 
+&lt;/p&gt;
+&lt;p&gt;
+The goes through all of this. 
+&lt;/p&gt;
+&lt;p&gt;
+Enjoy.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/tlCOsigPjk8&#34;&gt;https://www.youtube.com/embed/tlCOsigPjk8&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs Episode 67 - Emacs vs Vi a rant with some historical perspective</title>
+      <link>https://cestlaz.github.io/post/using-emacs-67-emacs-rant/</link>
+      <pubDate>Sun, 23 Feb 2020 07:57:08 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-67-emacs-rant/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;ve been meaning to do my version of the Emacs VI rant for a while. A
+few years ago I staged out a video showing what it would be like for a
+beginner to start with Emacs, Vim, Atom, and Sublime Text but decided
+it would be long, unwieldy and clunky to present - particularly when
+it came to customization. 
+&lt;/p&gt;
+&lt;p&gt;
+I tabled it for a while but recently have been seeing a bunch of
+threads, videos and posts talking about Emacs and Vim. Some are really
+well done, balanced and sensible like Derek Taylor&amp;#39;s over on
+&lt;a href=&#34;https://www.youtube.com/watch?v=VaBdlcYaZLQ&#34;&gt;DistroTube&lt;/a&gt;. On the other hand, I saw plenty of what makes me
+nuts. People claiming things like style is objectively better than
+the other or was created with speed or ergonomics in mind so is
+superior and the like.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s my take. I think it&amp;#39;s a little different than some of the other
+rants because I look a bit at history and evolution and also at the
+day to day reality of editing. Hope you enjoy it.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/0M6erlK57go&#34;&gt;https://www.youtube.com/embed/0M6erlK57go&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 66 - an eshell switcher in elisp</title>
+      <link>https://cestlaz.github.io/post/using-emacs-66-eshell-elisp/</link>
+      <pubDate>Sat, 08 Feb 2020 08:12:22 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-66-eshell-elisp/</guid>
+      <description>&lt;p&gt;
+I thought it was time to give &lt;a href=&#34;https://masteringemacs.org/article/complete-guide-mastering-eshell&#34;&gt;eshell&lt;/a&gt; in Emacs another try. It has some
+pretty cool features but for whatever reason, I&amp;#39;ve never really been
+able to adopt Emacs as my go to shell.
+&lt;/p&gt;
+&lt;p&gt;
+Eshell out of the box is pretty cool but could use some
+enhancements. When launching at login it doesn&amp;#39;t know about the path
+you set in your .bashrc or .zshrc in my case files. It just seemed to
+have problems with paths in general but that was fixed with the
+exce-path-from-shell package. The prompt also needed some fixing up
+along with some other tweaks. 
+&lt;/p&gt;
+&lt;p&gt;
+I found &lt;a href=&#34;https://github.com/manateelazycat/aweshell&#34;&gt;aweshell&lt;/a&gt; which looked promising but it wasn&amp;#39;t on melpa so I
+had to clone it separately. I also noticed that it basically tied
+together some packages I could download myself and added a shell
+switcher but didn&amp;#39;t bind the keys.
+&lt;/p&gt;
+&lt;p&gt;
+I thought I&amp;#39;d dive into elisp -something I haven&amp;#39;t done in a while to
+write my own.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s my current complete eshell config:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;(use-package exec-path-from-shell
+  :ensure &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;
+  :config
+  (exec-path-from-shell-initialize))
+
+
+    (use-package fish-completion
+    :ensure &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;
+    :config
+    (global-fish-completion-mode))
+  &lt;span style=&#34;color:#75715e&#34;&gt;;; (use-package eshell-prompt-extras &lt;/span&gt;
+  &lt;span style=&#34;color:#75715e&#34;&gt;;; :ensure t&lt;/span&gt;
+  &lt;span style=&#34;color:#75715e&#34;&gt;;; :config&lt;/span&gt;
+  &lt;span style=&#34;color:#75715e&#34;&gt;;; (setq epe-show-python-info nil)&lt;/span&gt;
+  &lt;span style=&#34;color:#75715e&#34;&gt;;; )&lt;/span&gt;
+
+  (use-package eshell-git-prompt
+  :ensure &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;
+  :config
+  (eshell-git-prompt-use-theme &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;git-radar&lt;/span&gt;)
+  )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+And here&amp;#39;s the code I ended up with for my shell switcher:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-elisp&#34; data-lang=&#34;elisp&#34;&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;#&lt;/span&gt;+BEGIN_SRC emacs-lisp
+  (require &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;cl-lib&lt;/span&gt;)
+  (defun select-or-create (arg)
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Commentary ARG.&amp;#34;&lt;/span&gt;
+    (if (string= arg &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;New eshell&amp;#34;&lt;/span&gt;)
+        (eshell &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;)
+      (switch-to-buffer arg)))
+  (defun eshell-switcher (&lt;span style=&#34;color:#66d9ef&#34;&gt;&amp;amp;optional&lt;/span&gt; arg)
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Commentary ARG.&amp;#34;&lt;/span&gt;
+    (interactive)
+    (let* (
+           (buffers (cl-remove-if-not (lambda (n) (&lt;span style=&#34;color:#a6e22e&#34;&gt;eq&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;buffer-local-value&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;major-mode&lt;/span&gt; n) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;eshell-mode&lt;/span&gt;)) (&lt;span style=&#34;color:#a6e22e&#34;&gt;buffer-list&lt;/span&gt;)) )
+           (names (&lt;span style=&#34;color:#a6e22e&#34;&gt;mapcar&lt;/span&gt; (lambda (n) (&lt;span style=&#34;color:#a6e22e&#34;&gt;buffer-name&lt;/span&gt; n)) buffers))
+           (num-buffers (&lt;span style=&#34;color:#a6e22e&#34;&gt;length&lt;/span&gt; buffers) )
+           (in-eshellp (&lt;span style=&#34;color:#a6e22e&#34;&gt;eq&lt;/span&gt; major-mode &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;eshell-mode&lt;/span&gt;)))
+      (cond ((&lt;span style=&#34;color:#a6e22e&#34;&gt;eq&lt;/span&gt; num-buffers &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;) (eshell (or arg &lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt;)))
+            ((not in-eshellp) (switch-to-buffer (&lt;span style=&#34;color:#a6e22e&#34;&gt;car&lt;/span&gt; buffers)))
+            (&lt;span style=&#34;color:#66d9ef&#34;&gt;t&lt;/span&gt; (select-or-create (&lt;span style=&#34;color:#a6e22e&#34;&gt;completing-read&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Select Shell:&amp;#34;&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;cons&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;New eshell&amp;#34;&lt;/span&gt; names)))))))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I currently bound eshell-switcher to &lt;code&gt;CTRL-z e&lt;/code&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+The video goes through the whole process:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/-dIjFZBDt64&#34;&gt;https://www.youtube.com/embed/-dIjFZBDt64&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 65 - Live Python</title>
+      <link>https://cestlaz.github.io/post/using-emacs-65-live-python/</link>
+      <pubDate>Sun, 02 Feb 2020 13:13:09 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-65-live-python/</guid>
+      <description>&lt;p&gt;
+The other day I stumbled upon Emacs&amp;#39;s &lt;a href=&#34;https://github.com/donkirkby/live-py-plugin&#34;&gt;Live Coding&lt;/a&gt; plugin. It takes
+interactive coding up to the next level. 
+&lt;/p&gt;
+&lt;p&gt;
+Normally, when you code Python, if you&amp;#39;re working in a REPL, every
+time you hit &amp;lt;Enter&amp;gt; the line you just typed is evaluated. When you&amp;#39;re
+working ina source file, you&amp;#39;re just editing until you send the file
+into a Python interpreter.
+&lt;/p&gt;
+&lt;p&gt;
+With this module, your file is continually evaluated as you type and
+it shows you the results in a side window. 
+&lt;/p&gt;
+&lt;p&gt;
+If you type in:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;
+b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;
+c &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; b
+&lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(c&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;c)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+The live python window will display something like:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;
+b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;
+c &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+If you change one of the variables, everything updates.
+&lt;/p&gt;
+&lt;p&gt;
+It gets even cooler when you add loops, functions, and even recursion.
+&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s also support for unit testing.
+&lt;/p&gt;
+&lt;p&gt;
+It works, to varying degrees with Emacs, PyCharmm, Sublime Text and
+there&amp;#39;s even a browser version. Emacs handles the basics and it seems
+that the Sublime Text version adds support for some graphing. PyCharm
+has that plus turtle graphics.
+&lt;/p&gt;
+&lt;p&gt;
+While this is &lt;strong&gt;very&lt;/strong&gt; cool, to be honest, I don&amp;#39;t know how useful this
+is going to be but I&amp;#39;m very excited to play with it in the Fall when
+I&amp;#39;ll be teaching Python again.
+&lt;/p&gt;
+&lt;p&gt;
+Check out this short video to see it in action:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/bYy90EUAh98&#34;&gt;https://www.youtube.com/embed/bYy90EUAh98&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 64 - Notmuch</title>
+      <link>https://cestlaz.github.io/post/using-emacs-64-notmuch/</link>
+      <pubDate>Sat, 18 Jan 2020 08:52:01 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-64-notmuch/</guid>
+      <description>
+&lt;p&gt;
+I&amp;#39;ve been using the gmail web interface for a long time. My first
+email or at least the oldest one still in the system dates back to Oct
+18, 2004 7:29am. It was a letter to a buddy about an indoor turkey
+fryer and if he needed a lift to Fairway the following morning to
+shop.
+&lt;/p&gt;
+&lt;p&gt;
+Before that, I used my &lt;a href=&#34;http://panix.com&#34;&gt;Panix&lt;/a&gt; shell account - probably with &lt;a href=&#34;https://en.wikipedia.org/wiki/Pine_%2528email_client%2529&#34;&gt;PINE&lt;/a&gt;. Work
+email was using my own servers at Stuy along with either PINE or Emacs
+using VM mode which has long been deprecated.
+&lt;/p&gt;
+&lt;p&gt;
+I haven&amp;#39;t bitten the bullet and left gmail yet but I thought it was
+time to move my personal email over to an Emacs client. I currently
+use &lt;a href=&#34;https://www.djcbsoftware.nl/code/mu/&#34;&gt;MU4E&lt;/a&gt; and am pretty happy with it but figured I&amp;#39;d give another
+contender a try - &lt;a href=&#34;https://notmuchmail.org/&#34;&gt;Notmuch&lt;/a&gt;. Both rely on some other backend to pull
+email form an imap server. I&amp;#39;m currently using mbsync. I&amp;#39;m not
+thrilled with it but then, I&amp;#39;m not thrilled with offlineimap which is,
+as best I can figure the only other alternative.
+&lt;/p&gt;
+&lt;p&gt;
+In the video I&amp;#39;ll show a bit about notmuch and how it comapres to
+mu4e. Both are nice packages and I&amp;#39;d love one email client that
+combined the best of both and maybe added a bit more shine.
+&lt;/p&gt;
+&lt;p&gt;
+At their cores, both mu4e and notmuch are built on top of &lt;a href=&#34;https://xapian.org/&#34;&gt;xapain&lt;/a&gt; and
+leverage search to manage your emails. Here are a few of the key
+differences:
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-1&#34;&gt;
+Mu4e
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Folder based
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Easier to handle separate email accounts (and keep them separate)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Better org-mode integration
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Automatically calls your IMAP sync program
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Changes things on the server (moves, deletes etc.)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+Notmuch
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Tags based
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Doesn&amp;#39;t touch or change anything on the serer (doesn&amp;#39;t delete or
+move things there, just tags locally)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Combines multiple accounts to appear as one
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Both have a nice search based interface.
+&lt;/p&gt;
+&lt;p&gt;
+Right now, the fact that notmuch doesn&amp;#39;t seamlessly delete emails
+from the server might be a deal breaker for me. I have a limited quota
+at Hunter so I really do have to watch the overall amount of storage I
+use.
+&lt;/p&gt;
+&lt;p&gt;
+For now, I&amp;#39;m going to start pulling down my email and seeing how I
+like mu4e for all my email needs. I&amp;#39;ll probably play a bit more with
+notmuch as well and who knows….
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s my post and video on setting up and using mu4e:
+&lt;/p&gt;
+&lt;p&gt;
+https://cestlaz.github.io/posts/using-emacs-39-mu4e/
+&lt;/p&gt;
+&lt;p&gt;
+And here&amp;#39;s the current one on notmuch:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/GlrsoIwJ-UM&#34;&gt;https://www.youtube.com/embed/GlrsoIwJ-UM&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 63 ClojureScript</title>
+      <link>https://cestlaz.github.io/post/using-emacs-63-clojurescript/</link>
+      <pubDate>Thu, 09 Jan 2020 08:11:52 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-63-clojurescript/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;ve been playing with ClojureScipt for my web projects recently and
+really like it. Much more fun than any of the JavaScript frameworks
+I&amp;#39;ve used. 
+&lt;/p&gt;
+&lt;p&gt;
+Still, getting started was somewhat difficult due to the number of
+options in tooling and uneven documentation and learning resources.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s a video that shows how I use Emacs for ClojureScript
+development but the focus of the video is on how to get started with
+ClojureScript and Emacs takes a back seat other than an example of my
+workflow.
+&lt;/p&gt;
+&lt;p&gt;
+On the Clojurscript side I&amp;#39;m using &lt;a href=&#34;https://shadow-cljs.org/&#34;&gt;shadow-cljs&lt;/a&gt; which I like very much
+along with &lt;a href=&#34;https://tailwindcss.com/&#34;&gt;tailwindcss&lt;/a&gt; for styling. I also mention &lt;a href=&#34;https://github.com/nvm-sh/nvm&#34;&gt;NVM&lt;/a&gt; for managing
+node/npm etc. which you&amp;#39;ll also need. 
+&lt;/p&gt;
+&lt;p&gt;
+On the Emacs side you&amp;#39;ll see a bit of &lt;a href=&#34;https://github.com/clojure-emacs/cider&#34;&gt;cider&lt;/a&gt; along with &lt;a href=&#34;https://github.com/Fuco1/smartparens&#34;&gt;smartparens&lt;/a&gt; and
+you can find my full config at &lt;a href=&#34;https://github.com/zamansky/dot-emacs.&#34;&gt;https://github.com/zamansky/dot-emacs.&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I was thinking about also making the following ClojureScript videos if
+the communities find value in them and I have time:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+How to create reusable components like an input field with label.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Creating a simple Electron app using shadow-cljs.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Creating something with both  server side and client side.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Also open to suggestions
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+I don&amp;#39;t pretend to be a cljs or webdev master so please let me know if
+I&amp;#39;m doing anything horribly wrong and let me know if you want more.
+&lt;/p&gt;
+&lt;p&gt;
+Enjoy.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/BZNJi5pP8fU&#34;&gt;https://www.youtube.com/embed/BZNJi5pP8fU&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 62 Magit Forge</title>
+      <link>https://cestlaz.github.io/post/using-emacs-62-magit-forge/</link>
+      <pubDate>Tue, 19 Nov 2019 12:25:58 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-62-magit-forge/</guid>
+      <description>&lt;p&gt;
+Ever since I started looking at Magit as a &amp;#34;git dashboard&amp;#34; instead of
+as a &amp;#34;git interface&amp;#34; it&amp;#39;s been yet another Emacs killer app to me. I
+just recently started playing with &lt;a href=&#34;https://github.com/magit/forge&#34;&gt;forge&lt;/a&gt; which allows &lt;a href=&#34;https://github.com/magit/magit&#34;&gt;Magit&lt;/a&gt; to
+interface and interact with git &amp;#34;forges&amp;#34; like GitHub. This allows you
+to work on issues and pull requests without ever leaving Emacs.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s a video on how easy it is. The video doesn&amp;#39;t show this but the
+first time you fire forge up it will prompt you for credentials. 
+&lt;/p&gt;
+&lt;p&gt;
+Also, if you aren&amp;#39;t familiar with GitHub issues, check out the
+post/video I made a few days ago (&lt;a href=&#34;https://cestlaz.github.io/post/git-issues/&#34;&gt;link&lt;/a&gt;) and you can check out my
+earlier post/video on Magit as well (&lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-47-magit/&#34;&gt;link&lt;/a&gt;).
+&lt;/p&gt;
+&lt;p&gt;
+Enjoy.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/wgI8r3Nx_BI&#34;&gt;https://www.youtube.com/embed/wgI8r3Nx_BI&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 61 - org-msg</title>
+      <link>https://cestlaz.github.io/post/using-emacs-61-org-msg/</link>
+      <pubDate>Sat, 16 Nov 2019 05:00:57 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-61-org-msg/</guid>
+      <description>&lt;p&gt;
+By living in Emacs I get a consistent interface across all sorts of
+tasks - programming, lesson planning, making presentations, preparing
+documents, and yes, even email. I&amp;#39;ve been using &lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-39-mu4e/&#34;&gt;mu4e&lt;/a&gt; as my Emacs email
+client for a while now. Currently, I&amp;#39;m using Emacs for my work email
+and Gmail for personal. I&amp;#39;ve been thinking of going whole hog to mu4e
+and possibly migrating from Gmail to a new email provider for the
+personal stuff but there are still a few pain points with Emacs email:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+rich text emails (embedded links, images, etc)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+calendar integration
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+contacts 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+periodic Maildir sync problems with mbsync
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Calendar integration isn&amp;#39;t a make or break issue and contacts with
+mu4e is good enough so that leaves two pain points. Formatted emails
+which I think is now pretty much solved (see below) and the Maildir
+stuff.
+&lt;/p&gt;
+&lt;p&gt;
+On the Maildir side, I&amp;#39;m trying deal with my email across four
+machines - work laptop, work desktop, home laptop, home desktop. I
+originally synced each one separately and that worked but I was having
+archive problems - it seems that I was only archiving on the local
+machine so if I archived an email at work and I needed to get to it at
+home, I was out of luck. 
+&lt;/p&gt;
+&lt;p&gt;
+Then, I moved to sharing my Maildir using Syncthing - an opensource
+Dropbox-alike. That mostly worked but if I wasn&amp;#39;t careful I&amp;#39;d get
+syncing errors where I have to go into my Maildir directory and
+manually rename or remove messages - a real pain.
+&lt;/p&gt;
+&lt;p&gt;
+If anyone out there has a solution (and &lt;a href=&#34;http://pragmaticemacs.com/emacs/fixing-duplicate-uid-errors-when-using-mbsync-and-mu4e/&#34;&gt;this&lt;/a&gt; fix doesn&amp;#39;t fully work
+for me), I&amp;#39;d love to hear about it.
+&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s get back to the formatted email. I was already to create an
+email in org mode using &lt;code&gt;org-mu4e-compose-org-mode&lt;/code&gt; which I think is
+built in to either org-mode or mu4e but it&amp;#39;s limited. It formats
+tables, outlines, and source blocks but I can&amp;#39;t easily make a source
+block for something like &lt;strong&gt;dot&lt;/strong&gt; or &lt;strong&gt;ditaa&lt;/strong&gt; and embed the result. I
+found a solution recently. It&amp;#39;s &lt;a href=&#34;https://github.com/jeremy-compostella/org-msg&#34;&gt;org-msg&lt;/a&gt; - a terrific package that lets
+you compose an email in org-mode. It seems to have better support than
+org-mu4e-compose-org-mode. It does the basic formatting, tables, etc
+and also executes source blocks. The only thing that was missing for
+me was LaTeX formatting but I use that so rarely I don&amp;#39;t really care.
+&lt;/p&gt;
+&lt;p&gt;
+The package author, Jeremy Compostella, is also very responsive. When
+I first installed org-msg it wasn&amp;#39;t integrating seamlessly with
+mu4e. It was still workable but I had to manually insert some
+configuration at the top of all my emails. I opened an issue on this
+and within a day it was fixed.
+&lt;/p&gt;
+&lt;p&gt;
+It also has a very cool preview mode so you can see what you&amp;#39;re
+sending. On that, though, I did have an issue but I&amp;#39;m pretty sure it&amp;#39;s
+an Emacs / org-mode issue and not an org-msg issue. On my desktop,
+when I run the preview, it opens my browser with the email formatted
+correctly. When I do the same on my laptop, it runs GitHub Classroom
+Assistant - an application I installed and use for other
+purposes. I&amp;#39;ve had this happen before with other emacs xdg things. If
+anyone else has seen this and better has a solution, I&amp;#39;d love to hear
+about that as well.
+&lt;/p&gt;
+&lt;p&gt;
+Anyway, here&amp;#39;s a video that shows org-msg in action:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/cPZe0AGOUJU&#34;&gt;https://www.youtube.com/embed/cPZe0AGOUJU&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 60 - Restclient</title>
+      <link>https://cestlaz.github.io/post/using-emacs-60-restclient/</link>
+      <pubDate>Fri, 25 Oct 2019 11:57:57 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-60-restclient/</guid>
+      <description>&lt;p&gt;
+I started to work on a web application the other day. It&amp;#39;s nothing
+special but if I ever finish it, it will be a pretty complete
+project. The backend will be a &lt;a href=&#34;https://restapitutorial.com/&#34;&gt;REST&lt;/a&gt; API and I&amp;#39;m planning on writing
+the frontend in Clojurescript. 
+&lt;/p&gt;
+&lt;p&gt;
+The problem with developing a web application like this is that you
+can&amp;#39;t really write the front end until you have enough of the backend
+to provide data. Also, writing the backend would be much easier if you
+already had a front end to test it with. 
+&lt;/p&gt;
+&lt;p&gt;
+Pretty annoying.
+&lt;/p&gt;
+&lt;p&gt;
+What you basically have to do is use some system to make all the API
+calls with all the required data. The most fundamental way to do this
+is to use a command line tool like &lt;a href=&#34;https://curl.haxx.se/&#34;&gt;curl&lt;/a&gt;. For example, from a terminal
+I might write something like this to make a login call:
+&lt;/p&gt;
+&lt;div class=&#34;src src-curl&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-curl&#34; data-lang=&#34;curl&#34;&gt;curl --data &amp;#34;email=myemail&amp;amp;password=mypassword&amp;#34; https://localhost:8080/login&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;
+It works but is clunky and you end up using the mouse a lot to cut and
+paste data.
+&lt;/p&gt;
+&lt;p&gt;
+Web browsers like Firefox and Chrome also have extensions (&lt;a href=&#34;https://techbeacon.com/app-dev-testing/5-top-open-source-api-testing-tools-how-choose&#34;&gt;link&lt;/a&gt;, &lt;a href=&#34;https://www.guru99.com/testing-rest-api-manually.html&#34;&gt;link&lt;/a&gt;)
+but I find them somewhat bulky with their mouse / form based
+interfaces.
+&lt;/p&gt;
+&lt;p&gt;
+Emacs to the rescue!!!!!!!!
+&lt;/p&gt;
+&lt;p&gt;
+I discovered &lt;a href=&#34;https://github.com/pashky/restclient.el&#34;&gt;restclient&lt;/a&gt; for Emacs a couple of years ago but only now
+am reaping the benefits. It&amp;#39;s really amazing. I can easily set up REST
+querries, use all the editing power of Emacs, and even save the
+queries for later.
+&lt;/p&gt;
+&lt;p&gt;
+I didn&amp;#39;t find this until after I made the video but you can even use
+restclient in &lt;a href=&#34;https://github.com/alf/ob-restclient.el&#34;&gt;org-mode&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s all very cool.
+&lt;/p&gt;
+&lt;p&gt;
+Details in the video:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/L7Jcoe3oHTs&#34;&gt;https://www.youtube.com/embed/L7Jcoe3oHTs&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+Enjoy.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 59 - markdown</title>
+      <link>https://cestlaz.github.io/post/using-emacs-59-markdown/</link>
+      <pubDate>Fri, 18 Oct 2019 11:57:57 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-59-markdown/</guid>
+      <description>&lt;p&gt;
+Org-mode is my markup of choice. I spend the vast majority of my time working
+on text files working in org-mode. Since GitHUb started rendering
+org-mode files in their site I&amp;#39;ve also used org-mode for things like
+Readme files in my projects. I even force it on my students at
+times. When I make an assignment, I seed it with an org-mode file that
+they have to modify - that is - fill in things like their names, group
+members etc..
+&lt;/p&gt;
+&lt;p&gt;
+That said, sometimes I have to work in plain old &lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34;&gt;markdown&lt;/a&gt;. This is
+almost always when I&amp;#39;m working on something collaboratively and more
+often than not it&amp;#39;s documentation on a project living on GitHub.
+&lt;/p&gt;
+&lt;p&gt;
+So, given that I have to work with Markdown, time to use some Emacs
+magic to make it easy and fun.
+&lt;/p&gt;
+&lt;p&gt;
+To start, Emacs has a &lt;a href=&#34;https://github.com/jrblevin/markdown-mode/tree/f3c54e34cc5228001af36a5301883325319f21d4&#34;&gt;markdown mode&lt;/a&gt; along with a bunch of previewing
+and rendering modes. I settled on &lt;a href=&#34;https://github.com/seagle0128/grip-mode/tree/4c7014c8151e522b9dd94f878478087bf92ab10e&#34;&gt;grip mode&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+You can check out the video to see grip-mode along with some of the
+other modes I tried here:
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/IlhkYmUU-ns&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/ifram&gt;e
+&lt;p&gt;
+Enjoy.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 58 - lsp-mode</title>
+      <link>https://cestlaz.github.io/post/using-emacs-58-lsp-mode/</link>
+      <pubDate>Mon, 07 Oct 2019 11:57:57 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-58-lsp-mode/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;ve been wanting to check out &lt;a href=&#34;https://github.com/emacs-lsp/lsp-mode&#34;&gt;lsp-mode&lt;/a&gt; under Emacs for a while
+now. LSP stands for &lt;a href=&#34;https://langserver.org/&#34;&gt;Language Protocol Service&lt;/a&gt;. The idea is that you
+have a standard interface between your editor and some language
+server. If you program in multiple languages and each has an LSP
+server you end up, in theory, with a simpler configuration and a
+consistent interface.
+&lt;/p&gt;
+&lt;p&gt;
+This certainly sounds more appealing than how we did it in the old
+days where you have some ad hoc configuraiton for each language you
+work in. At times I&amp;#39;m working or dabbling in a whole bunch of
+languages. At times, my Emacs configuration has had separate sections
+for each of the following languages:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Emacs Lisp
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Python
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Java
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+C and C++
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Clojure
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Processing
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Scheme
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Haskell
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Rust
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+OCaml
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+and more. 
+&lt;/p&gt;
+&lt;p&gt;
+This can get messy.
+&lt;/p&gt;
+&lt;p&gt;
+So, LSP sounds cool but when I&amp;#39;ve tried to get it going in the past
+I&amp;#39;ve always had troubles. This time, I tried a different approach. I
+decided to declare .emacs.d bankruptcy. I cleared out my .emacs.d
+directory and started fresh. Not really fresh - I copied over The
+critical parts of my configuration to start with - Swiper, email and
+org config and a few other things. Then I got lsp-mode working for
+Python and C++. Now I&amp;#39;m going to migrate over more of my old
+configuration as I discover I want, miss, or need things. We&amp;#39;ll see
+how it goes.
+&lt;/p&gt;
+&lt;p&gt;
+The new configuration can be found here:
+&lt;a href=&#34;https://github.com/zamansky/dot-emacs&#34;&gt;&lt;a href=&#34;https://github.com/zamansky/dot-emacs&#34;&gt;https://github.com/zamansky/dot-emacs&lt;/a&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Check out the video to see the details:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/zg6JJI-kwhE&#34;&gt;https://www.youtube.com/embed/zg6JJI-kwhE&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 57 Dired Narrow</title>
+      <link>https://cestlaz.github.io/post/using-emacs-57-dired-narrow/</link>
+      <pubDate>Sun, 07 Apr 2019 11:57:57 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-57-dired-narrow/</guid>
+      <description>&lt;p&gt;
+One of Emacs power features that I&amp;#39;ve never quite gotten into is
+&lt;a href=&#34;https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html&#34;&gt;dired&lt;/a&gt;, the Directory Editor. I&amp;#39;ve already done a &lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-38-dired/&#34;&gt;video on the package&lt;/a&gt;.
+It&amp;#39;s really cool and I do use it at times but I still haven&amp;#39;t started
+using it for my day to day.
+&lt;/p&gt;
+&lt;p&gt;
+Well, I just started using a couple of packages that might change
+this. They&amp;#39;re part of a set of dired addons that you can check out at the
+&lt;a href=&#34;https://github.com/Fuco1/dired-hacks/tree/2c1234592aee91dcd9401bcd67213e6a4a464fd9&#34;&gt;dired hacks&lt;/a&gt; page. The specific ones I&amp;#39;m talkign about are
+&lt;code&gt;dired-subtree&lt;/code&gt; and &lt;code&gt;dired-narrow&lt;/code&gt;. &lt;code&gt;dired-subtree&lt;/code&gt; is cool but it&amp;#39;s
+not the game changer. &lt;code&gt;dired-narrow&lt;/code&gt; is. One of my issues with
+dired is that I can&amp;#39;t see all the files I&amp;#39;m operating on easily at the
+same time. If I&amp;#39;m marking a large number of files to delete I want to
+be able to see all of them at once so I&amp;#39;m sure I&amp;#39;m not making a
+mistake. &lt;code&gt;dired-narrow&lt;/code&gt; lets me easily do this.
+&lt;/p&gt;
+&lt;p&gt;
+Check out the video to see the details:
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/pZzDayi5lRo&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs Episode 56 - Dictionaries</title>
+      <link>https://cestlaz.github.io/post/using-emacs-56-dictionaries/</link>
+      <pubDate>Mon, 28 Jan 2019 16:58:11 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-56-dictionaries/</guid>
+      <description>&lt;p&gt;
+One of the great things about Emacs is that it&amp;#39;s not just for writing
+programs. Sure, you can set it up as an IDE for just about every
+programming language under the sun but that&amp;#39;s just the tip of the
+iceberg. I use Emacs for just about all my text processing. This
+includes writing blog posts, reading and writing emails, creating
+lesson plans and pretty much anything and everything having to do with
+text.
+&lt;/p&gt;
+&lt;p&gt;
+Emacs has some nice packages that make it really easy to integrate
+dictionary and thesaurus lookups into your work flow.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s a short video showing you how to set things up:
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Jtgulzjq7hk&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs Episode 55 - Irony Completions</title>
+      <link>https://cestlaz.github.io/post/using-emacs-55-irony-completions/</link>
+      <pubDate>Mon, 21 Jan 2019 08:27:41 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-55-irony-completions/</guid>
+      <description>&lt;p&gt;
+Last year I put together a &lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-32-cpp/&#34;&gt;post and video&lt;/a&gt; on some basics of Emacs for
+C++ development. In the video I didn&amp;#39;t quite get completions fully
+working. I also used ggtags in that video but find myself using
+&lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-33-projectile-jump&#34;&gt;dumb-jump&lt;/a&gt; more frequently.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s a quick video showing how to set up &lt;a href=&#34;https://github.com/Sarcasm/irony-mode&#34;&gt;irony-mode&lt;/a&gt; which uses
+libclang for completions. It&amp;#39;s pretty slick. Now the only thing I
+think I&amp;#39;m missing is header file completions. If you&amp;#39;ve got a good
+setup for that, please share.
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/GRdZuc1Z4WI&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 54 Org Tables</title>
+      <link>https://cestlaz.github.io/post/using-emacs-54-org-tables/</link>
+      <pubDate>Mon, 14 Jan 2019 11:34:13 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-54-org-tables/</guid>
+      <description>&lt;p&gt;
+As you know I use Emacs for all sorts of things. In addition to
+coding, I use it for email, my schedule, note taking, and much much
+more. As part of my job at Hunter, I read and evaluate some of the
+Macaulay Honors College applications. I also have to evaluate all the
+applicants to my CS honors program. I described how I use Org-mode and
+Emacs to help with that &lt;a href=&#34;https://cestlaz-nikola.github.io/posts/using-emacs-44-pdf/&#34;&gt;here&lt;/a&gt;. Processing the Macaulay applications
+though is somewhat different. 
+&lt;/p&gt;
+&lt;p&gt;
+I was given a list of student names and IDs as well as online access
+to their applications. If I wasn&amp;#39;t an Emacs user I&amp;#39;d probably dump the
+list into a spreadsheet and go from there. It turns out, Org-mode has
+a really nice table editor with just the spreadsheet functionality
+that I needed. I had the ability to perform basic calculations on the
+data while also keeping the power of Emacs for editing purpose.
+&lt;/p&gt;
+&lt;p&gt;
+Check out the video to see how it all works. 
+&lt;/p&gt;
+&lt;p&gt;
+For more information, you can check out this &lt;a href=&#34;https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html&#34;&gt;tutorial&lt;/a&gt; on Org-mode
+table formulas and the Org-mode &lt;a href=&#34;https://orgmode.org/manual/The-Spreadsheet.html#The-Spreadsheet&#34;&gt;documentation.&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Enjoy!
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/5vGGgfs0q3k&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 53 Emailing Org Agenda</title>
+      <link>https://cestlaz.github.io/post/using-emacs-53-emailing-org-agenda/</link>
+      <pubDate>Sat, 03 Nov 2018 08:55:23 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-53-emailing-org-agenda/</guid>
+      <description>&lt;p&gt;
+I use both org-mode and Google Calendar for scheduling. I like Google
+Calendar because:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+It&amp;#39;s pretty universal so I can issue and accept calendar invites.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+It works well with my phone and other mobile devices.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+The rest of my family doesn&amp;#39;t live in Emacs :-(.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+I prefer using org-mode beacuse:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Emacs
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+I prefer, for the most part, to control my data.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+I partially sync the two platforms. I&amp;#39;ve already talked about &lt;a href=&#34;https://cestlaz.github.io/posts/using-emacs-26-gcal/&#34;&gt;syncing
+Google Calendar and org-mode&lt;/a&gt;. Right now, I&amp;#39;m just pulling from Google
+rather than also pushing up from org-mode because I&amp;#39;m still getting
+double entry issues. This means that I have my entire schedule in
+Emacs but only part of it in my Google calendar.
+&lt;/p&gt;
+&lt;p&gt;
+To help resolve the problem, I do a few things. First, I sync my
+orgfiles on all my computers. I used to do this with Dropbox but am
+now moving over to &lt;a href=&#34;https://syncthing.net/&#34;&gt;Syncthing&lt;/a&gt;. I also like to set up a &lt;a href=&#34;http://digitalocean.com&#34;&gt;Digital Ocean&lt;/a&gt;
+droplet so that I have a single machine that&amp;#39;s always on.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve set things up to have that droplet send me an email with my
+agenda. It turns out that org has commands to do things with Emacs
+from the command line:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+org-batch-agenda
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+org-batch-store-agenda-views
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+org-batch-agenda-csv 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+They can be run from the command line to output a formatted agenda as
+a string:
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;emacs --batch -l ~/.emacs.d/init.el  -eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;(org-batch-agenda &amp;#34;a&amp;#34; org-agenda-span 14)&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+or as csv:
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;emacs --batch -l ~/.emacs.d/init.el  -eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;(org-batch-agenda-csv &amp;#34;a&amp;#34; org-agenda-span 14)&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;gcal&lt;/td&gt;
+&lt;td&gt;Stuy recruiting&lt;/td&gt;
+&lt;td&gt;2018-10-29&lt;/td&gt;
+&lt;td&gt;15:40-16:40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;gcal&lt;/td&gt;
+&lt;td&gt;RBS Workshop 3&lt;/td&gt;
+&lt;td&gt;2018-10-29&lt;/td&gt;
+&lt;td&gt;17:30-21:00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;gcal&lt;/td&gt;
+&lt;td&gt;FDR High School&lt;/td&gt;
+&lt;td&gt;2018-10-30&lt;/td&gt;
+&lt;td&gt;7:45- 8:45&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;soe-cal&lt;/td&gt;
+&lt;td&gt;ACERT -  LUNCH  SEMINAR&lt;/td&gt;
+&lt;td&gt;2018-10-30&lt;/td&gt;
+&lt;td&gt;12:00-14:00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;gcal&lt;/td&gt;
+&lt;td&gt;Maxim Vengerov Carnegie Hall&lt;/td&gt;
+&lt;td&gt;2018-10-30&lt;/td&gt;
+&lt;td&gt;20:00-21:00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Note that you have to specify the location of the startup file
+(~/emacs.d/init.e;) since when you run emacs in batch mode it won&amp;#39;t
+load your normal config by default
+&lt;/p&gt;
+&lt;p&gt;
+In the video you&amp;#39;ll see how I use my DigitalOcean dropplet, set up
+with the Postfix mail server and Syncthing to send me an email with my
+agenda every morning.
+&lt;/p&gt;
+&lt;p&gt;
+The command I actually use to send the email is:
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;/usr/bin/emacs --batch -l ~/.emacs  -eval &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;(org-batch-agenda &amp;#34;a&amp;#34; org-agenda-span 14)&amp;#39;&lt;/span&gt; 2&amp;gt;/dev/null | mail -s &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mike&amp;#39;s Agenda for &lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;date +&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\%A \%D&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; zamansky@gmail.com&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+which I put in a crontab entry to get it to run every day.
+&lt;/p&gt;
+&lt;p&gt;
+If people want, I can make a runthrough of setting up the actual
+dropplet and SyncThing.
+&lt;/p&gt;
+&lt;p&gt;
+Enjoy!
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/wus8R1TWYZ4&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs Episode 52 - Eyebrowse</title>
+      <link>https://cestlaz.github.io/post/using-emacs-52-eyebrowse/</link>
+      <pubDate>Tue, 30 Oct 2018 14:35:15 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-52-eyebrowse/</guid>
+      <description>&lt;p&gt;
+I was originally going to do a video on how I set things up so that I
+get an email every morning with my org-mode agenda but that&amp;#39;s going to
+be something of an ordeal. I have to create a droploet on Digital
+Ocean, set up SyncThing and a mail server and lots of other things.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll get to that video at some point but in the meantime I saw &lt;a href=&#34;https://www.reddit.com/r/emacs/comments/9rvboq/what_emacs_packages_have_upped_your_game_recently/&#34;&gt;this
+thread&lt;/a&gt; on the Emacs subreddit.
+&lt;/p&gt;
+&lt;p&gt;
+It asked about packages people used to &amp;#34;up their Emacs game.&amp;#34; I&amp;#39;ve
+done videos on some of the packages mentioned and there were some
+packages that I&amp;#39;d never heard of that I now have to check out. 
+&lt;/p&gt;
+&lt;p&gt;
+One of the packages, &lt;a href=&#34;https://github.com/wasamasa/eyebrowse&#34;&gt;eyebrowse&lt;/a&gt; was one that I&amp;#39;ve been meaning to play
+with for a while. Eyebrowse allows you to easily keep track of
+window/buffer configurations. It&amp;#39;s pretty easy and pretty cool.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s a quick video overview:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/s6IXj0bS7L8&#34;&gt;https://www.youtube.com/embed/s6IXj0bS7L8&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 51 - Day to day work with org-mode</title>
+      <link>https://cestlaz.github.io/post/using-emacs-51-dtd-org/</link>
+      <pubDate>Wed, 24 Oct 2018 17:30:45 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-51-dtd-org/</guid>
+      <description>&lt;p&gt;
+I can&amp;#39;t believe that I haven&amp;#39;t made a video since the beginning of
+summer!!!
+&lt;/p&gt;
+&lt;p&gt;
+Part of the reason is that I haven&amp;#39;t had any video ideas that have
+motivated me and the other reason is that the Fall is my busiest
+season.
+&lt;/p&gt;
+&lt;p&gt;
+In any event, here&amp;#39;s the latest installment.
+&lt;/p&gt;
+&lt;p&gt;
+Take a look at how I use Emacs and more specifically org-mode for my
+day to day work. Sometimes I use the fancy power tools but to be
+honest, most of the time, I stick to the basics. 
+&lt;/p&gt;
+&lt;p&gt;
+The point is that you don&amp;#39;t have to be a real guru to use org-mode to
+help you with organization and to increase productivity. Just a few
+simple commands and you can accomplish a lot.
+&lt;/p&gt;
+&lt;p&gt;
+I hope you enjoy it.
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/C6nbjqn5Uxw&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>As curricula changes, what&#39;s falling through the cracks? - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="As curricula changes, what&#39;s falling through the cracks?" />
+<meta property="og:description" content="Edit:   Just a brief note to clarify a couple of things. As indicated in the comments, this post isn&#39;t about what&#39;s appropriate for HS CS. It&#39;s more about what kids have after they finish their education - be it high school, college, code school, or other.  Some of my thoughts are the results of pondering on the exacerbations of friends after interviewing people for entry level positions." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/semaphores/" />
+<meta property="article:published_time" content="2016-05-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-05-01T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="As curricula changes, what&#39;s falling through the cracks?"/>
+<meta name="twitter:description" content="Edit:   Just a brief note to clarify a couple of things. As indicated in the comments, this post isn&#39;t about what&#39;s appropriate for HS CS. It&#39;s more about what kids have after they finish their education - be it high school, college, code school, or other.  Some of my thoughts are the results of pondering on the exacerbations of friends after interviewing people for entry level positions."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">As curricula changes, what&#39;s falling through the cracks?</h1>
+        </header>
+        <div class="content">
+            
+<h2 id="headline-1">
+Edit:
+</h2>
+<p>
+Just a brief note to clarify a couple of things. As indicated in the
+comments, this post isn&#39;t  about what&#39;s appropriate for HS CS. It&#39;s
+more about what kids have after they finish their education - be it
+high school, college, code school, or other.
+</p>
+<p>
+Some of my thoughts are the results of pondering on the exacerbations
+of friends after interviewing people for entry level positions.
+</p>
+<p>
+The two examples are just to illustrate the point.
+</p>
+<h2 id="headline-2">
+Original Post:
+</h2>
+<p>
+I enjoy reading blogs. It&#39;s one of the ways I keep current. Not only
+in terms of what&#39;s going on in CS Education, but also trends in CS -
+academic or professional as well as on a range of other topics.
+</p>
+<p>
+One of the blogs I enjoy is authored by <a href="https://twitter.com/b0rk">Julia Evans</a>. I don&#39;t know
+Julia, but we do have some mutual friends. I&#39;ve enjoyed her <a href="http://jvns.ca">blog</a>. She
+does a nice job talking about any number of systems related
+issue. I&#39;ve tried to leave comments a few times but for some reason,
+my comments always end up deleted or otherwise not showing up.
+</p>
+<p>
+One recent post, one on <a href="http://jvns.ca/blog/2016/03/29/thread-pools-part-ii-i-love-blocking/">concurrency</a> got me thinking. Since the comment
+I left there didn&#39;t take, I thought I&#39;d write about it here.
+</p>
+<p>
+It&#39;s a nice post but the thing that caught my eye was when Julia
+said that she &#34; didn&#39;t know what a semaphore was until I read this
+code and I was like OH THIS IS AMAZING AND SO USEFUL AND WOW.&#34; I was a
+little surprised, semaphores seem to be one of those basic concepts
+that you just know but that is, of course incorrect. I first learned
+about semaphores in my honors Systems class with my mentor, the late
+<a href="https://en.wikipedia.org/wiki/Robert_Dewar">Robert Dewar</a>. We started from test and set and worked our way up. I
+had two other undergraduate classes that at least mentioned the topic.
+</p>
+<p>
+Then again, I knew that many undergrads would never get a good
+treatment of concurrency so I tried to build a bit in to the System
+Level Programming  course I designed while at Stuy.
+</p>
+<p>
+This got me thinking - according to her linked in, Julia was a CS
+major at McGill - a university that I hold in high regard but either
+semaphores were never covered or their treatment didn&#39;t make enough of
+an impact to be worth remembering. What topics do we cover in our
+classes that kids just let fall to the wayside and what topics do we
+end up losing as curricula change and we don&#39;t have an eye on the big
+picture.
+</p>
+<p>
+One big one is memory management. When APCS and college 101 classes
+went to Java, memory management went out the window. Not a problem, as
+long as memory issues are covered in some other course. Unfortunately
+the don&#39;t seem to be. You can make a case that kids don&#39;t need to
+understand memory management or anything about garbage collection but
+I&#39;d argue that while one might never have to do their own memory
+management a good CS person should have some understanding of what&#39;s
+going on under the hood or as my friend Gerry says &#34;never use a
+technology you couldn&#39;t write yourself.&#34;
+</p>
+<p>
+Another biggie that I lived through was the IBM PC era. Prior to the
+mid to late 80&#39;s when the IBM PC ruled the world, kids learned about
+CS on timesharing systems. Once the PC took hold, every kid learning
+programming or studying CS was working on their own machine. They had
+full access to everything and the machine just supported a single
+thread.
+</p>
+<p>
+On the one hand, it was nice since you could easily play with low
+level programming and hardware but on the other hand, a hole
+generation didn&#39;t learn about the complexities of multiple users and
+multiple processes.
+</p>
+<p>
+Early in my career I designed courses and only later did I realize
+that you can&#39;t just design a course, you have to look at the full arc
+of a students education.
+</p>
+<p>
+I think it&#39;s interesting to think about what concepts are getting left
+on the side of the road and I wonder if the big players driving CS
+education spend any time thinking about this bigger picture.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2016-05-01</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/policy">#policy</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

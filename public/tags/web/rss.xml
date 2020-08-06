@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/web/</link>
+    <description>C&#39;est la Z (web)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Oct 2019 08:34:04 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/web/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>High Ed Web 2019</title>
+      <link>https://cestlaz.github.io/post/highedweb2019/</link>
+      <pubDate>Wed, 16 Oct 2019 08:34:04 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/highedweb2019/</guid>
+      <description>&lt;p&gt;
+I spent the last few days in Milwuakee at &lt;a href=&#34;https://2019.highedweb.org/&#34;&gt;High Ed web 2019&lt;/a&gt;, a
+conference for higher education web professionals. Most attendees were
+college web developers or designers along people who run web
+operations at colleges and universities and related vendors. Being a
+CS teacher, I was a bit of an outsider but still got a lot out of the
+conference. 
+&lt;/p&gt;
+&lt;p&gt;
+It was our first time in Milwuakee so we had to see some sights.
+&lt;/p&gt;
+&lt;p&gt;
+The Bronz Fonz on the riverwalk:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/highwebed/fonz.jpg&amp;#34; width=&amp;#34;200px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+Then there was &lt;a href=&#34;https://duckduckgo.com/?q=Gertie+the+duck&amp;amp;t=lm&amp;amp;atb=v181-1&amp;amp;ia=web&#34;&gt;Gertie the duck&lt;/a&gt;:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/highwebed/gertie.jpg&amp;#34; width=&amp;#34;200px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+And then more ducks by the river:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/highwebed/ducks.jpg&amp;#34; width=&amp;#34;200px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+Later, we had a transcendental meal at &lt;a href=&#34;http://www.oddduckrestaurant.com/&#34;&gt;The Odd Duck&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/highwebed/oddduck.jpg&amp;#34; width=&amp;#34;200px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+Apparently, Milwaukee loves their ducks.
+&lt;/p&gt;
+&lt;p&gt;
+We also hit the lakefront, &lt;a href=&#34;https://www.mpm.edu/&#34;&gt;Public&lt;/a&gt;,&lt;a href=&#34;https://mam.org/&#34;&gt; Art,&lt;/a&gt; &lt;a href=&#34;http://www.chudnowmuseum.org/&#34;&gt;Chudnow&lt;/a&gt;, and &lt;a href=&#34;https://www.msoe.edu/grohmann-museum/&#34;&gt;Grohmann&lt;/a&gt; museums,
+public market and few other things. 
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/highwebed/artmuseum.jpg&amp;#34;
+         alt=&amp;#34;Art Museum on the lake&amp;#34; width=&amp;#34;200px&amp;#34;/&amp;gt; &amp;lt;figcaption&amp;gt;
+            &amp;lt;p&amp;gt;Art Museum on the lake&amp;lt;/p&amp;gt;
+        &amp;lt;/figcaption&amp;gt;
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+All were cool but I&amp;#39;d say that the Grohmann was the standout - if
+you&amp;#39;re in Milwaukee, make the time for it. 
+&lt;/p&gt;
+&lt;p&gt;
+As to the conference itself I attended a few interesting sessions. One
+talk was on &lt;a href=&#34;http://agilemanifesto.org&#34;&gt;Agile&lt;/a&gt; by &lt;a href=&#34;http://twitter.com/elfin_john&#34;&gt;John Wililams&lt;/a&gt; (no, not &lt;a href=&#34;https://en.wikipedia.org/wiki/John_Williams&#34;&gt;THAT&lt;/a&gt; John Williams). John
+spoke about Agile as a mindset rather than a specific tech/development
+thing and talked about how the classic comedy Airplane! was develped
+as an Agile project. It made me think of how Computational Thinking
+really isn&amp;#39;t &lt;a href=&#34;https://cestlaz.github.io/post/is-ct-new/&#34;&gt;anything new&lt;/a&gt; or how OOP design patterns were developed by
+an &lt;a href=&#34;https://en.wikipedia.org/wiki/Christopher_Alexander&#34;&gt;architect&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+Another talk by &lt;a href=&#34;http://twitter.com/svenhaas&#34;&gt;Sven Haas&lt;/a&gt; gave me a fresh perspective from the IT
+manager&amp;#39;s point of view. We rail all the time in the CS education
+forums about how hard it is to get our schools IT teams to install the
+development environments and tools we want to use with our
+Students. Sven reminded me that for every single request we make of
+our infrastructure people, there are tons of ramification. Long
+term software maintenance and versioning, security, legal
+ramifications, and more. Sven also reminded me that all to often
+parties, including teachers and students, talk across each other
+rather than to each other - &amp;#34;I need this installed&amp;#34; rather than having
+a conversation about needs and jointly developing solutions.
+&lt;/p&gt;
+&lt;p&gt;
+There were also a couple of more technical talks I enjoyed. 
+&lt;/p&gt;
+&lt;p&gt;
+The conference organizers also did a great job. Kudos to the Milwuakee
+convention center for having their restrooms in order:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/highwebed/stalls.jpg&amp;#34; width=&amp;#34;200px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+And for the conference team on adding the signs for further
+clarification.
+&lt;/p&gt;
+&lt;p&gt;
+A big highlight for me was reconnecting with &lt;a href=&#34;https://twitter.com/maccabeelevine&#34;&gt;Maccabee&lt;/a&gt;. Mac was in my
+class at Stuy way back around &amp;#39;95. We&amp;#39;ve been in touch but as his
+career has took him out of NYC it&amp;#39;s been years since we&amp;#39;ve seen each
+other in person. Always great to see an old friend.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/highwebed/mac.jpg&amp;#34; width=&amp;#34;200px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+I probably won&amp;#39;t be back to High Ed Web. While it&amp;#39;s a great
+conference, I&amp;#39;m not really the intended audience. When you can only go
+to so many things a year due to time and money you have to call your
+shots. I will say though, if you&amp;#39;re in the higher ed web space, you should really check
+it out.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

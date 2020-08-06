@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hunter on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/hunter/</link>
+    <description>C&#39;est la Z (hunter)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 May 2020 07:41:29 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/hunter/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Hunter&#39;s first Honors CS Cohort</title>
+      <link>https://cestlaz.github.io/post/first-daedalus-class/</link>
+      <pubDate>Tue, 19 May 2020 07:41:29 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/first-daedalus-class/</guid>
+      <description>&lt;p&gt;
+Almost four and a half years ago I left Stuyvesant and joined Hunter
+College. One of the initiatives I was charged with was the creation of
+a computer science honors program - the Daedalus scholars. Now, a
+little over four years later, our first cohort is graduating.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m super proud of that first cohort and what we&amp;#39;ve collectively been
+building. 
+&lt;/p&gt;
+&lt;p&gt;
+I joined Hunter at the end of January 2016 - a month after college
+applications had closed. This meant that we had to build our first
+cohort after the fact. Nobody applied to Hunter to be a part of the
+Daedalus scholars because we didn&amp;#39;t exist. 
+&lt;/p&gt;
+&lt;p&gt;
+Still, by looking at the students who had already applied to Hunter we
+found a few that were interested and qualified. We lost a few along
+the way - a student who really wanted an engineering program, one who
+had already conditionally been accepted to another school but took our
+money for the semester (I really hate it when people exploit a system
+like this but that&amp;#39;s another story), one who really didn&amp;#39;t know what
+CS was and ended up not liking the subject, and one who really wanted
+to leave the city. 
+&lt;/p&gt;
+&lt;p&gt;
+During our first semester, some Macaulay students found out about our
+program and wanted to join so we padded our numbers with a small
+number of them. Overall we ended up with a small group of 12.
+&lt;/p&gt;
+&lt;p&gt;
+As I said, I&amp;#39;m proud of all of them for what they did at Hunter and
+for what lies ahead.
+&lt;/p&gt;
+&lt;p&gt;
+Now, four years later we get hundreds of applicants including a
+growing number from outside the city and are taking in many more great
+students. I don&amp;#39;t know the other colleges that our first cohort
+members were accepted to but now we&amp;#39;re competing for students with
+Stony Brook, NYU, RIT, and in some cases bigger &amp;#34;names.&amp;#34; My goal was
+for us to become the best value CS and the best CS in NYC and we&amp;#39;re
+well on our way. with the first cohort, we prototyped some activities
+and events that have evolved into staples - tech mentoring, codefest,
+interview prep and more. 
+&lt;/p&gt;
+&lt;p&gt;
+Our first cohort led the way and I&amp;#39;m super proud of them. Now they&amp;#39;ll
+become our first graduates and continue to be resource for both each
+other and future Hunter CS students. This is now the start of another
+endeavor - it took decades to create the StuyCS Mafia and now I get to
+repeat the process with HunterCS  but this time, since I know what&amp;#39;s
+to come I can enjoy the show as it unfolds.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hunter Codefest 2020</title>
+      <link>https://cestlaz.github.io/post/codefest-2020/</link>
+      <pubDate>Sat, 01 Feb 2020 13:41:03 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/codefest-2020/</guid>
+      <description>&lt;p&gt;
+Two of the challenges faced by young computer science students are
+finding the time to build independent projects for their portfolios
+and getting feedback from and networking with tech professionals.
+&lt;/p&gt;
+&lt;p&gt;
+Enter Hunter Codefest 2020
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;style&amp;gt;
+.flip {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+&amp;lt;/style&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure class=&#34;z_image_left flip&#34;&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/codefest2020/codefest.jpg&#34; width=&#34;40%&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure class=&#34;z_image_left flip&#34;&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/codefest2020/google.jpg&#34; width=&#34;40%&#34;/&gt; 
+&lt;/figure&gt;
+
+&amp;lt;br clear=&amp;#34;all&amp;#34;&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+Hunter, like most colleges has a Fall semester that runs from late
+August through the end of Decemeber and a Spring semester that starts
+at the end of January and runs through late may. There&amp;#39;s generally
+around a month between the two. Sometimes a student can take one of
+the few courses offered during this &amp;#34;Winter semester&amp;#34; but more often
+than not the time is wasted.
+&lt;/p&gt;
+&lt;p&gt;
+At Hunter, students can do a number of things during this break. Some get short term
+mini internships, others take part in our tech bootcamps. Now, they
+can all participate in Codefest.
+&lt;/p&gt;
+&lt;p&gt;
+We launched in late December at the end of finals. Students are given
+a theme and form groups. They then have a month to build a
+project. It&amp;#39;s a great opportunity to learn how to work on a team and
+explore tools that you wouldn&amp;#39;t normally use in a regular CS class.
+&lt;/p&gt;
+&lt;p&gt;
+Friday was the payoff. We all gathered at GoogleNYC for a big
+celebration. Each group was set up at a table with professional
+Software Engineers. Mostly Googlers but wa also invited some outside
+guests. They&amp;#39;d then spend time with discussing the project. After a
+while, the Googlers would rotate to another project.
+&lt;/p&gt;
+&lt;p&gt;
+Rinse and repeat.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/codefest2020/gil.jpg&#34;
+         alt=&#34;Current Googler and Hunter CS grad Gil advising our current students.&#34; width=&#34;50%&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Current Googler and Hunter CS grad Gil advising our current students.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/codefest2020/sarah.jpg&#34;
+         alt=&#34;My former Stuy student and current Googler Sarah doing the same.&#34; width=&#34;50%&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;My former Stuy student and current Googler Sarah doing the same.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+Afterwards we had some demos and then a big networking session where
+our Hunter CS students got to spend more time getting to know and
+getting advice from a host of Googlers and other software engineers
+while enjoying refreshments.
+&lt;/p&gt;
+&lt;p&gt;
+Not everyone could make it due to class but we had a pretty strong
+turnout.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure class=&#34;flip&#34;&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/codefest2020/everyone.jpg&#34; width=&#34;75%&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+Our student organizers did most of the heavy lifting and made the
+whole event work from start to finish. Here are Leo, Angela, Shariar,
+and Tracey. Our two other organizers, Miguel and Kun couldn&amp;#39;t make it
+as Miguel was travelling and Kun had an interview for an internship.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/codefest2020/organizers.jpg&#34;
+         alt=&#34;Our organizers&#34; width=&#34;50%&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Our organizers&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+Special thanks to Brendan and hist team of Googlers who helped make
+this happen. I also want to say thanks to the dozen or so of my former
+students currently at Google who stopped by to help.
+&lt;/p&gt;
+&lt;p&gt;
+Everyone was super impressed with what the students produced. It was
+a great event and it&amp;#39;ll be even better next year.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Hunter Daedalus Fall 2019 recruiting class</title>
+      <link>https://cestlaz.github.io/post/daedalus-class-2019/</link>
+      <pubDate>Wed, 08 May 2019 08:25:12 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/daedalus-class-2019/</guid>
+      <description>&lt;p&gt;
+Now that high school seniors have all committed to their respective
+colleges I though I&amp;#39;d share some information on Hunter&amp;#39;s incoming
+Daedalus (honors CS) cohort.
+&lt;/p&gt;
+&lt;p&gt;
+I joke about the first cohort saying that nobody applied to the
+program. That&amp;#39;s kind of true. I jointed Hunter a little over three
+years ago in late January. That was after high school seniors had
+already applied to college and at that time the program didn&amp;#39;t
+exist. We found the first cohort by looking at students who had
+already applied to Hunter not expecting Daedalus to exist.
+&lt;/p&gt;
+&lt;p&gt;
+It was 12 kids and we&amp;#39;ve lost a few since then. 
+&lt;/p&gt;
+&lt;p&gt;
+The second cohort consisted of 24 students. We started adding
+&lt;a href=&#34;https://en.wikipedia.org/wiki/William_E._Macaulay_Honors_College&#34;&gt;Macaulay&lt;/a&gt; students into the mix. Macaulay is a CUNY wide honors
+scholarship program. Each campus has a cohort and it was part of an
+effort to bring CUNY back to it&amp;#39;s &amp;#34;glory days&amp;#34; before open
+enrollment. The Macaulay kids saw that Daedalus was the place to be
+for CS in NYC and Hunter and wanted in. 
+&lt;/p&gt;
+&lt;p&gt;
+Third year, we were up to 44 students. 
+&lt;/p&gt;
+&lt;p&gt;
+Now, in our fourth year we&amp;#39;re up to 50 which is a little over
+capacity - at least until I can find and hire a partner in crime  (and
+I am looking).
+&lt;/p&gt;
+&lt;p&gt;
+Some other stats:
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Year:&lt;/th&gt;
+&lt;th&gt;2016&lt;/th&gt;
+&lt;th&gt;2017&lt;/th&gt;
+&lt;th&gt;2018&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;2019&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Size:&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;44&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;50&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Daedalus / Macaulay:&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;75% / 25%&lt;/td&gt;
+&lt;td&gt;75%/ 20%&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;80% / 20%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Approximate Applicants&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;~150&lt;/td&gt;
+&lt;td&gt;~200&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;Over 320&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Gender M/F %&lt;/td&gt;
+&lt;td&gt;80/20&lt;/td&gt;
+&lt;td&gt;75/25&lt;/td&gt;
+&lt;td&gt;50/50&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;75/25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Taken APCS / Beginner&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
+&lt;td&gt;50/50&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;50/50&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Number of high schools&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;# students from beyond NYC&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+I also have stats on grades and test scores as well as the number of
+offers an the percent of acceptances. 
+&lt;/p&gt;
+&lt;p&gt;
+Some thoughts on the stats:
+&lt;/p&gt;
+&lt;p&gt;
+I try to spend as much time as I can doing outreach. This is horribly
+inefficient but it&amp;#39;s slowly getting the word out. I might spend most
+of a day trekking out into the boroughs to &lt;a href=&#34;https://cestlaz.github.io/post/fall-2018-tour-revisited/&#34;&gt;talk to a class&lt;/a&gt; or a few
+classes at some school knowing that there will probably be very few
+fits for my program. I think I&amp;#39;m bringing important information to all
+of the kids but it&amp;#39;s a low yield activity. Right now our biggest
+feeder schools are Stuyvesant, Brooklyn Tech, and Bronx Science. Next
+is Midwood. This makes sense as they&amp;#39;re all &lt;strong&gt;large&lt;/strong&gt; schools and they
+all have established CS classes. They&amp;#39;ll probably continue to be the
+biggest feeders but I&amp;#39;m delighted by the fact that I&amp;#39;m getting
+students from 17 other schools including a couple from outside of
+NYC. 
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m less happy with the gender distribution. Twenty five percent isn&amp;#39;t
+bad compared to the national numbers but we should be doing
+better. It&amp;#39;s a tough nut to crack. When I visit to schools I&amp;#39;m
+normally sent to the CS classes so I&amp;#39;m already getting a gender skewed
+audience. Not sure the best approach to work on this. 
+&lt;/p&gt;
+&lt;p&gt;
+On the other hand, I&amp;#39;m getting to enough of a general audience to have
+roughly a 50/50 split of students with APCS-A or beyond or what I
+would call a beginner. 
+&lt;/p&gt;
+&lt;p&gt;
+As I get to know this new group and find out why they applied to
+Hunter Daedalus and ultimately decided to attend I&amp;#39;m hoping to be able
+to better fine tune my recruiting approach and outreach.
+&lt;/p&gt;
+&lt;p&gt;
+As a bottom line I&amp;#39;m going to continue to work to make Hunter&amp;#39;s
+Daedalus program the place to be for CS education in NY so that kids
+can get a top flight experience without paying a quarter of a million
+dollars.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hunter College Winter Codefest 2019</title>
+      <link>https://cestlaz.github.io/post/code-fest-2019/</link>
+      <pubDate>Wed, 20 Feb 2019 17:34:00 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/code-fest-2019/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s great to see how much Hunter CS has developed since starting here
+there years ago. The latest endeavor is Winter Codefest. During the
+fall I was approached by one of my students who had asked an older
+Hunter CS student about their portfolio and found that the senior&amp;#39;s
+portfolio was lacking. This student said we should do something to
+help encourage younger students to build that portfolio. 
+&lt;/p&gt;
+&lt;p&gt;
+The result was Winter Codefest. A team of organizers was formed and
+they came up with the plan. Have students register teams right after
+Fall finals and have teams work on independent projects over the
+course of January before the Spring semester started. We&amp;#39;d then have an
+event where everyone would show off their work. We decided to limit
+participants to my Daedalus scholars this time around but planned from
+the get go to make it Hunter wide in the future.
+&lt;/p&gt;
+&lt;p&gt;
+We ended up with about 24 participants spanning all three Daedalus
+cohorts with most of the participants in the second year group. 
+&lt;/p&gt;
+&lt;p&gt;
+Due to the scheduling we couldn&amp;#39;t hold the end of competition event
+until today. A bunch of us gathered along with some of our friends
+from the tech community to review the projects, network, and generally
+talk tech. All in all the event was a real success. All the
+participants learned new  technologies and now have one more show
+piece to talk about in interviews.
+&lt;/p&gt;
+&lt;p&gt;
+This year was unquestionably a success and it&amp;#39;s going to be a bigger
+one next year. The CS department is working on creating 1 and 2 credit
+projects courses that will be offered during the winter session. This
+will enable students to take the courses to develop a Winterfest
+project with the support of a class around it. We&amp;#39;re also going to
+make the event available to all Hunter CS students. 
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s really exciting to be part of developing programs like Hunter
+College CS, Programs that can be super transformative for young New
+Yorkers. It&amp;#39;s even more exciting when your students take active
+leadership roles and help make our programs even more special.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Challenges of teaching at a commuter school</title>
+      <link>https://cestlaz.github.io/post/commuter-school/</link>
+      <pubDate>Mon, 08 Oct 2018 08:43:40 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/commuter-school/</guid>
+      <description>&lt;p&gt;
+One of the bigger challenges faced at commuter schools is building a
+feeling of community. Students aren&amp;#39;t on campus every day and come
+from far afield and even when they are on campus, we really don&amp;#39;t have
+a CS &amp;#34;hang out&amp;#34; space. The space issue should be resolved soon - we&amp;#39;re
+scheduled to get a CS student lounge next semester.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m finding this to be even more of a challenge this year with my
+honors students. The first two cohorts were a single class in
+size. Even though some dormed and some commuted, they were all
+together in my class twice a week. This year, we&amp;#39;ve close to doubled
+in size and about half of my students came in with a good deal of
+prior CS knowledge. The result is that I have two different classes of
+honors students and we are never all together unless it&amp;#39;s for a
+special event.
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, we&amp;#39;ve got one of my favorites coming up. 
+&lt;/p&gt;
+&lt;p&gt;
+In two weeks, I&amp;#39;ll be taking about half my students up to &lt;a href=&#34;http://catskillsconf.com&#34;&gt;Catskills
+Conf&lt;/a&gt;. An event that I describe as light tech conference with a focus
+on creativity and diversity meets summer camp. I&amp;#39;ve written about the
+event in in each of the past three years (&lt;a href=&#34;https://cestlaz.github.io/posts/2015-10-29-catskills-2015/%0A&#34;&gt;2015&lt;/a&gt;, &lt;a href=&#34;https://cestlaz.github.io/posts/catskillsconf-2016/%0A&#34;&gt;2016&lt;/a&gt;, &lt;a href=&#34;https://cestlaz.github.io/posts/catskills-2017/%0A&#34;&gt;2017&lt;/a&gt;) and also
+about the  &lt;a href=&#34;https://cestlaz.github.io/posts/knitting-tech-conference/%0A&#34;&gt;knitting for charity&lt;/a&gt; event that Devorah runs during the
+conference weekend.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s a great event and if you&amp;#39;re anywhere near the Hudson Valley
+region you should &lt;a href=&#34;http://catskillsconf.com&#34;&gt;check it out&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+To start, it&amp;#39;s a great first conference for the students. It only has
+one track so no choices and the talks look really interesting this
+year. Some of the ones I&amp;#39;m looking forward to are:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Designing for Access first
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Behind the Tech: Emoji
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Leaning into uncertainty
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The full schedule is &lt;a href=&#34;https://catskillsconf.com/schedule/&#34;&gt;here&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+But also mixed in are activities like blacksmithing
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/commuter-school/blacksmith.jpg&amp;#34; width=&amp;#34;250px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+and a live bird of prey show
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/commuter-school/BOP.jpg&amp;#34; width=&amp;#34;250px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+There are also hikes that show off the beauty of Fall in the Hudson
+Valley
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/commuter-school/nature1.jpg&amp;#34; width=&amp;#34;250px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/commuter-school/nature2.jpg&amp;#34; width=&amp;#34;250px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/commuter-school/nature3.jpg&amp;#34; width=&amp;#34;250px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+Rather than having the kids spread out in random hotel rooms we&amp;#39;re all
+in a camp style bunkhouse.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/commuter-school/bunkhouse.jpg&amp;#34; width=&amp;#34;250px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+The weekend is spent  living together along with technologists and
+other creative types from NYC, the Hudson Valley and everywhere else. 
+&lt;/p&gt;
+&lt;p&gt;
+One of my favorite parts is at the end of each evening when we all
+hang out by the campfire. Hunter CS students, company founders,
+software engineers, designers.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/commuter-school/campfire.jpg&amp;#34; width=&amp;#34;250px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s a great event overall and a great event to build community.
+&lt;/p&gt;
+&lt;p&gt;
+As I said before, if you&amp;#39;re in the area, check it out.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2017 in review - Hunter Undergraduate CS</title>
+      <link>https://cestlaz.github.io/posts/2017-review-hunter-cs/</link>
+      <pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/2017-review-hunter-cs/</guid>
+      <description>&lt;p&gt;
+I usually don&amp;#39;t do year in review posts. At Stuy, not much changed
+year after year so I never felt it worth summarizing the past and
+projecting the future. At Hunter, now that I&amp;#39;m a couple of years in,
+projects are really picking up steam so I think it&amp;#39;s worth talking
+about them.
+&lt;/p&gt;
+&lt;p&gt;
+One of my two major missions at Hunter was to build a CS Honors
+program and raise the profile of Hunter&amp;#39;s undergraduate CS program in
+general. Hunter had a strong CS program before I joined the team it&amp;#39;s
+just that few people knew about it.
+&lt;/p&gt;
+&lt;p&gt;
+My goal is to see Hunter become the &amp;#34;go to&amp;#34; institution for
+undergraduate CS in New York City before my time is done.
+&lt;/p&gt;
+&lt;p&gt;
+This is an extremely important mission.
+&lt;/p&gt;
+&lt;p&gt;
+There are other strong CS options besides Hunter but compare the costs:
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Institution&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;&lt;/th&gt;
+&lt;th&gt;Annual Tuition&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;NYU&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;$50,464&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NYY Tandon&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;$48,750&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Columbia&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;$54,504&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hunter&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;$6,530&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;strong&gt;Hunter is about one tenth the cost.&lt;/strong&gt;&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+True, if you&amp;#39;re wealthy this isn&amp;#39;t a problem and if you&amp;#39;re at the
+bottom of the economic ladder you might get a full ride but if you
+fall into that category where you earn more than the financial aid
+people think is &amp;#34;poor&amp;#34; but are clearly not rich you&amp;#39;re left in a bad place. This seems
+particularly true for New Yorkers as our income seems higher than that
+of people from other parts of the country but our cost of living is
+higher as well.
+&lt;/p&gt;
+&lt;p&gt;
+My wife and I are both career public educators. No one would confuse a
+family of two working teachers as upper class but we were granted no
+financial aid for our kids. The alternatives without a great public
+option are to have saved for our entire lives and now liquidate those
+savings or go into tremendous debt.
+&lt;/p&gt;
+&lt;p&gt;
+This alone makes the mission critical. Add to that the accessibility
+issue - elite private institutions only have to concern themselves
+with whatever slice of the population they choose to accept. We are
+charged with providing a top flight education to all - be they the
+high achievers, the late bloomers, the struggling students or anyone
+else.
+&lt;/p&gt;
+&lt;p&gt;
+So, what&amp;#39;s happened in the past year?
+&lt;/p&gt;
+&lt;p&gt;
+First, the Daedalus honors program is developing nicely. In our first
+year we had a cohort of 12. This past year 27. I haven&amp;#39;t seen the
+applicant pool yet - Hunter applications are open until the end of
+January, but I&amp;#39;m hoping to bring in an even larger cohort this year. I
+spent a good amount of time this fall visiting high schools to talk
+about Hunter CS and CS options in general. Not as many as I&amp;#39;d like but
+more than during year one.
+&lt;/p&gt;
+&lt;p&gt;
+We had classes, trips, and special events but more important was that
+the cohort is starting to form a community and the students want it to
+be a community that includes ALL of Hunter CS, not just the honors
+students.
+&lt;/p&gt;
+&lt;p&gt;
+They&amp;#39;ve started a once a week Dojo where students can work on projects
+and interact and we&amp;#39;re starting an evening speaker series in
+the Spring.
+&lt;/p&gt;
+&lt;p&gt;
+Overall there&amp;#39;s a vibe of excitement and an energy around Hunter CS
+that I&amp;#39;ve been told hasn&amp;#39;t been there before.
+&lt;/p&gt;
+&lt;p&gt;
+In my class, I&amp;#39;ve been introducing a number of real world practices
+that are usually not covered in undergraduate CS and we&amp;#39;re starting to
+talk about bringing those practices into the non-honors sections.
+&lt;/p&gt;
+&lt;p&gt;
+Finally, we&amp;#39;ve started to partner with the New York Tech
+community. We&amp;#39;re bringing together the Hunter students and the tech
+professionals to raise awareness outside of Hunter of what our
+students can do and to best prepare our students for their next
+steps. These partnerships, in addition to internship possibilities
+have led to us planning some great things this coming semester
+incuding:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+workshops such as how to work on an open source project or how to do
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+a code review.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Having industry mentors at our local Dojo sessions.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Mixer events to educate our students as to the variety of pathways
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+they can follow when they graduate.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+and more.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+This past year set the stage but there will be some challenges moving
+forward.
+&lt;/p&gt;
+&lt;p&gt;
+The biggest one is continued outreach to high schools. Getting to the
+students and their parents to let them know that we have a great
+program. It&amp;#39;s also about convincing them to come to Hunter. Back in
+the day CUNY was &amp;#34;the poor man&amp;#39;s Harvard&amp;#34; but open enrollment in the
+1970s killed that reputation. CUNY has been making it&amp;#39;s way back and
+Hunter has many excellent programs but reputations are decades in the
+making and at Hunter CS we&amp;#39;re just starting to get the word out.
+&lt;/p&gt;
+&lt;p&gt;
+The other big challenge will be with time. Right now, for the most
+part, I&amp;#39;m a team of one. I have tremendous support from my colleagues
+but they all have their own full time obligations and the overall
+growth in Hunter CS has already put a strain on personnel and
+resources.
+&lt;/p&gt;
+&lt;p&gt;
+In spite of the challenges, I&amp;#39;m not complaining. This has been an
+exciting year for Hunter CS and an exciting year for me to be a part
+of it.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hunter College - Honors CS</title>
+      <link>https://cestlaz.github.io/posts/2016-03-29-hunter-cs/</link>
+      <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/2016-03-29-hunter-cs/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+
+
+&lt;style&gt;
+div.center {text-align:center;}
+&lt;/style&gt;
+
+&lt;p&gt;
+It&#39;s been a while since my last post and a while since I started at
+Hunter.
+&lt;/p&gt;
+
+&lt;p&gt;
+Time to share a bit about what I&#39;ve been up to.
+&lt;/p&gt;
+
+&lt;p&gt;
+One of the better kept secrets in New York City is Hunter College&#39;s
+computer science program. It&#39;s been around for years and it&#39;s been
+that way for years. In fact, when I was looking to get my masters
+degree back in the mid nineties I carefully researched all of the
+area&#39;s MS in CS programs. It came down to Hunter College and Courant
+Institute at NYU. I was going to go with Hunter since the programs
+seemed comparable and Hunter was far more affordable but I had to go
+with NYU due to class schedules. Too many of the Hunter offerings were
+to early in the day and I had my full time teaching job to consider.
+&lt;/p&gt;
+
+&lt;p&gt;
+Hunter isn&#39;t currently offering their Masters program but their
+Bachelor of Arts program is alive and well, it&#39;s just that people
+don&#39;t know about it.
+&lt;/p&gt;
+
+&lt;p&gt;
+Part of my job is to change that.
+&lt;/p&gt;
+
+&lt;p&gt;
+Well, not really, part of my job is to add my piece to the puzzle. The
+rest will take care of itself.
+&lt;/p&gt;
+
+&lt;p&gt;
+My piece? It&#39;s all about creating a tech culture, tying into the NY
+Tech ecosystem, and filling in the gaps that are shared by just about
+every college computer science program.
+&lt;/p&gt;
+
+&lt;p&gt;
+How do we do it?
+&lt;/p&gt;
+
+&lt;p&gt;
+The long term plan is that we&#39;re starting a new CS Honors program. In
+the fall, I&#39;ll be teaching and mentoring a group of entering
+undergrads. We&#39;ll have workshops, trips, activities. You name it. I&#39;ll
+also be teaching them modified versions of our courses with the hope
+of bringing some of my modifications back to the rest of the student
+body. Things like integrating real tools and professional techniques
+into what is already a solid academic program.
+&lt;/p&gt;
+
+&lt;p&gt;
+In the mean time, I&#39;m getting to know Hunter&#39;s current CS students and
+working to energize the existing community.
+&lt;/p&gt;
+
+&lt;p&gt;
+We already had an amazing event hosted at &lt;a href=&#34;http://yext.com&#34;&gt;Yext&lt;/a&gt;. We had a panel and
+mixer with representatives from about a dozen companies talking to the
+kids about the possibilities ahead of them.
+&lt;/p&gt;
+
+&lt;p&gt;
+We&#39;ve also set up a couple of workshops in house.
+&lt;/p&gt;
+
+&lt;p&gt;
+I&#39;m also starting to talk to friends at companies across the city to
+plan out both curriculum and programs to set up our kids to
+succeed.
+&lt;/p&gt;
+
+&lt;p&gt;
+My goal is that within five years, I want people to realize that
+Hunter CS is the place to be for CS Education in NYC. Not everyone can
+afford the 40K and up private college tuition and there&#39;s no reason to
+when you can get a great CS education with ties to the tech community
+at CUNY prices.
+&lt;/p&gt;
+
+&lt;p&gt;
+If you want to help, drop me a note. We&#39;re looking to start something
+very special and you have a chance to be a part of it.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

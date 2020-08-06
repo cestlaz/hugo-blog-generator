@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Better Comments or tooling as a time sink - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Better Comments or tooling as a time sink" />
+<meta property="og:description" content="The other day my friend and fellow CS Ed Blogger Alfred Thompson wrote about Better Comments, an extension for visual studio that displays comments that are marked up with special characters in order to highlight them. Here&#39;s a screenshot:  https://raw.githubusercontent.com/omsharp/BetterComments/master/screenshots/ClassificationC.png  So, the first thing I though was &#34;I bet emacs could do that pretty easily&#34; and down the rabbit hole I went.  I had to figure out something about how emacs themes and font-locking (emacs for syntax highlighting) works and of course spent far too much time learning about Emacs, my favored tool, rather than getting actual work done, but I came up with this: (make-face &#39;font-lock-comment-important) (set-face-foreground &#39;font-lock-comment-important &#34;#00ff00&#34;) (make-face &#39;font-lock-comment-todo) (set-face-foreground &#39;font-lock-comment-todo &#34;#ff0000&#34;) (make-face &#39;font-lock-comment-strike) (set-face-attribute &#39;font-lock-comment-strike nil :strike-through t) (defun add-custom-keyw() &#34;adds a few special keywords&#34; (font-lock-add-keywords nil &#39;((&#34;cx \\(." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/better-comments/" />
+<meta property="article:published_time" content="2016-06-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-06-22T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Better Comments or tooling as a time sink"/>
+<meta name="twitter:description" content="The other day my friend and fellow CS Ed Blogger Alfred Thompson wrote about Better Comments, an extension for visual studio that displays comments that are marked up with special characters in order to highlight them. Here&#39;s a screenshot:  https://raw.githubusercontent.com/omsharp/BetterComments/master/screenshots/ClassificationC.png  So, the first thing I though was &#34;I bet emacs could do that pretty easily&#34; and down the rabbit hole I went.  I had to figure out something about how emacs themes and font-locking (emacs for syntax highlighting) works and of course spent far too much time learning about Emacs, my favored tool, rather than getting actual work done, but I came up with this: (make-face &#39;font-lock-comment-important) (set-face-foreground &#39;font-lock-comment-important &#34;#00ff00&#34;) (make-face &#39;font-lock-comment-todo) (set-face-foreground &#39;font-lock-comment-todo &#34;#ff0000&#34;) (make-face &#39;font-lock-comment-strike) (set-face-attribute &#39;font-lock-comment-strike nil :strike-through t) (defun add-custom-keyw() &#34;adds a few special keywords&#34; (font-lock-add-keywords nil &#39;((&#34;cx \\(."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Better Comments or tooling as a time sink</h1>
+        </header>
+        <div class="content">
+            <p>
+The other day my friend and fellow CS Ed Blogger <a href="https://twitter.com/alfredtwo">Alfred Thompson</a> wrote
+about <a href="http://blog.acthompson.net/2016/06/better-comments-in-visual-studio.html">Better Comments</a>, an extension for visual studio that displays
+comments that are marked up  with special characters in order to
+highlight them. Here&#39;s a screenshot:
+</p>
+<p>
+https://raw.githubusercontent.com/omsharp/BetterComments/master/screenshots/ClassificationC.png
+</p>
+<p>
+So, the first thing I though was &#34;I bet emacs could do that pretty
+easily&#34; and down the rabbit hole I went.
+</p>
+<p>
+I had to figure out something about how emacs themes and font-locking
+(emacs for syntax highlighting) works and of course spent far too much
+time learning about Emacs, my favored tool, rather than getting actual
+work done, but I came up with this:
+</p>
+<div class="src src-emacs-lisp">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(make-face <span style="color:#e6db74">&#39;font-lock-comment-important</span>)
+(set-face-foreground <span style="color:#e6db74">&#39;font-lock-comment-important</span> <span style="color:#e6db74">&#34;#00ff00&#34;</span>)
+
+(make-face <span style="color:#e6db74">&#39;font-lock-comment-todo</span>)
+(set-face-foreground <span style="color:#e6db74">&#39;font-lock-comment-todo</span> <span style="color:#e6db74">&#34;#ff0000&#34;</span>)
+
+(make-face <span style="color:#e6db74">&#39;font-lock-comment-strike</span>)
+(set-face-attribute <span style="color:#e6db74">&#39;font-lock-comment-strike</span>
+<span style="color:#66d9ef">nil</span> :strike-through <span style="color:#66d9ef">t</span>)
+
+(defun add-custom-keyw()
+<span style="color:#e6db74">&#34;adds a few special keywords&#34;</span>
+(font-lock-add-keywords
+<span style="color:#66d9ef">nil</span>
+<span style="color:#f92672">&#39;</span>((<span style="color:#e6db74">&#34;cx \\(.+\\)&#34;</span> <span style="color:#ae81ff">1</span> <span style="color:#e6db74">&#39;font-lock-comment-strike</span> prepend)
+(<span style="color:#e6db74">&#34;ct \\(.+\\)&#34;</span> <span style="color:#ae81ff">1</span> <span style="color:#e6db74">&#39;font-lock-comment-todo</span> prepend)
+(<span style="color:#e6db74">&#34;ci \\(.+\\)&#34;</span> <span style="color:#ae81ff">1</span> <span style="color:#e6db74">&#39;font-lock-comment-important</span> prepend)
+)
+))
+(add-hook <span style="color:#e6db74">&#39;python-mode-hook</span> <span style="color:#e6db74">&#39;add-custom-keyw</span>)
+(add-hook <span style="color:#e6db74">&#39;js2-mode-hook</span> <span style="color:#e6db74">&#39;add-custom-keyw</span>)
+(add-hook <span style="color:#e6db74">&#39;js-mode-hook</span> <span style="color:#e6db74">&#39;add-custom-keyw</span>)</code></pre></div></code></pre></div>
+</div>
+<p>
+It&#39;s a hack but it does indeed work. In action, it looks something
+like this:
+</p>
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/3TLw1yOMKMc" frameborder="0" allowfullscreen></iframe>
+<p>
+Truth be told, it really colors anything following cx, ct, or ci, not
+just in comments – I have to look a bit more into how emacs handles
+comments to figure that one out.
+</p>
+<p>
+In any event, even though I spent too much time doing this, it&#39;s nice
+to know I&#39;m working in a tool in which I can.
+</p>
+<p>
+<strong><strong>UPDATE:</strong></strong> Thanks to user ncsuwolf on /r/emacs on reddit, here&#39;s a
+fully working, more properly done solution:
+</p>
+<div class="src src-emacs-lisp">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(defface font-lock-comment-strike
+<span style="color:#f92672">&#39;</span>((<span style="color:#66d9ef">t</span> (:strike-through <span style="color:#66d9ef">t</span>)))
+<span style="color:#e6db74">&#34;For strike-through comments&#34;</span>)
+
+(defface font-lock-comment-important
+<span style="color:#f92672">&#39;</span>((<span style="color:#66d9ef">t</span> (:foreground <span style="color:#e6db74">&#34;#00ff00&#34;</span>)))
+<span style="color:#e6db74">&#34;For important&#34;</span>)
+(defface font-lock-comment-todo
+<span style="color:#f92672">&#39;</span>((<span style="color:#66d9ef">t</span> (:foreground <span style="color:#e6db74">&#34;#ff0000&#34;</span>))
+<span style="color:#e6db74">&#34;For todo comments&#34;</span>)
+(defun add-custom-keyw()
+<span style="color:#e6db74">&#34;adds a few special keywords&#34;</span>
+(font-lock-add-keywords
+<span style="color:#66d9ef">nil</span>
+<span style="color:#f92672">&#39;</span>((<span style="color:#e6db74">&#34;\\s&lt;+x[[:space:]]*\\(.*?\\)[[:space:]]*\\s&gt;&#34;</span> <span style="color:#ae81ff">1</span> <span style="color:#e6db74">&#39;font-lock-comment-strike</span> prepend)
+(<span style="color:#e6db74">&#34;\\s&lt;+t[[:space:]]*\\(.*?\\)[[:space:]]*\\s&gt;&#34;</span> <span style="color:#ae81ff">1</span> <span style="color:#e6db74">&#39;font-lock-comment-todo</span> prepend)
+(<span style="color:#e6db74">&#34;\\s&lt;+i[[:space:]]*\\(.*?\\)[[:space:]]*\\s&gt;&#34;</span> <span style="color:#ae81ff">1</span> <span style="color:#e6db74">&#39;font-lock-comment-important</span> prepend))))
+
+(add-hook <span style="color:#e6db74">&#39;prog-mode-hook</span> <span style="color:#a6e22e">#&#39;</span>add-custom-keyw)</code></pre></div></code></pre></div>
+</div>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2016-06-22</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/emacs">#emacs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

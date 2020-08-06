@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>online on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/online/</link>
+    <description>C&#39;est la Z (online)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Mar 2020 11:48:20 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/online/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Teaching Online -  Day 01</title>
+      <link>https://cestlaz.github.io/post/teaching-online-day-01/</link>
+      <pubDate>Thu, 19 Mar 2020 11:48:20 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teaching-online-day-01/</guid>
+      <description>&lt;p&gt;
+I taught my first two online classes this morning. The first one from
+8:10 - 9:25 and the second from 9:45 - 11:00.
+&lt;/p&gt;
+&lt;p&gt;
+Toolset:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Zoom meetings
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Emacs (yes, not just an editor)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+First up Zoom.
+&lt;/p&gt;
+&lt;p&gt;
+I think I want a video camera on policy. All my students should have
+laptops with working cameras. Some students might have issues with
+showing even a small bit of what&amp;#39;s behind them so I don&amp;#39;t want to make
+it required but I really wish they&amp;#39;d also have cameras on.
+&lt;/p&gt;
+&lt;p&gt;
+Why?
+&lt;/p&gt;
+&lt;p&gt;
+To get some level of visual feedback and interaction. Having made over
+60 &lt;a href=&#34;https://cestlaz.github.io/stories/emacs/&#34;&gt;Emacs videos&lt;/a&gt; I&amp;#39;m used to talking to my own screen but when you know
+you&amp;#39;ve got a live audience that you&amp;#39;re working with it&amp;#39;s different. If
+I&amp;#39;m just talking to a bunch of black boxes with names in them I don&amp;#39;t
+feel any connection with my students. If I see them I feel we&amp;#39;re
+together.
+&lt;/p&gt;
+&lt;p&gt;
+This was also an issue when I went to screen sharing. Now Zoom handled
+the screen sharing terrifically.  You can share either one specific
+window, a virtual whiteboard or your whole screen. When sharing,
+though, instead of seeing a bunch of small windows with lots of people
+in them you only see around four which isn&amp;#39;t representative of the
+whole class. Better than nothing but I wish I had a long line of boxes
+that could easily scroll.
+&lt;/p&gt;
+&lt;p&gt;
+Another thing with the screen sharing - it worked great but this is
+also where two monitors would be helpful. I went from two 30&amp;#34; monitors
+to one 43&amp;#34; 4K monitor. I love my current setup but it seems with Zoom
+you share all or nothing. I&amp;#39;m guessing with two monitors I could share
+one monitor and use the other for notes and staging. With one big
+monitor I can&amp;#39;t do this - I have to share the whole screen. Not a huge
+problem but makes things a bit less smooth.
+&lt;/p&gt;
+&lt;p&gt;
+This is where Emacs comes in.
+&lt;/p&gt;
+&lt;p&gt;
+For a decent part of the lesson, I&amp;#39;d share my Emacs window. Since I
+can split the window and quickly jump between buffers (screens) I
+could bring up a variety of things. I had a shell in one buffer so I
+could run terminal stuff, a source code buffer, one in org-mode for
+outlines and table work and one in artist mode for rudimentary
+diagramming. I think it worked reasonably well for a first shot.
+&lt;/p&gt;
+&lt;p&gt;
+Finally, we also used the Zoom chat. Some students would mic on and
+off to take part but more used the chat. It was a bit weird at
+first. I&amp;#39;d talk, they&amp;#39;d write but both classes got into a pretty good
+tempo after a while. I think it could work. Interesting though was
+that my first class had a bunch of cross class chat in the general
+(public) chat during the lesson. Silly remarks back and forth. Truth
+be told, I liked it. My second class didn&amp;#39;t although there might have
+been some of that in private chats.
+&lt;/p&gt;
+&lt;p&gt;
+I asked the classes to share what their other instructors are doing
+and using and I&amp;#39;m really interested in hearing. I&amp;#39;m also hoping that
+they&amp;#39;re open with me in terms of what&amp;#39;s working and what isn&amp;#39;t. I want
+this to be the best experience for them that we can create and I&amp;#39;m not
+so proud as to think I know how to do it and that they don&amp;#39;t know
+better.
+&lt;/p&gt;
+&lt;p&gt;
+Now to plan for the next one.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching online - a test run</title>
+      <link>https://cestlaz.github.io/post/online-testrun/</link>
+      <pubDate>Mon, 16 Mar 2020 16:49:36 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/online-testrun/</guid>
+      <description>&lt;p&gt;
+Hunter&amp;#39;s classes are still on hiatus while we figure out how we&amp;#39;re
+going to deliver instruction remotely. I have it easier than
+most. First, my students all get laptops as being part of the Daedalus
+program. This doesn&amp;#39;t mean they have great internet access or access
+at all but it does mean they have a device that can run everything we
+need them to run. I don&amp;#39;t yet know if they all have adequate internet
+access but I&amp;#39;m hoping it&amp;#39;s either not an issue or one that we can
+easily figure out.
+&lt;/p&gt;
+&lt;p&gt;
+Next, software. Again, I&amp;#39;m lucky. Zoom seems to be the best of breed
+for synchronous stuff and as faculty in the school of education, I
+have an account. The rest of the CS faculty don&amp;#39;t. The rest of Hunter
+has to use some combination of Blackboard based tools and freely
+available stuff. 
+&lt;/p&gt;
+&lt;p&gt;
+Today, we tested everything out. I had about 10 students volunteer. We
+did a Zoom meeting and tried all the feature: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+public and private chat
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+screen sharing
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+whiteboards
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+breakout rooms
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The breakout rooms were the big thing I wanted to check out. They&amp;#39;re a
+little clunky but overall pretty nice. It&amp;#39;s a bit kludgey when someone
+joins the conference after breakout rooms are formed but overall it
+worked well.
+&lt;/p&gt;
+&lt;p&gt;
+For async stuff we&amp;#39;ll mostly stick with the same tools - email, GitHub
+and GitHub classroom but I think we&amp;#39;ll also give Slack another go. My
+problem with Slack is that it didn&amp;#39;t seem to work well within the
+students day. It may work for a professional in front of their screen
+most of the day but students are in and out of class and other
+obligations. They&amp;#39;ll miss the real time flow and then have to navigate
+through a muddy thread stream to catch up.
+&lt;/p&gt;
+&lt;p&gt;
+Now with everyone working from home Slack might be a better fit. We&amp;#39;ll
+see.
+&lt;/p&gt;
+&lt;p&gt;
+Thursday I go live. 
+&lt;/p&gt;
+&lt;p&gt;
+I think the lesson I&amp;#39;m planning for my CS1 translates pretty easily to
+online but might have to work my CS2 plans. In any event we&amp;#39;ll see how
+it goes.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m sure the rest of the semester will be challenging for all of us
+but I also know it&amp;#39;s okay if we fumble through and make mistakes. &lt;a href=&#34;https://cestlaz.github.io/post/focus-to-feel-normal/&#34;&gt;It&amp;#39;s
+not all about the content&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+Would love to hear from my fellow teachers how it&amp;#39;s working with
+them. Alfred Thompson has already been blogging about &lt;a href=&#34;http://blog.acthompson.net/2020/03/teaching-from-homeday-1.html&#34;&gt;his experiences&lt;/a&gt;
+with going remote so we&amp;#39;re getting play by play from a rural private
+(Catholic) high school. I&amp;#39;ll add the NYC public college
+experience.
+&lt;/p&gt;
+&lt;p&gt;
+If you want to share how it&amp;#39;s going for you but don&amp;#39;t blog, send it as
+a long comment or do a guest post.
+&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;ll all be more isolated physically over the next few weeks so let&amp;#39;s
+share more in the digital world.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Preparing to teach Online</title>
+      <link>https://cestlaz.github.io/post/preparing-for-online/</link>
+      <pubDate>Tue, 10 Mar 2020 23:54:18 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/preparing-for-online/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;ve been seeing some tweets over the past couple of days about the
+wonders of online teaching. How it&amp;#39;s at least as good or better than
+in person or how we should have been doing it all along. 
+&lt;/p&gt;
+&lt;p&gt;
+Rubbish.
+&lt;/p&gt;
+&lt;p&gt;
+If you say that online is better than in person that says more about
+the (low) quality of your teaching than it does about the quality of
+online tech teaching resources.
+&lt;/p&gt;
+&lt;p&gt;
+I mean, it&amp;#39;s pretty clear that anything you can do online you can do
+in person since you can still avail yourselves of the same tech tools
+while you can also do the in person live stuff. Online you&amp;#39;ve only got
+online.
+&lt;/p&gt;
+&lt;p&gt;
+Looking at it another way, is an online show, concert, or sporting
+event (weather notwithstanding) ever better than the live thing?
+There&amp;#39;s something about in person even when you take away the
+connection between teacher and students and students and students that
+makes it special.
+&lt;/p&gt;
+&lt;p&gt;
+While online isn&amp;#39;t better there are times where it&amp;#39;s necessary or can
+be used to complement or enhance in person. 
+&lt;/p&gt;
+&lt;p&gt;
+Hunter hasn&amp;#39;t made any announcements about any closings due to COVID19
+but it would be foolish not to prepare. I also want to figure out if
+some of my CS Teacher Certification program can be offered remotely as
+not all interested teachers can get to campus. For these reasons and a
+few more, I think I&amp;#39;d like to try to do at least a couple of my
+classes remotely over the next few of weeks (sooner if it&amp;#39;s forced
+upon us).
+&lt;/p&gt;
+&lt;p&gt;
+Technology shouldn&amp;#39;t be a problem - all my students get a laptop as
+part of the Daedalus program. The only questions are will they have
+sufficient bandwidth if they&amp;#39;re joining from home and if they have a
+suitable location from where they can connect in.
+&lt;/p&gt;
+&lt;p&gt;
+As part of Hunter&amp;#39;s School of Education I can use Zoom and that has
+the video conferencing, chat, screen sharing and whiteboarding. The
+only thing I have to workout  is how to use the breakout room features
+for group work and to see if that can flow nicely in the class. I&amp;#39;ve
+got a couple of lessons that should work pretty well as first time
+experiments so overall it should be pretty easy to give it a go.
+&lt;/p&gt;
+&lt;p&gt;
+Will it be as good as live? No. Will it be better than nothing?
+Absolutely. Is it worth burning a live class to learn a bit about
+online - to see what can be done without extensive training and class
+prep and to see what can be leveraged in a pinch? I think so.
+&lt;/p&gt;
+&lt;p&gt;
+If it happens, I&amp;#39;ll report back.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

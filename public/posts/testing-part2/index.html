@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Testing Part 2 - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Testing Part 2" />
+<meta property="og:description" content="A few weeks ago I wrote about introducing testing in CS classes, specifically using a testing framework. In that post I talked about the plan but now I can talk about the results.  My class interleaves with Hunter&#39;s CSCI 13500 - Software Analysis and Design I class. One day each week, my students have complete a hands on lab focusing on whatever is being covered in the 13500 class." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/testing-part2/" />
+<meta property="article:published_time" content="2018-03-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-03-18T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Testing Part 2"/>
+<meta name="twitter:description" content="A few weeks ago I wrote about introducing testing in CS classes, specifically using a testing framework. In that post I talked about the plan but now I can talk about the results.  My class interleaves with Hunter&#39;s CSCI 13500 - Software Analysis and Design I class. One day each week, my students have complete a hands on lab focusing on whatever is being covered in the 13500 class."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Testing Part 2</h1>
+        </header>
+        <div class="content">
+            <p>
+A few weeks ago I wrote about <a href="https://cestlaz.github.io/posts/testing-testing/#.Wq7Ud3XwZhE">introducing testing</a> in CS classes,
+specifically using a testing framework. In that post I talked about
+the plan but now I can talk about the results.
+</p>
+<p>
+My class interleaves with Hunter&#39;s CSCI 13500 - Software Analysis and
+Design I class. One day each week, my students have complete a hands
+on lab focusing on whatever is being covered in the 13500 class. I
+decided to use one of those labs as a first foray into testing.
+</p>
+<p>
+I had each student use a classmates lab solution. They were to examine
+their solution and write a test suite for the lab using the <a href="https://github.com/onqtam/doctest">doctest</a>
+C++ testing framework.
+</p>
+<p>
+I think this proved to be a valuable exercise.
+</p>
+<p>
+Partway into the exercise, a few students independently had an issue -
+they couldn&#39;t even build the tests.
+</p>
+<p>
+The code looked right. Something like this:
+</p>
+<div class="src src-c++">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">
+</code></pre></div>
+</div>
+<p>
+It looked like at textbook example of a test case but it wouldn&#39;t even
+compile.
+</p>
+<p>
+In all cases, the original student code compiled and ran and gave the
+correct result. All the students had code similar to this:
+</p>
+<div class="src src-c++">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">
+</code></pre></div>
+</div>
+<p>
+This stumped everyone for a while - why wouldn&#39;t the test even
+compile.
+</p>
+<p>
+The answer was &#34;data types.&#34; The lab specification required that
+getValue was supposed to return a <code>double</code> but in all the problem
+cases, the student returned a <code>std::string</code>. The lab appeared to work
+since <code>std::cout</code> handles strings as well as numeric data types but
+once they put it in to a test case that actually checked types the
+problem was apparent and easy to fix.
+</p>
+<p>
+As it turns out, I was pretty excited about this – even before
+finishign the tests, the act of writing tests revealed a problem. This
+is a good thing.
+</p>
+<p>
+From there, it was pretty easy for students to finish writing the
+tests for their classmates labs.
+</p>
+<p>
+Fast forward a week. This was the first lab where I required
+the students to submit their own test suite as part of their lab. This
+didn&#39;t seem to slow anyone down by an appreciable and time will tell
+if this leads to better development practices but it certainly made my
+life easier. I was able to quickly move from repo to repo and type:
+</p>
+<div class="src src-bash">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">make tests
+./tests -s
+... watch the tests run
+make
+./main
+--- watch the program run</code></pre></div></code></pre></div>
+</div>
+<p>
+Easy peasy.
+</p>
+<p>
+Not only did it make it faster for me, it also gave me insights into
+their programs by seeing their decisions in terms of test writing.
+</p>
+<p>
+Is it a win?
+</p>
+<p>
+At the very worst, they&#39;re learning an
+industry practice and at best, it&#39;s going to help them improve as
+software engineers. Add on the fact that it&#39;s making my life as a
+teacher easier both in terms of understanding the students work and in
+terms of speed of evaluation. Sounds like a win to me.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2018-03-18</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs">#cs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/software-engineering">#software engineering</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

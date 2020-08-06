@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data structures on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/categories/data-structures/</link>
+    <description>C&#39;est la Z (data structures)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2020 13:53:43 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/categories/data-structures/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Heaps</title>
+      <link>https://cestlaz.github.io/post/heaps/</link>
+      <pubDate>Fri, 01 May 2020 13:53:43 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/heaps/</guid>
+      <description>&lt;p&gt;
+Continuing with the theme of alternate representations we just 
+started &lt;a href=&#34;https://en.wikipedia.org/wiki/Heap_(data_structure)&#34;&gt;heaps&lt;/a&gt;. Specifically &lt;a href=&#34;https://en.wikipedia.org/wiki/Binary_heap&#34;&gt;binary heaps&lt;/a&gt;. 
+binary min and max heaps.
+&lt;/p&gt;
+&lt;p&gt;
+Heaps are one of my favorite topics in CS2. If you&amp;#39;re not familiar
+with them, a binary min heap is a complete binary tree that enforces
+the heap property. By being complete we mean that every level except
+possibly the last one is full - that is 2 children. The last level is
+as filled left to right. 
+&lt;/p&gt;
+&lt;p&gt;
+The heap property for a min heap is that the key value stored in any
+node is less than the values in it&amp;#39;s children. Heaps are frequently
+used as priority queues. There are plenty of great web sites and
+videos that talk all about heaps - creating them, standard operations,
+run time etc. 
+&lt;/p&gt;
+&lt;p&gt;
+One of the things I love about them though is that they tie together
+arrays and trees. Up until now, we&amp;#39;ve been using pointers to represent
+trees. Our binary trees are represented by a class with a pointer to a
+root node. Each node has pointers to left and right
+children. Technically you could represent a heap in this way but with
+a heap you have to be able to not only navigate easily from parent to
+child but also from child to parent. This would make things a bit
+unwieldy with additional parent pointers. 
+&lt;/p&gt;
+&lt;p&gt;
+Instead consider the following tree:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/heap/heap1.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve numbered each of the nodes with the root - node 0 holding a key
+value of 10. We can easily store this tree in an array:#heaps.org#
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/heap/heap1-array.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+We have an easy relationship between parent and child. Given any node &lt;code&gt;n&lt;/code&gt;,
+its children are located at &lt;code&gt;2n+1&lt;/code&gt; and &lt;code&gt;2n+2&lt;/code&gt;. Likewise we can use
+integer division  &lt;code&gt;(n-1)/2&lt;/code&gt; to find a node&amp;#39;s parent. Easy peasy. This
+is both easy and efficient and of course we can also go from an array
+to a tree and in fact, the &lt;a href=&#34;https://en.wikipedia.org/wiki/Heapsort&#34;&gt;heapsort&lt;/a&gt; algorithm takes an arrray and
+rearranges the elements into a heap and then uses heap operations to
+sort the array all in place and in O(nlgn) time.
+&lt;/p&gt;
+&lt;p&gt;
+Here we have another cool representation. We can of course represent a
+tree by explicitly creating classes for nodes with all the required
+pointers but here we are implicitly creating a tree by using a mapping
+to relate nodes.
+&lt;/p&gt;
+&lt;p&gt;
+We could of course do this for any binary tree:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/heap/heap2.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/heap/heap2-array.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;NOTE:&lt;/strong&gt; Nodes 11 and 12 in the tree above should be 13 and 14. I messed up the
+graphviz dot source for the diagram and am too lazy to
+correct. Likewise there should be two extre cells in the array and the
+32 and 50 should be in cells 13 and 14 respectively. 
+&lt;/p&gt;
+&lt;p&gt;
+This is where the completeness comes in. The fact that a heap is
+complete and the last level is filled in left to right means that
+there aren&amp;#39;t any unused cells in the array. If we just had any old
+binary tree like the one above, we&amp;#39;re going to waste space. It could
+still at times be a useful representation.
+&lt;/p&gt;
+&lt;p&gt;
+I like talking to my students about these types of data structures and
+representations. Without considering cases like this you can get
+programmers who adhere to the saying that &amp;#34;If your only tool is a
+hammer then every problem looks like a nail.&amp;#34;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alternate Representations</title>
+      <link>https://cestlaz.github.io/post/alternate-representations/</link>
+      <pubDate>Tue, 28 Apr 2020 12:54:05 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/alternate-representations/</guid>
+      <description>&lt;p&gt;
+There was a comment on my last post about &lt;a href=&#34;https://cestlaz.github.io/post/arbitrary-trees/&#34;&gt;arbitary trees&lt;/a&gt; on Reddit
+talking about how this type of data structure was a hold over from the
+old days when computer resources were more limited. Nowadays having a
+list of children makes more sense. The comment was of course correct
+but I still think it&amp;#39;s worth teaching representations like the one I
+spoke of in my &lt;a href=&#34;https://cestlaz.github.io/post/arbitrary-trees/&#34;&gt;last post&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+Looking at interesting and different ways of representing data and
+modeling solutions is one of the things that separates programmers or
+coders from computer scientists and software engineers. I&amp;#39;m not
+talking about commonly accepted definitions or advanced classwork or
+theory and mathy stuff. I&amp;#39;m talking about how you approach a problem. 
+&lt;/p&gt;
+&lt;p&gt;
+To me, the coder or programmer is someone who has learned rudimentary
+coding prowess but learned via rote example. This is typical of a code
+school graduate or many self taught programmers. This is not to say
+that people who learned this way are not computer scientists at heart
+nor that they don&amp;#39;t have the ability to think deeply about problems
+but rather that their training was superficial - usually to get them
+to market quickly. 
+&lt;/p&gt;
+&lt;p&gt;
+I know many people who started on their own following a book or mooc
+or code school and grew beyond those basics but we&amp;#39;ve also seen many
+&amp;#34;coders&amp;#34; who brute force using the same techniques regardless of
+appropriateness. I can&amp;#39;t tell you how many times I&amp;#39;ve seen an SQL
+database used inappropriately as a flat file store or forcing
+relationships when not optimal in something like MongoDB. 
+&lt;/p&gt;
+&lt;p&gt;
+We don&amp;#39;t want our students to merely parrot the solution that we went
+over in class. We want them to consider the problem at hand and all
+the tools in their tool belt and come up with what makes sense. 
+&lt;/p&gt;
+&lt;p&gt;
+I like the arbitrary tree example as it uses the same internal
+structure as a binary tree does: 
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+For a binary search tree pointer1 is left and pointer 2 is right. For
+an arbitrary tree they represent first child and next sibling. The
+same structure can also be used for a doubly linked list with previous
+and next or a skip list. It&amp;#39;s all about creatively using the tools at
+hand. 
+&lt;/p&gt;
+&lt;p&gt;
+There are a number of lessons during which we can stretch our students
+thinking in terms of data representations in our early classes. One is
+when we can augment a data structure to avoid special cases. I wrote
+about this when solving a maze or the &lt;a href=&#34;https://cestlaz.github.io/posts/2014-02-26-change-the-data/&#34;&gt;knight&amp;#39;s tour&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Those problems are also great place to talk about implicit data
+structures. When we do our maze solver we talk about state space
+search. The idea that there&amp;#39;s this huge graph where each node is the
+a potential state of the maze and the edges represent how we can move
+from state to state:#alternate-representations.org#
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/mazestates.png&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+The above graph can be considered an implicit data structure - it
+never actually exists as a whole in our program. Our solver usually
+uses a two dimensional array to represent a specific state of our
+maze - that is, one node of the graph. We change the array as we make
+and return from recursive calls. That recursion creates and destroys
+nodes in our graph. At any point in time, each layer of stack in the
+recursion holds one node in our graph with the top of the stack being
+our current state but we never actually create or internally represent
+the full graph. It&amp;#39;s an ephemeral implicit data structure.
+&lt;/p&gt;
+&lt;p&gt;
+Finally, one very early opportunity to discuss these types of ideas
+come when you use an array as a set of buckets where the index is the
+value and the entry is the count. It&amp;#39;s pretty simple but a very
+different way of using an array or list when all you&amp;#39;ve seen is using
+it to store actual items. I like doing this in the context of a
+&lt;a href=&#34;https://cestlaz.github.io/posts/2013-03-23-who_won_the_election-quadratic_to_linear_time/&#34;&gt;frequency&lt;/a&gt; lesson.
+&lt;/p&gt;
+&lt;p&gt;
+In any event, it&amp;#39;s sometimes worthwhile to look at solutions that may
+no longer be optimal - they can be great triggers of both student
+thought and discussion.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Arbitrary Trees</title>
+      <link>https://cestlaz.github.io/post/arbitrary-trees/</link>
+      <pubDate>Mon, 27 Apr 2020 18:45:50 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/arbitrary-trees/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s been 10 days from my last post. Not really a big break for me
+historically but certainly a big one given how much I&amp;#39;ve been posting
+this year. 
+&lt;/p&gt;
+&lt;p&gt;
+Been under the weather for the past couple of weeks dealing with
+COVID-19. Haven&amp;#39;t had super bad symptoms and as symptoms have been
+getting fewer and less severe I&amp;#39;m hoping I&amp;#39;m close to a full recovery.
+&lt;/p&gt;
+&lt;p&gt;
+In any event, I&amp;#39;m feeling good enough for a quick post.
+&lt;/p&gt;
+&lt;p&gt;
+In my data structures class we&amp;#39;ve been working on binary trees. Most
+of the unit is focused on &lt;a href=&#34;https://en.wikipedia.org/wiki/Binary_search_tree&#34;&gt;Binary Search Trees&lt;/a&gt;. They used to be a big
+part of the B part of the old APCS-AB and are still a mainstay of
+college CS2 classes. 
+&lt;/p&gt;
+&lt;p&gt;
+As usual, we covered all the basics. Creation, insertion, search,
+traversal, and deletion. We discovered the run times and how a tree
+structure can yield lgn behavior but can also degenerate to linear. We
+also give a preview of more advanced data structures like red/back and
+2-3 trees that address these issues (not to mention things like BTrees
+and Splay trees).
+&lt;/p&gt;
+&lt;p&gt;
+One side topic I always like talking about during this unit though are
+arbitrary trees. That is, trees where each node can have an arbitrary
+number of children. Students usually start by creating nodes with an
+array of children and then sometimes a linked list of children but I
+like discussing something simpler. A tree where in each node you hold
+two pointers - a pointer to the first child and a pointer to the next
+sibling. I like this because internally it&amp;#39;s the same as a binary
+search tree where you also have two pointers in each node a left and a
+right. Same &amp;#34;physical&amp;#34; representation but two very different
+variations.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/arbtree.png&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+The image on the left is the actual arbitrary tree and the one on the
+right shows the internal representation.
+&lt;/p&gt;
+&lt;p&gt;
+In terms of applications, the file system is a
+great example of an arbitrary tree. Another one that I like even more
+is the DOM representation of a web page. That&amp;#39;s nice because there are
+Javascript functions to get the next sibling.
+&lt;/p&gt;
+&lt;p&gt;
+I put a short video together for my class. Here it is in case anyone
+is interested. It&amp;#39;s code agnostic so would be suitable for an APCS-A
+class that also covers data structures.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/K1lR3ssgxLc&#34;&gt;https://www.youtube.com/embed/K1lR3ssgxLc&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

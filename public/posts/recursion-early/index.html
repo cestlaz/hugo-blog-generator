@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Teaching recursion early? Make sure to use a good tool. - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Teaching recursion early? Make sure to use a good tool." />
+<meta property="og:description" content="I replied this tweet yesterday and thought I&#39;d expound a bit. We started kids using scheme on 10th grade at stuy so did recursion early. Not everyone got all of it but it think it made things much easier for those that you more CS later.
+&mdash; Mike Zamansky (@zamansky) May 29, 2018   We introduced recursion very early in our intro course at Stuy and I think it worked well." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/recursion-early/" />
+<meta property="article:published_time" content="2018-05-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-05-30T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Teaching recursion early? Make sure to use a good tool."/>
+<meta name="twitter:description" content="I replied this tweet yesterday and thought I&#39;d expound a bit. We started kids using scheme on 10th grade at stuy so did recursion early. Not everyone got all of it but it think it made things much easier for those that you more CS later.
+&mdash; Mike Zamansky (@zamansky) May 29, 2018   We introduced recursion very early in our intro course at Stuy and I think it worked well."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Teaching recursion early? Make sure to use a good tool.</h1>
+        </header>
+        <div class="content">
+            <p>
+I replied this tweet yesterday and thought I&#39;d expound a bit.
+</p>
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We started kids using scheme on 10th grade at stuy so did recursion early. Not everyone got all of it but it think it made things much easier for those that you more CS later.</p>&mdash; Mike Zamansky (@zamansky) <a href="https://twitter.com/zamansky/status/1001508028439519233?ref_src=twsrc%5Etfw">May 29, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>
+We introduced recursion very early in our intro course at Stuy and I
+think it worked well. In that course we started by using Racket (nee
+Scheme) as the first programming unit. Originally we
+started the kids out first using NetLogo or StarLogo and followed with
+Scheme but after a few years we switched the order.
+</p>
+<p>
+I wouldn&#39;t always recommend Scheme for a first course and in fact
+frequently don&#39;t but given how the Stuy course was introduced and
+developed it made sense and worked.
+</p>
+<p>
+Was it worth doing things this way? I think so. Prior to that intro
+course becoming a requirement I got to see students coming in from
+different pathways to APCS. Some came in raw with zero formal
+experience, some self taught, some through that intro course and some
+having taken another more traditional intro programming course or
+experience. The kids who started on Scheme had no more difficulty
+mastering loops and iteration but had an easier time getting to the
+more advanced recursive techniques. This wasn&#39;t a surprise - it wasn&#39;t
+their first rodeo. This also jived with reports I read at the time
+that felt that when students did recursion first, iteration was just
+as easy but when they did iteration first, recursion was harder.
+</p>
+<p>
+You can of course make a strong case that recursion isn&#39;t necessary
+for a kid that isn&#39;t going to study more CS. I&#39;ll merely argue that
+what we did at Stuy worked with that population and I wouldn&#39;t change
+it. At the same time, I&#39;ve helped a number of teachers design classes and programs
+where we agreed that recursion first was not the way to go.
+</p>
+<p>
+In any event, it wasn&#39;t that I specifically wanted to do recursion
+early but rather, there were a number of things I wanted to do with
+the class for which Scheme made sense and recursion was just one of
+them.
+</p>
+<p>
+Some reasons to like (or for some, to dislike) Scheme early:
+</p>
+<ul>
+<li>
+<p>
+It&#39;s functional – everything is a function. While this is
+</p>
+</li>
+</ul>
+<p>
+technically not true, we can fudge it a bit at this level. You put
+things in parens so instead of add(a,b) you write (add a b) or
+really (+ a b). You can also do (+ a b c). Things that would be
+statements are also functions: (if Booelean TruePart FalsePart) is the <strong>if</strong>
+statement. For example <code>(if (&gt;= a b) a b)</code> returns the larger of a
+and b.
+</p>
+<ul>
+<li>
+<p>
+Because it&#39;s functional it avoids the issue kids have with <code>=</code> being
+</p>
+</li>
+</ul>
+<p>
+for assignment rather than comparison.
+</p>
+<ul>
+<li>
+<p>
+It has great support for list processing.
+</p>
+</li>
+<li>
+<p>
+Recursion is much more natural.
+</p>
+</li>
+<li>
+<p>
+It&#39;s a super simple language with simple rules and a simple, small  syntax
+</p>
+</li>
+</ul>
+<p>
+Of course, Scheme isn&#39;t perfect and some people dislike the above
+reasons. It&#39;s also easy to come up with a number of other good reasons
+not to use a language like Scheme.
+</p>
+<p>
+On the recursion front, it makes things much easier. There are no
+loops so recursion develops as a natural form for repetition:
+</p>
+<div class="src src-scheme">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scheme" data-lang="scheme"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scheme" data-lang="scheme">(<span style="color:#66d9ef">define </span>f (<span style="color:#66d9ef">lambda </span>(<span style="color:#a6e22e">x</span>)
+(* x  (<span style="color:#a6e22e">f</span> (- x <span style="color:#ae81ff">1</span>)))))</code></pre></div></code></pre></div>
+</div>
+<p>
+This defines a function that takes one parameter and returns
+<code>x*(x-1)*(x-2)...</code>. It repeats, but never ends. This leads to adding
+a base case:
+</p>
+<div class="src src-scheme">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scheme" data-lang="scheme"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scheme" data-lang="scheme">(<span style="color:#66d9ef">define </span>f (<span style="color:#66d9ef">lambda </span>(<span style="color:#a6e22e">x</span>)
+(<span style="color:#66d9ef">if </span>(&lt; x <span style="color:#ae81ff">2</span>)
+<span style="color:#ae81ff">1</span>
+(* x (<span style="color:#a6e22e">f</span> (- x <span style="color:#ae81ff">1</span>))))))</code></pre></div></code></pre></div>
+</div>
+<p>
+Which is your basic factorial function.
+</p>
+<p>
+Since this use of recursion for repetition  develops naturally as we
+introduce language concepts it&#39;s easier for kids to get their heads
+around it as opposed to when they&#39;ve seen loops already and have an
+&#34;easier&#34; alternative. You can make the case that you could introduce
+recursion this way in a language with loops like Python but once loops
+are available and particularly when loops are idiomatic, students will
+find them and getting them to think recursively will be more
+difficult.
+</p>
+<p>
+Scheme and most other functional programming languages also have
+strong support for lists and list recursion. This means you don&#39;t have
+to limit yourself to mathy problems. Think about a todo list:
+</p>
+<ol>
+<li>
+<p>
+Go to the market
+</p>
+</li>
+<li>
+<p>
+Buy a gallon of milk
+</p>
+</li>
+<li>
+<p>
+If they have eggs, get a dozen (heh heh)
+</p>
+</li>
+<li>
+<p>
+Go home
+</p>
+</li>
+</ol>
+<p>
+Processing a todo list is really a recursive problem:
+</p>
+<ol>
+<li>
+<p>
+If the list is empty you&#39;re done
+</p>
+</li>
+<li>
+<p>
+Take the first item off  the list
+</p>
+</li>
+<li>
+<p>
+Do it
+</p>
+</li>
+<li>
+<p>
+Recurse
+</p>
+</li>
+</ol>
+<p>
+Once you start working with lists, you can play with all sorts of
+recursive examples.
+</p>
+<p>
+At the end of the Scheme unit the big project is creating a sentence
+generator. The kids don&#39;t know it but they&#39;re learning about grammars
+and in fact are writing a recursive descent parser - they just think
+they&#39;re writing a program that creates silly sentences. It&#39;s a really
+nice project that uses recursion in a way that&#39;s different and I&#39;d
+argue more fun and interesting than the usual approaches.
+</p>
+<p>
+I chose Scheme for a variety of reasons. I also chose NetLogo for
+specific reasons. Unlike Scheme (or most other popular learning
+languages), NetLogo is really all about agent based parallel
+processing. There are concepts that we can explore easily and in depth
+with NetLogo that would be tremendously difficult in any other
+language and at the same time, there are things that are easy to
+explore in other languages that Netlogo doesn&#39;t lend itself to.
+</p>
+<p>
+So, in the end, this post really isn&#39;t about when to teach
+recursion. It&#39;s more about how languages lend themselves to solving
+different problems and teaching different concepts in different
+ways. If all you have is a hammer, everything looks like a
+nail. Fortunately, we can do better.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2018-05-30</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/recursion">#recursion</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/scheme">#scheme</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs">#cs</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

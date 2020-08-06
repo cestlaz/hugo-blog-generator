@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Grading Autograders - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Grading Autograders" />
+<meta property="og:description" content="div.center {text-align:center;}   The other day codehs made an announcement about their new autograder. Fellow CS Teaching veteran Alfred Thompson had his say up on his blog where he talked about Mark Guzdial&#39;s comment on autograders leading to less creative assignments.  I very much agree that autograders, due to their rigidness lend themselves to less creative projects, but thought I&#39;d write up a few of my own thoughts on autograders." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/2015-10-16-graders/" />
+<meta property="article:published_time" content="2015-10-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2015-10-16T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Grading Autograders"/>
+<meta name="twitter:description" content="div.center {text-align:center;}   The other day codehs made an announcement about their new autograder. Fellow CS Teaching veteran Alfred Thompson had his say up on his blog where he talked about Mark Guzdial&#39;s comment on autograders leading to less creative assignments.  I very much agree that autograders, due to their rigidness lend themselves to less creative projects, but thought I&#39;d write up a few of my own thoughts on autograders."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Grading Autograders</h1>
+        </header>
+        <div class="content">
+            <!DOCTYPE html>
+
+
+<style>
+div.center {text-align:center;}
+</style>
+
+<p>
+The other day codehs made an announcement about their new
+<a href="https://medium.com/codehs-product-updates/these-are-the-autograders-you-ve-been-looking-for-bda0fa8fd8a">autograder</a>. Fellow CS Teaching veteran Alfred Thompson had his say up
+on his <a href="http://blog.acthompson.net/2015/10/autogradersfor-good-or-for-evil.html">blog</a> where he talked about <a href="https://computinged.wordpress.com/">Mark Guzdial</a>'s comment on
+autograders leading to less creative assignments.
+</p>
+
+<p>
+I very much agree that autograders, due to their rigidness lend
+themselves to less creative projects, but thought I'd write up a few
+of my own thoughts on autograders.
+</p>
+
+<p>
+First and foremost, <b>I HATE GRADING</b>. It's one of the worst parts of
+my job and grading projects is <b>really</b> hard to do well.
+</p>
+
+<p>
+You'd think an autograder would be a panacea.
+</p>
+
+<p>
+It's not.
+</p>
+
+<p>
+In addition to them being very nit-picky &#x2013; got an extra space in your
+output? <b>FAIL</b>. Wrong number of significant digits? <b>FAIL</b>. Didn't
+handle all those "trick" cases? <b>FAIL</b>.
+</p>
+
+<p>
+Since autograders typically check your output against a correct
+solution, it's going to be limited in what it can grade right and
+wrong and what's more, it's very limited in the feedback it can give.
+</p>
+
+<p>
+These are some of the limitations that lead to less creative
+projects but that's not my beef with the autograders.
+</p>
+
+<p>
+Why do we give assignments? To assess students? Yes, but also to
+inform our instruction. We need to grade the assignments ourselves
+because those assignments tell us about our students and teach us how
+best to work with them. What's more, we really don't just want to see
+that finished product, but rather, we want to see the process as
+well. Autograders can't help here.
+</p>
+
+<p>
+I do use autograders &#x2013; <a href="http://codingbat.com/">codingbat.com</a> and our own locally developed
+<a href="http://bert.stuy.edu/pbrooks/SchemingBat/scheming.py">Scheming Bat.</a> I use them for small homeworks and class assignments
+early on. For bigger stuff, I do it myself.
+</p>
+
+<p>
+For advanced classes (AP and beyond) we're all about the GitHub. Not
+only can I grab the projects at any time but I can also see how
+projects were developed - logs, diffs, <a href="https://github.com/vynl/vynl-v0/graphs/contributors">graphs</a>. All give me insight
+into how the students working. Add in class lab time when I get to
+interact with the kids and I've got a good sense of my student
+computer scientists.
+</p>
+
+<p>
+In our intro courses, where they're not ready for GitHub, we use
+Dropbox for sharing and collecting assignments. Not quite as good but
+we can still see a lot.
+</p>
+
+<p>
+At the end of the day, if a teacher doesn't look at a student's work
+directly, a teacher isn't going to know everything there is to know
+about a student. I can't imagine a top English teacher not reading a
+student's essays. We're no different.
+</p>
+
+<p>
+It's time consuming and generally no fun but it's a big part of <b>real</b>
+education.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2015-10-16</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/policy">#policy</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

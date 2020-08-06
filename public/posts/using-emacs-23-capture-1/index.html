@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Using Emacs - 23 - Org Capture 1 - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Using Emacs - 23 - Org Capture 1" />
+<meta property="og:description" content="Org mode has an amazing feature - org-capture. I only started using it recently but it&#39;s really awesome.  What took me so long?  Probably that the manual seemed a little intimidating.  It really isn&#39;t hard, though. Combined with what I&#39;ll go over in the next video and post (and a future one for Google calendar sync) it&#39;s what I use for:    recording blog ideas    managing bookmarks    taking short Notes    managing my calendar." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/using-emacs-23-capture-1/" />
+<meta property="article:published_time" content="2016-11-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-11-29T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Emacs - 23 - Org Capture 1"/>
+<meta name="twitter:description" content="Org mode has an amazing feature - org-capture. I only started using it recently but it&#39;s really awesome.  What took me so long?  Probably that the manual seemed a little intimidating.  It really isn&#39;t hard, though. Combined with what I&#39;ll go over in the next video and post (and a future one for Google calendar sync) it&#39;s what I use for:    recording blog ideas    managing bookmarks    taking short Notes    managing my calendar."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Using Emacs - 23 - Org Capture 1</h1>
+        </header>
+        <div class="content">
+            <p>
+Org mode has an amazing feature - <strong><strong>org-capture</strong></strong>. I only started
+using it recently but it&#39;s really awesome.
+</p>
+<p>
+What took me so long?
+</p>
+<p>
+Probably that the manual seemed a little intimidating.
+</p>
+<p>
+It really isn&#39;t hard, though. Combined with what I&#39;ll go over in the
+next video and post (and a future one for Google calendar sync) it&#39;s
+what I use for:
+</p>
+<ul>
+<li>
+<p>
+recording blog ideas
+</p>
+</li>
+<li>
+<p>
+managing bookmarks
+</p>
+</li>
+<li>
+<p>
+taking short Notes
+</p>
+</li>
+<li>
+<p>
+managing my calendar.
+</p>
+</li>
+</ul>
+<p>
+I use the binding:
+</p>
+<div class="src src-emacs-lisp">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(global-set-key (kbd <span style="color:#e6db74">&#34;C-c c&#34;</span>)
+<span style="color:#e6db74">&#39;org-capture</span>)</code></pre></div></code></pre></div>
+</div>
+<p>
+By default, running org-capture brings up a form to capture a &#34;task&#34;
+but things get really cool when you start making your own capture
+templates. With capture templates, you can speed up recording
+information and then tell org-mode to store it where you want it.
+</p>
+<p>
+Here are my template settings.
+</p>
+<div class="src src-emacs-lisp">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(setq org-capture-templates
+<span style="color:#f92672">&#39;</span>((<span style="color:#e6db74">&#34;a&#34;</span> <span style="color:#e6db74">&#34;Appointment&#34;</span> entry (file  <span style="color:#e6db74">&#34;~/Dropbox/orgfiles/gcal.org&#34;</span> <span style="color:#e6db74">&#34;Appointments&#34;</span>)
+<span style="color:#e6db74">&#34;* TODO %?\n:PROPERTIES:\n\n:END:\nDEADLINE: %^T \n %i\n&#34;</span>)
+(<span style="color:#e6db74">&#34;n&#34;</span> <span style="color:#e6db74">&#34;Note&#34;</span> entry (file+headline <span style="color:#e6db74">&#34;~/Dropbox/orgfiles/notes.org&#34;</span> <span style="color:#e6db74">&#34;Notes&#34;</span>)
+<span style="color:#e6db74">&#34;* Note %?\n%T&#34;</span>)
+(<span style="color:#e6db74">&#34;l&#34;</span> <span style="color:#e6db74">&#34;Link&#34;</span> entry (file+headline <span style="color:#e6db74">&#34;~/Dropbox/orgfiles/links.org&#34;</span> <span style="color:#e6db74">&#34;Links&#34;</span>)
+<span style="color:#e6db74">&#34;* %? %^L %^g \n%T&#34;</span> :prepend <span style="color:#66d9ef">t</span>)
+(<span style="color:#e6db74">&#34;b&#34;</span> <span style="color:#e6db74">&#34;Blog idea&#34;</span> entry (file+headline <span style="color:#e6db74">&#34;~/Dropbox/orgfiles/i.org&#34;</span> <span style="color:#e6db74">&#34;Blog Topics:&#34;</span>)
+<span style="color:#e6db74">&#34;* %?\n%T&#34;</span> :prepend <span style="color:#66d9ef">t</span>)
+(<span style="color:#e6db74">&#34;t&#34;</span> <span style="color:#e6db74">&#34;To Do Item&#34;</span> entry (file+headline <span style="color:#e6db74">&#34;~/Dropbox/orgfiles/i.org&#34;</span> <span style="color:#e6db74">&#34;To Do Items&#34;</span>)
+<span style="color:#e6db74">&#34;* %?\n%T&#34;</span> :prepend <span style="color:#66d9ef">t</span>)
+(<span style="color:#e6db74">&#34;j&#34;</span> <span style="color:#e6db74">&#34;Journal&#34;</span> entry (file+datetree <span style="color:#e6db74">&#34;~/Dropbox/journal.org&#34;</span>)
+<span style="color:#e6db74">&#34;* %?\nEntered on %U\n  %i\n  %a&#34;</span>)
+(<span style="color:#e6db74">&#34;s&#34;</span> <span style="color:#e6db74">&#34;Screencast&#34;</span> entry (file <span style="color:#e6db74">&#34;~/Dropbox/orgfiles/screencastnotes.org&#34;</span>)
+<span style="color:#e6db74">&#34;* %?\n%i\n&#34;</span>)))</code></pre></div></code></pre></div>
+</div>
+<p>
+Let&#39;s look at the <strong><strong>Blog</strong></strong> entry:
+</p>
+<div class="src src-emacs-lisp">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(<span style="color:#e6db74">&#34;b&#34;</span> <span style="color:#e6db74">&#34;Blog idea&#34;</span> entry (file+headline <span style="color:#e6db74">&#34;~/Dropbox/orgfiles/i.org&#34;</span> <span style="color:#e6db74">&#34;Blog Topics:&#34;</span>)
+<span style="color:#e6db74">&#34;* %?\n%T&#34;</span> :prepend <span style="color:#66d9ef">t</span>)</code></pre></div></code></pre></div>
+</div>
+<p>
+It&#39;s a list with a bunch of options. The first string <strong><strong>b</strong></strong> is the
+key to type to select this template, <strong><strong>Blog idea</strong></strong> is the actual name
+for this template.
+</p>
+<p>
+The next item, <strong><strong>entry</strong></strong> describes the type of template you&#39;re
+creating. <strong><strong>entry</strong></strong> says you&#39;re going to create an org node with a
+headline which can then be added to an org-file. You can also have
+your template create things like an org list <strong><strong>item</strong></strong> a checkbox
+<strong><strong>checkitem</strong></strong> or even <strong><strong>plain</strong></strong> text. You can see the full set of
+options <a href="http://orgmode.org/manual/Template-elements.html#Template-elements">here</a>.
+</p>
+<p>
+Next, in parentheses, you have the target - where to store the captured
+info. The <strong><strong>Blog idea</strong></strong> template says <strong><strong>file+headline</strong></strong> followed by a
+filename in quotes and a headline in quotes. This says to store the
+new org heading you&#39;re capturing in the file
+&#34;~/Dropbox/orgfiles/i.org&#34; under the heading &#34;Blog Topics:&#34; Contrast
+this to the <strong><strong>appointments</strong></strong> template which just specifies <strong><strong>file</strong></strong>
+and a filename. The <strong><strong>appointments</strong></strong> template will just append the new
+appointment to its specified file whereas <strong><strong>Blog idea</strong></strong> will prepend
+(due to the <strong><strong>:prepend</strong></strong> option at the end of the template) to the
+&#34;Blog Topics:&#34; heading in <strong><strong>i.org</strong></strong>.
+</p>
+<p>
+After this we have the actual template: &#34;* %?\n%T&#34; - the %? and %T are
+placeholders for substitutions. The <strong><strong>%T</strong></strong> prompts for a date with a
+timestamp and the <strong><strong>%?</strong></strong> is where to leave the cursor for final input
+before saving the capture.
+</p>
+<p>
+Finally, <strong><strong>:prepend</strong></strong> and other options can be found at the above link.
+</p>
+<p>
+All the substitutions can be found in <a href="http://orgmode.org/manual/Template-expansion.html#Template-expansion">the docs</a>.
+</p>
+<p>
+Once you&#39;ve set up your templates, it&#39;s quick and easy to capture
+information.
+</p>
+<p>
+This video shows the basics. The next one shows how to pop up a
+capture even when you&#39;re not in emacs and how I use org-capture to
+maintain my web bookmarks.
+</p>
+<p>
+More information on capture templates can be found <a href="http://orgmode.org/manual/Capture-templates.html">here</a>.
+</p>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/-wPfxuxIfeU" frameborder="0" allowfullscreen></iframe>
+<p>
+Relevant links:
+</p>
+<ul>
+<li>
+<p>
+Video series overview page:
+</p>
+</li>
+<li>
+<p>
+<a href="http://cestlaz.github.io/stories/emacs">http://cestlaz.github.io/stories/emacs</a>
+</p>
+</li>
+<li>
+<p>
+Code:
+</p>
+</li>
+<li>
+<p>
+<a href="https://github.com/zamansky/using-emacs/tree/master"><a href="https://github.com/zamansky/using-emacs/tree/master">https://github.com/zamansky/using-emacs/tree/master</a></a>
+</p>
+</li>
+</ul>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2016-11-29</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/emacs">#emacs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

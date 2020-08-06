@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Using Emacs - 8 - Autocomplete - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Using Emacs - 8 - Autocomplete" />
+<meta property="og:description" content="Out of the box, Emacs supports various types of completion.  Tab completion for filenames and commands basically work right out of the box and Emacs has built in modes like Abbrev, Hippie Expand, and Dabbrev provide a manner of completion for in buffer text.  I briefly show Dabbrev (Dynamic Abbrevs) in the video and if you&#39;re interested in the others, follow the links.  We saw ow the built in Ido mode and third party packages like Ivy, which I prefer, and Helm make for better completions on functions, filenames, and the like and Emacs also has third party packages for in buffer completion." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/using-emacs-8-autocomplete/" />
+<meta property="article:published_time" content="2016-06-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-06-26T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Emacs - 8 - Autocomplete"/>
+<meta name="twitter:description" content="Out of the box, Emacs supports various types of completion.  Tab completion for filenames and commands basically work right out of the box and Emacs has built in modes like Abbrev, Hippie Expand, and Dabbrev provide a manner of completion for in buffer text.  I briefly show Dabbrev (Dynamic Abbrevs) in the video and if you&#39;re interested in the others, follow the links.  We saw ow the built in Ido mode and third party packages like Ivy, which I prefer, and Helm make for better completions on functions, filenames, and the like and Emacs also has third party packages for in buffer completion."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Using Emacs - 8 - Autocomplete</h1>
+        </header>
+        <div class="content">
+            <p>
+Out of the box, Emacs supports various types of completion.
+</p>
+<p>
+Tab completion for filenames and commands basically work right out of
+the box and Emacs has built in modes like <a href="https://www.emacswiki.org/emacs/AbbrevMode">Abbrev</a>, <a href="https://www.emacswiki.org/emacs/HippieExpand">Hippie Expand</a>, and
+<a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Dynamic-Abbrevs.html">Dabbrev</a> provide a manner of completion for in buffer text.
+</p>
+<p>
+I briefly show Dabbrev (Dynamic Abbrevs) in the video and if you&#39;re
+interested in the others, follow the links.
+</p>
+<p>
+We saw ow the built in Ido mode and third party packages like Ivy,
+which I prefer, and Helm make for better completions on functions,
+filenames, and the like and Emacs also has third party packages for in
+buffer completion.
+</p>
+<p>
+The two main contenders are <a href="https://github.com/auto-complete/auto-complete">auto-complete Mode</a> and <a href="http://company-mode.github.io/%0A">company Mode</a>. I use
+auto-complete, others swear by company. The video shows the basics of
+auto-complete mode but check both out and decide for yourself.
+</p>
+<p>
+If you feel strongly about one or the other, please share in the
+comments.
+</p>
+<p>
+Here&#39;s a basic configuration:
+</p>
+<div class="src src-emacs-lisp">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(use-package auto-complete
+:ensure <span style="color:#66d9ef">t</span>
+:init
+(progn
+(ac-config-default)
+(global-auto-complete-mode <span style="color:#66d9ef">t</span>)
+))</code></pre></div></code></pre></div>
+</div>
+<p>
+We&#39;ll modify this as move along in the series.
+</p>
+<p>
+Here&#39;s the video:
+</p>
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/5FBVhdyU4dA" frameborder="0" allowfullscreen></iframe>
+<p>
+Relevant links:
+</p>
+<ul>
+<li>
+<p>
+Autocomplete home page: <a href="https://github.com/auto-complete/auto-complete">https://github.com/auto-complete/auto-complete</a>
+</p>
+</li>
+<li>
+<p>
+Autocomplete manual: <a href="http://auto-complete.org/doc/manual.html">http://auto-complete.org/doc/manual.html</a>
+</p>
+</li>
+<li>
+<p>
+Video series overview page:
+</p>
+</li>
+<li>
+<p>
+<a href="http://cestlaz.github.io/stories/emacs">http://cestlaz.github.io/stories/emacs</a>
+</p>
+</li>
+<li>
+<p>
+Code for this video
+</p>
+</li>
+<li>
+<p>
+<a href="https://github.com/zamansky/using-emacs/tree/lesson-8-autocompete">https://github.com/zamansky/using-emacs/tree/lesson-8-autocompete</a>
+</p>
+</li>
+<li>
+<p>
+Complete code built up over all videos:
+</p>
+</li>
+<li>
+<p>
+<a href="https://github.com/zamansky/using-emacs/tree/master"><a href="https://github.com/zamansky/using-emacs/tree/master">https://github.com/zamansky/using-emacs/tree/master</a></a>
+</p>
+</li>
+</ul>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2016-06-26</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/emacs">#emacs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computational thinking on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/categories/computational-thinking/</link>
+    <description>C&#39;est la Z (computational thinking)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Aug 2019 16:32:17 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/categories/computational-thinking/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Is Computation Thinking a new idea or a new opportunity</title>
+      <link>https://cestlaz.github.io/post/is-ct-new/</link>
+      <pubDate>Sun, 25 Aug 2019 16:32:17 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/is-ct-new/</guid>
+      <description>&lt;p&gt;
+Saw this earlier today.
+&lt;/p&gt;
+  &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Kind of
+works, doesn’t it?&lt;br&gt;&lt;br&gt;Does every discipline do this — decide that
+the way experts think in that discipline is a special kind of
+“thinking” or “reasoning” or “literacy” that everyone really needs and
+that we should be teaching to all our children? &lt;a
+href=&#34;https://t.co/cvNvpOMjZZ&#34;&gt;pic.twitter.com/cvNvpOMjZZ&lt;/a&gt;&lt;/p&gt;&amp;mdash;
+Mark Guzdial (@guzdial) &lt;a
+href=&#34;https://twitter.com/guzdial/status/1165624814759043073?ref_src=twsrc%5Etfw&#34;&gt;August
+25, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async
+src=&#34;https://platform.twitter.com/widgets.js&#34;
+charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;&lt;a href=&#34;https://pbs.twimg.com/media/EC0hlfKXsAIjlK9?format=jpg&amp;amp;amp;name=medium&#34;&gt;https://pbs.twimg.com/media/EC0hlfKXsAIjlK9?format=jpg&amp;amp;amp;name=medium&lt;/a&gt;&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+In a talk Mark gave last year, he also talked about &amp;#34;historical
+thinking&amp;#34; and other &amp;#34;thinkings.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+This relates to something I&amp;#39;ve thought for a long time about CS and
+computational thinking in the early grades. Computational Thinking,
+whatever that actually is seems to be the route that CS is taking in
+the early grades. Young students aren&amp;#39;t going to be coding up
+quicksorts and many elementary schools don&amp;#39;t have the hardware
+resources needed anyway. Still, by approaching things through the CT
+lens maybe we can lay down a foundation for the future. Along the way,
+maybe some of these CT ideas can support students as they explore
+other subject areas. 
+&lt;/p&gt;
+&lt;p&gt;
+This is all old ground for CT but what&amp;#39;s this new opportunity?
+&lt;/p&gt;
+&lt;p&gt;
+Well, as it turns out, some of what we&amp;#39;d now consider computational
+thinking has been going on in elementary schools for years. It&amp;#39;s been
+going on under the guise of &amp;#34;logic,&amp;#34; &amp;#34;problem solving,&amp;#34; and other
+headings. More often than not, teachers in better resourced schools
+where there there is less standardized test pressure, teachers can
+spend time on these. There are also CT concepts like pattern matching
+and abstraction that are present in elementary school lessons but not
+necessarily labeled as such.
+&lt;/p&gt;
+&lt;p&gt;
+Maybe computational thinking isn&amp;#39;t all brand new. Maybe we&amp;#39;re
+rebranding some ideas from other &amp;#34;thinkings.&amp;#34; Problem solving and
+logic belong to many fields. This is all okay. All
+those other &amp;#34;thinkings&amp;#34; are in established fields. The way we do
+history, math, science, etc. in our schools is well established and
+it&amp;#39;s left us, in many cases, with a tale of two cities. The haves and
+the have nots.
+&lt;/p&gt;
+&lt;p&gt;
+Now we have CS and CT and all the related buzz. Even if the CT we can
+do in elementary schools isn&amp;#39;t new, even if it overlaps with
+historical thinking or the others, we now have a new opportunity to
+change up how we do things in the early grades and maybe we can reduce
+the distance between those have and have nots. Let&amp;#39;s see if we can
+take advantage of this opportunity.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

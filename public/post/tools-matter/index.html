@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Tools matter when teaching (and learning) - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Tools matter when teaching (and learning)" />
+<meta property="og:description" content="One of our teacher certification cohort members asked for some help on our Slack the other day. It was about a side project - he was learning him so Javascript. It&#39;s always very cool to see teachers exploring things that can help with their craft on their own.  The whole situation reminded me about how important good tooling is and why, in spite of its popularity, javascript has some severe issues as a learning language and I&#39;m a guy that actually likes javascript." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/tools-matter/" />
+<meta property="article:published_time" content="2020-07-22T07:52:24-04:00" />
+<meta property="article:modified_time" content="2020-07-22T07:52:24-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Tools matter when teaching (and learning)"/>
+<meta name="twitter:description" content="One of our teacher certification cohort members asked for some help on our Slack the other day. It was about a side project - he was learning him so Javascript. It&#39;s always very cool to see teachers exploring things that can help with their craft on their own.  The whole situation reminded me about how important good tooling is and why, in spite of its popularity, javascript has some severe issues as a learning language and I&#39;m a guy that actually likes javascript."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Tools matter when teaching (and learning)</h1>
+        </header>
+        <div class="content">
+            <p>
+One of our teacher certification cohort members asked for some help on
+our Slack the other day. It was about a side project - he was learning
+him so Javascript. It&#39;s always very cool to see teachers exploring
+things that can help with their craft on their own.
+</p>
+<p>
+The whole situation reminded me  about how important good tooling is
+and why, in spite of its popularity, javascript has some severe issues
+as a learning language and I&#39;m a guy that actually likes javascript. 
+</p>
+<p>
+The project was a small interactive javascript todo application and he was
+having trouble getting a button to react. I grabbed his code off
+GitHub, fired up a server and took a look. Indeed, there were
+issues. Some of the interface worked - you could type in a new item
+and hit enter or click an add button and it worked. You could check or
+uncheck items and you could delete them individually. Everything
+worked except the clear button which did nothing. Weird.
+</p>
+<p>
+Exploring the code, here were some of the key sections:
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#75715e">// there were sections like this
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">filterOption</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;.filter-todo&#34;</span>);
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">clearButton</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;.clear-button&#34;</span>);
+
+<span style="color:#75715e">// then more code 
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">// then some of this
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">filterOption</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;click&#34;</span>, <span style="color:#a6e22e">filterTodo</span>);
+<span style="color:#a6e22e">clearButton</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;click&#34;</span>, <span style="color:#a6e22e">clearTodos</span>);
+
+<span style="color:#75715e">// and more code
+</span></code></pre></div>
+</p>
+<p>
+I just pulled out the lines relevant to what he was doing and to the
+error so be aware that it&#39;s all out of context. 
+</p>
+<p>
+The <code>document.querySelector</code> lines get references to DOM elements -
+elements on the page. The <code>addEventListener</code> then links a function to
+the event. So, when you click on the <strong>clear</strong> button on the web site,
+it&#39;s supposed to run the function <code>clearTodos</code> and when you click on
+the <strong>filter</strong> button it will run <strong>fiterTodo</strong>. There&#39;s more linking of
+events to elements in the code.
+</p>
+<p>
+What was really weird was that parts and in fact most of the interface
+was working and just the clear button was not. To make matters worse,
+looking both at the server output and the actual web page, there was
+no indication of anything wrong. Even if you looked at the developers
+console in the browser it didn&#39;t really give you a clue.
+</p>
+<p>
+It didn&#39;t take me <strong>too</strong> long to find the error but that&#39;s only because
+I spent hours on similar errors back when I learned javascript. Back
+then though I lost hours of time on errors like these and I was
+learning JS decades into my career as a computer science teacher and
+professional.
+</p>
+<p>
+What was going on?
+</p>
+<p>
+When javascript executes  <code>querySelector</code> it returns a reference to an
+element in the web page. If that element doesn&#39;t exist, it returns
+ <code>null</code>. As it turned out, at least in the version I looked at, there
+was no element on the page identified by the class <strong>filter-todo</strong>. The
+result was that after executing
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">filterOption</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">querySelector</span>(<span style="color:#e6db74">&#34;.filter-todo&#34;</span>);
+</code></pre></div>
+</p>
+<p>
+<code>filterOption</code> is set to refer to null.
+</p>
+<p>
+Then later, this code: 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">filterOption</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;click&#34;</span>, <span style="color:#a6e22e">filterTodo</span>);
+</code></pre></div>
+</p>
+<p>
+crashes the program because you can&#39;t call the <code>addEventListener</code>
+method on <code>null</code> which is what <code>filterOption</code> is set to.
+</p>
+<p>
+Therein lies the problem. I commented out the two lines, the program
+ran, and the <strong>clear</strong> button was clickable.
+</p>
+<p>
+The killer was that the tool gave some pretty weird results - it
+wasn&#39;t all or nothing. Parts of the interface responded but parts
+didn&#39;t. There was no actionable feedback. The only feedback was indeed
+this error: <strong>TypeError: filterOption is null</strong> but this seems wholly
+unrelated to the clear button and since most of the interface was
+responsive it seemed even weirder.
+</p>
+<p>
+My best guess was that the web browser executed the JS code
+until the crash so anything that parts of the user interface that were
+wired up prior to that null pointer reference did indeed run.
+</p>
+<p>
+The lack of feedback and this manner of execution can make javascript
+really tough on both beginners and self learners. It&#39;s also tough with
+a teacher if they don&#39;t really know the ins and outs of the toolset.
+</p>
+<p>
+This was all just a reminder that tools matter. Java, Python, and C++
+might not give the best error messages but generally the tooling isn&#39;t
+so bad. They could of course, be better, and I&#39;m not arguing that any
+of them are ideal learning environments but JS has a long way to
+go. On the other hand, languages and environment specifically made for
+learning have issues as well. The bottom line in choice of tools is
+that there&#39;s no magic bullet and the answer is as usual, &#34;it depends.&#34;
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2020-07-22</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/toiols">toiols</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

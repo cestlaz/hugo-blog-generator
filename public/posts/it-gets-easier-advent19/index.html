@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>It gets easier (or advent of code 2016 day 19) - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="It gets easier (or advent of code 2016 day 19)" />
+<meta property="og:description" content="Today&#39;s Advent of Code problem was a variant on the Josephus problem.  I recalled that there was a formula to figure out the sole survivor but I decide to run a simulation rather than looking it up. I also decided to write it up in C&#43;&#43;, well, really C with cout instead of printf.  Part 1 was the traditional problem. Part 2 was a variant where at each iteration, you remove the elf opposite the elf being processed (see the problem description for details)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/it-gets-easier-advent19/" />
+<meta property="article:published_time" content="2016-12-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-12-19T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="It gets easier (or advent of code 2016 day 19)"/>
+<meta name="twitter:description" content="Today&#39;s Advent of Code problem was a variant on the Josephus problem.  I recalled that there was a formula to figure out the sole survivor but I decide to run a simulation rather than looking it up. I also decided to write it up in C&#43;&#43;, well, really C with cout instead of printf.  Part 1 was the traditional problem. Part 2 was a variant where at each iteration, you remove the elf opposite the elf being processed (see the problem description for details)."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">It gets easier (or advent of code 2016 day 19)</h1>
+        </header>
+        <div class="content">
+            <p>
+Today&#39;s <a href="http://adventofcode.com/2016/day/19">Advent of Code</a> problem was a variant on the <a href="http://mathworld.wolfram.com/JosephusProblem.html">Josephus
+problem</a>.
+</p>
+<p>
+I recalled that there was a formula to figure out the
+sole survivor but I decide to run a simulation rather than looking it
+up. I also decided to write it up in C++, well, really C with cout
+instead of printf.
+</p>
+<p>
+Part 1 was the traditional problem. Part 2 was a variant where at each
+iteration, you remove the elf opposite the elf being processed (see
+the <a href="http://adventofcode.com/2016/day/19">problem description</a> for details).
+</p>
+<p>
+For both solutions I coded up a circular doubly linked list:
+</p>
+<div class="src src-c">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"></code></pre></div>
+</div>
+<p>
+You can see my complete solutions <a href="https://github.com/zamansky/advent2016/blob/master/day19.cpp">here</a>.
+</p>
+<p>
+I was thinking about how I wrote the code – I just rolled it off the
+top of my head. The same was true for the earlier AoC problems where I
+had to implement a breadth first search or something similar.
+</p>
+<p>
+I&#39;m not making a statement about my amazing coding abilities - linked
+lists and graph searches are pretty basic, but rather than having done
+the CS thing for so long, these fundamentals have become somewhat
+routine. I haven&#39;t really written C code in years but other than a
+couple of typos (and a stupid mistake in calculating steps) things
+worked right off the bat.
+</p>
+<p>
+I remember a time when I was in college or even a young professional
+when I would use an array and an index as a stack or queue - not
+because it made more sense but rather, because I wasn&#39;t fully
+comfortable with memory manipulation and linked lists. The same could
+be said for my first few years working with anything more than the
+simplest recursion.
+</p>
+<p>
+All of this is to say that it does get easier.
+</p>
+<p>
+Things that seem trivial to us now seemed
+insurmountable when we were beginners. Last year, I wrote about an overnight homework
+assignment I gave to my class that would have been a final project a
+year earlier (the post is <a href="http://cestlaz.github.io/posts/2015-02-11-taking-stock-self-assess.html/#.WFiGl99iekA">here</a> but the homework links are no longer
+active) and a few weeks ago I recall a fellow CS teacher talking about
+how much longer it takes his students to write a chunk of code than it
+takes the teacher.
+</p>
+<p>
+New things are challenging and take time but with practice and
+persistence techniques that were once daunting can become tools ready
+at our disposal to use on a whim.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2016-12-19</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/coding">#coding</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs">#cs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/adventofcode">#adventofcode</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

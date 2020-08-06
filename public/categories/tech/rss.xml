@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/categories/tech/</link>
+    <description>C&#39;est la Z (tech)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Dec 2019 11:56:23 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/categories/tech/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Keeping Current Between Semesters</title>
+      <link>https://cestlaz.github.io/post/keeping-current-between-semesters/</link>
+      <pubDate>Fri, 27 Dec 2019 11:56:23 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/keeping-current-between-semesters/</guid>
+      <description>
+&lt;p&gt;
+People say that one of the impossible problems for CS teachers is
+keeping current - they say the field is constantly changing, how can a
+teacher keep up with all the new things going on.
+&lt;/p&gt;
+&lt;p&gt;
+Well, on the one hand it isn&amp;#39;t true - most of the core of CS is the
+same. We still teach roughly the same programming constructs, data
+structures and algorithms. 
+&lt;/p&gt;
+&lt;p&gt;
+On the other hand, it is true. When I was in college, OOP was just
+starting to pick up steam and now an established and one might argue,
+dominant paradigm. Functional programming has been around forever but
+is only recently making inroads into the mainstream. Some fields have
+radically changed. Just look at AI and related fields now that data is
+so abundant. I remember looking over a Natural Language Processing
+text in the mid 90s and it was all about programs with tons of if
+statements. A later edition read more like a statistics text book.
+&lt;/p&gt;
+&lt;p&gt;
+Then there are the changing technologies - the web and how we program
+it, new languages, embedded systems are more accesible and much more.
+&lt;/p&gt;
+&lt;p&gt;
+So the field both changes and stays the same.
+&lt;/p&gt;
+&lt;p&gt;
+One of the ways I try to stay on top of things is with my own personal
+projects. We encourage our students to write side projects
+to scratch itches so why shouldn&amp;#39;t we do the same.
+&lt;/p&gt;
+&lt;p&gt;
+This might be taking a course like when I did the Stanford online AI
+and ML courses or it might be writing something like when I wanted to
+figure out that &lt;a href=&#34;https://reactjs.org/&#34;&gt;React&lt;/a&gt; thing that was all the rage a couple of years
+ago but ended up diving more deeply into  &lt;a href=&#34;https://vuejs.org/&#34;&gt;Vue.js&lt;/a&gt; as I felt it made
+more sense.
+&lt;/p&gt;
+&lt;p&gt;
+Now that we&amp;#39;re between semesters at Hunter I thought I&amp;#39;d scratch an
+itch related to &lt;a href=&#34;https://classroom.github.com/classrooms&#34;&gt;GitHub Classroom&lt;/a&gt;. I love the tool but it has two pain
+points. First, you end up accumulating a HUGE number of repositories
+(one per student per assignment) and deleting them is a bear of a
+task. The second is that while you can download all the submissions
+for a given assignment, there&amp;#39;s no easy way to download all the
+assignments for a given student. There are also some issues mapping
+student names to GitHub accounts but I&amp;#39;ve pretty much worked that one
+out.
+&lt;/p&gt;
+&lt;p&gt;
+So, I figured I&amp;#39;d spend some time this December and January learning
+some new technologies adn writing something to make those pain points
+go away.
+&lt;/p&gt;
+&lt;p&gt;
+So, what will I be learning about?
+&lt;/p&gt;
+&lt;h5 id=&#34;headline-1&#34;&gt;
+The GitHub API
+&lt;/h5&gt;
+&lt;p&gt;
+I&amp;#39;ve worked with APIs before and even messed around with &lt;a href=&#34;https://developer.github.com/&#34;&gt;GitHub&amp;#39;s&lt;/a&gt;. The
+change is that their &lt;a href=&#34;https://developer.github.com/v4/&#34;&gt;latest&lt;/a&gt; version uses GraphQL which brings me to my
+first brand new technology:
+&lt;/p&gt;
+&lt;h5 id=&#34;headline-2&#34;&gt;
+GraphQL
+&lt;/h5&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://graphql.org/&#34;&gt;GraphQL&lt;/a&gt; is a query language developed by Facebook for APIs. In spite
+of the name, it has nothing to do with databases. The idea is instead
+of a bunch of random REST endpoints with every API call being
+different you have one endpoint. You put together a query describing
+what you want and the services responds with your content. 
+&lt;/p&gt;
+&lt;p&gt;
+It looks pretty neat but we&amp;#39;ll see.
+&lt;/p&gt;
+&lt;h5 id=&#34;headline-3&#34;&gt;
+Reagent / Clojurescript
+&lt;/h5&gt;
+&lt;p&gt;
+The next thing I&amp;#39;ll be playing with is &lt;a href=&#34;https://clojurescript.org/&#34;&gt;Clojurescript&lt;/a&gt; and &lt;a href=&#34;https://reagent-project.github.io/&#34;&gt;Reagent&lt;/a&gt;. I&amp;#39;ve
+been playing on and off with Clojure for a while ahd Clojurescript
+transpiles Clojure to Javascript instead of compiling for the
+JVM. I&amp;#39;ve  already made a few &lt;a href=&#34;https://github.com/zamansky/clojure-life&#34;&gt;small&lt;/a&gt; &lt;a href=&#34;https://github.com/zamansky/clojure-breakout&#34;&gt;projects&lt;/a&gt; &lt;a href=&#34;https://github.com/zamansky/clojure-snake&#34;&gt;using&lt;/a&gt; it and like it much
+better for the web than Javascript. &lt;a href=&#34;https://www.learnreagent.com/&#34;&gt;Reagent&lt;/a&gt; is essentially React for
+Clojurescript.
+&lt;/p&gt;
+&lt;h6 id=&#34;headline-4&#34;&gt;
+Electron
+&lt;/h6&gt;
+&lt;p&gt;
+I thought for a while about doing this as a command line tool since
+that&amp;#39;s how I usually work but decided that if I do finish it something
+GUI based might be useful to more people. I then considered a web
+applicaiton but realized that wouldn&amp;#39;t do since there isn&amp;#39;t a way to
+clone GitHub repos from a web application due to security issues. 
+&lt;/p&gt;
+&lt;p&gt;
+I then briefly considered doing a Clojure based GUI which would
+basically be something like a Java Swing application but then decided
+to explore &lt;a href=&#34;https://electronjs.org/&#34;&gt;Electron&lt;/a&gt;. An Electron appication is essentially a locally
+run web application. You write it in a similar manner to a web app -
+HTML/CSS/JS or in my case Clojurescript but then it&amp;#39;s run locally on a
+platfomr based on the open source Chromium browser. Since it&amp;#39;s running
+locally it has access to the local filesystem and resources.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve already started to play with things and already learned a
+lot. Looking forward to coming out of this with a bunch of new
+technologies and tools in the toolbelt and maybe an application that
+will solve a couple of annoyances with what&amp;#39;s overall a great product.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

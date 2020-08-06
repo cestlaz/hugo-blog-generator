@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Using Emacs 61 - org-msg - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Using Emacs 61 - org-msg" />
+<meta property="og:description" content="By living in Emacs I get a consistent interface across all sorts of tasks - programming, lesson planning, making presentations, preparing documents, and yes, even email. I&#39;ve been using mu4e as my Emacs email client for a while now. Currently, I&#39;m using Emacs for my work email and Gmail for personal. I&#39;ve been thinking of going whole hog to mu4e and possibly migrating from Gmail to a new email provider for the personal stuff but there are still a few pain points with Emacs email:    rich text emails (embedded links, images, etc)    calendar integration    contacts    periodic Maildir sync problems with mbsync    Calendar integration isn&#39;t a make or break issue and contacts with mu4e is good enough so that leaves two pain points." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/using-emacs-61-org-msg/" />
+<meta property="article:published_time" content="2019-11-16T05:00:57-04:00" />
+<meta property="article:modified_time" content="2019-11-16T05:00:57-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Emacs 61 - org-msg"/>
+<meta name="twitter:description" content="By living in Emacs I get a consistent interface across all sorts of tasks - programming, lesson planning, making presentations, preparing documents, and yes, even email. I&#39;ve been using mu4e as my Emacs email client for a while now. Currently, I&#39;m using Emacs for my work email and Gmail for personal. I&#39;ve been thinking of going whole hog to mu4e and possibly migrating from Gmail to a new email provider for the personal stuff but there are still a few pain points with Emacs email:    rich text emails (embedded links, images, etc)    calendar integration    contacts    periodic Maildir sync problems with mbsync    Calendar integration isn&#39;t a make or break issue and contacts with mu4e is good enough so that leaves two pain points."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Using Emacs 61 - org-msg</h1>
+        </header>
+        <div class="content">
+            <p>
+By living in Emacs I get a consistent interface across all sorts of
+tasks - programming, lesson planning, making presentations, preparing
+documents, and yes, even email. I&#39;ve been using <a href="https://cestlaz.github.io/posts/using-emacs-39-mu4e/">mu4e</a> as my Emacs email
+client for a while now. Currently, I&#39;m using Emacs for my work email
+and Gmail for personal. I&#39;ve been thinking of going whole hog to mu4e
+and possibly migrating from Gmail to a new email provider for the
+personal stuff but there are still a few pain points with Emacs email:
+</p>
+<ul>
+<li>
+<p>
+rich text emails (embedded links, images, etc)
+</p>
+</li>
+<li>
+<p>
+calendar integration
+</p>
+</li>
+<li>
+<p>
+contacts 
+</p>
+</li>
+<li>
+<p>
+periodic Maildir sync problems with mbsync
+</p>
+</li>
+</ul>
+<p>
+Calendar integration isn&#39;t a make or break issue and contacts with
+mu4e is good enough so that leaves two pain points. Formatted emails
+which I think is now pretty much solved (see below) and the Maildir
+stuff.
+</p>
+<p>
+On the Maildir side, I&#39;m trying deal with my email across four
+machines - work laptop, work desktop, home laptop, home desktop. I
+originally synced each one separately and that worked but I was having
+archive problems - it seems that I was only archiving on the local
+machine so if I archived an email at work and I needed to get to it at
+home, I was out of luck. 
+</p>
+<p>
+Then, I moved to sharing my Maildir using Syncthing - an opensource
+Dropbox-alike. That mostly worked but if I wasn&#39;t careful I&#39;d get
+syncing errors where I have to go into my Maildir directory and
+manually rename or remove messages - a real pain.
+</p>
+<p>
+If anyone out there has a solution (and <a href="http://pragmaticemacs.com/emacs/fixing-duplicate-uid-errors-when-using-mbsync-and-mu4e/">this</a> fix doesn&#39;t fully work
+for me), I&#39;d love to hear about it.
+</p>
+<p>
+Let&#39;s get back to the formatted email. I was already to create an
+email in org mode using <code>org-mu4e-compose-org-mode</code> which I think is
+built in to either org-mode or mu4e but it&#39;s limited. It formats
+tables, outlines, and source blocks but I can&#39;t easily make a source
+block for something like <strong>dot</strong> or <strong>ditaa</strong> and embed the result. I
+found a solution recently. It&#39;s <a href="https://github.com/jeremy-compostella/org-msg">org-msg</a> - a terrific package that lets
+you compose an email in org-mode. It seems to have better support than
+org-mu4e-compose-org-mode. It does the basic formatting, tables, etc
+and also executes source blocks. The only thing that was missing for
+me was LaTeX formatting but I use that so rarely I don&#39;t really care.
+</p>
+<p>
+The package author, Jeremy Compostella, is also very responsive. When
+I first installed org-msg it wasn&#39;t integrating seamlessly with
+mu4e. It was still workable but I had to manually insert some
+configuration at the top of all my emails. I opened an issue on this
+and within a day it was fixed.
+</p>
+<p>
+It also has a very cool preview mode so you can see what you&#39;re
+sending. On that, though, I did have an issue but I&#39;m pretty sure it&#39;s
+an Emacs / org-mode issue and not an org-msg issue. On my desktop,
+when I run the preview, it opens my browser with the email formatted
+correctly. When I do the same on my laptop, it runs GitHub Classroom
+Assistant - an application I installed and use for other
+purposes. I&#39;ve had this happen before with other emacs xdg things. If
+anyone else has seen this and better has a solution, I&#39;d love to hear
+about that as well.
+</p>
+<p>
+Anyway, here&#39;s a video that shows org-msg in action:
+</p>
+<p>
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34;
+src=&#34;<a href="https://www.youtube.com/embed/cPZe0AGOUJU">https://www.youtube.com/embed/cPZe0AGOUJU</a>&#34; frameborder=&#34;0&#34;
+allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2019-11-16</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/emacs">emacs</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/emacs">#emacs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/productivity">#productivity</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

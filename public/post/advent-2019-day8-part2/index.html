@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Advent 2019 Day 8 - addendum - generating inputs - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Advent 2019 Day 8 - addendum - generating inputs" />
+<meta property="og:description" content="As I sad in my last post, day 8 would be a nice project or lesson in an APCS-A or college CS1 class. Another nice problem would be to write a program to generate an image in the format required by the question. Alternatively, a teacher doing day 8 with their classes might want to generate a bunch of images for the students to test their decoders on.  I thought I&#39;d write one to see how appropriate it would be for the students." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/advent-2019-day8-part2/" />
+<meta property="article:published_time" content="2019-12-08T17:04:30-04:00" />
+<meta property="article:modified_time" content="2019-12-08T17:04:30-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Advent 2019 Day 8 - addendum - generating inputs"/>
+<meta name="twitter:description" content="As I sad in my last post, day 8 would be a nice project or lesson in an APCS-A or college CS1 class. Another nice problem would be to write a program to generate an image in the format required by the question. Alternatively, a teacher doing day 8 with their classes might want to generate a bunch of images for the students to test their decoders on.  I thought I&#39;d write one to see how appropriate it would be for the students."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Advent 2019 Day 8 - addendum - generating inputs</h1>
+        </header>
+        <div class="content">
+            <p>
+As I sad in my <a href="https://cestlaz.github.io/post/advent-2019-day8/">last post</a>, <a href="https://adventofcode.com/2019/day/8">day 8</a> would be a nice project or lesson in
+an APCS-A or college CS1 class. Another nice problem would be to
+write a program to generate an image in the format required by the
+question. Alternatively, a teacher doing day 8 with their classes
+might want to generate a bunch of images for the students to test
+their decoders on. 
+</p>
+<p>
+I thought I&#39;d write one to see how appropriate it would be for the
+students. I tried to do it without anything fancy or advanced.
+</p>
+<p>
+To start, you&#39;ll need a way to generate the block text for the
+images. I found <a href="http://www.patorjk.com/software/taag/#p=display&amp;f=Banner3&amp;t=Hello">this</a> site and used the <strong>Banner3</strong> font. I generated
+some text and saved it in a file. The important thing for our purposes
+is that any space will count as white and any character as black.
+</p>
+<p>
+The encoded image is a N * Width * Height sequence of digits  where
+each Width * Height sequence of digits represents one layer. See the
+<a href="https://adventofcode.com/2019/day/8">problem text</a> for details.
+</p>
+<p>
+You can follow along with the code <a href="https://github.com/zamansky/advent2019/blob/master/day08-generator.py">here</a>. 
+</p>
+<p>
+So, here&#39;s how the program works:
+</p>
+<p>
+The top 51 lines of the program consist of a routine which I&#39;ll
+describe later and code to handle command line argument (to set the
+number of layers).
+</p>
+<p>
+Then, on line 55 I erad  in the file with the source image (from stdin). 
+</p>
+<p>
+In line 57 through 63, I loop over the data and changed each non space
+or newline to a star character. I really don&#39;t have to do this but I
+wanted to see what the image looked like in just &#34;black and white.&#34;
+</p>
+<p>
+Line 65 through 67 is where I split on the newlines. Now I could take
+the length of any line to get the image width and the number of lines
+the height.
+</p>
+<p>
+70 through 79 creates a long list for the image. At each location, I
+generate a list of values. Each list has one entry per layer. The
+actual pixel value (1 or 0) is stored at a random location. Everything
+before that is a random choice between the real color and transparent
+and everything after is just random. Details for that step are in the
+<code>genpixel</code> routine.
+</p>
+<p>
+Finally, in 83 through 89 I loop over each layer and for each layer
+the image and and output all the values into a single string. 
+</p>
+<p>
+This is then output to stdout while the dimensions go to stderr.
+</p>
+<p>
+If I had a source image in a file named &#34;hello.dat&#34; I&#39;d convert it to
+source input for day 8 by typing <code>cat hello.dat | python3 day08-generator.py
+-l 10 &gt; day08-input.dat</code>. This would create a 10 layer input.
+</p>
+<p>
+That&#39;s it. Once again, the code is all <a href="https://github.com/zamansky/advent2019/blob/master/day08-generator.py">here</a>. It would make for another
+nice student assignment or for a teacher to prepare inputs for the
+class.
+</p>
+<p>
+Enjoy.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2019-12-08</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/Advent%20of%20Code">Advent of Code</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/advent-of-code">#Advent of Code</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/programming">#programming</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs">#CS</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

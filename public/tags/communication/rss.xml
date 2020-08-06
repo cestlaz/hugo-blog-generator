@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communication on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/communication/</link>
+    <description>C&#39;est la Z (Communication)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Nov 2019 10:17:18 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/communication/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Communicating With Students - maybe GitHub to the rescue</title>
+      <link>https://cestlaz.github.io/post/communicating-with_students/</link>
+      <pubDate>Wed, 13 Nov 2019 10:17:18 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/communicating-with_students/</guid>
+      <description>&lt;p&gt;
+Out of class student communication is always a challenge. There are
+plenty of options:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Piazza
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Facebook group
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Slack, Discord, or other chat system
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Discourse, Vanilla or other discussion forum system
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Mailing list
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+but all have warts. 
+&lt;/p&gt;
+&lt;p&gt;
+I shared my thoughts on a number of these options &lt;a href=&#34;https://cestlaz.github.io/posts/class-communications/&#34;&gt;a while ago&lt;/a&gt; but
+thought I&amp;#39;d update them now.
+&lt;/p&gt;
+&lt;p&gt;
+Most of my opinions hold form my earlier post. I was using and
+continue to use a mailing list as I can be pretty sure that students
+will get the email and they don&amp;#39;t have to go to any outside site or
+application. Now, getting them to respond or just use it for general
+class communication is another story.
+&lt;/p&gt;
+&lt;p&gt;
+I also tried Slack again but it fared no better than my last attempt
+with it. A couple of students used it but mostly, Slack was left to
+die. I could have forced some engagement by posting assignments on
+Slack but there wasn&amp;#39;t any real upside. 
+&lt;/p&gt;
+&lt;p&gt;
+Earlier this semester some students said we should set up Discord -
+&amp;#34;all the students use it!&amp;#34; was the line. Discord can be used as a chat
+server similar to Slack but was created for gaming and also does voice
+communication and other things. Personally, I prefer Slack. Funny
+thing was that as I discussed this with my students I pointed out &amp;#34;you
+know, we have a Slack channel set up and you all already have accounts
+on it.&amp;#34; Most of them didn&amp;#39;t even remember. 
+&lt;/p&gt;
+&lt;p&gt;
+So, we tried Discord and there was the usual burst of activity when we
+first set it up but now it&amp;#39;s again, mostly dormant. A few students who
+use Discord for personal use are usually online but I&amp;#39;d chalk it up as
+another failure.
+&lt;/p&gt;
+&lt;p&gt;
+So, what am I going to try next? GitHub. 
+&lt;/p&gt;
+&lt;p&gt;
+GitHub doesn&amp;#39;t provide a general chat or email solution but it does
+have what they call &amp;#34;issues.&amp;#34;  I got the idea from &lt;a href=&#34;https://twitter.com/ericdrosado&#34;&gt;Eric Rosado&lt;/a&gt; of
+GitHub Education who clued me in on what issues can do.
+&lt;/p&gt;
+&lt;p&gt;
+When you create a GitHub repository - something I do for class web
+pages as well as assignments, you can also open issues. Issues are
+associated with the project but also act as a lightweight forum. You
+can go to a page and see all the issues (topics) and each one can have
+a chain of messages (thread). You can tag them, filter them, and when
+you&amp;#39;re done, close them (and reopen them later if needs be). The big
+plusses are that:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+People who are subscribed to the repo (assignment, web page, etc.)
+automatically get email alerts on the issues.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+You can explicitly tag people to force them to get alerts.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+You can directly reply via email so you don&amp;#39;t need to go to
+GitHub.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Everything related to a given project or repo is self contained.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+If you&amp;#39;re using GitHub / GitHub classroom you can use issues to
+create a logged communication with your students on specific assignments.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+I haven&amp;#39;t used this class wide yet - just experimented a bit but I
+plan to dive in much more deeply next semester.
+&lt;/p&gt;
+&lt;p&gt;
+This isn&amp;#39;t an overall communication solution. I&amp;#39;m sticking with a
+mailing list for that until I can find a better solution but I think
+using GitHub issues will be a win for project and assignment related
+discussion.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

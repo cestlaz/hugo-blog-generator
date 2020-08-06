@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pedagogy on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/categories/pedagogy/</link>
+    <description>C&#39;est la Z (pedagogy)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jul 2020 19:00:55 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/categories/pedagogy/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Merge Over Zoom - A Hunter CS Certification Program Update</title>
+      <link>https://cestlaz.github.io/post/merge-over-zoom/</link>
+      <pubDate>Thu, 16 Jul 2020 19:00:55 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/merge-over-zoom/</guid>
+      <description>&lt;p&gt;
+We&amp;#39;ve been talking sorting and searching in our teacher certification
+program and today was all about the merge sort. One of the strategies
+we use when teaching it in person involves sorting a deck of cards by
+&lt;a href=&#34;https://cestlaz.github.io/posts/2014-02-27-dumbass/&#34;&gt;Tom Sawyering&lt;/a&gt; it with the class. It&amp;#39;s fun and it&amp;#39;s effective but you
+can&amp;#39;t do it over Zoom. What to do? We didn&amp;#39;t want to just jump into
+the nuts and bolts of merge sort. We could - we&amp;#39;ve got a great group
+of teachers who could handle it but we&amp;#39;re not just talking about
+content in the program we&amp;#39;re also talking about pedagogy.
+&lt;/p&gt;
+&lt;p&gt;
+How could we adapt a divide and conquer algorithm where we split a
+deck of cards and pass it out to the class to a remote environment.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s what we came up with.
+&lt;/p&gt;
+&lt;p&gt;
+I started with a story about how I pitched Hunter about having a party
+with this first cohort when they all earn their NY State CS Teaching
+Certificates (assuming we could have a party in person). They said yes
+but to keep costs down I had to get them a list of possible
+restaurants to order from sorted by lowest price. We decided to use
+Chinese restaurants and the price of pork dumplings. 
+&lt;/p&gt;
+&lt;p&gt;
+I had a long list and was going to have to go to the seamless page for
+each one and get the price and then sort them. Not fun.
+&lt;/p&gt;
+&lt;p&gt;
+Since I&amp;#39;m running the program but have two instructors - JonAlf and
+Topher working with me, we decided I could &amp;#34;volunteer&amp;#34; each to do half
+the list. They weren&amp;#39;t happy so they looked for Teaching Assistants to
+pawn the work off on but having none went to the students. We
+continued with the split until a bunch of students each had to look up
+one and only one restaurant to find the price of the pork. We then
+passed the restaurants and prices back up the chain and voila - merge
+sort. .
+&lt;/p&gt;
+&lt;p&gt;
+We basically were able to replicate the in class card sorting
+experience with something that we could do over Zoom. It went over
+pretty well. 
+&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;re going to talk more about what we did and why and the idea of
+actively engaging students in different ways over virtual conference
+technologies tomorrow. 
+&lt;/p&gt;
+&lt;p&gt;
+It was all pretty cool.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Try Something New - Quicksort</title>
+      <link>https://cestlaz.github.io/post/try-something-new/</link>
+      <pubDate>Mon, 09 Mar 2020 11:11:51 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/try-something-new/</guid>
+      <description>&lt;p&gt;
+Many teachers are reluctant to try new things. Sometimes it&amp;#39;s a bad
+case of &amp;#34;I&amp;#39;vealwaysdoneitthisway-itis.&amp;#34; Sometimes it&amp;#39;s not being
+comfortable with the new way or not having the time to develop
+whatever happens to be needed for the lesson and sometimes it&amp;#39;s even
+coming from a good place. 
+&lt;/p&gt;
+&lt;p&gt;
+What&amp;#39;s that good place? Concern - if I try this new way and it doesn&amp;#39;t
+work I&amp;#39;m going to lose some students and never get them back. My
+population is too at risk. 
+&lt;/p&gt;
+&lt;p&gt;
+Ok, I buy that but I don&amp;#39;t agree with it.
+&lt;/p&gt;
+&lt;p&gt;
+There will be a normal ebb and flow to your lessons anyway. Some days
+will be great, some not so much. Some lessons will be amazing, some
+will put the kids to sleep. Besides, you can almost always recover
+from a bad experience the following week.
+&lt;/p&gt;
+&lt;p&gt;
+Last week was Quicksort time. I&amp;#39;ve approached the problem in a variety
+of ways over the years. I straight out presented the algorithm,
+approached it from a &lt;a href=&#34;https://cestlaz.github.io/posts/2010-03-14-sorting-from-top-and-from-bottom.html/&#34;&gt;functional point of view&lt;/a&gt;, &lt;a href=&#34;https://cestlaz.github.io/posts/quick-sort-starting/&#34;&gt;put a specific element
+in place&lt;/a&gt;, approached it from a &lt;a href=&#34;https://cestlaz.github.io/posts/2014-03-12-select-to-sort.html/&#34;&gt;select the nth smallest&lt;/a&gt; item point of view
+and probably a few others.
+&lt;/p&gt;
+&lt;p&gt;
+This time, I thought I&amp;#39;d try code tracing. The motivation was that the
+in place partition algorithm can be a little hairy. The idea is
+actually pretty simple but first year CS2 students can find it
+difficult. This time, I presented them with the code and some trial
+runs for them to trace through. From there we developed the algorithm
+&lt;/p&gt;
+&lt;p&gt;
+I won&amp;#39;t know if this approach was effective or not until next week but
+my gut was telling me that it was a bit bumpy. I don&amp;#39;t think I was
+effectively  able to connect from the code they worked through up to
+the algorithm. Some of the other approaches I&amp;#39;ve tried over the years
+left me equally unimpressed with myself but at the end of the day they
+weren&amp;#39;t disasters so I&amp;#39;m guessing the class will ultimately prove to
+have been alright. Right now, I think the approach I used a couple of
+years ago of motivating quicksort by putting a specific element in
+place works best for me and my classes. 
+&lt;/p&gt;
+&lt;p&gt;
+The moral of the story? I tried something. I don&amp;#39;t think it worked
+particularly well. That&amp;#39;s okay. I&amp;#39;ll probably rework it and try it
+again in the future but as for today I know my kids will be
+fine. Maybe I botched the quicksort a bit but I&amp;#39;ll fix that over the
+next few classes.
+&lt;/p&gt;
+&lt;p&gt;
+The real lesson of the day - Don&amp;#39;t be afraid to try something new. We
+want our students to be unafraid of failure. We should be as
+well. It&amp;#39;s rare the stakes are so high that we can&amp;#39;t stumble an bumble
+a bit of a lesson and not recover. 
+&lt;/p&gt;
+&lt;p&gt;
+When I was just starting out one of my mentors gave me some great
+advice: &amp;#34;You can always fix it tomorrow.&amp;#34;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teacher Centric Teaching</title>
+      <link>https://cestlaz.github.io/post/teacher-centric-teaching/</link>
+      <pubDate>Tue, 14 Jan 2020 08:27:09 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teacher-centric-teaching/</guid>
+      <description>&lt;p&gt;
+Every few years the experts give us some new magic bullet, some new
+ &lt;del&gt;teaching fad&lt;/del&gt; research based pedagogical technique. Teachers are
+ trained in it, forced to use it - frequently as a one size fits
+ all. If we do, we&amp;#39;re good teachers, if we don&amp;#39;t we get the dreaded
+ ineffective on our annual ratings.
+&lt;/p&gt;
+&lt;p&gt;
+I was reminded of this when reading &lt;a href=&#34;https://twitter.com/guzdial&#34;&gt;Mark Guzdial&lt;/a&gt;&amp;#39;s recent blog post on
+&lt;a href=&#34;https://computinged.wordpress.com/2020/01/13/computing-education-lessons-learned-from-the-2010s-what-i-got-wrong/&#34;&gt;things he got wrong&lt;/a&gt; in Computing Education. It&amp;#39;s a really great
+post. Mark mentioned &lt;a href=&#34;https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_education)&#34;&gt;constructivism&lt;/a&gt; and it made me think of a few
+years ago when constructivism was all the rage. If you didn&amp;#39;t set your
+class up for &lt;a href=&#34;https://en.wikipedia.org/wiki/Discovery_learning&#34;&gt;discovery learning&lt;/a&gt; all the time you were clearly a bad
+teacher. I&amp;#39;d sit on on CS PD sessions, listen to principals and
+supervisors talk about what they wanted to see in classes and on and
+on.
+&lt;/p&gt;
+&lt;p&gt;
+If you weren&amp;#39;t a constructivist educator you weren&amp;#39;t a good educator.
+&lt;/p&gt;
+&lt;p&gt;
+Of course a few years earlier it was something else.
+&lt;/p&gt;
+&lt;p&gt;
+Back when I started it was cooperative learning and
+cooperative learning isn&amp;#39;t just group work - you had to follow the
+formula. Each student in a group had a role, there were specific
+stages of work and everything had to be just so.
+&lt;/p&gt;
+&lt;p&gt;
+There were other fads along the way. 
+&lt;/p&gt;
+&lt;p&gt;
+If you were lucky and had a good supervisor you didn&amp;#39;t have to worry
+about the fads, the research, the nonsense. You could focus on your
+development as a teacher. They might work with you on questioning, for
+instance - regardless of the flavor of the month, a teacher will ask
+questions and facilitate discussion and they will surely insulate you
+from whatever nonsense the bean counters want to see as long as you&amp;#39;re
+doing right by your students. On the other hand, a bad supervisor
+would mean stressful set up observations.
+&lt;/p&gt;
+&lt;p&gt;
+Even without Mark&amp;#39;s post, I&amp;#39;ve been thinking about this a lot since
+we&amp;#39;re about to launch our CS Teacher Certification programs at
+Hunter so I&amp;#39;ve been thinking about these fads from a teacher
+preparation point of view. 
+&lt;/p&gt;
+&lt;p&gt;
+Many of these fads have some value - they&amp;#39;re tools in the toolbelt to
+be used as needed. The problem is that supervisors, and in my
+experience, professional development and teacher preparation programs
+make teaching 100% about the student. While the student is in fact the
+customer and who&amp;#39;s development is the goal of our work, you can&amp;#39;t
+ignore other factors. Environment and resources are two of these other
+factors and a big one is the teachers individual strengths,
+weaknesses, and tendencies.
+&lt;/p&gt;
+&lt;p&gt;
+Cooperative Learning never really worked for me - at least not whole
+hog. As a &amp;#34;Cooperative Learning teacher&amp;#34; I&amp;#39;d be meh at best. On the
+other hand, I&amp;#39;ve taken plays from the cooperative learning playbook
+and applied them as I&amp;#39;ve seen useful. Sometimes it didn&amp;#39;t work,
+sometimes to great effect.
+&lt;/p&gt;
+&lt;p&gt;
+As a teacher, I always took the advice of one of my early fencing
+mentors. I was receiving conflicting advice from multiple well
+respected coaches and more experienced fencers. My mentor said &amp;#34;listen
+to what they all have to say, think about it, figure out what best
+will work for you and do that.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+As to running my teacher prep programs, I&amp;#39;m going to do my best to
+make sure that we do recognize that teachers bring different things to
+the table and it will my job to help them maximize their
+effectiveness. This means that we can&amp;#39;t blindly follow the favored
+teaching techniques du jour but rather we have to look at all sorts of
+methods and combine them with our teachers strengths, abilities, and
+tendencies, and their specific classroom situations.
+&lt;/p&gt;
+&lt;p&gt;
+It should be fun.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My test grading policy</title>
+      <link>https://cestlaz.github.io/post/grading-policy/</link>
+      <pubDate>Wed, 09 Oct 2019 17:13:24 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/grading-policy/</guid>
+      <description>&lt;p&gt;
+I was working on writing a midterm the other day so figured I&amp;#39;d talk a
+bit about my test grading policy.
+&lt;/p&gt;
+&lt;p&gt;
+Before getting to the specifics, let me set the stage. I spent most of
+my career at Stuyvesant - a public magnet school in
+NYC. There are many great students who are interested in learning but
+there&amp;#39;s also a focus on grades. and this leads to a non-insignificant portion of
+the student body that is grade obsessed and will do everything and
+anything for every point possible. 
+&lt;/p&gt;
+&lt;p&gt;
+We called it grade grubbing. 
+&lt;/p&gt;
+&lt;p&gt;
+Grade grubbing goes beyond asking for points you think you deserve and
+it comes in many forms. It&amp;#39;s when you BS your way through an essay or
+paper and put in as many key phrases as possible and hope the teacher
+only sees those when scanning through hundreds of papers. It&amp;#39;s taking
+that same paper and only showing the key correct phrases during an
+appeal and ignoring the contradictory key phrases a few lines
+below. It&amp;#39;s when you write an answer in a somewhat ambiguous way that
+if marked wrong allows for an appeal. It&amp;#39;s appealing a low grade
+because &amp;#34;I always get over 95&amp;#34; and it even involves cheating
+sometimes and changing answers after the fact.
+&lt;/p&gt;
+&lt;p&gt;
+Now, this isn&amp;#39;t the majority of the class. It&amp;#39;s only a small percent
+but it&amp;#39;s pretty annoying and it had a bit of influence on my testing
+policy.
+&lt;/p&gt;
+&lt;p&gt;
+So, what&amp;#39;s my policy? It&amp;#39;s pretty simple. 
+&lt;/p&gt;
+&lt;p&gt;
+Rule 1 - once I return the test you can&amp;#39;t ask me anything about your
+exam until either we go over the exam in class or if we don&amp;#39;t until
+after I&amp;#39;ve shared the answer key with the class. If you do ask me
+about the exam before we&amp;#39;ve gone over it you forfiet your right to ask
+for any points back on any mismarked questions. 
+&lt;/p&gt;
+&lt;p&gt;
+Rule 2 - If you appeal a question for points - that is come up and say
+&amp;#34;I got this question right&amp;#34; and it turns out that you are correct, you
+get your points. If, on the other hand, the quesiton is incorrect, I
+reserve the right to take off the points deducted a second time. That
+is, if you originally lost 5 points you could now lose up to 10.
+&lt;/p&gt;
+&lt;p&gt;
+This might sound harsh and somewhat jerky but it really isn&amp;#39;t. Due to
+the nature of CS exams students can always be 100% certain that their
+answer is correct because they can always try it out on a
+computer. That&amp;#39;s the point. If something is marked wrong, I want the
+student to take the time to see what&amp;#39;s going on before appealing the
+grade. Questions that can&amp;#39;t be absolutely tested are of course excempt
+from this policy.
+&lt;/p&gt;
+&lt;p&gt;
+If a student comes up to me and says &amp;#34;hey, i know this is wrong - I
+tested it and I&amp;#39;m not asking for points, I just don&amp;#39;t understand
+what&amp;#39;s going on&amp;#34; I would never deduct more points and in fact have
+sometimes lowered deductions.
+&lt;/p&gt;
+&lt;p&gt;
+As it turns out, I&amp;#39;ve never actually ended up taking off extra points.
+&lt;/p&gt;
+&lt;p&gt;
+The whole idea is to stop the reflexive grade grubbing and get
+students to think about the problems and solutions. It also helps in
+keeping teacher harrassment to a minimum :-). 
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching techniques - industry to classroom and classroom to industry</title>
+      <link>https://cestlaz.github.io/post/industry-techniques-in-class/</link>
+      <pubDate>Fri, 27 Sep 2019 12:34:04 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/industry-techniques-in-class/</guid>
+      <description>&lt;p&gt;
+There are things we do in school and there are things we do in
+industry and they&amp;#39;re not always the same. In school we might use a
+learning language or an IDE which gives additional support and at
+times even take away language features while at work you might you
+might make heavy use of continuous integration tools. 
+&lt;/p&gt;
+&lt;p&gt;
+On the other hand, sometimes we use the same things. Java is used in
+schools and in industry, StackOverflow consulted in both and many
+schools use professional IDEs like Eclipse.
+&lt;/p&gt;
+&lt;p&gt;
+While the things I mentioned above, whether the same or different are
+on the tooling side, there are also things on the technique side that
+are used both in school and in industry.
+&lt;/p&gt;
+&lt;p&gt;
+The most well publicized concept is probably &lt;a href=&#34;https://en.wikipedia.org/wiki/Pair_programming&#34;&gt;Pair Programming&lt;/a&gt; - the
+idea of having two programmers develop using a shared
+computer. There&amp;#39;s more to it than that and tons of variations but
+that&amp;#39;s the crux of the idea. Proponents claim it increases programmer
+efficiency and lowers error rates but others would rather not follow
+the practice. Some feel that it&amp;#39;s great in certain environments like
+when onboarding a new team member.
+&lt;/p&gt;
+&lt;p&gt;
+We hear CS Teachers talk about pairing in their classes all the time -
+&amp;#34;It&amp;#39;s an industry technique&amp;#34; but to me the interesting thing is that I
+think many teachers, particularly more senior ones came up with pair
+programming independent of it as an industry technique. It came out of
+not having enough computers. This invariably leads to kids pairing
+up. Now, you&amp;#39;ll say &amp;#34;but pair programming isn&amp;#39;t just two kids sharing
+a computer.&amp;#34; I agree but when good teachers do group work it isn&amp;#39;t
+just kids left to their own devices working in a group. Over time,
+teachers who &amp;#34;discover&amp;#34; pair programming come up with ways to make it
+effective in their classrooms.
+&lt;/p&gt;
+&lt;p&gt;
+The other interesting thing is that pair programming serves different
+purposes at work vs in schoo. At work it&amp;#39;s supposed to increase
+programming efficiency and help them develop better code more
+quickly. In the classroom, besides addressing the lack of computers,
+it&amp;#39;s used as a tool to provide feedback to students, have them support
+each other, and create a cooperative supportive environment.
+&lt;/p&gt;
+&lt;p&gt;
+Another technique CS teachers use is subgoal labeling. The gist here
+is that you write down or label smaller goals within your
+program. It&amp;#39;s an idea I used for years but only relatively recently
+learned its name.
+&lt;/p&gt;
+&lt;p&gt;
+The interesting thing here is that I used this idea as a professional
+programming well before I ever taught and I don&amp;#39;t recall it ever being
+used in any of my classes. 
+&lt;/p&gt;
+&lt;p&gt;
+The idea just made sense. I&amp;#39;d write a function and pepper it with
+comments indicating the parts s or subgoals I&amp;#39;d need to write code for
+to complete the function. I don&amp;#39;t know if subgoal labelling is or ever
+was a prevelent technique in professional programming but the related
+idea of writing function stubs is. The idea here is that as you
+develop your program write out an empty placeholder function, a stub,
+when you realize you need it and fill it in later. This is something
+of a subgoal but at the function level.
+&lt;/p&gt;
+&lt;p&gt;
+So, here we have two practices. One that is certainly used in both
+the classroom and in industry and one that likely is. The practices
+seem to be examples of convergent evolution. Developed independently
+but with similar albeit somewhat different benefits.
+&lt;/p&gt;
+&lt;p&gt;
+There have to me more practices like this. If you know any, please
+share.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What Is Good Teaching</title>
+      <link>https://cestlaz.github.io/post/what-is-good-teaching/</link>
+      <pubDate>Tue, 17 Sep 2019 17:13:57 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/what-is-good-teaching/</guid>
+      <description>&lt;p&gt;
+I had a conversation with my principal during my last year at
+Stuy. She said &amp;#34;whenever the superintendent or high level education
+people come and ask to see our best teachers I can never bring them to
+Jim&amp;#39;s class.&amp;#34; Everyone knows that Jim is the best. I describe him as
+&amp;#34;the teacher I aspire to be.&amp;#34;  What&amp;#39;s the problem? The problem is that
+Jim didn&amp;#39;t teach the way the powers that be wanted him to teach. He
+didn&amp;#39;t do discovery learning, kids didn&amp;#39;t work in groups, there&amp;#39;s
+typically nothing that you could check off on the &amp;#34;best way to teach&amp;#34;
+list. Jim&amp;#39;s an old school teacher. Teacher dominant. He leads the
+discussion, asks questions, circulates while the kids work on
+problems etc. Why does it work? A combination of things. He know his
+math, charisma, force of personality, empathy, and a lot of other
+factors. One could dismiss it as saying &amp;#34;it&amp;#39;s Stuy, it&amp;#39;s easy&amp;#34; but he
+was the best at a high needs school before he was the best at Stuy.
+&lt;/p&gt;
+&lt;p&gt;
+I was thinking about this for a few reasons. One is I watched &lt;a href=&#34;https://www.youtube.com/watch?v=g1ib43q3uXQ&amp;amp;list=WL&amp;amp;index=52&amp;amp;t=0s&#34;&gt;this&lt;/a&gt;
+video by &lt;a href=&#34;https://twitter.com/Felienne&#34;&gt;Felienne Hermans&lt;/a&gt;. It&amp;#39;s a good video, many good points. I
+particularly like when she talked about talking to a room of teachers
+about a new &amp;#34;discovery&amp;#34; about learning only to find that teachers have
+known it for decades. Basically, Felienne pushes back on the discovery
+learning and let them play that&amp;#39;s dominated the CS Education
+space. She talks about her success with direct instruction. Another is
+that we&amp;#39;re starting to see more acceptance and voices for
+direct instruction in the CS Ed space as a whole. 
+&lt;/p&gt;
+&lt;p&gt;
+Personally, I think this is a good thing, after all, it&amp;#39;s more my
+style. On the other hand, I don&amp;#39;t want the pendulum to swing too
+far. I was talking to a history teacher at Stuy when they brought in
+the Danielson &lt;del&gt;nonsense&lt;/del&gt; Framework. She&amp;#39;s a good teacher but she was
+sheepish about Danielson. She said that Danielson worked for her - it
+aligned with the way she taught and made her seem like the absolute
+best. She was and is an excellent teacher but we all have holes in our
+game. She didn&amp;#39;t want to be held  up as an exemplar of great teaching
+where she knew that chances are there will be a successor to Danielson
+and chances are something else will be in vogue and she won&amp;#39;t be so
+officially terrific anymore. 
+&lt;/p&gt;
+&lt;p&gt;
+Right now, direct instruction is coming back. Who knows if it will
+become the darling of the policy makers but regardless, a teaching
+style or technique&amp;#39;s value can&amp;#39;t be determined without considering
+other factors. The teacher&amp;#39;s personal style, the students, the
+resources, class time, and much more. 
+&lt;/p&gt;
+&lt;p&gt;
+So, what is a teacher to do? Add all the tools to your toolbox. I&amp;#39;m
+not big on cooperative learning but I&amp;#39;ve peppered it in now and
+then. Sometimes, it&amp;#39;s best to have the students discover things,
+something you&amp;#39;ve got to tell them. Sometimes they should work on
+things solo, sometimes in teams. I&amp;#39;ve taught classes that were all
+projects and classes that had limited projects. Acquire all the tools
+and use them as YOU think best. It&amp;#39;s the teacher with the skin in the
+game. Not the policy makers, thought leaders, researchers, and
+influences. More importantly it&amp;#39;s the teacher that knows their
+students best - where they are, what they need and how to do the best
+they can given the limited resources they have. 
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m obviously not excusing teachers who do one side lectures or who
+just phone it in but the majority of teachers work hard to do it right
+and should be given the freedom to do just that.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sequencing Topics</title>
+      <link>https://cestlaz.github.io/post/sequencing-topics/</link>
+      <pubDate>Sat, 26 Jan 2019 16:06:08 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/sequencing-topics/</guid>
+      <description>&lt;p&gt;
+Monday&amp;#39;s the start of the Spring semester. Other than the 8:00am start
+I&amp;#39;m looking forward to it. My 8:00am class is the honors/lab component
+that goes with CS1. I taught it last semester and during each of the
+past two years at Hunter. My second class is the follow up  - more OOP
+/ C++, data structures and some algorithms.
+&lt;/p&gt;
+&lt;p&gt;
+The material is old hat. I&amp;#39;ve taught it in Java more times than I can
+count and also in C++ albeit many years ago. What&amp;#39;s new is that I&amp;#39;m
+teaching my Hunter kids and I&amp;#39;m doing it in a college framework - two
+days a week, 1:15 a session. I&amp;#39;m not thinking too much about how I&amp;#39;ll
+teach each class - I usually figure that out in the moment - not
+actually in the class but week to week based on the flow of the
+class. 
+&lt;/p&gt;
+&lt;p&gt;
+Right now, I have to make final decisions on sequencing, at least for
+the start of the class. We got ahead of the game by covering most of
+the C++ topics - inheritance, templates, overloading etc. at the end
+of last semester so that
+leaves all the data structures, algorithms, dynamic structures, and
+memory management, recursion, and sorting and searching. If I have
+time I&amp;#39;d also love to get into some graph stuff. 
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the plan, at lest for now.
+&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;ll start with recursion. They had the basics last term but now
+we&amp;#39;ll talk about search - I usually focus this around a maze
+solver. After this we&amp;#39;ll place recursion on hold - at least in terms
+of class time and move to linked lists and dynamic memory. We&amp;#39;ll
+follow this with sorting. The idea is that students have trouble
+getting comfortable with both recursion and also with dynamic
+structures first time through. Rather than ploughing  through from
+recursion to the recursive sorts I&amp;#39;m hoping that putting the dynamic
+lists in between will give recursion some time to marinate in the
+background. Likewise I&amp;#39;m hoping that the dynamic memory stuff can
+marinate through the sorting unit for when we revisit it with stacks,
+queues, and trees after sorting.
+&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t know if this is the optimal way of sequencing the topics but I
+think it will work pretty well.
+&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;ll see as the semester progresses. If things are going swimmingly I
+can always call an audible.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Let Teachers Teach</title>
+      <link>https://cestlaz.github.io/post/let-teachers-teach/</link>
+      <pubDate>Fri, 09 Nov 2018 08:57:36 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/let-teachers-teach/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://twitter.com/guzdial&#34;&gt;Mark Guzdial&lt;/a&gt;&amp;#39;s post the other day about &lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/232557-direct-instruction-is-better-than-discovery-but-what-should-we-be-directly-instructing/fulltext&#34;&gt;direct isntruction&lt;/a&gt; struck a chord with
+me. Right up front, Mark said:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+The research evidence is growing that students learn better through direct instruction rather than through a discovery-based method, where we expect students to figure things out for themselves.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+Quite a surprise to the teachers who have been beaten over the head
+with &amp;#34;everything must be discovery&amp;#34; in recent years. 
+At the end of the post, Mark writes:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+I’m a follower of the research Felienne is citing in her blog post, and agree that direct instruction is better than discovery learning for introductory courses
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+I found myself very much agreeing with Mark. I&amp;#39;m not surprised. It&amp;#39;s
+true that Mark and I have traded blog comments with me saying that
+a teacher dominant classroom can be very effective and Mark saying
+lecturing is bad but after a while I realized that we were saying the
+same thing. To me, a teacher dominant high school class means teacher
+directed active learning experience and not a droning college lecture. 
+&lt;/p&gt;
+&lt;p&gt;
+In any event, back to direct instruction vs discovery. It seems
+like the pendulum is swinging again. A few years ago it was all about
+discovery and now direct instruction is ok. There are two problems
+here. The first is that in a few years it will be something
+else. Before the discovery learning fad we had other fads. When I
+started teaching it was cooperative learning. I also went through the
+portfolio movement. There were other fads along the way including yet
+another &amp;#34;new math.&amp;#34; At some point we got back to traditional direct
+instruction, then discovery and that brings us back up to today.
+&lt;/p&gt;
+&lt;p&gt;
+The second problem is a big one that&amp;#39;s often ignored. Regardless of
+what the research says or doesn&amp;#39;t say and what teachers know or don&amp;#39;t
+know the powers that be have time and time again decided upon the one
+true way to teach and tried to force it upon teachers.
+&lt;/p&gt;
+&lt;p&gt;
+It doesn&amp;#39;t work that way.
+&lt;/p&gt;
+&lt;p&gt;
+The missing piece of the puzzle is the fact that teachers bring
+different things to the table and that&amp;#39;s a fact that&amp;#39;s often
+ignored. When teachers are observed, at least in NY, supervisors want
+to see what they want to see. After Danielson was implemented in NYC I
+was talking to a friend who almost sheepishly told me that she was
+getting great evaluations because her teaching style aligned perfectly
+with Danielson but she knew that when something else came into vogue
+all of a sudden she&amp;#39;d no longer be &amp;#34;highly effective.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+When I started, cooperative learning was all the rage but it didn&amp;#39;t
+work for me. Since it didn&amp;#39;t work for me, it didn&amp;#39;t work for my
+students. This didn&amp;#39;t mean that I couldn&amp;#39;t cherry pick aspects of
+cooperative learning and use them to good effect nor did it mean that
+I couldn&amp;#39;t run a cooperative learning experience effectively from time
+to time  but it meant that I couldn&amp;#39;t whole hog teach the way I was
+&amp;#34;supposed&amp;#34; to teach. In another case, I knew a teacher who was a very
+strong lecturer and I mean this in the traditional one sided lecture
+style. He was much weaker when using active learning techniques and in
+no way could he give up control to a cooperative learning
+experience. That was who he was. He was most effective as a lecturer
+for better or worse. With the right group of kids it worked pretty
+well. Certainly better than if he was forced to teach in a way that
+was contrary to who he was. I&amp;#39;ve also outright asked some great math teacher
+friends of mine about &amp;#34;the research&amp;#34; on how to teach and the responses
+I&amp;#39;ve gotten back were generally either &amp;#34;I don&amp;#39;t read the research&amp;#34; or
+&amp;#34;it doesn&amp;#39;t work for me so I do what I do.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+All this isn&amp;#39;t to say that research isn&amp;#39;t important and that a teacher
+shouldn&amp;#39;t master a variety of techniques and tools. A good preservice
+program will leave a teacher with a cabinet full of tools to draw from
+and the expertise to know themselves, their students, and what tools
+to put in the toolbelt for an any given class. Teachers should
+likewise be trained to maximize their inherent tendencies and talents
+and blend in teaching techniques as appropriate. Good professional development
+should bring new ideas and new techniques to teachers and should
+consider who they can be added in to a teacher&amp;#39;s practice rather than
+to replace it.
+&lt;/p&gt;
+&lt;p&gt;
+Finally, teachers should be allowed to teach. It&amp;#39;s horrible that
+there&amp;#39;s a movement to more and more scripted lessons and to tell
+teachers how to teach. It was bad when I started and it&amp;#39;s only gotten
+worse.
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, some supervisors do indeed get it. Back when I was a
+young teacher I was talking to a supervisor about this and he told me
+that he observed a class he started with one basic question: &amp;#34;is
+learning going on?&amp;#34; Everything flowed from there.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

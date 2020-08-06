@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Using Emacs - 15 - Macros - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Using Emacs - 15 - Macros" />
+<meta property="og:description" content="I originally planned on do some videos on C&#43;&#43; development but I&#39;m just not feeling it. Probably because I&#39;m excited to be working with my new class and we&#39;re working in Python. We&#39;re not going to be using C&#43;&#43;&#43; for a few months so I&#39;ll get to those videos a little later.  Today, I want to cover what I consider a leatherman or multi-tool for Emacs. Something that isn&#39;t perfect for any particular job but can get almost any job done: Macros." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/using-emacs-15-macros/" />
+<meta property="article:published_time" content="2016-09-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-09-02T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Emacs - 15 - Macros"/>
+<meta name="twitter:description" content="I originally planned on do some videos on C&#43;&#43; development but I&#39;m just not feeling it. Probably because I&#39;m excited to be working with my new class and we&#39;re working in Python. We&#39;re not going to be using C&#43;&#43;&#43; for a few months so I&#39;ll get to those videos a little later.  Today, I want to cover what I consider a leatherman or multi-tool for Emacs. Something that isn&#39;t perfect for any particular job but can get almost any job done: Macros."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Using Emacs - 15 - Macros</h1>
+        </header>
+        <div class="content">
+            <p>
+I originally planned on do some videos on C++ development but I&#39;m just
+not feeling it. Probably because I&#39;m excited to be working with my
+new class and we&#39;re working in Python. We&#39;re not going to be using
+C+++ for a few months so I&#39;ll get to those videos a little later.
+</p>
+<p>
+Today, I want to cover what I consider a leatherman or multi-tool for
+Emacs. Something that isn&#39;t perfect for any particular job but can get
+almost any job done: Macros.
+</p>
+<p>
+In their simplest form, macros let you record and play back
+keystrokes.
+</p>
+<p>
+The video goes over the specifics.
+</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Y1oVNBuIoXo" frameborder="0" allowfullscreen></iframe>
+<p>
+Here are the main functions / keystrokes.
+</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Key</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>kmacro-start-macro-or-insert-counter</td>
+<td>F3</td>
+</tr>
+<tr>
+<td>kmacro-end-and-call-macro</td>
+<td>F4</td>
+</tr>
+<tr>
+<td>kmacro-name-last-macro</td>
+<td></td>
+</tr>
+<tr>
+<td>insert-kbd-macro</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>
+This covers most of my use of macros but there&#39;s more. You can adjust
+or set the counter, edit old macros and there&#39;s even a way to have a
+macro pause for input in the middle.
+</p>
+<p>
+Here are some links with more information:
+</p>
+<ul>
+<li>
+<p>
+<a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Keyboard-Macros.html#Keyboard-Macros">Emacs manual on macros</a>
+</p>
+</li>
+<li>
+<p>
+<a href="http://ergoemacs.org/emacs/emacs_macro_example.html">http://ergoemacs.org/emacs/emacs_macro_example.html</a>
+</p>
+</li>
+<li>
+<p>
+<a href="http://emacs-fu.blogspot.com/2010/07/keyboard-macros.html">http://emacs-fu.blogspot.com/2010/07/keyboard-macros.html</a>
+</p>
+</li>
+</ul>
+<p>
+If you&#39;re interested in checking out <a href="http://repl.it">Repl.it</a>, which I reference in the
+video, check out <a href="http://cestlaz.github.io/posts/new-term-new-tool-replit/#.V8n_Ed9vH0o%0A">my blog post</a>.
+</p>
+<p>
+Relevant links:
+</p>
+<ul>
+<li>
+<p>
+Video series overview page:
+</p>
+</li>
+<li>
+<p>
+<a href="http://cestlaz.github.io/stories/emacs">http://cestlaz.github.io/stories/emacs</a>
+</p>
+</li>
+<li>
+<p>
+Code:
+</p>
+</li>
+<li>
+<p>
+<a href="https://github.com/zamansky/using-emacs/tree/master"><a href="https://github.com/zamansky/using-emacs/tree/master">https://github.com/zamansky/using-emacs/tree/master</a></a>
+</p>
+</li>
+</ul>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2016-09-02</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/emacs">#emacs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

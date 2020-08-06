@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Rot13 - Gateway &lt;s&gt;Drugs&lt;/s&gt; Techniques - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Rot13 - Gateway &lt;s&gt;Drugs&lt;/s&gt; Techniques" />
+<meta property="og:description" content="I&rsquo;ve written before about That One Inspirational Curriculum - the idea that it&rsquo;s not the topic in the syllabus but rather what the teacher does with it.
+Some times a simple problem can lead to some really neat concepts.
+Take what we did in my AP classes over the past couple of days.
+I wanted a nice little warm up after the break so we wrote a simple rotation cipher. We started with a little encode routine - take a string and rotate the letters by some offset." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/2014-01-07-rot13-gateway/" />
+<meta property="article:published_time" content="2014-01-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-01-07T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Rot13 - Gateway &lt;s&gt;Drugs&lt;/s&gt; Techniques"/>
+<meta name="twitter:description" content="I&rsquo;ve written before about That One Inspirational Curriculum - the idea that it&rsquo;s not the topic in the syllabus but rather what the teacher does with it.
+Some times a simple problem can lead to some really neat concepts.
+Take what we did in my AP classes over the past couple of days.
+I wanted a nice little warm up after the break so we wrote a simple rotation cipher. We started with a little encode routine - take a string and rotate the letters by some offset."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Rot13 - Gateway &lt;s&gt;Drugs&lt;/s&gt; Techniques</h1>
+        </header>
+        <div class="content">
+            <p>I&rsquo;ve written before about <a href="http://cestlaz.github.io/2013/08/07/That_One_Inspirational_Curriculum.html#.UsyYlN_EvZ8">That One Inspirational Curriculum</a> -
+the idea that it&rsquo;s not the topic in the syllabus but rather what the
+teacher does with it.</p>
+<p>Some times a simple problem can lead to some really neat concepts.</p>
+<p>Take what we did in my AP classes over the past couple of days.</p>
+<p>I wanted a nice little warm up after the break so we wrote a simple
+<a href="http://www.rot-n.com/">rotation cipher</a>. We started with a little
+encode routine - take a string and rotate the letters by some
+offset. For example if we use an offset of 3, &lsquo;hello&rsquo; becomes
+&lsquo;khoor&rsquo; - each letter being shifted over thee places.</p>
+<p>Pretty easy for the class but even a simple problem like this lets us
+talk about a few things, including:</p>
+<ul>
+<li>we can exploit the ASCII ordering but have to remember to deal with
+the offsets. That is in ASCII, an  &lsquo;a&rsquo; is 97, we can&rsquo;t just calculate c =
+(c+offset)%26. We have to first shift the letter down to 0, add and
+mod, and then shift back c = ((c-&lsquo;a&rsquo;) +offset)%26 + &lsquo;a&rsquo;</li>
+<li>We can talk about neat Internet history such as how
+(rot13)[http://en.wikipedia.org/wiki/ROT13] was used to hide
+spoilers and offensive material on the internet.</li>
+</ul>
+<p>I then ran a program that broke the encryption. I also showed the
+students how it didn&rsquo;t work on single words but did on full sentences.</p>
+<p>By hand, decodingn even a simple cipher is a pain.</p>
+<p>With computer assist, it&rsquo;s easy - just print out all 26 possible rotations and pull out the right one.</p>
+<p>Our question was how do we have the computer do it all on its own?</p>
+<p>I asked them to think about how they might write a program to
+accomplish this &ndash; and that&rsquo;s when the magic starts.</p>
+<p>They came up with a few interesting ideas:</p>
+<ol>
+<li>For each of the 26 rotations, choose the one with the most vowels.</li>
+<li>For each word in each rotation, give a point for each word with a vowel and choose the rotation with the highest score.</li>
+<li>Look for common short words in each rotation and then check other words against a dictionary.</li>
+<li>Do the letters appear with the same frequencies as in the English language</li>
+</ol>
+<p>We noticed that all of these suggestions are based on our knowledge of
+English. What if the message was in a different language or even a
+different alphabet?</p>
+<p>We decided to use choice 4 - the letter frequencies.</p>
+<p><strong>Magic part 1 - using known data to figure out a pattern for unknown data</strong></p>
+<p>Even if we don&rsquo;t know the frequencies, if we can get a sample document in our language, we can figure them out. We downloaded a text from Project Gutenberg and used it to build
+an array of 26 elements called <em>CorpusFreqs</em>. CorpusFreqs[0] would hold the
+frequency of the letter &lsquo;a&rsquo; in our sample document (that is, how many
+times &lsquo;a&rsquo; appears over the total number of letters in our document),
+CorpusFreqs[1] the frequency of &lsquo;b&rsquo; etc.</p>
+<p>Now we have a model that we can use to compare our rotations to.</p>
+<p><strong>Magic part 2 - wow, that 9th grade math is actually useful</strong></p>
+<p>At this point, it usually isn&rsquo;t clear how to compare our rotations to
+the model frequencies we calculated. Time to simplify,</p>
+<p>We can look at another problem: Selecting a house.</p>
+<blockquote>
+<p><strong>Me:</strong>  if we can only have one criteria, what would it be?</p>
+</blockquote>
+<blockquote>
+<p><strong>Class:</strong> Neighborhood</p>
+</blockquote>
+<blockquote>
+<p><strong>Me:</strong> Ok, let&rsquo;s rate each neighborhood between 0 and 100</p>
+</blockquote>
+<blockquote>
+<p><strong>Me:</strong> We can draw two houses on a line, which is better?</p>
+</blockquote>
+<blockquote>
+<p><strong>Class:</strong> The one with the larger value!</p>
+</blockquote>
+<blockquote>
+<p><strong>Me:</strong> What if we add a third house? Which is it more similar to?</p>
+</blockquote>
+<blockquote>
+<p><strong>Class:</strong> The one it&rsquo;s closer to.</p>
+</blockquote>
+<p>Next:</p>
+<blockquote>
+<p><strong>Me:</strong> Well, what if we add another feature? Cost - let&rsquo;s map low cost to 100 and high cost to 0 and all the other costs in between.</p>
+</blockquote>
+<blockquote>
+<p><strong>Me:</strong> If we want to visualize a house, how can we do it?</p>
+</blockquote>
+<blockquote>
+<p><strong>Class:</strong> We can use a graph - like x,y points use location,cost points.</p>
+</blockquote>
+<p>So we do it.</p>
+<blockquote>
+<p><strong>Me:</strong> This is the least desirable house (0,0) and this is the best one (1,1).
+I plot two houses and ask</p>
+</blockquote>
+<blockquote>
+<p><strong>Me:</strong> Which is more desirable?</p>
+</blockquote>
+<blockquote>
+<p><strong>Class:</strong> That one (they indicate the one closer to 1,1).</p>
+</blockquote>
+<blockquote>
+<p><strong>Me:</strong> How can you tell</p>
+</blockquote>
+<blockquote>
+<p><strong>Class:</strong> It&rsquo;s closer</p>
+</blockquote>
+<blockquote>
+<p><strong>Me:</strong> How do we figure it out?</p>
+</blockquote>
+<blockquote>
+<p><strong>Class:</strong> The Distance Formula!!!!!</p>
+</blockquote>
+<p>So now we add a third feature - size. It&rsquo;s pretty easy to show that
+the distance formula extends to three-space and in fact to even higher
+dimensions.</p>
+<p><strong>Magic part 3 - from 3 dimensions to 26</strong></p>
+<p>So now, we bring it back to our cipher. For the house example, we used
+points in 1,2, and 3 dimensions (and we actually talked about it in
+4D) so we used 1 through 4-space vectors to represent the points and
+used Euclidean distance formula to see what houses were similar to
+each other, or what points where near to each other</p>
+<p>From there, it&rsquo;s easy to see that the frequency array we built from ou sample text is a
+26-space vector and that we can build a similar vector for each
+rotation.</p>
+<p>From there we can use the distance formula to see how close each
+rotation is to the sample document vector. The rotation with the
+closest vector is pobably our solution.</p>
+<p>So from a simple warm up problem we&rsquo;re at the gateway to some serious techniques that will come back time and time again as the students move through their CS education and careers.</p>
+<p>Fun!</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2014-01-07</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

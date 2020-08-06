@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PD on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/pd/</link>
+    <description>C&#39;est la Z (PD)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jun 2020 12:29:06 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/pd/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Teaching CS  - all the educators to all the grades</title>
+      <link>https://cestlaz.github.io/post/teaching-cs-in-all-the-grades/</link>
+      <pubDate>Sat, 27 Jun 2020 12:29:06 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teaching-cs-in-all-the-grades/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;m kicking off a couple of exciting summer projects next week and
+it&amp;#39;s been pointed out to me a couple of times that I&amp;#39;ll be working
+with educators at every level to help them to deliver CS instruction
+to students at every level. What an opportunity to be a part of and
+learn from - working with every level of teacher for every level of
+student. I&amp;#39;m part of the teaching teams but I think I&amp;#39;m also going to
+learn a lot.
+&lt;/p&gt;
+&lt;p&gt;
+So, how is this happening? 
+&lt;/p&gt;
+&lt;p&gt;
+One project I&amp;#39;m working on, entering its second year is a &lt;a href=&#34;https://cestlaz.github.io/post/ct-in-primary-grades/&#34;&gt;project&lt;/a&gt; on
+computational thinking in the early grades. &lt;a href=&#34;https://twitter.com/yadavaman&#34;&gt;Aman Yadav&lt;/a&gt; and I, with the
+support of the Robin Hood Foundation will be working with primary
+grade teachers to develop experience that both teach computational
+thinking and use CT to support the core subject areas. As we had last
+time, we&amp;#39;ll have both working teachers and pre-service teachers - that
+is, Hunter students close to earning their teaching degrees and
+certifications. In the Fall, the pre-service teachers will student
+teach under the supervision of the working teachers in our
+program. 
+&lt;/p&gt;
+&lt;p&gt;
+Based on what we did last year I&amp;#39;m convinced that this years cohort
+will get a lot out of the experience but I&amp;#39;m also convinced that the
+workshop still faces the limitations of any professional development
+style training - short duration, one shot, and no long term
+support. PD can be valuable but I&amp;#39;m 100% convinced it&amp;#39;s not the answer
+in terms of preparing CS teachers. At the end of the workshop, our
+teachers will have learned something about CT, be more comfortable
+with it, and have designed some lessons that they&amp;#39;ll deliver in the
+Fall. It&amp;#39;s a start but it&amp;#39;s not the end. 
+&lt;/p&gt;
+&lt;p&gt;
+The game changer brings me to the other group of people
+participating - four full time Hunter Faculty members. They all teach
+in our School of Education. The aim is to see where we can add CT to
+our pre-service classes. This moves the needle. If we do it right,
+soon enough, every Hunter College primary grade teaching candidate
+will be learning about Computational Thinking in their required Ed
+classes. That&amp;#39;s how you do it - get it into pre-service.
+&lt;/p&gt;
+&lt;p&gt;
+So, that has me working with pre-service and in-service teachers as
+well as full time research faculty. That&amp;#39;s a lot of levels of
+educators but it&amp;#39;s not all the grades.
+&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s the other project we&amp;#39;re kicking off on Monday and one that I
+plan to write a lot about over the next month and into next year. 
+&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;re finally kicking off our Computer Science Teacher certification
+program. We&amp;#39;ve got a cohort of a little over 20 teachers that will
+take part in a month long intensive followed by more coursework in
+the Fall. When they&amp;#39;re done, they&amp;#39;ll be among the first certified
+computer science teachers in New York State. The cohort consists
+mostly of High School teachers but we&amp;#39;ve got some middle school in
+there as well. 
+&lt;/p&gt;
+&lt;p&gt;
+This too is a game changer. We&amp;#39;re not giving a curriculum to follow or
+scripts to copy but rather we&amp;#39;re teaching serious CS and how to teach
+it. Of course it doesn&amp;#39;t hurt that the cohort is comprised of strong,
+experienced teachers. 
+&lt;/p&gt;
+&lt;p&gt;
+So there it is - all the levels of teachers to all the levels of
+students. I&amp;#39;m super excited to be part of both of these game changing
+projects and can&amp;#39;t wait for Monday when we get to work.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interesting Problems</title>
+      <link>https://cestlaz.github.io/post/interesting-problems/</link>
+      <pubDate>Sat, 07 Mar 2020 08:12:55 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/interesting-problems/</guid>
+      <description>&lt;p&gt;
+I organize a monthly professional development session for CS
+teachers. It&amp;#39;s targeted at teachers who are beyond the beginner stage
+and don&amp;#39;t want yet another hello world blinky arduino scratch
+workshop. Don&amp;#39;t get me wrong, given the need for CS teachers we need
+plenty of beginner workshops but we also need to take teachers to the
+next level. I refer to my workshops as being for teachers of APCS-A,
+similar, or beyond. Participants get three hours of CTLE credit and
+thanks to our gracious hosts at &lt;a href=&#34;http://digitalocean.com&#34;&gt;Digital Ocean&lt;/a&gt; get to use a great space
+and enjoy a free meal.
+&lt;/p&gt;
+&lt;p&gt;
+I particularly enjoyed last weeks workshop for two reasons. One is
+that we talked about &amp;#34;interesting problems.&amp;#34; This in itself is
+interesting because different teachers find different things
+interesting. For me, this time around, I was thinking of problems that
+could be approached by beginners but had some interesting insight that
+allowed them to look at the problem differently and solve it more
+efficiently. 
+&lt;/p&gt;
+&lt;p&gt;
+The second reason I liked this session is because I wasn&amp;#39;t the only
+one presenting!!!
+&lt;/p&gt;
+&lt;p&gt;
+I started the session talking about the Happy Ladybugs problem - a
+Hackerrank problem I wrote about &lt;a href=&#34;https://cestlaz.github.io/posts/happy_ladybug/&#34;&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+I then passed off to Justin who talked about finding the &lt;a href=&#34;https://en.wikipedia.org/wiki/Convex_hull&#34;&gt;convex hull&lt;/a&gt;
+bounding a set of points. Justin talked about how you can relate this
+abstract geometry problem to real world problems like bounding
+neighborhoods as well as how this can be graphically motivated and
+then moved to discussing &lt;a href=&#34;https://en.wikipedia.org/wiki/Convex_hull_algorithms&#34;&gt;algorithms&lt;/a&gt;. Students can pretty easily come
+up with a in inefficient O(n^4) solution and then Justin talked about
+incrementally guiding them through alternate solutions ending with
+something that runs in O(nlgn). At the end of the day we had a problem
+that could be done in a variety of ways with students at different
+levels of experience. 
+&lt;/p&gt;
+&lt;p&gt;
+We then moved to Barry&amp;#39;s presentation of a &lt;a href=&#34;http://www.baphl.org/20/&#34;&gt;puzzle hunt&lt;/a&gt; problem he
+adapted. It involved decoding, translation, number bases and Barry
+uses it as a platform to work with stacks.
+&lt;/p&gt;
+&lt;p&gt;
+I finished the evening talking about three problems but we didn&amp;#39;t look
+at solutions. These were teasers for next time when we also hope to do a
+SIGCSE recap.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Working with texts part 1 - cleaning the data</title>
+      <link>https://cestlaz.github.io/post/cleaning-textx/</link>
+      <pubDate>Fri, 15 Nov 2019 16:18:51 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/cleaning-textx/</guid>
+      <description>&lt;p&gt;
+I run periodic professional development sessions here in New York with
+my partner in crime JonAlf Dyrland-Weaver. I call them PD for &amp;#34;APCS-A,
+similar or beyond&amp;#34; and they&amp;#39;re designed to fill a professional
+development gap. We try to run them once a month but it&amp;#39;s a little
+less frequent than that.
+&lt;/p&gt;
+&lt;p&gt;
+The NYCDOE has taken on the monster task of CS for all and since
+they&amp;#39;re trying to get to everyone they have to run a bazillion
+sessions but all at an introductory level. Beyond that, most PD is
+tied to a curriculum, program, or product. We decided to run sessions
+for teachers who are ready for more both pedagogically and content
+wise while not affiliating with any specific provider. We&amp;#39;re just
+about the CS and the teaching of CS.
+&lt;/p&gt;
+&lt;p&gt;
+Yesterday we had our first session of the year and the content topic
+was text processing. Along the way, we used it as an opportunity to
+highlight subgoal labeling as a teaching technique.
+&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s a lot you can do in both CS0 and CS1 with text and document
+processing. By the end of yesterday&amp;#39;s session we had discussed a bunch
+of possibilities based on the text processing technique known as a
+&amp;#34;bag of words&amp;#34; which basically takes a text and just considers all the
+words it contains. What are the words and how many times does each
+word occurs. No consideration of order, grammar, or anything else. Just
+words and counts. We also talked a bit about more advanced possibilities
+like playing with an inverted index. I&amp;#39;ll talk about both of those in
+a future post. 
+&lt;/p&gt;
+&lt;p&gt;
+For today, let&amp;#39;s talk about what we have to do before we even begin -
+preprocessing the data.
+&lt;/p&gt;
+&lt;p&gt;
+We grabbed a bunch of texts from &lt;a href=&#34;https://www.gutenberg.org/&#34;&gt;Project Gutenberg&lt;/a&gt;. Specifically, &amp;#34;Moby
+Dick&amp;#34;, a translation of my favorite play &amp;#34;Cyrano de Bergerac&amp;#34; and the
+Book of Psalms from the Bible. I also made a copy of the first chapter
+of &amp;#34;Moby Dick&amp;#34; so we had a shorter corpus to play with and typed up
+the first scene of &amp;#34;Macbeth&amp;#34; - all thirteen lines of it.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s easy enough to read in the data in a language like Python:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;f &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; open(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;cyrano.txt&amp;#34;&lt;/span&gt;)
+raw_data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+but if you&amp;#39;re using a bag of words you&amp;#39;ve got to do some cleaning.
+&lt;/p&gt;
+&lt;p&gt;
+To start, all Project Gutenberg texts contain a whole bunch of front
+and back matter with lots of words. If you don&amp;#39;t get rid of them
+you&amp;#39;ll get extra words in your bag. I forgot to do this and was a bit
+surprised to see phrases like &amp;#34;Pay a trademark license&amp;#34; in the Book of
+Psalms.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s easy enough to just cut the tops and bottoms of each file off
+with an editor and that&amp;#39;s when we can read our data into our program
+and the fun begins.
+&lt;/p&gt;
+&lt;p&gt;
+First we had to turn everything into lower case;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;lower_data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; raw_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;lower()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+and then the big part - we want to get rid of all the punctuation. We
+first tried something like this:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;stuff_to_remove &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.:;&amp;#39;0123456789&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;cleaned_letters &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [x &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; lower_data &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; stuff_to_remove]
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3&lt;/span&gt;cleaned_string &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;join(cleaned_letters)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+The second line is a list comprehension. It iterates through each
+letter in lower_data and copies it into the resultant list only if the
+letter is not in our stuff_to_remove list.
+&lt;/p&gt;
+&lt;p&gt;
+For example, if we had &lt;code&gt;lower_data = &amp;#34;abc123def g&amp;#34;&lt;/code&gt; we&amp;#39;d get a result
+of &lt;code&gt;[&amp;#34;a&amp;#34;,&amp;#34;b&amp;#34;,&amp;#34;c&amp;#34;,&amp;#34;d&amp;#34;,&amp;#34;e&amp;#34;,&amp;#34;f&amp;#34;,&amp;#34; &amp;#34;,&amp;#34;g&amp;#34;]&lt;/code&gt;. We then use the join in line 3
+to turn it back into a string &lt;code&gt;&amp;#34;abcdef g&amp;#34;&lt;/code&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+This worked pretty well but we found that there were problems. There
+were characters that we didn&amp;#39;t account for like long dashes that
+connected words and we didn&amp;#39;t have an easy way to put them in our
+removal string.
+&lt;/p&gt;
+&lt;p&gt;
+This led to take 2. Instead of deciding what to throw away, let&amp;#39;s
+decide what to keep;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;stuff_to_keep &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;abcdefghijklmnopqrstuvwxyz &lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\t\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;cleaned_letters &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [x &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; lower_data &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; stuff_to_remove]
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3&lt;/span&gt;cleaned_string &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;join(cleaned_letters)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This worked better (and yes, I know I could have used isalpha() but I
+didn&amp;#39;t remember it at the time) but still had problems. We had words
+that were formerly separated by punctuation with no spaces that were
+now combined into new invalid words. We also had things like chapter
+headings in our text and other stray words that we probably wanted to
+get rid of.
+&lt;/p&gt;
+&lt;p&gt;
+All of this led to rich conversation among the teachers present and
+can do the same in class. What do you clean? What do you keep? Is it
+worth the effort to write all sorts of cleaning code to get rid of a
+couple of stray bits of bad data or can we get the results we want by
+leaving it in? There&amp;#39;s no universally right answer and that&amp;#39;s part of
+the beauty of doing things like this with a class - it&amp;#39;s something
+that can make them think.
+&lt;/p&gt;
+&lt;p&gt;
+Once we made our final cleaning decisions it&amp;#39;s a simple matter to
+convert the long string of text into a list of words:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;wordlist &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cleaned_string&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;split()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Now we&amp;#39;re ready to start building our bag of words but that&amp;#39;s a post
+for another day.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Computational Thinking  in Primary Grades</title>
+      <link>https://cestlaz.github.io/post/ct-in-primary-grades/</link>
+      <pubDate>Tue, 30 Jul 2019 17:54:21 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/ct-in-primary-grades/</guid>
+      <description>&lt;p&gt;
+Last week I spent a couple of days as part of a team running
+professional development for a
+group of pre and in service elementary school teachers. Two days
+talking about computational thinking.
+&lt;/p&gt;
+&lt;p&gt;
+Wait a minute - elementary school teachers? I&amp;#39;m a high school guy
+pretending to be a college guy. My extensive experience with
+elementary school education is that I raised two kids and I don&amp;#39;t
+think I messed them up too much. I don&amp;#39;t know anything about
+elementary education!!!!
+&lt;/p&gt;
+&lt;p&gt;
+How&amp;#39;d I ever get myself into this???
+&lt;/p&gt;
+&lt;p&gt;
+About a year ago my friend &lt;a href=&#34;https://twitter.com/diane_levitt&#34;&gt;Diane Levitt&lt;/a&gt; was encouraging me to apply for a grant to
+explore computational thinking in elementary schools with the Robin Hood Foundation. I was
+hesitant since elementary school is not my bag but since I also knew some
+of the Robin Hood players I figured let&amp;#39;s see where things go.
+&lt;/p&gt;
+&lt;p&gt;
+At the same time, coincidentally, I started talking to &lt;a href=&#34;https://twitter.com/yadavaman&#34;&gt;Aman Yadav&lt;/a&gt;. I had followed Aman
+online for a number of years and was hoping to find an opportunity to
+meet him somewhere down the line. Long story short, the two of us
+decide to apply to for the Robin Hood Foundation grant together. I
+felt much more comfortable than going solo since Aman had already done
+some great CT work with Detroit teachers.
+&lt;/p&gt;
+&lt;p&gt;
+As it turns out, in spite of my insistence of not knowing primary ed,
+Robin Hood decided to support our efforts. Last week, Aman and I,
+joined by &lt;a href=&#34;https://twitter.com/saraevogel&#34;&gt;Sarah Vogel&lt;/a&gt; who has also done some good work with CT in
+primary grades and &lt;a href=&#34;https://twitter.com/CSEdPhil&#34;&gt;Phil Sands&lt;/a&gt; who is currently doing grad work with
+Aman we ran two days of PD for 10 pre service and 10 in service
+teachers. It was a mix of activities to explore concepts such as
+debugging, decomposition, abstraction, and brainstorming on how the
+teachers could bring these concepts to their classrooms in support of
+core academic areas.
+&lt;/p&gt;
+&lt;p&gt;
+Towards the end, I was sitting in on one group of teachers
+energetically discussing how they could share what they learned with
+their school. I then moved to another group where they were discussing
+how core ideas from our exercises could be adapted to support teaching
+writing. Really inspiring.
+&lt;/p&gt;
+&lt;p&gt;
+Aman and I will be getting together with the pre and in service
+teachers again in late August with the plan of developing concrete lessons
+that both draw out CT concepts and support core subjects. I&amp;#39;m not
+sure if Phil will be able to come out to join us but he&amp;#39;ll be involved
+in the project for the long haul. We&amp;#39;re hoping Sara can also be as
+involved moving forward but Sara&amp;#39;s very much in demand and very
+busy so here&amp;#39;s hoping that her schedule permits it.
+&lt;/p&gt;
+&lt;p&gt;
+In the end the plan is to make everything the teachers develop
+available to the greater CS Education community but we&amp;#39;re going for a
+bigger win. If all of this works, the plan is to get some of these
+practices into Hunter&amp;#39;s required pre-service classes. Given the number
+of teachers we prepare at Hunter, that could really move the needle.
+&lt;/p&gt;
+&lt;p&gt;
+Working with elementary school teachers is new to me and I&amp;#39;m having
+fun with all of this. Super appreciative to have partners like the
+Robin Hood Foundation, Aman, Sara, and Phil as well as the teachers
+who took time out of their summers to come down to Hunter and work on
+this with us.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Planning For CSTA 2019</title>
+      <link>https://cestlaz.github.io/post/planning-for-csta-2019/</link>
+      <pubDate>Thu, 04 Jul 2019 17:26:57 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/planning-for-csta-2019/</guid>
+      <description>&lt;p&gt;
+Looking forward to flying out to Phoenix for CSTA-2019 Saturday
+morning. The conference doesn&amp;#39;t officially start until Sunday, Monday
+for me since I&amp;#39;m not doing any of the pre-conference workshops. We&amp;#39;ll
+have most of Saturday as long as we&amp;#39;re up to it, Sunday, and Monday
+morning. Actually, there is the GitHub reception on &lt;a href=&#34;https://csta-github-meetup.confetti.events/&#34;&gt;Sunday evening&lt;/a&gt; so
+that&amp;#39;s kind of official conference stuff.
+&lt;/p&gt;
+&lt;p&gt;
+As to the conference, I&amp;#39;m super looking forward to it. To me CSTA is
+ a people conference. SIGCSE by contrast is more of a sessions
+conference. SIGCSE is bigger and less intimate. I have a great time
+there catching up with friends from across the country and when my asocial
+self manages, making new ones but for me it&amp;#39;s more content/session
+driven. There are always a bunch of sessions where I say to myself &amp;#34;I
+really should go to that.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+CSTA is more intimate so it seems easier to meet and talk to new
+people, even for asocial me. On the other hand, I find fewer &amp;#34;must
+see&amp;#34; sessions. This makes sense though. I no longer
+teach K12 and I had already designed and taught complete course
+sequences going from beginner through college level before the first
+CSTA conference.
+&lt;/p&gt;
+&lt;p&gt;
+Don&amp;#39;t get me wrong. There are lots of great sessions. It&amp;#39;s more that
+many of the sessions I&amp;#39;m interested in are more &amp;#34;that looks cool&amp;#34; or
+&amp;#34;interesting&amp;#34; rather than, &amp;#34;I really need to see that for what I&amp;#39;m
+doing or where I&amp;#39;m at in my career.&amp;#34;  Maybe it&amp;#39;s just that it&amp;#39;s really
+hard for the sessions to match the value added from CSTA&amp;#39;s &amp;#34;hallway
+track&amp;#34; which I think is through the roof.
+&lt;/p&gt;
+&lt;p&gt;
+Here are the sessions I&amp;#39;m zeroing in on:
+&lt;/p&gt;
+&lt;p&gt;
+On Monday, the &amp;#34;Creativity in the K-12 Computing Classroom&amp;#34; BOF looks
+interesting so I&amp;#39;ll probably try to hit it. On Saturday, I&amp;#39;m curious
+about the &amp;#34;Advanced CS Concepts in High School: One Tool to Rule Them
+All&amp;#34; session. Based on the description, I&amp;#39;m curious how much is about
+advanced concepts and how much about tooling and resources that let
+you get to interesting data and applications. The &amp;#34;How to teach AI
+across K-12&amp;#34; session could also be interesting.
+&lt;/p&gt;
+&lt;p&gt;
+JonAlf and I will be doing our session on using GitHub in the next
+block so I pretty much have to be there :-).  In the afternoon, I&amp;#39;m
+looking at the &amp;#34;You can teach Machine Learning to HS students&amp;#34; mostly
+because I&amp;#39;m curious as to how the presenter&amp;#39;s thoughts on the subject
+can add to what I&amp;#39;ve done in my classes. Actually, that&amp;#39;s also why I&amp;#39;m
+interested in the earlier AI session. I&amp;#39;m also intrigued by Ed Campos&amp;#39;
+Bootstrap Data talk but I won&amp;#39;t directly be going down that road in
+any classes soon so have to prioritize. 
+&lt;/p&gt;
+&lt;p&gt;
+For the last block, I&amp;#39;m intrigued by the Embroidery talk but Nifty
+Assignments will probably win out.
+&lt;/p&gt;
+&lt;p&gt;
+I haven&amp;#39;t looked over Wednesday&amp;#39;s schedule yet - I&amp;#39;ll leave that for
+Tuesday evening. 
+&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t think I&amp;#39;ll be going to most of these sessions, I&amp;#39;ll probably
+spend a good amount of time at the GitHub booth hopefully talking shop
+with my fellow educators. 
+&lt;/p&gt;
+&lt;p&gt;
+Besides, when I&amp;#39;m at the GitHub booth I also get to hang out with
+Devorah (my wife). Did I mention, she&amp;#39;s doing a very cool
+&lt;a href=&#34;http://blanketstatementproject.com/&#34;&gt;knitting/crocheting for charity&lt;/a&gt; project that you all should check out?
+&lt;/p&gt;
+&lt;p&gt;
+Hope to see all my old friends and meet many new ones in a few
+days!!!!
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blog For Self Professional Devleopment</title>
+      <link>https://cestlaz.github.io/post/blog-for-pd/</link>
+      <pubDate>Thu, 16 May 2019 07:12:44 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/blog-for-pd/</guid>
+      <description>&lt;p&gt;
+Lat day of the 2019 &lt;a href=&#34;https://www.ncwit.org/summit/2019-ncwit-summit-women-and-it&#34;&gt;NCWIT Summmit&lt;/a&gt;. Got up crazy early, got back from
+my run and saw this when I checked Twitter:
+&lt;/p&gt;
+  &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A1: CSTA,
+Twitter chats like this one, &lt;a
+href=&#34;https://twitter.com/guzdial?ref_src=twsrc%5Etfw&#34;&gt;@guzdial&lt;/a&gt;
+and &lt;a
+href=&#34;https://twitter.com/alfredtwo?ref_src=twsrc%5Etfw&#34;&gt;@alfredtwo&lt;/a&gt;&amp;#39;s
+blogs among others. In all cases because those places start from
+assuming I&amp;#39;m a CS teacher, rather than starting from assuming
+I&amp;#39;m a teacher who is better at teaching something else. &lt;a
+href=&#34;https://twitter.com/hashtag/csk8?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#csk8&lt;/a&gt;
+&lt;a
+href=&#34;https://t.co/6DO77fzq0j&#34;&gt;https://t.co/6DO77fzq0j&lt;/a&gt;&lt;/p&gt;&amp;mdash;
+Sarah Judd (@SarahEJudd) &lt;a
+href=&#34;https://twitter.com/SarahEJudd/status/1128829652145979392?ref_src=twsrc%5Etfw&#34;&gt;May
+16, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async
+src=&#34;https://platform.twitter.com/widgets.js&#34;
+charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;
+I don&amp;#39;t usually participate in Twitter chats. The format doesn&amp;#39;t
+really work for me. I do frequently lurk though and while I didn&amp;#39;t see
+this tweet until the morning after, another &lt;a href=&#34;https://twitter.com/Todd_Lash/status/1128816582048673793&#34;&gt;one&lt;/a&gt; by my &lt;a href=&#34;https://twitter.com/Todd_Lash&#34;&gt;Todd Lash&lt;/a&gt; caught
+my eye and I&amp;#39;ll probably comment on that at some point in the near
+future.
+&lt;/p&gt;
+&lt;p&gt;
+On Sarah&amp;#39;s tweet I&amp;#39;ll say that CS teachers should certainly frequent
+Alfred and Mark&amp;#39;s blogs. I subscribe to and enjoy both. I&amp;#39;ll add
+something that I&amp;#39;ve said before and that is if you&amp;#39;re a CS teacher you
+should also blog.
+&lt;/p&gt;
+&lt;p&gt;
+I get it - it takes time, it&amp;#39;s hard to put yourself out there and if you&amp;#39;re a
+relatively young teacher you might feel like you don&amp;#39;t have much to
+say but I say so what.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve been blogging on and off for nine years now. I have no reason to
+believe I have anything more than a small readership but I do
+periodically get surprised at a conference with a &amp;#34;hey, I love your
+blog.&amp;#34; Comments are few and far between and from &amp;#34;the usual
+suspects&amp;#34; but as I sad above, so what.
+&lt;/p&gt;
+&lt;p&gt;
+Pick a lesson you just did and describe it. That&amp;#39;s all it takes. Try
+something different a week later? Write it up. Rinse and repeat.
+&lt;/p&gt;
+&lt;p&gt;
+Why have I found writing a blog to be good self-PD?
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Writing the experience or the lesson makes me think through it
+again. What worked, what didn&amp;#39;t.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+When I do a similar lesson in the future, I can look back on what I
+did. It helps in iterating towards becoming a better teacher.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+I get to see how I&amp;#39;ve evolved as a teacher over time. You don&amp;#39;t get
+this immediately but blog for a few years and then reread some early
+posts. 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+You could get some comments. I don&amp;#39;t get a lot but the ones people
+have left have proven useful to me. Some of the ones from people who
+disagree have been the most useful.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+On top of this, some other new teacher might discover something you
+wrote up and find inspiration from it. 
+&lt;/p&gt;
+&lt;p&gt;
+So, jump in and try it. Blogging for self-PD. 
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PD in NYC</title>
+      <link>https://cestlaz.github.io/post/pd-in-nyc/</link>
+      <pubDate>Sun, 18 Nov 2018 19:43:36 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/pd-in-nyc/</guid>
+      <description>&lt;p&gt;
+I spent this past Saturday morning up at the Microsoft building in
+Times Square. What was I doing there? &lt;a href=&#34;https://twitter.com/aankit?lang=en&#34;&gt;Aankit Patel&lt;/a&gt; invited me to check
+out the professional development that he and his team organized for
+the teachers involved in the assorted CSforAllNYC programs that his
+office runs. 
+&lt;/p&gt;
+&lt;p&gt;
+Wow.
+&lt;/p&gt;
+&lt;p&gt;
+Lots of great things going on. I was only able to stay for a couple of
+hours but I spent some time in two rooms run by &lt;a href=&#34;https://www.tealsk12.org/&#34;&gt;TEALS&lt;/a&gt;, a room of &lt;a href=&#34;https://bjc.berkeley.edu/&#34;&gt;BJC&lt;/a&gt;
+teachers, a group working with &lt;a href=&#34;https://p5js.org&#34;&gt;p5.js&lt;/a&gt;, one doing physical computing and
+a bunch more.
+&lt;/p&gt;
+&lt;p&gt;
+While there was good content all around I was really impressed with
+the sense of community in many of the rooms. One of the hardest parts
+of being a computer science teacher in K12 is that you&amp;#39;re frequently
+the only CS teacher in your school. That can be an awfully lonely
+existence. It&amp;#39;s hard to be the only teacher. No one to bounce lesson
+ideas off of or to debrief with and if you leave your school they&amp;#39;re
+left in the lurch. 
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s simply amazing that all these NYC teachers have opportunities
+like this past weekends PD and the communty it provides. 
+&lt;/p&gt;
+&lt;p&gt;
+On the other hand, teachers who are not part of city programs like
+SEP or TEALS don&amp;#39;t have these opportunities and at Hunter we&amp;#39;re trying
+to do our piece to help solve that problem.
+&lt;/p&gt;
+&lt;p&gt;
+A few months ago I wrote about our plans to roll out once a month
+professional development sessions for CTLE hours specifically aimed at
+teachers who are ready for the next step. Those who are already
+comfortable with the first courses and student experiences. I&amp;#39;m
+describing the sessions as being for high school teachers teaching
+APCS-A, similar or beyond.
+&lt;/p&gt;
+&lt;p&gt;
+Were hosting our first session on December 13th. There will be a
+couple of presentations or activities to get us started but the bulk
+of the time will be about planning the rest of the sessions which will
+run until the end of the school year and the hope is that we will
+cover both content beyond the basics.
+&lt;/p&gt;
+&lt;p&gt;
+So, if you&amp;#39;re a public school CS teacher in NYC (and need CTLE hours)
+and you&amp;#39;re ready for something more advanced than the usual PD
+opportunities, why don&amp;#39;t you join us. Just sign up &lt;a href=&#34;https://goo.gl/forms/FJDyCx7qFec1yPjr1&#34;&gt;here&lt;/a&gt;. Space is
+limited so if we fill, we&amp;#39;ll add you to the waitlist and we&amp;#39;ll work on
+trying to find a bigger space to acomodate more teachers.
+&lt;/p&gt;
+&lt;p&gt;
+Looking forward to getting this thing started!!!!
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Professional Development beyond Scratch</title>
+      <link>https://cestlaz.github.io/posts/election-day-pd-2017/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/election-day-pd-2017/</guid>
+      <description>&lt;p&gt;
+Today was Election Day. One of the few days each year when students
+stay home and teachers spend all day attending what is generously
+known as professional development.
+&lt;/p&gt;
+&lt;p&gt;
+Years ago I was in a room with a few colleagues when my friend Dave -
+one of the best math teachers I know said &amp;#34;you know, every time we
+have a PD day in NJ and my wife and I have to scramble to take care of
+the kids I get a little annoyed but then think I shouldn&amp;#39;t get annoyed
+since they&amp;#39;re spending the day doing all sorts of valuable PD.&amp;#34; He
+then said &amp;#34;but then I realize that their PD is probably about as
+useful as our PD and I get really angry.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+There you have it. This is not to say that there is no good PD but it
+seems that the professional development opportunities provided by our
+schools have over the years ranged from useless to insulting with
+maybe a small bright spot here and there. Historically it&amp;#39;s been worse
+for CS teachers because we get lumped in with math teachers and have
+to spend the day learning about tools and techniques we&amp;#39;ll never use
+or discussing curricula we never teach.
+&lt;/p&gt;
+&lt;p&gt;
+So, when I spoke to JonAlf about rescuing the Stuy teachers for the
+day and hosting them at Hunter, he and the other CS teachers were
+pretty excited. It wasn&amp;#39;t as though I had the magic PD answer but I
+was going to provide a space and we&amp;#39;d figure out together what would
+be productive and valuable for them.
+&lt;/p&gt;
+&lt;p&gt;
+As it turns out, I&amp;#39;ve been spending a good amount of time these past
+few weeks visiting high schools to talk about Hunter CS and when I was
+at Bronx Science the topic of Election Day PD came up and I thought
+that it would be nice to get the Bronx Science and Stuy teachers
+together. After thinking about it more, I recalled that there were few
+good PD opportunities for CS teachers who taught advanced classes as
+opposed to all the CS PD floating around these days at more of a
+beginner level.
+&lt;/p&gt;
+&lt;p&gt;
+I thought that we could change this. In the end, I hosted PD today and
+had teachers from Stuyvesant, Bronx Science, Brooklyn Tech, and the
+Manhattan Hunter Science High School in attendance. I invited teachers
+from a few more schools but in the end we had those four schools and
+seventeen teachers.
+&lt;/p&gt;
+&lt;p&gt;
+The original agenda was:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+09:00 - 10:00 : Each school describes it&amp;#39;s program and courses
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+10:00 - 11:00 : An intro to Git and GitHub for the classroom
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+10:00 - 11:45 : Sharing neat lessons
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+11:45 - 12:00 : Presentation by &lt;a href=&#34;http://chicktech.org&#34;&gt;ChickTech&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+12:00 - 01:00 : Lunch
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+01:00 - End   : Small group lesson and curriculum work
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Oh boy did I mess up on the timing. The description and
+discussion of school programs took all morning. It was interesting to
+hear how each school&amp;#39;s program evolved and how they fit into the
+school&amp;#39;s culture. Brooklyn Tech, for instance is a school where
+students declare majors. This has a big impact on what classes kids
+have to take and are able to take. This is very different from Stuy or
+Science where kids programs are more open ended or MHSHS which is a
+much smaller school and has restrictions related to size. It was also
+interesting to note Brooklyn Tech&amp;#39;s decision to have every student
+take APCS-P. Interesting because Brooklyn Tech is one of the country&amp;#39;s
+largest high schools and most of them should have done well on the
+exam. That gave NYC around 1,400 passing AP scores in one shot. On
+the other hand none of the other schools present today offered APCS-P
+but did have their own intro CS class that students took prior to
+APCS-A.
+&lt;/p&gt;
+&lt;p&gt;
+We finished the morning with a visit by Heather from
+&lt;a href=&#34;http://chicktech.org&#34;&gt;ChickTech&lt;/a&gt;. ChickTech is a non-profit dedicated to retaining women in
+Tech. It works with both girls in K12 and also those in industry. My
+hope was to get a conversation started and see if there were some
+potential avenues of partnership between the organization and the
+schools.
+&lt;/p&gt;
+&lt;p&gt;
+After lunch, the group decided that we should do the Git/GitHub
+workshop and JonAlf obliged.
+&lt;/p&gt;
+&lt;p&gt;
+Overall I think the day was a success.
+&lt;/p&gt;
+&lt;p&gt;
+My hope is that today&amp;#39;s attendees can form a core group of CS teachers
+who teach more advanced courses and we can form something of a support
+group for each other.
+&lt;/p&gt;
+&lt;p&gt;
+I plan to try to facilitate future meetings and hopefully we&amp;#39;ll be
+able to attract more teachers to our group.
+&lt;/p&gt;
+&lt;p&gt;
+All in all I&amp;#39;m very happy with how the day went.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Awesome Cs Revisited</title>
+      <link>https://cestlaz.github.io/posts/awesome-cs-revisted/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/awesome-cs-revisted/</guid>
+      <description>&lt;p&gt;
+Saw this tweet the other day so I though I would try to plug the
+&lt;a href=&#34;https://github.com/zamansky/awesome-cs-education&#34;&gt;Awesome CS Education&lt;/a&gt; list I started on GitHub:
+&lt;/p&gt;
+  &lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/csteachers?src=hash&#34;&gt;#csteachers&lt;/a&gt;...didn&amp;#39;t I see a list of CS teacher blogs here recently?&lt;/p&gt;&amp;mdash; Pam Whitlock (@PamWhitlock1) &lt;a href=&#34;https://twitter.com/PamWhitlock1/status/910662628757864448&#34;&gt;September 21, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;
+To answer the tweet, the closet thing I know to a list is &lt;a href=&#34;https://twitter.com/alfredtwo&#34;&gt;Alfred
+Thompson&lt;/a&gt;&amp;#39;s blog roll which is actually a post he wrote on his blog
+in 2012. Unfortunately his list can be hard to find and is somewhat
+out of date.
+&lt;/p&gt;
+&lt;p&gt;
+The idea of an &amp;#34;awesome&amp;#34; list is publicly hosting a simple site that
+is community driven and anyone can suggest additions and edits.
+&lt;/p&gt;
+&lt;p&gt;
+I put up a starter &lt;a href=&#34;https://github.com/zamansky/awesome-cs-education&#34;&gt;here&lt;/a&gt; and a few people have contributed but I&amp;#39;d love
+to get more people involved. Awesome lists have a number of advantages
+over other repositories.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Unlike blog posts, the site is easy to find.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Unlike private mailing lists or Facebook, anyone can see the content.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Anyone can suggest additions (although you need to create a Github
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+account).
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Anyone can download or fork the site.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+It&amp;#39;s essentially plain text and is easy to edit (just read the
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/zamansky/awesome-cs-education/blob/master/contributing.org&#34;&gt;contribution guide&lt;/a&gt;).
+&lt;/p&gt;
+&lt;p&gt;
+So, there you have it. If you have a blog or resource to share please
+submit a pull request. Over time this could be a terrific single
+starting point for educators to get to a wealth of resources.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

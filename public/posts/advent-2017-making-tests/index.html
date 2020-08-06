@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Making contest problems and writing tests - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Making contest problems and writing tests" />
+<meta property="og:description" content="I&#39;m now well behind in Advent of Code. Traveling up to Michigan to see my son and my brother and his family will do that.  I was planning on working to catch up but got distracted earlier by this thread on the Advent of Code subreddit. Specifically this comment by Eric Wastl, the contest creator. The thread is about the level of difficulty of the various problems and Eric&#39;s comment talks about some of the factors that go into creating a good collection of problems for a contest and the difficulties involved." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/advent-2017-making-tests/" />
+<meta property="article:published_time" content="2017-12-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-12-11T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Making contest problems and writing tests"/>
+<meta name="twitter:description" content="I&#39;m now well behind in Advent of Code. Traveling up to Michigan to see my son and my brother and his family will do that.  I was planning on working to catch up but got distracted earlier by this thread on the Advent of Code subreddit. Specifically this comment by Eric Wastl, the contest creator. The thread is about the level of difficulty of the various problems and Eric&#39;s comment talks about some of the factors that go into creating a good collection of problems for a contest and the difficulties involved."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Making contest problems and writing tests</h1>
+        </header>
+        <div class="content">
+            <p>
+I&#39;m now well behind in <a href="http://adventofcode.com">Advent of Code</a>. Traveling up to Michigan to see
+my son and my brother and his family will do that.
+</p>
+<p>
+I was planning on working to catch up but got distracted earlier by
+<a href="https://www.reddit.com/r/adventofcode/comments/7idn6k/question_why_does_the_difficulty_vary_so_much/">this thread</a> on the Advent of Code subreddit. Specifically <a href="https://www.reddit.com/r/adventofcode/comments/7idn6k/question_why_does_the_difficulty_vary_so_much/dqy08tk/">this comment</a>
+by <a href="http://was.tl/">Eric Wastl</a>, the contest creator. The thread is about the level of
+difficulty of the various problems and Eric&#39;s comment talks about some
+of the factors that go into creating a good collection of problems for
+a contest and the difficulties involved.
+</p>
+<p>
+It made me think of a conversation I had twenty years ago with Rob
+Kolstad. We were chatting at a programming competition while the
+students were hacking away. We were discussing that there were only so
+many questions that a typical high school or college competition can
+ask:
+</p>
+<ol>
+<li>
+<p>
+The Mathy question
+</p>
+</li>
+<li>
+<p>
+Recursion / divide and conquer etc.
+</p>
+</li>
+<li>
+<p>
+Graph stuff
+</p>
+</li>
+<li>
+<p>
+Dynamic Programming
+</p>
+</li>
+</ol>
+<p>
+and I think one or two more. The actual questions were just window
+dressing on these fundamental question types.
+</p>
+<p>
+You can see this in many competitions including Advent of Code -
+particularly if you look over all three years. This is not a
+criticism. I love Advent of Code and think that Eric and the people
+he&#39;s working with are doing a great job . Read Eric&#39;s comment to get a
+deeper dive into what he thinks about as a contest designer.
+</p>
+<p>
+I also got to thinking how similar creating a competition is to
+creating an exam. Maybe that&#39;s because I&#39;m currently writing the final
+my students will take in a couple of days. In class tests are
+certainly not the best of assessments but they do have their place and
+in any event, they&#39;re frequently  required by school or departmental
+policy.
+</p>
+<p>
+There are many similarities between what teachers consider when making
+tests to what contest designers consider. What concepts and techniques
+must the students use? Are the problems too similar? Do they ramp up
+in difficulty? Are they all or nothing or can a student incrementally
+work their way to a solution? Does one problem lead into another?
+</p>
+<p>
+There&#39;s no big reveal or surprise here today. Just something I&#39;ve been
+thinking about.
+</p>
+<p>
+A couple of busy days coming up but maybe over the weekend I can get
+back to Advent of Code.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2017-12-11</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/assessment">#assessment</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/contests">#contests</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

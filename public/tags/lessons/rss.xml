@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lessons on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/lessons/</link>
+    <description>C&#39;est la Z (Lessons)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Nov 2019 07:48:14 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/lessons/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>I Speak Jive</title>
+      <link>https://cestlaz.github.io/post/i-speak-jive/</link>
+      <pubDate>Fri, 08 Nov 2019 07:48:14 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/i-speak-jive/</guid>
+      <description>&lt;p&gt;
+When I wrote about the &lt;a href=&#34;https://cestlaz.github.io/post/highedweb2019/&#34;&gt;HighWebEd&lt;/a&gt; I mentioned &lt;a href=&#34;https://twitter.com/elfin_john&#34;&gt;John William&lt;/a&gt;&amp;#39;&amp;#39;s talk on
+Agile. He spoke about how the movie Airplane! was filmed in an Agile
+manner and gave as an example the development of the &amp;#34;jive&amp;#34; scenes. 
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/zdCjbJ6NEfc&#34;&gt;https://www.youtube.com/embed/zdCjbJ6NEfc&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+Apparently the creative team had a script but it wasn&amp;#39;t working. The
+first pair that read for the role, Norman Gibbs and Al White had their
+owned take. Not only dir the team cast them on the spot and follow
+their creative lead (hence Agile) but they also apparently apologized
+to the two actors as the original attempt was so bad compared t what
+Gibbs and White brought to the table.
+&lt;/p&gt;
+&lt;p&gt;
+Of course, I would be negligent if I didn&amp;#39;t mention that the third
+person to really make the jive sequence was Barbara Billingsley of
+Leave it to Beaver fame.
+&lt;/p&gt;
+&lt;p&gt;
+So, coming home, I had the Airplane! and the jive scenes in the back
+of my mind. The other day at home, somehow or other we were chatting
+about that great American masterpiece, The Muppet Show and of course,
+the Swedish Chef.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/OUU6Rt6bi1U&#34;&gt;https://www.youtube.com/embed/OUU6Rt6bi1U&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+This brought me back the the &lt;a href=&#34;https://muppet.fandom.com/wiki/Encheferizer\&#34;&gt;Encheferizer&lt;/a&gt; (live version &lt;a href=&#34;http://www.tuco.de/home/jschef.htm&#34;&gt;here&lt;/a&gt;).
+&lt;/p&gt;
+&lt;p&gt;
+So how is jive from Airplane! related to The Swedish Chef?
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Filters!!!!!!!!&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+A filter, in this context, is a program that takes data as input, in
+this case a stream of text. Does some transformation to it and then
+spits out the transformed text.
+&lt;/p&gt;
+&lt;p&gt;
+Way back, Unix systems had a program called &lt;a href=&#34;https://en.wikipedia.org/wiki/Jive_filter&#34;&gt;jive&lt;/a&gt; that &amp;#34;translated&amp;#34;
+text into Jive along with other filters including cockney and valspeak which
+converted text to like, um, Valley Girl speak dontcha know. It was,
+like, totally tubular. Of course one filter was named &lt;strong&gt;chef&lt;/strong&gt;, known as
+the encheferizer which translated into Swedish Chef talk.
+&lt;/p&gt;
+&lt;p&gt;
+Over time, the list of filters grew. Some were silly, some fun, and,
+yes, some were kind of offensive.
+&lt;/p&gt;
+&lt;p&gt;
+(side bar: as I write this bit of history, I just feel as though I&amp;#39;ve
+been transported to Doug Peterson&amp;#39;s &lt;a href=&#34;https://dougpete.wordpress.com/2019/11/03/whatever-happened-to-183/&#34;&gt;Whatever happened to…&lt;/a&gt; posts and
+feel as though I should write something like: Do you remember using
+filters? Which ones did you use? etc.)
+&lt;/p&gt;
+&lt;p&gt;
+Anyway, somewhere in here there&amp;#39;s the making of some nice class
+projects but the challenge was how to do the translation. Some things
+are easy. One filter was the Fudd filter which translated to &lt;a href=&#34;https://en.m.wikipedia.org/wiki/Elmer_Fudd&#34;&gt;Elmer
+Fudd&lt;/a&gt; speak. It&amp;#39;s easy enough to substitute &lt;strong&gt;w&lt;/strong&gt; for &lt;strong&gt;l&lt;/strong&gt; in a word as
+Elmer says &amp;#34;Hew wow&amp;#34; instead of &amp;#34;Hello&amp;#34; but it&amp;#39;s hard to know if you&amp;#39;ve
+got enough translation rules so that your students text will change
+enough to be entertaining.
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, I found &lt;a href=&#34;- https://github.com/hyperrealm/talkfilters&#34;&gt;this&lt;/a&gt; repo. It&amp;#39;s an implementation of a whole
+bunch of filters:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+austro (Think Ahhnolld), b1ff (a web newbie), brooklyn, butthead (as
+in Beevis and), chef, cockney, drawl, dubya, fudd, funetak, jethro,
+jive, kraut, newspeak, pansy, pirate, postmodern, redneck, valspeak, warez
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+I couldn&amp;#39;t get the system to compile but was able to dive into the
+source code to see the rules. They&amp;#39;re in the &lt;strong&gt;.l&lt;/strong&gt; files. All of those
+files are source for the &lt;a href=&#34;https://en.wikipedia.org/wiki/Lex_%2528software%2529&#34;&gt;Lex&lt;/a&gt; parser generator but even if you aren&amp;#39;t
+familiar with Lex you should be able to figure out most of the rules.
+&lt;/p&gt;
+&lt;p&gt;
+Some of the translators rely mostly on simple letter
+substitutions. Fudd is such a filter:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-lex&#34; data-lang=&#34;lex&#34;&gt;&amp;#34;r&amp;#34;         gtf_printf(&amp;#34;w&amp;#34;);
+&amp;#34;l&amp;#34;         gtf_printf(&amp;#34;w&amp;#34;);
+&amp;#34;qu&amp;#34;        gtf_printf(&amp;#34;qw&amp;#34;);
+&amp;#34;th &amp;#34;       gtf_printf(&amp;#34;f &amp;#34;);
+&amp;#34;th&amp;#34;        gtf_printf(&amp;#34;d&amp;#34;);
+&amp;#34;n.&amp;#34;        gtf_printf(&amp;#34;n, uh-hah-hah-hah. &amp;#34;);
+&amp;#34;R&amp;#34;         gtf_printf(&amp;#34;W&amp;#34;);
+&amp;#34;L&amp;#34;         gtf_printf(&amp;#34;W&amp;#34;);
+&amp;#34;Qu&amp;#34;        gtf_printf(&amp;#34;Qw&amp;#34;);
+&amp;#34;QU&amp;#34;        gtf_printf(&amp;#34;QW&amp;#34;);&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Dubya, on the other hand goes more with word substitutions:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-lex&#34; data-lang=&#34;lex&#34;&gt;[Tt]errorist		|
+[Oo]sama		|
+[Bb]in(-|{WB})[Ll]ad(e|i)n	{ switch(gtf_random(3))
+				  {
+				  case 0: gtf_puts_case(&amp;#34;bad guy&amp;#34;); break;
+				  case 1: gtf_puts_case(&amp;#34;evildoer&amp;#34;); break;
+				  case 2: gtf_puts_case(&amp;#34;terrier&amp;#34;); break;
+				  }
+				}
+[Uu]njustified/{NW}	     gtf_puts_case(&amp;#34;pre-emptive&amp;#34;);
+[Cc]ontra/{NW}		     gtf_puts_case(&amp;#34;freedom-fighter&amp;#34;);
+[Un]nder		     gtf_puts_case(&amp;#34;misunder&amp;#34;); BEGIN(INW);
+[Mm]isunderstand	     gtf_puts_case(&amp;#34;misunderestimate&amp;#34;); BEGIN(INW);
+[Mm]isunderstood             gtf_puts_case(&amp;#34;misunderestimated&amp;#34;); BEGIN(INW);
+[Kk]ill/{NW}		     gtf_puts_case(&amp;#34;oblitifry&amp;#34;);
+[Kk]illed/{NW}		     gtf_puts_case(&amp;#34;oblitifried&amp;#34;);
+[Dd]destroy/{NW}	     gtf_puts_case(&amp;#34;destructifry&amp;#34;);
+[Dd]destroyed/{NW}	     gtf_puts_case(&amp;#34;destructifried&amp;#34;);
+[Rr]esonat/{NW}		     gtf_puts_case(&amp;#34;resignat&amp;#34;);
+[Ee]ven(-|{WB})[Hh]anded/{NW} gtf_puts_case(&amp;#34;foreign-handed&amp;#34;);
+[Ee]mbitter		     gtf_puts_case(&amp;#34;embetter&amp;#34;); BEGIN(INW);
+[Ff]allability/{NW}	     gtf_puts_case(&amp;#34;fallacy&amp;#34;);
+[An]tidote/{NW}		     gtf_puts_case(&amp;#34;anecdote&amp;#34;);&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Some, like chef, pirate, and aust do some of both:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-lex&#34; data-lang=&#34;lex&#34;&gt;[Tt]h		gtf_puts_case(&amp;#34;z&amp;#34;);
+w		gtf_puts(&amp;#34;v&amp;#34;);
+ou		gtf_puts(&amp;#34;u&amp;#34;);
+&amp;#34;de &amp;#34;		gtf_puts(&amp;#34;d &amp;#34;);
+&amp;#34;le &amp;#34;		gtf_puts(&amp;#34;l &amp;#34;);
+&amp;#34;me &amp;#34;		gtf_puts(&amp;#34;m &amp;#34;);
+&amp;#34;ne &amp;#34;		gtf_puts(&amp;#34;n &amp;#34;);
+&amp;#34;re &amp;#34;		gtf_puts(&amp;#34;r &amp;#34;);
+&amp;#34;ve &amp;#34;		gtf_puts(&amp;#34;v &amp;#34;);
+[Cc]		gtf_puts_case(&amp;#34;s&amp;#34;);
+[Pp]ie		gtf_puts_case(&amp;#34;mozer&amp;#39;s pie&amp;#34;);
+[Ss]teak        gtf_puts_case(&amp;#34;shnitzel&amp;#34;);
+[Gg]overnor	gtf_puts_case(&amp;#34;govenator&amp;#34;);&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Some also deal with more complex situations such as only substituting
+letters if they&amp;#39;re at the end of words and the like.
+&lt;/p&gt;
+&lt;p&gt;
+All of this is leading to a huge number lesson and project
+possibilities from simple text replacements in an intro class to
+something much more ambitious in a later class.
+&lt;/p&gt;
+&lt;p&gt;
+I was looking to vary some of the things we do in Hunter and I think
+I&amp;#39;ll add some language filters to the mix.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Not every lesson has to be magic</title>
+      <link>https://cestlaz.github.io/post/not-always-exciting/</link>
+      <pubDate>Tue, 25 Sep 2018 18:08:35 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/not-always-exciting/</guid>
+      <description>&lt;p&gt;
+If you check out Twitter, Facebook, Medium  and other blog sites you
+might get the idea that you&amp;#39;re the worst teacher in the world. The
+internet abounds with people sharing tweets and posts about wonderful
+lessons they&amp;#39;ve just taught, witnessed or learned about in
+professional development. Sure, the teacher forums rife with requests
+for lesson ideas and resources but the shared material is always aces.
+&lt;/p&gt;
+&lt;p&gt;
+It makes sense, people in the community want to share things that
+worked for them or things they think will work. 
+&lt;/p&gt;
+&lt;p&gt;
+Still, for new teachers it can create an unhealthy illusion of what
+really goes on in the classroom.
+&lt;/p&gt;
+&lt;p&gt;
+This is not to say that sharing of the good stuff is a bad thing but
+the truth is that not every lesson is a masterpiece, not every teacher
+is a super charismatic showman, and not all topics lend themselves to
+creative teaching.
+&lt;/p&gt;
+&lt;p&gt;
+Why am I writing this now? Because I was planning lessons earlier
+today and I&amp;#39;m at one of those places where I&amp;#39;m not going to be able to
+deliver a whiz-bang lesson in my next class. One of my classes this
+semester is for beginners so we&amp;#39;re building up language skills from
+the ground up. Right now I want to do some loop applications but
+there&amp;#39;s only so much we can do given what the students know. There are
+reasons why I don&amp;#39;t want to do graphics with them right now. I also
+haven&amp;#39;t introduced lists yet and don&amp;#39;t want to loop over strings yet
+so I&amp;#39;m left with doing mathy stuff.
+&lt;/p&gt;
+&lt;p&gt;
+I think I&amp;#39;ll look at Newton&amp;#39;s method for square roots. It&amp;#39;s
+interesting for the math inclined and does let us explore issues with
+floating point and accuracy. 
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s not going to be super exciting for everyone though and that&amp;#39;s okay. 
+&lt;/p&gt;
+&lt;p&gt;
+I could do lists first but I don&amp;#39;t want the kids to have to handle so
+much new material so quickly. I&amp;#39;d rather keep the pace slower and work
+with what they&amp;#39;ve just learned for a bit. 
+&lt;/p&gt;
+&lt;p&gt;
+I could also do graphics but that adds a level of overhead I don&amp;#39;t
+want to get into now.
+&lt;/p&gt;
+&lt;p&gt;
+The idea is to look at the long game. A class runs a whole semester or
+possibly a year. You&amp;#39;re going to have some special memorable lessons
+and some mundane ones and that&amp;#39;s nothing to be ashamed of. 
+&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;re still mostly going to see best practices shared online with only
+a few brave souls sharing disaster classes and asking for help. That&amp;#39;s
+just how the internet works. It&amp;#39;s not the worst thing in the
+world. Just remember when you&amp;#39;re struggling to come up with a good
+lesson or you&amp;#39;ve just taught a bad one that tomorrow&amp;#39;s will be
+better. Judge yourself by your students long term development, not one
+day at a time.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>There&#39;s always something to learn (from your students)</title>
+      <link>https://cestlaz.github.io/posts/when-they-change-the-script/</link>
+      <pubDate>Wed, 18 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/when-they-change-the-script/</guid>
+      <description>&lt;p&gt;
+One thing I&amp;#39;ve learned from teaching is that there&amp;#39;s always something
+new to learn. For the kids, yes, but I&amp;#39;m talking about for the
+teacher.
+&lt;/p&gt;
+&lt;p&gt;
+The other day, I taught a lesson I&amp;#39;ve taught many times. Find the mode
+of a data set. That&amp;#39;s the problem that they solve but the lesson is
+really about run time complexity, hidden complexity and using data
+structures in alternate ways.
+&lt;/p&gt;
+&lt;p&gt;
+I blogged about this &lt;a href=&#34;https://cestlaz.github.io/posts/2013-03-23-Who_won_the_election-Quadratic_to_Linear_Time.md&#34;&gt;before&lt;/a&gt; so you can get an earlier take there
+although the code isn&amp;#39;t formatted correctly due to blog conversions.
+&lt;/p&gt;
+&lt;p&gt;
+As with the last time, the students  had already written code to find
+the largest value in a list and also to find the frequency of an item
+in a list.
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+They had to write mode prior to the class. In the past, students would
+generally come up with something like this:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+They&amp;#39;d use their existing knowledge and the &amp;#39;find the largest&amp;#39; idiom
+to find the mode by:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+find the frequency of the first item and assume it&amp;#39;s the mode so far
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+for each item in the list
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+find the frequency of that idem
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+if it occurs more than the mode so far then it becomes the new
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+mode so far
+&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s a lot of good in this solution. The kids incrementally develop
+a solution, they use and exctend code and concepts they already know
+and understand and it&amp;#39;s clear and understandable.
+&lt;/p&gt;
+&lt;p&gt;
+We would then run the code on larger and larger data sets and notice
+that it gets slow pretty quickly. This leads to an informal discussion
+of run time and the fact that there&amp;#39;s hidden complexity – the call to
+&lt;code&gt;freq&lt;/code&gt; in the main loop introduces a linear component so we have a
+loop within a loop and an N^2 routine.
+&lt;/p&gt;
+&lt;p&gt;
+The big takeaway is get a feel for run time and to be aware of hidden
+complexity. We then move to a linear solution by using a list as
+buckets. You can read more about that in the &lt;a href=&#34;https://cestlaz.github.io/posts/2013-03-23-Who_won_the_election-Quadratic_to_Linear_Time.md&#34;&gt;original post&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+What was interesting this time around was that most of the kids came
+up with a solution more like this:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Instead of calculating the frequency inside the loop they made a list
+of frequencies. &lt;code&gt;freq[0]&lt;/code&gt; had the frequency of &lt;code&gt;l[0]&lt;/code&gt;, &lt;code&gt;freq[1]&lt;/code&gt; the
+frequency of &lt;code&gt;l[1]&lt;/code&gt; etc. They then loop through that &lt;code&gt;freq&lt;/code&gt; list to
+find the largest element and that&amp;#39;s the index of the mode value in the
+original list.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s functionally the same as the first solution but in some ways it&amp;#39;s
+very different. They built the data set they needed ahead of time
+instead of calculating the data on the fly and they used the concept
+of parallel lists.
+&lt;/p&gt;
+&lt;p&gt;
+I like the solution and it didn&amp;#39;t prevent us from getting to the run
+time stuff but this did give me something to think about.
+&lt;/p&gt;
+&lt;p&gt;
+Why did this class led them largely to a different solution than the
+classes I&amp;#39;ve taught in the class. There are a lot of things to ponder
+since it&amp;#39;s a college class that meets twice a week with kids from a
+range of backgrounds (CS and otherwise) vs a high school class that
+meets 5 days a week and the kids all had the same in class experience
+prior to this lesson. Did I do something differently before hand? Some
+assignments? Something I modeled?  I&amp;#39;m not sure but it&amp;#39;s something I&amp;#39;m
+going to ponder.
+&lt;/p&gt;
+&lt;p&gt;
+It will interesting to see if this was a one shot deal and my current
+class will solve problems as I predict moving forward or if I&amp;#39;m going
+to get to see a lot of new things.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

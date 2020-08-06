@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Do you need to know binary for CS? - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Do you need to know binary for CS?" />
+<meta property="og:description" content="Yesterday, Alfred Thompson asked &#34;Why is it important for CS students to understand binary?&#34; on Twitter which led to a number of interesting responses. Alfred summarized and wrote his own thoughts on his blog.  I wanted to add a comment but I already wrote a post for yesterday so put it off until today.  First let me say that you can have a very successful career in tech and not really know binary or number bases other than 10." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/why-binary/" />
+<meta property="article:published_time" content="2018-09-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-09-05T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Do you need to know binary for CS?"/>
+<meta name="twitter:description" content="Yesterday, Alfred Thompson asked &#34;Why is it important for CS students to understand binary?&#34; on Twitter which led to a number of interesting responses. Alfred summarized and wrote his own thoughts on his blog.  I wanted to add a comment but I already wrote a post for yesterday so put it off until today.  First let me say that you can have a very successful career in tech and not really know binary or number bases other than 10."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Do you need to know binary for CS?</h1>
+        </header>
+        <div class="content">
+            <p>
+Yesterday, Alfred Thompson asked <a href="https://twitter.com/alfredtwo/status/1036982959587446784">&#34;Why is it important for CS students
+to understand binary?&#34;</a> on Twitter which led to a number of interesting
+responses. Alfred summarized and wrote his own thoughts on <a href="http://blog.acthompson.net/2018/09/why-teach-binary-in-computer-science.html">his blog</a>.
+</p>
+<p>
+I wanted to add a comment but I already wrote a post for yesterday so
+put it off until today.
+</p>
+<p>
+First let me say that you can have a very successful career in tech
+and not really know binary or number bases other than 10. That career
+could be as as programmer, software engineer, network specialist,
+devops or in many other areas that fall on the CS side of tech.
+</p>
+<p>
+You also can&#39;t really get through a CS program without learning about
+binary. If you&#39;re self taught or go to a code school then that&#39;s
+another story.
+</p>
+<p>
+The question is, is it worth the time spent.
+</p>
+<p>
+One can easily argue that systems - that is low level, close to the
+metal knowledge is one of the two &#34;latins&#34; of CS, the other being CS
+theory. You might not explicitly use either but they give you a
+stronger foundation in everything. You also can&#39;t study systems without a
+good knowledge of binary so if you want to do anything low level, you
+need it.
+</p>
+<p>
+What about beyond those easy but not all to convincing to new students
+answers?
+</p>
+<p>
+Let&#39;s loo at a few things we can do with binary.
+</p>
+<p>
+A big part of binary notation is that you can look at data as a string
+of bits. You can also manipulate that data using things like <code>and</code>,
+<code>or</code>, <code>not</code>, and <code>xor</code>.
+</p>
+<p>
+At it&#39;s core <code>and</code> let&#39;s you turn off bits. <code>And</code> any bit with a 0 and
+it will become a 0. <code>And</code> it with a 1 and it stays the same.
+</p>
+<p>
+\begin{array}{ccccc}
+&amp;1 &amp; 1 &amp; 0 &amp; 0\\
+and &amp;0 &amp; 1 &amp; 0 &amp; 1\\\hline
+&amp;0 &amp; 1 &amp; 0 &amp; 0\\
+\end{array}
+</p>
+<p>
+<code>Or</code> is used to turn on bits. You <code>or</code> any bit with a 1 and it gets
+turned on. <code>Or</code> it with a 0 and it stays as it was.
+$$
+\begin{array}{ccccc}
+&amp;1 &amp; 1 &amp; 0 &amp; 0\\
+or &amp;0 &amp; 1 &amp; 0 &amp; 1\\\hline
+&amp;1 &amp; 1 &amp; 0 &amp; 1\\
+\end{array}
+$$
+<code>Xor</code> a bit with a 1 and the bit flips, with a 0 it stays the same.
+$$
+\begin{array}{ccccc}
+&amp;1 &amp; 1 &amp; 0 &amp; 0\\
+xor &amp;0 &amp; 1 &amp; 0 &amp; 1\\\hline
+&amp;1 &amp; 0 &amp; 0 &amp; 1\\
+\end{array}
+$$
+</p>
+<p>
+What can we do with this? For one thing, image processing. Students
+frequently play with images where each pixel is represented as a 24
+bit color. Three bytes, one each for red, green, and blue. Each byte
+is really 8 bits. We can use bitwise operations on the binary digits
+to turn on or off color.
+</p>
+<p>
+Let&#39;s say we have this rgb triple: (200, 15, 80) which in hexadecimal
+is C8 0F 50 or 10111000 00001111 01010000 in binary. If we want to
+turn off the reddest reds we could <code>and</code> the color with 00001111
+11111111 11111111 or 0FFFFF:
+</p>
+<p>
+$$
+\begin{array}{cccc}
+&amp; 10111000 &amp; 00001111 &amp; 01010000\\
+and &amp; 00001111 &amp; 11111111 &amp; 11111111\\\hline
+&amp; 00001000 &amp; 00001111 &amp; 01010000\\
+\end{array}
+$$
+Yes, you could just use the base 10
+values and keep on calling color setting and conversion functions but
+if you understand binary it&#39;s quicker and easier and what&#39;s going on
+will actually make sense.
+</p>
+<p>
+Of course you probably wouldn&#39;t write out the binary but would rather
+use the hex notation which once a student realizes is just 4 bit
+groupings of binary becomes really easy. As a bonus, once you&#39;re used
+to binary and hex those hexadecimal color values will all of a sudden
+make sense.
+</p>
+<p>
+This is just the tip of the image processing and graphics iceberg with
+respect to binary.
+</p>
+<p>
+Related although I haven&#39;t played with it myself, I&#39;d imagine you could use
+these types of bitwise operations on images to play with
+steganography.
+</p>
+<p>
+Another use of binary is in cybersecurity. Things like buffer
+overflows and blowing the stack all make much more sense if you know
+how memory is arranged and that&#39;s easier to understand if you
+understand binary, bytes, and word sizes. I do experiments with my
+classes when we use C or C++ where they access arrays off the ends and
+end up messing with neighboring variables. It seems like magic unless
+you know about memory and to know memory you need to know binary.
+</p>
+<p>
+How about image file formats? Many image file formats start with a
+fixed size header. Here&#39;s the header definition for the GIF file
+format:
+</p>
+<table>
+<thead>
+<tr>
+<th class="align-right">Offset</th>
+<th>Length</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="align-right">0</td>
+<td>3  bytes</td>
+<td>&#34;GIF&#34;</td>
+</tr>
+<tr>
+<td class="align-right">3</td>
+<td>3  bytes</td>
+<td>&#34;87a&#34; or &#34;89a&#34;</td>
+</tr>
+<tr>
+<td class="align-right">6</td>
+<td>2  bytes</td>
+<td>&lt;Logical Screen Width&gt;</td>
+</tr>
+<tr>
+<td class="align-right">8</td>
+<td>2  bytes</td>
+<td>&lt;Logical Screen Height&gt;</td>
+</tr>
+<tr>
+<td class="align-right">10</td>
+<td>1  byte</td>
+<td>bit0: Global Color Table Flag (GCTF)</td>
+</tr>
+<tr>
+<td class="align-right">bit</td>
+<td>1..3:  Color</td>
+<td>Resolution</td>
+</tr>
+<tr>
+<td class="align-right">bit</td>
+<td>4:  Sort</td>
+<td>Flag to Global Color Table</td>
+</tr>
+<tr>
+<td class="align-right">bit</td>
+<td>5..7:  Size</td>
+<td>of Global Color Table:2^(1+n)</td>
+</tr>
+<tr>
+<td class="align-right">11</td>
+<td>1  byte</td>
+<td>&lt;Background Color Index&gt;</td>
+</tr>
+<tr>
+<td class="align-right">12</td>
+<td>1  byte</td>
+<td>&lt;Pixel Aspect Ratio&gt;</td>
+</tr>
+<tr>
+<td class="align-right">13</td>
+<td>?  bytes</td>
+<td>&lt;Global Color Table(0..255 x 3 bytes)</td>
+</tr>
+<tr>
+<td class="align-right">?</td>
+<td>bytes  &lt;Blocks&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td class="align-right">1</td>
+<td>bytes  &lt;Trailer&gt;</td>
+<td>(0x3b)</td>
+</tr>
+</tbody>
+</table>
+<p>
+The header info is defined bit by bit so you have to know about binary
+and know how to manipulate data on a bit level.
+</p>
+<p>
+Those were three biggies but there are other places where knowing
+binary makes tons of sense:
+</p>
+<ul>
+<li>
+<p>
+flag type parameters
+</p>
+</li>
+<li>
+<p>
+understanding floating point numbers
+</p>
+</li>
+<li>
+<p>
+using shifts for quick doubling and halving of data
+</p>
+</li>
+</ul>
+<p>
+Does this mean that binary has to be or should be in a first course?
+No. Should it be somewhere? Certainly and rather than doing binary
+because it&#39;s on the test or because &#34;you should know it&#34; you can pick
+and choose your spots and cover it when it will be fun and interesting
+for your kids.
+</p>
+<p>
+world
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2018-09-05</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs">#cs</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

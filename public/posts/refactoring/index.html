@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Refactoring - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Refactoring" />
+<meta property="og:description" content="One of my laments on teaching computer science is that students are rarely taught and given the chance to develop good programming practices. There&#39;s usually not enough time. Beginners work on small &#34;toys&#34; which don&#39;t lend themselves to good software development practices and later on, there&#39;s so much other material like algorithms, data structures etc. to teach and learn that programming practices usually amount to lines like:   &#34;Make sure to comment your code." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/refactoring/" />
+<meta property="article:published_time" content="2018-03-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-03-21T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Refactoring"/>
+<meta name="twitter:description" content="One of my laments on teaching computer science is that students are rarely taught and given the chance to develop good programming practices. There&#39;s usually not enough time. Beginners work on small &#34;toys&#34; which don&#39;t lend themselves to good software development practices and later on, there&#39;s so much other material like algorithms, data structures etc. to teach and learn that programming practices usually amount to lines like:   &#34;Make sure to comment your code."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Refactoring</h1>
+        </header>
+        <div class="content">
+            <p>
+One of my laments on teaching computer science is that students are
+rarely taught and given the chance to develop  good programming
+practices. There&#39;s usually not enough time. Beginners work on small
+&#34;toys&#34; which don&#39;t lend themselves to good software development
+practices and later on, there&#39;s so much other material like
+algorithms, data structures etc. to teach and
+learn that programming practices usually amount to lines like:
+</p>
+<blockquote>
+<p>
+&#34;Make sure to comment your code..&#34;
+</p>
+<p>
+&#34;Indent properly…&#34;
+</p>
+<p>
+&#34;Use functions…&#34;
+</p>
+<p>
+&#34;It&#39;s important to test your code…&#34;
+</p>
+</blockquote>
+<p>
+so when I see an opportunity to use a simple example to drive home a
+good practice,  I try to jump on it.
+</p>
+<p>
+Drawing shapes with text is a typical early project. I&#39;ve seen it in
+text books and online and have been doing it for years. I recall doing
+it back in the 80s in Fortran IV when the programs we wrote were on <a href="https://en.wikipedia.org/wiki/Punched_card">punch cards</a>, run
+overnight on an <a href="https://en.wikipedia.org/wiki/IBM_1130">IBM 1130</a>, and printouts picked up the next day.
+</p>
+<p>
+It&#39;s a nice use of nested loops. The students will write functions to
+create assorted shapes out of asterisks  like rectangles and
+triangles. Typical solutions look like this:
+</p>
+<div class="src src-c++">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">
+</code></pre></div>
+</div>
+<p>
+Which results in shapes like these:
+</p>
+<pre class="example">
+
+| ****            |    | *               |
+| ****            |    | **              |
+| ****            |    | ***             |
+| ****            |    | ****            |
+| ****            |    |                 |
+|                 |    |                 |
+|                 |    |                 |
+| *************** |    | *               |
+| *************** |    | **              |
+| *************** |    | ***             |
+| *************** |    | ****            |
+| *************** |    | *****           |
+| *************** |    | ******          |
+| *************** |    | *******         |
+</pre>
+<p>
+Then there will be more interesting shapes including things like:
+</p>
+<pre class="example">
+
+*       *            *****
+**      ***           *   *            and more
+***     *****          *   *
+****      ***           *****
+</pre>
+<p>
+This is a great time to talk about refactoring.  All of the shape
+drawing functions follow the same pattern - there&#39;s an outer loop for
+the height and then one or more inner loops to draw each line. We can
+factor out the inner loops in to a separate <code>line()</code> function.
+</p>
+<div class="src src-c++">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">
+</code></pre></div>
+</div>
+<p>
+It&#39;s just like factoring in algebra:
+</p>
+<div class="latex-block">
+<p>
+(RectangleOuterLoop × Line) + (TriangleOuterLoop × Line) ⇒ Line  (Rectangleouterloop × TriangleOuterloop)
+</p>
+</div>
+<p>
+We end up with:
+</p>
+<div class="src src-c++">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">
+</code></pre></div>
+</div>
+<p>
+It&#39;s simpler, cleaner, and also can lead us to thinking about the
+&#34;harder&#34; shapes in an interesting way. Instead of looking at the right
+justified triangle as a triangle, we can think of each level as two
+lines - one of spaces (shown here as dashes) followed by a line of
+stars:
+</p>
+<pre class="example">
+----*       *
+---**      **
+--***     ***
+-****    ****
+*****   *****
+</pre>
+<p>
+Noticing that  for a height of 5, the dashed lines count down in
+length 4,3,2,1,0 and the star lines count up 1,2,3,4,5, we get:
+</p>
+<div class="src src-c++">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">
+</code></pre></div>
+</div>
+<p>
+Here we have typical early CS assignment that really lends itself to
+talking about structuring programs and refactoring. Where else can we
+inject good programming practices in ways that make sense early on?
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2018-03-21</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/teaching">#teaching</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs">#cs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

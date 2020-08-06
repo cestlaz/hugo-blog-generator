@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flask on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/flask/</link>
+    <description>C&#39;est la Z (flask)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Oct 2016 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/flask/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Installing Flask in a virtualenv</title>
+      <link>https://cestlaz.github.io/posts/flask-install-flask/</link>
+      <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/flask-install-flask/</guid>
+      <description>&lt;p&gt;
+Second video in the Flask series. This one goes over installing Flask
+in a virtualenv and running a simple Flask application.
+&lt;/p&gt;
+&lt;p&gt;
+Nothing much to say about this other then check out the video:
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/2ZIhczsu1EQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Setting up Linux for Flask Web Development</title>
+      <link>https://cestlaz.github.io/posts/flask-setup-virtualenv/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/flask-setup-virtualenv/</guid>
+      <description>&lt;p&gt;
+Those laptops that my Hunter students were supposed to get have
+finally arrived. We&amp;#39;re distributing them on Monday. Each student will
+have a Dell laptop running Ubuntu 16.04 for as long as they&amp;#39;re in the
+program.
+&lt;/p&gt;
+&lt;p&gt;
+This means we can finally start using the web as a way of displaying
+and sharing our projects.
+&lt;/p&gt;
+&lt;p&gt;
+For this type of web development, I&amp;#39;m a big fan of using &lt;a href=&#34;http://flask.pocoo.org&#34;&gt;Flask&lt;/a&gt;. Flask
+is a Python microframework. The easiest analogy is saying it&amp;#39;s like
+Ruby on rails but in Python. That&amp;#39;s close enough for our purposes.
+&lt;/p&gt;
+&lt;p&gt;
+I much prefer Python to Ruby as a teaching tool because it leads to
+roads going in all sorts of directions so it was merely a matter of
+figuring out which framework or platform to use. I found Django to be
+far too big, cumbersome, and all encompasing while on the other hand,
+&lt;a href=&#34;http://werkzeug.pocoo.org/&#34;&gt;Werkzeug&lt;/a&gt;, which Flask is based on is a little too low level.
+&lt;/p&gt;
+&lt;p&gt;
+Flask hit the sweet spot. Easy routing, session and form handling,
+templates, pretty much everything I was looking for but very
+unopinionated and open ended. Perfect for teaching and learning and
+perfect for lightweight projects. The sourecode is also
+straightforward enough for a student to explore.
+&lt;/p&gt;
+&lt;p&gt;
+Below is a video going over setting up Linux from right after an
+install to use the python virtualenv package. The next video will go
+over installing Flask and setting up a simple application. Later, I&amp;#39;ll
+post a video on deployment to a &lt;a href=&#34;http://digitalocean.com&#34;&gt;Digital Ocean&lt;/a&gt; Droplet.
+&lt;/p&gt;
+&lt;p&gt;
+Here are some notes relating to the video.
+&lt;/p&gt;
+&lt;p&gt;
+First, go to your &amp;#34;software sources&amp;#34; or &amp;#34;software updates&amp;#34;
+application from the menu and select all the sources (as described n
+the video)
+&lt;/p&gt;
+&lt;p&gt;
+To update a new system:
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgade&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+To install the most recent emacs snapshot
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt-add repository -y ppa:ubuntu-lisp
+sudo apt-get update
+sudo apt-get install emacs-snapshot&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+To install python pip (used to install other python packages)
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt-get install python-pip&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+and then to install the virtualenv packages
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo pip install virtualenv&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+To create a python3 virtual environment
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;pip install -p python3 venv-folder&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+You can activate the envorinment (assuming you create the folder under
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+your home directory):
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;source ~/venv-folder/bin/activate&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+And to deactivate it, from the activated terminal
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;deactivate&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Here&amp;#39;s the video. Next time, we&amp;#39;ll install Flask into an virtual
+environment.
+&lt;/p&gt;
+ &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/cEqB4pkR1c4&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

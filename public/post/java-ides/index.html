@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Evaluating Java IDES for teaching teachers. - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Evaluating Java IDES for teaching teachers." />
+<meta property="og:description" content="Since Hunter uses C&#43;&#43; as it&#39;s core language, I haven&#39;t used Java much in the past three years. That&#39;s going to change pretty soon. Once we start offering our CS teacher Certificate and Masters programs I&#39;ll once again start teaching with Java as that&#39;s one of the langauges that we want to prepare our teachers with.  That means deciding on a set of tools and so I&#39;ve been spending time evaluating Java programming environments with an eye on the beginner since not only do the teachers I work with have to be comfortable with the tool but more importantly they will have to be able to support the tool for all of their students." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/java-ides/" />
+<meta property="article:published_time" content="2019-03-08T13:29:18-04:00" />
+<meta property="article:modified_time" content="2019-03-08T13:29:18-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Evaluating Java IDES for teaching teachers."/>
+<meta name="twitter:description" content="Since Hunter uses C&#43;&#43; as it&#39;s core language, I haven&#39;t used Java much in the past three years. That&#39;s going to change pretty soon. Once we start offering our CS teacher Certificate and Masters programs I&#39;ll once again start teaching with Java as that&#39;s one of the langauges that we want to prepare our teachers with.  That means deciding on a set of tools and so I&#39;ve been spending time evaluating Java programming environments with an eye on the beginner since not only do the teachers I work with have to be comfortable with the tool but more importantly they will have to be able to support the tool for all of their students."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Evaluating Java IDES for teaching teachers.</h1>
+        </header>
+        <div class="content">
+            
+<p>
+Since Hunter uses C++ as it&#39;s core language, I haven&#39;t used Java much
+in the past three years. That&#39;s going to change pretty soon. Once we
+start offering our CS teacher Certificate and Masters programs I&#39;ll
+once again start teaching with Java as that&#39;s one of the langauges
+that we want to prepare our teachers with.
+</p>
+<p>
+That means deciding on a set of tools and so I&#39;ve been spending time
+evaluating Java programming environments with an eye on the
+beginner since not only do the teachers I work with have to be
+comfortable with the tool but more importantly they will have to be
+able to support the tool for all of their students.
+</p>
+<p>
+One tool we&#39;re likely to use is <a href="https://repl.it/">repl.it</a>. That&#39;s an online environment
+for Java and a bunch of other languages. There&#39;s a lot to like about
+it and teachers might go with it or a similar cloud based option in
+their classes but it&#39;s important that we also prepare teachers to
+build programs locally.
+</p>
+<p>
+So, here&#39;s my criteria and here&#39;s what I found.
+</p>
+<h3 id="headline-1">
+The tool has to install easily on all platforms
+</h3>
+<p>
+I started with my desktop Linux machine. I&#39;m running LinuxMint which
+is pretty mainstream and I installed the Java tools using Mint&#39;s
+package manager. The packages are openjdk-11 and it looks like running
+Java 10. If the IDE or editor I installed  didn&#39;t work off the bat it
+was no good. If it installed and I liked it I&#39;ll pass it off to
+friends who use Windows and Macs to see if the install there is
+equally seamless.
+</p>
+<h3 id="headline-2">
+The tool has to be easy to run 
+</h3>
+<p>
+After install you have to be able to run it easily. No fancy <code>java
+-jar blah blah blah</code>.
+</p>
+<h3 id="headline-3">
+I&#39;m not looking for a professional tool
+</h3>
+<p>
+Professional tools can be too compex and do too much for students. I
+was looking for the sweet spot of giving a nice amount of support but
+not giving away the store.
+</p>
+<p>
+Here are the tools I looked at (and you can debate if something
+belongs in the other category in some cases):
+</p>
+<h4 id="headline-4">
+Editors
+</h4>
+<ul>
+<li>
+<p>
+Emacs
+</p>
+</li>
+<li>
+<p>
+Gedit
+</p>
+</li>
+<li>
+<p>
+Vim
+</p>
+</li>
+<li>
+<p>
+Sublime Text
+</p>
+</li>
+<li>
+<p>
+Atom
+</p>
+</li>
+<li>
+<p>
+Jedit
+</p>
+</li>
+</ul>
+<h4 id="headline-5">
+IDES
+</h4>
+<ul>
+<li>
+<p>
+Eclipse
+</p>
+</li>
+<li>
+<p>
+DrJava
+</p>
+</li>
+<li>
+<p>
+Geany
+</p>
+</li>
+<li>
+<p>
+BlueJ
+</p>
+</li>
+<li>
+<p>
+IntelliJ
+</p>
+</li>
+<li>
+<p>
+VSCode
+</p>
+</li>
+<li>
+<p>
+JGrasp
+</p>
+</li>
+</ul>
+<h3 id="headline-6">
+Editor vs IDE
+</h3>
+<p>
+The line between editor and IDE is a blurry one. I tend to think of an
+editor as multi-purpose and multi-language where an also useful for
+non programming text realted tasks whereas an IDE comes with more
+programming bells and whistles. The truth is, though. that some IDES
+can do well with non programming tasks and many editors are pretty
+close to IDEs.
+</p>
+<p>
+In any event, for a teacher, there&#39;s something to be said for keeping
+it &#34;close to the metal&#34; and have them use an editor to edit source
+code and compile from the command line. This doesn&#39;t mean they
+shouldn&#39;t also see IDEs and perhaps use them with their students but
+a teacher should know a little more about what&#39;s going on than just
+load a program, write some code, and click run. If a teacher is that
+limited you end up in situations similar to that common comment from
+people who finish a beginner course on Codecademy - &#34;I finished the
+course and I can program in their environment but I don&#39;t know how to
+actually make something anywhere else.&#34;
+</p>
+<h3 id="headline-7">
+The Editors
+</h3>
+<p>
+Here the idea would be start as I mentioned above. Edit files adn then
+compile on the command line. Eventually, though, many of these tools
+can be used as IDEs
+</p>
+<h4 id="headline-8">
+Emacs
+</h4>
+<p>
+<a href="https://www.gnu.org/software/emacs/">https://www.gnu.org/software/emacs/</a>
+</p>
+<p>
+I&#39;ve got to start with my tool of choice although I can&#39;t really be
+unbiased. I think it gets a bad wrap because it&#39;s old and out of the
+box looks plain but, yes, you can use your mouse and it does have
+menus. The upside is that it can do everything an IDE can do and a
+thousand times more. I do email, read rss feeds, maintain my calendar
+and more in Emacs. 
+</p>
+<p>
+The downside is that it doesn&#39;t do Java well out of the box and kids
+like shinier objects. 
+</p>
+<p>
+I don&#39;t think I&#39;d start the teachers with Emacs but I&#39;d probably shift
+my instruction to using it at some point and show some of the cooler
+features (many highlighted in my <a href="https://cestlaz.github.io/stories/emacs/">Emcacs videos</a>)
+</p>
+<h4 id="headline-9">
+Gedit
+</h4>
+<p>
+<a href="https://wiki.gnome.org/Apps/Gedit%0A">https://wiki.gnome.org/Apps/Gedit%0A</a>
+</p>
+<p>
+This is a plain simple editor. You can bucket in notepad+ and whatever
+the basic Mac editor is in here. Nothing special and nothing
+fancy. It&#39;s easy enough to load, edit a file and save but not much
+more. I&#39;d be fine using it were it not for better options.
+</p>
+<h4 id="headline-10">
+Vim
+</h4>
+<p>
+<a href="https://www.vim.org/">https://www.vim.org/</a>
+</p>
+<p>
+No
+</p>
+<h4 id="headline-11">
+Sublime Text
+</h4>
+<p>
+<a href="https://www.sublimetext.com/%0A">https://www.sublimetext.com/%0A</a>
+</p>
+<p>
+This was the hotness for a while and it&#39;s a pretty slick editor. I
+can&#39;t recommend it for teachers though for two reasons. One is that
+it&#39;s not free (although it isn&#39;t expensive). The other is that it&#39;s
+not open source. There were other hot editors before sublime and when
+their companies folded or sunset the editor all those plugins and
+customizations had to be redone on a new platform. 
+</p>
+<h4 id="headline-12">
+Atom
+</h4>
+<p>
+<a href="https://atom.io/">https://atom.io/</a>
+</p>
+<p>
+Atom&#39;s an editor I want to like. It&#39;s open source and looks pretty
+neat but it seems more focused on the JS ecosystem. I couldn&#39;t find
+enough Java related plugins to make it better than Gedit although it
+was easy to theme and customize the keys. Were I not an Emacs guy I&#39;d
+probably use Atom for much of my non-Java development but it doesn&#39;t
+seem like a great fit for Java
+</p>
+<h4 id="headline-13">
+Jedit
+</h4>
+<p>
+<a href="http://www.jedit.org/">http://www.jedit.org/</a>
+</p>
+<p>
+This looked like the strongest contender for Java. Not too
+complicated. Nice syntax highlighting out of the box. It doesn&#39;t do
+completion but that&#39;s arguably a good thing when teaching
+programming (incidentally, Emacs doesn&#39;t do completion out of the box
+but it can be added so you can up the tools ability as the class moves
+along). From my limited explorations you can install plugins like a
+Java Linter and you can run a console from inside JEdit which means
+you can actually type things like <code>javac file.java</code> and then run the
+program all from within the editor.
+</p>
+<p>
+Jedit also has some nice builtin macros for boilerplate code like
+setters and getters.
+</p>
+<h3 id="headline-14">
+IDEs
+</h3>
+<h4 id="headline-15">
+Eclipse 
+</h4>
+<p>
+<a href="https://www.eclipse.org">https://www.eclipse.org</a>
+</p>
+<p>
+I&#39;ve used eclipse before and as a Java environment, it&#39;s actually
+pretty nice. You can customize the keys so I set mine to Emacs. It has
+a lot of plugins, you can compile and test your program from within
+the IDE and do tons of other things. It&#39;s a VERY nice professional
+tool.
+</p>
+<p>
+I don&#39;t like it for teaching for three reasons. First, it does too
+much. By giving too much professional support kids rely too much on
+the tool. Second, it&#39;s made for big projects using build systems not
+small AP class programs consisting of one or two files where you run
+javac manually. Yes, you can do this in Eclipse but it seems more
+awkward. Third, becasue there&#39;s so much going on you need a HUGE
+screen and kids and schools might not have enough screen real estate.
+</p>
+<p>
+There&#39;s also a fourth reason which is that I installed Eclipse using
+LinuxMint&#39;s package manager and it crashed when running. If I&#39;m going
+to recommend a teacher roll out a tool that all of their students are
+going to install at home on their own, at the very least it has to
+install and run seamlessly.
+</p>
+<h4 id="headline-16">
+DrJava
+</h4>
+<p>
+<a href="http://www.drjava.org/">http://www.drjava.org/</a>
+</p>
+<p>
+Like Eclipse, I&#39;ve used DrJava before. It&#39;s similar to DrRacket (nee
+Scheme) and Dr. Python. It&#39;s close to perfect. You get highlighting,
+helpful error finding, can run your program from within Dr. Java and
+more.
+</p>
+<p>
+The killer problem is that I can&#39;t get the latest version to
+run. Actually the first problem is that it&#39;s just a jar file so you
+have to run it with <code>java -jar drjava.jar</code>. Beyond that, it didn&#39;t
+work out of the box. It loaded but compilign and running didn&#39;t After
+some mucking around, I got it to compile but it doesn&#39;t run the
+programs. 
+</p>
+<p>
+This is too bad because when it runs it&#39;s a terrific learning
+environment.
+</p>
+<h4 id="headline-17">
+BlueJ
+</h4>
+<p>
+<a href="https://bluej.org/">https://bluej.org/</a>
+</p>
+<p>
+This is another tool that was DOA. I tried the debian package as well
+as the jar file. Couldn&#39;t get it working. 
+</p>
+<p>
+I have used an older version so I&#39;ll describe that instead just
+remember things might be different in the current version.
+</p>
+<p>
+BlueJ does one thing very well - objects. It visually shows object
+creation and relationships. I recall that you can create an opject,
+click on it&#39;s box in a visual graph pane, inspect it, instantiate new
+ones and in general explore and expirement. If you&#39;re big on OOP and
+like Object First by all means check BlueJ out. It&#39;s probably best in
+class for that approach.
+</p>
+<p>
+On the other hand, it&#39;s a one trick pony. If you, like me, are not all
+in on OOP or an Objects first and all the time approach it&#39;s probably
+not the tool for you. 
+</p>
+<h4 id="headline-18">
+Geany
+</h4>
+<p>
+<a href="https://www.geany.org/">https://www.geany.org/</a>
+</p>
+<p>
+I hadn&#39;t heard of this one before but it looks like a contender. It
+has a  pretty clean interface and it worked out of the box. I
+installed it using the package manager.
+</p>
+<p>
+&lt;figure&gt;
+    &lt;img src=&#34;/img/geany.png&#34; width=&#34;250px&#34;/&gt; 
+&lt;/figure&gt;
+</p>
+<p>
+Class browser on the right, files on the left and console (terminal),
+compiler status etc on the bottom. It supports some level of
+autocomplete but it doesn&#39;t do everything. I&#39;m not sure yet but it
+might hit the completion sweet spot.
+</p>
+<p>
+It says it does snippets but I haven&#39;t figured that out yet. 
+</p>
+<h4 id="headline-19">
+IntelliJ
+</h4>
+<p>
+<a href="https://www.jetbrains.com/idea/">https://www.jetbrains.com/idea/</a>
+</p>
+<p>
+IntelliJ is fro JetBrains. They make a bunch of IDEs each focussed on
+a different toolset but all with the same look and feel. You can also
+add plugins to each to make them multi-modal. I believe the editor at
+the core is JEdit. I&#39;ve used their IDEs in the past and as far as
+professional IDEs go I like them. They&#39;re more lightweight than say
+Eclipse and don&#39;t need the real estate.
+</p>
+<p>
+Still, I think it&#39;s too much for a beginner. For example, you can
+in theory run your program from the build menu but, much like Eclipse,
+it takes you to a configuration screen. I was pretty lost and I&#39;m not
+a beginner. Much like Eclipse it&#39;s made for projects not small class
+programs. 
+</p>
+<p>
+I found the Python version of JetBrains IDEs more approachable
+probably because the ecosystem is much simpler.
+</p>
+<h4 id="headline-20">
+VSCode
+</h4>
+<p>
+<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>
+</p>
+<p>
+This one shocked me - I actually found myself liking a Microsoft
+product. I guess this really isn&#39;t your father&#39;s Microsoft.
+</p>
+<p>
+&lt;figure&gt;
+    &lt;img src=&#34;/img/vscode.png&#34; width=&#34;250px&#34;/&gt; 
+&lt;/figure&gt;
+</p>
+<p>
+Much like Geany it has a clean interface and like Geany you don&#39;t need
+a whole Java build system. It does more completions out of the box
+which you may or may not like as well as snippets. A single key will
+compile and run your program and on top of all that it has en &#34;Emacs&#34;
+setting for keybindings.
+</p>
+<p>
+I&#39;m not sure if I like Geany or VSCode better but I think both are
+really good options. I&#39;d probably lean towards Geany due to the less
+robust completions. Were I writing code for real rather than teaching,
+I&#39;d probably go the other way.
+</p>
+<h4 id="headline-21">
+JGrasp
+</h4>
+<p>
+&lt;figure&gt;
+    &lt;img src=&#34;/img/vscode.png&#34; width=&#34;250px&#34;/&gt; 
+&lt;/figure&gt;
+</p>
+<p>
+JGrasp feels much the same as the other contenders - Geany and VSCode
+but the interface just looks a bit clunkier to me. I know that&#39;s
+purely subjective. 
+</p>
+<p>
+The biggest difference I&#39;m seeing out of the box is that JGrasp
+doesn&#39;t do completions so depending on where you fall with that you
+might want Jgrasp for none, Geany for some, and VSCode for all.
+</p>
+<p>
+<strong>[EDIT]</strong> JGrasp has a very cool visualizer built in that will animate
+ your proram. Here&#39;s a <a href="https://www.youtube.com/watch?v=wuQowTV0o6s">video</a> of it in action. I&#39;m going to have to
+ play with this a bit and see if it pushes JGrasp up over the top for
+ me. 
+</p>
+<h4 id="headline-22">
+Processing
+</h4>
+<p>
+<a href="https://processing.org/">https://processing.org/</a>
+</p>
+<p>
+I&#39;m not going to talk about processing but I felt that it would be
+negligent not to mention it at all. Processing is a IDE, wrapper and
+graphical library that&#39;s essentially Java under the hood (although
+there are Processing bindings in many other languages probably the
+most well known now is <a href="https://p5js.org/">p5.js</a>). It&#39;s great if you want to do graphical
+work or base your class around the libraries that are available to
+processing which include ones for web cameras, hardware access,
+networking, sound and more but it&#39;s not the same as an IDE or editor
+for traditional Java development.
+</p>
+<h3 id="headline-23">
+Notes
+</h3>
+<p>
+Just about all of these tools have multiple themes and are fairly
+customizable so don&#39;t go by the screenshots above, on the homepages or
+what they look like when you first install them.
+</p>
+<p>
+All of the tools I liked installed right out of the box either by
+using the package manager or downloading and extracting from an
+archive. I can&#39;t say yet if they install as easily on a Mac or Windows
+box but since Linux is usually the unloved stepchild of sortware
+packaging and distribution my guess is that if anything it&#39;ll be
+easier on those platforms.
+</p>
+<h3 id="headline-24">
+Conclusions
+</h3>
+<p>
+I&#39;ll always be an Emacs guy. Org-mode is too useful and I can get IDE
+like behavior for pretty much any language I want to work in. In some
+cases like Clojure, I haven&#39;t seen an IDE that can match Emacs and
+Cider, it&#39;s premier Clojure development setup. I also haven&#39;t a Git
+interface nearly as slick and powerful as <a href="https://magit.vc/">Magit</a> which works under
+Emacs.
+</p>
+<p>
+For my teachers though, I&#39;ll probably start with Geany or VSCode,
+switch to Emacs for myself at some point in the program and make sure
+to spend time on the command line along the way.
+</p>
+<p>
+If I missed any editors or IDEs or have something to add on one of the
+ones I mentioned, please share in the comments.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2019-03-08</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/tools">tools</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/java">#java</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/csed">#csed</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

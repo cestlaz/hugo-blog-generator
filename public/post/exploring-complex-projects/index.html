@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Exploring Complex Projects - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Exploring Complex Projects" />
+<meta property="og:description" content="A couple of weeks ago there were some discussions about students working on and in larger projects. Most CS educators think it&#39;s a good idea to expose students to large projects even if we don&#39;t all agree as to what the best time is.  Regardless of when, figuring out a large project can be a bear and that&#39;s not just true for students. I saw this on my Tweetstream about onboarding software engineers: Leaving them alone with their laptop and telling them to look at the codebase." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/exploring-complex-projects/" />
+<meta property="article:published_time" content="2019-08-07T19:20:17-04:00" />
+<meta property="article:modified_time" content="2019-08-07T19:20:17-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Exploring Complex Projects"/>
+<meta name="twitter:description" content="A couple of weeks ago there were some discussions about students working on and in larger projects. Most CS educators think it&#39;s a good idea to expose students to large projects even if we don&#39;t all agree as to what the best time is.  Regardless of when, figuring out a large project can be a bear and that&#39;s not just true for students. I saw this on my Tweetstream about onboarding software engineers: Leaving them alone with their laptop and telling them to look at the codebase."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Exploring Complex Projects</h1>
+        </header>
+        <div class="content">
+            
+<p>
+A couple of weeks ago there were some discussions about students
+working on and in larger projects. Most CS educators think it&#39;s a good
+idea to expose students to large projects even if we don&#39;t all agree
+as to what the best time is.
+</p>
+<p>
+Regardless of when, figuring out a large project can be a bear and
+that&#39;s not just true for students. I saw this on my Tweetstream about
+onboarding software engineers:
+</p>
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Leaving them alone with their laptop and telling them to look at the codebase. No purpose, directionless, no assistance or context or perspective. Show me a codebase that is documented exstensively enough to support that and I’ll be stunned. <a href="https://twitter.com/hashtag/devdiscuss?src=hash&amp;ref_src=twsrc%5Etfw">#devdiscuss</a></p>&mdash; Laurie (@laurieontech) <a href="https://twitter.com/laurieontech/status/1158911795341529088?ref_src=twsrc%5Etfw">August 7, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>
+If we&#39;re lucky enough to use a large project specifically designed for
+students there might be sufficient documentation but don&#39;t count on
+it so here are some suggestions and tools that might be helpful in
+figuring out a complex project. 
+</p>
+<h3 id="headline-1">
+Description and Documentation
+</h3>
+<p>
+Even if there isn&#39;t a huge amount of documentation the project might
+have a description or a Readme file. There also might be a build file -
+something like a Makefile that could give some indication as to the
+lay of the land. With a Readme or description you at least know what
+the project is supposed to do and if the build file isn&#39;t too complex
+you might get some clue as to code organization. 
+</p>
+<p>
+Another thing to look at is if there&#39;s consistent documentation. A
+Java project might follow the <a href="http://www.mcs.csueastbay.edu/~billard/se/cs3340/ex7/javadoctutorial.html">Javadoc</a> specification and if so, the
+build system can probably build a web site that allows you to navigate
+through all the classes. Other languages support similar tools. Check
+out Doxygen which is like Javadoc but sypports a wide range of languages.
+</p>
+<h3 id="headline-2">
+Tests
+</h3>
+<p>
+Another thing to look for are a project&#39;s unit tests. If they exist
+they can give you some good insights into the project. You&#39;ll see how
+aspects of the code are used and also entry points to start looking at
+the code. 
+</p>
+<h3 id="headline-3">
+Logging
+</h3>
+<p>
+Next up - logging. You can add logging statements using your languages
+logging facilities or just print to stderr or a file. Put in a bunch
+of output statements along with time and location stamps and run the
+program. Then use one of the tools mentioned below to help parse the
+output. This can give an idea of what&#39;s running when and can
+eventually help you to understand the code. 
+</p>
+<h3 id="headline-4">
+Debugging 
+</h3>
+<p>
+Last up here is using a debugger. Load the project up in a debugger,
+set a breakpoint somewhere and let-er-rip. When you hit the breakpoint
+you can check the state of the application. Another idea is to set
+watchpoints. When you set a watchpoint you tell the debugger to watch
+until a variable is set to a particular value (or is greater or less
+than) and it breaks your program when that happens. Set a watchpoint
+and you can likewise check the programs state when your program
+breaks.
+</p>
+<p>
+Another think to look at is the stack trace under the debugger when
+you hit those watchpoint breaks. That will tell you the sequence of
+function calls when the watchpoint tripped.
+</p>
+<h2 id="headline-5">
+Tools 
+</h2>
+<p>
+Most programming environments also have some tools to make all of the
+above explorations a bit easier. Here are a few of my favorites.
+</p>
+<p>
+For the examples, we&#39;ll work in small three file project I set up. A
+small linked list in Java. It has three files:
+</p>
+<ul>
+<li>
+<p>
+Node.java
+</p>
+</li>
+<li>
+<p>
+myLinkedList.java
+</p>
+</li>
+<li>
+<p>
+Driver.java
+</p>
+</li>
+</ul>
+<p>
+but it could have any number of files in any number of directories.
+</p>
+<h3 id="headline-6">
+Ctags
+</h3>
+<p>
+<a href="https://en.wikipedia.org/wiki/Ctags">Ctags</a> goes way back. I first used ctags for C programs. Now there are
+a bunch of implementations for a bunch of languages. The idea is you
+run ctags (or etags or gtags etc.) and it creates an index if all your
+functions, classes, methods or whatever. Your editor can then easily
+jump from a call to a definition and back. Most editors support some
+version of ctags and some don&#39;t even need the ctags indexing
+engine. Here&#39;s an example of dumb-jump in Emacs which performs tag
+like searching without the indexing. We move our cursor to the add
+method, hit the magic key and we&#39;re taken to the definition:
+</p>
+<p>
+<figure class="z_image_center">
+    <img src="/img/dumb-jump.gif"/> 
+</figure>
+
+</p>
+<p>
+This can be HUGE in understanding code.
+</p>
+<h3 id="headline-7">
+Grep
+</h3>
+<p>
+Grep is a pretty ancient tool going back to the 1970s.
+</p>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/NTfOnGZUZDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>
+Bascially, it can search through a file or files for text. Most
+versions can use <a href="https://www.janmeppe.com/blog/regex-for-noobs/">Regular Expressions</a> for wild card searches. 
+</p>
+<p>
+While ctags is great for navigating function and method calls
+sometimes you&#39;re just looking for a string. For example, if you&#39;re
+looking for the string &#34;hello world&#34; in your code  you can run <code>grep
+&#34;hello world&#34; *java</code>. The problem here is that it will only work in
+one directory. That brings us to:
+</p>
+<h3 id="headline-8">
+Ripgrep
+</h3>
+<p>
+<a href="https://github.com/BurntSushi/ripgrep">Ripgrep</a> is grep on steroids. There are a number of similar programs -
+Silver Searcher, Ack, and Git Grep to name three. They all are much
+faster than grep, can focus on files based on type, omit files based
+on various criteria, and more. Currently I&#39;ve been using Ripgrep.
+</p>
+<p>
+I wanted to find the code I used in my blog to embed an code sample
+but couldn&#39;t remember exactly how to do it. Here&#39;s how I used ripgrep
+to help:
+</p>
+<p>
+<figure class="z_image_center">
+    <img src="/img/rg.gif"/> 
+</figure>
+
+</p>
+<p>
+First I typed <code>rg -t org python</code>. This looks at all the .org files in
+the project hierarchy for lines with the word <code>python</code>. From there I
+saw that what the highlight code started with so I ran ripgrep
+again this time adding the <code>-A5</code> which printed out 5 lines after each
+match so I could see a complete example.
+</p>
+<p>
+This just scratches the surface but I&#39;m hoping you get the idea. The
+other cool thing is that most editors integrate in ripgrep/silver
+searcher/ack functionality so you can do the search right in your
+editor and jump right over to the code in question.
+</p>
+<p>
+<figure class="z_image_center">
+    <img src="/img/rg-emacs.gif"/> 
+</figure>
+
+</p>
+<h2 id="headline-9">
+There&#39;s more
+</h2>
+<p>
+I&#39;m sure there are more tips out there but these are my go to
+techniques. Hope some of you find them helpful either for your own
+work of for your students.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2019-08-07</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/software%20engineering">software engineering</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/software-engineering">#software engineering</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Using Emacs 53 Emailing Org Agenda - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Using Emacs 53 Emailing Org Agenda" />
+<meta property="og:description" content="I use both org-mode and Google Calendar for scheduling. I like Google Calendar because:    It&#39;s pretty universal so I can issue and accept calendar invites.    It works well with my phone and other mobile devices.    The rest of my family doesn&#39;t live in Emacs :-(.    I prefer using org-mode beacuse:    Emacs    I prefer, for the most part, to control my data." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/using-emacs-53-emailing-org-agenda/" />
+<meta property="article:published_time" content="2018-11-03T08:55:23-04:00" />
+<meta property="article:modified_time" content="2018-11-03T08:55:23-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Emacs 53 Emailing Org Agenda"/>
+<meta name="twitter:description" content="I use both org-mode and Google Calendar for scheduling. I like Google Calendar because:    It&#39;s pretty universal so I can issue and accept calendar invites.    It works well with my phone and other mobile devices.    The rest of my family doesn&#39;t live in Emacs :-(.    I prefer using org-mode beacuse:    Emacs    I prefer, for the most part, to control my data."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Using Emacs 53 Emailing Org Agenda</h1>
+        </header>
+        <div class="content">
+            <p>
+I use both org-mode and Google Calendar for scheduling. I like Google
+Calendar because:
+</p>
+<ul>
+<li>
+<p>
+It&#39;s pretty universal so I can issue and accept calendar invites.
+</p>
+</li>
+<li>
+<p>
+It works well with my phone and other mobile devices.
+</p>
+</li>
+<li>
+<p>
+The rest of my family doesn&#39;t live in Emacs :-(.
+</p>
+</li>
+</ul>
+<p>
+I prefer using org-mode beacuse:
+</p>
+<ul>
+<li>
+<p>
+Emacs
+</p>
+</li>
+<li>
+<p>
+I prefer, for the most part, to control my data.
+</p>
+</li>
+</ul>
+<p>
+I partially sync the two platforms. I&#39;ve already talked about <a href="https://cestlaz.github.io/posts/using-emacs-26-gcal/">syncing
+Google Calendar and org-mode</a>. Right now, I&#39;m just pulling from Google
+rather than also pushing up from org-mode because I&#39;m still getting
+double entry issues. This means that I have my entire schedule in
+Emacs but only part of it in my Google calendar.
+</p>
+<p>
+To help resolve the problem, I do a few things. First, I sync my
+orgfiles on all my computers. I used to do this with Dropbox but am
+now moving over to <a href="https://syncthing.net/">Syncthing</a>. I also like to set up a <a href="http://digitalocean.com">Digital Ocean</a>
+droplet so that I have a single machine that&#39;s always on.
+</p>
+<p>
+I&#39;ve set things up to have that droplet send me an email with my
+agenda. It turns out that org has commands to do things with Emacs
+from the command line:
+</p>
+<ul>
+<li>
+<p>
+org-batch-agenda
+</p>
+</li>
+<li>
+<p>
+org-batch-store-agenda-views
+</p>
+</li>
+<li>
+<p>
+org-batch-agenda-csv 
+</p>
+</li>
+</ul>
+<p>
+They can be run from the command line to output a formatted agenda as
+a string:
+</p>
+<div class="src src-sh">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">emacs --batch -l ~/.emacs.d/init.el  -eval <span style="color:#e6db74">&#39;(org-batch-agenda &#34;a&#34; org-agenda-span 14)&#39;</span></code></pre></div>
+</div>
+<p>
+or as csv:
+</p>
+<div class="src src-sh">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">emacs --batch -l ~/.emacs.d/init.el  -eval <span style="color:#e6db74">&#39;(org-batch-agenda-csv &#34;a&#34; org-agenda-span 14)&#39;</span></code></pre></div>
+</div>
+<table>
+<tbody>
+<tr>
+<td>gcal</td>
+<td>Stuy recruiting</td>
+<td>2018-10-29</td>
+<td>15:40-16:40</td>
+</tr>
+<tr>
+<td>gcal</td>
+<td>RBS Workshop 3</td>
+<td>2018-10-29</td>
+<td>17:30-21:00</td>
+</tr>
+<tr>
+<td>gcal</td>
+<td>FDR High School</td>
+<td>2018-10-30</td>
+<td>7:45- 8:45</td>
+</tr>
+<tr>
+<td>soe-cal</td>
+<td>ACERT -  LUNCH  SEMINAR</td>
+<td>2018-10-30</td>
+<td>12:00-14:00</td>
+</tr>
+<tr>
+<td>gcal</td>
+<td>Maxim Vengerov Carnegie Hall</td>
+<td>2018-10-30</td>
+<td>20:00-21:00</td>
+</tr>
+</tbody>
+</table>
+<p>
+Note that you have to specify the location of the startup file
+(~/emacs.d/init.e;) since when you run emacs in batch mode it won&#39;t
+load your normal config by default
+</p>
+<p>
+In the video you&#39;ll see how I use my DigitalOcean dropplet, set up
+with the Postfix mail server and Syncthing to send me an email with my
+agenda every morning.
+</p>
+<p>
+The command I actually use to send the email is:
+</p>
+<div class="src src-sh">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">/usr/bin/emacs --batch -l ~/.emacs  -eval <span style="color:#e6db74">&#39;(org-batch-agenda &#34;a&#34; org-agenda-span 14)&#39;</span> 2&gt;/dev/null | mail -s <span style="color:#e6db74">&#34;Mike&#39;s Agenda for </span><span style="color:#66d9ef">$(</span>date +<span style="color:#e6db74">&#39;\%A \%D&#39;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> zamansky@gmail.com</code></pre></div>
+</div>
+<p>
+which I put in a crontab entry to get it to run every day.
+</p>
+<p>
+If people want, I can make a runthrough of setting up the actual
+dropplet and SyncThing.
+</p>
+<p>
+Enjoy!
+</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wus8R1TWYZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2018-11-03</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/emacs">emacs</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/emacs">#emacs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/productivity">#productivity</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

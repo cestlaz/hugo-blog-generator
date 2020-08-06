@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Dev on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/web-dev/</link>
+    <description>C&#39;est la Z (Web Dev)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jun 2019 15:53:54 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/web-dev/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Back To Python</title>
+      <link>https://cestlaz.github.io/post/back-to-python/</link>
+      <pubDate>Fri, 14 Jun 2019 15:53:54 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/back-to-python/</guid>
+      <description>&lt;p&gt;
+With summer right around the corner I&amp;#39;m hoping to spend at least a
+little time on some personal coding projects. There are a few work
+related tools I&amp;#39;d love to develop and just some random areas of CS I&amp;#39;d
+like to explore. If I finish them, the work projects will be web
+based.
+&lt;/p&gt;
+&lt;p&gt;
+I was thinking about using this as an opportunity to do a deeper dive
+into Clojure having used it for some experiments and competitions like
+&lt;a href=&#34;https://adventofcode.com/&#34;&gt;Advent of Code&lt;/a&gt; but at the end of the day I decided not
+to. It&amp;#39;s not that Clojure wouldn&amp;#39;t be a good language for web apps. It
+looks like it would be great. Rather, I&amp;#39;m finding the ecosystem and
+build systems in particular to be more trouble than they&amp;#39;re worth for
+a side project - particularly when I want to accomplish more than
+becoming comfortable with the Clojure ecosystem. 
+&lt;/p&gt;
+&lt;p&gt;
+Things were so much simpler in the old days. Way back when I was a
+software engineer at Goldman Sachs I worked on a couple of large,
+complex systems. All I had were a bunch of C files in a bunch of
+directories and a Makefile to build everything. Simple and
+straightforward. 
+&lt;/p&gt;
+&lt;p&gt;
+If I&amp;#39;m working in C or C++ I can still do the same. 
+&lt;/p&gt;
+&lt;p&gt;
+In Java I was always able to do the same since Make seemed to be
+accepted in the community. Now there seems to be many more
+options - Ant, Maven, and Gradle to name just three.
+&lt;/p&gt;
+&lt;p&gt;
+Python was even easier - just set up your directory structure
+and &lt;code&gt;__init__.py&lt;/code&gt; files and your good to go and by using a virtual
+environment, which is pretty easy, you can keep the entire development
+environment clean.
+&lt;/p&gt;
+&lt;p&gt;
+Nowadays things are much more complex. Sure, I can create a simple
+Clojure program and run it but anything bigger and you need a build
+system. For a long time the tool was &lt;a href=&#34;https://leiningen.org/&#34;&gt;Leiningen&lt;/a&gt;. You define a project
+file using it&amp;#39;s particular syntax and it can download dependencies,
+manage builds etc.. It actually doesn&amp;#39;t look so bad if you&amp;#39;re living
+in Clojure all the time but for a hobbyist like me I found myself
+looking for other peoples templates and hoping for the best. Whenever
+I needed my project to do things outside the norm I was pretty much
+out of luck. 
+&lt;/p&gt;
+&lt;p&gt;
+Then came &lt;a href=&#34;https://boot-clj.com/&#34;&gt;Boot&lt;/a&gt; as an alternative. Where Leiningen used a descriptive
+configuration file, Boot used a configuration file that was basically
+Clojure code. It was different but to me, it had the same problems -
+documentation was lacking and too much magic going on behind the
+scenes. Finally, Clojure started to come with &lt;a href=&#34;https://clojure.org/guides/deps_and_cli&#34;&gt;build system&lt;/a&gt;. I want to
+like it but the documentation is even sparser and with three competing
+build systems with varying levels of use and documentation it&amp;#39;s less
+than ideal for a guy like me.
+&lt;/p&gt;
+&lt;p&gt;
+Things get messier when you add in Clojurescript - Clojurescript
+basically compiles Clojure code to Javascript. It has a great
+development environment and handles state really nicely but for a
+novice like me getting any of the build systems set up for Clojure and
+Clojurescript in a way that makes sense is more than I want to
+deal with right now.
+&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t mean to be unfair to Clojure and its ecosystem. I still really
+like the language and if I lived in it I&amp;#39;m sure I&amp;#39;d figure it all out
+and be happy with it. It&amp;#39;s also no worse and arguably better than
+ecosystems for other languages. 
+&lt;/p&gt;
+&lt;p&gt;
+Javascript, for example makes you chose between gulp, grunt, webpack,
+browserfity, parcel and maybe more. I think I finally got my head
+aroudn webpack and parcel but it&amp;#39;s really the wild west. Of course
+those are just the Javsacript build systems you then have to make
+choices like VueJS or React or something else. 
+&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s really no easy answer. 
+&lt;/p&gt;
+&lt;p&gt;
+Putting my teacher hat on for a second this is also an issue that our
+students will have to deal with at some point. Are we helping them by
+keeping them in web based language silos and simple IDEs or hurting
+them? At what point do we transition them or do we leave it for them
+to do on their own? I&amp;#39;m not taking any position on this here and now
+but it&amp;#39;s something worth thinking about.
+&lt;/p&gt;
+&lt;p&gt;
+Back to my side projects. 
+&lt;/p&gt;
+&lt;p&gt;
+So, for the sake of getting things done I think I&amp;#39;m going to fall back
+to Python. I don&amp;#39;t need to deal with any complex build systems, I can
+write my web applications with Flask and it&amp;#39;s also a nice platform for
+the other things I&amp;#39;d like to do.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll still probably play with Clojurescript for the web frontend ut if
+that turns out to be proiblematics I&amp;#39;ll just go back to VueJS.
+&lt;/p&gt;
+&lt;p&gt;
+Time to get to work.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

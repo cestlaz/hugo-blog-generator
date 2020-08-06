@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Advent 2019 Day - 8 - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Advent 2019 Day - 8" />
+<meta property="og:description" content="I spent most of last week up in Albany working on the NY State K12 CS Standards so fell a bit behind. I had to go back to complete day 5 but still haven&#39;t finished day 7 which builds on day 5 which in turn builds on day 2. I might not get to finishing 7 for a while but it looks like a good chance to play with core." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/advent-2019-day8/" />
+<meta property="article:published_time" content="2019-12-08T08:42:32-04:00" />
+<meta property="article:modified_time" content="2019-12-08T08:42:32-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Advent 2019 Day - 8"/>
+<meta name="twitter:description" content="I spent most of last week up in Albany working on the NY State K12 CS Standards so fell a bit behind. I had to go back to complete day 5 but still haven&#39;t finished day 7 which builds on day 5 which in turn builds on day 2. I might not get to finishing 7 for a while but it looks like a good chance to play with core."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Advent 2019 Day - 8</h1>
+        </header>
+        <div class="content">
+            <p>
+I spent most of last week up in Albany working on the NY State K12 CS
+Standards so fell a bit behind. I had to go back to complete <a href="https://adventofcode.com/2019/day/5">day 5</a> but
+still haven&#39;t finished <a href="https://adventofcode.com/2019/day/7">day 7</a> which builds on day 5 which in turn
+builds on <a href="https://adventofcode.com/2019/day/2">day 2</a>. I might not get to finishing 7 for a while but it
+looks like a good chance to play with <a href="https://www.braveclojure.com/core-async/">core.async</a> - Clojure&#39;s
+facilities for concurrency. I also want to write up <a href="https://adventofcode.com/2019/day/6">day 6</a> but today
+let&#39;s look at <a href="https://adventofcode.com/2019/day/8">day 8</a>.
+</p>
+<p>
+Day 8 is image processing problem so it fits nicely into an APCS-A
+type class. You&#39;re given the height and width of the image and you&#39;re
+told that the image comes in layers. The input is a long string of
+digits. So, if you&#39;re told that the width is 5 and height is 3 you
+might get this as your input representing an image with 3 layers:
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">100210120100120001102020112100000121002110102</code></pre></div>
+</p>
+<p>
+Adding commas and spaces:
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">10021,01201,00120   00110,20201,12100   00012,10021,10102</code></pre></div>
+</p>
+<p>
+The first part of the task is to find the layer with the most 0s and
+return the number of 1s multiplied with the number of 2s.
+</p>
+<p>
+This is just a nice little data parsing problem. You have to break the
+input into <code>width*height</code> chunks, see which has the most zeros, count
+the ones and the twos and return the result. 
+</p>
+<p>
+Part 2 is where the image stuff comes in. We&#39;re told that a color
+value of 0 is black, 1 is white, and 2 is transparent. We&#39;re also told
+that the image&#39;s actual color is the first color it sees (black or
+white) when going through the layers. Depending on how you read in
+your data, this could be easy or hard. You have to scan down the
+layers and keep the first non-transparent color. 
+</p>
+<p>
+For part 1, I read my data into a list of lists where each item was a
+layer. I did this in Clojure, but the Python representation of the
+sample image above might look something like this:
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">[ [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">0</span>],
+  [<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>],
+  [<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">2</span>]]</code></pre></div>
+</p>
+<p>
+There was no reason to subdivide each layer into rows and columns.
+</p>
+<p>
+For part 1, I wanted to have lists where each list was all the values
+of each pixel across the layers. This meant <a href="https://en.wikipedia.org/wiki/Transpose">transposing</a> the matrix -
+tat is, if you look at the above list of lists as a matrix, switching
+the rows and columns. This was pretty easy to do in Clojure using
+<code>(apply mapv vector matrix)</code> but it shouldn&#39;t be too hard in other
+languages.
+</p>
+<p>
+Next, we have to keep the first non-transparent color we see in each
+list.
+</p>
+<p>
+The final fun part is then taking the colors and printing out the
+final image.
+</p>
+<p>
+Here&#39;s what I got:
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">XXX  XXXX  XX   XX  X  X 
+X  X X    X  X X  X X X  
+X  X XXX  X    X  X XX   
+XXX  X    X    XXXX X X  
+X    X    X  X X  X X X  
+X    X     XX  X  X X  X </code></pre></div>
+</p>
+<p>
+What&#39;s nice about this problem from a teacher&#39;s point of view? First,
+it&#39;s the puzzle aspect of finding the hidden text. Second, it&#39;s an
+image problem which in APCS-A usually means 2D arrays but you can also
+solve it without any 2D matrices. My solution involved a bunch of
+filtering of data and the matrix transpose. Both interesting concepts
+to bring to your classes.
+</p>
+<p>
+If you want to see my Clojure solution, you can find it <a href="https://github.com/zamansky/advent2019/blob/master/day08.clj">here</a>.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2019-12-08</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/Advent%20of%20Code">Advent of Code</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/advent-of-code">#Advent of Code</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/programming">#programming</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs">#CS</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Using Emacs - 18 - Narrowing and iedit - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Using Emacs - 18 - Narrowing and iedit" />
+<meta property="og:description" content="I meant to cover these last time but decided not to so as to keep the videos to about 10 minutes each.  First up this time round is iedit - a really cool mode that lets you select all the instances of the marked selection at the same time and edit them all at once. By default it&#39;s bound to C-l.  For example, let&#39;s say you had the following code:    You could mark one instance of somevar, hit C-; and you&#39;d be editing them all at once." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/using-emacs-18-narrow/" />
+<meta property="article:published_time" content="2016-11-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-11-02T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Emacs - 18 - Narrowing and iedit"/>
+<meta name="twitter:description" content="I meant to cover these last time but decided not to so as to keep the videos to about 10 minutes each.  First up this time round is iedit - a really cool mode that lets you select all the instances of the marked selection at the same time and edit them all at once. By default it&#39;s bound to C-l.  For example, let&#39;s say you had the following code:    You could mark one instance of somevar, hit C-; and you&#39;d be editing them all at once."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Using Emacs - 18 - Narrowing and iedit</h1>
+        </header>
+        <div class="content">
+            <p>
+I meant to cover these last time but decided not to so as to keep the
+videos to about 10 minutes each.
+</p>
+<p>
+First up this time round is <a href="https://github.com/victorhge/iedit">iedit</a> - a really cool mode that lets you
+select all the instances of the marked selection at the same time and
+edit them all at once. By default it&#39;s bound to <strong><strong>C-l</strong></strong>.
+</p>
+<p>
+For example, let&#39;s say you had the following code:
+</p>
+<div class="src src-python">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"></code></pre></div>
+</div>
+<p>
+You could mark one instance of <strong><strong>somevar</strong></strong>, hit <strong><strong>C-;</strong></strong> and you&#39;d be
+editing them all at once. When you&#39;re done, you hit <strong><strong>C-;</strong></strong> again and
+everything is un-selected.
+</p>
+<p>
+There are other ways to modify multiple instances of a selection. You
+can always search and replace or use Magnar Sveen&#39;s really cool
+<a href="https://github.com/magnars/multiple-cursors.el">multiple cursors</a> package and I&#39;m sure there are others but I like
+iedit since it&#39;s small and simple. It also works for rectangular
+editing but I didn&#39;t cover that in the video. I&#39;ll probably demo it
+when I cover rectangular editing in general.
+</p>
+<p>
+Iedit has limitations. For insance, since it works globally, it isn&#39;t
+perfect for renaming variables. If the above code snippet was part of
+a larger program with many other instances of <strong><strong>somevar</strong></strong>, iedit
+wouldn&#39;t, by itself, be as useful.
+</p>
+<p>
+You could reach for a language specific refactoring package but for
+me, that&#39;s where <strong><strong>narrowing</strong></strong> comes in. You can mark a region and
+tell emcas to <strong><strong>narrow-to-region</strong></strong> which hides everything outside the
+region and temporarily (until you <strong><strong>widen</strong></strong>) treats the region as the
+whole document.
+</p>
+<p>
+So, you could narrow to the section of code you want to edit and then
+use iedit from within.
+</p>
+<p>
+To make things easier, I grabed <a href="http://endlessparentheses.com/emacs-narrow-or-widen-dwim.html">narrow-or-winden-dwim</a> from <a href="http://endlessparentheses.com/">Endless
+Parentheses</a>.
+</p>
+<p>
+I think the video makes the behaviour pretty clear.
+</p>
+<p>
+Enjoy
+</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/xne0kS1DfVs" frameborder="0" allowfullscreen></iframe>
+<p>
+Relevant links:
+</p>
+<ul>
+<li>
+<p>
+Video series overview page:
+</p>
+</li>
+<li>
+<p>
+<a href="http://cestlaz.github.io/stories/emacs">http://cestlaz.github.io/stories/emacs</a>
+</p>
+</li>
+<li>
+<p>
+Code:
+</p>
+</li>
+<li>
+<p>
+<a href="https://github.com/zamansky/using-emacs/tree/master"><a href="https://github.com/zamansky/using-emacs/tree/master">https://github.com/zamansky/using-emacs/tree/master</a></a>
+</p>
+</li>
+</ul>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2016-11-02</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/emacs">#emacs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

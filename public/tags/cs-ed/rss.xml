@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS Ed on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/cs-ed/</link>
+    <description>C&#39;est la Z (CS Ed)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Mar 2020 08:40:26 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/cs-ed/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>CS Ed Podcast 3 -  Debugging</title>
+      <link>https://cestlaz.github.io/post/cs-ed-podcast-3-debugging/</link>
+      <pubDate>Fri, 06 Mar 2020 08:40:26 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/cs-ed-podcast-3-debugging/</guid>
+      <description>&lt;p&gt;
+&amp;lt;blockquote&amp;gt;
+Everyone knows that debugging is twice as hard as writing a
+  program in the first place. So if you&amp;#39;re as clever as you can be
+  when you write it, how will you ever debug it? 
+&lt;/p&gt;
+&lt;p&gt;
+– Brian Kernighan
+&amp;lt;/blockquote&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+Debugging is what the &lt;a href=&#34;https://sites.duke.edu/csedpodcast/2020/01/07/episode-3-amy/#more-197&#34;&gt;third episode&lt;/a&gt; of the CS Ed Podcast was all
+about. Kristin Stephens-Martinez of Duke University speaks with Amy Ko
+of the University of Washington.
+&lt;/p&gt;
+&lt;p&gt;
+The long and the short  of it is that debugging is hard, teaching is
+hard, and teaching debugging is hard.
+&lt;/p&gt;
+&lt;p&gt;
+Without even getting to the difficulties, one of the interesting
+points discussed was that debugging is normally not the priority in CS
+classes. Classes, lessons, and assignments are about learning to
+program not how to debug programs. That makes debugging an add on and
+an unpredictable one at that. Students will have to deal with bugs and
+the time necessary not to mention the cognitive load isn&amp;#39;t really
+factored in.
+&lt;/p&gt;
+&lt;p&gt;
+This also got me thinking about designing debugging
+experiences. That&amp;#39;s also really hard. It&amp;#39;s easy enough to insert
+syntax errors but if students see them in an intelligent editor
+they&amp;#39;ll be clued in to their locations. On paper, it&amp;#39;s trickier but
+either are more cases of learning the syntax than debugging a
+program. To debug I&amp;#39;m thinking you really have to create a program or
+part of a program with the intent for it to do something and have it
+fail or do something else.
+&lt;/p&gt;
+&lt;p&gt;
+Teachers could also make code samples that don&amp;#39;t work as a result of
+logic errors but those are also hard. They can be too obvious -
+remember students are explicitly looking to fix them not discovering
+an unintended error in their own code or they can be so convoluted
+that in reality someone faced with the code would just rewrite it.
+&lt;/p&gt;
+&lt;p&gt;
+So, what to do?
+&lt;/p&gt;
+&lt;p&gt;
+Amy mentions that she asks students to write down what the program
+should do. If they don&amp;#39;t understand what it should do it&amp;#39;s even harder
+to understand what it&amp;#39;s doing wrong. When a student comes to me saying
+&amp;#34;my program doesn&amp;#39;t work&amp;#34; I&amp;#39;ll frequently ask them what they want it
+to do. We then segue to &amp;#34;what did you tell the computer to do.&amp;#34; I
+frequently tell students that computers are really bad at doing what
+you want them to do but really great at doing what you tell them to
+do. This leads to a couple of techniques. One, described here in
+another Brian Kernighan quote:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;blockquote&amp;gt;
+Another effective [debugging] technique is to explain your code to
+someone else. This will often cause you to explain the bug to
+yourself. Sometimes it takes no more than a few sentences, followed by
+an embarrassed &amp;#34;Never mind, I see what&amp;#39;s wrong. Sorry to bother you.&amp;#34;
+This works remarkably well; you can even use non-programmers as
+listeners. One university computer center kept a teddy bear near the
+help desk. Students with mysterious bugs were required to explain them
+to the bear before they could speak to a human counselor.
+&amp;lt;/blockquote&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+This of course related directly to &lt;a href=&#34;https://en.wikipedia.org/wiki/Rubber_duck_debugging&#34;&gt;rubber duck debugging&lt;/a&gt;. Also code
+tracing works well at this point. Rubber Duck Debugging is interesting
+because it&amp;#39;s a example of convergent evolution having developed
+independently in both industry and education. Code tracing is
+interesting because it&amp;#39;s used both to teach an understanding of
+programming and also as a debugging technique.
+&lt;/p&gt;
+&lt;p&gt;
+Another point that came up is that as instructors we see the same
+errors from each new crop of students. Now, what do we do about it? Is
+it worth the students hitting that error wall and figuring out? Should
+we scaffold or prepare them? How much? It&amp;#39;s an interesting point to
+ponder and there&amp;#39;s no single right answer.
+&lt;/p&gt;
+&lt;p&gt;
+A final point from the podcast related to CS culture as Amy pointed
+out: 
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;blockquote&amp;gt;
+ I Think it also interacts a lot with–going back to the culture of
+ computing–computer science, especially in higher education, is a
+ place where people like to signal their intelligence, right? It’s not
+ a place where we say, “You know, I had a hard time with this. I
+ worked really hard to get to this level of understanding.” It’s a
+ place where people say, “I figured it out because I’m smart and I’m
+ clever. Look at this clever thing I did.” Right?
+&amp;lt;/blockquote&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+Over my career I&amp;#39;ve found this to be true and it&amp;#39;s something of a
+contradiction to the fail early and openly dictum we hear so often. I
+ray of light though is that at least at the more introductory levels
+there are efforts to change this culture.
+&lt;/p&gt;
+&lt;p&gt;
+So, if you haven&amp;#39;t listened to episode 3 take the time to do so. It&amp;#39;s
+only about 25 minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s a lot more to talk about with debugging - using debuggers and
+other tools, testing, code reviews and on and on but for now I&amp;#39;ll
+leave you with one last though on debugging with another Brian
+Kernighan quote:
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;blockquote&amp;gt;
+The most effective debugging tool is still careful thought, coupled with judiciously placed print statements.
+&amp;lt;/blockquote&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CS Ed Podcast 2 - Dan Garcia on test creation</title>
+      <link>https://cestlaz.github.io/post/cs-ed-podcast-2/</link>
+      <pubDate>Thu, 13 Feb 2020 08:41:21 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/cs-ed-podcast-2/</guid>
+      <description>
+&lt;p&gt;
+Episode 2 of the &lt;a href=&#34;https://sites.duke.edu/csedpodcast/&#34;&gt;CS Ed podcast&lt;/a&gt; had Dan Garcia talk about
+exam creation. 
+&lt;/p&gt;
+&lt;p&gt;
+This wasn&amp;#39;t a podcast about the value of exams - in class, high stakes
+or otherwise. In fact Dan says in the podcast it would be great to &amp;#34;get grades out of
+the equation. Grades are gonna be an impediment to learning.&amp;#34; But
+recognizes that we have not say in this most of the time (and I&amp;#39;ll add
+that though I agree grades can and do perform a function) so we should
+be creative in terms of assessment.
+&lt;/p&gt;
+&lt;p&gt;
+Dan hit on a lot of important points and there&amp;#39;s no way
+I can weave them into a sensible narrative so I&amp;#39;ll just hit a bunch of
+points and riff from there.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-1&#34;&gt;
+Multiple choice.
+&lt;/h3&gt;
+&lt;p&gt;
+Dan started right out front saying that he&amp;#39;s come around to being ok
+or maybe even liking multiple choice  having referenced the ability
+top make &amp;#34;good distractors.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+This is something that I think I&amp;#39;ll never agree with. On the one hand,
+there is the idea of multiple guess but what really gets me is that
+multiple choice questions, by definition, are gotcha questions. You&amp;#39;re
+supposed to have distractors to pull you away from the right path. To
+make a mistaken answer seem ok. I hate gotcha questions. Besides,
+halfway decent multiple choice questions are really hard to write. 
+&lt;/p&gt;
+&lt;p&gt;
+To me, MC questions are really a sometimes necessary tool to make up
+for the fact that teachers are overworked and never have enough time
+to grade. This might make them a necessary evil but it doesn&amp;#39;t make
+them good. We might have to resort to them if we&amp;#39;re &amp;#34;teaching&amp;#34; a class
+of hundreds or perhaps thousands  but we shouldn&amp;#39;t have classes
+anywhere near that size. 
+&lt;/p&gt;
+&lt;p&gt;
+Another problem with MC is that multiple choice tests seem to
+frequently test speed rather than knowledge. APCS-A is a good example
+of this. You have 90 minutes to answer 40 questions. That&amp;#39;s a bit over
+2 minutes per question. That&amp;#39;s a race not an assessment. 
+&lt;/p&gt;
+&lt;p&gt;
+Finally, I find multiple choice questions hard to write and time
+consuming to typeset and format. I guess if I were better at the
+distractors this might not be the case but a short
+answer version of a MC question is always easier for me to write and
+not much harder to grade.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Test creation
+&lt;/h2&gt;
+&lt;p&gt;
+Half a day. Twelve hours. That&amp;#39;s how long Dan says it takes him to
+make a test. That sounds about right. There&amp;#39;s no two ways about
+it. Creating a good exam is hard work. Creating a bad one is easy and
+quick but that&amp;#39;s not a good answer.
+&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s think about this for a minute. A college professor might teach
+one or two classes a semester. A college lecturer three, maybe 4. A
+high school teacher teaches 5 classes. Typically two or three
+different subjects. They basically get 40 minutes at work a day to
+prep and that includes EVERYTHING - lesson planning, grading, test
+creation, working with students. The whole kit and caboodle. Even with
+two preps rather than three that&amp;#39;s an additional 24 hours just to
+create those two tests. More since you&amp;#39;ll need multiple versions of
+each. 
+&lt;/p&gt;
+&lt;p&gt;
+Of course we can mitigate this a it by reusing and modifying questions
+from old exams and sharing with colleagues but writing exams is a bear. 
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s no wonder teachers turn to multiple choice test banks.
+&lt;/p&gt;
+&lt;p&gt;
+Really glad Dan spent time on this as teachers have to realize that
+it&amp;#39;s not just them.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+How long is too long?
+&lt;/h2&gt;
+&lt;p&gt;
+I frequently struggle with test duration. It sounds like it&amp;#39;s a common
+problem. Dan has his TAs test the tests hoping they can do it in one
+sixth the students time. He found, though that his slowest TAs might
+take one third of the allocated time.
+&lt;/p&gt;
+&lt;p&gt;
+When I started, I heard ratios from math teachers ranging from
+students take twice the time I would on my exams up to five times
+longer. 
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s hard to get it right but it&amp;#39;s important that tests are tests of
+knowledge and ability not speed. At Stuy where class periods were 43
+minutes I&amp;#39;d try for tests that took the typical student 33 - 35
+minutes. Just enough time to go over the exam. You might ace the exam,
+you might fail but time wouldn&amp;#39;t be the issue.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+Content
+&lt;/h2&gt;
+&lt;p&gt;
+This was a big one. Dan talks about students expectations - are tests
+cumulative or just since the last unit. Making sure test content is
+proportional to lesson content. Watching out for test morale - letting
+kids know hard questions are hard, test flow and much more. Not too
+much to say here other than if you haven&amp;#39;t listen to the podcast.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-5&#34;&gt;
+Backstory
+&lt;/h2&gt;
+&lt;p&gt;
+One content point that I do want to drill down on is Dan&amp;#39;s stating
+that we sometimes give too much backstory on questions. &amp;#34;If you want
+them to sort a list, make them sort a list! You don’t have to tell a
+story about the list….&amp;#34; Too often tests are races and even when they
+aren&amp;#39;t a student has to first read the question, understand it, make
+sure there are no gotchas, formulate and write down a solution. Giving
+a complex backstory from which the students have to glean the real
+question in a timed high pressure environment is just too much. There
+are other places where you can ask a general question with a big back
+story and have students solve the poblem.
+&lt;/p&gt;
+&lt;p&gt;
+This made me think of technical interviews which are all
+backstory. The truth though is that most kids solve them by pattern
+matching. They prep by doing similar problems and look for key
+phrases. Have unlimited memory and need fast access - there&amp;#39;s probably
+a hash table involved. Something have an easy solution but it&amp;#39;s too
+slow - think recurison. Recursion is obvious but too slow - dynamic
+programming. It&amp;#39;s a &amp;#34;have I seen this question before&amp;#34; more so than a
+real test of a potential employees ability.
+&lt;/p&gt;
+&lt;p&gt;
+The other thing it made me think is that while I very much agree with
+Dan, it flies  in the face of what teachers have been forced to deal
+with in the last couple of decades. It&amp;#39;s all about the word problem
+where the kid must sleuth out the question. So many high stakes exams
+are as much reading exams as they are content exams. I&amp;#39;m not even
+going to get into how this affects non English speakers but let&amp;#39;s just
+say this is a real issue.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-6&#34;&gt;
+Tests on computers and other test taking formats
+&lt;/h2&gt;
+&lt;p&gt;
+Towards the end, Dan talks about having an on-computer part of an
+exam. I like having the students do live on computer exams but they
+also have their issues. I&amp;#39;m not so concerned about cheating. I give
+them the resources they can use and truth be told, the end results
+don&amp;#39;t differ much from when I&amp;#39;ve used paper exams or other
+assessments. I am always concerned about a computer breaking but
+fortunately that hasn&amp;#39;t really been a problem.
+&lt;/p&gt;
+&lt;p&gt;
+What has been a problem however is the fact that speed can become an
+issue. Some kids know how to type others don&amp;#39;t. This can be a HUGE
+advantage in a CS0 or CS1 class. When you&amp;#39;re thinking about what
+letter to type you&amp;#39;re not thinking about the problem and in general
+beginners are very slow. I always tell my second year students to look
+at what they can do as an overnight assignment. They realize that
+what&amp;#39;s now overnight was a large semester project back in their first
+year. This all means that you really have to be careful about the
+length of a computer based test. 
+&lt;/p&gt;
+&lt;p&gt;
+Another thing Dan mentioned was giving group tests. Students would
+work in teams. He noted that in the group, The collective score was
+always higher than the top individual score. I get the idea and it&amp;#39;s
+probably true trend wise but can&amp;#39;t be universally true if your tests
+are actually compatible. Given a fair test, surely some students can
+ace it in which case the group can only equal the top scorer.
+&lt;/p&gt;
+&lt;p&gt;
+This group test reminded me of cooperative learning which was all the
+rage back in the day. Of course cooperative learning is no longer &amp;#34;it&amp;#34;
+but while it never was the silver bullet it is notable that it had
+some good ideas and it sounds like Dan is implementing some of them
+albeit without the same name.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-7&#34;&gt;
+Thoughts on grading
+&lt;/h2&gt;
+&lt;p&gt;
+I&amp;#39;ll disagree here with Dan&amp;#39;s contention that we should all use
+Gradescope. I&amp;#39;ve come out against autograders before so I&amp;#39;ll just
+summarize here. I&amp;#39;m not entirely against autograders. They&amp;#39;re great
+for rudimentary answers and can also provide a level of instant
+student feedback. The flip side is that in order to get to know your
+students you have to look at their work. You might not learn much from
+multiple choice answers but you will if you look at code they&amp;#39;ve
+written out or other long form answers. I get that you can&amp;#39;t do this
+with huge classes but again, I&amp;#39;ll say we shouldn&amp;#39;t have huge
+classes. To use an autograder as a necessity is one thing but to say
+it&amp;#39;s better rather than just a time save is another. Now, you can use
+autograding tools effectively to cull and sort and draw your attention
+to things to look at by hand and that&amp;#39;s a plus but I haven&amp;#39;t seen too
+much of that in current tools.
+&lt;/p&gt;
+&lt;p&gt;
+Rather than an autograder, I try to use testing frameworks on short
+answers  and to provide instant feedback. Specifically I use &lt;a href=&#34;https://github.com/onqtam/doctest&#34;&gt;doctest&lt;/a&gt;
+for C++ and &lt;a href=&#34;https://docs.python.org/2/library/unittest.html&#34;&gt;unittest&lt;/a&gt; for Python. They provide students with instant
+answer feedback while at the same time introducing them to practical
+software engineering sensibilities.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-8&#34;&gt;
+Some of my memorable tests
+&lt;/h2&gt;
+&lt;p&gt;
+I thought here I&amp;#39;d share a few exams I&amp;#39;ve given that I found
+memorable.
+&lt;/p&gt;
+&lt;p&gt;
+First was a five question long answer exam. I gave it to my kids
+telling them &amp;#34;Answer three of the five questions. You can select any
+three but when grading, I will only grade quesitons 1, 2 and 4.&amp;#34; Some
+students had some real issues with this. Led to an interesting
+discussion as to about choice and consequences. I didn&amp;#39;t do this in
+order to mess with the kids. It was back in the day when you had to
+send exams to the central copy room to be copied and needed about a
+weeks lead time. I didn&amp;#39;t know the direction the class would take so
+wrote questions 3,4, and 5 to hedge my bets. By the time we got to the
+test, question 4 made sense while 3 and 5 would have been really super
+hard.
+&lt;/p&gt;
+&lt;p&gt;
+A second test, well quiz I gave once was a single question that was
+something like this: 
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+take the next 20 minutes to share with me your thoughts on cellular
+automata. Consider why we studied it. Was it interesting? Why, why
+not? What did you learn?
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+Some students absolutely loved it. Others loathed it. The freedom gave
+some kids license to give me super creative interesting answers. Some
+really needed more constraints and had tremendous difficulty.
+&lt;/p&gt;
+&lt;p&gt;
+Finally, I once gave a semi-gag test. The instructions on the front
+said that you had to proceed in order. You WERE NOT TO look ahead. It
+was a mix of real CS questions and goof questions like:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+sprint up to the blackboard, draw a smiley on the board, then return
+to your seat and go on to the next question.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Stand up, do 10 jumping jacks, sit and proceed to the next question
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Stand up and raise your right hand. When you see someone else with
+their hand raised, walk to them and give them a high five. Then
+return to your seat nad proceed to the next question.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+The last page had an answer key and instructed the students to grade
+themselves before handing it in.
+&lt;/p&gt;
+&lt;p&gt;
+Overall the class enjoyed the exam.
+&lt;/p&gt;
+&lt;p&gt;
+What was interesting, was that after class a few student appoached me
+either in person or via email saying that they felt really bad but
+they looked at the end of the exam when it started so saw the
+answers. They felt they cheated and wanted to let me know and
+understood if they got  zeros (which of course, I didn&amp;#39;t give them). 
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-9&#34;&gt;
+Final thoughts
+&lt;/h2&gt;
+&lt;p&gt;
+Wow. That was long but I said before that there was a lot to unpack. 
+&lt;/p&gt;
+&lt;p&gt;
+I left a bunch out of this and it&amp;#39;s already a really long post. I
+might write more on test creation and administration at some other
+point but the takeaway from this is listen to the &lt;a href=&#34;https://sites.duke.edu/csedpodcast/&#34;&gt;podcast&lt;/a&gt; if you
+haven&amp;#39;t already.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Riffing on the CS Ed Podcast - Episode 1 - David Malan</title>
+      <link>https://cestlaz.github.io/post/cs-ed-podcast-1/</link>
+      <pubDate>Thu, 06 Feb 2020 16:42:08 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/cs-ed-podcast-1/</guid>
+      <description>
+&lt;p&gt;
+I saw a couple of posts the other day about the &lt;a href=&#34;https://sites.duke.edu/csedpodcast/&#34;&gt;CS Ed Podcast&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+Kristin Stephens-Martinez of Duke interviewed (or will interview) six
+CS educators on a variety of topics. There are four posted so far:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+David Malan
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Dan Garcia
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Amy Ko
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Mark Guzdial
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Before I started I thought I&amp;#39;d listen to a few and then share some
+thoughts but I found so much to unpack  in the second episode where
+Dan talks about testing that I decided to share my thoughts on the
+first episode, then Dan&amp;#39;s and then see if find anything to comment on
+in episodes three and beyond.
+&lt;/p&gt;
+&lt;p&gt;
+All the podcasts are available via the link above and transcripts are
+also provided - a nice touch for a number of reasons. It not only
+increases accessibility, it also makes the episodes potentially more
+discoverable via search engine and certainly more searchable. For me it was
+helpful as I only listen to podcasts while working out - running or in
+the gym so being able to search a text page to double check what I
+thought I heard while struggling to finish mile six or seven was a
+boon.
+&lt;/p&gt;
+&lt;p&gt;
+In episode 1, Stephens-Martinez interviewed David Malan of CS50
+fame. The interview was mostly about tools used in CS50.
+&lt;/p&gt;
+&lt;p&gt;
+Even though I&amp;#39;m not going to comment on CS50 as it wasn&amp;#39;t the direct
+topic of the interview I feel I should share my bias in case any comes
+through. I&amp;#39;m not a fan of CS50. This is an opinion I formed by talking
+to a number of my former students who have taken/TA&amp;#39;d CS50 and/or
+courses that follow it combined with my own thoughts and beliefs about
+CS Education. That said, I have no first hand exposure to Harvard&amp;#39;s
+CS50 nor have I ever met Mr. Malan so I reserve the right to change my
+point of view at some point in the future.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-1&#34;&gt;
+Summary stats
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Did I enjoy the podcast? Yes - I&amp;#39;d give it 4/5 on the making running
+bearable scale. The interview flowed well and a lot of information
+was shared. 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Did I learn anything? Honestly, no. This was probably due to the
+topic but more on that below.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Should you listen? Yes. Again, more below.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+Thoughts
+&lt;/h3&gt;
+&lt;p&gt;
+A theme of the podcast was that Malan wants his students to be exposed
+to and end up using real tools but uses the CS50 tools to scaffold
+their way. Not having a huge amount of exposure I won&amp;#39;t comment on how
+well this works but it&amp;#39;s philosophically similar to my beliefs where I
+start my beginners in a simplified environment like Thonny for Python
+and have them &amp;#34;graduate&amp;#34; up to a more full featured yet less forgiving
+editor. 
+&lt;/p&gt;
+&lt;p&gt;
+One of the tools they talked about was &lt;a href=&#34;https://github.com/cs50/help50&#34;&gt;help50&lt;/a&gt; - a command line tool to
+improve on error messages (there&amp;#39;s also a web interface
+availabe). Instead of typing &lt;code&gt;gcc myfile.c&lt;/code&gt; students would type
+&lt;code&gt;hepl50 gcc myfile.c&lt;/code&gt; and instead of getting just the cryptic error
+message you&amp;#39;d also get an improved message. In my short time playing
+with it I couldn&amp;#39;t actually get a better error but I only played with
+it for a few minutes. 
+&lt;/p&gt;
+&lt;p&gt;
+I like the idea of sharing both the original error message as well as
+the improved one but can&amp;#39;t really comment further. What I would have
+loved to hear, however was how they transition the kids first to use
+the tool and then to grow out of it. I&amp;#39;d also be curious to see if
+there were differences between adoption of  and graduation from the
+tool as well as it&amp;#39;s effectiveness for the Harvard population where
+everyone is pre-selected to be high performing in terms of class
+performance vs an institution that takes all comers. 
+&lt;/p&gt;
+&lt;p&gt;
+Another tool I liked was &lt;a href=&#34;https://cs50.readthedocs.io/style50/&#34;&gt;style50&lt;/a&gt; which tells you if and how your code
+violates coding standards but doesn&amp;#39;t automatically fix it.
+&lt;/p&gt;
+&lt;p&gt;
+This is something I show my classes just using our editors style
+checkers. I have Emacs set up to give me a red tick when I violate
+style but only says what&amp;#39;s wrong when I move the cursor over and it
+doesn&amp;#39;t auto correct. 
+&lt;/p&gt;
+&lt;p&gt;
+I like this as it raises student awareness but they actually have to
+make the change and learn to either code in an approved style or make
+a conscious decision to violate style.
+&lt;/p&gt;
+&lt;p&gt;
+For me, the missing part of the interview was the &amp;#34;how.&amp;#34; How do you
+get the students to adopt the tool and how do you get them to outgrow
+them. 
+&lt;/p&gt;
+&lt;p&gt;
+At the end, podcasts get to share something from tech that they find
+cool and Mr. Malan shared containers - Docker images as an
+example. The idea that you can package something for students and know
+that they all get the same package with the same versions of all the
+required tools. That seems to make sense but I think there&amp;#39;s another
+side, a downside  to containers both in terms of using them in classes
+and in terms of the direction we&amp;#39;re going with containers in tech. All
+of that though is a topic for another day.
+&lt;/p&gt;
+&lt;p&gt;
+The podcast also covered other tools and if you haven&amp;#39;t listened yet
+you should. 
+&lt;/p&gt;
+&lt;p&gt;
+As I found a lot of rich material in Dan&amp;#39;s interview I&amp;#39;ll almost
+certainly write something about that. Also probably on Amy&amp;#39;s about
+debugging. Spoiler alert - both are worth listening to. Dan&amp;#39;s runs
+about 40 minutes and Amy&amp;#39;s 24. I haven&amp;#39;t listened to Mark&amp;#39;s yet but
+expect that to be worth our time as well.
+&lt;/p&gt;
+&lt;p&gt;
+One thing I do want to point out is that all six interviews for this
+series are of college professors - no K12 teachers. Not sure why that
+decision was made but I found it to be interesting. Anyone who knows
+me is aware that I&amp;#39;m much more of a teacher as craftsman guy rather
+than a &amp;#34;the research says&amp;#34; guy so I have my bias but regardless, I
+think that interviewing a professor, a high school teacher, and an
+early grade teacher could give some very interesting and contrasting
+perspectives.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

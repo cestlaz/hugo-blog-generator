@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teacher cert on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/teacher-cert/</link>
+    <description>C&#39;est la Z (teacher cert)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Jul 2020 07:30:32 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/teacher-cert/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>CS Certification summer intensive - the home strecth</title>
+      <link>https://cestlaz.github.io/post/teacher-cert-home-stretch/</link>
+      <pubDate>Fri, 24 Jul 2020 07:30:32 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teacher-cert-home-stretch/</guid>
+      <description>&lt;p&gt;
+We&amp;#39;ve a week to go in the summer intensive part of our CS teacher
+certification program so after an intense few weeks, I can start to
+breath a little. There&amp;#39;s still a lot to be done but I feel like I can
+breath. 
+&lt;/p&gt;
+&lt;p&gt;
+The first three and a half weeks covered programming and data
+structures with a bunch of pedagogy mixed in. This meant a lot of day
+to day adjustment of what we were teaching and how we were teaching
+it, after all, this is the first time a program like this has ever
+existed let alone shifted from in person to remote. Now we&amp;#39;ve moved in
+to the last course - Topics, combined with yet more pedagogy. This is
+the easy part. Each cohort member selected some area of computer
+science that is both new to them and not covered in a typical K12 CS
+class. We provided some ideas but they were free to come up with their
+own. They&amp;#39;re spending time learning about the topic and designing a
+lesson or unit around it. The deliverable is a unit plan with
+resources and guidance on preferred pedagogy techniques and a code
+implementation of the topic. The idea is that in addition to showing
+their own expertise that other cohort members can use the project as a
+resource for their own classes at some future date.
+&lt;/p&gt;
+&lt;p&gt;
+The next few days consist of us supporting their work while mixing in
+a few lessons on topics that they didn&amp;#39;t select. Much easier than the
+first few weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+Looking forward to some cool presentations - Blockchain, public key
+encryption, some machine learning and more.
+&lt;/p&gt;
+&lt;p&gt;
+Really happy about how this has all played out.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

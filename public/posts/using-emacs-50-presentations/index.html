@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Using Emacs Episode 50 - presentations - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Using Emacs Episode 50 - presentations" />
+<meta property="og:description" content="Next weekend I&#39;ll be attending the Computer Science Teachers Association&#39;s annual conference. It&#39;s probably the biggest conference focussed on K12 Computer Science education. This year, in addition to attending, I&#39;ll be giving a talk on preservice and inservice CS teacher preparation programs. I&#39;ll be talking about the new New York State certification requirements along with what we&#39;re rolling out at Hunter College.  This means putting together a slide deck for the session." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/using-emacs-50-presentations/" />
+<meta property="article:published_time" content="2018-06-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-06-30T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Emacs Episode 50 - presentations"/>
+<meta name="twitter:description" content="Next weekend I&#39;ll be attending the Computer Science Teachers Association&#39;s annual conference. It&#39;s probably the biggest conference focussed on K12 Computer Science education. This year, in addition to attending, I&#39;ll be giving a talk on preservice and inservice CS teacher preparation programs. I&#39;ll be talking about the new New York State certification requirements along with what we&#39;re rolling out at Hunter College.  This means putting together a slide deck for the session."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Using Emacs Episode 50 - presentations</h1>
+        </header>
+        <div class="content">
+            <p>
+Next weekend I&#39;ll be attending the Computer Science Teachers
+Association&#39;s <a href="https://www.csteachers.org/general/custom.asp?page=2018Conference">annual conference.</a> It&#39;s probably the biggest conference
+focussed on K12 Computer Science education. This year, in addition to
+attending, I&#39;ll be giving a talk on preservice and inservice CS
+teacher preparation programs. I&#39;ll be talking about the new New York
+State certification requirements along with what we&#39;re rolling out at
+Hunter College.
+</p>
+<p>
+This means putting together a slide deck for the session. When I have
+to work collaboratively with non-Emacs users, I will usually go to
+Google Docs for presentations. It works and the collaborative aspects
+are nice but tools like Google Docs and Powerpoint are designed around
+composing slides manually. I much prefer to use a tool where I can
+focus on writing my presentation and have the tool turn it into a
+presentation.
+</p>
+<p>
+Org-mode is of course the ideal tool. As an outliner, it lends itself
+to organizing a talk:
+</p>
+<div class="src src-org">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-org" data-lang="org"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-org" data-lang="org">,* topic 1
+the content for slide one
+,* topic 2
+the content for slide two
+,* topic 3
+etc.</code></pre></div></code></pre></div>
+</div>
+<p>
+I can embed code, tables, images, and more. I can also cycle
+visibility so I can focus on individual sections. Org-mode also has a
+number of export options to take a plain org file which is just ascii
+with markup and export it as a presentation. In the video, I&#39;ll take a
+quick look at <code>ox-beamer</code>, which exports to a Beamer presentation in LaTeX and then a PDF,
+<code>epresent</code> which presents right in Emacs and finally <code>ox-reveal</code> wich
+creates a <code>reveal.js</code> presentation. I ultimately decide to continue to
+use <code>ox-reveal</code> as it&#39;s pretty simple and flexible and I can also directly serve
+the final presentation from my own laptop, a usb drive, or directly
+from GitHub.
+</p>
+<p>
+Check out the video to see how. If you want more information on using
+<code>ox-reveal</code> check out my earlier <a href="http://cestlaz.github.io/posts/using-emacs-11-reveal">Using Emacs post and video</a>.
+</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bRoSpJ23Kzk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2018-06-30</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/emacs">#emacs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/presentations">#presentations</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

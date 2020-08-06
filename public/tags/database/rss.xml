@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>database on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/database/</link>
+    <description>C&#39;est la Z (database)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Jun 2019 19:35:17 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/database/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>MongoDB World 2019</title>
+      <link>https://cestlaz.github.io/post/mongodb-world/</link>
+      <pubDate>Tue, 18 Jun 2019 19:35:17 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/mongodb-world/</guid>
+      <description>&lt;p&gt;
+For those of you who don&amp;#39;t know, MongoDB is a very popular NoSQL
+database. NoSQL  is an overarching term describing databases that
+are not relational and don&amp;#39;t implement Structured Query Language
+(SQL). In a relational database your data is stored in tables with
+columns - think spreadsheet where each row of the table is a record in
+the database. You link tables together via a common field or row
+name. NoSQL databases work differently. 
+&lt;/p&gt;
+&lt;p&gt;
+MongoDB is a document store. In MongoDB a document is a &lt;a href=&#34;https://json.org/&#34;&gt;JSON&lt;/a&gt;
+object. Essentially a Javascript (or Python) dictionary. As a result
+you do things differently. I plan to write up something more on the
+differences between SQL and NoSQL in the near future.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve been using MongoDB on and off for a number of years. I use it for
+personal projects and also in the software development course I taught
+at Stuy. The community edition is free and easy to install and it&amp;#39;s
+very easy for a beginner to get started.
+&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s say you wanted to store information about a students. You might
+create this dictionary:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;  student &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; { &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Last&amp;#39;&lt;/span&gt; : &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Hugginkis&amp;#39;&lt;/span&gt;,
+              &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;First&amp;#39;&lt;/span&gt; : &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Amanda&amp;#39;&lt;/span&gt;,
+              &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;ID&amp;#39;&lt;/span&gt; : &lt;span style=&#34;color:#ae81ff&#34;&gt;1245&lt;/span&gt;,
+              &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Homeroom&amp;#39;&lt;/span&gt; : &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;5A&amp;#39;&lt;/span&gt;,
+              &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Schedule&amp;#39;&lt;/span&gt; : [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Eng&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Math&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Gym&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;CS&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Lunch&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Physcis&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Band&amp;#34;&lt;/span&gt;]}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+You add this to your database like this:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;db&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;students&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;insert(students)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Later, you can query for all the students in Homeroom 5A:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;db&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;students&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;find({&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Homeroom&amp;#39;&lt;/span&gt;:&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;5A&amp;#39;&lt;/span&gt;})&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Super quick and easy. It also comes with a nice REPL - essentially a
+Javascript interpreter -  to play with.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve spent the last two days at MongoDB World 2019. A great conference
+if you want to get up to speed on MongoDB. I left reminded of a number
+of great MongoDB products that I hadn&amp;#39;t really used and a few new ones
+they&amp;#39;re just launching:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Atlas
+This is their DB as service. Don&amp;#39;t want to administer your own
+installation? Just spin up an Atlas cluster. The free tier is plenty
+generous and you and your students can get up and running in under
+10 minutes.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Compass
+Back in the day you either interacted with MongoDB pragmatically
+using a language driver or used their REPL shell. Compass is a
+complete fully functional GUI. It can connect to your database, a
+remote one, or an Atlas cluster. A game changer for database
+management
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Charts
+This is really cool. You link MongoDB charts to an Atlas cluster and
+then can interactively build dashboards and visualizations. You can
+then embed the visualizations into your own web projects. 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Field Level Encryption
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Encrypting passwords for storage and similar practices are important
+but can be aslog. MongoDB now takes care of this for you. You can, for
+instance, tell your database to encrypt the password fields and your
+done. 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Data Lake
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+This blew me away. Basically, it can take your AWS storage and let you
+query it as if it were a MongoDB database. It works with a variety of
+file formst - JSON, XML, CSV and more. Basically it transparently
+turns cloud storage into a database. 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Stitch
+This allows for the building of serverless apps. Similar to Firebase
+but it looks to interact with all the other MongoDB goodness I&amp;#39;ve
+mentioned. .
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+There were a few other neat things I learned about MongoDB and related
+products but those were the highlights.
+&lt;/p&gt;
+&lt;p&gt;
+As usual, I left the conference energized.
+&lt;/p&gt;
+&lt;p&gt;
+If you don&amp;#39;t use MongoDB check it out for yourself and your
+students. In addition to being a great product, it&amp;#39;s also a great
+company.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

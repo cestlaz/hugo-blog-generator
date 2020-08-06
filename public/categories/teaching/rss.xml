@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teaching on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/categories/teaching/</link>
+    <description>C&#39;est la Z (teaching)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Aug 2020 07:37:12 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/categories/teaching/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Preparing CS Teachers - what to leave in, what to leave out</title>
+      <link>https://cestlaz.github.io/post/teacher-cert-methods-choosing/</link>
+      <pubDate>Thu, 06 Aug 2020 07:37:12 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teacher-cert-methods-choosing/</guid>
+      <description>&lt;p&gt;
+Teachers always make decisions in their courses - what to leave in,
+what to leave out. I&amp;#39;ve seen programming and data structure classes
+where everything is written from scratch and others where a few things
+are explained and the students just use built in types like the
+java LinkedList  or Arrays.sort() method.
+&lt;/p&gt;
+&lt;p&gt;
+Do too much from scratch and you&amp;#39;ll never finish the curriculum. Do to
+little and the students won&amp;#39;t really understand what&amp;#39;s going on and
+walk a path towards being programmers or coders rather than computer
+scientists. Most teachers work somewhere between the extremes.
+&lt;/p&gt;
+&lt;p&gt;
+We not only had to make these decisions for our CS content but also
+for our methods. We decided to leave out two particular
+methods that are very popular - pair programming and Parsons
+problems. We did mention both in passing and did a little talk on pair
+programming but the treatment was far less than say live coding,
+subgoal labeling or the many other teaching techniques we decided to
+explicitly cover. 
+&lt;/p&gt;
+&lt;p&gt;
+Why did we leave out these two topics? 
+&lt;/p&gt;
+&lt;p&gt;
+Partly pragmatism and pragmatism is something that&amp;#39;s always left out
+when talking about teaching. Let&amp;#39;s look at Parsons problems. If you&amp;#39;re
+unfamiliar with them, they&amp;#39;re basically scrambled code
+fragments. Students have to put them in order. They&amp;#39;re cool puzzles
+and a nice change of pace. but you have to create them and get them to
+your students. That didn&amp;#39;t fit all that well with us. By the time we
+got to content that would benefit from Parsons problems our pace or approach
+didn&amp;#39;t really fit using them. It&amp;#39;s also worth noting that we haven&amp;#39;t
+seen any good online Parson problem generator systems which would be
+both a boon to problem creation and potentially distribution and
+assessment. 
+&lt;/p&gt;
+&lt;p&gt;
+There just wasn&amp;#39;t that much bang for the buck in giving them more than
+lip service. Since our cohort was composed of experienced teachers, we
+were confident that they can find the appropriate Parsons problems
+resources and use them where appropriate in their classes.
+&lt;/p&gt;
+&lt;p&gt;
+On pair programming we had similar pragmatic issues - it didn&amp;#39;t fit
+all that well given how tight the program was and we had to figure out
+how bet to do it remotely on the fly. We also knew that the cohort had
+all been to at least some NYC CS4All training and so were at least
+exposed to the idea. Still, we, or more accurately, Topher, who&amp;#39;s had
+great success getting student buy in did do a brief talk on the
+subject. Some of the things we covered were: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+How to motivate pair programming in a collaborative way
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+What activities can you give the navigator while the driver&amp;#39;s
+setting up the environment to involve them.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+How in the &amp;#34;real world&amp;#34; some developers love PP and some hate it
+and that there are many variations on the theme.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+You&amp;#39;d not always going to get student buy in.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+That last point is &lt;strong&gt;very&lt;/strong&gt; important. Teachers are going to try things
+that don&amp;#39;t always work and unfortunately, the system of evaluation
+doesn&amp;#39;t promote such necessary experimentation. What&amp;#39;s more every time
+you go to a professional development or training session or head
+something online it&amp;#39;s about how the presented did it and it worked
+perfectly and if you follow the same recipe it&amp;#39;ll work for you. It
+might, but then, it might not. It&amp;#39;s all about building the toolbox of
+tricks and using them when appropriate and even then, not every lesson
+is going to be John Keating or Jaime Escalante on the big screen.
+&lt;/p&gt;
+&lt;p&gt;
+So, in the end we made choices. We&amp;#39;re they the right ones? I think
+so. Next time around the cohort will be different and the
+circumstances a little as well. Will we make the same choices? Maybe,
+we&amp;#39;ll have to wait and see. 
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Preparing CS Teachers - adding methods to our madness</title>
+      <link>https://cestlaz.github.io/post/teacher-cert-methods/</link>
+      <pubDate>Tue, 04 Aug 2020 06:47:08 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teacher-cert-methods/</guid>
+      <description>&lt;p&gt;
+Our summer intensive was, well, pretty intensive. We met all day every
+day for a month and knocked out four classes. 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Programming (CS1)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Data Structures
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Topics
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Methods
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+If you ever took or taught a summer session class, you know that time
+is tight and generally you cover a little less than in a fall or
+spring semester class. N credits in 5 weeks just isn&amp;#39;t the same as
+those same N credits spread over 13. 
+&lt;/p&gt;
+&lt;p&gt;
+How did we recapture some time? First, we had some pre-work and second
+we integrated some of the courses. We couldn&amp;#39;t really do it with
+programming and data structures and we were less successful at
+integrating the topics than we liked but it made the most sense with
+methods, in fact, I think the methods part of the class was more
+successful as a result of it&amp;#39;s integration with the other subjects
+than it would have been as a stand alone.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s what we did.
+&lt;/p&gt;
+&lt;p&gt;
+We first thought about covering methods as we taught topics - that is,
+present something using some teaching technique, cover the topic and
+then also dive in to the technique. This turned out to be a
+mistake. The teachers that came in with a strong CS background  seemed
+fine but for the ones newer to the subject matter, it was too much at
+once. We had to alter course.
+&lt;/p&gt;
+&lt;p&gt;
+So we did.
+&lt;/p&gt;
+&lt;p&gt;
+We continued to model various methods and sometimes made a side remark
+here or there but focused on the CS. After a few days in, we were
+ready to spend a day on pedagogy. We broke the class into groups and
+had them reflect on the content we taught - how did we teach it? Why
+did we approach it the way we did? Did it work? This led to some rich
+discussion of both CS teaching techniques and teaching in general. We
+were very happy with how it all went.
+&lt;/p&gt;
+&lt;p&gt;
+We then went back to content but added more side bits here and there
+about the teaching methods - as they became more comfortable with the
+CS we were able to integrate more methods talk in with the CS talk. At
+our next formal pedagogy lesson, we again talked about new techniques
+that were modeled but also looked at alternative approaches and
+took a deeper look at our individual cohort members student
+populations. 
+&lt;/p&gt;
+&lt;p&gt;
+Some of the methods we discussed included: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Live Coding 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Subgoal labeling
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Make predictions
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Modifying existing code
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+code tracing
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+diagramming
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+scaffolded assignments (code skeletons)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Rubber Duck Debugging
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Code sharing (presenting)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+writing implementations of library code
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+slack techniques (reacts polls, channels, ) 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+thought-grooming/sparking warm-up Qs/tasks
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+relevant quotes at warm-up
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+and more but the list doesn&amp;#39;t really do the discussion justice. Take
+&amp;#34;live coding&amp;#34; for example - that&amp;#39;s not just writing code in front of
+the class. There&amp;#39;s a rich discussion here - how do you narrate? Is it
+truly live or from a note sheet? How about discussing workflow while
+modeling it? How about live coding subgoals? The actual class is much
+richer than just &amp;#34;live coding.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+In addition to integrating methods into the teaching of content, we
+also merged it with the topics course for some of the assessment. For
+topics, each group created a class or unit on some area of CS and
+included in the documents they prepared and presentation was a
+discussion of how it might bet taught. I know that they all came in as
+experienced teachers so weren&amp;#39;t starting with nothing but man, they
+knocked it out of the park. I&amp;#39;ll be talking more about the topics in a
+later post.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll probably say this a lot in my summer intensive wrap up posts but
+it was such a treat working with a cohort of great educators and also
+to have two of the best teachers I know to work with as the teaching
+team.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Preparing teachers to teach CS</title>
+      <link>https://cestlaz.github.io/post/teacher-cert-recap-intro/</link>
+      <pubDate>Mon, 03 Aug 2020 06:16:52 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teacher-cert-recap-intro/</guid>
+      <description>&lt;p&gt;
+Now that the summer portion of Hunter College&amp;#39;s Advanced Certificate
+in Teaching Computer Science is over I thought I&amp;#39;d do a
+postmortem. That is, a few posts about what we did and how it all
+went. 
+&lt;/p&gt;
+&lt;p&gt;
+First, though, an overview of the program.
+&lt;/p&gt;
+&lt;p&gt;
+The Advanced Certificate program is geared towards teachers who are
+currently certified in another subject area who wish to earn an
+additional New York State teaching certificate in Computer
+Science. Aspiring teachers - people who don&amp;#39;t currently have either a
+Masters degree or any teaching certification can enroll in our Masters
+in Computer Science Education program. We&amp;#39;re starting a small cohort
+of five on that in the Fall. 
+&lt;/p&gt;
+&lt;p&gt;
+The certificate program consists of a bunch of graduate classes plus
+field work which is required by the state. Over the summer we covered
+four of the classes. 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Programming - essentially a CS1 type course.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Data Structures - since K12 teachers should go deeper than the last
+HS course which is typically APCS-A.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Topcs in Compute rScience - since K12 teachers need a wide breadth
+of CS knowledge.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Methods - since teachers need to know how to teach CS.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In the fall, we&amp;#39;ll continue with Ethics in Computer Science and
+Curriculum Development which also includes the field work.
+&lt;/p&gt;
+&lt;p&gt;
+For this summer we started with a cohort of 22 practicing teachers but
+lost one along the way. They all came from different schools and we
+had all five boroughs represented. Most of the teachers worked in high
+schools but we had some middle school representation and in terms of
+current certifications, we had at least math, special ed, and science
+represented but that&amp;#39;s something we didn&amp;#39;t officially track.
+&lt;/p&gt;
+&lt;p&gt;
+Staffing wise, it was me along with two of my long time collaborators
+JonAlf Dyrland-Weaver and Topher Mykolyk. JonAlf and Topher are two of
+the best educators out there and part of my former core team at
+Stuy. That team is the biggest thing I still miss having come over to
+Hunter. They&amp;#39;re quite simply the best.
+&lt;/p&gt;
+&lt;p&gt;
+The program ran basically all day every day during the month of
+July. we knew it would be tight so we also added on some pre-work
+which made sure all participants had some experience with Java prior
+to our official start. 
+&lt;/p&gt;
+&lt;p&gt;
+More will be revealed over the next few posts but I&amp;#39;ll spoil the
+ending - I&amp;#39;m super proud of our 21 participants - while they still
+have more work to do to earn their certifications, if I ran a school,
+I&amp;#39;d love to have any of them teaching my CS classes. 
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not planning on writing much about the programming and data
+structure classes except possibly through the methods eye because both
+of those courses are pretty well established and cut and dry but I do
+plan to write at least the following: 
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+The methods course 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+More on the methods course 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+The topics course 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Use of tools for remote teaching 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Our overall philosophy in designing and running the program.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+So, stay tuned for more.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Varying Remote Teaching</title>
+      <link>https://cestlaz.github.io/post/varying-remote-teaching/</link>
+      <pubDate>Wed, 15 Apr 2020 08:33:20 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/varying-remote-teaching/</guid>
+      <description>&lt;p&gt;
+When we first went remote I jumped on Zoom. I already new the
+technology and it most simulated a live class. Basically, it was the
+best combination if quick, easy, and effective and we were under the
+gun to get something going and give our students some sense of
+normalcy and continuity.
+&lt;/p&gt;
+&lt;p&gt;
+As we settled in though, it made sense to try some different
+things. One was the &amp;#34;lab packet.&amp;#34; A self contained document with
+instructions and partial walkthroughs. One of my classes is already
+set up to do a number of labs in this way so that was an easy thing to
+try.  Basically it ended up being an asynchronous experience with me
+being available using the usual suspects - Slack and email. 
+&lt;/p&gt;
+&lt;p&gt;
+I tried something different this past Monday. It was synchronous with
+me available on Slack but we didn&amp;#39;t use Zoom. I set up a series of
+videos. Each video was fairly short and most had a small assignment at
+the end. I asked the class to fill out a form after each
+video/assignment. The topic was binary trees.
+&lt;/p&gt;
+&lt;p&gt;
+The whole process seemed to go well but I&amp;#39;ll report back once I&amp;#39;ve
+finished going over the feedback emails I&amp;#39;ve gotten from the class.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m particularly proud of this video that I made for the class, enjoy:
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/OvwIyQJ-s40&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>It&#39;s okay, I Get It</title>
+      <link>https://cestlaz.github.io/post/i-get-it/</link>
+      <pubDate>Fri, 10 Apr 2020 14:13:08 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/i-get-it/</guid>
+      <description>&lt;p&gt;
+I was reading Mary Clair Wright&amp;#39;s new &lt;a href=&#34;https://computationalthinkinginroom112.com/&#34;&gt;blog&lt;/a&gt; the other day. It&amp;#39;s always
+great to see another teacher sharing publicly online.
+&lt;/p&gt;
+&lt;p&gt;
+One line caught my eye in her &lt;a href=&#34;https://computationalthinkinginroom112.com/2020/04/07/ap-csa-enrichment-gone-awry/&#34;&gt;latest post&lt;/a&gt; - 
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;blockquote&amp;gt;
+Remote instruction is weird, I can’t see them. I have to trust that they will message me with questions.
+&amp;lt;/blockquote&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+This is a real problem. It&amp;#39;s hard enough in a regular class where we
+can pick up an all sorts of cues and use all sorts formal and informal
+assessments but when the students are on the other end of a
+teleconference or even more challenging an email or chat it&amp;#39;s even
+harder.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s also a reminder of how important those non verbal clues and
+student feedback can be.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s great if we can create an environment where our students will ask
+for help if they don&amp;#39;t know something but even under normal
+circumstances there&amp;#39;s the danger of students thinking they get
+it. If a student is totally lost they&amp;#39;ll usually know they&amp;#39;re totally
+lost but after that, it&amp;#39;s not so clear. 
+&lt;/p&gt;
+&lt;p&gt;
+A student might think they get it if they can basically follow along
+with what&amp;#39;s being presented. It&amp;#39;s pretty easy to watch another student
+or a teacher go through explaining a solution step by step and think
+you really know what&amp;#39;s going on. Similarly they can read through an
+example in a text or on a web site and think they understand. A little
+better is when they can do the first couple of problems in the book
+but those frequently mimic the samples and don&amp;#39;t require any
+additional insight. Even in a traditional class a student can go week
+to week like this and really think they understand things and then
+they get hit over the head on a test or right before a big assignment
+is due. 
+&lt;/p&gt;
+&lt;p&gt;
+This isn&amp;#39;t the student&amp;#39;s fault. It&amp;#39;s hard to know what you don&amp;#39;t know
+and truth be told, we don&amp;#39;t really teach our students how to study and
+self assess. It&amp;#39;s also really hard for teachers to assess this even in
+person. Now that we&amp;#39;re all remote it&amp;#39;s yet another huge red flag to
+look out for.
+&lt;/p&gt;
+&lt;p&gt;
+No solutions here today and no suggestions just yet another concern as
+we continue to work to do right by our kids.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Limitations Of Remote Teaching</title>
+      <link>https://cestlaz.github.io/post/limitations-of-remote-teaching/</link>
+      <pubDate>Mon, 30 Mar 2020 14:41:35 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/limitations-of-remote-teaching/</guid>
+      <description>&lt;p&gt;
+While tools like Zoom, Slack and others are a tremendous boon as we&amp;#39;re
+forced to do all our teaching remotely the limitations become apparent
+as we settle in and try to go beyond the basics of an offsite meeting.
+&lt;/p&gt;
+&lt;p&gt;
+Today was &lt;a href=&#34;https://cestlaz.github.io/post/code-review-2/&#34;&gt;code review&lt;/a&gt; day in my CS1 class. It&amp;#39;s a lesson that I enjoy
+teaching and I think my students get a lot out of it. Today we had to
+do it remote. The mechanics were largely the same:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Pair off the kids.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Have them write out a commentary on their partners code without discussion
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+pair off again
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Have one review the others code but this time via discussion and
+note taking.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Get everyone together and discuss
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+Zoom supported all the basics. Splitting the class was pretty easy via
+the breakout room interface and students were able to flag me when
+they wanted to bring me in to their breakout. It was also pretty easy
+to move newcomers into a room. There were some interface nits that
+Zoom has to address like how when I entered and left a breakout room I
+ended up losing part of the breakout window interface but I figured
+out a workaround.
+&lt;/p&gt;
+&lt;p&gt;
+The big difference and limitation was that I couldn&amp;#39;t just lurk. In
+a live in person class, I get a top down view. I can basically see what all the
+pairs are doing. I can&amp;#39;t get the details from a distance but I can
+basically see what&amp;#39;s going on. I can also sidle over near a group to
+see how they&amp;#39;re doing without being obtrusive. I can also see some of
+the students screens and notebooks to get the gist of what&amp;#39;s going on
+and focus in on individual conversations.
+&lt;/p&gt;
+&lt;p&gt;
+You can&amp;#39;t do these things with Zoom and I daresay you can&amp;#39;t with any
+remote conferencing platform. When I wasn&amp;#39;t in a breakout room I was
+alone in the main room. When I was in a breakout room it was obvious I
+joined and that in and of itself changed the room dynamic. I also
+couldn&amp;#39;t see anything the kids were writing on paper or on screen
+unless they explicitly shared it. 
+&lt;/p&gt;
+&lt;p&gt;
+All of this changes the dynamic big time and limits my effectiveness
+as a teacher. 
+&lt;/p&gt;
+&lt;p&gt;
+Don&amp;#39;t take this to mean I&amp;#39;m down on Zoom. I&amp;#39;m really loving the tool
+and without it or similar products my students would be getting &lt;strong&gt;much&lt;/strong&gt; 
+less during this crisis. 
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s just a reminder that teaching is a contact sport and as much as
+some people will tell you otherwise the best instruction is in person
+in a small class with a knowledgeable dynamic teacher. We&amp;#39;re not
+getting back there this semester but here&amp;#39;s hoping that we get back by
+Fall.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Necessity is the mother of invention</title>
+      <link>https://cestlaz.github.io/post/mother-of-invention/</link>
+      <pubDate>Mon, 23 Mar 2020 18:59:40 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/mother-of-invention/</guid>
+      <description>&lt;p&gt;
+I didn&amp;#39;t expect to read a Fred Wilson post on &lt;a href=&#34;https://avc.com/2020/03/teaching-online/&#34;&gt;teaching online&lt;/a&gt; but
+that&amp;#39;s what I found when I visited &lt;a href=&#34;https://avc.com/&#34;&gt;his blog&lt;/a&gt; this morning. Don&amp;#39;t get me
+wrong - I suspect that Fred has the makings of a great teacher, it&amp;#39;s
+just not what I expected to find. There have been many posts about
+education but I don&amp;#39;t recall any about teaching or more specifically
+the art of teaching. I did find &lt;a href=&#34;https://avc.com/2011/07/teaching/&#34;&gt;this post&lt;/a&gt; though which actually speaks
+to some of the thoughts today&amp;#39;s post got churning.
+&lt;/p&gt;
+&lt;p&gt;
+Fred describes what sounds like a typical &amp;#34;lecture style&amp;#34; lesson he&amp;#39;s
+delivered numerous times. This time, it would be delivered via
+Zoom. Now, Zoom is great but it&amp;#39;s harder to do an interactive
+lecture - ie active learning online than it is to do in person which
+is what I&amp;#39;m guessing led him to set up some starter Google sheets and
+use these shared documents for an active project based class.
+&lt;/p&gt;
+&lt;p&gt;
+At the end of the post, now that he came up with what sounds like
+a much stronger approach. Fred wonders if he&amp;#39;ll ever teach this class
+any other way. 
+&lt;/p&gt;
+&lt;p&gt;
+The first thing I thought was that this would be even better in
+person. I don&amp;#39;t know the specifics but I could think of a number of
+ways of running this. All in person with time to work on the
+spreadsheets is one. Giving some pre-work and the sheets and then pick
+up somewhere in the middle is another. In person gives the feel - the
+live interaction where a teacher can read the class but there&amp;#39;s no
+reason why we can&amp;#39;t also leverage tech tools like shared Google
+sheets in a live classroom.
+&lt;/p&gt;
+&lt;p&gt;
+Then I got thinking about necessity being the mother of
+invention. Nothing stops us from changing things up, from trying
+something in normal times but when the norm is disrupted sometimes it
+spurs creativity or changes focus. I
+try to continually evolve as a teacher but I&amp;#39;m no better than anyone
+else and get caught in ruts. I force myself to try new
+things. Sometimes they work and it&amp;#39;s great and sometimes &lt;a href=&#34;https://cestlaz.github.io/post/try-something-new/&#34;&gt;they
+don&amp;#39;t&lt;/a&gt;. Live and learn. On the other hand, when all if a sudden you can&amp;#39;t do things the
+usual way the brain works on alternatives. 
+&lt;/p&gt;
+&lt;p&gt;
+One example was the lesson where I
+&amp;#34;invented&amp;#34; live coding. It was a direct result of a forced change -
+for some reason, and I don&amp;#39;t recall why, I couldn&amp;#39;t do things the way I
+wanted that day so I winged it. Years later, I was chatting with a
+former student and he, out of the blue mentioned that that lesson had
+a profound influence on him. 
+&lt;/p&gt;
+&lt;p&gt;
+Right now, I&amp;#39;m teaching using Zoom, slack, videos and email. Not being
+in a room with my kids sucks. I feel less connected and it&amp;#39;s much
+harder to read the class. What am I doing? On the one hand, I&amp;#39;m not
+trying to change that much at once as I want my students to have some
+stability in an uncertain time but I am working on new things. The
+nice thing is that whatever I come up with I can share with my fellow
+teachers here and take with me back into the classroom. 
+&lt;/p&gt;
+&lt;p&gt;
+This was my big takeaway but the post also reminded me of why I turn
+to teachers before I turn to &amp;#34;the research&amp;#34; or policy makers on how to
+teach. Fred described the evolution of a lesson and a teaching
+technique. What he essentially described is what teachers do every day
+and we have to do it accounting for all the variables that the
+research can&amp;#39;t. We teach multiple classes a day every day of the
+week. We try things, assess the results, rinse and repeat. I get that
+all teachers don&amp;#39;t do this but the good ones do.
+&lt;/p&gt;
+&lt;p&gt;
+The final thought I had was with the reality that while coming up with
+interesting active learning experiences is great it also takes a lot
+of time and there&amp;#39;s not much time when you&amp;#39;re teaching five classes a
+day five days a week to 150 kids along with grading, advising, and
+everything else. This is why I tell young teachers that you always
+want to evolve and improve but not every lesson is going to be a home
+run and that&amp;#39;s okay.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s particularly important for teachers to remember this now as
+across the nation they&amp;#39;re re-inventing their syllabi on the fly to
+move from in person to online and they&amp;#39;re doing it without time,
+training, and in some cases tools. 
+&lt;/p&gt;
+&lt;p&gt;
+Do the best you can and continue to develop your toolset. Not every
+new online experience will be great but if they&amp;#39;re sincere, your kids
+will know. In the end we&amp;#39;ll all be okay and back to normal but with a
+whole bunch of new tricks up our sleeves.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interesting Problems</title>
+      <link>https://cestlaz.github.io/post/interesting-problems/</link>
+      <pubDate>Sat, 07 Mar 2020 08:12:55 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/interesting-problems/</guid>
+      <description>&lt;p&gt;
+I organize a monthly professional development session for CS
+teachers. It&amp;#39;s targeted at teachers who are beyond the beginner stage
+and don&amp;#39;t want yet another hello world blinky arduino scratch
+workshop. Don&amp;#39;t get me wrong, given the need for CS teachers we need
+plenty of beginner workshops but we also need to take teachers to the
+next level. I refer to my workshops as being for teachers of APCS-A,
+similar, or beyond. Participants get three hours of CTLE credit and
+thanks to our gracious hosts at &lt;a href=&#34;http://digitalocean.com&#34;&gt;Digital Ocean&lt;/a&gt; get to use a great space
+and enjoy a free meal.
+&lt;/p&gt;
+&lt;p&gt;
+I particularly enjoyed last weeks workshop for two reasons. One is
+that we talked about &amp;#34;interesting problems.&amp;#34; This in itself is
+interesting because different teachers find different things
+interesting. For me, this time around, I was thinking of problems that
+could be approached by beginners but had some interesting insight that
+allowed them to look at the problem differently and solve it more
+efficiently. 
+&lt;/p&gt;
+&lt;p&gt;
+The second reason I liked this session is because I wasn&amp;#39;t the only
+one presenting!!!
+&lt;/p&gt;
+&lt;p&gt;
+I started the session talking about the Happy Ladybugs problem - a
+Hackerrank problem I wrote about &lt;a href=&#34;https://cestlaz.github.io/posts/happy_ladybug/&#34;&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+I then passed off to Justin who talked about finding the &lt;a href=&#34;https://en.wikipedia.org/wiki/Convex_hull&#34;&gt;convex hull&lt;/a&gt;
+bounding a set of points. Justin talked about how you can relate this
+abstract geometry problem to real world problems like bounding
+neighborhoods as well as how this can be graphically motivated and
+then moved to discussing &lt;a href=&#34;https://en.wikipedia.org/wiki/Convex_hull_algorithms&#34;&gt;algorithms&lt;/a&gt;. Students can pretty easily come
+up with a in inefficient O(n^4) solution and then Justin talked about
+incrementally guiding them through alternate solutions ending with
+something that runs in O(nlgn). At the end of the day we had a problem
+that could be done in a variety of ways with students at different
+levels of experience. 
+&lt;/p&gt;
+&lt;p&gt;
+We then moved to Barry&amp;#39;s presentation of a &lt;a href=&#34;http://www.baphl.org/20/&#34;&gt;puzzle hunt&lt;/a&gt; problem he
+adapted. It involved decoding, translation, number bases and Barry
+uses it as a platform to work with stacks.
+&lt;/p&gt;
+&lt;p&gt;
+I finished the evening talking about three problems but we didn&amp;#39;t look
+at solutions. These were teasers for next time when we also hope to do a
+SIGCSE recap.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teachers Pay Teachers - part 2 - the report</title>
+      <link>https://cestlaz.github.io/post/teachers-pay-teachers-2/</link>
+      <pubDate>Mon, 20 Jan 2020 10:03:27 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teachers-pay-teachers-2/</guid>
+      <description>&lt;p&gt;
+Continuing from yesterday, what about the &lt;a href=&#34;https://www.govtech.com/computing/Report-Most-Teacher-Created-Online-English-Materials-Subpar.html&#34;&gt;article&lt;/a&gt; and &lt;a href=&#34;https://fordhaminstitute.org/national/research/supplemental-curriculum-bazaar&#34;&gt;report&lt;/a&gt; on pay
+and free teacher resources.
+&lt;/p&gt;
+&lt;p&gt;
+The report looked at three sources - one pay and two free. They came
+up with a number of results but I think they largely missed the point.
+&lt;/p&gt;
+&lt;p&gt;
+Their bottom line conclusion was that &amp;#39;Overall, reviewers rate most
+of the materials as “mediocre” or “probably not worth using”.&amp;#39; They
+also didn&amp;#39;t seem to find that neither the for profit or free sources
+were universally better.
+&lt;/p&gt;
+&lt;p&gt;
+The one thing I can agree with though is that a consistent rating
+system for the types of resources found on these sites would be very
+helpful.
+&lt;/p&gt;
+&lt;p&gt;
+I think the main problem with the report has to do with what they were
+looking for. They concluded things like the resources didn&amp;#39;t line up
+well with standards, didn&amp;#39;t have good assessments, didn&amp;#39;t address
+cultural diversity and a few other &amp;#34;didn&amp;#39;t dos,&amp;#34;  As I said, I think they
+missed the point.
+&lt;/p&gt;
+&lt;p&gt;
+It felt to me that the reviewers were looking for rote
+experiences. Download a lesson and follow the script.
+&lt;/p&gt;
+&lt;p&gt;
+In spite of what reformers would have you think, that isn&amp;#39;t
+teaching. A teacher new to a class might start with a well worked out
+curriculum and largely follow it verbatim but as they develop their
+chops they&amp;#39;ll want the curriculum and all related materials to become
+their own.
+&lt;/p&gt;
+&lt;p&gt;
+A downloaded resource, taken as is, will likely not address a specific
+classes cultural diversity, at least not more than in the general
+sense because it was designed for the authors class and that&amp;#39;s a good
+thing. It&amp;#39;s up to the person doing the downloading to take the
+resource and then adapt it for their students in their situation. This
+is why most of the items that the report considers bad to me are both
+inevitable and fine. There is no universal lesson that you can cut and
+paste to all schools. To expect it is rubbish.
+&lt;/p&gt;
+&lt;p&gt;
+On the CS side, there&amp;#39;s a good amount of sharing of materials as well
+as providers well, providing content. Some is free some not but there
+is a lot available. Forgetting about whole curricula resources, three
+lesson / experience sites  I&amp;#39;m
+reasonably familiar with are the SIGCSE &lt;a href=&#34;http://nifty.stanford.edu/&#34;&gt;Nifty Assignments&lt;/a&gt; and now the
+CSTA&amp;#39;s &lt;a href=&#34;https://sites.google.com/site/cstaniftyassignments/&#34;&gt;corresponding project&lt;/a&gt; along with &lt;a href=&#34;https://www.engage-csedu.org/&#34;&gt;Engage CS&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+The biggest problem with the Nifty sites is that they&amp;#39;re arranged
+chronologically by the conference year they were presented. There are
+no tags nor easy way to search.  Engage CS gives you some level of
+searching like for course level, keyword, resource type, and more.
+&lt;/p&gt;
+&lt;p&gt;
+The sites present resources in a format that&amp;#39;s superficially
+ consistent but the truth is, once you get past the headings they can
+ be written up in radically different ways.
+&lt;/p&gt;
+&lt;p&gt;
+To me, that&amp;#39;s not a problem. Each resource was written by some
+educator with the intent of sharing but since each author is unique so
+to will be the content they produce. 
+&lt;/p&gt;
+&lt;p&gt;
+The real value of all these resources are to get ideas - lesson
+motivations, code samples, project ideas etc.. Sure, I wish they were
+more discoverable via search - better tagged and yes, even better
+rated but the value is from reading what some other teacher has done
+and then pulling out aspects that can work for you.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve rarely used a Nifty Assignment nor something from EngageCS
+explicitly but I have gotten value from both sites (CSTA Nifty
+assignments are newer and I&amp;#39;ve been at all the CSTA sessions so
+haven&amp;#39;t actually used the site). 
+&lt;/p&gt;
+&lt;p&gt;
+Would I ever use a resources &amp;#34;as published?&amp;#34; Perhaps - if
+it was really well aligned with how I do things. 
+&lt;/p&gt;
+&lt;p&gt;
+Would I pay? Probably not. I&amp;#39;m not against paying for resources from a
+philosophical point of view. Charge a fair price and give a reasonable
+assurance that what you&amp;#39;re selling has value and provide some value
+beyond the free sites. I haven&amp;#39;t used Teachers Pay Teachers and
+probably won&amp;#39;t look at Amazon&amp;#39;s thing when it&amp;#39;s launched but to me,
+they would have to bring value in terms of curation and search. If
+they do at a fair price, then they may be worth using.
+&lt;/p&gt;
+&lt;p&gt;
+When I started teaching there was no public internet. None of this
+existed. Teachers kept binders or books of lesson plans and if you
+were lucky you could borrow from a friend or colleague. New York&amp;#39;s DOE
+at one point had a few teachers in each subject area submit lesson
+plans for &amp;#34;lesson books&amp;#34; which they published for each core
+subject. My chairman wrote some of the math ones and those materials
+largely got me through my first year. 
+&lt;/p&gt;
+&lt;p&gt;
+Today we have an embarrassment of riches. That comes with the price
+that we have to actually read and evaluate all of the materials we&amp;#39;re
+presented with but I&amp;#39;ll take today&amp;#39;s resources over what I started with
+any day.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teachers Pay Teachers  - part 1 - should they</title>
+      <link>https://cestlaz.github.io/post/teachers-pay-teachers/</link>
+      <pubDate>Mon, 20 Jan 2020 08:43:37 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teachers-pay-teachers/</guid>
+      <description>&lt;p&gt;
+There was a bit of buzz a couple of months ago when Amazon announced
+an online marketplace for educational resources. It wasn&amp;#39;t a new
+concept - on the pay side, &lt;a href=&#34;https://www.teacherspayteachers.com/?msclkid=a426c2c1625613061bc19ce4cdcb6a0a&amp;amp;utm_source=bing&amp;amp;utm_medium=cpc&amp;amp;utm_campaign=Search%2520-%2520Branded%2520-%2520Desktop&amp;amp;utm_term=teachers%2520pay%2520teachers&amp;amp;utm_content=Brand%2520Name&#34;&gt;Teachers Pay Teachers&lt;/a&gt; has been around for a
+while and in terms of free, there are many online resources but
+they&amp;#39;re not necessarily well organized or curated. What was the buzz?
+Should teachers be charging their peers for class materials or should
+they be providing them for free.
+&lt;/p&gt;
+&lt;p&gt;
+I was going to blog about it then but never got around to it The other
+day, someone posted &lt;a href=&#34;https://www.govtech.com/computing/Report-Most-Teacher-Created-Online-English-Materials-Subpar.html&#34;&gt;this&lt;/a&gt; article which questioned the quality of both
+free resources and pay ones. The article, based on &lt;a href=&#34;https://fordhaminstitute.org/national/research/supplemental-curriculum-bazaar&#34;&gt;this report&lt;/a&gt; by the
+Fordham Institute looked at ELA resources. The report also only looked
+at Teachers Pay Teachers and two free sites - ReadWriteThink and Share
+My Lesson excluding many other teacher resources that could be, for
+all we know, better curated and more discoverable. As an aside, I was
+turned off by the reports referring to their evaluators as &amp;#34;experts&amp;#34;
+which is a description I personally would question. Still, there&amp;#39;s
+some good fodder for thought.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll get to the report in the next post but for now let&amp;#39;s tackle the
+question that started the initial buzz - should teachers be charging
+each other for materials?
+&lt;/p&gt;
+&lt;p&gt;
+It depends. If you&amp;#39;re paid by a school to develop materials they
+belong to the school. In NY you can take a sabbatical to build a
+course so anything you build during that time would be DOE property
+and therefore you couldn&amp;#39;t sell it. Same thing if you&amp;#39;re being paid
+off hours to develop materials. The gray area comes when you&amp;#39;re lesson
+planning. Most real planning and development happens outside of
+school hours. In an typical school day teacher are typically
+allocated around 40 minutes to do all their planing, grading,
+and paperwork so realistically most materials as well as planing,
+paperwork, and grading are done off hours. This being the case, I&amp;#39;m of
+the belief that those materials belong to the teacher (although I&amp;#39;ve
+met some DOE educrats who would disagree).
+&lt;/p&gt;
+&lt;p&gt;
+So, should they sell it? Well, they have every right to. That said, my
+personal feelings and practice is that if you&amp;#39;ve developed something
+for yourself and have not spent extra time or effort to prepare it for
+others then I think you should make it freely available to your
+peers. On the other hand, if you spend extra time and effort to make
+it useful for and usable by others then by all means charge if you&amp;#39;d
+like.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll tackle the report in the next post and we&amp;#39;ll look at some of the
+resources available on the CS side.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using GitHub issues for class communicatoin</title>
+      <link>https://cestlaz.github.io/post/git-issues/</link>
+      <pubDate>Sun, 17 Nov 2019 16:17:37 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/git-issues/</guid>
+      <description>&lt;p&gt;
+Last week I talked about using &lt;a href=&#34;https://cestlaz.github.io/post/communicating-with_students/&#34;&gt;GitHub issues&lt;/a&gt; as a mechanism for class
+communication. I thought it might be helpful to follow up on it and
+also felt that a video would be better than text.
+&lt;/p&gt;
+&lt;p&gt;
+So, here it is, 16 minutes on how you can use GitHub issues for class
+communication. I don&amp;#39;t show examples of everything like @ tagging but
+I think it shows some of the power of using GitHub and GitHub
+classroom beyond just a software repo and versioning.
+&lt;/p&gt;
+&lt;p&gt;
+Enjoy.
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/SNsjMKYoLr8&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Working with texts part 1 - cleaning the data</title>
+      <link>https://cestlaz.github.io/post/cleaning-textx/</link>
+      <pubDate>Fri, 15 Nov 2019 16:18:51 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/cleaning-textx/</guid>
+      <description>&lt;p&gt;
+I run periodic professional development sessions here in New York with
+my partner in crime JonAlf Dyrland-Weaver. I call them PD for &amp;#34;APCS-A,
+similar or beyond&amp;#34; and they&amp;#39;re designed to fill a professional
+development gap. We try to run them once a month but it&amp;#39;s a little
+less frequent than that.
+&lt;/p&gt;
+&lt;p&gt;
+The NYCDOE has taken on the monster task of CS for all and since
+they&amp;#39;re trying to get to everyone they have to run a bazillion
+sessions but all at an introductory level. Beyond that, most PD is
+tied to a curriculum, program, or product. We decided to run sessions
+for teachers who are ready for more both pedagogically and content
+wise while not affiliating with any specific provider. We&amp;#39;re just
+about the CS and the teaching of CS.
+&lt;/p&gt;
+&lt;p&gt;
+Yesterday we had our first session of the year and the content topic
+was text processing. Along the way, we used it as an opportunity to
+highlight subgoal labeling as a teaching technique.
+&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s a lot you can do in both CS0 and CS1 with text and document
+processing. By the end of yesterday&amp;#39;s session we had discussed a bunch
+of possibilities based on the text processing technique known as a
+&amp;#34;bag of words&amp;#34; which basically takes a text and just considers all the
+words it contains. What are the words and how many times does each
+word occurs. No consideration of order, grammar, or anything else. Just
+words and counts. We also talked a bit about more advanced possibilities
+like playing with an inverted index. I&amp;#39;ll talk about both of those in
+a future post. 
+&lt;/p&gt;
+&lt;p&gt;
+For today, let&amp;#39;s talk about what we have to do before we even begin -
+preprocessing the data.
+&lt;/p&gt;
+&lt;p&gt;
+We grabbed a bunch of texts from &lt;a href=&#34;https://www.gutenberg.org/&#34;&gt;Project Gutenberg&lt;/a&gt;. Specifically, &amp;#34;Moby
+Dick&amp;#34;, a translation of my favorite play &amp;#34;Cyrano de Bergerac&amp;#34; and the
+Book of Psalms from the Bible. I also made a copy of the first chapter
+of &amp;#34;Moby Dick&amp;#34; so we had a shorter corpus to play with and typed up
+the first scene of &amp;#34;Macbeth&amp;#34; - all thirteen lines of it.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s easy enough to read in the data in a language like Python:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;f &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; open(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;cyrano.txt&amp;#34;&lt;/span&gt;)
+raw_data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; f&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+but if you&amp;#39;re using a bag of words you&amp;#39;ve got to do some cleaning.
+&lt;/p&gt;
+&lt;p&gt;
+To start, all Project Gutenberg texts contain a whole bunch of front
+and back matter with lots of words. If you don&amp;#39;t get rid of them
+you&amp;#39;ll get extra words in your bag. I forgot to do this and was a bit
+surprised to see phrases like &amp;#34;Pay a trademark license&amp;#34; in the Book of
+Psalms.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s easy enough to just cut the tops and bottoms of each file off
+with an editor and that&amp;#39;s when we can read our data into our program
+and the fun begins.
+&lt;/p&gt;
+&lt;p&gt;
+First we had to turn everything into lower case;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;lower_data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; raw_data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;lower()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+and then the big part - we want to get rid of all the punctuation. We
+first tried something like this:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;stuff_to_remove &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.:;&amp;#39;0123456789&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;cleaned_letters &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [x &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; lower_data &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; stuff_to_remove]
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3&lt;/span&gt;cleaned_string &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;join(cleaned_letters)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+The second line is a list comprehension. It iterates through each
+letter in lower_data and copies it into the resultant list only if the
+letter is not in our stuff_to_remove list.
+&lt;/p&gt;
+&lt;p&gt;
+For example, if we had &lt;code&gt;lower_data = &amp;#34;abc123def g&amp;#34;&lt;/code&gt; we&amp;#39;d get a result
+of &lt;code&gt;[&amp;#34;a&amp;#34;,&amp;#34;b&amp;#34;,&amp;#34;c&amp;#34;,&amp;#34;d&amp;#34;,&amp;#34;e&amp;#34;,&amp;#34;f&amp;#34;,&amp;#34; &amp;#34;,&amp;#34;g&amp;#34;]&lt;/code&gt;. We then use the join in line 3
+to turn it back into a string &lt;code&gt;&amp;#34;abcdef g&amp;#34;&lt;/code&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+This worked pretty well but we found that there were problems. There
+were characters that we didn&amp;#39;t account for like long dashes that
+connected words and we didn&amp;#39;t have an easy way to put them in our
+removal string.
+&lt;/p&gt;
+&lt;p&gt;
+This led to take 2. Instead of deciding what to throw away, let&amp;#39;s
+decide what to keep;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;stuff_to_keep &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;abcdefghijklmnopqrstuvwxyz &lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\t\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;cleaned_letters &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [x &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; lower_data &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; stuff_to_remove]
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3&lt;/span&gt;cleaned_string &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;join(cleaned_letters)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This worked better (and yes, I know I could have used isalpha() but I
+didn&amp;#39;t remember it at the time) but still had problems. We had words
+that were formerly separated by punctuation with no spaces that were
+now combined into new invalid words. We also had things like chapter
+headings in our text and other stray words that we probably wanted to
+get rid of.
+&lt;/p&gt;
+&lt;p&gt;
+All of this led to rich conversation among the teachers present and
+can do the same in class. What do you clean? What do you keep? Is it
+worth the effort to write all sorts of cleaning code to get rid of a
+couple of stray bits of bad data or can we get the results we want by
+leaving it in? There&amp;#39;s no universally right answer and that&amp;#39;s part of
+the beauty of doing things like this with a class - it&amp;#39;s something
+that can make them think.
+&lt;/p&gt;
+&lt;p&gt;
+Once we made our final cleaning decisions it&amp;#39;s a simple matter to
+convert the long string of text into a list of words:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;wordlist &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; cleaned_string&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;split()&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Now we&amp;#39;re ready to start building our bag of words but that&amp;#39;s a post
+for another day.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Early Ap Registration - it&#39;s, um, for the kids</title>
+      <link>https://cestlaz.github.io/post/early-ap-registration-for-the-kids/</link>
+      <pubDate>Wed, 06 Feb 2019 08:08:38 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/early-ap-registration-for-the-kids/</guid>
+      <description>&lt;p&gt;
+I stumbled upon a thread over in the APCS-A Facebook group the other
+day. It seems that the College Board is making some changes in their
+&lt;a href=&#34;https://apcentral.collegeboard.org/about-ap/news-changes/ap-2019&#34;&gt;registration timeline&lt;/a&gt;. In the past, students registered for the exam
+sometime in March with the exams administered in May. The new changes
+include requiring registration in November along with $40 late
+registration and cancellation fees.
+&lt;/p&gt;
+&lt;p&gt;
+The College Board is, of course, spinning this as for &lt;a href=&#34;https://www.youtube.com/watch?v=3MCNEYCZWqw&amp;amp;feature=youtu.be&amp;amp;fbclid=IwAR04Uuj7vpHoYU_8jMjw00YpAPXp7gi3MDGdTKhzpUXv7mI0OILW01KyzvA%0A&#34;&gt;the student&amp;#39;s
+benefit&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+At least a portion of the teaching community thinks otherwise and has
+in fact started &lt;a href=&#34;https://www.change.org/p/demand-the-college-board-not-mandate-fall-ap-exam-requirements-and-deadlines&#34;&gt;this petition&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+To me this is just another money grab by the College Board - an
+organization that already has way too much influence over high school
+education.
+&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s take a look at what the College Board actually brings to the
+table. They offer an exam. A single exam in each subject offered
+that&amp;#39;s supposed to in 3 hours encapsulate an entire years&amp;#39;s worth of
+learning and from that, colleges might give  a student placement or
+credit.
+&lt;/p&gt;
+&lt;p&gt;
+But you say &amp;#34;they offer so much more.&amp;#34; Do they?
+&lt;/p&gt;
+&lt;p&gt;
+Teacher&amp;#39;s have to submit syllabi and the college board approves
+them. They offer samples but so do text book authors and third party
+organizations. In my case I rolled my own. The teacher also develops
+the course. Does the College Board provide materials? I guess, but so
+do those same groups that provide curricula. The college board
+certainly doesn&amp;#39;t define the subject. Last I checked Calculus, was
+pretty well defined way before the AP program. So was 
+Chemistry, and most other subjects. Actually, due to their outsized
+influence they do define the subset of the subject in some cases and
+we should really be questioning this influence. Finally, the teacher does
+the actual hard job of teaching the class. 
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m  just not seeing the value added. 
+&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;re already seeing schools require that students take the exam to be
+in the class or provide &amp;#34;incentives&amp;#34; like a credit or grade bump for
+taking the exam or even removing the AP designation from the
+transcript if the student doesn&amp;#39;t take the exam. Doing any of these is
+just plain wrong. By all means explain the advantages and
+disadvantages of taking the exam but to essentially force a student to
+fork over money and personal data to an outside independent agency is
+just plain wrong. 
+&lt;/p&gt;
+&lt;p&gt;
+But you say that students in many districts don&amp;#39;t have to pay. 
+&lt;/p&gt;
+&lt;p&gt;
+This is even more insidious.
+&lt;/p&gt;
+&lt;p&gt;
+Now it&amp;#39;s the taxpayer on the hook and the College Board has
+successfully created an everlasting cash pipeline from the public into
+private coffers while providing questionable value.
+&lt;/p&gt;
+&lt;p&gt;
+If you don&amp;#39;t agree with me and think that these requirements or
+incentives  are fine ask yourself this: If you had a child in a class
+and the teacher said &amp;#34;your child has to sit in a room with a friend of
+mine for three hours, give them $100 and personal data and I will give
+your child a higher grade&amp;#34; you&amp;#39;d be outraged. 
+&lt;/p&gt;
+&lt;p&gt;
+Spending three hours taking an external exam has no bearing on what a
+student did or didn&amp;#39;t do in the class so the grades, credits etc
+should be the same whether or not the kid took the AP exam.
+&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s get back to the early registration changes. Currently kids
+register for the AP exam in March. By then students might know what
+college they&amp;#39;re likely to go to. They&amp;#39;ll know if the AP exam is of any
+use to them. In November they don&amp;#39;t. I frequently lost some high
+scores on AP exams because I had top students who were accepted early
+to schools that didn&amp;#39;t award credit. I also lost a couple of low
+scores of students that for whatever reasons had no chance at getting
+a 3 or higher so opted not to sit for the exam. I guess the College Board came up
+with a good way to get money for those kids without providing value in
+return.
+&lt;/p&gt;
+&lt;p&gt;
+Then there are block scheduled schools or other situations where kids
+don&amp;#39;t start the class until after the new November deadline.
+&lt;/p&gt;
+&lt;p&gt;
+Finally, let&amp;#39;s talk a bit about the College Board&amp;#39;s claim that this is
+all for the students. The video talks about students doing better if
+they signed up earlier. I&amp;#39;m skeptical but even if it&amp;#39;s true, is &amp;#34;doing
+better on the AP exam&amp;#34; the goal we have for our students. How about
+learning our subject area or being inspired to continue on with it.
+&lt;/p&gt;
+&lt;p&gt;
+In the video, teachers talk about how the kids are more motivated and
+focused because the exam. This is getting to sound a lot like the
+inane focus on high stakes test where the test is the goal. Is the
+motivation that &amp;#34;you paid the $100&amp;#34; so it&amp;#39;s wasted if you don&amp;#39;t do
+well or &amp;#34;the school paid $100&amp;#34; so we&amp;#39;ll guilt you into studying more?
+Sorry, as teachers we can do better.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m sure I&amp;#39;ll get some flak for writing this but I also suspect that
+there are many teachers who agree with me that the College Board is
+not looking out for students but rather themselves.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From Scripts To Freestyle</title>
+      <link>https://cestlaz.github.io/post/from-scripts-to-freestyle/</link>
+      <pubDate>Fri, 26 Oct 2018 17:35:56 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/from-scripts-to-freestyle/</guid>
+      <description>&lt;p&gt;
+I just read &lt;a href=&#34;https://medium.com/@bethanymarz/going-off-script-b69345fc5904&#34;&gt;this post&lt;/a&gt; by  &lt;a href=&#34;https://twitter.com/bethanymarz&#34;&gt;Bethany Crystal&lt;/a&gt; - &lt;a href=&#34;https://medium.com/@bethanymarz/going-off-script-b69345fc5904&#34;&gt;Going off script&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Bethany writes that while she normally essentially scripts important
+presentations, this time she went more off the cuff.
+&lt;/p&gt;
+&lt;p&gt;
+It made me think about how I teach and a disturbing trend I&amp;#39;ve
+seen in CS education and education in general.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve never strictly used a script for teaching. When I started I did
+use &lt;strong&gt;very&lt;/strong&gt; detailed lesson plans. Back then I was teaching math. It
+was also pre internet or at least pre internet as we now know
+it. I had an account on &lt;a href=&#34;https://www.panix.com/&#34;&gt;Panix&lt;/a&gt; and the internet did indeed exist but
+you couldn&amp;#39;t just look for teaching materials. I actually remember
+bringing a modem in to Seward Park one day and showing a bunch of kids
+this up and coming thing called the internet. I showed them usernet
+news, a gopher server and a couple of other things.
+&lt;/p&gt;
+&lt;p&gt;
+In terms of teaching materials, you could buy sample lesson plans from
+the teacher store near the Board of Ed in Brooklyn. These were books
+that were compilations of mostly handwritten lessons. 
+&lt;/p&gt;
+&lt;p&gt;
+I basically copied and modified them. I had an &lt;strong&gt;aim&lt;/strong&gt;, a &lt;strong&gt;do now&lt;/strong&gt; key
+questions were written as were definitions and summary
+statements. Of course there were numerous sample problems and
+exercises, all worked out
+in advance. It wasn&amp;#39;t quite a script but it was a very well fleshed
+out guide 
+&lt;/p&gt;
+&lt;p&gt;
+As I gained experience and also shifted from math which wasn&amp;#39;t my
+passion to CS, my plans become sparser. I&amp;#39;d still write down
+definitions, maybe some solutions and a list of key points but a lot
+of the particulars were gone. I didn&amp;#39;t write out key questions or
+solutions to all the problems in advance. 
+&lt;/p&gt;
+&lt;p&gt;
+As time went by the plans got sparser still. I&amp;#39;d still list the key
+points I&amp;#39;d want to cover as well as notes on tricky parts of the
+lesson but more often than not I&amp;#39;ll just go in with a bullet list.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s my plan for a recent lesson:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Go over cipher soution
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+How to we solve if already ciphered?
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Rotate 26 times.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+What about using stats
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Frequency of letters - look up
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Find freq of letter in string then use distance formula against
+model
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Get frequencies from a book
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+try it in another language
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+We didn&amp;#39;t get to the last two bullet items so that&amp;#39;s where we&amp;#39;ll start
+off on Monday. This plan was all I needed but it in no way tells the
+full story of the lesson to anyone but me. It doesn&amp;#39;t include the
+motivation, ancillary stories and materials nor how the lesson was
+developed or delivered. I knew how it would play out because I was
+teaching it and for me these notes were more than sufficient. 
+&lt;/p&gt;
+&lt;p&gt;
+All this is not to say that I don&amp;#39;t spend a lot of time planning my
+lessons. I do. I just don&amp;#39;t create detailed scripts. I know what I
+want to cover and how I want to cover it. Then it&amp;#39;s just got to the
+class and go.
+&lt;/p&gt;
+&lt;p&gt;
+A big advantage of this is something that Bethany mentioned in her
+piece - the ability to &amp;#34;read the room.&amp;#34; This is a big part of
+teaching. If you&amp;#39;re following a script, you&amp;#39;re not reading the room
+and you&amp;#39;re probably not really teaching the class. You might be
+following a script but your students certainly aren&amp;#39;t and once they
+veer off program you&amp;#39;ve got to abandon your script or you&amp;#39;re not doing
+right by the class. 
+&lt;/p&gt;
+&lt;p&gt;
+Having a direction but not a script makes it easier to &amp;#34;call and
+audible.&amp;#34; That&amp;#39;s what led me to teach the &lt;a href=&#34;https://cestlaz.github.io/post/who-played-spiderman/&#34;&gt;question answering system&lt;/a&gt;
+lesson the other day. It was unplanned but as a class we were having a
+discussion and that&amp;#39;s where it led.
+&lt;/p&gt;
+&lt;p&gt;
+As I mentioned, when I started out I couldn&amp;#39;t do this. I needed much
+more detailed plans. That said, as a teacher gains more experience
+they can better connect to their classes and do more for their
+students by not sticking to the script, reading the room and adapting.
+&lt;/p&gt;
+&lt;p&gt;
+This brings me to that trend that disturbing trend. I&amp;#39;m talking about
+pushing &lt;a href=&#34;https://www.washingtonpost.com/news/answer-sheet/wp/2013/11/30/teacher-slams-scripted-common-core-lessons-that-must-be-taught-word-for-word/?utm_term=.6afd6d64f1c6&#34;&gt;scripted lessons&lt;/a&gt;. These crop up in charter schools and no
+excuse environments and are typically used as ways of &amp;#34;compensating&amp;#34;
+for teachers that don&amp;#39;t really know the subject area or how to teach
+and to standardize teaching. To me it&amp;#39;s an attack on the teaching
+profession. A script is great for a play. It&amp;#39;s great for a speech and
+for some presentations but not for teaching. 
+&lt;/p&gt;
+&lt;p&gt;
+I understand having something that&amp;#39;s more scripted to use when you&amp;#39;re
+faced with novice teachers or teachers that are new to a subject area
+but I fear that at times the scripted lessons are the end game.
+&lt;/p&gt;
+&lt;p&gt;
+I was talking to a friend a few years ago. He&amp;#39;s doing great work in the
+CS Ed space and among other things, he develops curricula. I mentioned
+to him that I loved his work (still do) but I was concerned that his
+materials were becoming much more scripted. His reply was something
+like &amp;#34;I agree with you in theory but the truth is most teachers aren&amp;#39;t
+you.&amp;#34; I understood his point as most of the teachers that used his
+materials were novices but I disagreed that they were &amp;#34;not me.&amp;#34; I&amp;#39;m
+nothing special. I&amp;#39;m just a reasonably bright guy who works hard at
+his craft. If I can teach script free so can anyone. Maybe not at
+first, but certainly after time and we subvert our profession by
+settling for less. 
+&lt;/p&gt;
+&lt;p&gt;
+As a final note, at this point in my career I actually find it very
+hard to use a script - even for a presentation. Over the last couple
+of years, I&amp;#39;ve been spending my Falls visiting high schools to talk
+about Hunter&amp;#39;s &lt;a href=&#34;http://info.huntercs.org&#34;&gt;Honors CS&lt;/a&gt; program. As much as I tried, I couldn&amp;#39;t
+script a presentation. No matter what I did, when I got in front of
+the students I just ended up doing my thing and talking to them. At
+the end of the day I ended up working things backwards. Over my first
+few school visits, I developed a set of key points that I kept coming
+back to and finally ended up with a list of bullet points that I can
+pretty much follow when I do the &amp;#34;navigating from high school to
+college in tech&amp;#34; talk. I guess I&amp;#39;m now working in reverse. Starting
+free style and working back to a script.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Not every lesson has to be magic</title>
+      <link>https://cestlaz.github.io/post/not-always-exciting/</link>
+      <pubDate>Tue, 25 Sep 2018 18:08:35 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/not-always-exciting/</guid>
+      <description>&lt;p&gt;
+If you check out Twitter, Facebook, Medium  and other blog sites you
+might get the idea that you&amp;#39;re the worst teacher in the world. The
+internet abounds with people sharing tweets and posts about wonderful
+lessons they&amp;#39;ve just taught, witnessed or learned about in
+professional development. Sure, the teacher forums rife with requests
+for lesson ideas and resources but the shared material is always aces.
+&lt;/p&gt;
+&lt;p&gt;
+It makes sense, people in the community want to share things that
+worked for them or things they think will work. 
+&lt;/p&gt;
+&lt;p&gt;
+Still, for new teachers it can create an unhealthy illusion of what
+really goes on in the classroom.
+&lt;/p&gt;
+&lt;p&gt;
+This is not to say that sharing of the good stuff is a bad thing but
+the truth is that not every lesson is a masterpiece, not every teacher
+is a super charismatic showman, and not all topics lend themselves to
+creative teaching.
+&lt;/p&gt;
+&lt;p&gt;
+Why am I writing this now? Because I was planning lessons earlier
+today and I&amp;#39;m at one of those places where I&amp;#39;m not going to be able to
+deliver a whiz-bang lesson in my next class. One of my classes this
+semester is for beginners so we&amp;#39;re building up language skills from
+the ground up. Right now I want to do some loop applications but
+there&amp;#39;s only so much we can do given what the students know. There are
+reasons why I don&amp;#39;t want to do graphics with them right now. I also
+haven&amp;#39;t introduced lists yet and don&amp;#39;t want to loop over strings yet
+so I&amp;#39;m left with doing mathy stuff.
+&lt;/p&gt;
+&lt;p&gt;
+I think I&amp;#39;ll look at Newton&amp;#39;s method for square roots. It&amp;#39;s
+interesting for the math inclined and does let us explore issues with
+floating point and accuracy. 
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s not going to be super exciting for everyone though and that&amp;#39;s okay. 
+&lt;/p&gt;
+&lt;p&gt;
+I could do lists first but I don&amp;#39;t want the kids to have to handle so
+much new material so quickly. I&amp;#39;d rather keep the pace slower and work
+with what they&amp;#39;ve just learned for a bit. 
+&lt;/p&gt;
+&lt;p&gt;
+I could also do graphics but that adds a level of overhead I don&amp;#39;t
+want to get into now.
+&lt;/p&gt;
+&lt;p&gt;
+The idea is to look at the long game. A class runs a whole semester or
+possibly a year. You&amp;#39;re going to have some special memorable lessons
+and some mundane ones and that&amp;#39;s nothing to be ashamed of. 
+&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;re still mostly going to see best practices shared online with only
+a few brave souls sharing disaster classes and asking for help. That&amp;#39;s
+just how the internet works. It&amp;#39;s not the worst thing in the
+world. Just remember when you&amp;#39;re struggling to come up with a good
+lesson or you&amp;#39;ve just taught a bad one that tomorrow&amp;#39;s will be
+better. Judge yourself by your students long term development, not one
+day at a time.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

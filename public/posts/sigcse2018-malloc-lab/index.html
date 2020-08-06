@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Sigcse2018 - Malloc Lab - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Sigcse2018 - Malloc Lab" />
+<meta property="og:description" content="I wasn&#39;t going to go to this session. I started out in a panel on integrating social good into CS Ed. With the panel not meeting my expectations I moved over to my second choice - the system programming sessions where I saw Implementing Malloc: Students and Systems Programming, a paper presented by Brian Railing of CMU.  I really liked both the paper and the talk.  CMU computer science students all take a systems course that uses Computer Systems: A Programmer&#39;s Perspective." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/sigcse2018-malloc-lab/" />
+<meta property="article:published_time" content="2018-03-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-03-01T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Sigcse2018 - Malloc Lab"/>
+<meta name="twitter:description" content="I wasn&#39;t going to go to this session. I started out in a panel on integrating social good into CS Ed. With the panel not meeting my expectations I moved over to my second choice - the system programming sessions where I saw Implementing Malloc: Students and Systems Programming, a paper presented by Brian Railing of CMU.  I really liked both the paper and the talk.  CMU computer science students all take a systems course that uses Computer Systems: A Programmer&#39;s Perspective."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Sigcse2018 - Malloc Lab</h1>
+        </header>
+        <div class="content">
+            <p>
+I wasn&#39;t going to go to this session. I started out in a panel on
+integrating social good into CS Ed. With the panel not meeting my
+expectations I moved over to my second choice - the system programming
+sessions where I saw <a href="https://dl.acm.org/citation.cfm?id=3159597">Implementing Malloc: Students and Systems
+Programming</a>, a paper presented by <a href="http://www.cs.cmu.edu/~bpr/">Brian Railing</a> of CMU.
+</p>
+<p>
+I really liked both the paper and the talk.
+</p>
+<p>
+CMU computer science students all take a systems course that uses
+<a href="https://www.amazon.com/Computer-Systems-Programmers-Perspective-3/dp/9332573905/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&amp;psc=1&amp;refRID=Y5ZKG2V8ZYZZPZHQP8SQ">Computer Systems: A Programmer&#39;s Perspective</a>. It&#39;s a great book. I
+read through the first edition years ago and felt it was great
+resource not only in a systems course but also for self study. One of
+the labs has the students implement their own memory allocation calls,
+or <strong>malloc</strong> for us old time C wonks.
+</p>
+<p>
+There were a number of self perceived  deficiencies with the
+assignment such as encouraging bad programming style by modeling
+less than ideal practices but the biggest deficiency as that students
+could game the assignment. Students could do very well on the
+assignment by exploiting knowledge of the assignment rather than by
+writing a full and correct malloc implementation. One example is that
+students were able to figure out that no allocation would be more than
+100MB so they really didn&#39;t have to deal with 64 bit pointers. They
+could use smaller offsets thus simplifying the assignment. The
+assignment became more about figuring out how to get it through the
+grader and less about learning memory management. I&#39;m sure I&#39;m
+overstating it but that&#39;s the idea.
+</p>
+<p>
+Railing explained all of the deficiencies and then how they changed
+the assignment to address them.
+</p>
+<p>
+At the end of the day, the assignment had fewer loopholes to game so
+students had to really write the malloc library and presumably learn
+about memory management.
+</p>
+<p>
+They also added an intermediate deliverable so students couldn&#39;t leave
+everything for the last minute.
+</p>
+<p>
+Near the end of the talk, Railing discussed results where he pointed
+out that students final exam scores didn&#39;t change but they did better
+on the malloc questions. It wasn&#39;t clear if the overall scores didn&#39;t
+change, meaning that the students did better on the malloc questions
+but worse somewhere else or if they did similarly to past students on
+the other sections and in addition they scored better on the malloc
+questions. I&#39;m not sold on the final exam questions being the best way
+to evaluate learning but it is an easy data point.
+</p>
+<p>
+I loved the presentation and paper and I love what Railing is doing
+but my big takeaway was…
+</p>
+<p>
+Well, Duh…
+</p>
+<ul>
+<li>
+<p>
+students aren&#39;t doing as they should
+</p>
+</li>
+<li>
+<p>
+teacher realizes students are gaming assignment
+</p>
+</li>
+<li>
+<p>
+teacher reworks assignment
+</p>
+</li>
+<li>
+<p>
+students do better
+</p>
+</li>
+</ul>
+<p>
+Teachers do this all the time. Of course when we do it, it&#39;s not
+&#34;research.&#34; This was a recurring theme for me at SIGCSE2018 and I
+tweeted it. While it&#39;s true that K12 teachers can learn a lot about CS
+content from higher ed, people in higher ed can learn a lot about
+teaching from teachers.
+</p>
+<p>
+What Railing presented was terrific and important as changing
+assignments like this will now be considered by people who haven&#39;t
+thought about this before but this is second nature to a teacher. Of
+course I&#39;m talking about a good teacher, not one who blindly follows
+scripted lessons.
+</p>
+<p>
+I don&#39;t mean this as a slight to professors. They&#39;re hired and
+promoted based on research so much of their job involves another skill
+set. I know many professors who care very much about teaching but they
+might only teach one or two classes a semester that meets once or
+twice a week while a typical high school teacher meets 150 students a
+day five days a week over five different classes a day.  Much more of
+an opportunity for deliberate practice.
+</p>
+<p>
+This presents a huge challenge. How can professors who are hired and
+promoted as researchers be given the time and ability to develop as
+teachers? What about adjuncts or Teaching Assistants? I&#39;d imagine it&#39;s
+even harder for them. I know that colleges have lines for teaching
+faculty but from what I can see, those instructors are usually super
+overloaded with classes and students so that doesn&#39;t solve the
+problem. Even if you do have teaching faculty that have the time to
+develop their craft, how do you get those teaching chops over to the
+research faculty?
+</p>
+<p>
+After the session, I was talking about this with <a href="http://www.cs.cmu.edu/~mjs/">Mark Stehlik</a>,
+Assistant Dean at CMU&#39;s School of Computer Science. Mark was telling
+me about CMU&#39;s efforts to develop teaching faculty across the
+disciplines. I was happy to hear about the efforts CMU was taking but
+it sounds like they have the same challenges with respect to pedagogy
+as everyone else. If it&#39;s a challenge for CMU with all their
+resources, what does that mean for the rest of us?
+</p>
+<p>
+Still, it was encouraging to go to a number of sessions where it was
+clear that professors - both teaching and research faculty are serious
+about the craft of teaching and conferences like SIGCSE can bring them
+together with those of us who don&#39;t have the chops as researchers but
+do so as teachers.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2018-03-01</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs">#cs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/systems">#systems</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

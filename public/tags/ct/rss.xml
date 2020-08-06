@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ct on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/ct/</link>
+    <description>C&#39;est la Z (ct)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jul 2019 17:54:21 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/ct/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Computational Thinking  in Primary Grades</title>
+      <link>https://cestlaz.github.io/post/ct-in-primary-grades/</link>
+      <pubDate>Tue, 30 Jul 2019 17:54:21 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/ct-in-primary-grades/</guid>
+      <description>&lt;p&gt;
+Last week I spent a couple of days as part of a team running
+professional development for a
+group of pre and in service elementary school teachers. Two days
+talking about computational thinking.
+&lt;/p&gt;
+&lt;p&gt;
+Wait a minute - elementary school teachers? I&amp;#39;m a high school guy
+pretending to be a college guy. My extensive experience with
+elementary school education is that I raised two kids and I don&amp;#39;t
+think I messed them up too much. I don&amp;#39;t know anything about
+elementary education!!!!
+&lt;/p&gt;
+&lt;p&gt;
+How&amp;#39;d I ever get myself into this???
+&lt;/p&gt;
+&lt;p&gt;
+About a year ago my friend &lt;a href=&#34;https://twitter.com/diane_levitt&#34;&gt;Diane Levitt&lt;/a&gt; was encouraging me to apply for a grant to
+explore computational thinking in elementary schools with the Robin Hood Foundation. I was
+hesitant since elementary school is not my bag but since I also knew some
+of the Robin Hood players I figured let&amp;#39;s see where things go.
+&lt;/p&gt;
+&lt;p&gt;
+At the same time, coincidentally, I started talking to &lt;a href=&#34;https://twitter.com/yadavaman&#34;&gt;Aman Yadav&lt;/a&gt;. I had followed Aman
+online for a number of years and was hoping to find an opportunity to
+meet him somewhere down the line. Long story short, the two of us
+decide to apply to for the Robin Hood Foundation grant together. I
+felt much more comfortable than going solo since Aman had already done
+some great CT work with Detroit teachers.
+&lt;/p&gt;
+&lt;p&gt;
+As it turns out, in spite of my insistence of not knowing primary ed,
+Robin Hood decided to support our efforts. Last week, Aman and I,
+joined by &lt;a href=&#34;https://twitter.com/saraevogel&#34;&gt;Sarah Vogel&lt;/a&gt; who has also done some good work with CT in
+primary grades and &lt;a href=&#34;https://twitter.com/CSEdPhil&#34;&gt;Phil Sands&lt;/a&gt; who is currently doing grad work with
+Aman we ran two days of PD for 10 pre service and 10 in service
+teachers. It was a mix of activities to explore concepts such as
+debugging, decomposition, abstraction, and brainstorming on how the
+teachers could bring these concepts to their classrooms in support of
+core academic areas.
+&lt;/p&gt;
+&lt;p&gt;
+Towards the end, I was sitting in on one group of teachers
+energetically discussing how they could share what they learned with
+their school. I then moved to another group where they were discussing
+how core ideas from our exercises could be adapted to support teaching
+writing. Really inspiring.
+&lt;/p&gt;
+&lt;p&gt;
+Aman and I will be getting together with the pre and in service
+teachers again in late August with the plan of developing concrete lessons
+that both draw out CT concepts and support core subjects. I&amp;#39;m not
+sure if Phil will be able to come out to join us but he&amp;#39;ll be involved
+in the project for the long haul. We&amp;#39;re hoping Sara can also be as
+involved moving forward but Sara&amp;#39;s very much in demand and very
+busy so here&amp;#39;s hoping that her schedule permits it.
+&lt;/p&gt;
+&lt;p&gt;
+In the end the plan is to make everything the teachers develop
+available to the greater CS Education community but we&amp;#39;re going for a
+bigger win. If all of this works, the plan is to get some of these
+practices into Hunter&amp;#39;s required pre-service classes. Given the number
+of teachers we prepare at Hunter, that could really move the needle.
+&lt;/p&gt;
+&lt;p&gt;
+Working with elementary school teachers is new to me and I&amp;#39;m having
+fun with all of this. Super appreciative to have partners like the
+Robin Hood Foundation, Aman, Sara, and Phil as well as the teachers
+who took time out of their summers to come down to Hunter and work on
+this with us.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thoughts On Code And Beyond - Computational Thinking</title>
+      <link>https://cestlaz.github.io/post/thoughts-on-code-and-beyond-ct/</link>
+      <pubDate>Mon, 14 Jan 2019 17:48:27 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/thoughts-on-code-and-beyond-ct/</guid>
+      <description>&lt;p&gt;
+The theme of this year&amp;#39;s &lt;a href=&#34;https://twitter.com/i/moments/1084877641285541889&#34;&gt;To Code and Beyond&lt;/a&gt; was Computational
+Thinking. &lt;a href=&#34;https://twitter.com/guzdial&#34;&gt;Mark Guzdial&lt;/a&gt; gave the keynote. While the talk isn&amp;#39;t
+currently online, check out &lt;a href=&#34;https://www.youtube.com/watch?v=N3uCb-95fFE&amp;amp;t=5s&#34;&gt;this talk&lt;/a&gt; that Mark gave last March. It&amp;#39;s
+not the same but the second halves are and well worth a look.
+&lt;/p&gt;
+&lt;p&gt;
+In the first half, Mark talked about other types of &amp;#34;thinking.&amp;#34;
+Scientific thinking, engineering thinking and even historical
+thinking. All had a good amount of overlap with both each other and
+with computational thinking even as we haven&amp;#39;t yet settled on what
+computational thinking actually is.
+&lt;/p&gt;
+&lt;p&gt;
+This overlap is why I think that bringing CS into the primary grades
+gives us an opportunity to reduce the achievement gap between rich and
+poor. 
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve already said that I&amp;#39;m not sold on hardcore CS and programming in
+the early grades but rather it&amp;#39;s CT - the problem solving and
+methodologies of CS that can effectively be part of the earlier
+grades.
+&lt;/p&gt;
+&lt;p&gt;
+Of course, that&amp;#39;s easier said than done. While there has been some
+pushback recently we still have far too much emphasis on standardized
+tests and elementary school teachers are way overworked. Trying to get
+already overburdened teachers to add in a whole new subject area is a
+big ask. The opportunity is that we might be able to develop aspects
+of CT in a way that supports what elementary teachers are already
+doing, possibly under the unlabeled guise of scientific thinking,
+historical thinking, engineering thinking or some other thinking.
+&lt;/p&gt;
+&lt;p&gt;
+This is already going on to a certain extent with individual teachers
+at individual schools. Logic games and problem solving techniques have
+always been explored by elementary school teachers who have freedom
+from tightly packed test based curricula. These could be considered CT
+and you could also add data collection and processing and I&amp;#39;m sure
+many other things as well. This is where CS/CT can fit in the
+elementary schools without adding to the teacher&amp;#39;s current
+load. What&amp;#39;s more, if we can figure out how to incorporate these CT
+concepts to support the subject matter already being studied we could
+help close the gap between the haves and the have nots.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve said many times before that I&amp;#39;m not an elementary school
+specialist but I still suspect this is the approach for CS in the
+primary grades at least for the near term. 
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve already got a pretty full plate between my work with Hunters
+Daedalus CS honors program along with our pre-service programs being
+very close to going live but I&amp;#39;m also hoping to do some work in
+relating to this in the near future.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Is There a First Grade Machine Learning Achievement Gap?</title>
+      <link>https://cestlaz.github.io/post/is-there-a-first-grade-ml-achievement-gap/</link>
+      <pubDate>Fri, 11 Jan 2019 15:24:16 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/is-there-a-first-grade-ml-achievement-gap/</guid>
+      <description>&lt;p&gt;
+Today was the fifth &amp;#34;To Code and Beyond&amp;#34; - a one day conference
+hosted at Cornell Technion and once again Diane Levitt put together
+a great show. The theme was Computational Thinking and the day
+consisted of a variety of talks, panels, and activities. I plan on
+writing about one panel in particular but for today I wanted to
+address something that came up as a question. One attendee asked a
+panel about the achievement gap - the fact that when the CS movement got
+started in NY some of the more innovative and interesting work was
+being done with some of our most vulnerable students. Recently, he
+heard about a student who was doing Machine Learning in early
+elementary school - first grade. The concern
+he had was that when we started the less affluent populations might
+have even been pulling ahead but now he&amp;#39;s concerned that the gap
+between have and have nots will continue to grow even in this new
+field.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not so concerned about the ML gap in the early grades and I
+still think that we still have an opportunity to lessen the gap
+between the haves and have nots with CS and more specifically CT.
+&lt;/p&gt;
+&lt;p&gt;
+I was reminded about when I started fencing. I first picked up a foil
+in 11th grade. Stuy had a senior heavy team that year. I was the only
+new junior and there were a bunch of new sophomores. The following
+year, we were the starting lineup. We were raw but we still managed
+second place in the city. Most of us continued on to fence in USFA
+events and then in college. I remember one of the first events we went
+to. It was the under 20 qualifiers for the Junior Olympics National
+Championships. There were a couple of superstars who recently came
+over from eastern bloc countries there. Also a bunch of
+fencers we didn&amp;#39;t know but we knew that they&amp;#39;d been fencing for
+years - since they were 8, 9, 10. &amp;#34;They&amp;#39;ve been fencing for
+years. We&amp;#39;ve only been doing it for one. How can we ever compete?&amp;#34;
+I remember Jordan saying &amp;#34;Yeah, they&amp;#39;ve fenced for years but probably
+a day or two a week, we&amp;#39;ve been doing it intensely every day for a
+year and a half.&amp;#34; He also noted that when they were in their early
+years their bodies probably weren&amp;#39;t coordinated enough to really
+develop so much. He was right. The superstars dominated but then we
+were very much in the mix and in fact took most of the qualifying
+spots. 
+&lt;/p&gt;
+&lt;p&gt;
+I also thought about teaching CS at Stuy. There were always kid who
+came in to class with prior experience. That was clear on day one and
+for the first few weeks. By the end of the first semester you woudn&amp;#39;t
+know it based on overall class performance. The newcomers caught up
+pretty quickly. 
+&lt;/p&gt;
+&lt;p&gt;
+This is why I&amp;#39; not really concerned when I hear about a school doing
+Machine Learning in first grade. How much can they really do and how
+deep is it? Is the kid even really ready for it or are they just going
+through the motions? Or, are they just doing something they&amp;#39;ve always
+done in first grade and are just labelling it ML.
+&lt;/p&gt;
+&lt;p&gt;
+I think that last option is fairly likely. It&amp;#39;s also why I think we
+still have an opportunity to close the achievement gap as part of the
+CS / CT movement. 
+&lt;/p&gt;
+&lt;p&gt;
+When people ask me about CS in the early grades I first tell them that
+I&amp;#39;m not an early grade specialist. I follow this by stating that I
+think that well resourced schools have been doing thing that we now
+consider CT for years - logic, problem solving, puzzles, etc.When a
+group of students solve a problem and describe a solution that
+includes repetition it used to be just problem solving. Now it&amp;#39;s
+computation thinking. Sure, we can tease it out, formalize it and
+expand on it but the schools and teachers with the resources and
+freedom have already been doing this. 
+&lt;/p&gt;
+&lt;p&gt;
+With the CS For All movement, we have an opportunity to bring this to
+all our students not just the well to do ones.
+&lt;/p&gt;
+&lt;p&gt;
+Of course this is easier said than done. We have to prepare them to
+identify these CT practices and actively develop these skills in their
+students. This means giving teachers the time, resources, and training
+and not shorten the already tight tether to standardized multiple
+choice tests. 
+&lt;/p&gt;
+&lt;p&gt;
+At times I&amp;#39;ve been disappointed with the overall K12 CS Ed
+movement. We&amp;#39;ve made great strides coming from nowhere to where we are
+but as a community we missed the opportunity to bypass the mistakes
+and bad ideas that teachers of other disciplines are plagued with. 
+We still have this chance with Computational Thinking and the early
+grades.
+&lt;/p&gt;
+&lt;p&gt;
+I hope we do it right.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

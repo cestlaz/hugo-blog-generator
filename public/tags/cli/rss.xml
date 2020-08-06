@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cli on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/cli/</link>
+    <description>C&#39;est la Z (cli)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Sep 2016 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/cli/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>User friendly - I do not think that means what you think it means</title>
+      <link>https://cestlaz.github.io/posts/user-friendly/</link>
+      <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/user-friendly/</guid>
+      <description>&lt;p&gt;
+Saw this post the other day: &lt;a href=&#34;https://pupeno.com/2016/09/26/emacs-is-hurting-clojure/&#34;&gt;Emacs is hurting Clojure&lt;/a&gt; and this response: &lt;a href=&#34;http://irreal.org/blog/?p=5597&#34;&gt;Is Emacs Really HJard to Learn / Use&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+This called to mind those countless discussions about tools being user
+friendly. I&amp;#39;m frequently on the unpopular side of these
+discussions. Linux vs Windows vs Mac, Shell vs GUI, Emacs vs
+fill-in-the-blank-editor-or-IDE and on and on.
+&lt;/p&gt;
+&lt;p&gt;
+Don&amp;#39;t use Emacs, it isn&amp;#39;t user
+friendly. Don&amp;#39;t use Linux, it isn&amp;#39;t user friendly.
+&lt;/p&gt;
+&lt;p&gt;
+The thing is, I don&amp;#39;t think that word means what they think it does.
+&lt;/p&gt;
+&lt;p&gt;
+I tell my kids that Linux and the shell is amazingly user friendly and
+Windows and Macs aren&amp;#39;t user friendly at all. Windows, rather, is
+&amp;#34;Learner Friendly.&amp;#34; For years, it&amp;#39;s been easy to learn what you can do
+on Windows or Mac (as used via the GUI, not dropping to a shell) but
+the truth is you can&amp;#39;t do that much. They&amp;#39;re designed as program
+loaders not tool kits.
+&lt;/p&gt;
+&lt;p&gt;
+You can learn how to get around and load programs and files very
+quickly - much more quickly at first than using a command line
+interface. The problem is, at that point, you hit a wall. No doubt
+those operating systems are more learner friendly than Linux and the
+shell but once you learn the command line, it can be leveraged for all
+sorts of things and pretty easily at that - user friendly (see these
+posts for some examples: &lt;a href=&#34;http://localhost:8000/categories/cli/&#34;&gt;Shell posts&lt;/a&gt;).
+&lt;/p&gt;
+&lt;p&gt;
+This is important because we have our students use all sorts of tools
+and we should be thinking about things like usability but we really
+should be thinking about them a little differently.
+&lt;/p&gt;
+&lt;p&gt;
+First, is it learner friendly. Part of this is cost of
+entry. Linux has a high cost of entry. On the other hand, while Emacs
+might look uglier than other modern editors, the cost of entry is
+pretty much the same as any other editor - click or type a command and then you can use
+the mouse and drop down menus to get started. Vim, in my opinion, on
+the other hand has a higher cost of entry due to its modal nature.
+&lt;/p&gt;
+&lt;p&gt;
+So, there&amp;#39;s no reason not to use Emacs (vs another editor) but you
+might pause before using Linux. My approach is to start as if it were
+Windows - use the gui, icons and menus, and then slowly introduce the
+command line.
+&lt;/p&gt;
+&lt;p&gt;
+Once your past the cost of entry, the we can think about being learner
+friendly. As I mentioned, Linux, not so much. Emacs, sure - just like
+any other editor with drop downs that then give you keyboard
+equivalents.
+&lt;/p&gt;
+&lt;p&gt;
+The keyboard equivalents lead us to another part of learner friendly
+– discoverability - can you easily discover new things about the
+tool. Here Emacs shines. Linux, maybe not so much.
+&lt;/p&gt;
+&lt;p&gt;
+Once past learner friendly we get to user friendly. The core question
+is &amp;#34;can I do what I need to and want to do easily.&amp;#34; For most people, it
+comes down to - the tool I know is user friendly and the one I don&amp;#39;t
+know and don&amp;#39;t want to take the time to know isn&amp;#39;t. There are some
+things that are cumbersome no matter what, but really, when we say
+user friendly, most people mean &amp;#34;what I like.&amp;#34; To me, it&amp;#39;s a little
+more - is the tool expressive and powerful as well.
+&lt;/p&gt;
+&lt;p&gt;
+So, why is this important? First, we shouldn&amp;#39;t allow our biases to
+color the way we expose our kids to tools but at the same time, we
+should pay attention to learnability, cost of entry, discoverability,
+and indeed, true user friendliness.
+&lt;/p&gt;
+&lt;table border-spacing=&#34;10px&#34; padding=&#34;10px&#34; rules=&#34;all&#34; frame=&#34;border&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Low Power&lt;/th&gt;
+&lt;th&gt;High Power&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;&lt;strong&gt;Low Learnability&lt;/strong&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;CP/M&lt;/td&gt;
+&lt;td&gt;Linux Shell, Mac Terminal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;&lt;strong&gt;High Learnability&lt;/strong&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Windows / Mac OS GUI&lt;/td&gt;
+&lt;td&gt;Most editors, including Emacs&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+So, let&amp;#39;s stop with this &amp;#34;your tool isn&amp;#39;t easy to use&amp;#34; nonsense. Any
+tool we don&amp;#39;t know isn&amp;#39;t easy to use until we learn it. Let&amp;#39;s focus on
+the path to learning the useful ones.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shell short - tagging old posts in Nikola</title>
+      <link>https://cestlaz.github.io/posts/shell-short-tagging/</link>
+      <pubDate>Sun, 15 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/shell-short-tagging/</guid>
+      <description>
+&lt;p&gt;
+Quick post to add to the recent command line fu I&amp;#39;ve been writing
+about.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://twitter.com/dougpete&#34;&gt;Douglas Peterson&lt;/a&gt; had another &lt;strong&gt;&lt;strong&gt;Whatever happened to&lt;/strong&gt;&lt;/strong&gt; post. This time
+on &lt;a href=&#34;https://dougpete.wordpress.com/2016/05/15/whatever-happened-to-6/&#34;&gt;Logo&lt;/a&gt;. I wanted to reply, talk about NetLogo  and link to some of my
+old NetLogo posts to help show how cool it is.
+&lt;/p&gt;
+&lt;p&gt;
+Nikola supports tags, makes a nice &lt;a href=&#34;http://cestlaz.github.io/categories&#34;&gt;tags&lt;/a&gt; page and for each tag, a nice
+page of all the &lt;a href=&#34;http://cestlaz.github.io/categories/netlogo&#34;&gt;links&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Nikola has a plugin &lt;strong&gt;&lt;strong&gt;tags&lt;/strong&gt;&lt;/strong&gt; which lets you manage tags from the
+command line. For instance:
+&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;nikola tags -a netlogo posts/somepost.org&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Would add the tag &lt;strong&gt;&lt;strong&gt;netlogo&lt;/strong&gt;&lt;/strong&gt; to the specified post.
+&lt;/p&gt;
+&lt;p&gt;
+The problem: The tags plugin only works if the post has a &lt;strong&gt;&lt;strong&gt;tag:&lt;/strong&gt;&lt;/strong&gt;
+line already present in it&amp;#39;s header comment and I hadn&amp;#39;t put them in
+my older posts.
+&lt;/p&gt;
+&lt;p&gt;
+I had a bunch of posts, all of them in one directory. All the new ones
+were &lt;strong&gt;&lt;strong&gt;.org&lt;/strong&gt;&lt;/strong&gt; files and had the tag slug. The others were &lt;strong&gt;&lt;strong&gt;.md&lt;/strong&gt;&lt;/strong&gt; markdown
+files and &lt;strong&gt;&lt;strong&gt;.html&lt;/strong&gt;&lt;/strong&gt; html files.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s what a typical top block looks like:
+&lt;/p&gt;
+&lt;div class=&#34;src src-html&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!--
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;title: &amp;#34;Looking for interesting questions&amp;#34;
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;date: 2010-01-03
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;--&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Sed to the rescue. Here&amp;#39;s the what I ended up typing (from within the
+posts directory) to add the
+&lt;strong&gt;&lt;strong&gt;tags&lt;/strong&gt;&lt;/strong&gt; slug to the top comments right above the &lt;strong&gt;&lt;strong&gt;.. type: text:&lt;/strong&gt;&lt;/strong&gt; line:
+&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;ls *md *html | &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; read filename
+&lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+sed &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/type: text/ i .. tags: &amp;#34;&lt;/span&gt; $filename
+&lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+A line at a time:
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-1&#34;&gt;
+ls *md *html
+&lt;/h3&gt;
+&lt;p&gt;
+This lists all the files with that end in &lt;strong&gt;&lt;strong&gt;md&lt;/strong&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;strong&gt;html&lt;/strong&gt;&lt;/strong&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+| while read filename
+&lt;/h3&gt;
+&lt;p&gt;
+The vertical bar (pipe) sends the output of &lt;strong&gt;&lt;strong&gt;ls&lt;/strong&gt;&lt;/strong&gt; into the &lt;strong&gt;&lt;strong&gt;while read&lt;/strong&gt;&lt;/strong&gt;
+command. The &lt;strong&gt;&lt;strong&gt;while&lt;/strong&gt;&lt;/strong&gt; command sets up a loop which, each time
+through, reads the next input and places into the variable
+&lt;strong&gt;&lt;strong&gt;filename&lt;/strong&gt;&lt;/strong&gt;. The body of the loop is between the &lt;strong&gt;&lt;strong&gt;do&lt;/strong&gt;&lt;/strong&gt; and the
+&lt;strong&gt;&lt;strong&gt;done&lt;/strong&gt;&lt;/strong&gt;.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
+sed &amp;#34;/ type: text/  i .. tags: &amp;#34; $filename
+&lt;/h3&gt;
+&lt;p&gt;
+Sed is the stream editor. The stuff between the slashes finds the line
+with the text &lt;strong&gt;&lt;strong&gt;type: text&lt;/strong&gt;&lt;/strong&gt; in it. The &lt;strong&gt;&lt;strong&gt;i&lt;/strong&gt;&lt;/strong&gt; inserts a line above and
+the rest of the stuff in the quotes is what to insert. The
+&lt;strong&gt;&lt;strong&gt;$filename&lt;/strong&gt;&lt;/strong&gt; expands to each filename, one each time through the
+loop.
+&lt;/p&gt;
+&lt;p&gt;
+Now all of my files have blank &lt;strong&gt;&lt;strong&gt;tag&lt;/strong&gt;&lt;/strong&gt; slugs so I can find my netlogo
+posts and tag them:
+&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;nikola tags -a netlogo &lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;grep -i -l netlogo posts/*&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Any command in backticks expands to the result of the commmand. The
+grep command has two argiments: &lt;strong&gt;&lt;strong&gt;-i&lt;/strong&gt;&lt;/strong&gt; means ignore case so it will
+find netlogo, NetLogo, NETLOGO, etc.. The &lt;strong&gt;&lt;strong&gt;-l&lt;/strong&gt;&lt;/strong&gt; tells grep to just
+output the filenames. So, the grep command will expand to a list of
+files that mention netlogo. The full command adds the netlogo tag to
+all of them.
+&lt;/p&gt;
+&lt;p&gt;
+So, just a bit of quick shell scripting and I&amp;#39;ve:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+modified all old posts to accept tags.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+added the netlogo tag to all my netlogo posts.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You can find all those posts &lt;a href=&#34;http://cestlaz.github.io/categories/netlogo&#34;&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BASH scripting?</title>
+      <link>https://cestlaz.github.io/posts/bash-scripting/</link>
+      <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/bash-scripting/</guid>
+      <description>&lt;p&gt;
+Over in the Facebook AP Computer Science Teachers group someone asked
+for thoughts on covering BASH scripting as a post AP topic.
+&lt;/p&gt;
+&lt;p&gt;
+A number of us made suggestions. I linked to &lt;a href=&#34;http://cestlaz.github.io/posts/2014-07-06-spreadsheet-vs-cli.html/#.VzR7Et9vETt&#34;&gt;this&lt;/a&gt; old blog post.
+&lt;/p&gt;
+&lt;p&gt;
+One group member said she asked around for similar suggestions and the
+response she got was &amp;#34;vi and awk.&amp;#34; I wanted to jokingly respond &amp;#34;and
+after they suggested that they got into their time machine and went
+back to the 70&amp;#39;s.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+In all seriousness though, I think that suggesting specific tools or
+commands is off base.
+&lt;/p&gt;
+&lt;p&gt;
+The important thing to know about Vi is how to get out of it but it
+isn&amp;#39;t really a tool in the scripting sense. I do think students should
+spend a good amount of time learning a powerful editor and should try
+bot Emacs (my choice) and Vim but that&amp;#39;s another story.
+&lt;/p&gt;
+&lt;p&gt;
+I also use AWK but as it&amp;#39;s a programming language in it&amp;#39;s own right,
+I&amp;#39;m not sure if I&amp;#39;d introduce it right off the bat.
+&lt;/p&gt;
+&lt;p&gt;
+There are a number of important ideas kids can take away from learning
+some Linux (or other Unix flavor):
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+There&amp;#39;s something out there besides Windows and MacOS
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+All about free software
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Unix_philosophy&#34;&gt;The Unix Philosophy&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+That last one is the biggie and more specifically, there&amp;#39;s a huge
+upside in teaching kids the value of &amp;#34;OS as Toolset&amp;#34; where they can
+compose the many tools that comprise the Linux experience to get
+things done.
+&lt;/p&gt;
+&lt;p&gt;
+I gave an example of that in the &lt;a href=&#34;http://cestlaz.github.io/posts/2014-07-06-spreadsheet-vs-cli.html/#.VzSBHt9vETu&#34;&gt;post&lt;/a&gt; I previously linked to.
+&lt;/p&gt;
+&lt;p&gt;
+For the teacher, that means wrapping your head around that way of
+working. Living in the shell and using pipes to connect program to
+progarm to program.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;d recommend getting into a time
+machine ourselves and taking a look at:
+&lt;/p&gt;
+&lt;p width=&#34;250px&#34; align=&#34;center&#34;&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/The_Unix_Programming_Environment&#34;&gt;&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/en/4/43/English4.gif&#34; alt=&#34;http://upload.wikimedia.org/wikipedia/en/4/43/English4.gif&#34; title=&#34;http://upload.wikimedia.org/wikipedia/en/4/43/English4.gif&#34;/&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s dated but it&amp;#39;s really a great book on getting into the Unix way
+of doing things, particularly the chapter about filters. It also has
+one of the best and clearest introductions to writing a compiler in
+the chapter on program development.
+&lt;/p&gt;
+&lt;p&gt;
+As I said, it is dated - shells are much easier to use and much more
+robust, there are many more tools now, and they&amp;#39;ve evolved but it&amp;#39;s
+really a must read book.
+&lt;/p&gt;
+&lt;p&gt;
+In terms of tools, I get a lot of mileage out of:
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;command&lt;/th&gt;
+&lt;th&gt;description&lt;/th&gt;
+&lt;th&gt;example&lt;/th&gt;
+&lt;th&gt;explanation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;cat&lt;/td&gt;
+&lt;td&gt;catenate or display a file&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tr&lt;/td&gt;
+&lt;td&gt;Translate characters&lt;/td&gt;
+&lt;td&gt;tr A-Z a-z&lt;/td&gt;
+&lt;td&gt;convert upper to lower case&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;sed&lt;/td&gt;
+&lt;td&gt;Stream editor&lt;/td&gt;
+&lt;td&gt;sed &amp;#34;s/a/b/g&amp;#34;&lt;/td&gt;
+&lt;td&gt;Replace all a with b&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;wc&lt;/td&gt;
+&lt;td&gt;word count&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;counts words lines and chars&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cut&lt;/td&gt;
+&lt;td&gt;cut columns&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;sort&lt;/td&gt;
+&lt;td&gt;sort lines&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+A nice simple thing you can do with these is clean data. Let&amp;#39;s say you
+want to do some analytics on a book from Project Gutenberg. You might
+want to convert all non letters to spaces, and all letters to lower
+case:
+&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;cat book&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;txt &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; sed &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;s/[^a-zA-Z ]/ /g | tr A-Z a-z&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+That sends book.txt into sed which uses a regular expression to convert
+no space and letters to spaces. The tr command converts all upper case
+letters to lower case.
+&lt;/p&gt;
+&lt;p&gt;
+If you want one word per line, add:
+&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; sed &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;s/&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\n&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;/g&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+and maybe get rid of blank lines:
+&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; sed &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/^$/d&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+We can now count the number of words in the file using &lt;strong&gt;&lt;strong&gt;*wc&lt;/strong&gt;&lt;/strong&gt; or even
+get counts of all the words:
+&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; sort &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; uniq &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;c &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; sort &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;n&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;strong&gt;&lt;strong&gt;sort&lt;/strong&gt;&lt;/strong&gt; will sort all the lines, &lt;strong&gt;&lt;strong&gt;uniq -c&lt;/strong&gt;&lt;/strong&gt; will compress the lines that are
+adjacent and the same and give you a count and then &lt;strong&gt;&lt;strong&gt;sort -n&lt;/strong&gt;&lt;/strong&gt; will
+sort the results numerically.
+&lt;/p&gt;
+&lt;p&gt;
+I wrote another post a while ago about using the shell to detect
+who responded on a Google form. It looks like it didn&amp;#39;t convert when
+I moved to my current blogging platform - I&amp;#39;ll repost that shortly.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>REPOST - Shell games - who confirmed attendance</title>
+      <link>https://cestlaz.github.io/posts/duplicate-emails/</link>
+      <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/duplicate-emails/</guid>
+      <description>
+&lt;h3 id=&#34;headline-1&#34;&gt;
+Repost
+&lt;/h3&gt;
+&lt;p&gt;
+This is a repost from March 2015. It didn&amp;#39;t transfer when I rebooted the blog.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+Original
+&lt;/h3&gt;
+&lt;p&gt;
+Quick post on why I love the Unix command line.
+&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;re busy organizing &lt;a href=&#34;http://cstuy.org&#34;&gt;CSTUY&amp;#39;s&lt;/a&gt; first &lt;a href=&#34;http://cstuy.org/programs/defhacks&#34;&gt;hackathon&lt;/a&gt;. It&amp;#39;s going to be at
+&lt;a href=&#34;http://sumall.com&#34;&gt;SumAll&lt;/a&gt;, where we hold our weekly &lt;a href=&#34;http://cstuy.org/programs/hacking_sessions&#34;&gt;hacking sessions&lt;/a&gt; but while taking
+registration, we had a little program.
+&lt;/p&gt;
+&lt;p&gt;
+The kids signed up on a Google doc but we all know the story – when
+people sign up for a free event, even one with free food and t-shirts,
+many don&amp;#39;t show. I asked all of the applicants to confirm by filling
+out a second Google doc.
+&lt;/p&gt;
+&lt;p&gt;
+Then it got to reminder time - I wanted to send an email out to all
+those kids who signed up on the first form, but hadn&amp;#39;t confirmed on
+the second.
+&lt;/p&gt;
+&lt;p&gt;
+Two Google spreadsheets with an email field. I needed all the people
+on sheet 1 that weren&amp;#39;t on sheet 2. I&amp;#39;m sure there&amp;#39;s some
+spreadsheet-fu that accomplishes this, but nothing I know. I also
+could have written a little python script which isn&amp;#39;t so bad, but this
+was a perfect time to turn to the shell.
+&lt;/p&gt;
+&lt;p&gt;
+So, here&amp;#39;s how a command line guy would do this.
+&lt;/p&gt;
+&lt;p&gt;
+To start, I put the emails in two files: e1 and e2. The first has
+all the original applicants, the second those that confirmed.
+&lt;/p&gt;
+&lt;table&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;e1&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;e2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;lt;25&amp;gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a@a.com&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;b@b.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;b@b.com&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F@f.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;c@c.com&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;c@c.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;d@d.com&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;d@d.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;e@e.com&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;f@f.com&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;g@g.com&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;h@h.com&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+If we put these lists together, any email that appears twice would
+indicate that it&amp;#39;s the email of someone that confirmed entry. Here we
+use cat to catenate e1 and e2 and pipe them through sort.
+&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cat e1 e2 | sort&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+First problem –the upper case F – let&amp;#39;s use &lt;strong&gt;&lt;strong&gt;tr&lt;/strong&gt;&lt;/strong&gt; to make
+everything lower case:
+&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cat e1 e2 |  tr A-Z a-z | sort&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Now we can see the duplicates next to each other. Next, &lt;strong&gt;&lt;strong&gt;uniq
+-c&lt;/strong&gt;&lt;/strong&gt; tells us how many times each line appears:
+&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cat e1 e2 | tr A-Z a-z | sort | uniq -c | sort&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+I added the sort at the end, but we didn&amp;#39;t need it.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s what we get:
+&lt;/p&gt;
+&lt;div class=&#34;verse-block&#34;&gt;
+&lt;p&gt;
+1 a@a.com
+1 c@c.com
+1 c@c.dom
+1 e@e.com
+1 g@g.com
+1 h@hc.om
+2 b@b.com
+2 d@d.com
+2 f@f.com
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;
+To pull out the ones that haven&amp;#39;t replied I used egrep with a regex
+that means &amp;#34;any line that starts with 1 or more spaces followed by the
+number 1&amp;#34;:
+&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cat e1 e2 | tr A-z a-z | sort | uniq -c | egrep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;^ +1&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+and finally to isolate the emails using sed which removes the spaces
+and number 1 from the beginning of the line:
+&lt;/p&gt;
+&lt;div class=&#34;src src-bash&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cat e1 e2 | tr A-z a-z | sort | uniq -c | egrep &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;^ +1&amp;#34;&lt;/span&gt; | sed &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;s/\ \+1 //g&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Each of the little utilities aren&amp;#39;t all too useful by themselves but
+if you learn them over time you start thinking about how you can
+combine them to solve problems.
+&lt;/p&gt;
+&lt;p&gt;
+If you think this way and know some basic tools, all of a sudden all
+manner of text manipulation problems become pretty easy.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Should We Teach HTML?</title>
+      <link>https://cestlaz.github.io/posts/teaching_html/</link>
+      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/teaching_html/</guid>
+      <description>&lt;p&gt;
+Yesterday, &lt;a href=&#34;https://twitter.com/dougpete&#34;&gt;Doug Peterson&lt;/a&gt; wrote a &amp;#34;Whatever happened to&amp;#34; post subtitled
+&lt;a href=&#34;https://dougpete.wordpress.com/2016/05/08/whatever-happened-to-5/&#34;&gt;HTML as an essential 21st Century skill?&lt;/a&gt; It&amp;#39;s a nice post.
+&lt;/p&gt;
+&lt;p&gt;
+I left a comment but thought I&amp;#39;d elaborate here.
+&lt;/p&gt;
+&lt;p&gt;
+No, knowing HTML is not programming - it&amp;#39;s markup. Even so, when I
+help people design CS programs, I&amp;#39;ll frequently recommend starting
+with HTML or at least introducing it early.
+&lt;/p&gt;
+&lt;p&gt;
+Why?
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s a gateway and not just to programming.
+&lt;/p&gt;
+&lt;p&gt;
+HTML is pretty easy, you want &lt;strong&gt;&lt;strong&gt;something&lt;/strong&gt;&lt;/strong&gt; bold, you just wrap the
+word in &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;b&amp;gt;&lt;/code&gt; and &lt;code class=&#34;verbatim&#34;&gt;&amp;lt;/b&amp;gt;&lt;/code&gt;:
+&lt;/p&gt;
+&lt;div class=&#34;src src-html&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-HTML&#34; data-lang=&#34;HTML&#34;&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;b&lt;/span&gt;&amp;gt;something&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;b&lt;/span&gt;&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+It&amp;#39;s also empowering and demystifies the web. Kids can create a simple
+web page and load it right into their browser.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s true that today&amp;#39;s web pages are chock-full-o javascript and css
+but with just the basics, students can get the idea. You can also show
+them pages by right clicking and viewing source.
+&lt;/p&gt;
+&lt;p&gt;
+You can even have them change a live page.
+&lt;/p&gt;
+&lt;p&gt;
+Try it.
+&lt;/p&gt;
+&lt;p&gt;
+Right click on the top of this page where it says &amp;#34;Musings about…&amp;#34;
+Chose &lt;strong&gt;&lt;strong&gt;inspect element&lt;/strong&gt;&lt;/strong&gt;. In the &amp;#34;debugger&amp;#34; window double click the
+text, change it and hit enter. This is just temporary - just reload
+the page but it&amp;#39;s pretty neat for a kid to change an article and then
+screenshot it.
+&lt;/p&gt;
+&lt;p&gt;
+HTML is also a nice stepping stone towards coding. You&amp;#39;re working in a
+plain text editor by adding special code words to basic text which are
+then interpreted by, in this case, the web browser.
+&lt;/p&gt;
+&lt;p&gt;
+The big reason for teaching html actually goes beyond this. Next step
+after learning HTML is having the kids programatically generating web
+pages in whatever language you&amp;#39;re using for the class. I like using
+Python. This requires a little infrastructure setup to serve kids work
+but then there are two huge wins.
+&lt;/p&gt;
+&lt;p&gt;
+First, as the kids learn programming, instead of just printing out
+results, they can make a web site with their results and share it with
+friends, family, and the world.
+&lt;/p&gt;
+&lt;p&gt;
+The other big bonus is that kids might be able to leverage take these
+skills to other classes. If the student has a history paper to write,
+maybe the teacher will accept a history web site where the student can
+write code to do their analytics and build nice looking tables and
+graphs with results.
+&lt;/p&gt;
+&lt;p&gt;
+So while knowledge of HTML in and of itself isn&amp;#39;t really needed
+anymore it&amp;#39;s still an important part of the programs I build.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shell games - who confirmed attendence</title>
+      <link>https://cestlaz.github.io/posts/2015-03-19-duplicate-emails/</link>
+      <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/2015-03-19-duplicate-emails/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+
+
+&lt;style&gt;
+div.center {text-align:center;}
+&lt;/style&gt;
+
+&lt;p&gt;
+Quick post on why I love the Unix command line.
+&lt;/p&gt;
+
+&lt;p&gt;
+We&#39;re busy organizing &lt;a href=&#34;http://cstuy.org&#34;&gt;CSTUY&#39;s&lt;/a&gt; first &lt;a href=&#34;http://cstuy.org/programs/defhacks&#34;&gt;hackathon&lt;/a&gt;. It&#39;s going to be at
+&lt;a href=&#34;http://sumall.com&#34;&gt;SumAll&lt;/a&gt;, where we hold our weekly &lt;a href=&#34;http://cstuy.org/programs/hacking_sessions&#34;&gt;hacking sessions&lt;/a&gt; but while taking
+registration, we had a little program.
+&lt;/p&gt;
+
+&lt;p&gt;
+The kids signed up on a Google doc but we all know the story &amp;#x2013; when
+people sign up for a free event, even one with free food and t-shirts,
+many don&#39;t show. I asked all of the applicants to confirm by filling
+out a second Google doc.
+&lt;/p&gt;
+
+&lt;p&gt;
+Then it got to reminder time - I wanted to send an email out to all
+those kids who signed up on the first form, but hadn&#39;t confirmed on
+the second.
+&lt;/p&gt;
+
+&lt;p&gt;
+Two Google spreadsheets with an email field. I needed all the people
+on sheet 1 that weren&#39;t on sheet 2. I&#39;m sure there&#39;s some
+spreadsheet-fu that accomplishes this, but nothing I know. I also
+could have written a little python script which isn&#39;t so bad, but this
+was a perfect time to turn to the shell.
+&lt;/p&gt;
+
+&lt;p&gt;
+So, here&#39;s how a command line guy would do this.
+&lt;/p&gt;
+
+&lt;p&gt;
+To start, I put the emails in two files: e1 and e2. The first has
+all the original applicants, the second those that confirmed.
+&lt;/p&gt;
+
+&lt;div class=&#34;org-src-container&#34;&gt;
+
+&lt;pre class=&#34;src src-org&#34;&gt;|
+</description>
+    </item>
+    
+    <item>
+      <title>Spreadsheet? I&#39;d rather use the command line.</title>
+      <link>https://cestlaz.github.io/posts/2014-07-06-spreadsheet-vs-cli/</link>
+      <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/2014-07-06-spreadsheet-vs-cli/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+
+
+&lt;style&gt;
+div.center {text-align:center;}
+&lt;/style&gt;
+
+&lt;p&gt;
+Spreadsheets are terrific - we&#39;ve all used them. I particularly like
+Google spreadsheets - I use them all the time to collect data, usually
+from students.
+&lt;/p&gt;
+
+&lt;div id=&#34;outline-container-sec-1&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;sec-1&#34;&gt;&lt;/h2&gt;
+&lt;div class=&#34;outline-text-2&#34; id=&#34;text-1&#34;&gt;
+&lt;ul class=&#34;org-ul&#34;&gt;
+&lt;li&gt;Go to Google Drive
+&lt;/li&gt;
+&lt;li&gt;Make a form
+&lt;/li&gt;
+&lt;li&gt;Send the form out to the students
+&lt;/li&gt;
+&lt;li&gt;Wait
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+All the data gets dumped into a Google spreadsheet. The trouble is,
+what to do with it once it&#39;s in the spreadsheet.
+&lt;/p&gt;
+
+&lt;p&gt;
+The other day, I wrote on a few basic stats for our upcoming SHIP
+program. The data I reported on was all collected in a spreadsheet. I
+also collected participant and parent emails in the spreadsheet.
+&lt;/p&gt;
+
+&lt;p&gt;
+So, here&#39;s the task, compute some simple numbers form the spreadsheet
+and also extract and use the email addresses.
+&lt;/p&gt;
+
+&lt;p&gt;
+I&#39;m sure one could use some fancy spreadsheet magic to get the job
+done, but I&#39;m a command line wonk &amp;#x2013; here&#39;s how I take care of tasks
+like these.
+&lt;/p&gt;
+
+&lt;p&gt;
+First, I downloaded the spreadsheet as a csv (comma separated value)
+file. Each line looked something like this:
+&lt;/p&gt;
+
+&lt;div class=&#34;org-src-container&#34;&gt;
+
+&lt;pre class=&#34;src src-csv&#34;&gt;last,first,email,address,gender,grade,school,...
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+First question, how many applicants did we have:
+&lt;/p&gt;
+
+&lt;div class=&#34;org-src-container&#34;&gt;
+
+&lt;pre class=&#34;src src-sh&#34;&gt;cat cstuy.csv | wc -l
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Which gave:
+&lt;/p&gt;
+&lt;pre class=&#34;example&#34;&gt;
+47
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;
+The |, or pipe means take the output of the first command and send it
+to the  next one. &lt;b&gt;Cat&lt;/b&gt; just outputs the original file and &lt;b&gt;wc -l&lt;/b&gt; counts all
+the lines in the file.
+&lt;/p&gt;
+
+&lt;p&gt;
+Next, how many young ladies:
+&lt;/p&gt;
+
+&lt;div class=&#34;org-src-container&#34;&gt;
+
+&lt;pre class=&#34;src src-sh&#34;&gt;cat cstuy.csv | grep female | wc -l
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+The results:
+&lt;/p&gt;
+&lt;pre class=&#34;example&#34;&gt;
+17
+&lt;/pre&gt;
+
+&lt;p&gt;
+How many schools? Well, that&#39;s a little trickier. Here, I use a few
+extra commands:
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;outline-container-sec-2&#34; class=&#34;outline-2&#34;&gt;
+&lt;h2 id=&#34;sec-2&#34;&gt;&lt;/h2&gt;
+&lt;div class=&#34;outline-text-2&#34; id=&#34;text-2&#34;&gt;
+&lt;ul class=&#34;org-ul&#34;&gt;
+&lt;li&gt;cut - this will cut out one column from the csv file - in this case
+the school column (the -d, says use a comma as delimiter and -f7 for
+field 7).
+&lt;/li&gt;
+&lt;li&gt;sort - takes the lines and sorts them.
+&lt;/li&gt;
+&lt;li&gt;uniq - eliminates duplicate lines in a sorted file
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+Putting it all together:
+&lt;/p&gt;
+
+&lt;div class=&#34;org-src-container&#34;&gt;
+
+&lt;pre class=&#34;src src-sh&#34;&gt;cat cstuy.csv | cut -d, -f7 | sort | uniq | wc -l
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Results:
+&lt;/p&gt;
+&lt;pre class=&#34;example&#34;&gt;
+30
+&lt;/pre&gt;
+
+
+&lt;p&gt;
+Thirty different schools.
+&lt;/p&gt;
+
+&lt;p&gt;
+Finally I needed the emails - here I wanted to be able to paste them
+into Gmail&#39;s bcc field. I could have just used &lt;b&gt;cat&lt;/b&gt; and &lt;b&gt;cut&lt;/b&gt; and
+then used the mouse, but instead:
+&lt;/p&gt;
+
+&lt;div class=&#34;org-src-container&#34;&gt;
+
+&lt;pre class=&#34;src src-sh&#34;&gt;cat cstuy.csv | cut -d, -f3 | xclip -sel clip
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Then I can just do a Ctrl-v in Gmail and I&#39;m good to go.
+&lt;/p&gt;
+
+&lt;p&gt;
+The cool thing is that the tools here - cut, sort, uniq, grep  - are
+all general purpose tools that do simple text manipulations. Once you
+know them and a few others, you can really quickly and efficiently do
+all sorts of data processing without even thinking about it. I still
+go to the spreadsheet for data collection ad also for when I need more
+hardcore formulas but for day to day manipulations, I&#39;ll take the
+command line.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shell Games - an introduction</title>
+      <link>https://cestlaz.github.io/posts/2014-02-04-shellgames-1-intro/</link>
+      <pubDate>Tue, 04 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/2014-02-04-shellgames-1-intro/</guid>
+      <description>&lt;p&gt;A few weeks ago, I noticed this Twitter conversation between &lt;!-- raw HTML omitted --&gt;Alfred Thompson&lt;!-- raw HTML omitted --&gt;  and &lt;!-- raw HTML omitted --&gt;Steve Keinath&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I briefly considered proposing a session for the conference but it was just a day or two before the deadline, I don&amp;rsquo;t know if I&amp;rsquo;m going to be able to attend the conference, and besides, who said anything I proposed would be accepted.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Still, I liked the idea - I&amp;rsquo;ve been an educator for 23 years, a Linux user for most of that time and an  Unix user for longer. I&amp;rsquo;m a firm believer in operating system as toolkit and so I think I&amp;rsquo;ll take Steve and Alfred&amp;rsquo;s suggestion and try to put together a series of posts on using Linux from a CS educators point of view.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;So, before we begin - a little background.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I can proudly say that I&amp;rsquo;ve been Windows free since about 2000. That&amp;rsquo;s when I decided to wipe the lat traces of Microsoft from my hard drives. Prior to that I just booted up MS-DOS or Windows to play games or to use a Excel or Word.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Since the early days of Linux - back before Slackware, I dual booted. Before Linux, I dialed into public Unix systems such as &lt;!-- raw HTML omitted --&gt;Panix&lt;!-- raw HTML omitted --&gt; or &lt;!-- raw HTML omitted --&gt;The Big Electric Cat&lt;!-- raw HTML omitted --&gt;. At home, I tried to make MS-DOS as Unix like as I could. I ran the &lt;!-- raw HTML omitted --&gt;MKS Toolkti&lt;!-- raw HTML omitted --&gt;, and used my own shell (a project every young programmer should attempt).&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Why am I posting this now? It&amp;rsquo;s a new semester and I find myself, as usual, leveraging the Linux shell. It was time to set up a mailing list for the class.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I&amp;rsquo;m able to go to our school&amp;rsquo;s data system and grab a tab delimited file that looks something like this:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;It&amp;rsquo;s tab delimited but I scrambled the letters so as to not reveal any student info.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Oh, how did I do that scrambling? Easy. First, I combined some basic utilities to make a random permutation of the upper and lower case letters and stored them in a shell variable. Don&amp;rsquo;t worry, I&amp;rsquo;ll explain these commands in upcoming posts:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Then I used tr (translate) to exchange the real letters for the matching letter in the random permutation:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;So back to the real work. I needed to isolate the students email addresses. The process:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;So, I typed:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;grep filters out lines that have MKS22X in them and sed replaces the tabs (\t) with commas and cut pulls out the email addresses. It&amp;rsquo;s all stored in a file named emails.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Now, I just have to import these into my maillist software (mailman).&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;So, that&amp;rsquo;s it, easy peasy.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I&amp;rsquo;ll be away for most of this week at the Tapia conference and then I&amp;rsquo;ll be playing catch up, but I&amp;rsquo;m hoping to do a series of posts talking about my Linux toolset and how I use it.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I hope you all find it interesting and maybe even useful.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why we script</title>
+      <link>https://cestlaz.github.io/posts/2013-01-24-why-we-script/</link>
+      <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/2013-01-24-why-we-script/</guid>
+      <description>&lt;p&gt;I tell my students &amp;ldquo;the cool thing about what we do is that if we&amp;rsquo;re not happy with the way something works, we&amp;rsquo;ve got a shot at fixing it.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;That came up this morning so I thought I&amp;rsquo;d share.&lt;/p&gt;
+&lt;p&gt;I
+recently &lt;!-- raw HTML omitted --&gt;posted&lt;!-- raw HTML omitted --&gt;
+about the in-term projects my Software Development kids were working
+on. Well, now it&amp;rsquo;s time to grade their final projects.&lt;/p&gt;
+&lt;p&gt;The code is up on GitHub. This morning I was faced with independently
+going to every project page and cloning each one:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Not fun!!!!&lt;/p&gt;
+&lt;p&gt;There had to be a better way. Fortunately all the projects were under a single &amp;ldquo;organization&amp;rdquo; and a little digging into the GitHub API reminded me that I could use this url:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;which brought up all this nice JSON data.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;A little poking around in the data finds that each project url is part of a line that starts with &amp;ldquo;ssh_url.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;a little wget, sed, grep and  sh magic later:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Now, as long as all the projects are under a single Github organization I can easily clone or pull them without having to navigate the Github web site.&lt;/p&gt;
+&lt;p&gt;Commandline FTW!!!!!!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>trees on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/trees/</link>
+    <description>C&#39;est la Z (trees)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Apr 2020 18:45:50 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/trees/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Arbitrary Trees</title>
+      <link>https://cestlaz.github.io/post/arbitrary-trees/</link>
+      <pubDate>Mon, 27 Apr 2020 18:45:50 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/arbitrary-trees/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s been 10 days from my last post. Not really a big break for me
+historically but certainly a big one given how much I&amp;#39;ve been posting
+this year. 
+&lt;/p&gt;
+&lt;p&gt;
+Been under the weather for the past couple of weeks dealing with
+COVID-19. Haven&amp;#39;t had super bad symptoms and as symptoms have been
+getting fewer and less severe I&amp;#39;m hoping I&amp;#39;m close to a full recovery.
+&lt;/p&gt;
+&lt;p&gt;
+In any event, I&amp;#39;m feeling good enough for a quick post.
+&lt;/p&gt;
+&lt;p&gt;
+In my data structures class we&amp;#39;ve been working on binary trees. Most
+of the unit is focused on &lt;a href=&#34;https://en.wikipedia.org/wiki/Binary_search_tree&#34;&gt;Binary Search Trees&lt;/a&gt;. They used to be a big
+part of the B part of the old APCS-AB and are still a mainstay of
+college CS2 classes. 
+&lt;/p&gt;
+&lt;p&gt;
+As usual, we covered all the basics. Creation, insertion, search,
+traversal, and deletion. We discovered the run times and how a tree
+structure can yield lgn behavior but can also degenerate to linear. We
+also give a preview of more advanced data structures like red/back and
+2-3 trees that address these issues (not to mention things like BTrees
+and Splay trees).
+&lt;/p&gt;
+&lt;p&gt;
+One side topic I always like talking about during this unit though are
+arbitrary trees. That is, trees where each node can have an arbitrary
+number of children. Students usually start by creating nodes with an
+array of children and then sometimes a linked list of children but I
+like discussing something simpler. A tree where in each node you hold
+two pointers - a pointer to the first child and a pointer to the next
+sibling. I like this because internally it&amp;#39;s the same as a binary
+search tree where you also have two pointers in each node a left and a
+right. Same &amp;#34;physical&amp;#34; representation but two very different
+variations.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure class=&amp;#34;z_image_center&amp;#34;&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/arbtree.png&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+The image on the left is the actual arbitrary tree and the one on the
+right shows the internal representation.
+&lt;/p&gt;
+&lt;p&gt;
+In terms of applications, the file system is a
+great example of an arbitrary tree. Another one that I like even more
+is the DOM representation of a web page. That&amp;#39;s nice because there are
+Javascript functions to get the next sibling.
+&lt;/p&gt;
+&lt;p&gt;
+I put a short video together for my class. Here it is in case anyone
+is interested. It&amp;#39;s code agnostic so would be suitable for an APCS-A
+class that also covers data structures.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;iframe width=&amp;#34;560&amp;#34; height=&amp;#34;315&amp;#34;
+src=&amp;#34;&lt;a href=&#34;https://www.youtube.com/embed/K1lR3ssgxLc&#34;&gt;https://www.youtube.com/embed/K1lR3ssgxLc&lt;/a&gt;&amp;#34; frameborder=&amp;#34;0&amp;#34;
+allow=&amp;#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&amp;#34; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

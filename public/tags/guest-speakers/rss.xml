@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>guest speakers on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/guest-speakers/</link>
+    <description>C&#39;est la Z (guest speakers)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jun 2019 07:00:12 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/guest-speakers/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Proof By Authority</title>
+      <link>https://cestlaz.github.io/post/proof-by-authority/</link>
+      <pubDate>Tue, 25 Jun 2019 07:00:12 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/proof-by-authority/</guid>
+      <description>&lt;p&gt;
+No,I&amp;#39;m not talking about&lt;a href=&#34;https://en.wikipedia.org/wiki/Argument_from_authority&#34;&gt;Argument from Authority&lt;/a&gt; - something that very
+much plagues CS Education and education in general where an annointed
+few who may, or may not really know what they&amp;#39;re talking about are
+given creedence because they&amp;#39;ve been there the longest, work for the
+companies with the biggest names, have the economic backing  or
+otherwise have been given the stage. 
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m talking about Proof by Authority which I fondly remember from
+those silly &lt;a href=&#34;https://www.cs.hmc.edu/~fleck/proof.html&#34;&gt;Proof techniques&lt;/a&gt; lists that went around in the
+day. Techniques like:
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Technique&lt;/th&gt;
+&lt;th&gt;Example&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Proof by Intimidation&lt;/td&gt;
+&lt;td&gt;Trivial&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Proof by example&lt;/td&gt;
+&lt;td&gt;The author solves for n - 2…&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Proof by funding&lt;/td&gt;
+&lt;td&gt;How the Bill Gates Foundation be wrong&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+and many many more.
+&lt;/p&gt;
+&lt;p&gt;
+Proof by authority was basically &amp;#34;I saw Dr. Gershon in the elevator
+and she said….&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+What made me think og this was this Tweet by &lt;a href=&#34;https://twitter.com/b0rk&#34;&gt;Julia Evans&lt;/a&gt;:
+&lt;/p&gt;
+  &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;i&amp;#39;m not
+sure if this advice is too obvious/basic but I really like to approach
+confusing debugging situations by first looking at where my
+understanding of the system is fuzzy, not by immediately trying to
+tackle the bug&lt;/p&gt;&amp;mdash; 🔎Julia Evans🔍 (@b0rk) &lt;a
+href=&#34;https://twitter.com/b0rk/status/1143313949640810498?ref_src=twsrc%5Etfw&#34;&gt;June
+25, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async
+src=&#34;https://platform.twitter.com/widgets.js&#34;
+charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;
+I don&amp;#39;t know Julia personally, but we have mutual friends and I&amp;#39;ve been following
+her online for a while. She makes cool &amp;#34;zines&amp;#34; and interesting blog
+posts about a variety of tech type topics leaning towards the systems
+side. Her latest post on &lt;a href=&#34;https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/&#34;&gt;debugging&lt;/a&gt; is well worth a read.
+&lt;/p&gt;
+&lt;p&gt;
+What caught my eye was &amp;#34;I&amp;#39;m not sure if this advice is too
+obvious/basic…&amp;#34; It isn&amp;#39;t. As an educator I&amp;#39;ve found that to others,
+what&amp;#39;s obvious to us is not always obvious or clear to others. What I
+also got to thinking about was the fact that if a student follows Julia,
+they&amp;#39;re, in many cases, more likely to listen to her rather than her
+teacher because Julia&amp;#39;s a known and respected expert in the field and
+a teacher is well, just a teacher. 
+&lt;/p&gt;
+&lt;p&gt;
+This further reminded me of something that happened early on in my
+career. I was a reasonably popular teacher but I didn&amp;#39;t have that much
+of a reputation being fairly new. I would try to add real world  best practices to
+my classes but I could tell that many of the students weren&amp;#39;t really
+buying it. Mid semester, a friend came to town. He was a long time
+Microsoft employee. He started right after college in the late 80&amp;#39;s
+and had been there ever since. He gave a guest talk in my classes. 
+&lt;/p&gt;
+&lt;p&gt;
+One of the things I remember Danny saying in the class was that &amp;#34;Stuy
+wasn&amp;#39;t special because of the teachers, but rather because of the
+students.&amp;#34; He was right, but I, um &amp;#34;Thanks, Danny, you know, I&amp;#39;m a
+teacher and right here in the room :-)&amp;#34; On the other hand, in later
+talks he always did say to listen to what I had to say. I guess during
+the first talk he didn&amp;#39;t really know what I brought to the table as a
+teahcer.
+&lt;/p&gt;
+&lt;p&gt;
+The other thing is that Danny talked about a number of best practices
+both in his talk and during Q&amp;amp;A. In all cases, what he said mirrored
+what I had been telling my students all year and none of it was
+planned.
+&lt;/p&gt;
+&lt;p&gt;
+Not only did the kids pay more attention to what Danny had to say than
+what I had previously tried to say but from that point on, they paid
+more attention to my asides on what is done in the &amp;#34;real world.&amp;#34; I had
+been authenticated by a top level Microsoft engineer. Proof by
+Authority.
+&lt;/p&gt;
+&lt;p&gt;
+Since those early days, I&amp;#39;ve developed my own reputation. My students
+graduated and went on to success both in and outside of CS. They
+both provided the information I needed to know how best to prepare my
+students and also verified that I was doing it. Over time I needed
+outside verification less and less but was able to get and rely on
+outside information more and more.
+&lt;/p&gt;
+&lt;p&gt;
+When I saw Julia&amp;#39;s tweet it made me think that having respected
+industry people share their thoughts on what works for them in clear
+concise ways is not only valuable directly but can also be of value
+indirectly when used wisely by teachers.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

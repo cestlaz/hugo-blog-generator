@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Using Emacs - 33 - projectile, dumb-jump - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Using Emacs - 33 - projectile, dumb-jump" />
+<meta property="og:description" content="If you keep Emacs open all the time you end up accumulating lots of buffers. That can make navigating a little bit awkward.  Projectile is a really nice package that makes navigating in and between projects much easier. I also have counsel-projectile installed.  Here&#39;s my configuration: ;; projectile (use-package projectile :ensure t :config (projectile-global-mode) (setq projectile-completion-system &#39;ivy)) (use-package counsel-projectile :ensure t :config (counsel-projectile-on))   Projectile considers a sub-directory tree to be a project if it&#39;s a git or other source control repo, if it&#39;s created by tool like lein, maven, or sbt, or if you put an empty file named ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/using-emacs-33-projectile-jump/" />
+<meta property="article:published_time" content="2017-04-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-04-28T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Emacs - 33 - projectile, dumb-jump"/>
+<meta name="twitter:description" content="If you keep Emacs open all the time you end up accumulating lots of buffers. That can make navigating a little bit awkward.  Projectile is a really nice package that makes navigating in and between projects much easier. I also have counsel-projectile installed.  Here&#39;s my configuration: ;; projectile (use-package projectile :ensure t :config (projectile-global-mode) (setq projectile-completion-system &#39;ivy)) (use-package counsel-projectile :ensure t :config (counsel-projectile-on))   Projectile considers a sub-directory tree to be a project if it&#39;s a git or other source control repo, if it&#39;s created by tool like lein, maven, or sbt, or if you put an empty file named ."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Using Emacs - 33 - projectile, dumb-jump</h1>
+        </header>
+        <div class="content">
+            <p>
+If you keep Emacs open all the time you end up accumulating lots of
+buffers. That can make navigating a little bit awkward.
+</p>
+<p>
+<a href="https://github.com/bbatsov/projectile">Projectile</a> is a really nice package that makes navigating in and
+between projects much easier. I also have <a href="https://github.com/ericdanan/counsel-projectile">counsel-projectile</a>
+installed.
+</p>
+<p>
+Here&#39;s my configuration:
+</p>
+<div class="src src-emacs-lisp">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#75715e">;; projectile</span>
+(use-package projectile
+:ensure <span style="color:#66d9ef">t</span>
+:config
+(projectile-global-mode)
+(setq projectile-completion-system <span style="color:#e6db74">&#39;ivy</span>))
+
+(use-package counsel-projectile
+:ensure <span style="color:#66d9ef">t</span>
+:config
+(counsel-projectile-on))</code></pre></div></code></pre></div>
+</div>
+<p>
+Projectile considers a sub-directory tree to be a project if it&#39;s a
+git or other source control repo, if it&#39;s created by tool like lein,
+maven, or sbt, or if you put an empty file named <strong><strong>.projectile</strong></strong> in
+the root directory of the project.
+</p>
+<p>
+Projectile learns about projects when you open a file in that project
+and then stores that information in an Emacs bookmark file in your
+.emacs.d directory.
+</p>
+<p>
+You can switch between projects using <code>C-c p</code> and when in a project,
+load another file using <code>C-c f</code>. If you use the <strong><strong>which-key</strong></strong> package
+as I do, just type <code>C-c</code> - the projectile prefix and then which-key
+will bring up help.
+</p>
+<p>
+The video goes through some of my favorite features and you can find
+the full documentation can be found <a href="http://projectile.readthedocs.io/en/latest/">here</a>.
+</p>
+<p>
+The other package I show is <a href="https://github.com/jacktasia/dumb-jump">dumb-jump</a>. It&#39;s basically a zero (or
+almost zero) configuration tags replacement. Really nice.
+</p>
+<p>
+Here&#39;s my current config:
+</p>
+<div class="src src-emacs-lisp">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(use-package dumb-jump
+:bind ((<span style="color:#e6db74">&#34;M-g o&#34;</span> <span style="color:#f92672">.</span> dumb-jump-go-other-window)
+(<span style="color:#e6db74">&#34;M-g j&#34;</span> <span style="color:#f92672">.</span> dumb-jump-go)
+(<span style="color:#e6db74">&#34;M-g x&#34;</span> <span style="color:#f92672">.</span> dumb-jump-go-prefer-external)
+(<span style="color:#e6db74">&#34;M-g z&#34;</span> <span style="color:#f92672">.</span> dumb-jump-go-prefer-external-other-window))
+:config (setq dumb-jump-selector <span style="color:#e6db74">&#39;ivy</span>) <span style="color:#75715e">;; (setq dumb-jump-selector &#39;helm)</span>
+:ensure)
+
+:config
+<span style="color:#75715e">;; (setq dumb-jump-selector &#39;ivy) ;; (setq dumb-jump-selector &#39;helm)</span>
+:init
+(dumb-jump-mode)
+:ensure
+)</code></pre></div></code></pre></div>
+</div>
+<p>
+Enjoy.
+</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wBfZzaff77g" frameborder="0" allowfullscreen></iframe>
+<p>
+Relevant links:
+</p>
+<ul>
+<li>
+<p>
+Video series overview page:
+</p>
+</li>
+<li>
+<p>
+<a href="http://cestlaz.github.io/stories/emacs">http://cestlaz.github.io/stories/emacs</a>
+</p>
+</li>
+<li>
+<p>
+Code:
+</p>
+</li>
+<li>
+<p>
+<a href="https://github.com/zamansky/using-emacs/tree/master"><a href="https://github.com/zamansky/using-emacs/tree/master">https://github.com/zamansky/using-emacs/tree/master</a></a>
+</p>
+</li>
+</ul>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2017-04-28</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/emacs">#emacs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

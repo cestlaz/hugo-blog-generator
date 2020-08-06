@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Shell short - tagging old posts in Nikola - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Shell short - tagging old posts in Nikola" />
+<meta property="og:description" content="Quick post to add to the recent command line fu I&#39;ve been writing about.  Douglas Peterson had another Whatever happened to post. This time on Logo. I wanted to reply, talk about NetLogo and link to some of my old NetLogo posts to help show how cool it is.  Nikola supports tags, makes a nice tags page and for each tag, a nice page of all the links." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/shell-short-tagging/" />
+<meta property="article:published_time" content="2016-05-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-05-15T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Shell short - tagging old posts in Nikola"/>
+<meta name="twitter:description" content="Quick post to add to the recent command line fu I&#39;ve been writing about.  Douglas Peterson had another Whatever happened to post. This time on Logo. I wanted to reply, talk about NetLogo and link to some of my old NetLogo posts to help show how cool it is.  Nikola supports tags, makes a nice tags page and for each tag, a nice page of all the links."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Shell short - tagging old posts in Nikola</h1>
+        </header>
+        <div class="content">
+            
+<p>
+Quick post to add to the recent command line fu I&#39;ve been writing
+about.
+</p>
+<p>
+<a href="https://twitter.com/dougpete">Douglas Peterson</a> had another <strong><strong>Whatever happened to</strong></strong> post. This time
+on <a href="https://dougpete.wordpress.com/2016/05/15/whatever-happened-to-6/">Logo</a>. I wanted to reply, talk about NetLogo  and link to some of my
+old NetLogo posts to help show how cool it is.
+</p>
+<p>
+Nikola supports tags, makes a nice <a href="http://cestlaz.github.io/categories">tags</a> page and for each tag, a nice
+page of all the <a href="http://cestlaz.github.io/categories/netlogo">links</a>.
+</p>
+<p>
+Nikola has a plugin <strong><strong>tags</strong></strong> which lets you manage tags from the
+command line. For instance:
+</p>
+<div class="src src-bash">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nikola tags -a netlogo posts/somepost.org</code></pre></div></code></pre></div>
+</div>
+<p>
+Would add the tag <strong><strong>netlogo</strong></strong> to the specified post.
+</p>
+<p>
+The problem: The tags plugin only works if the post has a <strong><strong>tag:</strong></strong>
+line already present in it&#39;s header comment and I hadn&#39;t put them in
+my older posts.
+</p>
+<p>
+I had a bunch of posts, all of them in one directory. All the new ones
+were <strong><strong>.org</strong></strong> files and had the tag slug. The others were <strong><strong>.md</strong></strong> markdown
+files and <strong><strong>.html</strong></strong> html files.
+</p>
+<p>
+Here&#39;s what a typical top block looks like:
+</p>
+<div class="src src-html">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!--
+</span><span style="color:#75715e">title: &#34;Looking for interesting questions&#34;
+</span><span style="color:#75715e">date: 2010-01-03
+</span><span style="color:#75715e">--&gt;</span></code></pre></div></code></pre></div>
+</div>
+<p>
+Sed to the rescue. Here&#39;s the what I ended up typing (from within the
+posts directory) to add the
+<strong><strong>tags</strong></strong> slug to the top comments right above the <strong><strong>.. type: text:</strong></strong> line:
+</p>
+<div class="src src-bash">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ls *md *html | <span style="color:#66d9ef">while</span> read filename
+<span style="color:#66d9ef">do</span>
+sed <span style="color:#e6db74">&#34;/type: text/ i .. tags: &#34;</span> $filename
+<span style="color:#66d9ef">done</span></code></pre></div></code></pre></div>
+</div>
+<p>
+A line at a time:
+</p>
+<h3 id="headline-1">
+ls *md *html
+</h3>
+<p>
+This lists all the files with that end in <strong><strong>md</strong></strong> or <strong><strong>html</strong></strong>
+</p>
+<h3 id="headline-2">
+| while read filename
+</h3>
+<p>
+The vertical bar (pipe) sends the output of <strong><strong>ls</strong></strong> into the <strong><strong>while read</strong></strong>
+command. The <strong><strong>while</strong></strong> command sets up a loop which, each time
+through, reads the next input and places into the variable
+<strong><strong>filename</strong></strong>. The body of the loop is between the <strong><strong>do</strong></strong> and the
+<strong><strong>done</strong></strong>.
+</p>
+<h3 id="headline-3">
+sed &#34;/ type: text/  i .. tags: &#34; $filename
+</h3>
+<p>
+Sed is the stream editor. The stuff between the slashes finds the line
+with the text <strong><strong>type: text</strong></strong> in it. The <strong><strong>i</strong></strong> inserts a line above and
+the rest of the stuff in the quotes is what to insert. The
+<strong><strong>$filename</strong></strong> expands to each filename, one each time through the
+loop.
+</p>
+<p>
+Now all of my files have blank <strong><strong>tag</strong></strong> slugs so I can find my netlogo
+posts and tag them:
+</p>
+<div class="src src-bash">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nikola tags -a netlogo <span style="color:#e6db74">`</span>grep -i -l netlogo posts/*<span style="color:#e6db74">`</span></code></pre></div></code></pre></div>
+</div>
+<p>
+Any command in backticks expands to the result of the commmand. The
+grep command has two argiments: <strong><strong>-i</strong></strong> means ignore case so it will
+find netlogo, NetLogo, NETLOGO, etc.. The <strong><strong>-l</strong></strong> tells grep to just
+output the filenames. So, the grep command will expand to a list of
+files that mention netlogo. The full command adds the netlogo tag to
+all of them.
+</p>
+<p>
+So, just a bit of quick shell scripting and I&#39;ve:
+</p>
+<ul>
+<li>
+<p>
+modified all old posts to accept tags.
+</p>
+</li>
+<li>
+<p>
+added the netlogo tag to all my netlogo posts.
+</p>
+</li>
+</ul>
+<p>
+You can find all those posts <a href="http://cestlaz.github.io/categories/netlogo">here</a>.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2016-05-15</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cli">#cli</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/linux">#linux</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/nikola">#nikola</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/shell">#shell</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

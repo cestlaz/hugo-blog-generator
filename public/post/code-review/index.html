@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>An experiment with code review - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="An experiment with code review" />
+<meta property="og:description" content="Sometimes professional practices don&#39;t work well in the classroom and sometimes they do. One professional practice that does work well is code review - reading and reflecting on other peoples code.  I&#39;ve had my students do code reviews in the past but this time I did things differently. Here&#39;s what I did and here&#39;s how it went  Two weeks ago my students completed a lab. The lab involved reading in a poorly indented C&#43;&#43; program and spit out a properly indented one." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/code-review/" />
+<meta property="article:published_time" content="2018-11-15T17:09:58-04:00" />
+<meta property="article:modified_time" content="2018-11-15T17:09:58-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="An experiment with code review"/>
+<meta name="twitter:description" content="Sometimes professional practices don&#39;t work well in the classroom and sometimes they do. One professional practice that does work well is code review - reading and reflecting on other peoples code.  I&#39;ve had my students do code reviews in the past but this time I did things differently. Here&#39;s what I did and here&#39;s how it went  Two weeks ago my students completed a lab. The lab involved reading in a poorly indented C&#43;&#43; program and spit out a properly indented one."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">An experiment with code review</h1>
+        </header>
+        <div class="content">
+            <p>
+Sometimes professional practices don&#39;t work well in the classroom and
+sometimes they do. One professional practice that does work well is
+code review - reading and reflecting on other peoples code.
+</p>
+<p>
+I&#39;ve had my students do code reviews in the past but this time I did
+things differently. Here&#39;s what I did and here&#39;s how it went
+</p>
+<p>
+Two weeks ago my students completed a lab. The lab involved reading
+in a poorly indented C++ program and spit out a properly indented
+one. This was the platform for the reviews.
+</p>
+<p>
+First we paired everyone off. They forked each others labs and then
+did a code review on each others assignment. Each student would read
+their partner&#39;s code, decide what to focus on - the whole thing, a
+single function or something in between, and write up a code
+review. They couldn&#39;t talk during this process. 
+</p>
+<p>
+I was intentionally a little vague in the details of the assignment.
+</p>
+<p>
+Afterwards, each student got a new partner and we did the review again
+but this time one student would review the other&#39;s code and they would
+talk through the process while they took notes. 
+</p>
+<p>
+Next, we changed pairs a third time and this time the student that did
+the talking review last time got their code reviewed in the same way.
+</p>
+<p>
+Finally, we repeated the whole thing again.
+</p>
+<p>
+This left each student with four code reviews. Two done in silence and
+two that were interactive.
+</p>
+<p>
+This took the entire hour fifteen of class so we didn&#39;t get to discuss
+the review until the following week.
+</p>
+<p>
+The first thing I asked when we debriefed was which review was more
+valuable? The written or the interactive one. They universally liked the
+latter. This led to a spin-off discussion on pair programming. I love
+pair programming as a pedagogical tool but students don&#39;t always buy
+all in. Some don&#39;t communicate as much as the should and don&#39;t get as
+much value out of the process as they could. On the other hand, they
+all seemed to see the value in the interactive code review but if you
+think about it, pair programming is really a real time interactive
+code review. I&#39;m hoping this process helps with pair programming buy
+in. I think it will.
+</p>
+<p>
+Next we talked about takeaways from all their reviews. There were good
+comments on, well, commenting, also on function length. This led to
+talk about self commenting code, good variable and function names,
+style guides, function header comments and all sorts
+of good coding stuff.
+</p>
+<p>
+All this was great but I think more than the recap, the reviews
+themselves might have had the greatest impact.
+</p>
+<p>
+One student commented that he found the code he reviewed much easier
+to read and understand that his own code because it did indeed use
+better function and variable names and was better laid out and
+commented. 
+</p>
+<p>
+Another student noted that for a couple of programs he reviewed he had
+a hard time understanding what the programmer was doing. During the
+interactive review it was apparent that the author also no longer
+understood their own code. I think that, at least for these students,
+it really drove home the idea of writing good code. We talked about
+how the real world would be different. In class they work on a project
+in a concentrated short period of time. In the real world, they&#39;ll be
+working on multiple projects or at least multiple segments of projects
+on and off over a long period of time. Remembering your own code is
+super critical.
+</p>
+<p>
+Overall, I&#39;m very happy with the way these lessons played out. I
+already thought that the actual code reviews had value but doing it
+this way led to more student discovery some great discussions and
+reflections. I think it was a big win.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2018-11-15</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/CS">CS</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedgogy">#pedgogy</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/software-engineering">#software engineering</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

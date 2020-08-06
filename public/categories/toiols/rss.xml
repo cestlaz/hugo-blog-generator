@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>toiols on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/categories/toiols/</link>
+    <description>C&#39;est la Z (toiols)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jul 2020 07:52:24 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/categories/toiols/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Tools matter when teaching (and learning)</title>
+      <link>https://cestlaz.github.io/post/tools-matter/</link>
+      <pubDate>Wed, 22 Jul 2020 07:52:24 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/tools-matter/</guid>
+      <description>&lt;p&gt;
+One of our teacher certification cohort members asked for some help on
+our Slack the other day. It was about a side project - he was learning
+him so Javascript. It&amp;#39;s always very cool to see teachers exploring
+things that can help with their craft on their own.
+&lt;/p&gt;
+&lt;p&gt;
+The whole situation reminded me  about how important good tooling is
+and why, in spite of its popularity, javascript has some severe issues
+as a learning language and I&amp;#39;m a guy that actually likes javascript. 
+&lt;/p&gt;
+&lt;p&gt;
+The project was a small interactive javascript todo application and he was
+having trouble getting a button to react. I grabbed his code off
+GitHub, fired up a server and took a look. Indeed, there were
+issues. Some of the interface worked - you could type in a new item
+and hit enter or click an add button and it worked. You could check or
+uncheck items and you could delete them individually. Everything
+worked except the clear button which did nothing. Weird.
+&lt;/p&gt;
+&lt;p&gt;
+Exploring the code, here were some of the key sections:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// there were sections like this
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;filterOption&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.filter-todo&amp;#34;&lt;/span&gt;);
+&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;clearButton&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.clear-button&amp;#34;&lt;/span&gt;);
+
+&lt;span style=&#34;color:#75715e&#34;&gt;// then more code 
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;// then some of this
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;filterOption&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addEventListener&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;click&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;filterTodo&lt;/span&gt;);
+&lt;span style=&#34;color:#a6e22e&#34;&gt;clearButton&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addEventListener&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;click&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;clearTodos&lt;/span&gt;);
+
+&lt;span style=&#34;color:#75715e&#34;&gt;// and more code
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I just pulled out the lines relevant to what he was doing and to the
+error so be aware that it&amp;#39;s all out of context. 
+&lt;/p&gt;
+&lt;p&gt;
+The &lt;code&gt;document.querySelector&lt;/code&gt; lines get references to DOM elements -
+elements on the page. The &lt;code&gt;addEventListener&lt;/code&gt; then links a function to
+the event. So, when you click on the &lt;strong&gt;clear&lt;/strong&gt; button on the web site,
+it&amp;#39;s supposed to run the function &lt;code&gt;clearTodos&lt;/code&gt; and when you click on
+the &lt;strong&gt;filter&lt;/strong&gt; button it will run &lt;strong&gt;fiterTodo&lt;/strong&gt;. There&amp;#39;s more linking of
+events to elements in the code.
+&lt;/p&gt;
+&lt;p&gt;
+What was really weird was that parts and in fact most of the interface
+was working and just the clear button was not. To make matters worse,
+looking both at the server output and the actual web page, there was
+no indication of anything wrong. Even if you looked at the developers
+console in the browser it didn&amp;#39;t really give you a clue.
+&lt;/p&gt;
+&lt;p&gt;
+It didn&amp;#39;t take me &lt;strong&gt;too&lt;/strong&gt; long to find the error but that&amp;#39;s only because
+I spent hours on similar errors back when I learned javascript. Back
+then though I lost hours of time on errors like these and I was
+learning JS decades into my career as a computer science teacher and
+professional.
+&lt;/p&gt;
+&lt;p&gt;
+What was going on?
+&lt;/p&gt;
+&lt;p&gt;
+When javascript executes  &lt;code&gt;querySelector&lt;/code&gt; it returns a reference to an
+element in the web page. If that element doesn&amp;#39;t exist, it returns
+ &lt;code&gt;null&lt;/code&gt;. As it turned out, at least in the version I looked at, there
+was no element on the page identified by the class &lt;strong&gt;filter-todo&lt;/strong&gt;. The
+result was that after executing
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;filterOption&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; document.&lt;span style=&#34;color:#a6e22e&#34;&gt;querySelector&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.filter-todo&amp;#34;&lt;/span&gt;);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;code&gt;filterOption&lt;/code&gt; is set to refer to null.
+&lt;/p&gt;
+&lt;p&gt;
+Then later, this code: 
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;filterOption&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;addEventListener&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;click&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;filterTodo&lt;/span&gt;);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+crashes the program because you can&amp;#39;t call the &lt;code&gt;addEventListener&lt;/code&gt;
+method on &lt;code&gt;null&lt;/code&gt; which is what &lt;code&gt;filterOption&lt;/code&gt; is set to.
+&lt;/p&gt;
+&lt;p&gt;
+Therein lies the problem. I commented out the two lines, the program
+ran, and the &lt;strong&gt;clear&lt;/strong&gt; button was clickable.
+&lt;/p&gt;
+&lt;p&gt;
+The killer was that the tool gave some pretty weird results - it
+wasn&amp;#39;t all or nothing. Parts of the interface responded but parts
+didn&amp;#39;t. There was no actionable feedback. The only feedback was indeed
+this error: &lt;strong&gt;TypeError: filterOption is null&lt;/strong&gt; but this seems wholly
+unrelated to the clear button and since most of the interface was
+responsive it seemed even weirder.
+&lt;/p&gt;
+&lt;p&gt;
+My best guess was that the web browser executed the JS code
+until the crash so anything that parts of the user interface that were
+wired up prior to that null pointer reference did indeed run.
+&lt;/p&gt;
+&lt;p&gt;
+The lack of feedback and this manner of execution can make javascript
+really tough on both beginners and self learners. It&amp;#39;s also tough with
+a teacher if they don&amp;#39;t really know the ins and outs of the toolset.
+&lt;/p&gt;
+&lt;p&gt;
+This was all just a reminder that tools matter. Java, Python, and C++
+might not give the best error messages but generally the tooling isn&amp;#39;t
+so bad. They could of course, be better, and I&amp;#39;m not arguing that any
+of them are ideal learning environments but JS has a long way to
+go. On the other hand, languages and environment specifically made for
+learning have issues as well. The bottom line in choice of tools is
+that there&amp;#39;s no magic bullet and the answer is as usual, &amp;#34;it depends.&amp;#34;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

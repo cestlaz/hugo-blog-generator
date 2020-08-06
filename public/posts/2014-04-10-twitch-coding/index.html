@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Twitch Coding - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Twitch Coding" />
+<meta property="og:description" content="div.center {text-align:center;}   We have the kids write programs in all sorts of ways on paper  solo  informally in pairs  &#34;pair programming&#34;  We have them trade code, pick up each others projects, and more.    We do lots of different things to engage the kids in a lot of different ways and I love it when someone comes up with a new technique." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/2014-04-10-twitch-coding/" />
+<meta property="article:published_time" content="2014-04-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-04-10T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Twitch Coding"/>
+<meta name="twitter:description" content="div.center {text-align:center;}   We have the kids write programs in all sorts of ways on paper  solo  informally in pairs  &#34;pair programming&#34;  We have them trade code, pick up each others projects, and more.    We do lots of different things to engage the kids in a lot of different ways and I love it when someone comes up with a new technique."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Twitch Coding</h1>
+        </header>
+        <div class="content">
+            <!DOCTYPE html>
+
+
+<style>
+div.center {text-align:center;}
+</style>
+
+<p>
+We have the kids write programs in all sorts of ways
+</p>
+
+<ul class="org-ul">
+<li>on paper
+</li>
+<li>solo
+</li>
+<li>informally in pairs
+</li>
+<li>"pair programming"
+</li>
+<li>We have them trade code, pick up each others projects, and more.
+</li>
+</ul>
+
+<p>
+We do lots of different things to engage the kids in a lot of
+different ways and I love it when someone comes up with a new
+technique.
+</p>
+
+
+<p>
+My friend, colleague, and incidentally, former student, Sam had such
+an idea the other day. Sam started his teaching career at Francis
+Lewis High School and it took us a while to convince him to join the
+team, but he's been with us for about three years now and he's terrific.
+</p>
+
+<p>
+Sam's also our resident gamer so I guess I shouldn't have been
+surprised when Sam said he was going to do <a href="http://www.reddit.com/r/twitchplayspokemon/comments/1y94r8/the_history_of_twitch_plays_pokemon/">Twitch Pokemon</a> coding with
+his classes. It sounded great.
+</p>
+
+<p>
+In Twitch Pokemen, users type moves into a chat window and a bot reads
+the commands to control a Pokemon. Sam's idea was to apply it to a CS class.
+</p>
+
+<p>
+I loved the idea so I tried it in my classes.
+</p>
+
+<p>
+First cut, I did it with stacks. We had a basic design in mind and then we started the "Twitch Coding."
+</p>
+
+<p>
+We went up and down the rows. When it was a students turn, they could
+either add a word, line, or concept, delete one, or change one.
+</p>
+
+<p>
+So, for example, if the state of the code was:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-java"><span style="color: #F0DFAF; font-weight: bold;">public</span> <span style="color: #7CB8BB;">Node</span> <span style="color: #DFAF8F;">top</span>;
+
+<span style="color: #F0DFAF; font-weight: bold;">public</span> <span style="color: #7CB8BB;">void</span> <span style="color: #93E0E3;">push</span>(<span style="color: #7CB8BB;">String</span> <span style="color: #DFAF8F;">s</span>) {
+<span style="color: #7CB8BB;">Node</span> <span style="color: #DFAF8F;">n</span> = <span style="color: #F0DFAF; font-weight: bold;">new</span> <span style="color: #7CB8BB;">Node</span>(s);
+}
+</pre>
+</div>
+
+<p>
+a student could:
+</p>
+
+<ul class="org-ul">
+<li>add n.setNext(top) to the push routine
+</li>
+<li>change public to private in the declaration of top
+</li>
+</ul>
+
+<p>
+Or the somewhat lame
+</p>
+
+<ul class="org-ul">
+<li>add a // above the push declaration line
+</li>
+</ul>
+
+<p>
+or something else.
+</p>
+
+<p>
+If a student gets stuck, it's up to the class to "go Price is Right"
+on them and give suggestions.
+</p>
+
+<p>
+It worked great in one class, forced in another, and somewhere in the
+middle in the third. Overall, I was happy with the results.
+</p>
+
+
+<p>
+We tried it again today as we implemented a queue.
+</p>
+
+<p>
+This time, we prepped a little better and the results were better.
+</p>
+
+<p>
+The idea needs some fine tuning, but I think it's a fun and different
+way to engage the class and I think we'll be playing with twitch
+coding some more in the coming months.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2014-04-10</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

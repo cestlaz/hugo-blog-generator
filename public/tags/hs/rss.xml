@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HS on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/hs/</link>
+    <description>C&#39;est la Z (HS)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Dec 2018 15:49:44 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/hs/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Visiting schools and talking tech</title>
+      <link>https://cestlaz.github.io/post/fall-2018-tour-revisited/</link>
+      <pubDate>Fri, 21 Dec 2018 15:49:44 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/fall-2018-tour-revisited/</guid>
+      <description>&lt;p&gt;
+Back in September I talked about embarking on my &lt;a href=&#34;https://cestlaz.github.io/post/fall-2018-hs-tour/&#34;&gt;Fall 2018 HS CS Tour&lt;/a&gt;.
+Since then I&amp;#39;ve visited about a dozen schools. I&amp;#39;d like to thank my
+friends who helped connect me to schools - particularly &lt;a href=&#34;https://twitter.com/aankit&#34;&gt;Aankit Patel&lt;/a&gt;
+and &lt;a href=&#34;https://twitter.com/diane_levitt&#34;&gt;Diane Levitt&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Even though the original motivation for the visits was to get the word
+out about Hunter CS and the awesome things we&amp;#39;re doing in the Hunter
+CS Honors program I always tried to make my talks about something that
+would be relevant for the entire audience and not just the few that
+were great fits for my program. I think I&amp;#39;ve done a pretty good job at
+that. All this said, doing these visits is incredibly draining. I&amp;#39;m
+usually up at the crack of dawn and end up taking the subway or
+sometimes subway and bus way out into the five boroughs. Actually four
+this year since I wasn&amp;#39;t able to get a date to visit any Staten Island
+schools. It takes a lot of time and effort and while I love
+talking to students and there some ancillary things I enjoy about
+getting out into the neighborhoods of the city I&amp;#39;m extremely happy
+that I can now rest for a few weeks. 
+&lt;/p&gt;
+&lt;p&gt;
+Reflecting on all of this I&amp;#39;m realizing how important these visits are
+and not because they&amp;#39;re recruiting trips.
+&lt;/p&gt;
+&lt;p&gt;
+I spoke about some of the specifics I talk about in an &lt;a href=&#34;https://cestlaz.github.io/post/fall-2018-hs-tour/&#34;&gt;earlier post&lt;/a&gt;
+but arguably more important is that for many of them it&amp;#39;s the first
+time for them to hear about the possibilities.
+&lt;/p&gt;
+&lt;p&gt;
+While many students are excited about what they&amp;#39;re doing in their first
+CS classes it turns out that few have any idea where it will
+lead. They may have heard that computer science can lead to a high
+paying job. They might know they can get a job at Google but they
+don&amp;#39;t really know what that means.
+&lt;/p&gt;
+&lt;p&gt;
+I saw this at Hunter when I started three years ago and now a lot of
+hard work later students are much more in tune with the New York Tech
+community and all that it means.
+&lt;/p&gt;
+&lt;p&gt;
+Students don&amp;#39;t realize that there are many programming careers beyond
+Google and their are many CS careers beyond programming. 
+&lt;/p&gt;
+&lt;p&gt;
+They don&amp;#39;t realize they can combine computer science with almost any
+other field or interest.
+&lt;/p&gt;
+&lt;p&gt;
+They don&amp;#39;t know that the same algorithmic approach behind Amazon,
+Netflix, and Spotify recommendations can be used by companies selling
+cloths, cosmetics, or anything else.
+&lt;/p&gt;
+&lt;p&gt;
+And that&amp;#39;s just the tip of the iceberg. 
+&lt;/p&gt;
+&lt;p&gt;
+Now I&amp;#39;m not saying that teachers aren&amp;#39;t telling their students about
+the possibilities but rather that sometimes it has to come from an
+outsider. When I started at Stuy, before I had a reputation (good or
+bad) I&amp;#39;d tell students things and they wouldn&amp;#39;t buy it. Later I&amp;#39;d have
+a friend from the &amp;#34;real world&amp;#34; come in. Frequently they&amp;#39;d touch on
+points I addressed in class and all of a sudden I was worth listening
+to. Sometimes you need an outside voice to empower and authenticate the teacher.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not saying that I&amp;#39;m a super motivational speaker or anything like
+that. I&amp;#39;m not. I&amp;#39;m an ok speaker with content worth listening to. I&amp;#39;m
+just realizing more and more how important this small self imposed
+corner of my job is. Not so much for Hunter but for the kids of NY. 
+&lt;/p&gt;
+&lt;p&gt;
+Jut this past week I&amp;#39;ve started to work to connect some of my current
+students to &lt;a href=&#34;http://tealsk12.org&#34;&gt;TEALS&lt;/a&gt; volunteers. If you read this blog you know I&amp;#39;m a
+big fan of TEALS and have wanted to encourage my students to get
+involved for a while. Once we get some of our Hunter CS majors into
+schools around the city to help teach CS perhaps they can help spread
+the message of the possibilities to even more students.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fall 2018 HS CS Tour</title>
+      <link>https://cestlaz.github.io/post/fall-2018-hs-tour/</link>
+      <pubDate>Sat, 29 Sep 2018 16:57:26 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/fall-2018-hs-tour/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;ve written before about why &lt;a href=&#34;https://cestlaz.github.io/posts/hunter-cs-important/&#34;&gt;Hunter College CS is so important&lt;/a&gt; for
+NYC and I&amp;#39;ve been working hard to develop our Daedalus Scholars honors
+CS program -  a program in which students receive a scholarship along
+with all sorts of special opportunities to add on to their in class CS
+education. The program and Hunter CS as a whole have &lt;a href=&#34;https://cestlaz.github.io/posts/hunter-cs-year-two/&#34;&gt;made a lot of
+progress&lt;/a&gt; over the past two years and each year I roll out new
+special activities and events for my honors students. Still, a major
+challenges is getting the word out and building our reputation. Anyone
+who takes a close look at what we&amp;#39;re doing can see we&amp;#39;re growing
+something special but we still have to convince students and parents
+who may not even realize that Hunter offers a CS degree to come to us
+instead of going to more well known albeit much more expensive programs.
+&lt;/p&gt;
+&lt;p&gt;
+To that end I try to visit as many high schools as I can during the
+Fall semester to speak to high school seniors.
+&lt;/p&gt;
+&lt;p&gt;
+I spent last Friday at Packer Collegiate.
+&lt;/p&gt;
+  &lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Great to have &lt;a href=&#34;https://twitter.com/zamansky?ref_src=twsrc%5Etfw&#34;&gt;@zamansky&lt;/a&gt; come by and talk to juniors and seniors in the advanced CS about the tech sector and options for study including the amazing program at Hunter &lt;a href=&#34;https://t.co/ubHNfyt8Y9&#34;&gt;pic.twitter.com/ubHNfyt8Y9&lt;/a&gt;&lt;/p&gt;&amp;mdash; saber khan (@ed_saber) &lt;a href=&#34;https://twitter.com/ed_saber/status/1045768969519542272?ref_src=twsrc%5Etfw&#34;&gt;September 28, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34;
+charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;
+I was invited by my friend &lt;a href=&#34;https://twitter.com/ed_saber&#34;&gt;Saber Khan&lt;/a&gt; who runs the weekly twitter
+&lt;/p&gt;
+&lt;p&gt;
+When I first started doing school visits I had a tough time figuring
+out exactly what to say - I&amp;#39;m no salesman - I&amp;#39;m not good at it and I
+don&amp;#39;t like doing it. Fortunately, I didn&amp;#39;t have to be a salesman. I
+decided I&amp;#39;d talk to the students about questions they should be asking
+themselves as they consider where to go after graduation. I talk about
+school location, community, and culture. I also talk about majors - BA
+vs BS, Major vs Minor, niche majors, and possible career paths. I also
+talk about tech sectors - how NY might be different from Sill icon
+Valley might be different from Seattle or Boston.
+&lt;/p&gt;
+&lt;p&gt;
+I also tell them the truth about the undergraduate experience - how
+you can get a great CS background at all sorts of schools. How
+Algorithms is Algorithms and no matter where you go you&amp;#39;ll probably
+use the same text and how while I have many former students at the
+Googles and Facebooks of the world that  have gone to MIT and CMU I
+also have plenty who end up at those companies or similar going to
+Stony, Oberlin, Tufts, and yes, Hunter.
+&lt;/p&gt;
+&lt;p&gt;
+At the end of the talk I spend a few minutes talking about Hunter and
+my honors program but it&amp;#39;s only a small part of the talk. I figure in
+any given class there will be a few kids who could be a fit for my
+program and I want the time spent to be worthwhile for the entire
+class.
+&lt;/p&gt;
+&lt;p&gt;
+Sometimes guidance people sit in when I talk to the students and
+almost always they tell me how valuable it was for the students to
+have someone like me come in and talk frankly about the college
+application and acceptance process.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s going to take time to build our reputation at Hunter but I think
+that going around to students and talking honestly about college and
+not giving the hard sell helps build trust and our reputation and over
+time, people will realize the value we&amp;#39;re bringing to the table and
+come to us. It&amp;#39;s already happening.
+&lt;/p&gt;
+&lt;p&gt;
+Now, the only other challenge is to get more high schools to bring me
+in. Next week I&amp;#39;m visiting NEST+M and Brooklyn Tech and I&amp;#39;ve got a few
+more on the calendar in upcoming weeks but would love to get to a
+bunch more.
+&lt;/p&gt;
+&lt;p&gt;
+So, if you&amp;#39;re at a NY area High School and you think there&amp;#39;s a fit -
+hit me up - I&amp;#39;d love to visit and meet and talk with your kids.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

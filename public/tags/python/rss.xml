@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/python/</link>
+    <description>C&#39;est la Z (python)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/python/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Advent of Code 2017 - Day 1</title>
+      <link>https://cestlaz.github.io/posts/advent-2017-1/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/advent-2017-1/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s once again time for &lt;a href=&#34;http://adventofcode.com&#34;&gt;Advent of Code&lt;/a&gt;. That one a day programming
+competition that&amp;#39;s been running now for three years.
+&lt;/p&gt;
+&lt;p&gt;
+Here are some thoughts on &lt;a href=&#34;http://adventofcode.com/2017/day/1&#34;&gt;day 1&lt;/a&gt;. The core of the problem is that you
+have a large string of digits and you have to calculate a
+checksum. This is done by adding the sum of a subset of the
+digits. Only the ones that are identical to the digit to their
+right. To make it a little more interesting, the last digit wraps
+around to the first for checksum purposes.
+&lt;/p&gt;
+&lt;p&gt;
+For example, the input &lt;strong&gt;&lt;strong&gt;2234335&lt;/strong&gt;&lt;/strong&gt; leads to the calculate &lt;code&gt;2 + 3&lt;/code&gt; or
+&lt;code&gt;5&lt;/code&gt;. The input &lt;strong&gt;&lt;strong&gt;234445662&lt;/strong&gt;&lt;/strong&gt; leads to &lt;code&gt;4+4+6+2&lt;/code&gt; or &lt;code&gt;16&lt;/code&gt;. We add 4 for
+twice because the first four is adjacent the second and the second the
+third. We add the 2 at the end because it wraps around to match the
+one at the front.
+&lt;/p&gt;
+&lt;p&gt;
+We first read in the data and strip off the trailing newline
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Then, since we can access the elements of the string as a list (or
+array) it&amp;#39;s a simple loop to calculate the sum:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Pretty straightforward but I don&amp;#39;t like the special case of checking
+the last element for the wraparound. Sometimes it&amp;#39;s possible to get
+rid of edge cases like this by &lt;a href=&#34;https://cestlaz.github.io/posts/2014-02-26-change-the-data.md&#34;&gt;changing the data&lt;/a&gt;. We can do that here
+by simply appending a copy of the first character to the end of the
+list.
+&lt;/p&gt;
+&lt;p&gt;
+This leads to a slightly cleaner solution:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+This is pretty much what I&amp;#39;d expect from a Python programmer that&amp;#39;s
+just starting out. We can use a couple of more advanced Python
+features to make what I consider a more elegant solution.
+&lt;/p&gt;
+&lt;p&gt;
+Python&amp;#39;s &lt;strong&gt;&lt;strong&gt;zip&lt;/strong&gt;&lt;/strong&gt; function takes two lists and interleaves them.
+&lt;code&gt;zip(&amp;#34;abc&amp;#34;,&amp;#34;def&amp;#34;)&lt;/code&gt; will yield &lt;code&gt;[ (a,d), (b,e), (c,f)]&lt;/code&gt;. If the lists
+are of different length, it just zips up until the shorter list is
+exhausted. We can use array slicing to zip the input string with it&amp;#39;s
+neighbor by using &lt;code&gt;new_list = zip(data,data[1:])&lt;/code&gt;. For the string &amp;#34;122344&amp;#39;
+zipping gives us &lt;code&gt;[(1,2),(2,2),(2,3),(3,4),(4,4)]&lt;/code&gt;. We can put this in
+a list comprehension that only keeps the tuples representing an
+element with an identical neighbor and also converts it to an int:
+&lt;code&gt;new_list = [int(a) for a,b in new_list if a==b]&lt;/code&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Finally, we can just calculate the sum. This leads to the following
+complete solution:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+List comprehensions for the win!!!!
+&lt;/p&gt;
+&lt;p&gt;
+Each Advent of Code problem has two parts. You unlock the second by
+solving the first. Here, the wrinkle is that instead of checking each
+digit with it&amp;#39;s neighbor to the right, you check it with the one
+that&amp;#39;s halfway around the list.
+&lt;/p&gt;
+&lt;p&gt;
+With loops, the solution is just a quick modification of part 1. We
+just add half the length and use mod to find the digit to compare with:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+I wanted to see if I could do this with a list comprehension
+though. The trick was to figure out how to make two lists to zip
+together to get the pairs to check then add. Here&amp;#39;s the solution:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The insight was that we could just make a second list that starts
+halfway through and then wraps around. I did this by adding
+&lt;code&gt;data[l//2:] + data&lt;/code&gt;. &lt;code&gt;l//2&lt;/code&gt; is the integer division of the length (in
+Python3). &lt;code&gt;data[l//2:]&lt;/code&gt; represents the second half of data (from the
+midway point to the end). Technically I should have only added the second
+half of data: &lt;code&gt;data[l//2:] + data[:l//2]&lt;/code&gt; where &lt;code&gt;data[:l//2]&lt;/code&gt; gives us
+the first half of the list but since zip will just stop when it
+exhausts the shorter list, this wasn&amp;#39;t necessary.
+&lt;/p&gt;
+&lt;p&gt;
+Day 2 also has a nice list comprehension based solution. Maybe I&amp;#39;ll
+write that up later.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Inverted Index Project</title>
+      <link>https://cestlaz.github.io/posts/inverted-index/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/inverted-index/</guid>
+      <description>&lt;p&gt;
+I haven&amp;#39;t spoken much about the class I&amp;#39;ve been teaching this
+semester. It&amp;#39;s an intro CS course - a programming heavy intro. I
+decided to use Python with a transition at the end to C++. The
+transition is to mirror Hunter&amp;#39;s normal first CS course that ends with
+a C++ intro to prepare the students for next semester&amp;#39;s CS course
+which is a more intense OOP class using C++ - the language we use in
+our core courses.
+&lt;/p&gt;
+&lt;p&gt;
+Throughout the semester I&amp;#39;ve tried to use a variety of interesting
+application areas so as to try to give the students some idea of the
+possibilities that studying CS will open up for them.
+&lt;/p&gt;
+&lt;p&gt;
+After covering Python dictionaries and lists I thought we&amp;#39;d play by
+building an inverted Index.
+&lt;/p&gt;
+&lt;p&gt;
+The basic idea is to map a set of words back to source files. For
+example, given the following four one line files:
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;files&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;&lt;/th&gt;
+&lt;th&gt;contents&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;file.01&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;if you prick us do we not bleed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;file.02&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;if you tickle us do we not laugh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;file.03&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;if you poison us do we not die and&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;file.04&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;if you wrong us shall we not revenge&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+You could build a data structure mapping each word back to the file(s)
+that contain it (partially shown here),
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Word&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;&lt;/th&gt;
+&lt;th&gt;Files containing It&amp;#39;s&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;if&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;file.01 file.02 file.03 file.04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;you&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;file.01 file.02 file.03 file.04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;prick&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;file.01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;us&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;file.01 file.02 file.03 file.04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;do&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;file.01 file.02 file.03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+You can, of course, store more information - how many times a word
+appears in a file, where it appears, etc.
+&lt;/p&gt;
+&lt;p&gt;
+This is a fairly easy structure to build. A dictionary where the keys
+are the words in the file and the values are lists of the documents
+containing the words.
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+In addition to letting us work with dictionaries and lists, we can
+also review file access and even the python CSV module if we want.
+&lt;/p&gt;
+&lt;p&gt;
+We can immediately write simple queries – &amp;#34;what document(s) contain
+the word &amp;#39;prick,&amp;#39; but things get more interesting if you write
+functions to perform &lt;strong&gt;&lt;strong&gt;and&lt;/strong&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;strong&gt;or&lt;/strong&gt;&lt;/strong&gt; queries - &amp;#34;what document(s)
+contain the words &amp;#39;prick&amp;#39; &lt;strong&gt;&lt;strong&gt;or&lt;/strong&gt;&lt;/strong&gt; &amp;#39;do&amp;#39;&amp;#34; for instance.
+&lt;/p&gt;
+&lt;p&gt;
+Why are we building this (besides as a data structure and programming
+exercise)? I&amp;#39;ve seen a number of references to using an inverted index
+when building a web search engine. In fact, I think that&amp;#39;s something
+you do early on in the Udacity Mooc. I just wanted to play with
+information retrieval.
+&lt;/p&gt;
+&lt;p&gt;
+I remembered that there was a collection of information, including
+last statements from &lt;a href=&#34;https://www.tdcj.state.tx.us/death_row/dr_executed_offenders.html&#34;&gt;executed offenders in Texas&lt;/a&gt;. Someone conveniently
+converted it into a &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1HAjZTtPriClY-X3n9whTkA4i5D7bn3bmtHnLoaVICvI/edit#gid=1&#34;&gt;Google Spreadsheet&lt;/a&gt;. The format&amp;#39;s a little
+different from our simple four file example but then there&amp;#39;s more
+data. It&amp;#39;s straightforward enough to download the spreadsheet as a CSV
+file and then read it with a Python program that builds it into an
+inverted index.
+&lt;/p&gt;
+&lt;p&gt;
+Now we have some interesting data to play with.
+&lt;/p&gt;
+&lt;p&gt;
+How many offenders used words like &amp;#34;sorry&amp;#34; or &amp;#34;apologize?&amp;#34; How about
+references to religion? We can do all sorts of &lt;strong&gt;&lt;strong&gt;and&lt;/strong&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;strong&gt;or&lt;/strong&gt;&lt;/strong&gt;
+queries.
+&lt;/p&gt;
+&lt;p&gt;
+We just played with this a bit but I could see all sorts of
+explorations. What about taking some great work of literature and
+turning it into an inverted index by chapter. You could query
+characters or certain words and see where and when they appear in the
+book. A new and different way of exploring literature.
+&lt;/p&gt;
+&lt;p&gt;
+So, there you have it - an interesting little project we played with
+this past semester. We did it in an intro Python course but I could
+see it as an interesting project in AP CS A using hashmaps and lists.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flask - deploying to DigitalOcean</title>
+      <link>https://cestlaz.github.io/posts/digitaloceanflask/</link>
+      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/digitaloceanflask/</guid>
+      <description>
+&lt;p&gt;
+This post points to the next three videos in the Flask series.
+&lt;/p&gt;
+&lt;p&gt;
+The first covers setting up a droplet (virtual server) on
+&lt;a href=&#34;http://digitalocean.com&#34;&gt;DigitalOcean&lt;/a&gt;. The second, deploying a flask application using &lt;a href=&#34;http://gunicorn.org/&#34;&gt;Green
+Unicorn&lt;/a&gt;, and the third, using &lt;a href=&#34;https://github.com/libfuse/sshfs&#34;&gt;sshfs&lt;/a&gt; to remotely mount your files from
+your DO box to your local machine and how to set up DNS using &lt;a href=&#34;http://freedns.afraid.org&#34;&gt;FreeDNS&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+To help you on your way with DigitalOcean, here are links to a few of
+their tutorials
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04&#34;&gt;Server Setup (Ubuntu)&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh%0A&#34;&gt;Connecting to your droplet with ssh&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-sqet-up-ssh-keys--2&#34;&gt;Setting up ssh keys&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.digitalocean.com/community/tutorial_series/getting-started-with-linux&#34;&gt;Getting started with Linux (series)&lt;/a&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In general, there are lots of great tutorials and guides at the
+&lt;a href=&#34;http://digitalocean.com/community&#34;&gt;Digital Ocean Community&lt;/a&gt;.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Setting up a Droplet
+&lt;/h2&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LOS8PscXhz8&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Deploying with Gunicorn
+&lt;/h2&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/oum5Kh-69pg&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+sshfs and FreeDNS
+&lt;/h2&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/aha2r5I18i0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Installing Flask in a virtualenv</title>
+      <link>https://cestlaz.github.io/posts/flask-install-flask/</link>
+      <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/flask-install-flask/</guid>
+      <description>&lt;p&gt;
+Second video in the Flask series. This one goes over installing Flask
+in a virtualenv and running a simple Flask application.
+&lt;/p&gt;
+&lt;p&gt;
+Nothing much to say about this other then check out the video:
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/2ZIhczsu1EQ&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Setting up Linux for Flask Web Development</title>
+      <link>https://cestlaz.github.io/posts/flask-setup-virtualenv/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/flask-setup-virtualenv/</guid>
+      <description>&lt;p&gt;
+Those laptops that my Hunter students were supposed to get have
+finally arrived. We&amp;#39;re distributing them on Monday. Each student will
+have a Dell laptop running Ubuntu 16.04 for as long as they&amp;#39;re in the
+program.
+&lt;/p&gt;
+&lt;p&gt;
+This means we can finally start using the web as a way of displaying
+and sharing our projects.
+&lt;/p&gt;
+&lt;p&gt;
+For this type of web development, I&amp;#39;m a big fan of using &lt;a href=&#34;http://flask.pocoo.org&#34;&gt;Flask&lt;/a&gt;. Flask
+is a Python microframework. The easiest analogy is saying it&amp;#39;s like
+Ruby on rails but in Python. That&amp;#39;s close enough for our purposes.
+&lt;/p&gt;
+&lt;p&gt;
+I much prefer Python to Ruby as a teaching tool because it leads to
+roads going in all sorts of directions so it was merely a matter of
+figuring out which framework or platform to use. I found Django to be
+far too big, cumbersome, and all encompasing while on the other hand,
+&lt;a href=&#34;http://werkzeug.pocoo.org/&#34;&gt;Werkzeug&lt;/a&gt;, which Flask is based on is a little too low level.
+&lt;/p&gt;
+&lt;p&gt;
+Flask hit the sweet spot. Easy routing, session and form handling,
+templates, pretty much everything I was looking for but very
+unopinionated and open ended. Perfect for teaching and learning and
+perfect for lightweight projects. The sourecode is also
+straightforward enough for a student to explore.
+&lt;/p&gt;
+&lt;p&gt;
+Below is a video going over setting up Linux from right after an
+install to use the python virtualenv package. The next video will go
+over installing Flask and setting up a simple application. Later, I&amp;#39;ll
+post a video on deployment to a &lt;a href=&#34;http://digitalocean.com&#34;&gt;Digital Ocean&lt;/a&gt; Droplet.
+&lt;/p&gt;
+&lt;p&gt;
+Here are some notes relating to the video.
+&lt;/p&gt;
+&lt;p&gt;
+First, go to your &amp;#34;software sources&amp;#34; or &amp;#34;software updates&amp;#34;
+application from the menu and select all the sources (as described n
+the video)
+&lt;/p&gt;
+&lt;p&gt;
+To update a new system:
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgade&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+To install the most recent emacs snapshot
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt-add repository -y ppa:ubuntu-lisp
+sudo apt-get update
+sudo apt-get install emacs-snapshot&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+To install python pip (used to install other python packages)
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt-get install python-pip&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+and then to install the virtualenv packages
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo pip install virtualenv&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+To create a python3 virtual environment
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;pip install -p python3 venv-folder&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+You can activate the envorinment (assuming you create the folder under
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+your home directory):
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;source ~/venv-folder/bin/activate&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+And to deactivate it, from the activated terminal
+&lt;/p&gt;
+&lt;div class=&#34;src src-sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;deactivate&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Here&amp;#39;s the video. Next time, we&amp;#39;ll install Flask into an virtual
+environment.
+&lt;/p&gt;
+ &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/cEqB4pkR1c4&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

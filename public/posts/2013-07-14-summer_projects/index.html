@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Summer Project 1 - Citibike Data - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Summer Project 1 - Citibike Data" />
+<meta property="og:description" content="So, the Citibike program has been running for a bit. I like the idea, but I have some reservations &ndash; it&rsquo;s great for getting around in the zone - I&rsquo;ve been using it for short shopping trips - run cross town to Fairway or take a quick trip from work to Porto Rico Importers or Rocco&rsquo;s Pastries. On the other hand, the zone doesn&rsquo;t get to the residential neighborhoods of upper Manhattan or the boroughs and the price per day is way too expensive for regular working class joes, particularly on top of a subway trip." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/2013-07-14-summer_projects/" />
+<meta property="article:published_time" content="2013-07-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-07-14T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Summer Project 1 - Citibike Data"/>
+<meta name="twitter:description" content="So, the Citibike program has been running for a bit. I like the idea, but I have some reservations &ndash; it&rsquo;s great for getting around in the zone - I&rsquo;ve been using it for short shopping trips - run cross town to Fairway or take a quick trip from work to Porto Rico Importers or Rocco&rsquo;s Pastries. On the other hand, the zone doesn&rsquo;t get to the residential neighborhoods of upper Manhattan or the boroughs and the price per day is way too expensive for regular working class joes, particularly on top of a subway trip."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Summer Project 1 - Citibike Data</h1>
+        </header>
+        <div class="content">
+            <p>So, the Citibike program has been running for a bit. I like the idea,
+but I have some reservations &ndash; it&rsquo;s great for getting around in the
+zone - I&rsquo;ve been using it for short shopping trips - run cross town to
+<a href="http://www.fairwaymarket.com/">Fairway</a> or take a quick trip from
+work to <a href="http://www.portorico.com/store/">Porto Rico Importers</a> or
+<a href="http://pasticceriarocco.com/">Rocco&rsquo;s Pastries</a>. On the other hand,
+the zone doesn&rsquo;t get to the residential neighborhoods of upper
+Manhattan or the boroughs and the price per day is way too expensive
+for regular working class joes, particularly on top of a subway trip.</p>
+<p>In any event, I was curious about station use patterns. Cool thing is
+that you can get live data from
+<a href="http://citibikenyc.com/stations/json">here</a>. This was a great
+opportunity to play with some tools to see if I want to use them in
+class next year. In particular, <a href="http://backbonejs.org">backbone.js</a>
+and <a href="d3js.org">d3.js</a>.</p>
+<p>So, I&rsquo;m grabbing the station data every 5 minutes, storing it in a
+Mongo database, and threw together a little map and graph app:</p>
+<!-- raw HTML omitted -->
+<p>You can check it out <a href="http://cb.zamansky.net">here</a>.</p>
+<p>The code is up on GitHub:
+<a href="http://github.com/zamansky/citibike-1">citibike-1</a>.</p>
+<p>I might play around and add more graphs as I collect more data or
+maybe I&rsquo;ll just move on to the next project.</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2013-07-14</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/misc">#misc</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

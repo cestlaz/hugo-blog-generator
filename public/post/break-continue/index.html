@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Give me a break (and a continue) - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Give me a break (and a continue)" />
+<meta property="og:description" content="What can I do to discourage my students from using the &#34;break&#34; statement?   That was more or less the gist of the comment and it elicited some good responses. This time the conversation was on Facebook but I&#39;ve seen this one and participated in it many times before. I never liked the question when presented as a &#34;how can I stop them&#34; one. I equally dislike when the offered advice is basically &#34;never use break no matter what&#34; or something similar." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/break-continue/" />
+<meta property="article:published_time" content="2019-05-01T08:39:41-04:00" />
+<meta property="article:modified_time" content="2019-05-01T08:39:41-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Give me a break (and a continue)"/>
+<meta name="twitter:description" content="What can I do to discourage my students from using the &#34;break&#34; statement?   That was more or less the gist of the comment and it elicited some good responses. This time the conversation was on Facebook but I&#39;ve seen this one and participated in it many times before. I never liked the question when presented as a &#34;how can I stop them&#34; one. I equally dislike when the offered advice is basically &#34;never use break no matter what&#34; or something similar."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Give me a break (and a continue)</h1>
+        </header>
+        <div class="content">
+            <blockquote>
+<p>
+What can I do to discourage my students from using the &#34;break&#34;
+statement?
+</p>
+</blockquote>
+<p>
+That was more or less the gist of the comment and it elicited some
+good responses. This time the conversation was on Facebook but I&#39;ve
+seen this one and participated in it many times before. I never liked
+the question when presented as a &#34;how can I stop them&#34; one.  I equally
+dislike when the offered advice is basically &#34;never use break no
+matter what&#34; or something similar. When writing code the best advice
+is rarely to never or always do something. The question should really
+be &#34;when is it appropriate for my students to use a break statement
+and how can I steer them  towards using it correctly.&#34; The answer, of
+course is &#34;it depends.&#34;
+</p>
+<p>
+For those unfamiliar with the statements, <code>break</code> jumps to the end and
+exits the loop or switch statement that encloses it. The <code>continue</code>
+statement jumps up to the next iteration of its enclosing loop. I&#39;ll
+show some examples below.
+</p>
+<p>
+It&#39;s true that you never <strong>need</strong> to use break but in my opinion, if
+used correctly it can create clearer code. Let&#39;s look at a related
+situation. Suppose you write a function to find and return some item
+from  a data set (in pseudocode):
+</p>
+<div class="src src-java">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"></code></pre></div>
+</div>
+<p>
+You could tighten it up a bit but there are two things that I don&#39;t
+like about the above solution. First, it goes through the entire data
+set even if the item you&#39;re searching for is near the beginning. You
+could fix that by putting in a more complex loop boolean:
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span>i<span style="color:#f92672">=</span>0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> numitems <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>found <span style="color:#f92672">;</span> i<span style="color:#f92672">++)</span> <span style="color:#f92672">...</span></code></pre></div>
+</p>
+<p>
+Second. you&#39;ve got the conditional after the loop. I find the
+following much clearer:
+</p>
+<div class="src src-java">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">  </code></pre></div>
+</div>
+<p>
+To me this is perfectly clear. Look for an item, if and when we find
+it, we&#39;re done so let&#39;s get out of here. If not, the loop finishes and
+we return the not found stuff at the end. It&#39;s clean, easy to
+understand, and potentially a little faster.
+</p>
+<p>
+You have a similar situation with <code>break</code>. Without it you might have
+code like this:
+</p>
+<div class="src src-java">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">  </code></pre></div>
+</div>
+<p>
+And with:
+</p>
+<div class="src src-java">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">  </code></pre></div>
+</div>
+<p>
+Not significantly different. 
+</p>
+<p>
+People who don&#39;t like the break statement usually adhere to a very
+strict interpretation of structured programming - one entry point, one
+exit point but I&#39;d argue that break (and continue) are not like
+arbitrary jumps. They&#39;re well defined and don&#39;t introduce spaghetti
+code. They either specifically exit a bounding language construct or
+jump to the next iteration. Actually, now that I think about it,
+<code>exceptions</code> can be used in a way that mucks with clear code in a much
+more dangerous way than break and continue can.
+</p>
+<p>
+Here&#39;s an example with continue:
+</p>
+<div class="src src-java">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">    </code></pre></div>
+</div>
+<p>
+as opposed to:
+</p>
+<div class="src src-java">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">    </code></pre></div>
+</div>
+<p>
+Which is better? It&#39;s purely subjective. Nothing wrong with either.
+</p>
+<p>
+I&#39;ll share a final example. This one lifted from an <a href="https://cestlaz.github.io/post/globals-breaks-and-returns/">older post</a> on
+&#34;best practices.&#34; If you&#39;re writing an event handler, you could put
+the exit event in the loop boolean but I find including it
+as a case using a <code>break</code> to be cleaner:
+</p>
+<div class="src src-c++">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">
+</code></pre></div>
+</div>
+<p>
+At the end of the day, <code>break</code> and <code>continue</code>, like most langauge
+constructs can be used for either good or evil. There have been times
+when they&#39;ve led me to cleaner code so I&#39;ve used them. At other times,
+using them would have been forced.
+</p>
+<p>
+If we agree that <code>break</code> and <code>continue</code> can be appropriate, the other
+question is when to introduce them. One comment from the most recent
+Facebook thread on this (name withheld since that&#39;s a semi-private
+forum) was that it shouldn&#39;t be right off the bat but rather after
+they&#39;re comfortable with loops, conditionals and booleans so that they
+can use the new constructs when they make sense and not willy-nilly. I
+tend to agree with this.
+</p>
+<p>
+Personally, I think it&#39;s important to show our kids constructs like
+<code>break</code> and <code>continue</code> and it&#39;s also important for us to talk about
+good code and <a href="https://cestlaz.github.io/posts/best-practices-cli/">best practices</a> but the important thing is that we don&#39;t
+have our kids blindly follow any practice but empower them to make good
+decisions based on their situations.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2019-05-01</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/programming">programming</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs">#cs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/programming">#programming</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/csed">#csed</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/coding">#coding</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/software-engineering">#software engineering</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

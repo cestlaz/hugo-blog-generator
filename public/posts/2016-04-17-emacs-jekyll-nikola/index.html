@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="— title: &#34;Blogging with Emacs, Jekyll and Nikola&#34; date: 2016-04-17 tags:    mathjax    emacs    tools    draft: false —  Switched over from Jekyll to Nikola yesterday.  One of the primary reasons was that I got fed up with managing a Ruby development environment across all my machines. In spite of my rantings, I&#39;m sure Ruby and Ruby installs are fine - it&#39;s just something that I&#39;d have to deal with on a recurring basis for one specific task - other than for Jekyll blogging, I don&#39;t use Ruby." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/2016-04-17-emacs-jekyll-nikola/" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="— title: &#34;Blogging with Emacs, Jekyll and Nikola&#34; date: 2016-04-17 tags:    mathjax    emacs    tools    draft: false —  Switched over from Jekyll to Nikola yesterday.  One of the primary reasons was that I got fed up with managing a Ruby development environment across all my machines. In spite of my rantings, I&#39;m sure Ruby and Ruby installs are fine - it&#39;s just something that I&#39;d have to deal with on a recurring basis for one specific task - other than for Jekyll blogging, I don&#39;t use Ruby."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title"></h1>
+        </header>
+        <div class="content">
+            <p>
+—
+title: &#34;Blogging with Emacs, Jekyll and Nikola&#34;
+date: 2016-04-17
+tags:
+</p>
+<ul>
+<li>
+<p>
+mathjax
+</p>
+</li>
+<li>
+<p>
+emacs
+</p>
+</li>
+<li>
+<p>
+tools
+</p>
+</li>
+</ul>
+<p>
+draft: false
+—
+</p>
+<p>
+Switched over from <a href="https://jekyllrb.com/">Jekyll</a> to <a href="https://getnikola.com/">Nikola</a> yesterday.
+</p>
+<p>
+One of the primary reasons was that I got fed up with managing a Ruby
+development environment across all my machines. In spite of my
+rantings, I&#39;m sure Ruby and Ruby installs are fine - it&#39;s just
+something that I&#39;d have to deal with on a recurring basis for one
+specific task - other than for Jekyll blogging, I don&#39;t use Ruby.
+</p>
+<p>
+So while a platform based on Python - generally my go to language,
+made sense, the other driving force for the switch was the fact that
+<a href="https://www.gnu.org/software/emacs/">Emacs</a> and <a href="http://orgmode.org/">org-mode</a> have become such major parts of my workflow and
+productivity.
+</p>
+<p>
+What do I use org-mode for?
+</p>
+<ul>
+<li>
+<p>
+lesson planning
+</p>
+</li>
+<li>
+<p>
+document preparation (instead of LaTeX)
+</p>
+</li>
+<li>
+<p>
+note taking
+</p>
+</li>
+<li>
+<p>
+blogging
+</p>
+</li>
+<li>
+<p>
+email (with mu4e)
+</p>
+</li>
+<li>
+<p>
+managing my schedule
+</p>
+</li>
+<li>
+<p>
+tracking bookmarks
+</p>
+</li>
+</ul>
+<p>
+and probably a lot more.
+</p>
+<p>
+Jekyll is actually a really nice tool. It&#39;s simple. You put together a
+simple directory structure: Templates in _layouts, blog posts in
+_posts, drafts in _drafts. Other directories that start with an
+underscore are ignored and everything else is copied up to your site.
+</p>
+<p>
+I love that it&#39;s &#34;close to the metal&#34; You can put in html files with
+some meta information up top or markdown.
+</p>
+<p>
+You can take a look at my old site at
+<a href="https://github.com/cestlaz/cestlaz.github.io-jekyll"><a href="https://github.com/cestlaz/cestlaz.github.io-jekyll">https://github.com/cestlaz/cestlaz.github.io-jekyll</a></a> if you want to
+take a look.
+</p>
+<p>
+The beauty is that you just push your files up to GitHub and it
+automatically runs Jekyll and builds your site (<a href="https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/">more info here</a>).
+</p>
+<p>
+The problem is that Jekyll doesn&#39;t play well with org-mode and
+org-markup so my workflow became something like this
+</p>
+<ol>
+<li>
+<p>
+Create a post <strong><strong>something.org</strong></strong> in the _org directory.
+</p>
+</li>
+<li>
+<p>
+From within emacs, publish it. I&#39;ve configured org-mode to publish
+</p>
+</li>
+</ol>
+<p>
+by exporting the org-mode markup file to html and saving it in the
+_drafts directory.
+</p>
+<ol>
+<li>
+<p>
+If it looks good, copy and rename the file from _drafts to the
+</p>
+</li>
+</ol>
+<p>
+_posts directory and push it up to GitHub.
+</p>
+<p>
+A little clunky, but it works. The bigger problem was the amount of
+time I&#39;d spend putting html blocks into my org formatted posts to get
+them to look the way I wanted (or at least close enough).
+</p>
+<p>
+Enter Nikola.
+</p>
+<p>
+Nikola&#39;s a much more powerful tool. It does much more but as a result
+is much more complex. Normally, that&#39;s not my style but in this case
+since It&#39;s Python, things balance out.
+</p>
+<p>
+I still have to figure out the entire templating system and all the
+plugins but getting started was pretty quick.
+</p>
+<p>
+The big win is that Nikola supports a ton of formats for your posts
+and pages. Native org-mode support for me was what did it for me. On top of
+that, although I haven&#39;t tested it yet, is that there&#39;s also an
+org-mode plugin to export to Nikola restructure text.
+</p>
+<p>
+My new workflow:
+</p>
+<ol>
+<li>
+<p>
+Write the post as an org-mode file.
+</p>
+</li>
+<li>
+<p>
+run <strong><strong>nikola github_{}deploy</strong></strong>.
+</p>
+</li>
+</ol>
+<p>
+And that&#39;s it. You can look at my Nikola site here:
+<a href="https://github.com/cestlaz/cestlaz.github.io"><a href="https://github.com/cestlaz/cestlaz.github.io">https://github.com/cestlaz/cestlaz.github.io</a></a>.
+The source code is in the <strong><strong>src</strong></strong> branch, the actual rendered blog in
+the <strong><strong>master</strong></strong> branch.
+</p>
+<p>
+So far, I&#39;m pretty happy with the setup.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+    <div class="post-taxonomies">
+        
+            
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

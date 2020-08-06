@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Pig Latin - a beginner lesson with some depth - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Pig Latin - a beginner lesson with some depth" />
+<meta property="og:description" content="I recently did a unit where I had my students convert words into Pig Latin. I like the problem because to start it only requires strings, functions and if statements but there is some depth to the unit.  We start with simplified rules:    If the word starts with a vowel, add &#34;ay&#34; to the end of the word    If it starts with a consonant move the first latter to the end and add &#34;ay&#34;    don&#39;t worry about anything else    Students usually start with something like this:    as students realize it&#39;s much easier to check for vowels rather than consonants." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/piglatin/" />
+<meta property="article:published_time" content="2019-09-25T17:11:29-04:00" />
+<meta property="article:modified_time" content="2019-09-25T17:11:29-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Pig Latin - a beginner lesson with some depth"/>
+<meta name="twitter:description" content="I recently did a unit where I had my students convert words into Pig Latin. I like the problem because to start it only requires strings, functions and if statements but there is some depth to the unit.  We start with simplified rules:    If the word starts with a vowel, add &#34;ay&#34; to the end of the word    If it starts with a consonant move the first latter to the end and add &#34;ay&#34;    don&#39;t worry about anything else    Students usually start with something like this:    as students realize it&#39;s much easier to check for vowels rather than consonants."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Pig Latin - a beginner lesson with some depth</h1>
+        </header>
+        <div class="content">
+            <p>
+I recently did a unit where I had my students convert words into <a href="https://en.wikipedia.org/wiki/Pig_Latin">Pig
+Latin</a>. I like the problem because to start it only requires strings,
+functions and if statements but there is some depth to the unit.
+</p>
+<p>
+We start with simplified rules:
+</p>
+<ol>
+<li>
+<p>
+If the word starts with a vowel, add &#34;ay&#34; to the end of the word
+</p>
+</li>
+<li>
+<p>
+If it starts with a consonant move the first latter to the end and
+add &#34;ay&#34;
+</p>
+</li>
+<li>
+<p>
+don&#39;t worry about anything else
+</p>
+</li>
+</ol>
+<p>
+Students usually start with something like this:
+</p>
+<div class="src src-python">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"></code></pre></div>
+</div>
+<p>
+as students realize it&#39;s much easier to check for vowels rather than
+consonants. 
+</p>
+<p>
+Some students discover that you can do any of the following instead of
+the big compound <strong>or</strong> :
+</p>
+<div class="src src-python">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"></code></pre></div>
+</div>
+<p>
+This allows us to talk a little about lists (and tuples if you like)
+as well as now strings are similar to them in certain ways.
+</p>
+<p>
+By itself, this is a nice little beginner project but it gets better. 
+</p>
+<p>
+Since we talked a bit about lists and strings in the refinement, we
+then talk about using python&#39;s <code>split()</code> method that parses a string
+on whitespace. We also talk about the <code>for</code> loop. Ultimately this
+leads us to writing a function to convert a sentence into Pig Latin:
+</p>
+<div class="src src-python">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"></code></pre></div>
+</div>
+<p>
+But this doesn&#39;t work with real sentences. Let&#39;s focus on two
+problems. The first is that it won&#39;t handle the period at the end of
+the sentence properly. It would take that last word, let&#39;s say <strong>dog.</strong> 
+and convert it to <strong>og,day</strong> rather than <strong>ogday.</strong>. It also doesn&#39;t
+handle capital letters. There are other issues but they have similar
+solutions to the ones we&#39;ll use for these two.
+</p>
+<p>
+This is where things get fun. 
+</p>
+<p>
+To handle the period, students frequently jump to modifying the <strong>if</strong> 
+conditions in <code>piglatinify</code> :
+</p>
+<div class="src src-python">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"></code></pre></div>
+</div>
+<p>
+or something similar.
+</p>
+<p>
+This is a straighforward working solution but it&#39;s also a great place to introduce the idea of changing the data
+instead of using complex conditionals to handle special cases (earlier
+posts <a href="https://cestlaz.github.io/posts/2014-02-26-change-the-data/">here</a> and <a href="https://cestlaz.github.io/posts/advent-of-code-2016-2/">here</a>).
+</p>
+<p>
+If we take out the period we can do our regular piglatinify and then
+add it back in. This leads us to a solution like this:
+</p>
+<div class="src src-python">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"></code></pre></div>
+</div>
+<p>
+We can do something similar to deal with words that start with upper
+case letters:
+</p>
+<div class="src src-python">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"></code></pre></div>
+</div>
+<p>
+You can approach other special cases similarly.
+</p>
+<p>
+So, there you have it. A fun little problem that you can do with your students
+early on in a CS0 with surprising depth.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2019-09-25</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/CS%20Education">CS Education</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs-education">#CS Education</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

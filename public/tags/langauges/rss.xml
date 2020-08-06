@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>langauges on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/langauges/</link>
+    <description>C&#39;est la Z (langauges)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Feb 2019 15:08:18 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/langauges/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Use A Real Language</title>
+      <link>https://cestlaz.github.io/post/use-a-real-language/</link>
+      <pubDate>Sat, 09 Feb 2019 15:08:18 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/use-a-real-language/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;
+Why can&amp;#39;t we use a real language!
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+This topic has been coming up a lot recently. Now I&amp;#39;m not talking
+about the Drag and drop vs textual language thing. Let me be clear. To
+me a Drag and Drop language can certainly be a real language and many
+are. I also think they&amp;#39;re terrific when used correctly. I just think
+they&amp;#39;re frequently misapplied in later grades. 
+&lt;/p&gt;
+&lt;p&gt;
+No, I&amp;#39;m talking about people asking things like &amp;#34;Why do we have to use
+Java in our class, why can&amp;#39;t we use a real language like &lt;span style=&#34;text-decoration: underline;&#34;&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;__&lt;/span&gt;&lt;/span&gt;.&amp;#34; Or
+at Hunter, I might get &amp;#34;Why do we have to use C++, why can&amp;#39;t we use
+Java.&amp;#34; Back at Stuy I&amp;#39;d get the same question about Scheme and
+Netlogo. It actually doesn&amp;#39;t really matter what language you
+use. Someone else, usually a non-teacher always knows better.
+&lt;/p&gt;
+&lt;p&gt;
+All of this reminded me of when I was young. 
+&lt;/p&gt;
+&lt;p&gt;
+I started with BASIC and then in high school programmed Fortran IV
+using punch cards on an &lt;a href=&#34;https://en.wikipedia.org/wiki/IBM_1130&#34;&gt;IBM 1130&lt;/a&gt;. At the time BASIC was considered a
+toy language and Fortran IV not to mention punch cards were
+yesterday&amp;#39;s technology. I also took APCS the first year it was offered
+and that&amp;#39;s where I learned Pascal.
+&lt;/p&gt;
+&lt;p&gt;
+I then went to NYU - The Courant Institute of Mathematical Sciences. There
+we also used Pascal as the core language. That was the language used
+in CS1, Data Structures, and Algorithms. It was also the default
+language for other classes. That is, unless the class lent itself to
+a specific language such as Lisp for AI you&amp;#39;d probably use
+Pascal. I learned C early on in my college career and also took
+classes that used Ada, and 8088 Assembly. I mostly tried to stick with
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+It was the hot language at the time and all the cool kids were
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+using it. Some kids continued to use Pascal but it was universally
+derided. It wasn&amp;#39;t a &amp;#34;real language.&amp;#34; Nobody used it for anything
+serious.
+&lt;/p&gt;
+&lt;p&gt;
+Senior year it was time to look for a job. I ended up going  to
+Goldman Sachs and developed for PCs running Windows 2.1 in C. They
+also hired a bunch of college grads to program the Stratus systems in
+PL1 and Cobol programmers for the mainframes. This was
+around 1989. Goldman and most other big companies started you in a
+training program. I already knew C but they ran a crash course for my
+group. They did the same for the Cobol kids although most of them had
+learned it in their business schools. The PL1 kids were grouped in
+with the C and Cobol groups and had to figure out PL1 on their own
+once they were assigned teams.
+&lt;/p&gt;
+&lt;p&gt;
+My story tough, isn&amp;#39;t about Goldman. It&amp;#39;s about another big bank I
+interviewed with. I won&amp;#39;t name them but it&amp;#39;s a big firm that still
+exists today. I think they had at least a whole big building down on
+the street back when I interviewed but I don&amp;#39;t remember. The interview
+process was tough and thorough. We talked about the firm, what they
+did, the platforms they developed and of course they drilled me on
+what I brought to the table. The funny thing was that their entire
+PC platform was built in, yep, you guessed it, Turbo Pascal. 
+&lt;/p&gt;
+&lt;p&gt;
+Here was a really respected financial firm doing really interesting
+tech and they were using that fake toy language that no kid would ever
+use for real.
+&lt;/p&gt;
+&lt;p&gt;
+So there you have it. All this &amp;#34;it&amp;#39;s not a real language&amp;#34; stuff is
+largely nonsense. If it can solve your problem it&amp;#39;s real. If it can
+teach your concept it&amp;#39;s real. The rest is nonsense.
+&lt;/p&gt;
+&lt;p&gt;
+As a side note, my first programming gig was in the mid 1980s for a
+ticket printing company - Arcus Simplex Brown. I worked on a computer
+ticket printing system for them. It was in BASIC and ran on a little
+PC running CP/M with a big line printer. Best I could figure they were
+still using the same system in 2012.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://cestlaz.github.io/img/ticket.jpg&#34; width=&#34;250&#34; height=&#34;250px&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+So, don&amp;#39;t get caught up with someone else&amp;#39;s opinion of what&amp;#39;s a real
+language just make sure your students are getting what they need.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A new first language? What&#39;s the follow up plan?</title>
+      <link>https://cestlaz.github.io/posts/first-language-changing/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/first-language-changing/</guid>
+      <description>&lt;p&gt;
+This morning, &lt;a href=&#34;https://twitter.com/guzdial&#34;&gt;Mark Guzdial&lt;/a&gt; wrote about Stanford possibly &lt;a href=&#34;https://computinged.wordpress.com/2017/04/21/cs-department-updates-introductory-courses-java-is-gone/&#34;&gt;moving away
+from Java&lt;/a&gt; as their intro language. This comes on the heels of a
+semi-regular thread on one of the lists I&amp;#39;m on asking about what
+languages are used at assorted colleges around the country. Invariably
+the Pascal -&amp;gt; C++ -&amp;gt; Java progression of APCS turns up in these
+threads.
+&lt;/p&gt;
+&lt;p&gt;
+There are plenty of arguments to be made both for and against pretty
+much any language or platform. There&amp;#39;s no single best universal
+answer. Each choice giveth and each choice taketh away.
+&lt;/p&gt;
+&lt;p&gt;
+What I&amp;#39;m really curious about is who&amp;#39;s looking at intro languages in
+the context of complete programs or even complete educations that
+could span multiple institutions.
+&lt;/p&gt;
+&lt;p&gt;
+Early language choices can make a big difference in engaging and
+exciting newcomers but there are ramifications later on that few seem
+to consider.
+&lt;/p&gt;
+&lt;p&gt;
+Take the APCS change from C++ to Java. It removed memory management
+from the first year course. It also simplified issues relating to
+pass by value vs pass by reference (or, rather, passing address by
+value), bought much more strongly into OOP and moved more towards
+using built in implementations of data structures like Lists rather
+than rolling your own.
+&lt;/p&gt;
+&lt;p&gt;
+Removing memory management from the first year course in and of itself
+isn&amp;#39;t a problem as long as it&amp;#39;s taught and taught effectively
+somewhere later on. It could be argued that &amp;#34;memory is already covered
+in our required systems course.&amp;#34; That could be the case, but there are
+many concepts that kids don&amp;#39;t get the first time around. Is an
+institution that covered memory management in CS1/2 and then came back
+to it in a later Systems course giving their students the same
+understanding now that they&amp;#39;ve eliminated the CS1/2 experience?
+&lt;/p&gt;
+&lt;p&gt;
+What about OOP buy in. Personally, I&amp;#39;ve never been a big OOP fan but
+that&amp;#39;s neither here nor there. What I have found is that depending on
+how a student is exposed to programming in CS1/CS2 can have a big
+influence on how they approach problems later. Did the move to Java
+cause more of our students to try to use shoehorn OOP into a problem
+that really shouldn&amp;#39;t be approached in an OOP manner?
+&lt;/p&gt;
+&lt;p&gt;
+I suspect that the use of built in data structures has had a
+negative impact. A few years after the switch to Java, I was talking
+to a senior tech worker. He was having a bad day - interviewing
+potential internees and full time engineers. My friend was complaining
+that the kids couldn&amp;#39;t come up with solutions to what he thought were
+pretty straightforward questions. He felt that had the kids actually
+implemented algorithms like the nlogn sorts rather than just learning
+java .sort method and just talking about the algorithm they&amp;#39;d be
+better prepared. I&amp;#39;ve heard this sentiment repeated over and over
+throughout the years.
+&lt;/p&gt;
+&lt;p&gt;
+This is not to say that Java is a horrible language or horrible for
+teaching - that&amp;#39;s another debate. The point is that you can&amp;#39;t just
+look at the intro class and who it draws in. You have to consider how
+it will prepare students for the next level and you have to look at
+the big picture – will our students get everything they need by the
+time they leave us.
+&lt;/p&gt;
+&lt;p&gt;
+Many schools have moved to Python. Will that effect students take on
+type systems later on? Will the flexibility and constructs like list
+comprehensions make it harder to teach recursion since there are
+&amp;#34;easier&amp;#34; ways to do it?
+&lt;/p&gt;
+&lt;p&gt;
+None of these are really problems so long as the CS1/2 (or even CS0)
+isn&amp;#39;t taught in a vacuum.
+&lt;/p&gt;
+&lt;p&gt;
+I fear, however that too often we&amp;#39;re paying attention to the intake of
+the pipe and not so much the output.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Different languages, different techniques, different solutions - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Different languages, different techniques, different solutions" />
+<meta property="og:description" content="I spent this weekend diving back into Clojure or more specifically, Clojurescript. For those who don&#39;t know, Clojure is a Lisp that runs on the JVM. The solution it particularly seeks to &#34;solve&#34; is immutability. Clojurescript is Clojure that compiles to Javascript for web applications. Tooling aside, it&#39;s all pretty neat.  I didn&#39;t do anything earth shaking, just a quick implementation of Conway&#39;s game of life and Snake. While the code isn&#39;t particularly good, you can check them out here (Snake, Life)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/different-languages/" />
+<meta property="article:published_time" content="2019-09-02T17:33:51-04:00" />
+<meta property="article:modified_time" content="2019-09-02T17:33:51-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Different languages, different techniques, different solutions"/>
+<meta name="twitter:description" content="I spent this weekend diving back into Clojure or more specifically, Clojurescript. For those who don&#39;t know, Clojure is a Lisp that runs on the JVM. The solution it particularly seeks to &#34;solve&#34; is immutability. Clojurescript is Clojure that compiles to Javascript for web applications. Tooling aside, it&#39;s all pretty neat.  I didn&#39;t do anything earth shaking, just a quick implementation of Conway&#39;s game of life and Snake. While the code isn&#39;t particularly good, you can check them out here (Snake, Life)."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Different languages, different techniques, different solutions</h1>
+        </header>
+        <div class="content">
+            <p>
+I spent this weekend diving back into Clojure or more specifically,
+Clojurescript. For those who don&#39;t know, Clojure is a Lisp that runs
+on the JVM. The solution it particularly seeks to &#34;solve&#34; is
+immutability. Clojurescript is Clojure that compiles to Javascript for
+web applications. Tooling aside, it&#39;s all pretty neat.
+</p>
+<p>
+I didn&#39;t do anything earth shaking, just a quick implementation of
+Conway&#39;s game of life and Snake. While the code isn&#39;t particularly
+good, you can check them out here (<a href="https://github.com/zamansky/clojure-snake">Snake</a>, <a href="http://github.com/zamansky/clojure-life">Life</a>).
+</p>
+<p>
+The Life implementation got me thinking about the value of studying
+different languages or more specifically, different paradigms. A
+student who implements the game of life in Java will likely implement
+something very similar in C++ as both languages are Object Oriented /
+imperative. An implementation in Clojure or Haskell will likely look
+very different.
+</p>
+<p>
+Let&#39;s look a little deeper.
+</p>
+<p>
+<a href="https://en.wikipedia.org/wiki/Conway%2527s_Game_of_Life">Conway&#39;s Game of LIfe</a> is a Cellular Automaton and when teaching a CS
+class in Java or C++ it&#39;s a really nice application of 2D arrays. On
+each turn, for each cell in the world, you calculate its living
+neighbors. If the cell is alive and it has 2 or 3 living neighbors, it
+stays alive to the next turn. If the cell isn&#39;t alive but has 3 living
+neighbors it will become alive. Otherwise the cell dies (or remains
+dead).
+</p>
+<p>
+In a Java type language, given a 2D array <code>this_turn</code> with the current
+world and you might get something like:
+</p>
+<div class="src src-java">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"></code></pre></div>
+</div>
+<p>
+It&#39;s a really nice application of 2D arrays and I&#39;ve done it with my
+classes frequently over the years.
+</p>
+<p>
+Another language I&#39;ve done <strong>life</strong> in is NetLogo. In NetLogo, you have
+a world represented by an x,y grid with each cell in the grid known as
+a patch. You write a program and all the patches run it
+independently. A life solution might look like this:
+</p>
+<div class="src src-text">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"><pre><code class="language-netlogo" data-lang="netlogo">ask patches [ 
+  set n count nieghbors with [color =  red] ;; red cells will be alive
+  ifelse color = red 
+    [ ifelse n=2 or n = 3
+        [set nextcolor red]
+        [set nextcolor black]
+    ] 
+    [
+      ifelse n=3
+        [ set nextcolor red ]
+        [ set nextcolor black ]  
+    ]
+ask patches [set color nextcolor]</code></pre></code></pre></div>
+</div>
+<p>
+My NetLogo is a little rusty so my syntax might be off but the idea is
+to:
+</p>
+<ol>
+<li>
+<p>
+have each patch count it&#39;s living neighbors and figure out it&#39;s
+next state - alive (red) or dead (black)
+</p>
+</li>
+<li>
+<p>
+have each patch set its color to the new state
+</p>
+</li>
+</ol>
+<p>
+This is a very different solution. In NetLogo you never think about
+looping over the cells. It&#39;s much higher level. You think about each
+location as it&#39;s own entity whereas in the Java solution you&#39;re
+getting much more into the nitty gritty. 
+</p>
+<p>
+NetLogo and Java are very different languages and using them
+encourages you to solve problems in different ways. you&#39;d likely
+never create a 2D array in NetLogo - you&#39;d exploit the word as your
+array. Likewise you&#39;d exploit the patches to distribute the work. In
+Java you&#39;d probably wouldn&#39;t create a class to represent each patch in
+the array and then run each in a thread. That would be overkill for
+the problem at hand.
+</p>
+<p>
+Well, what about Clojure?
+</p>
+<p>
+Clojure isn&#39;t set up for 2D arrays, at least not as cleanly as a
+language like C++ or Java. One could use Java Interop - that is, the
+ability of Clojure to directly use Java but that would defeat the
+purpose of using Clojure. Clojure is all about lists, vectors, and
+maps. Instead of a 2D array of the world, I made a list (vector) where
+each element contained the location of a living cell. This is
+certainly more space efficient. It also let me operate on the world as
+a sequence of transformations to the data:
+</p>
+<ol>
+<li>
+<p>
+Calculate all the possible next cells (the cells in the list plus
+all their neighbors
+</p>
+</li>
+<li>
+<p>
+For each possible next cell, count it&#39;s living neighbors and
+determine if the cell is alive in the next iteration
+</p>
+</li>
+<li>
+<p>
+Replace the list of cells with these new cells. 
+</p>
+</li>
+</ol>
+<div class="src src-clojure">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-clojure" data-lang="clojure"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-clojure" data-lang="clojure">(<span style="color:#66d9ef">defn </span>generate [state]
+  <span style="color:#e6db74">&#34;Generate and return the next state&#34;</span>
+  (<span style="color:#66d9ef">let </span>[potential-cells (for [[x y] state [dx dy] cell-bloc-3x3]
+                          [(+ x dx) (+ y dy)])
+        next-state (for [cell potential-cells]
+                     (<span style="color:#66d9ef">if </span>(<span style="color:#a6e22e">alive?</span> cell state) cell))]
+    (into <span style="color:#f92672">#</span>{} (remove nil?(into <span style="color:#f92672">#</span>{} next-state)))))</code></pre></div></code></pre></div>
+</div>
+<p>
+You can see the complete code <a href="https://github.com/zamansky/clojure-life/blob/master/src/life.cljs">here</a>. 
+</p>
+<p>
+This again is a very different way of thinking about the problem. In
+Java we looped over the world and made adjustments. Here we
+transformed the current set of cells into the next generations set of
+cells in a pipeline like fashion.
+</p>
+<p>
+Another feature of Clojure that results from its focus on immutability
+is that in programs like these the computational part of the program
+and the presentation part (the graphics) are totally separate. We
+first transform the data and then the UI displays the current
+data. Clojure does this very nicely and maybe I&#39;ll write a post on
+it but for now, I just want to point out that this is very different
+from NetLogo. In fact, I completely finished the program for life
+before I even thought about the interface. In NetLogo the interface is
+an integral part of the language.
+</p>
+<p>
+The point of all of this is that languages designed around different
+paradigms are worth exploring even if you never do real work in
+them. Even if you don&#39;t like or use Clojure you can take lessons from
+it&#39;s functional side and how it handles immutability and you can add
+those techniques to your toolkit when using C++ or Java. It doesn&#39;t
+mean you should write Java to look like Clojure but having a complete
+toolkit of paradigms to draw from and apply when appropriate can only
+be good for us and for our students.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2019-09-02</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/languages">languages</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/languages">#languages</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/paradigms">#paradigms</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

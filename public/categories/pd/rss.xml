@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PD on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/categories/pd/</link>
+    <description>C&#39;est la Z (PD)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jun 2020 12:29:06 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/categories/pd/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Teaching CS  - all the educators to all the grades</title>
+      <link>https://cestlaz.github.io/post/teaching-cs-in-all-the-grades/</link>
+      <pubDate>Sat, 27 Jun 2020 12:29:06 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/teaching-cs-in-all-the-grades/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;m kicking off a couple of exciting summer projects next week and
+it&amp;#39;s been pointed out to me a couple of times that I&amp;#39;ll be working
+with educators at every level to help them to deliver CS instruction
+to students at every level. What an opportunity to be a part of and
+learn from - working with every level of teacher for every level of
+student. I&amp;#39;m part of the teaching teams but I think I&amp;#39;m also going to
+learn a lot.
+&lt;/p&gt;
+&lt;p&gt;
+So, how is this happening? 
+&lt;/p&gt;
+&lt;p&gt;
+One project I&amp;#39;m working on, entering its second year is a &lt;a href=&#34;https://cestlaz.github.io/post/ct-in-primary-grades/&#34;&gt;project&lt;/a&gt; on
+computational thinking in the early grades. &lt;a href=&#34;https://twitter.com/yadavaman&#34;&gt;Aman Yadav&lt;/a&gt; and I, with the
+support of the Robin Hood Foundation will be working with primary
+grade teachers to develop experience that both teach computational
+thinking and use CT to support the core subject areas. As we had last
+time, we&amp;#39;ll have both working teachers and pre-service teachers - that
+is, Hunter students close to earning their teaching degrees and
+certifications. In the Fall, the pre-service teachers will student
+teach under the supervision of the working teachers in our
+program. 
+&lt;/p&gt;
+&lt;p&gt;
+Based on what we did last year I&amp;#39;m convinced that this years cohort
+will get a lot out of the experience but I&amp;#39;m also convinced that the
+workshop still faces the limitations of any professional development
+style training - short duration, one shot, and no long term
+support. PD can be valuable but I&amp;#39;m 100% convinced it&amp;#39;s not the answer
+in terms of preparing CS teachers. At the end of the workshop, our
+teachers will have learned something about CT, be more comfortable
+with it, and have designed some lessons that they&amp;#39;ll deliver in the
+Fall. It&amp;#39;s a start but it&amp;#39;s not the end. 
+&lt;/p&gt;
+&lt;p&gt;
+The game changer brings me to the other group of people
+participating - four full time Hunter Faculty members. They all teach
+in our School of Education. The aim is to see where we can add CT to
+our pre-service classes. This moves the needle. If we do it right,
+soon enough, every Hunter College primary grade teaching candidate
+will be learning about Computational Thinking in their required Ed
+classes. That&amp;#39;s how you do it - get it into pre-service.
+&lt;/p&gt;
+&lt;p&gt;
+So, that has me working with pre-service and in-service teachers as
+well as full time research faculty. That&amp;#39;s a lot of levels of
+educators but it&amp;#39;s not all the grades.
+&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s the other project we&amp;#39;re kicking off on Monday and one that I
+plan to write a lot about over the next month and into next year. 
+&lt;/p&gt;
+&lt;p&gt;
+We&amp;#39;re finally kicking off our Computer Science Teacher certification
+program. We&amp;#39;ve got a cohort of a little over 20 teachers that will
+take part in a month long intensive followed by more coursework in
+the Fall. When they&amp;#39;re done, they&amp;#39;ll be among the first certified
+computer science teachers in New York State. The cohort consists
+mostly of High School teachers but we&amp;#39;ve got some middle school in
+there as well. 
+&lt;/p&gt;
+&lt;p&gt;
+This too is a game changer. We&amp;#39;re not giving a curriculum to follow or
+scripts to copy but rather we&amp;#39;re teaching serious CS and how to teach
+it. Of course it doesn&amp;#39;t hurt that the cohort is comprised of strong,
+experienced teachers. 
+&lt;/p&gt;
+&lt;p&gt;
+So there it is - all the levels of teachers to all the levels of
+students. I&amp;#39;m super excited to be part of both of these game changing
+projects and can&amp;#39;t wait for Monday when we get to work.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PD in NYC</title>
+      <link>https://cestlaz.github.io/post/pd-in-nyc/</link>
+      <pubDate>Sun, 18 Nov 2018 19:43:36 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/pd-in-nyc/</guid>
+      <description>&lt;p&gt;
+I spent this past Saturday morning up at the Microsoft building in
+Times Square. What was I doing there? &lt;a href=&#34;https://twitter.com/aankit?lang=en&#34;&gt;Aankit Patel&lt;/a&gt; invited me to check
+out the professional development that he and his team organized for
+the teachers involved in the assorted CSforAllNYC programs that his
+office runs. 
+&lt;/p&gt;
+&lt;p&gt;
+Wow.
+&lt;/p&gt;
+&lt;p&gt;
+Lots of great things going on. I was only able to stay for a couple of
+hours but I spent some time in two rooms run by &lt;a href=&#34;https://www.tealsk12.org/&#34;&gt;TEALS&lt;/a&gt;, a room of &lt;a href=&#34;https://bjc.berkeley.edu/&#34;&gt;BJC&lt;/a&gt;
+teachers, a group working with &lt;a href=&#34;https://p5js.org&#34;&gt;p5.js&lt;/a&gt;, one doing physical computing and
+a bunch more.
+&lt;/p&gt;
+&lt;p&gt;
+While there was good content all around I was really impressed with
+the sense of community in many of the rooms. One of the hardest parts
+of being a computer science teacher in K12 is that you&amp;#39;re frequently
+the only CS teacher in your school. That can be an awfully lonely
+existence. It&amp;#39;s hard to be the only teacher. No one to bounce lesson
+ideas off of or to debrief with and if you leave your school they&amp;#39;re
+left in the lurch. 
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s simply amazing that all these NYC teachers have opportunities
+like this past weekends PD and the communty it provides. 
+&lt;/p&gt;
+&lt;p&gt;
+On the other hand, teachers who are not part of city programs like
+SEP or TEALS don&amp;#39;t have these opportunities and at Hunter we&amp;#39;re trying
+to do our piece to help solve that problem.
+&lt;/p&gt;
+&lt;p&gt;
+A few months ago I wrote about our plans to roll out once a month
+professional development sessions for CTLE hours specifically aimed at
+teachers who are ready for the next step. Those who are already
+comfortable with the first courses and student experiences. I&amp;#39;m
+describing the sessions as being for high school teachers teaching
+APCS-A, similar or beyond.
+&lt;/p&gt;
+&lt;p&gt;
+Were hosting our first session on December 13th. There will be a
+couple of presentations or activities to get us started but the bulk
+of the time will be about planning the rest of the sessions which will
+run until the end of the school year and the hope is that we will
+cover both content beyond the basics.
+&lt;/p&gt;
+&lt;p&gt;
+So, if you&amp;#39;re a public school CS teacher in NYC (and need CTLE hours)
+and you&amp;#39;re ready for something more advanced than the usual PD
+opportunities, why don&amp;#39;t you join us. Just sign up &lt;a href=&#34;https://goo.gl/forms/FJDyCx7qFec1yPjr1&#34;&gt;here&lt;/a&gt;. Space is
+limited so if we fill, we&amp;#39;ll add you to the waitlist and we&amp;#39;ll work on
+trying to find a bigger space to acomodate more teachers.
+&lt;/p&gt;
+&lt;p&gt;
+Looking forward to getting this thing started!!!!
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Compile Each Concept - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Compile Each Concept" />
+<meta property="og:description" content="We&#39;ve all been there:   Student: Teacher, I need help Teacher (comes over) Student (shows screen listing three bazillion errors)   The student has just written pages of code and finally decided to try to run it only to end up with pages of errors.  Error messages can at times be hard to read for beginners but to see and truth be told, they frequently don&#39;t even read them but over the years I&#39;ve developed a practice that I&#39;ve found helpful as a software developer and if students adopt the same practice it can save them a lot of time and effort." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/compile-each-concept/" />
+<meta property="article:published_time" content="2018-10-09T14:46:59-04:00" />
+<meta property="article:modified_time" content="2018-10-09T14:46:59-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Compile Each Concept"/>
+<meta name="twitter:description" content="We&#39;ve all been there:   Student: Teacher, I need help Teacher (comes over) Student (shows screen listing three bazillion errors)   The student has just written pages of code and finally decided to try to run it only to end up with pages of errors.  Error messages can at times be hard to read for beginners but to see and truth be told, they frequently don&#39;t even read them but over the years I&#39;ve developed a practice that I&#39;ve found helpful as a software developer and if students adopt the same practice it can save them a lot of time and effort."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Compile Each Concept</h1>
+        </header>
+        <div class="content">
+            
+<p>
+We&#39;ve all been there:
+</p>
+<blockquote>
+<p>
+Student: Teacher, I need help
+Teacher (comes over)
+Student (shows screen listing three bazillion errors)
+</p>
+</blockquote>
+<p>
+The student has just written pages of code and finally decided to try
+to run it only to end up with pages of errors.
+</p>
+<p>
+Error messages can at times be hard to read for beginners but to see
+and truth be told, they frequently don&#39;t even read them but over the
+years I&#39;ve developed a practice that I&#39;ve found helpful as a software
+developer and if students adopt the same practice it can save them a
+lot of time and effort.
+</p>
+<p>
+The idea is very simple. 
+</p>
+<p>
+Compile and test one concept at a time.
+</p>
+<p>
+It might seem silly, but if I&#39;m writing a a program, my first compile
+might be code that looks like this:
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">  <span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+  using std<span style="color:#f92672">::</span>cout;
+  using std<span style="color:#f92672">::</span>endl;
+
+  <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
+  {
+  
+    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
+  }</code></pre></div>
+</p>
+<p>
+or 
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">HelloWorld</span> <span style="color:#f92672">{</span>
+
+      <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">){</span>
+	
+      <span style="color:#f92672">}</span>
+
+  <span style="color:#f92672">}</span></code></pre></div>
+</p>
+<p>
+This might seem silly but it really doesn&#39;t take any effort. I have a
+key sequence to do this under Emacs and if I&#39;m using an interactive
+language like Python or Clojure I just have to hit <code>c-c c-c</code> 
+</p>
+<p>
+This might seem silly but I do it out of muscle memory and it
+immediately tells me I don&#39;t have any syntax errors and my build system
+works.
+</p>
+<p>
+Going further, I compile and test every time I code up what I call a
+concept. What&#39;s a concept? Let&#39;s look at some code. A student might
+write something like this to find prime number up to n:
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">prime_list</span>(n):
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">2</span>,n):
+        i_isPrime <span style="color:#f92672">=</span> True
+        <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>,<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>):
+            <span style="color:#66d9ef">if</span> i<span style="color:#f92672">%</span>j <span style="color:#f92672">==</span><span style="color:#ae81ff">0</span> :
+                i_isPrime <span style="color:#f92672">=</span> False
+                <span style="color:#66d9ef">break</span>
+        <span style="color:#66d9ef">if</span> i_isPrime:
+            <span style="color:#66d9ef">print</span>(i)</code></pre></div>
+</p>
+<p>
+There&#39;s a lot going on there. To me, a concept is
+</p>
+<ul>
+<li>
+<p>
+A loop
+</p>
+</li>
+<li>
+<p>
+A complex calculation
+</p>
+</li>
+<li>
+<p>
+a conditional
+</p>
+</li>
+</ul>
+<p>
+All of these can have other concepts within.
+</p>
+<p>
+In the above code, I&#39;d probable write it as follows, adding in tests
+and print statements throughout the process:
+</p>
+<h2 id="headline-1">
+Step 1:
+</h2>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">prime_list</span>(n):
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">2</span>,n):
+        <span style="color:#66d9ef">print</span>(i)</code></pre></div>
+</p>
+<h2 id="headline-2">
+Step 2
+</h2>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">prime_list</span>(n):
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">2</span>,n):
+        <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>,<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>):
+            <span style="color:#66d9ef">print</span>(i,j)</code></pre></div>
+</p>
+<h2 id="headline-3">
+Step 3
+</h2>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">prime_list</span>(n):
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">2</span>,n):
+        <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>,<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>):
+            <span style="color:#66d9ef">if</span> i<span style="color:#f92672">%</span>j <span style="color:#f92672">==</span><span style="color:#ae81ff">0</span> :
+                <span style="color:#66d9ef">print</span>(i,<span style="color:#e6db74">&#34;is not prime&#34;</span>)
+                <span style="color:#66d9ef">break</span>
+        <span style="color:#66d9ef">if</span> i_isPrime:
+            <span style="color:#66d9ef">print</span>(i)</code></pre></div>
+</p>
+<h2 id="headline-4">
+Step 4 
+</h2>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">prime_list</span>(n):
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">2</span>,n):
+        i_isPrime <span style="color:#f92672">=</span> True
+        <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>,<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>):
+            <span style="color:#66d9ef">if</span> i<span style="color:#f92672">%</span>j <span style="color:#f92672">==</span><span style="color:#ae81ff">0</span> :
+                i_isPrime <span style="color:#f92672">=</span> False
+                <span style="color:#66d9ef">break</span>
+        <span style="color:#66d9ef">print</span>(i,i_isPrime)
+  </code></pre></div>
+</p>
+<h2 id="headline-5">
+Step 5
+</h2>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">prime_list</span>(n):
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">2</span>,n):
+        i_isPrime <span style="color:#f92672">=</span> True
+        <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(i<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>,<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>):
+            <span style="color:#66d9ef">if</span> i<span style="color:#f92672">%</span>j <span style="color:#f92672">==</span><span style="color:#ae81ff">0</span> :
+                i_isPrime <span style="color:#f92672">=</span> False
+                <span style="color:#66d9ef">break</span>
+        <span style="color:#66d9ef">if</span> i_isPrime:
+            <span style="color:#66d9ef">print</span>(i)</code></pre></div>
+</p>
+<p>
+It might not play out exactly this way but if not it would be something
+similar. The idea is that if you test every time you add one concept
+or construct there are fewer places where you can introduce an error.
+</p>
+<p>
+If you enter 100 lines before you test there are 100 places where
+things can go wrong. If you type 10, there are only 10. On top of
+that, if you&#39;ve added 100 lines, conecptually you&#39;ve probably added a
+lot and the error can be anywhere. While it&#39;s not always the case,
+most of the time, if you just added an <strong>if</strong>, the problem will be in the
+<strong>if</strong> or as a result of the if. Same with a <strong>loop</strong> or any other construct.
+</p>
+<p>
+Once you get in the habit, it&#39;s easy and doesn&#39;t really take any
+time. A couple of keystrokes to compile and a couple more to run. 
+</p>
+<p>
+All too often students try to write everything at once and it&#39;s so
+rare that it works. If we can get them to develop incrementally
+they&#39;ll be able to write much more complex systems and write them with
+much less frustration.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2018-10-09</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/cs">cs</a></li>
+                
+                    <li><a href="https://cestlaz.github.io/categories/software%20engineering">software engineering</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs">#CS</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/software-engineering">#software engineering</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/programming">#programming</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

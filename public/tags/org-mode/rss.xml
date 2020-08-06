@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>org-mode on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/org-mode/</link>
+    <description>C&#39;est la Z (org-mode)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Oct 2018 17:30:45 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/org-mode/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Using Emacs 51 - Day to day work with org-mode</title>
+      <link>https://cestlaz.github.io/post/using-emacs-51-dtd-org/</link>
+      <pubDate>Wed, 24 Oct 2018 17:30:45 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/using-emacs-51-dtd-org/</guid>
+      <description>&lt;p&gt;
+I can&amp;#39;t believe that I haven&amp;#39;t made a video since the beginning of
+summer!!!
+&lt;/p&gt;
+&lt;p&gt;
+Part of the reason is that I haven&amp;#39;t had any video ideas that have
+motivated me and the other reason is that the Fall is my busiest
+season.
+&lt;/p&gt;
+&lt;p&gt;
+In any event, here&amp;#39;s the latest installment.
+&lt;/p&gt;
+&lt;p&gt;
+Take a look at how I use Emacs and more specifically org-mode for my
+day to day work. Sometimes I use the fancy power tools but to be
+honest, most of the time, I stick to the basics. 
+&lt;/p&gt;
+&lt;p&gt;
+The point is that you don&amp;#39;t have to be a real guru to use org-mode to
+help you with organization and to increase productivity. Just a few
+simple commands and you can accomplish a lot.
+&lt;/p&gt;
+&lt;p&gt;
+I hope you enjoy it.
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/C6nbjqn5Uxw&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

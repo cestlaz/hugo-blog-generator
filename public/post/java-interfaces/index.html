@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Java Interfaces - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Java Interfaces" />
+<meta property="og:description" content="Two of the hardest topics to make meaningful to students in APCS-A are inheritance and interfaces. It&#39;s not that they&#39;re super difficult topics but rather that they&#39;re not often needed, useful, or superior to not using them on beginner assignments. More often than not the motivation is a bit forced as are the assignments.  Inheritance is its own can of worms and to be honest, something I&#39;ve not found to be all that useful or necessary." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/java-interfaces/" />
+<meta property="article:published_time" content="2019-02-08T09:40:44-04:00" />
+<meta property="article:modified_time" content="2019-02-08T09:40:44-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Java Interfaces"/>
+<meta name="twitter:description" content="Two of the hardest topics to make meaningful to students in APCS-A are inheritance and interfaces. It&#39;s not that they&#39;re super difficult topics but rather that they&#39;re not often needed, useful, or superior to not using them on beginner assignments. More often than not the motivation is a bit forced as are the assignments.  Inheritance is its own can of worms and to be honest, something I&#39;ve not found to be all that useful or necessary."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Java Interfaces</h1>
+        </header>
+        <div class="content">
+            <p>
+Two of the hardest topics to make meaningful to students in APCS-A are
+inheritance and interfaces. It&#39;s not that they&#39;re super difficult
+topics but rather that they&#39;re not often needed, useful, or superior
+to not using them on beginner assignments. More often than not the
+motivation is a bit forced as are the assignments. 
+</p>
+<p>
+Inheritance is its own can of worms and to be honest, something I&#39;ve
+not found to be all that useful or necessary. The class abstraction
+made sense to me for a number of projects but deep inheritance just
+hasn&#39;t come up much. 
+</p>
+<p>
+In any event, today I thought I&#39;d talk about interfaces.
+</p>
+<p>
+When Java was first built a decision was made not to allow multiple
+inheritance - the idea that a class can be derived from multiple
+parents. Multiple inheritance is powerful but it can also be
+complicated and confusing. By not including multiple inheritance Java
+ended up easier to work with than say C++ but there were times where
+you needed features that multiple inheritance provide. Specifically
+there are times when you need some functionality that operates across
+multiple unrelated classes. Without any other features, you&#39;d have to
+start <strong>all</strong> of your classes from a single based class and include that
+functionality. Clearly not a good idea.
+</p>
+<p>
+The first useful example is probably <code>Comparable</code>
+</p>
+<div class="src src-java">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"></code></pre></div>
+</div>
+<p>
+At first blush it might not seem all that useful. 
+</p>
+<p>
+Let&#39;s suppose you are doing something like finding the first String
+(alphabetically) from an array:
+</p>
+<div class="src src-java">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"></code></pre></div>
+</div>
+<p>
+That&#39;s easy enough but what if you had another class, <code>Shape</code> where
+you wanted to find the &#34;smallest&#34; based on area and a third class
+<code>Person</code> where you want to find the smallest by age? Without
+interfaces you would need three independent search routines or set up
+a crazy inheritance hierarchy where <code>String</code>, <code>Person</code> and <code>Shape</code> all
+come from the same parent. Instead, by having your two new classes
+implement the <code>Comparable</code> interface all three can use the same
+search:
+</p>
+<div class="src src-java">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"></code></pre></div>
+</div>
+<p>
+This is not entirely true. The above solution will give you compiler
+warnings. You&#39;ll have to decide if it makes sense to jump through the
+hoops necessary to get rid of the warnings or if it&#39;s sufficient to do
+some vigorous had waving.
+</p>
+<p>
+This is the benefit of interfaces. You can create functionality that
+works across classes. In addition to writing things like our
+ <code>findSmallest</code> above, if our classes implement <code>Comparable</code> we can sort
+collections of our classes using the built in sort methods.
+</p>
+<p>
+This is a benefit that our students can probably appreciate.
+</p>
+<p>
+Anther place interfaces come up and make sense are with GUI
+programming. It&#39;s pretty easy to show the utility of using interfaces
+with the assorted listeners. That said, Java GUI programming is
+something of a bear so maybe that&#39;s not the way to go.
+</p>
+<p>
+Where else can you explore interfaces in APCS-A? Any program where you
+have different entities that change in different ways over time. This
+might be a simulation where time passes via a control loop or maybe a
+game where time passes a turn at a time.
+</p>
+<p>
+For example, you might have a simulation with various resources that
+implement an interface with an <code>update</code> routine:
+</p>
+<div class="src src-java">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"></code></pre></div>
+</div>
+<p>
+Maybe a food resource updates by raising or lowering the amount of
+food it provides or perhaps an animal resource updates its location. You could
+have an array of objects that implement this interface and just call
+update on each one.
+</p>
+<p>
+You could do the same with a game. Maybe the human player&#39;s <code>update</code> 
+prompts for keyboard input while non player characters just calculate
+their next state.
+</p>
+<p>
+Interfaces are not the easiest thing to teach. The mechanics are
+straightforward but the motivation is frequently forced for
+beginners. I was never 100% happy with how I did it and now that I&#39;m
+in a C++ shop it doesn&#39;t come up but I hope this is helpful to some of
+you out there.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2019-02-08</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/APCS-A">APCS-A</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/apcs-a">#APCS-A</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs">#cs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/java">#java</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

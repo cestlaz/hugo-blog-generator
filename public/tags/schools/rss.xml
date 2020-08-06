@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>schools on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/schools/</link>
+    <description>C&#39;est la Z (schools)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/schools/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Creating a school for CS</title>
+      <link>https://cestlaz.github.io/posts/creating-a-school/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/creating-a-school/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;http://blog.acthompson.net/2018/09/do-we-really-need-cs-focused-high.html&#34;&gt;Do we really need CS focused high schools?&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s the question Alfred Thompson asked partly in reaction to my
+&lt;a href=&#34;https://cestlaz.github.io/posts/that-time-bill-gates-visited-afse&#34;&gt;post&lt;/a&gt; talking about Bill Gates&amp;#39; visit to &lt;a href=&#34;http://afsenyc.org&#34;&gt;AFSE&lt;/a&gt;, a NYC public school
+with a CS focus.
+&lt;/p&gt;
+&lt;p&gt;
+On both posts, &lt;a href=&#34;https://twitter.com/reallymdp&#34;&gt;Michael Preston&lt;/a&gt; shared some important and good points about
+AFSE as a starting point and gateway that helped lead to CS4All in NYC
+and also specifically about AFSE.
+&lt;/p&gt;
+&lt;p&gt;
+In response to Alfred&amp;#39;s question I thought it was time I shared a bit
+about what I was pushing for AFSE back when I was involved. I wasn&amp;#39;t
+able to talk publicly about any of this at the time because I was
+warned very sternly by one DOE person involved that I shouldn&amp;#39;t talk
+to &amp;#34;outsiders&amp;#34; about my concerns or designs. In retrospect, since I
+stopped getting replies to my emails and was apparently dropped from
+email lists after they selected their founding principal, I probably
+should have been more public about my critiques. On the other hand, I
+should have been more politic internally prior to getting to that
+point.
+&lt;/p&gt;
+&lt;p&gt;
+Reading Alfred&amp;#39;s post, what I was pushing for AFSE at the time cuts
+right to Alfred&amp;#39;s question so I thought I&amp;#39;d write about it today.
+&lt;/p&gt;
+&lt;p&gt;
+Before starting though I want to be &lt;strong&gt;absolutely clear&lt;/strong&gt; about one
+thing. This is not a critique of AFSE as it stands. There are some
+great teachers and wonderful students there and I do what I can to
+support both whenever I can. This is a post about my design vs the
+DOE&amp;#39;s design and later implementation. Also note that the numbers,
+sizes, restrictions and designs are all based on NY state and NYC
+requirements along with what one can typically do in a NYC public
+school.
+&lt;/p&gt;
+&lt;p&gt;
+Even though it&amp;#39;s the least important issue with respect to a CS school
+or not, let&amp;#39;s start by getting the dirty word out of the way. Given
+the stated mission of the school (at the time) I wanted a screen. Not
+a &amp;#34;Stuy test&amp;#34; screen but something. Probably something more along the
+lines of the screen used by the Manhattan Science Hunter High
+School. We never got that far in discussing it. My contention was and
+still is that if you want to produce &amp;#34;Google ready&amp;#34; software engineers
+by high school graduation, particularly in a small school, you can&amp;#39;t
+start with kids 2 or 3 years behind in math. Now, if your goal isn&amp;#39;t
+&amp;#34;Google ready engineers&amp;#34; but rather to use CS to engage a population
+that isn&amp;#39;t otherwise engaged, I can get behind that and you don&amp;#39;t need
+a screen. It&amp;#39;s important however to note it&amp;#39;s a different mission.
+&lt;/p&gt;
+&lt;p&gt;
+The DOE would maintain that you don&amp;#39;t need any screen and kids can
+start out years behind and by the end of their senior year they&amp;#39;d be
+years ahead. It doesn&amp;#39;t work that way.
+&lt;/p&gt;
+&lt;p&gt;
+They&amp;#39;d ask tech people at meetings what they looked for in employees
+knowing that they&amp;#39;d get back &amp;#34;teamwork, creativity etc.&amp;#34; I would of
+course follow up with &amp;#34;where do you look for these candidates&amp;#34; and
+they&amp;#39;d say &amp;#34;MIT, Cal Tech, Harvard.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+The DOE insisted on no screen. This is fine but it&amp;#39;s no surprise that
+Google&amp;#39;s not beating down the doors for AFSE graduates right out of
+high school and the math regents show that you indeed can&amp;#39;t take kids
+from multiple years behind and end up with them multiple years ahead
+given typical school resources. They&amp;#39;re doing really good work there
+but there&amp;#39;s no such thing as a miracle school just hard work and
+incremental progress. I have heard more than once that the founding
+principal had lobbied for a screen so I feel my original assessment
+was correct.
+&lt;/p&gt;
+&lt;p&gt;
+Next up, size. The DOE insisted on a small school focused on CS. They
+wanted a school of around 136 kids per grade, which makes for 4
+&amp;#34;homerooms,&amp;#34; and that the school would focus on CS. My proposal was
+very different. I advocated for a school with about 340 kids per grade
+and not specifically focused on CS but rather with a great model CS
+program - a Software Engineering Institute at the blah blah school if
+you would.
+&lt;/p&gt;
+&lt;p&gt;
+A small school can&amp;#39;t support a wide range of classes. With 4 classes
+of kids per grade you don&amp;#39;t have a lot of schedule flexibility in
+terms of class levels or electives. You also have very few teachers
+per subject - for a subject taught for a full year every year for a
+single period, you&amp;#39;d have one teacher per grade in that subject. If
+you&amp;#39;re a school for CS you&amp;#39;re not going to be able to offer a robust
+schedule of music or arts classes. Likewise an arts school is going to
+be hard pressed to offer a suite of science electives. Remember,
+public schools are not flush with money and can&amp;#39;t just offer loads of
+courses for a handful of kids.
+&lt;/p&gt;
+&lt;p&gt;
+What we end up with is a school with limited offerings beyond CS and
+we&amp;#39;re asking kids to decide in 8th grade if that&amp;#39;s the career path for
+them. This is a hidden problem of all small schools. Kids shouldn&amp;#39;t
+have to decide on their future in the 8th grade. They should all be
+able to go to schools that offer a wide range of subjects to a good
+degree of depth. Only large public schools can do this. I know that
+public schools come with their own problems but this is one of the
+trade offs. I believe that having this selection done in 8th grade
+along with the tech stereotypes and preconceptions is a big part of
+the schools difficulty in appealing to girls.
+&lt;/p&gt;
+&lt;p&gt;
+Now even if every student who applied and is randomly accepted into
+AFSE does indeed want to be a CS person then we&amp;#39;ve also lost because
+we&amp;#39;ve done nothing to get more kids into the pool. It could still
+potentially function as a model school in terms of courses or possibly
+pedagogy but it won&amp;#39;t expose and inspire anyone new with respect to
+tech.
+&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s contrast that with what I proposed. I wanted around 340 kids per
+grade or 10 &amp;#34;homerooms.&amp;#34; How did I arrive at that number? It wasn&amp;#39;t
+just a guess. Schools like Stuyvesant or Brooklyn Tech are clearly too
+large and impersonal but small 136 kids per grade schools are too
+small. The 10 homeroom per grade school seems to be the best
+compromise. There are enough teachers so that there&amp;#39;s institutional
+memory when one leaves, enough of them and students for a varied set
+of electives. It also means that there are enough teachers to avoid
+bad fits between teacher and student. At the same time, it&amp;#39;s not so
+large that kids get lost. I also spoke with some of the best
+programmers I know - not computer programmers but people who schedule
+students for classes in schools and this seems to be the best
+compromise size range. Also, with this size you don&amp;#39;t necessarily need
+a screen if you want &amp;#34;Google ready&amp;#34; software engineers. There will be
+enough of a range kids that come in behind and kids that come in ahead
+can get what they need.
+&lt;/p&gt;
+&lt;p&gt;
+I also didn&amp;#39;t want it to be a CS school but rather a school with great
+CS. That way it would appeal to a range of students. Kids who think
+they want to do CS and those who don&amp;#39;t. At the end of they day some of
+the kids that think they wanted CS won&amp;#39;t want it and those kids will
+have other options. At the same time some of the non-tech kids will
+take the required CS and find out that &amp;#34;this is neat stuff&amp;#34; and we get
+to increase the number of people in the tent.
+&lt;/p&gt;
+&lt;p&gt;
+I still believe my design would have worked out better but that&amp;#39;s not
+to say that I don&amp;#39;t think that AFSE has been and is important. As Mike
+pointed out in his comment, AFSE was the first unscreened school to
+offer legit and it did (and does) offer a place for CS kids that don&amp;#39;t
+get into or don&amp;#39;t want to go to a place like Stuy which is very much a
+large school and an unforgiving machine. It was also a showpiece that
+helped pave the way for CS in all NYC schools. All of that&amp;#39;s good.
+&lt;/p&gt;
+&lt;p&gt;
+I do regret parts of what went down between me and DOE. I don&amp;#39;t regret
+sticking to my beliefs in terms of school design but I would like to
+have been able to handle the politics of the situation better. Had I
+remained involved I think I had more to offer. I don&amp;#39;t regret it too
+much – at the time it went from the DOE telling me one week to &amp;#34;you
+can have any role in the school you want&amp;#34; to the next week &amp;#34;we want to
+introduce you to the person who we&amp;#39;re making principal&amp;#34; and I
+recognize that I&amp;#39;d have a hard time putting that aside now and the me
+of a decade ago would have found it impossible. That said, I think
+everyone would have been better off if both sides could have played
+things better.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;d still love to have the chance someday to set up and run a school
+of my design with my team. It&amp;#39;ll probably never happen but it would be
+nice.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;#34;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>editing on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/editing/</link>
+    <description>C&#39;est la Z (editing)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/editing/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Using Emacs Episode 49 mu4e-conversation</title>
+      <link>https://cestlaz.github.io/posts/using-emacs-49-mu4e-conversation/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/using-emacs-49-mu4e-conversation/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;ve been using Emacs for email for a couple of years now. Not for
+everything, for now my personal email is still Gmail but work is sent
+and read through Emacs. I&amp;#39;m currently using &lt;a href=&#34;https://www.djcbsoftware.nl/code/mu/mu4e.html&#34;&gt;mu4e&lt;/a&gt; and while it has a
+few quirks and limitations, I like it very much. You can take a look
+on how I configure and use it &lt;a href=&#34;http://cestlaz.github.io/posts/using-emacs-39-mu4e/&#34;&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+The other day I saw &lt;a href=&#34;https://www.reddit.com/r/emacs/comments/8qryri/mu4econversation_single_buffer_fullthread_display/&#34;&gt;this&lt;/a&gt; thread on Emacs about a new package -
+&lt;a href=&#34;https://gitlab.com/ambrevar/mu4e-conversation&#34;&gt;mu4e-conversation&lt;/a&gt;. It&amp;#39;s a package that deals with email threads.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s pretty cool. You can invoke it whenever you&amp;#39;re in the headers
+view you can just run &lt;code&gt;M-x mu4e-conversation&lt;/code&gt; and it combines all the
+email messages in the current thread into a single buffer.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s pretty nice.
+&lt;/p&gt;
+&lt;p&gt;
+You can navigate between messages in the thread with &lt;code&gt;C-c C-n&lt;/code&gt; and
+&lt;code&gt;C-c C-p&lt;/code&gt; and use most if not all of the usual mu4e goodness but on
+top of that you can also toggle what the author calls tree mode by
+hitting &lt;code&gt;V&lt;/code&gt;. Tree mode turns the thread into an org-mode tree - also
+extremely cool.
+&lt;/p&gt;
+&lt;p&gt;
+On top of this, you can also make mu4e your default viewing mode by
+setting a single variable with &lt;code&gt;(setq mu4e-view-func &amp;#39;mu4e-conversation)&lt;/code&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Although it&amp;#39;s very cool, I&amp;#39;m not sure if mu4e-conversation will find
+its way into my workflow or not and probably won&amp;#39;t know for a
+while. This is mostly due to the fact that it&amp;#39;s summer so work email
+slows down and I won&amp;#39;t have too many long threads to play with this
+on.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll report back once I give it a fair shake but in the meantime if
+anyone out there has had the time to play with it, let us know what
+you think.
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/V5efS8uXANI&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 48 Silversearcher</title>
+      <link>https://cestlaz.github.io/posts/using-emacs-48-silversearcher/</link>
+      <pubDate>Sun, 22 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/using-emacs-48-silversearcher/</guid>
+      <description>&lt;p&gt;
+A couple of days ago I wrote about on my &lt;a href=&#34;http://cestlaz.github.io/posts/unit-tests-grading-workflow&#34;&gt;lab grading workflow&lt;/a&gt;. In the
+post I mentioned that I used Emacs to easily navigate between student
+folders and files so I can actually look at their work in addition to
+their programs output and test results.
+&lt;/p&gt;
+&lt;p&gt;
+The key is a combination of &lt;code&gt;dired&lt;/code&gt; and &lt;a href=&#34;https://github.com/Wilfred/ag.el&#34;&gt;ag&lt;/a&gt;, Emacs&amp;#39;s interface to &lt;a href=&#34;https://github.com/ggreer/the_silver_searcher&#34;&gt;the
+Silver Searcher&lt;/a&gt; which is something like a recursive code grep on
+steroids. I also briefly try to show &lt;a href=&#34;https://github.com/mhayashi1120/Emacs-wgrep&#34;&gt;wgrep&lt;/a&gt; in the video which allows
+you to edit Emacs grep buffers, effectively allowing you to make
+changes across a set of files all at once. It ended up not working
+with silversearcher - if anyone out there knows why, please chime in.
+&lt;/p&gt;
+&lt;p&gt;
+Enjoy:
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/-sFTkCQ774o&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs Episode 47 - Magit</title>
+      <link>https://cestlaz.github.io/posts/using-emacs-47-magit/</link>
+      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/using-emacs-47-magit/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;ve been holding off on doing a &lt;a href=&#34;https://magit.vc/&#34;&gt;Magit&lt;/a&gt; video for a while. Mostly
+because I wasn&amp;#39;t using it exclusively and also because there are
+already a number of good Magit videos and resources out there.
+&lt;/p&gt;
+&lt;p&gt;
+What changed? Along with the new version of Magin, Jonas Bernoulli
+wrote up &lt;a href=&#34;https://emacsair.me/2017/09/01/magit-walk-through/&#34;&gt;a walkthrough of the Magit interface&lt;/a&gt;. For whatever reason,
+it all finally clicked.
+&lt;/p&gt;
+&lt;p&gt;
+In spite of what the documentation says, Magit &lt;strong&gt;is not&lt;/strong&gt; an interface
+for git. Magit is a &lt;strong&gt;command and control&lt;/strong&gt; center for git. You can
+launch it just to execute some git commands but you can also leave it
+up and running in an Emacs window or frame as a constant project
+overview.
+&lt;/p&gt;
+&lt;p&gt;
+Wow. Mind blown!!!
+&lt;/p&gt;
+&lt;p&gt;
+If you use Emacs for Deveopment, you &lt;strong&gt;have to&lt;/strong&gt; use Magit. If you don&amp;#39;t
+use Emacs, you can load it on the side for Magit. If you&amp;#39;re not a
+developer, learn to code so you can use Magit!!!!!
+&lt;/p&gt;
+&lt;p&gt;
+I tried to do justice to the package in the video. Magit along with &lt;a href=&#34;https://orgmode.org/&#34;&gt;Org
+Mode&lt;/a&gt; are arguably Emacs killer apps - enough in and of themselves to
+justify using Emacs.
+&lt;/p&gt;
+&lt;p&gt;
+Check out the video:
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/1IYsiHXR620&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Emacs 46 Auto Yasnippets</title>
+      <link>https://cestlaz.github.io/posts/using-emacs-46-auto-yasnippets/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/using-emacs-46-auto-yasnippets/</guid>
+      <description>&lt;p&gt;
+The other day I discovered &lt;a href=&#34;https://github.com/abo-abo/auto-yasnippet&#34;&gt;auto-yasnippet&lt;/a&gt;, another great package by
+&lt;a href=&#34;https://github.com/abo-abo&#34;&gt;Oleh Krehel&lt;/a&gt; or abo-abo.
+&lt;/p&gt;
+&lt;p&gt;
+It looks like it&amp;#39;s going to be a great way to solve a particular
+problem that come up now and again.
+&lt;/p&gt;
+&lt;p&gt;
+There are plenty of times when I want to create a number of similar
+but slightly different blocks of text. The example on the project
+site  is:
+&lt;/p&gt;
+&lt;div class=&#34;src src-c&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+You could use multiple cursors, a macro, or other methods to put in
+the common text but you still have to deal with the parts of each line
+that are unique, the red, green, and blue.
+&lt;/p&gt;
+&lt;p&gt;
+You could use a yasnippet but it&amp;#39;s unlikely that you&amp;#39;ll have a snippet
+for every occasion. This is where auto-yasnippet comes in. You would
+write the first line but add  a tilda as a placeholder:
+&lt;/p&gt;
+&lt;div class=&#34;src src-c&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+and then invoke &lt;code&gt;aya-create&lt;/code&gt;. This will get rid of the tildas and
+create the auto-snippet. Then when you run &lt;code&gt;aya-expand&lt;/code&gt; it will put in
+the snippet with the tilda locations as placeholders.
+&lt;/p&gt;
+&lt;p&gt;
+Very cool.
+&lt;/p&gt;
+&lt;p&gt;
+Check out the video:
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/utrMabxgXbg&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

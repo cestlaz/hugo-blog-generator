@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Databases - putting it all together - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Databases - putting it all together" />
+<meta property="og:description" content="So, we&rsquo;re into the second year of my Software Development class. It&rsquo;s a little different since last time, I taught many of the kids in AP. This time, they&rsquo;re mostly new to me.
+In AP, everything is low level. The students build linked lists, binary search trees, heaps, hash tables, graphs and the like. It&rsquo;s all about building the data structure. The Node, if you would.
+We&rsquo;re about to start talking about databases." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/2013-10-07-databases/" />
+<meta property="article:published_time" content="2013-10-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-10-07T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Databases - putting it all together"/>
+<meta name="twitter:description" content="So, we&rsquo;re into the second year of my Software Development class. It&rsquo;s a little different since last time, I taught many of the kids in AP. This time, they&rsquo;re mostly new to me.
+In AP, everything is low level. The students build linked lists, binary search trees, heaps, hash tables, graphs and the like. It&rsquo;s all about building the data structure. The Node, if you would.
+We&rsquo;re about to start talking about databases."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Databases - putting it all together</h1>
+        </header>
+        <div class="content">
+            <p>So, we&rsquo;re into the second year of my Software Development class. It&rsquo;s a
+little different since last time, I taught many of the kids in
+AP. This time, they&rsquo;re mostly new to me.</p>
+<p>In AP, everything is low level. The students build linked lists,
+binary search trees, heaps, hash tables, graphs and the like. It&rsquo;s all
+about building the data structure. The Node, if you would.</p>
+<p>We&rsquo;re about to start talking about databases. We&rsquo;ll probably spend a
+couple of days on relational databases and SQL and then some time with
+MongoDB.</p>
+<p>There can be a big gap between a single lower level data structure and
+something as complex as a database.</p>
+<p>I wanted to learn more about the kids and also
+see how they would go from last years material to solving a larger
+problem.</p>
+<p>So today we talked about designing a database. Actually, we haven&rsquo;t
+even gotten there yet. We actually talked about what data we&rsquo;d want to
+store if we were building a database for a school. Sounds like a
+typical class assignment.</p>
+<p>Turns out, there&rsquo;s lots of data:</p>
+<ul>
+<li>Personal info like name, id number, address</li>
+<li>Transcript based data including:</li>
+<li>grade</li>
+<li>class code</li>
+<li>class section</li>
+<li>time stamp</li>
+<li>teacher</li>
+<li>Teacher information</li>
+<li>Attendance Information</li>
+</ul>
+<p>And more.</p>
+<p>The kids were then broken into groups.</p>
+<p>The assignment:</p>
+<blockquote>
+<p>Assume you&rsquo;re working in Java. You can use all the tools covered last years. Both built in like HashMaps and TreeMaps and those that you built like search trees or heaps.</p>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>It was great hearing the discussions. Some groups based things on Java
+Classes, some on hash tables, some trees. Some groups started with
+efficiency concerns and wondered what types of queries they would
+need. I was really pleased with the level of activity and the types of
+concerns the students had.</p>
+<p>I&rsquo;m really looking forward to tomorrow when we discuss the designs and move on from there.</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2013-10-07</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

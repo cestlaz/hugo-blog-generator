@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Using Emacs Episode 55 - Irony Completions - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Using Emacs Episode 55 - Irony Completions" />
+<meta property="og:description" content="Last year I put together a post and video on some basics of Emacs for C&#43;&#43; development. In the video I didn&#39;t quite get completions fully working. I also used ggtags in that video but find myself using dumb-jump more frequently.  Here&#39;s a quick video showing how to set up irony-mode which uses libclang for completions. It&#39;s pretty slick. Now the only thing I think I&#39;m missing is header file completions." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/using-emacs-55-irony-completions/" />
+<meta property="article:published_time" content="2019-01-21T08:27:41-04:00" />
+<meta property="article:modified_time" content="2019-01-21T08:27:41-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Emacs Episode 55 - Irony Completions"/>
+<meta name="twitter:description" content="Last year I put together a post and video on some basics of Emacs for C&#43;&#43; development. In the video I didn&#39;t quite get completions fully working. I also used ggtags in that video but find myself using dumb-jump more frequently.  Here&#39;s a quick video showing how to set up irony-mode which uses libclang for completions. It&#39;s pretty slick. Now the only thing I think I&#39;m missing is header file completions."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Using Emacs Episode 55 - Irony Completions</h1>
+        </header>
+        <div class="content">
+            <p>
+Last year I put together a <a href="https://cestlaz.github.io/posts/using-emacs-32-cpp/">post and video</a> on some basics of Emacs for
+C++ development. In the video I didn&#39;t quite get completions fully
+working. I also used ggtags in that video but find myself using
+<a href="https://cestlaz.github.io/posts/using-emacs-33-projectile-jump">dumb-jump</a> more frequently.
+</p>
+<p>
+Here&#39;s a quick video showing how to set up <a href="https://github.com/Sarcasm/irony-mode">irony-mode</a> which uses
+libclang for completions. It&#39;s pretty slick. Now the only thing I
+think I&#39;m missing is header file completions. If you&#39;ve got a good
+setup for that, please share.
+</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GRdZuc1Z4WI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2019-01-21</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/emacs">emacs</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/emacs">#emacs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/productivity">#productivity</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

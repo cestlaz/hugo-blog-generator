@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Lesson and project inspiration from old BSD games - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Lesson and project inspiration from old BSD games" />
+<meta property="og:description" content="When I was writing the I Speak Jive post, the first thing I had to do was find those old programs. It turned out to be harder than I thought. I found online versions but it took a while to find this GitHub repo.  On the way, I seemed to recall that these might be bundled with a bunch of old BSD games so I took a look at the BSD games package for Linux." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/bsdgames/" />
+<meta property="article:published_time" content="2019-11-22T13:55:09-04:00" />
+<meta property="article:modified_time" content="2019-11-22T13:55:09-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Lesson and project inspiration from old BSD games"/>
+<meta name="twitter:description" content="When I was writing the I Speak Jive post, the first thing I had to do was find those old programs. It turned out to be harder than I thought. I found online versions but it took a while to find this GitHub repo.  On the way, I seemed to recall that these might be bundled with a bunch of old BSD games so I took a look at the BSD games package for Linux."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Lesson and project inspiration from old BSD games</h1>
+        </header>
+        <div class="content">
+            <p>
+When I was writing the <a href="https://cestlaz.github.io/post/i-speak-jive/">I Speak Jive</a> post, the first thing I had to do
+was find those old programs. It turned out to be harder than I
+thought. I found online versions but it took a while to find <a href="https://github.com/hyperrealm/talkfilters">this</a>
+GitHub repo.
+</p>
+<p>
+On the way, I seemed to recall that these might be bundled with a
+bunch of old <a href="https://github.com/vattam/BSDGames">BSD games</a> so I took a look at the BSD games package for
+Linux. While I didn&#39;t find the filters, I found a whole bunch of old
+programs that I hadn&#39;t played with in years along with a few that I
+never knew existed. To me it felt like an interesting project and
+lesson treasure trove so I wanted to share.
+</p>
+<p>
+I think this makes more sense to do as a video so I can actually show
+the programs as they run so check out the video at the end of this
+post.
+</p>
+<p>
+In the video I talk about controlling the cursor on the screen so that
+students can write programs like the ones I demo. That can be done in
+a number of ways. You could use a library like <a href="https://github.com/mabe02/lanterna">lanterna</a> for Java or
+<a href="https://en.wikipedia.org/wiki/Curses_%2528programming_library%2529">curses</a> or ncurses for C but you can also just use Ansi Escape
+codes. Basically you print out <a href="http://ascii-table.com/ansi-escape-sequences-vt-100.php">special escape squences</a> to move the
+cursor, clear the screen and even set text and background colors. For
+example, to move the cursor to the middle of the screen and print
+<strong>Hello</strong> you would use this: <code>System.out.print(&#34;^[[12;40HHello&#34;);</code> The
+first <code>^[</code> is actually the ascii code for the escape character. I
+enter it in Emacs by typing Control-q then hitting the escape
+key. Other editors will have a way of doing the same.
+</p>
+<p>
+So here you go – old BSD games. I hope you get as many ideas out of
+this as I did.
+</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Uyvh1Q9SLbE" frameborder="0"
+<p>
+allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2019-11-22</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/CS%20Ed">CS Ed</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs">#CS</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/apcs-a">#APCS-A</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

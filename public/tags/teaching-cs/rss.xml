@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teaching cs on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/teaching-cs/</link>
+    <description>C&#39;est la Z (teaching cs)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/teaching-cs/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>SIGCSE 2017 - Recap</title>
+      <link>https://cestlaz.github.io/posts/sigcse-2017-recap/</link>
+      <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/sigcse-2017-recap/</guid>
+      <description>
+&lt;p&gt;
+As a high school teacher, I was never able to attend SIGCSE, the
+conference of the ACM&amp;#39;s Special Interest Group on Computer Science
+Education. Between the number of instructional days I would lose and
+the cost, I could never justify going. Instead I looked over the
+proceedings and read many of the papers.
+&lt;/p&gt;
+&lt;p&gt;
+Now that I&amp;#39;m at Hunter, I was finally able to attend. This year in
+Seattle, the conference ran from Wednesday through Saturday. I was
+part of a panel on &amp;#34;Tools we can&amp;#39;t live without.&amp;#34; Over the next few
+weeks, I hope to blog about a number of things I thought and talked
+with people about over the conference including:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+The path I use to teach git and why GitHub a good teaching tool
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+(my talk).
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+The relationship of different CS Ed stakeholders - teachers,
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+researchers, organizations, etc.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Teaching at the high school level vs college - perceptions and
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+reality.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+The challenges of tech tool adoption in schools.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+What&amp;#39;s going on in K12 CS Certification.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Maybe some other stuff.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Today, some overall thoughts.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+The good
+&lt;/h2&gt;
+&lt;p&gt;
+As with many conferences, the &amp;#34;hallway track&amp;#34; along with receptions
+sponsored by &lt;a href=&#34;https://csnyc.org/our-work/cs4all&#34;&gt;the CS4All consurtium&lt;/a&gt;, &lt;a href=&#34;http://tealsk12.org&#34;&gt;TEALS&lt;/a&gt;, &lt;a href=&#34;http://code.org&#34;&gt;Code.org&lt;/a&gt; were terrific. I
+was able to finally meet in person many people who I&amp;#39;ve only known
+virtually and got to know many more as well. I left the conference
+with a much larger address book and a long list of follow up
+items. Being in Seattle, I also enjoyed being able to spend time with
+people from &lt;a href=&#34;http://tealsk12.org&#34;&gt;TEALS&lt;/a&gt; and &lt;a href=&#34;http://code.org&#34;&gt;Code.org&lt;/a&gt;, two of the CS Ed groups working hard
+to do some real good (yes - I do like and support these guys even
+though I call them out on things I disagree with, but that&amp;#39;s the
+subject of another post).
+&lt;/p&gt;
+&lt;p&gt;
+I attended sessions on CS certification, teacher preparation,
+assessments, POGIL based instruction to name a few. They ranged from
+valuable to interesting and to be honest, a couple of &amp;#34;what were they
+thinking&amp;#34; but the overall experience was very much worth the trip. I
+also got to speak to a number of wonderful students at the
+poster sessions.
+&lt;/p&gt;
+&lt;p&gt;
+The keynotes are also well worth a read (sorry if you don&amp;#39;t have ACM
+digital library access). &lt;a href=&#34;http://dl.acm.org/citation.cfm?id=3025045&amp;amp;CFID=738971273&amp;amp;CFTOKEN=22106692&#34;&gt;Jeannette Wing&lt;/a&gt; talked about the importance of
+probability and statistics in CS Ed, and aspects of  &lt;a href=&#34;http://dl.acm.org/citation.cfm?id=3025047&amp;amp;CFID=738971273&amp;amp;CFTOKEN=22106692&#34;&gt;Gail Chapman&lt;/a&gt;&amp;#39;s talk
+&amp;#34;Inspire, Innovate, and Improve…&amp;#34; keynote and &lt;a href=&#34;http://dl.acm.org/citation.cfm?id=3025046&amp;amp;CFID=738971273&amp;amp;CFTOKEN=22106692&#34;&gt;Mitch Resnick&lt;/a&gt;&amp;#39;s
+&amp;#34;Fulfilling Papert&amp;#39;s Dream&amp;#34; both spoke to the educator inside me.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+The bad
+&lt;/h2&gt;
+&lt;p&gt;
+The biggest downside to me was that I found very little value added in
+a number of the paper sessions over just reading the papers. Part of
+this is probably because of my own over-inflated expectations given the
+number of years I&amp;#39;ve waited to attend. Part of it though, was the fact
+that sessions were so tightly packed that I didn&amp;#39;t have time to follow
+up with presenters before having to run to the next
+thing. Unfortunately, in some
+cases, it was because the presenter merely
+&amp;#34;read&amp;#34; the paper much as a professor sometimes just reads the slides
+or the book to his class.
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Other thoughts
+&lt;/h2&gt;
+&lt;p&gt;
+One paper presentation I very much liked was &lt;a href=&#34;http://dl.acm.org/citation.cfm?id=3017701&amp;amp;CFID=738971273&amp;amp;CFTOKEN=22106692&#34;&gt;Exam Wrappers: Not a
+Silver Bullet&lt;/a&gt; presented by &lt;a href=&#34;https://michellecraig.github.io/&#34;&gt;Michelle Craig&lt;/a&gt; and &lt;a href=&#34;http://pages.cpsc.ucalgary.ca/~bdstephe/&#34;&gt;Ben Stephenson&lt;/a&gt;. I
+actually came in late since I was hustling over from the Code.org
+lunch. The result was that I didn&amp;#39;t actually know what &amp;#34;Exam Wrappers&amp;#34;
+were until well after the talk when I ran into &lt;a href=&#34;https://twitter.com/jkhuggins&#34;&gt;Jim Huggins&lt;/a&gt;. Exam
+wrappers, in short, are merely when you require the students fill out something
+for some credit when picking up their exams. The funny thing is that
+it&amp;#39;s a strategy that high school teachers have used for years without
+a special name and we already knew the good and bad of it without the
+research but that&amp;#39;s not what I want to get at here. What I loved about
+the talk, besides the fact that Ben and Michelle are clearly strong
+presenters is that this was a negative result that was being
+presented. I also loved the fact that they didn&amp;#39;t present their
+research as gospel but rather pointed out the strengths and weaknesses
+of their approach - they made a case to what and why we should pay
+attention to and what should be taken with a grain of salt.
+&lt;/p&gt;
+&lt;p&gt;
+This was a major breath of fresh air after being exposed to so much
+education &amp;#39;research&amp;#39; over the course of my life that the author or
+presenter felt was just as strong as a mathematical proof rather than
+an indication based on a specific experience or small set of
+experiences.
+&lt;/p&gt;
+&lt;p&gt;
+I also felt a little weird at times during the week when west coast people seemed
+to know me. I know I&amp;#39;m a loud mouthed curmudgeon and I go on my
+periodic ed rants but given the dearth of comments on this blog I was
+really surprised to get as many as &amp;#34;great to meet you in person after
+reading your blog&amp;#34; or &amp;#34;we know you and your work&amp;#34; all week. It was
+weird and somewhat humbling.
+&lt;/p&gt;
+&lt;p&gt;
+Finally, another highlight f`or me was that I got to catch up with
+some of family.
+&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/sigcse-seattle.jpg&#34; alt=&#34;/img/sigcse-seattle.jpg&#34; title=&#34;/img/sigcse-seattle.jpg&#34; align=&#34;center&#34;/&gt;
+&lt;p&gt;
+Already planning to submit something to present at SIGCSE 2018 in Baltimore.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Essential topics for an intro course (not)</title>
+      <link>https://cestlaz.github.io/posts/essentials-for-an-intro-course/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/essentials-for-an-intro-course/</guid>
+      <description>&lt;p&gt;
+What essential topics should we teach in our intro courses? This seems
+to be a recurring topic recently.
+&lt;/p&gt;
+&lt;p&gt;
+It can be an important topic but, unfortunately, too often, it seems
+that people have too myopic a view
+&lt;/p&gt;
+&lt;p&gt;
+I remember thinking about this years ago when APCS moved from C++ to
+Java. Both languages have good and bad points both for practical and
+educational use. A big loss in the move to Java was memory management
+and the topics you could cover when memory issues arose.
+&lt;/p&gt;
+&lt;p&gt;
+Of course one might say that memory management shouldn&amp;#39;t be in the
+first year of CS. That&amp;#39;s fine, as long as you put it back in somewhere
+later on - something that didn&amp;#39;t seem to happen universally.
+&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s the myopic view - far too few look at the overall picture.
+&lt;/p&gt;
+&lt;p&gt;
+C++ to Java ended up in removing a topic. I&amp;#39;ve also seen the reverse.
+I was talking to a friend about intro topics. He told me that it was
+critical to cover (insert topic here) in an intro course. Why, I
+asked? Because the kids absolutely needed to know that material in the
+third year course he was teaching.
+&lt;/p&gt;
+&lt;p&gt;
+I pressed a bit – &amp;#34;how many kids actually remember (insert topic
+here) and do you have to reteach anything.&amp;#34; The answer - pretty much
+no one remembered and he always retaught the subject.
+&lt;/p&gt;
+&lt;p&gt;
+Did this mean that no one taught the topic in the earlier class?
+Unlikely. More likely is that the topic was taught without purpose or
+context, just because it was supposed to be taught and thus the
+knowledge wasn&amp;#39;t retained. Sounds to me like the topic wasn&amp;#39;t in the
+right place to begin with. Maybe it should have just been taught in
+that 300 level course to begin with.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://twitter.com/alfredtwo?ref_src=twsrc%255Etfw&#34;&gt;Alfred Thompson&lt;/a&gt; wrote a post earlier today asking about &lt;a href=&#34;http://blog.acthompson.net/2017/01/how-important-are-number-bases-for-pre.html&#34;&gt;teaching
+number bases&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Is it important? Maybe. Is it essential for an intro course? Probably
+not.
+&lt;/p&gt;
+&lt;p&gt;
+Binary makes sense when you start talking about low level stuff. If
+your intro course never gets close to the machine then why muddy the water
+with a topic that&amp;#39;s out of place. The topic probably won&amp;#39;t be
+appreciated and retention and understanding will be low.
+&lt;/p&gt;
+&lt;p&gt;
+If your intro course gets close to the machine or if you decide to
+talk about compiled code or similar topics, you have an entre to talk
+binary which leads to the convenience of hexadecimal. At Stuyvesant,
+it was much more sensible to talk about number bases in our systems
+course when we looked at C code in a debugger rather than in our intro
+our AP course.
+&lt;/p&gt;
+&lt;p&gt;
+You also might work on some application where bitmaps or similar as
+useful. That might be another good time to talk about number bases.
+&lt;/p&gt;
+&lt;p&gt;
+Is it important for a CS person to understand binary and it&amp;#39;s relation
+to digital computers? Certainly. Does it have to be studied day one?
+Certainly not.
+&lt;/p&gt;
+&lt;p&gt;
+We need to keep an eye on the big picture. You can&amp;#39;t get everything
+into a single class or a single yea. The question to ask is - do our students know what they have to by the time they
+leave our charge?
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

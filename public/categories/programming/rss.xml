@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/categories/programming/</link>
+    <description>C&#39;est la Z (programming)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jun 2019 15:53:54 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/categories/programming/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Back To Python</title>
+      <link>https://cestlaz.github.io/post/back-to-python/</link>
+      <pubDate>Fri, 14 Jun 2019 15:53:54 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/back-to-python/</guid>
+      <description>&lt;p&gt;
+With summer right around the corner I&amp;#39;m hoping to spend at least a
+little time on some personal coding projects. There are a few work
+related tools I&amp;#39;d love to develop and just some random areas of CS I&amp;#39;d
+like to explore. If I finish them, the work projects will be web
+based.
+&lt;/p&gt;
+&lt;p&gt;
+I was thinking about using this as an opportunity to do a deeper dive
+into Clojure having used it for some experiments and competitions like
+&lt;a href=&#34;https://adventofcode.com/&#34;&gt;Advent of Code&lt;/a&gt; but at the end of the day I decided not
+to. It&amp;#39;s not that Clojure wouldn&amp;#39;t be a good language for web apps. It
+looks like it would be great. Rather, I&amp;#39;m finding the ecosystem and
+build systems in particular to be more trouble than they&amp;#39;re worth for
+a side project - particularly when I want to accomplish more than
+becoming comfortable with the Clojure ecosystem. 
+&lt;/p&gt;
+&lt;p&gt;
+Things were so much simpler in the old days. Way back when I was a
+software engineer at Goldman Sachs I worked on a couple of large,
+complex systems. All I had were a bunch of C files in a bunch of
+directories and a Makefile to build everything. Simple and
+straightforward. 
+&lt;/p&gt;
+&lt;p&gt;
+If I&amp;#39;m working in C or C++ I can still do the same. 
+&lt;/p&gt;
+&lt;p&gt;
+In Java I was always able to do the same since Make seemed to be
+accepted in the community. Now there seems to be many more
+options - Ant, Maven, and Gradle to name just three.
+&lt;/p&gt;
+&lt;p&gt;
+Python was even easier - just set up your directory structure
+and &lt;code&gt;__init__.py&lt;/code&gt; files and your good to go and by using a virtual
+environment, which is pretty easy, you can keep the entire development
+environment clean.
+&lt;/p&gt;
+&lt;p&gt;
+Nowadays things are much more complex. Sure, I can create a simple
+Clojure program and run it but anything bigger and you need a build
+system. For a long time the tool was &lt;a href=&#34;https://leiningen.org/&#34;&gt;Leiningen&lt;/a&gt;. You define a project
+file using it&amp;#39;s particular syntax and it can download dependencies,
+manage builds etc.. It actually doesn&amp;#39;t look so bad if you&amp;#39;re living
+in Clojure all the time but for a hobbyist like me I found myself
+looking for other peoples templates and hoping for the best. Whenever
+I needed my project to do things outside the norm I was pretty much
+out of luck. 
+&lt;/p&gt;
+&lt;p&gt;
+Then came &lt;a href=&#34;https://boot-clj.com/&#34;&gt;Boot&lt;/a&gt; as an alternative. Where Leiningen used a descriptive
+configuration file, Boot used a configuration file that was basically
+Clojure code. It was different but to me, it had the same problems -
+documentation was lacking and too much magic going on behind the
+scenes. Finally, Clojure started to come with &lt;a href=&#34;https://clojure.org/guides/deps_and_cli&#34;&gt;build system&lt;/a&gt;. I want to
+like it but the documentation is even sparser and with three competing
+build systems with varying levels of use and documentation it&amp;#39;s less
+than ideal for a guy like me.
+&lt;/p&gt;
+&lt;p&gt;
+Things get messier when you add in Clojurescript - Clojurescript
+basically compiles Clojure code to Javascript. It has a great
+development environment and handles state really nicely but for a
+novice like me getting any of the build systems set up for Clojure and
+Clojurescript in a way that makes sense is more than I want to
+deal with right now.
+&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t mean to be unfair to Clojure and its ecosystem. I still really
+like the language and if I lived in it I&amp;#39;m sure I&amp;#39;d figure it all out
+and be happy with it. It&amp;#39;s also no worse and arguably better than
+ecosystems for other languages. 
+&lt;/p&gt;
+&lt;p&gt;
+Javascript, for example makes you chose between gulp, grunt, webpack,
+browserfity, parcel and maybe more. I think I finally got my head
+aroudn webpack and parcel but it&amp;#39;s really the wild west. Of course
+those are just the Javsacript build systems you then have to make
+choices like VueJS or React or something else. 
+&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s really no easy answer. 
+&lt;/p&gt;
+&lt;p&gt;
+Putting my teacher hat on for a second this is also an issue that our
+students will have to deal with at some point. Are we helping them by
+keeping them in web based language silos and simple IDEs or hurting
+them? At what point do we transition them or do we leave it for them
+to do on their own? I&amp;#39;m not taking any position on this here and now
+but it&amp;#39;s something worth thinking about.
+&lt;/p&gt;
+&lt;p&gt;
+Back to my side projects. 
+&lt;/p&gt;
+&lt;p&gt;
+So, for the sake of getting things done I think I&amp;#39;m going to fall back
+to Python. I don&amp;#39;t need to deal with any complex build systems, I can
+write my web applications with Flask and it&amp;#39;s also a nice platform for
+the other things I&amp;#39;d like to do.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll still probably play with Clojurescript for the web frontend ut if
+that turns out to be proiblematics I&amp;#39;ll just go back to VueJS.
+&lt;/p&gt;
+&lt;p&gt;
+Time to get to work.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Give me a break (and a continue)</title>
+      <link>https://cestlaz.github.io/post/break-continue/</link>
+      <pubDate>Wed, 01 May 2019 08:39:41 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/break-continue/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;
+What can I do to discourage my students from using the &amp;#34;break&amp;#34;
+statement?
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+That was more or less the gist of the comment and it elicited some
+good responses. This time the conversation was on Facebook but I&amp;#39;ve
+seen this one and participated in it many times before. I never liked
+the question when presented as a &amp;#34;how can I stop them&amp;#34; one.  I equally
+dislike when the offered advice is basically &amp;#34;never use break no
+matter what&amp;#34; or something similar. When writing code the best advice
+is rarely to never or always do something. The question should really
+be &amp;#34;when is it appropriate for my students to use a break statement
+and how can I steer them  towards using it correctly.&amp;#34; The answer, of
+course is &amp;#34;it depends.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+For those unfamiliar with the statements, &lt;code&gt;break&lt;/code&gt; jumps to the end and
+exits the loop or switch statement that encloses it. The &lt;code&gt;continue&lt;/code&gt;
+statement jumps up to the next iteration of its enclosing loop. I&amp;#39;ll
+show some examples below.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s true that you never &lt;strong&gt;need&lt;/strong&gt; to use break but in my opinion, if
+used correctly it can create clearer code. Let&amp;#39;s look at a related
+situation. Suppose you write a function to find and return some item
+from  a data set (in pseudocode):
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+You could tighten it up a bit but there are two things that I don&amp;#39;t
+like about the above solution. First, it goes through the entire data
+set even if the item you&amp;#39;re searching for is near the beginning. You
+could fix that by putting in a more complex loop boolean:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;0&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; numitems &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;found &lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; i&lt;span style=&#34;color:#f92672&#34;&gt;++)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Second. you&amp;#39;ve got the conditional after the loop. I find the
+following much clearer:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+To me this is perfectly clear. Look for an item, if and when we find
+it, we&amp;#39;re done so let&amp;#39;s get out of here. If not, the loop finishes and
+we return the not found stuff at the end. It&amp;#39;s clean, easy to
+understand, and potentially a little faster.
+&lt;/p&gt;
+&lt;p&gt;
+You have a similar situation with &lt;code&gt;break&lt;/code&gt;. Without it you might have
+code like this:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+And with:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Not significantly different. 
+&lt;/p&gt;
+&lt;p&gt;
+People who don&amp;#39;t like the break statement usually adhere to a very
+strict interpretation of structured programming - one entry point, one
+exit point but I&amp;#39;d argue that break (and continue) are not like
+arbitrary jumps. They&amp;#39;re well defined and don&amp;#39;t introduce spaghetti
+code. They either specifically exit a bounding language construct or
+jump to the next iteration. Actually, now that I think about it,
+&lt;code&gt;exceptions&lt;/code&gt; can be used in a way that mucks with clear code in a much
+more dangerous way than break and continue can.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s an example with continue:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;    &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+as opposed to:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;    &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Which is better? It&amp;#39;s purely subjective. Nothing wrong with either.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll share a final example. This one lifted from an &lt;a href=&#34;https://cestlaz.github.io/post/globals-breaks-and-returns/&#34;&gt;older post&lt;/a&gt; on
+&amp;#34;best practices.&amp;#34; If you&amp;#39;re writing an event handler, you could put
+the exit event in the loop boolean but I find including it
+as a case using a &lt;code&gt;break&lt;/code&gt; to be cleaner:
+&lt;/p&gt;
+&lt;div class=&#34;src src-c++&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+At the end of the day, &lt;code&gt;break&lt;/code&gt; and &lt;code&gt;continue&lt;/code&gt;, like most langauge
+constructs can be used for either good or evil. There have been times
+when they&amp;#39;ve led me to cleaner code so I&amp;#39;ve used them. At other times,
+using them would have been forced.
+&lt;/p&gt;
+&lt;p&gt;
+If we agree that &lt;code&gt;break&lt;/code&gt; and &lt;code&gt;continue&lt;/code&gt; can be appropriate, the other
+question is when to introduce them. One comment from the most recent
+Facebook thread on this (name withheld since that&amp;#39;s a semi-private
+forum) was that it shouldn&amp;#39;t be right off the bat but rather after
+they&amp;#39;re comfortable with loops, conditionals and booleans so that they
+can use the new constructs when they make sense and not willy-nilly. I
+tend to agree with this.
+&lt;/p&gt;
+&lt;p&gt;
+Personally, I think it&amp;#39;s important to show our kids constructs like
+&lt;code&gt;break&lt;/code&gt; and &lt;code&gt;continue&lt;/code&gt; and it&amp;#39;s also important for us to talk about
+good code and &lt;a href=&#34;https://cestlaz.github.io/posts/best-practices-cli/&#34;&gt;best practices&lt;/a&gt; but the important thing is that we don&amp;#39;t
+have our kids blindly follow any practice but empower them to make good
+decisions based on their situations.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Globals Breaks And Returns, oh my</title>
+      <link>https://cestlaz.github.io/post/globals-breaks-and-returns/</link>
+      <pubDate>Sat, 06 Oct 2018 15:48:55 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/globals-breaks-and-returns/</guid>
+      <description>
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Never use global variables
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Never break out of a loop
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These are two &amp;#34;best practices&amp;#34; that are frequently touted in early CS
+classes both at the high school and college level.
+&lt;/p&gt;
+&lt;p&gt;
+They came up a couple of times yesterday. Once in the Facebook APCS-A
+teachers group and once on &lt;a href=&#34;http://blog.acthompson.net/2018/10/if-you-are-using-global-variables-you.html&#34;&gt;Alfred Thompson&lt;/a&gt;&amp;#39;s blog.
+&lt;/p&gt;
+&lt;p&gt;
+Alfred post was topically on global variables. Actually it was deeper than just global
+variables. It&amp;#39;s also about how students progress - what they can figure
+out at various stages of progress and how what seems like a good idea
+early on the path to computer science doesn&amp;#39;t seem so great later on.
+&lt;/p&gt;
+&lt;p&gt;
+The discussion on the APCS-A group started with a discussion of this
+code and its &lt;code&gt;break&lt;/code&gt; statement as opposed to having the loop&amp;#39;s exit
+condition in the boolean up top:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+          &lt;span style=&#34;color:#75715e&#34;&gt;// do stuff
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;condition&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+These two &amp;#34;best practices&amp;#34; - not using globals and not breaking out of
+loops are frequently taught to students at a point when reasons for
+the best practice aren&amp;#39;t always clear. 
+&lt;/p&gt;
+&lt;p&gt;
+Actually, these aren&amp;#39;t even universally best practices.
+&lt;/p&gt;
+&lt;p&gt;
+Looking at the while loop, You might have event driven code with a
+while loop acting as a dispatcher:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;){&lt;/span&gt;
+      &lt;span style=&#34;color:#75715e&#34;&gt;// do stuff
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;some event&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+          &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; that event&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+
+      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;some other event&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+          &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; that event&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+
+      &lt;span style=&#34;color:#75715e&#34;&gt;// etc
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;exit event&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+          &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Nothing wrong with that structure. It&amp;#39;s clean, easy to read and easy
+to reason about. 
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve seen loops that use extra variables and crazy boolean expressions
+so as to avoid using a &lt;code&gt;break&lt;/code&gt; statement so that they follow the &amp;#34;best
+practice&amp;#34; but end up with much messier code.
+&lt;/p&gt;
+&lt;p&gt;
+This is not to say that you should always use &lt;code&gt;break&lt;/code&gt; or &lt;code&gt;continue&lt;/code&gt; for that matter but rather that the best practice should be to
+consider if it makes the code cleaner, easier to read, and more
+maintainable or not. 
+&lt;/p&gt;
+&lt;p&gt;
+On the global front things are also not so clear. Sure, storing
+information in globals  and then using them indiscriminantly in
+assorted methods or functions is both bad form and dangerous but there
+are times when using globals make sense. 
+&lt;/p&gt;
+&lt;p&gt;
+Back in &amp;#34;the day&amp;#34; I was a C programmer. I used single C source files
+along with their matching .h include files to enable &lt;strong&gt;object typed&lt;/strong&gt;
+programming. Each file was a singleton object. Functions in the file
+were methods using some naming convention to demarcate public vs
+private, and variables that were global to the file as class variables
+(or instance variables but there was only ever one instance of any
+given class). Technically I broke the rules but the technique was very
+effective and allowed me to write large maintainable systems. 
+&lt;/p&gt;
+&lt;p&gt;
+More recently I&amp;#39;ve been playing with &lt;a href=&#34;https://vuejs.org/&#34;&gt;Vue.js&lt;/a&gt; for front end
+development. Vue uses a central data store - Vuex to maintain
+state. Basically a place for global variables to manage the state of
+your application. Again, technically global but with rules and
+protocols to make things work without the usual danger associated with
+globals.
+&lt;/p&gt;
+&lt;p&gt;
+A great comment on the Facebook thread &lt;sup class=&#34;footnote-reference&#34;&gt;&lt;a id=&#34;footnote-reference-1&#34; href=&#34;#footnote-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; included this Hal
+Ableson quote:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&amp;#34;Programs must be written for people to read, and only incidentally for machines to execute.&amp;#34; 
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+and noted that this is particularly true on the AP Exam and after all,
+the original question was posed on a forum about APCS-A. With this in
+mind, you shouldn&amp;#39;t &lt;strong&gt;try&lt;/strong&gt; to use globals or cleverly or creatively 
+use &lt;code&gt;break&lt;/code&gt; or &lt;code&gt;continue&lt;/code&gt; but they do have their places.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve used globals in both professional and personal work when
+appropriate and I don&amp;#39;t shy away from &lt;code&gt;break&lt;/code&gt; and &lt;code&gt;continue&lt;/code&gt; and use
+them regularly. The real &lt;strong&gt;best practice&lt;/strong&gt; is that you consider why you
+are or aren&amp;#39;t using these constructs and make a choice that makes
+sense for you, your group, or your team. 
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Footnotes
+&lt;/h2&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr class=&#34;footnotes-separatator&#34;&gt;
+&lt;div class=&#34;footnote-definitions&#34;&gt;
+&lt;div class=&#34;footnote-definition&#34;&gt;
+&lt;sup id=&#34;footnote-1&#34;&gt;&lt;a href=&#34;#footnote-reference-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;div class=&#34;footnote-body&#34;&gt;
+&lt;p&gt;
+While I will identify sources when they publish content publicly on ablog or Twitter, since
+the Facebook group is semi-private, I don&amp;#39;t feel it&amp;#39;s appropriate to
+state the names of commenters without asking]
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hardware on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/categories/hardware/</link>
+    <description>C&#39;est la Z (hardware)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jun 2020 17:10:51 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/categories/hardware/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>A Quick Pinebook Pro update</title>
+      <link>https://cestlaz.github.io/post/pinebook-update/</link>
+      <pubDate>Wed, 10 Jun 2020 17:10:51 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/pinebook-update/</guid>
+      <description>&lt;p&gt;
+Since posting about my new &lt;a href=&#34;https://cestlaz.github.io/post/pinebook/&#34;&gt;Pinebook Pro&lt;/a&gt; I&amp;#39;ve gotten a few questions as
+it pertains to teaching CS so I thought I&amp;#39;d give a quick update.
+&lt;/p&gt;
+&lt;p&gt;
+In terms of software here&amp;#39;s what I&amp;#39;ve actually gotten working: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+libreoffice (comes preinstalled)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+C/C++ toolchain (manjaro package install)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Java (manjaro package install)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Emacs (built from scratch and manjaro install)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+NetLogo (had to customize the startup script as per the NetLogo
+FAQ)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Racket (had to compile from source)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+I&amp;#39;ve also heard the VSCode works with no issues.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s also manjaro which is a little different from Ubuntu which is
+probably more well known. I installed a program named &lt;a href=&#34;https://computingforgeeks.com/yay-best-aur-helper-for-arch-linux-manjaro/&#34;&gt;yay&lt;/a&gt; for
+package management which also gave me access to the community packages
+(like extra repos for Ubuntu). 
+&lt;/p&gt;
+&lt;p&gt;
+The biggest difference I&amp;#39;ve had between Manjaro and Ubuntu is with
+Ubuntu I&amp;#39;d search for packages with &lt;code&gt;apt-cache search package&lt;/code&gt; and
+install with &lt;code&gt;apt-get install package&lt;/code&gt; while with yay it&amp;#39;s &lt;code&gt;yay -Ss
+package&lt;/code&gt; then &lt;code&gt;yay -S package&lt;/code&gt;. It&amp;#39;s a little more nuanced but it
+isn&amp;#39;t harder, just different.
+&lt;/p&gt;
+&lt;p&gt;
+The other difference is that the Pinebook is set up with Manjaro
+running KDE plasma which is a different interface but all common
+windowing interfaces are fairly similar.
+&lt;/p&gt;
+&lt;p&gt;
+A final point I want to mention is that the Pinebook Pro price of
+$200 represents the cost of the unit. The Pine64 people don&amp;#39;t make any
+money on this. It&amp;#39;s about getting the units out there and building a
+community. First, this means that you won&amp;#39;t be able to go online and
+order class sets of these (at least I don&amp;#39;t think you&amp;#39;d be able to do
+so) and that if a device such as this were made by a tradional vendor
+it would cost at least a bit more so that they could make a hopefully
+fair profit. 
+&lt;/p&gt;
+&lt;p&gt;
+That said, this is a very functional Linux laptop for around $200. It
+proves what you can do and After a few days use I highly recommend it.
+&lt;/p&gt;
+&lt;p&gt;
+$200
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pinebook Pro - an $200 Linux Laptop</title>
+      <link>https://cestlaz.github.io/post/pinebook/</link>
+      <pubDate>Sun, 07 Jun 2020 17:24:57 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/pinebook/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;m writing this on my new &lt;a href=&#34;https://www.pine64.org/pinebook-pro/&#34;&gt;Pinebook Pro&lt;/a&gt; - a $200 ARM based Linux
+laptop. The Pinebook Pro comes from the &lt;a href=&#34;https://www.pine64.org/&#34;&gt;Pine64&lt;/a&gt; project. As you could
+figure out, they do the Pine64 which is similar to a Raspberry Pi and
+they&amp;#39;ve got some cool projects. In addition to the Pinebook pro
+they&amp;#39;ve also got the Pine Tab and Pine Phone and more. Now, you&amp;#39;re not
+going to be able to go to their site and say &amp;#34;I need 30 of these for
+my class&amp;#34; - at least not for the Pinebook pro but it is a pretty cool
+proof of concept and hobbyist machine and it shows that we could have
+affordable devices for our schools and less afluent students. 
+&lt;/p&gt;
+&lt;p&gt;
+I got the PbP out of curiousity and also to see if I could find a low
+cost solution for Hunter College students. All of my honors students
+get laptops but the rest of Hunter CS is on their own so a low cost
+device is pretty attractive.
+&lt;/p&gt;
+&lt;p&gt;
+The specs are pretty decent - 1080P 14&amp;#34; screen, 4GB of memory, 64GB
+mmc (upgradeable), USB-C, long battery life and more. They claim that
+it can drive an external 4k monitor but I haven&amp;#39;t tested this yet.
+&lt;/p&gt;
+&lt;p&gt;
+So, does it deliver?
+&lt;/p&gt;
+&lt;p&gt;
+Overall yes but with a few caveats. It&amp;#39;s still on the side of a
+tinkerer/hobbyist device.
+&lt;/p&gt;
+&lt;p&gt;
+Out of the box it seemed DOA - it wouldn&amp;#39;t boot. I found in the forums
+that there&amp;#39;s an emmc enable switch inside that sometimes ended up in
+the off position. I had to take out the eight screws from the bottom,
+pop the case and flip the switch. Seems like that&amp;#39;s something that
+could have been caught before they closed the cases but it wasn&amp;#39;t too
+big of a deal. It is, however a deal breaker for a novice.
+&lt;/p&gt;
+&lt;p&gt;
+From there it booted fine. Right into Manjaro Linux running
+KDE. Everything seemed to work. Next I tried to boot of an SD card -
+Debian this time. Worked like a charm though the distribution kept
+dropping WIFI.
+&lt;/p&gt;
+&lt;p&gt;
+Back to Manjaro. Being a Linuxmint user and having not used Manjaro in
+about two years it took a bit of time to get the lay of the land but
+just about everything worked. I installed syncthing which I use
+instead of dropbox, zsh, and built Emacs from source. It took forever
+but worked. Well, worked with some font problems. I ended up installing
+Emacs 27 from the Manjaro repositories and everything went
+seemelessly. Even though I ended up not using the source built Emacs
+it did show that the G++ toolchain all worked well.
+&lt;/p&gt;
+&lt;p&gt;
+I also tested Java and Clojure. No problems though starting Clojure
+seemed to take a day and a half. 
+&lt;/p&gt;
+&lt;p&gt;
+Other tests included installing the Cinnamon and Mate desktop
+environments. The only thing I haven&amp;#39;t been able to install
+succesfully has been a VPN. On the battery front, I haven&amp;#39;t used it
+long enough in a sitting to put a dent in it.
+&lt;/p&gt;
+&lt;p&gt;
+Now, at $200, this isn&amp;#39;t going to be a speed demon. My default config
+does a bunch of things so even opening a terminal with zsh has some
+lag. Once loaded though things are smooth. I would have loved more
+memory but 4GB seems sufficient for day to day stuff and student work.
+&lt;/p&gt;
+&lt;p&gt;
+Will his become my day to day laptop? I don&amp;#39;t know. I think if I can
+slim down some of my config it might.
+&lt;/p&gt;
+&lt;p&gt;
+If you&amp;#39;re looking for an innexpensive Linux laptop and are comfortable
+tinkering and reading some forums check out the Pinebook. If it was an
+option, I&amp;#39;d love to get these for my students instead of the
+overpriced Dells we have to get them every year.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

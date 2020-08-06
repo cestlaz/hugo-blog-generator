@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Who won the election -- Quadratic to Linear Time!!!!! - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Who won the election -- Quadratic to Linear Time!!!!!" />
+<meta property="og:description" content="Last week was crazy. Busy, stressful, late night after late night. It ended, though, on a great note.
+A young lady in my intro class found me in my office near the end of the day:
+ Student: Mr. Z, I wanted to make sure to catch you before vacation!
+  Me: What&rsquo;s up?
+  Student: I wanted to tell you that today&rsquo;s lesson was AWESOME!!!!!!
+ Wow. I&rsquo;ve been teaching 23 years and that&rsquo;s never happened before!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/2013-03-23-who_won_the_election-quadratic_to_linear_time/" />
+<meta property="article:published_time" content="2013-03-23T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-03-23T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Who won the election -- Quadratic to Linear Time!!!!!"/>
+<meta name="twitter:description" content="Last week was crazy. Busy, stressful, late night after late night. It ended, though, on a great note.
+A young lady in my intro class found me in my office near the end of the day:
+ Student: Mr. Z, I wanted to make sure to catch you before vacation!
+  Me: What&rsquo;s up?
+  Student: I wanted to tell you that today&rsquo;s lesson was AWESOME!!!!!!
+ Wow. I&rsquo;ve been teaching 23 years and that&rsquo;s never happened before!"/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Who won the election -- Quadratic to Linear Time!!!!!</h1>
+        </header>
+        <div class="content">
+            <p>Last week was crazy. Busy, stressful, late night after late night. It
+ended, though, on a great note.</p>
+<p>A young lady in my intro class found me in my office near the end of the day:</p>
+<blockquote>
+<p>Student: Mr. Z, I wanted to make sure to catch you before vacation!</p>
+</blockquote>
+<blockquote>
+<p>Me: What&rsquo;s up?</p>
+</blockquote>
+<blockquote>
+<p>Student: I wanted to tell you that today&rsquo;s lesson was AWESOME!!!!!!</p>
+</blockquote>
+<p>Wow. I&rsquo;ve been teaching 23 years and that&rsquo;s never happened before!!!!</p>
+<p>So, what was the hubbub about?</p>
+<p>We&rsquo;ve been doing list processing in Python over the past few days. We already did the basics, such as finding the largest element in a list:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">find_max</span>(L):
+  maxval <span style="color:#f92672">=</span> L[<span style="color:#ae81ff">0</span>]
+  i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+  <span style="color:#66d9ef">while</span> i<span style="color:#f92672">&lt;</span>len(L):
+    <span style="color:#66d9ef">if</span> L[i]<span style="color:#f92672">&gt;</span>maxval:
+     maxval<span style="color:#f92672">=</span>L[i]
+  i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+  <span style="color:#66d9ef">return</span> maxVal</code></pre></div>
+<p>We&rsquo;ve also done basic searching, counting elements, removing elements, etc.</p>
+<p>Today we started with finding the mode of a list of grades.</p>
+<p>Most students approached the problem as a maximum problem. Assume the
+first item is the mode and find it&rsquo;s frequency, then proceed through
+the list each time seeing if the current node occurs more fequently
+than the &ldquo;mode so far.&rdquo; Pretty much the same idea as find_max (but in this case, returning a list of all the modes).</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">mode</span>(L):
+  modecount <span style="color:#f92672">=</span> L<span style="color:#f92672">.</span>count( L[<span style="color:#ae81ff">0</span>] )
+  modes <span style="color:#f92672">=</span> [ L[<span style="color:#ae81ff">0</span>] ]
+  i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+  <span style="color:#66d9ef">while</span> i <span style="color:#f92672">&lt;</span> len(L):
+    c <span style="color:#f92672">=</span> L<span style="color:#f92672">.</span>count(L[i])
+    <span style="color:#66d9ef">if</span> c <span style="color:#f92672">&gt;</span> modecount:
+      modecount <span style="color:#f92672">=</span> c
+      modes <span style="color:#f92672">=</span> [ L[i] ]
+    <span style="color:#66d9ef">elif</span> c<span style="color:#f92672">==</span>modecount <span style="color:#f92672">and</span> L[i] <span style="color:#f92672">not</span> <span style="color:#f92672">in</span> modes:
+      modes<span style="color:#f92672">.</span>append( L[i] )
+    i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+  <span style="color:#66d9ef">return</span> modes</code></pre></div>
+<p>Pretty cool. The kids are doing something pretty sophisticated here.</p>
+<p>Time to look deeper. We started running this on larger and larger data
+sets. Things started really slowing down at about 20K. We then timed
+things to get some numbers (thanks
+<a href="http://stackoverflow.com/questions/5998245/get-current-time-in-milliseconds-in-python">StackOverflow</a>).</p>
+<p>What was going on. The students pretty quickly honed in on the line
+that called L.count(L[i]) &ndash; <strong>Hidden Complexity</strong>.</p>
+<p>We haven&rsquo;t done big-O notation but the class easily saw that count had
+to go through the entire data set and we ended up with an N^2
+algorithm. For example, if we have 10 items, the main loop executes 10
+times and each time, count goes through the entire list (10 items) as
+well. If we go to 100 items, it becomes 100x100.</p>
+<p>What to do????</p>
+<p>Time to talk about what&rsquo;s probably the most discussed instance of mode
+finding - elections. The winner is &ldquo;the mode of the ballots.&rdquo;</p>
+<p>Of course we don&rsquo;t use the above algorithm. We usually tally or count the ballots. We go through the ballots once, each time adding one to the appropriate candidates &ldquo;bucket.&rdquo;</p>
+<p><img src="/img/tally.png" alt=""></p>
+<p>From here, it&rsquo;s a short step to see that we can use a list. It&rsquo;s
+indices represent the grade values and the data in the list the counts
+or tallies:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">fastmode</span>(L):
+  i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+  counts <span style="color:#f92672">=</span> []
+  <span style="color:#66d9ef">while</span> i<span style="color:#f92672">&lt;</span>max(L)<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>:
+    counts<span style="color:#f92672">.</span>append(<span style="color:#ae81ff">0</span>)
+    i<span style="color:#f92672">+=</span><span style="color:#ae81ff">1</span>
+  i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+  <span style="color:#66d9ef">while</span> i <span style="color:#f92672">&lt;</span> len(L):
+    counts[ L[i] ] <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+    i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+  modecount <span style="color:#f92672">=</span> max(counts)
+  modes <span style="color:#f92672">=</span> []
+  i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+  <span style="color:#66d9ef">while</span> i <span style="color:#f92672">&lt;</span> len(counts):
+    <span style="color:#66d9ef">if</span> counts[i]<span style="color:#f92672">==</span>modecount:
+    modes<span style="color:#f92672">.</span>append(i)
+    i<span style="color:#f92672">=</span>i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>
+  <span style="color:#66d9ef">return</span> modes</code></pre></div>
+<p>We go through the list once to build the tallies and then the &ldquo;tally&rdquo;
+list once to get the modes. Simple, straightforward, and linear
+time!!!!!!!!!</p>
+<p>The original routine started to hit a roadblock at about 20K items,
+here we got to one million without breaking a sweat.</p>
+<p>The take away:</p>
+<ul>
+<li>Get it working first.</li>
+<li>Then profile to find your bottleneck</li>
+<li>Look at the problem in a different way</li>
+<li>Using data structures in a clever way can really improve performance.</li>
+</ul>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2013-03-23</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/intro">#intro</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/apcs">#apcs</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

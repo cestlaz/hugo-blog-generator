@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Using Emacs 70 Org Protocol - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Using Emacs 70 Org Protocol" />
+<meta property="og:description" content="I spent part of today cleaning up my Emacs workflow. Specifically, how I capture emails and links into org-mode  I already wrote about how I used org-capture (here and here). It&#39;s pretty clean and easy but there was one thing that always nagged at me. When I capture from mu4e within Emacs by hitting C-c m it&#39;s set up to automatically populate the capture template with a link to the email labelled with the email&#39;s subject." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/using-emacs-70-org-protocol/" />
+<meta property="article:published_time" content="2020-03-27T15:15:28-04:00" />
+<meta property="article:modified_time" content="2020-03-27T15:15:28-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Emacs 70 Org Protocol"/>
+<meta name="twitter:description" content="I spent part of today cleaning up my Emacs workflow. Specifically, how I capture emails and links into org-mode  I already wrote about how I used org-capture (here and here). It&#39;s pretty clean and easy but there was one thing that always nagged at me. When I capture from mu4e within Emacs by hitting C-c m it&#39;s set up to automatically populate the capture template with a link to the email labelled with the email&#39;s subject."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Using Emacs 70 Org Protocol</h1>
+        </header>
+        <div class="content">
+            <p>
+I spent part of today cleaning up my Emacs workflow. Specifically, how
+I capture emails and links into org-mode
+</p>
+<p>
+I already wrote about how I used org-capture (<a href="https://cestlaz.github.io/posts/using-emacs-23-capture-1/">here</a> and <a href="https://cestlaz.github.io/posts/using-emacs-24-capture-2/">here</a>). It&#39;s
+pretty clean and easy but there was one thing that always nagged at
+me. When I capture from mu4e within Emacs by hitting <code>C-c m</code> it&#39;s set
+up to automatically populate the capture template with a link to the
+email labelled with the email&#39;s subject. When I do it from Gmail or
+to store a web link as a bookmark, I have to copy and paste the link
+in manually.
+</p>
+<p>
+That&#39;s where <a href="https://orgmode.org/worg/org-contrib/org-protocol.html">org-protocol</a> comes in. We can use org-protocol to link
+between a browser and Emacs. 
+</p>
+<p>
+First you have to run Emacs as a server. You can start the Emacs
+server using <code>(server-start)</code> but I always run emacs using a shortcut
+key bound to <code>emacsclient -c -a &#34;&#34;</code>. This runs emacsclient and
+connects to my running Emacs server but if the server isn&#39;t running it
+starts it. That meant that I only had to add <code>(require &#39;org-protocol)</code>
+to my Emacs config file.
+</p>
+<p>
+I followed the instructions in the documentation by typing in these
+lines:
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gconftool-2 -s /desktop/gnome/url-handlers/org-protocol/command <span style="color:#e6db74">&#39;/usr/local/bin/emacsclient %s&#39;</span> --type String
+
+gconftool-2 -s /desktop/gnome/url-handlers/org-protocol/enabled --type Boolean true</code></pre></div>
+</p>
+<p>
+but that didn&#39;t seem to work.
+</p>
+<p>
+I ended up following the instructions I found in <a href="https://stackoverflow.com/questions/7464951/how-to-make-org-protocol-work">this post</a> creating a
+file named <code>org-protocol.desktop</code> in the folder
+ <code>~/.local/share/applications</code> containing:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">[</span>Desktop Entry<span style="color:#f92672">]</span>
+Name<span style="color:#f92672">=</span>org-protocol
+Exec<span style="color:#f92672">=</span>emacsclient %u
+Type<span style="color:#f92672">=</span>Application
+Terminal<span style="color:#f92672">=</span>false
+Categories<span style="color:#f92672">=</span>System;
+MimeType<span style="color:#f92672">=</span>x-scheme-handler/org-protocol;</code></pre></div>
+</p>
+<p>
+and then running <code>update-desktop-database
+~/.local/share/applications/</code>.
+</p>
+<p>
+This seemed to do the trick. 
+</p>
+<p>
+I also modified my link capture template: 
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">(<span style="color:#e6db74">&#34;l&#34;</span> <span style="color:#e6db74">&#34;Link&#34;</span> entry (file+headline <span style="color:#e6db74">&#34;~/Sync/orgfiles/links.org&#34;</span> <span style="color:#e6db74">&#34;Links&#34;</span>)
+                    <span style="color:#e6db74">&#34;* %a %^g\n %?\n %T\n %i&#34;</span>)</code></pre></div>
+</p>
+<p>
+Finally, to get things basically to work, I installed <a href="https://github.com/sprig/org-capture-extension">this</a>
+extension. I configured it to use my &#34;l&#34; or link capture
+template. Once everything was installed I went to a web site and
+clicked the plugin. I was popped into Emacs with the capture template
+up and filled in. I did it again, this time marking text and hitting
+the button and again everything worked.
+</p>
+<p>
+Looking at the template, the <code>%a</code> is replaced by the web page link,
+the <code>%i</code> with the marked text, the <code>%T</code> with the timestamp and the
+cursor is left at the <code>%?</code>.
+</p>
+<p>
+I wanted to make one more change. I wanted to also use this for
+storing Gmail links. The problem was that I wanted my links to be
+sored in a file named <code>links.org</code> while I wanted my Gmails stored
+under my main org file <code>i.org</code>. By reading the org-protocol page I
+found that I could just create a bookmark.
+</p>
+<p>
+Copied mostly from the docs, I made a bookmark with this as the link
+(all in one line):
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">  <span style="color:#a6e22e">javascript</span><span style="color:#f92672">:</span><span style="color:#a6e22e">location</span>.<span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;org-protocol://capture://m/&#39;</span><span style="color:#f92672">+</span>
+      encodeURIComponent(<span style="color:#a6e22e">location</span>.<span style="color:#a6e22e">href</span>)<span style="color:#f92672">+</span><span style="color:#e6db74">&#39;/&#39;</span><span style="color:#f92672">+</span>
+      encodeURIComponent(document.<span style="color:#a6e22e">title</span>)<span style="color:#f92672">+</span><span style="color:#e6db74">&#39;/&#39;</span><span style="color:#f92672">+</span>
+      encodeURIComponent(window.<span style="color:#a6e22e">getSelection</span>())
+</code></pre></div>
+</p>
+<p>
+It worked perfectly. 
+</p>
+<p>
+This time I used this as the template:
+</p>
+<p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">(<span style="color:#e6db74">&#34;m&#34;</span> <span style="color:#e6db74">&#34;Mail To Do&#34;</span> entry (file+headline <span style="color:#e6db74">&#34;~/Sync/orgfiles/i.org&#34;</span> <span style="color:#e6db74">&#34;To Do and Notes&#34;</span>)
+  <span style="color:#e6db74">&#34;* TODO %a\n %?&#34;</span> <span style="color:#e6db74">:prepend</span> <span style="color:#66d9ef">t</span>)</code></pre></div>
+</p>
+<p>
+That&#39;s it. Now I can store emails in Emacs or Gmail as well as
+bookmarks without any cut and paste. 
+</p>
+<p>
+Here&#39;s a video with the walkthrough:
+</p>
+<p>
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34;
+src=&#34;<a href="https://www.youtube.com/embed/FYKcVKg0OCU">https://www.youtube.com/embed/FYKcVKg0OCU</a>&#34; frameborder=&#34;0&#34;
+allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2020-03-27</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/emacs">emacs</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/emacs">#emacs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/tools">#tools</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/productivity">#productivity</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

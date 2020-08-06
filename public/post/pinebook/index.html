@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Pinebook Pro - an $200 Linux Laptop - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="Pinebook Pro - an $200 Linux Laptop" />
+<meta property="og:description" content="I&#39;m writing this on my new Pinebook Pro - a $200 ARM based Linux laptop. The Pinebook Pro comes from the Pine64 project. As you could figure out, they do the Pine64 which is similar to a Raspberry Pi and they&#39;ve got some cool projects. In addition to the Pinebook pro they&#39;ve also got the Pine Tab and Pine Phone and more. Now, you&#39;re not going to be able to go to their site and say &#34;I need 30 of these for my class&#34; - at least not for the Pinebook pro but it is a pretty cool proof of concept and hobbyist machine and it shows that we could have affordable devices for our schools and less afluent students." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/post/pinebook/" />
+<meta property="article:published_time" content="2020-06-07T17:24:57-04:00" />
+<meta property="article:modified_time" content="2020-06-07T17:24:57-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Pinebook Pro - an $200 Linux Laptop"/>
+<meta name="twitter:description" content="I&#39;m writing this on my new Pinebook Pro - a $200 ARM based Linux laptop. The Pinebook Pro comes from the Pine64 project. As you could figure out, they do the Pine64 which is similar to a Raspberry Pi and they&#39;ve got some cool projects. In addition to the Pinebook pro they&#39;ve also got the Pine Tab and Pine Phone and more. Now, you&#39;re not going to be able to go to their site and say &#34;I need 30 of these for my class&#34; - at least not for the Pinebook pro but it is a pretty cool proof of concept and hobbyist machine and it shows that we could have affordable devices for our schools and less afluent students."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">Pinebook Pro - an $200 Linux Laptop</h1>
+        </header>
+        <div class="content">
+            <p>
+I&#39;m writing this on my new <a href="https://www.pine64.org/pinebook-pro/">Pinebook Pro</a> - a $200 ARM based Linux
+laptop. The Pinebook Pro comes from the <a href="https://www.pine64.org/">Pine64</a> project. As you could
+figure out, they do the Pine64 which is similar to a Raspberry Pi and
+they&#39;ve got some cool projects. In addition to the Pinebook pro
+they&#39;ve also got the Pine Tab and Pine Phone and more. Now, you&#39;re not
+going to be able to go to their site and say &#34;I need 30 of these for
+my class&#34; - at least not for the Pinebook pro but it is a pretty cool
+proof of concept and hobbyist machine and it shows that we could have
+affordable devices for our schools and less afluent students. 
+</p>
+<p>
+I got the PbP out of curiousity and also to see if I could find a low
+cost solution for Hunter College students. All of my honors students
+get laptops but the rest of Hunter CS is on their own so a low cost
+device is pretty attractive.
+</p>
+<p>
+The specs are pretty decent - 1080P 14&#34; screen, 4GB of memory, 64GB
+mmc (upgradeable), USB-C, long battery life and more. They claim that
+it can drive an external 4k monitor but I haven&#39;t tested this yet.
+</p>
+<p>
+So, does it deliver?
+</p>
+<p>
+Overall yes but with a few caveats. It&#39;s still on the side of a
+tinkerer/hobbyist device.
+</p>
+<p>
+Out of the box it seemed DOA - it wouldn&#39;t boot. I found in the forums
+that there&#39;s an emmc enable switch inside that sometimes ended up in
+the off position. I had to take out the eight screws from the bottom,
+pop the case and flip the switch. Seems like that&#39;s something that
+could have been caught before they closed the cases but it wasn&#39;t too
+big of a deal. It is, however a deal breaker for a novice.
+</p>
+<p>
+From there it booted fine. Right into Manjaro Linux running
+KDE. Everything seemed to work. Next I tried to boot of an SD card -
+Debian this time. Worked like a charm though the distribution kept
+dropping WIFI.
+</p>
+<p>
+Back to Manjaro. Being a Linuxmint user and having not used Manjaro in
+about two years it took a bit of time to get the lay of the land but
+just about everything worked. I installed syncthing which I use
+instead of dropbox, zsh, and built Emacs from source. It took forever
+but worked. Well, worked with some font problems. I ended up installing
+Emacs 27 from the Manjaro repositories and everything went
+seemelessly. Even though I ended up not using the source built Emacs
+it did show that the G++ toolchain all worked well.
+</p>
+<p>
+I also tested Java and Clojure. No problems though starting Clojure
+seemed to take a day and a half. 
+</p>
+<p>
+Other tests included installing the Cinnamon and Mate desktop
+environments. The only thing I haven&#39;t been able to install
+succesfully has been a VPN. On the battery front, I haven&#39;t used it
+long enough in a sitting to put a dent in it.
+</p>
+<p>
+Now, at $200, this isn&#39;t going to be a speed demon. My default config
+does a bunch of things so even opening a terminal with zsh has some
+lag. Once loaded though things are smooth. I would have loved more
+memory but 4GB seems sufficient for day to day stuff and student work.
+</p>
+<p>
+Will his become my day to day laptop? I don&#39;t know. I think if I can
+slim down some of my config it might.
+</p>
+<p>
+If you&#39;re looking for an innexpensive Linux laptop and are comfortable
+tinkering and reading some forums check out the Pinebook. If it was an
+option, I&#39;d love to get these for my students instead of the
+overpriced Dells we have to get them every year.
+</p>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2020-06-07</div>
+    
+    <div class="post-taxonomies">
+        
+            <ul class="post-categories">
+                
+                    <li><a href="https://cestlaz.github.io/categories/hardware">hardware</a></li>
+                
+            </ul>
+            
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/hardware">#hardware</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

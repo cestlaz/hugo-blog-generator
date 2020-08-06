@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>A Teacher looks at Advent of Code 2016 #2 - C&#39;est la Z</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://cestlaz.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://cestlaz.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://cestlaz.github.io/css/style.css?rnd=1596715387" />
+
+
+
+<meta property="og:title" content="A Teacher looks at Advent of Code 2016 #2" />
+<meta property="og:description" content="Today we&#39;re looking at Advent of Code 2016 number 2.  To change things up, I thought I&#39;d do a video where I live code a solution.  The solution I present is pretty straightforward - use a 2D array (or technically, an array of strings) to represent the keypad, parse the input, and follow the input instructions to build the code.  One of the things I really like about Advent of Code is that every problem has two parts and depending on how you solved part 1, you may or may not have extra work to do for part 2." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cestlaz.github.io/posts/advent-of-code-2016-2/" />
+<meta property="article:published_time" content="2016-12-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-12-08T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="A Teacher looks at Advent of Code 2016 #2"/>
+<meta name="twitter:description" content="Today we&#39;re looking at Advent of Code 2016 number 2.  To change things up, I thought I&#39;d do a video where I live code a solution.  The solution I present is pretty straightforward - use a 2D array (or technically, an array of strings) to represent the keypad, parse the input, and follow the input instructions to build the code.  One of the things I really like about Advent of Code is that every problem has two parts and depending on how you solved part 1, you may or may not have extra work to do for part 2."/>
+
+
+
+
+
+
+
+
+    
+</head>
+<body>
+<script id="dsq-count-scr" src="//cestlaz.disqus.com/count.js" async></script>
+
+
+  <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">C&#39;est la Z</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://cestlaz.github.io/" title="">Home</a>
+    
+    <a class="" href="https://cestlaz.github.io/stories/emacs" title="">Emacs</a>
+    
+    <a class="" href="https://cestlaz.github.io/archive" title="">Archive</a>
+    
+    <a class="" href="https://cestlaz-nikola.github.io/" title="">Old Blog</a>
+    
+    <a class="" href="https://cestlaz.github.io/about" title="">About</a>
+    
+    <a class="" href="https://cestlaz.github.io/rss.xml" title="">RSS</a>
+    
+</nav>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1 class="post-title">A Teacher looks at Advent of Code 2016 #2</h1>
+        </header>
+        <div class="content">
+            <p>
+Today we&#39;re looking at <a href="http://adventofcode.com">Advent of Code</a> 2016 <a href="http://adventofcode.com/2016/day/2">number 2</a>.
+</p>
+<p>
+To change things up, I thought I&#39;d do a video where I live code a solution.
+</p>
+<p>
+The solution I present is pretty straightforward - use a 2D array (or
+technically, an array of strings) to represent the keypad, parse the
+input, and follow the input instructions to build the code.
+</p>
+<p>
+One of the things I really like about Advent of Code is that every
+problem has two parts and depending on how you solved part 1, you may
+or may not have extra work to do for part 2.
+</p>
+<p>
+A couple of years ago, I wrote about one of the coding techniques I
+try to convey to my students. The idea of <a href="http://cestlaz.github.io/posts/2014-02-26-change-the-data.md">changing the data</a> to take
+away edge and special cases.
+</p>
+<p>
+Part two of this problem is a perfect time to use that technique.
+</p>
+<p>
+Here&#39;s the video, I hope you enjoy it:
+</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/EC8gSrYQ11g" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+        
+
+
+<div class="post-info">
+    
+        <div class="post-date">2016-12-08</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://cestlaz.github.io/tags/cs">#cs</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/pedagogy">#pedagogy</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/programming">#programming</a></li>
+                    
+                        <li><a href="https://cestlaz.github.io/tags/adventofcode">#adventofcode</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cestlaz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

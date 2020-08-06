@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>paradigms on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/paradigms/</link>
+    <description>C&#39;est la Z (paradigms)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Sep 2019 17:33:51 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/paradigms/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Different languages, different techniques, different solutions</title>
+      <link>https://cestlaz.github.io/post/different-languages/</link>
+      <pubDate>Mon, 02 Sep 2019 17:33:51 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/different-languages/</guid>
+      <description>&lt;p&gt;
+I spent this weekend diving back into Clojure or more specifically,
+Clojurescript. For those who don&amp;#39;t know, Clojure is a Lisp that runs
+on the JVM. The solution it particularly seeks to &amp;#34;solve&amp;#34; is
+immutability. Clojurescript is Clojure that compiles to Javascript for
+web applications. Tooling aside, it&amp;#39;s all pretty neat.
+&lt;/p&gt;
+&lt;p&gt;
+I didn&amp;#39;t do anything earth shaking, just a quick implementation of
+Conway&amp;#39;s game of life and Snake. While the code isn&amp;#39;t particularly
+good, you can check them out here (&lt;a href=&#34;https://github.com/zamansky/clojure-snake&#34;&gt;Snake&lt;/a&gt;, &lt;a href=&#34;http://github.com/zamansky/clojure-life&#34;&gt;Life&lt;/a&gt;).
+&lt;/p&gt;
+&lt;p&gt;
+The Life implementation got me thinking about the value of studying
+different languages or more specifically, different paradigms. A
+student who implements the game of life in Java will likely implement
+something very similar in C++ as both languages are Object Oriented /
+imperative. An implementation in Clojure or Haskell will likely look
+very different.
+&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s look a little deeper.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Conway%2527s_Game_of_Life&#34;&gt;Conway&amp;#39;s Game of LIfe&lt;/a&gt; is a Cellular Automaton and when teaching a CS
+class in Java or C++ it&amp;#39;s a really nice application of 2D arrays. On
+each turn, for each cell in the world, you calculate its living
+neighbors. If the cell is alive and it has 2 or 3 living neighbors, it
+stays alive to the next turn. If the cell isn&amp;#39;t alive but has 3 living
+neighbors it will become alive. Otherwise the cell dies (or remains
+dead).
+&lt;/p&gt;
+&lt;p&gt;
+In a Java type language, given a 2D array &lt;code&gt;this_turn&lt;/code&gt; with the current
+world and you might get something like:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+It&amp;#39;s a really nice application of 2D arrays and I&amp;#39;ve done it with my
+classes frequently over the years.
+&lt;/p&gt;
+&lt;p&gt;
+Another language I&amp;#39;ve done &lt;strong&gt;life&lt;/strong&gt; in is NetLogo. In NetLogo, you have
+a world represented by an x,y grid with each cell in the grid known as
+a patch. You write a program and all the patches run it
+independently. A life solution might look like this:
+&lt;/p&gt;
+&lt;div class=&#34;src src-text&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-netlogo&#34; data-lang=&#34;netlogo&#34;&gt;ask patches [ 
+  set n count nieghbors with [color =  red] ;; red cells will be alive
+  ifelse color = red 
+    [ ifelse n=2 or n = 3
+        [set nextcolor red]
+        [set nextcolor black]
+    ] 
+    [
+      ifelse n=3
+        [ set nextcolor red ]
+        [ set nextcolor black ]  
+    ]
+ask patches [set color nextcolor]&lt;/code&gt;&lt;/pre&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+My NetLogo is a little rusty so my syntax might be off but the idea is
+to:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+have each patch count it&amp;#39;s living neighbors and figure out it&amp;#39;s
+next state - alive (red) or dead (black)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+have each patch set its color to the new state
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+This is a very different solution. In NetLogo you never think about
+looping over the cells. It&amp;#39;s much higher level. You think about each
+location as it&amp;#39;s own entity whereas in the Java solution you&amp;#39;re
+getting much more into the nitty gritty. 
+&lt;/p&gt;
+&lt;p&gt;
+NetLogo and Java are very different languages and using them
+encourages you to solve problems in different ways. you&amp;#39;d likely
+never create a 2D array in NetLogo - you&amp;#39;d exploit the word as your
+array. Likewise you&amp;#39;d exploit the patches to distribute the work. In
+Java you&amp;#39;d probably wouldn&amp;#39;t create a class to represent each patch in
+the array and then run each in a thread. That would be overkill for
+the problem at hand.
+&lt;/p&gt;
+&lt;p&gt;
+Well, what about Clojure?
+&lt;/p&gt;
+&lt;p&gt;
+Clojure isn&amp;#39;t set up for 2D arrays, at least not as cleanly as a
+language like C++ or Java. One could use Java Interop - that is, the
+ability of Clojure to directly use Java but that would defeat the
+purpose of using Clojure. Clojure is all about lists, vectors, and
+maps. Instead of a 2D array of the world, I made a list (vector) where
+each element contained the location of a living cell. This is
+certainly more space efficient. It also let me operate on the world as
+a sequence of transformations to the data:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Calculate all the possible next cells (the cells in the list plus
+all their neighbors
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+For each possible next cell, count it&amp;#39;s living neighbors and
+determine if the cell is alive in the next iteration
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Replace the list of cells with these new cells. 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;src src-clojure&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;generate [state]
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Generate and return the next state&amp;#34;&lt;/span&gt;
+  (&lt;span style=&#34;color:#66d9ef&#34;&gt;let &lt;/span&gt;[potential-cells (for [[x y] state [dx dy] cell-bloc-3x3]
+                          [(+ x dx) (+ y dy)])
+        next-state (for [cell potential-cells]
+                     (&lt;span style=&#34;color:#66d9ef&#34;&gt;if &lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;alive?&lt;/span&gt; cell state) cell))]
+    (into &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;{} (remove nil?(into &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;{} next-state)))))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+You can see the complete code &lt;a href=&#34;https://github.com/zamansky/clojure-life/blob/master/src/life.cljs&#34;&gt;here&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+This again is a very different way of thinking about the problem. In
+Java we looped over the world and made adjustments. Here we
+transformed the current set of cells into the next generations set of
+cells in a pipeline like fashion.
+&lt;/p&gt;
+&lt;p&gt;
+Another feature of Clojure that results from its focus on immutability
+is that in programs like these the computational part of the program
+and the presentation part (the graphics) are totally separate. We
+first transform the data and then the UI displays the current
+data. Clojure does this very nicely and maybe I&amp;#39;ll write a post on
+it but for now, I just want to point out that this is very different
+from NetLogo. In fact, I completely finished the program for life
+before I even thought about the interface. In NetLogo the interface is
+an integral part of the language.
+&lt;/p&gt;
+&lt;p&gt;
+The point of all of this is that languages designed around different
+paradigms are worth exploring even if you never do real work in
+them. Even if you don&amp;#39;t like or use Clojure you can take lessons from
+it&amp;#39;s functional side and how it handles immutability and you can add
+those techniques to your toolkit when using C++ or Java. It doesn&amp;#39;t
+mean you should write Java to look like Clojure but having a complete
+toolkit of paradigms to draw from and apply when appropriate can only
+be good for us and for our students.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,2381 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/programming/</link>
+    <description>C&#39;est la Z (programming)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Dec 2019 17:19:27 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/programming/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Multi Stage Assignments - the good and the bad - Advent of Code</title>
+      <link>https://cestlaz.github.io/post/multi-stage-assignments/</link>
+      <pubDate>Thu, 12 Dec 2019 17:19:27 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/multi-stage-assignments/</guid>
+      <description>&lt;p&gt;
+In the real world you&amp;#39;re usually not building your own projects from
+scratch. Much more frequently you&amp;#39;re working on a team and you and
+other players come and go over time. 
+&lt;/p&gt;
+&lt;p&gt;
+This is in stark contrast to most CS educational experiences where
+students typically complete relatively small assignments from
+beginning to end. One of my biggest fears way back when as I was about
+to graduate college was when I woke up one night in a cold sweath &amp;#34;oh
+crap - in a couple of weeks I&amp;#39;m going to have to actually produce good
+code. Not just code good enough to get by the grader.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+So, as a general rule,  having students build a project and then later
+extend it or, even better, having them extend another student&amp;#39;s project
+can be a very good experience. On the other hand, it can also be a
+very bad one.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s a great feeling when you leverage a previous project to create
+something new. On the other hand, there can be tremendous frustration
+if the original project forms a faulty foundation and you have to go
+back and rebuild and even then you&amp;#39;re never 100% sure that you&amp;#39;re
+building on a solid base.
+&lt;/p&gt;
+&lt;p&gt;
+Building on a previous project has been big in this years &lt;a href=&#34;http://adventofcode.com&#34;&gt;Advent of
+Code&lt;/a&gt;. It started with &lt;a href=&#34;https://adventofcode.com/2019/day/2&#34;&gt;day 2&lt;/a&gt; when we were asked to write a simple
+computer that ran &amp;#34;intcode programs.&amp;#34; Not a bad little challenge. It
+then returned in &lt;a href=&#34;https://adventofcode.com/2019/day/5&#34;&gt;day 5&lt;/a&gt; where we had to add a number of features to our
+intcode machines. This too was a nice assignment. It had to be built
+on a correct and complete day 2 solution but as far as I could tell,
+regardless of how you completed day 2 there was a straightforward way
+to extend it to integrate the requirements for day 5.
+&lt;/p&gt;
+&lt;p&gt;
+Things got interesting in &lt;a href=&#34;https://adventofcode.com/2019/day/7&#34;&gt;day 7&lt;/a&gt; and this is where a teacher, or
+competition designer for that matter has to start being careful. Day 5
+had us modify and build on day 2 but day 7 had us &lt;strong&gt;use&lt;/strong&gt; what we
+created in days 2 and 5. From a teacher who&amp;#39;s building assignments
+point of view, this changes the equation. Day 2 and 5 had you build
+something that took some input and produced some output. Now, in day 7
+you had to do something on top of your intcode machine, feed it into
+it (or them as it turned out) and get an output. Depending on the
+assumptions you made in building your intcode machine you would either
+have an easy time with day 7 or you&amp;#39;d have to go back and redo day 2
+and/or 5 - much less fun. As part 2 of day 7 had us running multiple
+intcode machines &amp;#34;simultaneously,&amp;#34; my set up didn&amp;#39;t work. I still have
+to go back and finish that problem.
+&lt;/p&gt;
+&lt;p&gt;
+Herein lies a big problem with multi part assignments. Unless you
+really lay out the parameters of the early assignment students can,
+and frequently will make assumptions you never dreamed of. Those
+assumptions can make their lives easier in parts 2 and beyond but it
+can also leave them with an impossible task. This on top of any
+student that doesn&amp;#39;t finish the early version to begin with.
+&lt;/p&gt;
+&lt;p&gt;
+Moving on, &lt;a href=&#34;https://adventofcode.com/2019/day/9&#34;&gt;day 9&lt;/a&gt; added some more features to the intcode machine and
+since then, days &lt;a href=&#34;https://adventofcode.com/2019/day/11&#34;&gt;11&lt;/a&gt;, &lt;a href=&#34;https://adventofcode.com/2019/day/13&#34;&gt;13&lt;/a&gt;, &lt;a href=&#34;https://adventofcode.com/2019/day/15&#34;&gt;15&lt;/a&gt;, &lt;a href=&#34;https://adventofcode.com/2019/day/17&#34;&gt;17&lt;/a&gt;, and &lt;a href=&#34;https://adventofcode.com/2019/day/19&#34;&gt;19&lt;/a&gt; have all used our intcode
+machine. I&amp;#39;ve had issues with my machine for days 11 and 13 and have
+to fix my intcode machine&amp;#39;s input/output handling to finish those
+challenges but my machine worked well enough to complete days 15, 17,
+and 19.
+&lt;/p&gt;
+&lt;p&gt;
+So, at the end of the day building on a previous project can be very
+cool and for a student very rewarding but it can also be really
+challenging. On top of the issue I&amp;#39;ve already talked about this can
+also leave students in a very uneasy state when extending a project by
+using it rather than building on it. Did they write the early parts
+fully correctly or just enough to get by the early test cases? It can
+be very unsettling to work on an uncertain foundation. What&amp;#39;s more,
+while a teacher can even provide base code, this might only be useful
+to help check results as now having a student use provided code adds
+yet another challenge (albeit one that provides many useful lesosns).
+&lt;/p&gt;
+&lt;p&gt;
+As to doing this in Advent of Code? I doubt &lt;a href=&#34;https://twitter.com/ericwastl&#34;&gt;Eric Wastl&lt;/a&gt; and the other
+organizers will read this but in case they do, this isn&amp;#39;t a complaint
+about Advent of Code. I love the event and we can all quibble about
+details we like or don&amp;#39;t like. Advent of Code also isn&amp;#39;t a class with
+a grade and if I never finish, let&amp;#39;s say, day 11, there are no
+consequences - unlike if a student doesn&amp;#39;t finish part 2 of a graded
+project. 
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m writing this because I think there are some interesting parallels
+between creating an event like Advent of Code and designing projects
+and lessons for students and more interestingly , where those //s
+diverge.
+&lt;/p&gt;
+&lt;p&gt;
+Now to get to grading. Hoping to get done to spend at least a few
+minutes on &lt;a href=&#34;https://adventofcode.com/2019/day/20&#34;&gt;day 20&lt;/a&gt;. 
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day 8 - addendum - generating inputs</title>
+      <link>https://cestlaz.github.io/post/advent-2019-day8-part2/</link>
+      <pubDate>Sun, 08 Dec 2019 17:04:30 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-2019-day8-part2/</guid>
+      <description>&lt;p&gt;
+As I sad in my &lt;a href=&#34;https://cestlaz.github.io/post/advent-2019-day8/&#34;&gt;last post&lt;/a&gt;, &lt;a href=&#34;https://adventofcode.com/2019/day/8&#34;&gt;day 8&lt;/a&gt; would be a nice project or lesson in
+an APCS-A or college CS1 class. Another nice problem would be to
+write a program to generate an image in the format required by the
+question. Alternatively, a teacher doing day 8 with their classes
+might want to generate a bunch of images for the students to test
+their decoders on. 
+&lt;/p&gt;
+&lt;p&gt;
+I thought I&amp;#39;d write one to see how appropriate it would be for the
+students. I tried to do it without anything fancy or advanced.
+&lt;/p&gt;
+&lt;p&gt;
+To start, you&amp;#39;ll need a way to generate the block text for the
+images. I found &lt;a href=&#34;http://www.patorjk.com/software/taag/#p=display&amp;amp;f=Banner3&amp;amp;t=Hello&#34;&gt;this&lt;/a&gt; site and used the &lt;strong&gt;Banner3&lt;/strong&gt; font. I generated
+some text and saved it in a file. The important thing for our purposes
+is that any space will count as white and any character as black.
+&lt;/p&gt;
+&lt;p&gt;
+The encoded image is a N * Width * Height sequence of digits  where
+each Width * Height sequence of digits represents one layer. See the
+&lt;a href=&#34;https://adventofcode.com/2019/day/8&#34;&gt;problem text&lt;/a&gt; for details.
+&lt;/p&gt;
+&lt;p&gt;
+You can follow along with the code &lt;a href=&#34;https://github.com/zamansky/advent2019/blob/master/day08-generator.py&#34;&gt;here&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+So, here&amp;#39;s how the program works:
+&lt;/p&gt;
+&lt;p&gt;
+The top 51 lines of the program consist of a routine which I&amp;#39;ll
+describe later and code to handle command line argument (to set the
+number of layers).
+&lt;/p&gt;
+&lt;p&gt;
+Then, on line 55 I erad  in the file with the source image (from stdin). 
+&lt;/p&gt;
+&lt;p&gt;
+In line 57 through 63, I loop over the data and changed each non space
+or newline to a star character. I really don&amp;#39;t have to do this but I
+wanted to see what the image looked like in just &amp;#34;black and white.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+Line 65 through 67 is where I split on the newlines. Now I could take
+the length of any line to get the image width and the number of lines
+the height.
+&lt;/p&gt;
+&lt;p&gt;
+70 through 79 creates a long list for the image. At each location, I
+generate a list of values. Each list has one entry per layer. The
+actual pixel value (1 or 0) is stored at a random location. Everything
+before that is a random choice between the real color and transparent
+and everything after is just random. Details for that step are in the
+&lt;code&gt;genpixel&lt;/code&gt; routine.
+&lt;/p&gt;
+&lt;p&gt;
+Finally, in 83 through 89 I loop over each layer and for each layer
+the image and and output all the values into a single string. 
+&lt;/p&gt;
+&lt;p&gt;
+This is then output to stdout while the dimensions go to stderr.
+&lt;/p&gt;
+&lt;p&gt;
+If I had a source image in a file named &amp;#34;hello.dat&amp;#34; I&amp;#39;d convert it to
+source input for day 8 by typing &lt;code&gt;cat hello.dat | python3 day08-generator.py
+-l 10 &amp;gt; day08-input.dat&lt;/code&gt;. This would create a 10 layer input.
+&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s it. Once again, the code is all &lt;a href=&#34;https://github.com/zamansky/advent2019/blob/master/day08-generator.py&#34;&gt;here&lt;/a&gt;. It would make for another
+nice student assignment or for a teacher to prepare inputs for the
+class.
+&lt;/p&gt;
+&lt;p&gt;
+Enjoy.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day - 8</title>
+      <link>https://cestlaz.github.io/post/advent-2019-day8/</link>
+      <pubDate>Sun, 08 Dec 2019 08:42:32 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-2019-day8/</guid>
+      <description>&lt;p&gt;
+I spent most of last week up in Albany working on the NY State K12 CS
+Standards so fell a bit behind. I had to go back to complete &lt;a href=&#34;https://adventofcode.com/2019/day/5&#34;&gt;day 5&lt;/a&gt; but
+still haven&amp;#39;t finished &lt;a href=&#34;https://adventofcode.com/2019/day/7&#34;&gt;day 7&lt;/a&gt; which builds on day 5 which in turn
+builds on &lt;a href=&#34;https://adventofcode.com/2019/day/2&#34;&gt;day 2&lt;/a&gt;. I might not get to finishing 7 for a while but it
+looks like a good chance to play with &lt;a href=&#34;https://www.braveclojure.com/core-async/&#34;&gt;core.async&lt;/a&gt; - Clojure&amp;#39;s
+facilities for concurrency. I also want to write up &lt;a href=&#34;https://adventofcode.com/2019/day/6&#34;&gt;day 6&lt;/a&gt; but today
+let&amp;#39;s look at &lt;a href=&#34;https://adventofcode.com/2019/day/8&#34;&gt;day 8&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Day 8 is image processing problem so it fits nicely into an APCS-A
+type class. You&amp;#39;re given the height and width of the image and you&amp;#39;re
+told that the image comes in layers. The input is a long string of
+digits. So, if you&amp;#39;re told that the width is 5 and height is 3 you
+might get this as your input representing an image with 3 layers:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;100210120100120001102020112100000121002110102&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Adding commas and spaces:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;10021,01201,00120   00110,20201,12100   00012,10021,10102&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+The first part of the task is to find the layer with the most 0s and
+return the number of 1s multiplied with the number of 2s.
+&lt;/p&gt;
+&lt;p&gt;
+This is just a nice little data parsing problem. You have to break the
+input into &lt;code&gt;width*height&lt;/code&gt; chunks, see which has the most zeros, count
+the ones and the twos and return the result. 
+&lt;/p&gt;
+&lt;p&gt;
+Part 2 is where the image stuff comes in. We&amp;#39;re told that a color
+value of 0 is black, 1 is white, and 2 is transparent. We&amp;#39;re also told
+that the image&amp;#39;s actual color is the first color it sees (black or
+white) when going through the layers. Depending on how you read in
+your data, this could be easy or hard. You have to scan down the
+layers and keep the first non-transparent color. 
+&lt;/p&gt;
+&lt;p&gt;
+For part 1, I read my data into a list of lists where each item was a
+layer. I did this in Clojure, but the Python representation of the
+sample image above might look something like this:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;[ [&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;],
+  [&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;],
+  [&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;]]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+There was no reason to subdivide each layer into rows and columns.
+&lt;/p&gt;
+&lt;p&gt;
+For part 1, I wanted to have lists where each list was all the values
+of each pixel across the layers. This meant &lt;a href=&#34;https://en.wikipedia.org/wiki/Transpose&#34;&gt;transposing&lt;/a&gt; the matrix -
+tat is, if you look at the above list of lists as a matrix, switching
+the rows and columns. This was pretty easy to do in Clojure using
+&lt;code&gt;(apply mapv vector matrix)&lt;/code&gt; but it shouldn&amp;#39;t be too hard in other
+languages.
+&lt;/p&gt;
+&lt;p&gt;
+Next, we have to keep the first non-transparent color we see in each
+list.
+&lt;/p&gt;
+&lt;p&gt;
+The final fun part is then taking the colors and printing out the
+final image.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s what I got:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;XXX  XXXX  XX   XX  X  X 
+X  X X    X  X X  X X X  
+X  X XXX  X    X  X XX   
+XXX  X    X    XXXX X X  
+X    X    X  X X  X X X  
+X    X     XX  X  X X  X &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+What&amp;#39;s nice about this problem from a teacher&amp;#39;s point of view? First,
+it&amp;#39;s the puzzle aspect of finding the hidden text. Second, it&amp;#39;s an
+image problem which in APCS-A usually means 2D arrays but you can also
+solve it without any 2D matrices. My solution involved a bunch of
+filtering of data and the matrix transpose. Both interesting concepts
+to bring to your classes.
+&lt;/p&gt;
+&lt;p&gt;
+If you want to see my Clojure solution, you can find it &lt;a href=&#34;https://github.com/zamansky/advent2019/blob/master/day08.clj&#34;&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day 4</title>
+      <link>https://cestlaz.github.io/post/advent-2019-day4/</link>
+      <pubDate>Wed, 04 Dec 2019 19:32:34 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-2019-day4/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://adventofcode.com/2019/day/4&#34;&gt;Day 4&lt;/a&gt;. Most of the day was spent working on the NY State CS standards
+to I didn&amp;#39;t figure to have much time to work on the
+problem. Fortunately, I was able to knock out part 1 before work
+started and part 2 was a quick adjustment when I got back to it at the
+start of lunch.
+&lt;/p&gt;
+&lt;p&gt;
+Once again, it was a problem with a few interesting teacher side
+aspects.
+&lt;/p&gt;
+&lt;p&gt;
+I only wrote a &lt;a href=&#34;https://github.com/zamansky/advent2019/blob/master/day04.clj&#34;&gt;Clojure solution&lt;/a&gt; today so that&amp;#39;s what I&amp;#39;ll use for my
+code examples.
+&lt;/p&gt;
+&lt;p&gt;
+The gist was that you were going to use a 6 digit integer as a
+password but only  subset of the numbers between a start and end
+point. Only numbers in that range for which these two properties held:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+There were at least one repeated digit, that is 123445 is o since
+we have two consecutive 4s but 124354 isn&amp;#39;t
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+The digits are increasing. That is, given any digit, the digit to
+its right has either the same or a greater value.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+You had to find the number of &amp;#34;valid passwords.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+At first read this sounds like a math problem but it really
+isn&amp;#39;t. Looking at the first constraint, if you convert the number to a
+string, looking to see that at least two consecutive characters are
+the same is pretty easy - it&amp;#39;s just a simple loop. 
+&lt;/p&gt;
+&lt;p&gt;
+It turns out that it&amp;#39;s even easier using &lt;a href=&#34;https://www.regular-expressions.info/&#34;&gt;Regular Expressions&lt;/a&gt;. Regular
+expressions (regex) aren&amp;#39;t usually an explicit part of a CS sequence
+but man are they useful. Basically they allow you to set up a pattern
+that will match text. Some examples:
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;pattern&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Matches&lt;/th&gt;
+&lt;th&gt;doesn&amp;#39;t match&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;aa[0-9]bb&lt;/td&gt;
+&lt;td&gt;Matches aa a digit than bb&lt;/td&gt;
+&lt;td&gt;aa3bb&lt;/td&gt;
+&lt;td&gt;ax3b, aacbb&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a+bb[a-z]&lt;/td&gt;
+&lt;td&gt;one or more of a then two b then an a-z&lt;/td&gt;
+&lt;td&gt;aabbc&lt;/td&gt;
+&lt;td&gt;aabcb&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+You can use parentheses to form a &amp;#34;match group&amp;#34; and then use &amp;#34;\1&amp;#34; to
+match the group, so this regular expression:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-regex&#34; data-lang=&#34;regex&#34;&gt;([0-9])\1&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;
+&lt;p&gt;
+will match two any substring with two of digits, adjacent. Many regex
+engines allow you to use &lt;strong&gt;\d&lt;/strong&gt; instead of &lt;strong&gt;[0-9]&lt;/strong&gt; as a shorthand for
+match a single digit.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the line that will take a list of potential passwords in a
+variable &lt;strong&gt;passwords&lt;/strong&gt; and return a list that only containsn the
+passwords that meet the two consecutive of the same digit rule.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;(filter &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;(re-seq &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;(\d)\1&amp;#34;&lt;/span&gt; %) passwords)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I knew that Python has a &lt;strong&gt;partition&lt;/strong&gt; function that would take a string
+with a potential password (I convert the number to a string before
+doing the regex test above). It would take a string &amp;#34;1245&amp;#34; and convert
+it into something like this &lt;strong&gt;(1,2), (2,3), (3,4), (4,5)&lt;/strong&gt;. Here&amp;#39;s the instruction:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;(map &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;partition&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; %) passwords)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Next we test each pair in the partition to see that the first value in
+the pair is less than or equal to the second one:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;(map &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;(every? (&lt;span style=&#34;color:#66d9ef&#34;&gt;fn &lt;/span&gt;[ [a b]] (&amp;lt;= (int a) (int b))) %) passwrods)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Pull out the ones where the above is true and count them:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;(count (filter true?))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+And that&amp;#39;s part one.
+&lt;/p&gt;
+&lt;p&gt;
+The Python equivalent would be easier to read for the non-lisper but
+the idea is the same and pretty straightforward. 
+&lt;/p&gt;
+&lt;p&gt;
+What I like is that we just solved a number problem without math, just
+text processing.
+&lt;/p&gt;
+&lt;p&gt;
+Part 2 is more of the same. This time we still need a pair of adjacent
+same digits but runs of 3 or more didn&amp;#39;t count. Now, 122234 wouldn&amp;#39;t
+be a valid password because the run is of 3 while 1222344 would
+because while the repeated 2s don&amp;#39;t count the 4s would.
+&lt;/p&gt;
+&lt;p&gt;
+Fortunately, this is just more text processing:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+Check to make sure the sequence is increasing (as above)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Remove all the sequences of 3 or more repeats. This can also be
+xdone using a regular expression search and replace. In Clojure
+it&amp;#39;s:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;     cleaned (&lt;span style=&#34;color:#a6e22e&#34;&gt;string/replace&lt;/span&gt; s &lt;span style=&#34;color:#f92672&#34;&gt;#&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;([0-9])\1\1+&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;) 
+     &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+The [0-9]\1\1+ says match any sequence of 3 or more of the same
+digit and we replace it with an empty string.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+If the remaining string has a pair of adjacent same digits (as
+above) its a valid password.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+And that&amp;#39;s it. Both parts solved as a text processing problem. What
+I love here is that it seems to be a numeric problem but it has a text
+based solution. Certainly something worth talking about.
+&lt;/p&gt;
+&lt;p&gt;
+Another thing I thought about as a teacher but didn&amp;#39;t pay attention to
+in my solution was efficiency. My range consisted of about 500,000
+values to check. Not huge enough to make a time difference but it&amp;#39;s
+worth noting that there are only about 500 that fulfill the
+&amp;#34;increasing&amp;#34; requirement but almost 200,000 that have a double digit
+subsequence. 
+&lt;/p&gt;
+&lt;p&gt;
+This means it could be more efficient to look for increasing first and
+throw away most of the data and then do the digit test. This type of
+ordering can be a big deal for other problems so could be worth
+discussing. 
+&lt;/p&gt;
+&lt;p&gt;
+Another issue is pipelining. Are you looping over the entire (or even
+culled) data set over and over or can you take each number and put it
+through a sequence of tests and/or transformations - the pipeline
+could also lead to a more efficient solution.
+&lt;/p&gt;
+&lt;p&gt;
+Lots of good teacher fodder.
+&lt;/p&gt;
+&lt;p&gt;
+In closing I&amp;#39;ll mention one last thought - not mine but rather a
+suggestion I found while perusing the Advent of Code subreddit after I
+had submitted my solutions 
+&lt;/p&gt;
+&lt;p&gt;
+Someone noted that since a valid number has increasing digits, if
+digits appear more than once they &lt;strong&gt;have&lt;/strong&gt; to be adjacent to each
+other. If they weren&amp;#39;t they&amp;#39;d violate the increasing restriction. This
+means that you could solve this problem more numerically by:
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+do the &amp;#34;increasing&amp;#34; test
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Find the sum of the counts of each digit value (0 through 9)
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Test to see if at least one digit appears twice.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+Based on tomorrows schedule I doubt I&amp;#39;ll get to AoC day 5 but we&amp;#39;ll
+see.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day 3</title>
+      <link>https://cestlaz.github.io/post/advent-2019-day3/</link>
+      <pubDate>Tue, 03 Dec 2019 19:01:13 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-2019-day3/</guid>
+      <description>&lt;p&gt;
+Today&amp;#39;s &lt;a href=&#34;https://adventofcode.com/2019/day/3&#34;&gt;problem&lt;/a&gt; dealt with intersecting paths. You start with two
+inputs, figure out the paths they represent and where they intersect
+and then find the intersection that correctly answers the question.
+&lt;/p&gt;
+&lt;p&gt;
+For part 1 you have to find the intersection closest to the
+origin. From a teacher&amp;#39;s point of view, the interesting part here is
+data representation. This problem deals with a two dimensional grid on
+which the paths live. For most students, at least in my experience, if
+they&amp;#39;re trained in a language like C++ or Java they go for the direct
+representation - a 2D array. For many problems this makes a lot of
+sense. For this one, however, it probably doesn&amp;#39;t. We start at a
+specific point but can travel in any direction for any distance. This
+means we might need a crazy large array and what&amp;#39;s more, it&amp;#39;s probably
+going to be sparsely filled.
+&lt;/p&gt;
+&lt;p&gt;
+A more practical solution involves maintaining a data structure with
+just the individual points of interest - the points on the path. 
+&lt;/p&gt;
+&lt;p&gt;
+I chose a dictionary (or hash-map or hash-table depending on language)
+The key would be a tuple representing a point and the value would hold
+whatever data was needed. For part one that would be a set of the
+paths that went through the point. 
+&lt;/p&gt;
+&lt;p&gt;
+So, if we had a path made up of 2 intersecting lines:
+&lt;/p&gt;
+&lt;div class=&#34;src src-ditaa&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-ditaa&#34; data-lang=&#34;ditaa&#34;&gt; |
+-+-----
+ |&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;
+We could use a 2D array to represent it (assume the lines have ID&amp;#39;s 1
+and 2):
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th class=&#34;align-right&#34;&gt;&lt;/th&gt;
+&lt;th&gt;0&lt;/th&gt;
+&lt;th&gt;1&lt;/th&gt;
+&lt;th&gt;2&lt;/th&gt;
+&lt;th&gt;3&lt;/th&gt;
+&lt;th&gt;4&lt;/th&gt;
+&lt;th&gt;5&lt;/th&gt;
+&lt;th&gt;6&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;0&lt;/td&gt;
+&lt;td&gt;nil&lt;/td&gt;
+&lt;td&gt;#{2}&lt;/td&gt;
+&lt;td&gt;nil&lt;/td&gt;
+&lt;td&gt;nil&lt;/td&gt;
+&lt;td&gt;nil&lt;/td&gt;
+&lt;td&gt;nil&lt;/td&gt;
+&lt;td&gt;nil&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;1&lt;/td&gt;
+&lt;td&gt;#{1}&lt;/td&gt;
+&lt;td&gt;#{1 2}&lt;/td&gt;
+&lt;td&gt;#{1}&lt;/td&gt;
+&lt;td&gt;#{1}&lt;/td&gt;
+&lt;td&gt;#{1}&lt;/td&gt;
+&lt;td&gt;#{1}&lt;/td&gt;
+&lt;td&gt;#{1}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&#34;align-right&#34;&gt;2&lt;/td&gt;
+&lt;td&gt;nil&lt;/td&gt;
+&lt;td&gt;#{2}&lt;/td&gt;
+&lt;td&gt;nil&lt;/td&gt;
+&lt;td&gt;nil&lt;/td&gt;
+&lt;td&gt;nil&lt;/td&gt;
+&lt;td&gt;nil&lt;/td&gt;
+&lt;td&gt;nil&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+That&amp;#39;s already a good deal of wasted space. using a dictionarey we&amp;#39;d
+have:
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;key (row,col)&lt;/th&gt;
+&lt;th&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;(0,1)&lt;/td&gt;
+&lt;td&gt;#{2}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(1,0)&lt;/td&gt;
+&lt;td&gt;#{1}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(1,1)&lt;/td&gt;
+&lt;td&gt;#{1 2}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(1,2)&lt;/td&gt;
+&lt;td&gt;#{1}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(1,3)&lt;/td&gt;
+&lt;td&gt;#{1}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(1,4)&lt;/td&gt;
+&lt;td&gt;#{1}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(1,5()&lt;/td&gt;
+&lt;td&gt;#{1}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(1,6)&lt;/td&gt;
+&lt;td&gt;#{1}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;(2,1)&lt;/td&gt;
+&lt;td&gt;#{2}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+Which becomes much more space efficient once we go beyond the smallest
+test cases.
+&lt;/p&gt;
+&lt;p&gt;
+Once we have the representation, the problem becomes one of stepping
+through the paths and adding them to the dictionary. After that we can
+pull out the small number of entries in our dictionary that were
+visited by both paths and then we can find the final answer.
+&lt;/p&gt;
+&lt;p&gt;
+I coded this up in Clojure &lt;a href=&#34;https://github.com/zamansky/advent2019/blob/master/day03.clj&#34;&gt;(solution here)&lt;/a&gt; but forgot to account for the fact that
+when a path repeats itself it shouldn&amp;#39;t count as an intersection for
+the purpose of the problem. Oops. I fudged things to get the right
+answer but then had to head off to Albany.
+&lt;/p&gt;
+&lt;p&gt;
+When I arrived I fixed the code but was pretty zonked so decide to
+code the second part in Python &lt;a href=&#34;https://github.com/zamansky/advent2019/blob/master/day03.py&#34;&gt;(solution here)&lt;/a&gt;. Both solutions are pretty similar but
+as I&amp;#39;m more comfortable with Python it didn&amp;#39;t require too much focus
+to get it right.
+&lt;/p&gt;
+&lt;p&gt;
+Given the wording of this problem, I think that most people will steer
+towards the type of dictionary representation I used rather than a 2D
+array but this way of storing data is worth discussing with classes
+when you might otherwise use a 2D array.
+&lt;/p&gt;
+&lt;p&gt;
+When might you ask?
+&lt;/p&gt;
+&lt;p&gt;
+How about something like Conway&amp;#39;s Game of Life. When this is done in a
+CS1 class the world is usually represented as a 2D array. It&amp;#39;s simple
+ and direct. Another approach would be to only store the live cells in
+a list. You can check out a Clojurescript implementation that does
+just that &lt;a href=&#34;https://github.com/zamansky/clojure-life/tree/master/src&#34;&gt;here&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+Another would be the N-Queens problem. Insead of a board, just store
+the queens locations. 
+&lt;/p&gt;
+&lt;p&gt;
+Image processing? Well, there probably not. When doing image work,
+you actually use all the cells in the 2D array.
+&lt;/p&gt;
+&lt;p&gt;
+That&amp;#39;s pretty much all I have to say about today&amp;#39;s problem. It got me
+thinking about alternate ways of representing our data. That&amp;#39;s
+something we usually don&amp;#39;t have too much of an opportunity to discuss
+with our students. That&amp;#39;s unfortunate.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advent 2019 Day 2</title>
+      <link>https://cestlaz.github.io/post/advent-2019-day2/</link>
+      <pubDate>Mon, 02 Dec 2019 17:11:43 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-2019-day2/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://adventofcode.com/2019/day/2&#34;&gt;Day 2&lt;/a&gt; of Advent of Code 2019 was also pretty straightforward and once
+again I wrote &lt;a href=&#34;https://github.com/zamansky/advent2019/blob/master/day02.clj&#34;&gt;my solution&lt;/a&gt; in Clojure but in order to talk about this
+from a teacher&amp;#39;s point of view, we&amp;#39;ll look at a &lt;a href=&#34;https://github.com/zamansky/advent2019/blob/master/day02.py&#34;&gt;Python solution&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+At its core, this is a simulation problem - read the data into an
+array or list and write a program to run through the steps. At first I
+was hoping that the solution would consume the data - that is, once
+you read past an instruction you don&amp;#39;t go back to it. If it was, I was
+going to try to write some clever reduce. It wasn&amp;#39;t. In this problem,
+any instruction could affect any part of the data set. This means you
+have to keep the entire data set in memory and preferably in a random
+access structure like an array. 
+&lt;/p&gt;
+&lt;p&gt;
+Step 1 is to read in the data and convert it into a list of integers.
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+If you don&amp;#39;t know comprehensions you can just do something like this:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Now we just have to run the simulation:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The most likely source of error here is forgetting to change the
+values in &lt;code&gt;program[1]&lt;/code&gt; and &lt;code&gt;program[2]&lt;/code&gt; in lines 18 and 19 as
+specified in the question. The other likely error is forgetting to do
+the two level indirection in lines 7 and 8. That is writing
+&lt;code&gt;program[ip+1]&lt;/code&gt; and &lt;code&gt;program[ip+2]&lt;/code&gt; by mistake. Truth be told, I made
+both of these mistakes but I didn&amp;#39;t find them to be &amp;#34;interesting&amp;#34;
+mistakes. 
+&lt;/p&gt;
+&lt;p&gt;
+The interesting part of this program is part 2 where instead of
+setting &lt;code&gt;program[1]&lt;/code&gt; to &lt;code&gt;12&lt;/code&gt; and &lt;code&gt;program[2]&lt;/code&gt; to &lt;code&gt;2&lt;/code&gt; you have to try
+values between 0 and 99 inclusive for each entry until you find a
+specific answer. 
+&lt;/p&gt;
+&lt;p&gt;
+This is a great platform to talk about memory. The problem refers to
+the values you put into &lt;code&gt;program[1]&lt;/code&gt; as &lt;strong&gt;nouns&lt;/strong&gt; and &lt;code&gt;program[2]&lt;/code&gt; as
+&lt;strong&gt;verbs&lt;/strong&gt;. The issue is that every time you run your program for a
+specific &lt;strong&gt;noun verb&lt;/strong&gt; combination you change the array (list)
+representing your program. If you don&amp;#39;t reset the array to its
+original contents before the next run, the next run will be working
+off of new values and therefore give you incorrect results. 
+&lt;/p&gt;
+&lt;p&gt;
+This is a great platform for discussion. Students usually start with
+&lt;strong&gt;pass by value&lt;/strong&gt; semantics so passing a list to a function and then
+having the list change can seem weird even though it can still be pass
+by value:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Here&amp;#39;s a finished solution:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Note that in line 30 we copy over the original data for each noun,verb
+combo. also note the list comprehension in line 35 to find the final
+answer. 
+&lt;/p&gt;
+&lt;p&gt;
+One last potential error point is notice that we had to add the array
+copy in line 20. Otherwise part1 will change the data and if we run it
+before part2 we won&amp;#39;t get the correct result.
+&lt;/p&gt;
+&lt;p&gt;
+So there it is. Another nice problem and even though it&amp;#39;s a
+straightforward problem, there&amp;#39;s still some interesting meat to
+discuss with your students.
+&lt;/p&gt;
+&lt;p&gt;
+Tomorrow, snowstorm notwithstanding, I&amp;#39;ll be heading up to Albany for
+the remainder of the week so might not be able to get to day 3 and
+beyond until Friday so who knows if I&amp;#39;ll post any more of these
+write ups.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code 2019 Day 1</title>
+      <link>https://cestlaz.github.io/post/advent-2019-day1/</link>
+      <pubDate>Sun, 01 Dec 2019 14:23:35 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/advent-2019-day1/</guid>
+      <description>&lt;p&gt;
+Like most programming challenges, &lt;a href=&#34;http://adventofcode.com&#34;&gt;Advent of Code&lt;/a&gt; ramps out from
+easier, more accessible problems to harder, more complex ones. As
+such, a number of the early challenges are great problems for early CS
+students. 
+&lt;/p&gt;
+&lt;p&gt;
+I thought that while I watched my NY Giants play valiantly in their
+attempt to get a high draft pick I&amp;#39;d talk about today&amp;#39;s &lt;a href=&#34;https://adventofcode.com/2019/day/1&#34;&gt;challenge&lt;/a&gt;
+from a teacher&amp;#39;s point of view.
+&lt;/p&gt;
+&lt;p&gt;
+The summary of part one is that you have a list of inputs (masses of
+components) and for each one you have to perform a calculation (how
+much fuel is needed). The answer will be the sum of the fuels.
+&lt;/p&gt;
+&lt;p&gt;
+The most challenging part of this for a beginner might be reading in
+the data but that&amp;#39;s not too much of a challenge:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Now we can calculate part1:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Part 2 adds a twist. Now, you have to also consider the fuel needed
+for the fuel you&amp;#39;ve added. Basically, you have to calculate how much
+fuel you&amp;#39;ll need for a given item and then how much fuel you&amp;#39;ll need
+for that fuel. You repeat this until the amount of fuel you need is
+either 0 or negative. See &lt;a href=&#34;https://adventofcode.com/2019/day/1&#34;&gt;the challenge&lt;/a&gt; for more info on this. 
+&lt;/p&gt;
+&lt;p&gt;
+This is our first &amp;#34;teaching moment.&amp;#34; This is going to be messy to work
+into our part1 solution but if we had factored out the original fuel
+calculation we could probably reused it and maybe more of our
+solution:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Now we can just add an inner loop that repeatedly adds the fuel costs.
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+More &amp;#34;teachable moments.&amp;#34; We have to change up variables in our fuel
+calculations (lines 8 and 11) and for a beginner, the loop within a
+loop can be somewhat muddled. It&amp;#39;s more complex but it&amp;#39;s doing
+something that &lt;strong&gt;is&lt;/strong&gt; more complex. It&amp;#39;s also good nested loop practice.
+&lt;/p&gt;
+&lt;p&gt;
+For more advanced students, if they&amp;#39;re familiar with list
+comprehensions you can really clean up part 1:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+#+END_SRC
+&lt;/p&gt;
+&lt;p&gt;
+but I think part 2 either stay&amp;#39;s more or less as is.
+&lt;/p&gt;
+&lt;p&gt;
+Personally, I wrote my solutions in Clojure:
+&lt;/p&gt;
+&lt;div class=&#34;src src-clojure&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-clojure&#34; data-lang=&#34;clojure&#34;&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;ns &lt;/span&gt;day01
+  (&lt;span style=&#34;color:#e6db74&#34;&gt;:require&lt;/span&gt; [clojure.string &lt;span style=&#34;color:#e6db74&#34;&gt;:as&lt;/span&gt; string]
+            [utils &lt;span style=&#34;color:#e6db74&#34;&gt;:as&lt;/span&gt; u]))
+
+
+(&lt;span style=&#34;color:#66d9ef&#34;&gt;def &lt;/span&gt;test-masses [&lt;span style=&#34;color:#ae81ff&#34;&gt;12&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;14&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1969&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;100756&lt;/span&gt;])
+
+&lt;span style=&#34;color:#75715e&#34;&gt;;; load data&lt;/span&gt;
+(&lt;span style=&#34;color:#66d9ef&#34;&gt;def &lt;/span&gt;masses (&lt;span style=&#34;color:#a6e22e&#34;&gt;-&amp;gt;&amp;gt;&lt;/span&gt;
+             (slurp &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;day01.dat&amp;#34;&lt;/span&gt;)
+             string/split-lines
+             (map u/parse-int)
+             ))
+
+
+(&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;calc-mass-part1 [mass]
+  (- (quot mass &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;) &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;))
+
+(&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;part1 [masses]
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;calculate fuel for each mass then sum them all&amp;#34;&lt;/span&gt;
+  (reduce + (map calc-mass-part1 masses)))
+
+
+
+(&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;calc-mass-part2
+  ([mass] (&lt;span style=&#34;color:#a6e22e&#34;&gt;calc-mass-part2&lt;/span&gt; mass &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;))
+  ([mass cost]
+   &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Same as part 1 but loop to calculate fuel for the fuel&amp;#34;&lt;/span&gt;
+   (&lt;span style=&#34;color:#66d9ef&#34;&gt;let &lt;/span&gt;[fuel (&lt;span style=&#34;color:#a6e22e&#34;&gt;calc-mass-part1&lt;/span&gt; mass)]
+     (&lt;span style=&#34;color:#66d9ef&#34;&gt;if &lt;/span&gt;(&amp;lt;= fuel &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;)
+       cost
+       (&lt;span style=&#34;color:#a6e22e&#34;&gt;recur&lt;/span&gt; fuel (+ cost fuel))))))
+  
+(&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;part2 [masses]
+  (reduce + (map calc-mass-part2 masses )))
+
+(&lt;span style=&#34;color:#66d9ef&#34;&gt;defn &lt;/span&gt;main []
+(println (str &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Part1: &amp;#34;&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;part1&lt;/span&gt; masses)))
+(println (str &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Part2: &amp;#34;&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;part2&lt;/span&gt; masses)))
+)
+
+(&lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+So that&amp;#39;s day 1. I don&amp;#39;t know if I&amp;#39;ll write up any more or, given my
+travel and work schedule for the week,if I&amp;#39;ll even be able  to work
+on more problems until next weekend. 
+&lt;/p&gt;
+&lt;p&gt;
+In any event. If you&amp;#39;re teaching CS0 or CS1 students, you should
+really check out Advent of Code.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Back To Python</title>
+      <link>https://cestlaz.github.io/post/back-to-python/</link>
+      <pubDate>Fri, 14 Jun 2019 15:53:54 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/back-to-python/</guid>
+      <description>&lt;p&gt;
+With summer right around the corner I&amp;#39;m hoping to spend at least a
+little time on some personal coding projects. There are a few work
+related tools I&amp;#39;d love to develop and just some random areas of CS I&amp;#39;d
+like to explore. If I finish them, the work projects will be web
+based.
+&lt;/p&gt;
+&lt;p&gt;
+I was thinking about using this as an opportunity to do a deeper dive
+into Clojure having used it for some experiments and competitions like
+&lt;a href=&#34;https://adventofcode.com/&#34;&gt;Advent of Code&lt;/a&gt; but at the end of the day I decided not
+to. It&amp;#39;s not that Clojure wouldn&amp;#39;t be a good language for web apps. It
+looks like it would be great. Rather, I&amp;#39;m finding the ecosystem and
+build systems in particular to be more trouble than they&amp;#39;re worth for
+a side project - particularly when I want to accomplish more than
+becoming comfortable with the Clojure ecosystem. 
+&lt;/p&gt;
+&lt;p&gt;
+Things were so much simpler in the old days. Way back when I was a
+software engineer at Goldman Sachs I worked on a couple of large,
+complex systems. All I had were a bunch of C files in a bunch of
+directories and a Makefile to build everything. Simple and
+straightforward. 
+&lt;/p&gt;
+&lt;p&gt;
+If I&amp;#39;m working in C or C++ I can still do the same. 
+&lt;/p&gt;
+&lt;p&gt;
+In Java I was always able to do the same since Make seemed to be
+accepted in the community. Now there seems to be many more
+options - Ant, Maven, and Gradle to name just three.
+&lt;/p&gt;
+&lt;p&gt;
+Python was even easier - just set up your directory structure
+and &lt;code&gt;__init__.py&lt;/code&gt; files and your good to go and by using a virtual
+environment, which is pretty easy, you can keep the entire development
+environment clean.
+&lt;/p&gt;
+&lt;p&gt;
+Nowadays things are much more complex. Sure, I can create a simple
+Clojure program and run it but anything bigger and you need a build
+system. For a long time the tool was &lt;a href=&#34;https://leiningen.org/&#34;&gt;Leiningen&lt;/a&gt;. You define a project
+file using it&amp;#39;s particular syntax and it can download dependencies,
+manage builds etc.. It actually doesn&amp;#39;t look so bad if you&amp;#39;re living
+in Clojure all the time but for a hobbyist like me I found myself
+looking for other peoples templates and hoping for the best. Whenever
+I needed my project to do things outside the norm I was pretty much
+out of luck. 
+&lt;/p&gt;
+&lt;p&gt;
+Then came &lt;a href=&#34;https://boot-clj.com/&#34;&gt;Boot&lt;/a&gt; as an alternative. Where Leiningen used a descriptive
+configuration file, Boot used a configuration file that was basically
+Clojure code. It was different but to me, it had the same problems -
+documentation was lacking and too much magic going on behind the
+scenes. Finally, Clojure started to come with &lt;a href=&#34;https://clojure.org/guides/deps_and_cli&#34;&gt;build system&lt;/a&gt;. I want to
+like it but the documentation is even sparser and with three competing
+build systems with varying levels of use and documentation it&amp;#39;s less
+than ideal for a guy like me.
+&lt;/p&gt;
+&lt;p&gt;
+Things get messier when you add in Clojurescript - Clojurescript
+basically compiles Clojure code to Javascript. It has a great
+development environment and handles state really nicely but for a
+novice like me getting any of the build systems set up for Clojure and
+Clojurescript in a way that makes sense is more than I want to
+deal with right now.
+&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t mean to be unfair to Clojure and its ecosystem. I still really
+like the language and if I lived in it I&amp;#39;m sure I&amp;#39;d figure it all out
+and be happy with it. It&amp;#39;s also no worse and arguably better than
+ecosystems for other languages. 
+&lt;/p&gt;
+&lt;p&gt;
+Javascript, for example makes you chose between gulp, grunt, webpack,
+browserfity, parcel and maybe more. I think I finally got my head
+aroudn webpack and parcel but it&amp;#39;s really the wild west. Of course
+those are just the Javsacript build systems you then have to make
+choices like VueJS or React or something else. 
+&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s really no easy answer. 
+&lt;/p&gt;
+&lt;p&gt;
+Putting my teacher hat on for a second this is also an issue that our
+students will have to deal with at some point. Are we helping them by
+keeping them in web based language silos and simple IDEs or hurting
+them? At what point do we transition them or do we leave it for them
+to do on their own? I&amp;#39;m not taking any position on this here and now
+but it&amp;#39;s something worth thinking about.
+&lt;/p&gt;
+&lt;p&gt;
+Back to my side projects. 
+&lt;/p&gt;
+&lt;p&gt;
+So, for the sake of getting things done I think I&amp;#39;m going to fall back
+to Python. I don&amp;#39;t need to deal with any complex build systems, I can
+write my web applications with Flask and it&amp;#39;s also a nice platform for
+the other things I&amp;#39;d like to do.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll still probably play with Clojurescript for the web frontend ut if
+that turns out to be proiblematics I&amp;#39;ll just go back to VueJS.
+&lt;/p&gt;
+&lt;p&gt;
+Time to get to work.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Give me a break (and a continue)</title>
+      <link>https://cestlaz.github.io/post/break-continue/</link>
+      <pubDate>Wed, 01 May 2019 08:39:41 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/break-continue/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;
+What can I do to discourage my students from using the &amp;#34;break&amp;#34;
+statement?
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+That was more or less the gist of the comment and it elicited some
+good responses. This time the conversation was on Facebook but I&amp;#39;ve
+seen this one and participated in it many times before. I never liked
+the question when presented as a &amp;#34;how can I stop them&amp;#34; one.  I equally
+dislike when the offered advice is basically &amp;#34;never use break no
+matter what&amp;#34; or something similar. When writing code the best advice
+is rarely to never or always do something. The question should really
+be &amp;#34;when is it appropriate for my students to use a break statement
+and how can I steer them  towards using it correctly.&amp;#34; The answer, of
+course is &amp;#34;it depends.&amp;#34;
+&lt;/p&gt;
+&lt;p&gt;
+For those unfamiliar with the statements, &lt;code&gt;break&lt;/code&gt; jumps to the end and
+exits the loop or switch statement that encloses it. The &lt;code&gt;continue&lt;/code&gt;
+statement jumps up to the next iteration of its enclosing loop. I&amp;#39;ll
+show some examples below.
+&lt;/p&gt;
+&lt;p&gt;
+It&amp;#39;s true that you never &lt;strong&gt;need&lt;/strong&gt; to use break but in my opinion, if
+used correctly it can create clearer code. Let&amp;#39;s look at a related
+situation. Suppose you write a function to find and return some item
+from  a data set (in pseudocode):
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+You could tighten it up a bit but there are two things that I don&amp;#39;t
+like about the above solution. First, it goes through the entire data
+set even if the item you&amp;#39;re searching for is near the beginning. You
+could fix that by putting in a more complex loop boolean:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;0&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; numitems &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;found &lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; i&lt;span style=&#34;color:#f92672&#34;&gt;++)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Second. you&amp;#39;ve got the conditional after the loop. I find the
+following much clearer:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+To me this is perfectly clear. Look for an item, if and when we find
+it, we&amp;#39;re done so let&amp;#39;s get out of here. If not, the loop finishes and
+we return the not found stuff at the end. It&amp;#39;s clean, easy to
+understand, and potentially a little faster.
+&lt;/p&gt;
+&lt;p&gt;
+You have a similar situation with &lt;code&gt;break&lt;/code&gt;. Without it you might have
+code like this:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+And with:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Not significantly different. 
+&lt;/p&gt;
+&lt;p&gt;
+People who don&amp;#39;t like the break statement usually adhere to a very
+strict interpretation of structured programming - one entry point, one
+exit point but I&amp;#39;d argue that break (and continue) are not like
+arbitrary jumps. They&amp;#39;re well defined and don&amp;#39;t introduce spaghetti
+code. They either specifically exit a bounding language construct or
+jump to the next iteration. Actually, now that I think about it,
+&lt;code&gt;exceptions&lt;/code&gt; can be used in a way that mucks with clear code in a much
+more dangerous way than break and continue can.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s an example with continue:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;    &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+as opposed to:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;    &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Which is better? It&amp;#39;s purely subjective. Nothing wrong with either.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ll share a final example. This one lifted from an &lt;a href=&#34;https://cestlaz.github.io/post/globals-breaks-and-returns/&#34;&gt;older post&lt;/a&gt; on
+&amp;#34;best practices.&amp;#34; If you&amp;#39;re writing an event handler, you could put
+the exit event in the loop boolean but I find including it
+as a case using a &lt;code&gt;break&lt;/code&gt; to be cleaner:
+&lt;/p&gt;
+&lt;div class=&#34;src src-c++&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+At the end of the day, &lt;code&gt;break&lt;/code&gt; and &lt;code&gt;continue&lt;/code&gt;, like most langauge
+constructs can be used for either good or evil. There have been times
+when they&amp;#39;ve led me to cleaner code so I&amp;#39;ve used them. At other times,
+using them would have been forced.
+&lt;/p&gt;
+&lt;p&gt;
+If we agree that &lt;code&gt;break&lt;/code&gt; and &lt;code&gt;continue&lt;/code&gt; can be appropriate, the other
+question is when to introduce them. One comment from the most recent
+Facebook thread on this (name withheld since that&amp;#39;s a semi-private
+forum) was that it shouldn&amp;#39;t be right off the bat but rather after
+they&amp;#39;re comfortable with loops, conditionals and booleans so that they
+can use the new constructs when they make sense and not willy-nilly. I
+tend to agree with this.
+&lt;/p&gt;
+&lt;p&gt;
+Personally, I think it&amp;#39;s important to show our kids constructs like
+&lt;code&gt;break&lt;/code&gt; and &lt;code&gt;continue&lt;/code&gt; and it&amp;#39;s also important for us to talk about
+good code and &lt;a href=&#34;https://cestlaz.github.io/posts/best-practices-cli/&#34;&gt;best practices&lt;/a&gt; but the important thing is that we don&amp;#39;t
+have our kids blindly follow any practice but empower them to make good
+decisions based on their situations.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Compile Each Concept</title>
+      <link>https://cestlaz.github.io/post/compile-each-concept/</link>
+      <pubDate>Tue, 09 Oct 2018 14:46:59 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/compile-each-concept/</guid>
+      <description>
+&lt;p&gt;
+We&amp;#39;ve all been there:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+Student: Teacher, I need help
+Teacher (comes over)
+Student (shows screen listing three bazillion errors)
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+The student has just written pages of code and finally decided to try
+to run it only to end up with pages of errors.
+&lt;/p&gt;
+&lt;p&gt;
+Error messages can at times be hard to read for beginners but to see
+and truth be told, they frequently don&amp;#39;t even read them but over the
+years I&amp;#39;ve developed a practice that I&amp;#39;ve found helpful as a software
+developer and if students adopt the same practice it can save them a
+lot of time and effort.
+&lt;/p&gt;
+&lt;p&gt;
+The idea is very simple. 
+&lt;/p&gt;
+&lt;p&gt;
+Compile and test one concept at a time.
+&lt;/p&gt;
+&lt;p&gt;
+It might seem silly, but if I&amp;#39;m writing a a program, my first compile
+might be code that looks like this:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+  using std&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;cout;
+  using std&lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt;endl;
+
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;()
+  {
+  
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;;
+  }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+or 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;HelloWorld&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+
+      &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args&lt;span style=&#34;color:#f92672&#34;&gt;){&lt;/span&gt;
+	
+      &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+
+  &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This might seem silly but it really doesn&amp;#39;t take any effort. I have a
+key sequence to do this under Emacs and if I&amp;#39;m using an interactive
+language like Python or Clojure I just have to hit &lt;code&gt;c-c c-c&lt;/code&gt; 
+&lt;/p&gt;
+&lt;p&gt;
+This might seem silly but I do it out of muscle memory and it
+immediately tells me I don&amp;#39;t have any syntax errors and my build system
+works.
+&lt;/p&gt;
+&lt;p&gt;
+Going further, I compile and test every time I code up what I call a
+concept. What&amp;#39;s a concept? Let&amp;#39;s look at some code. A student might
+write something like this to find prime number up to n:
+&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;prime_list&lt;/span&gt;(n):
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,n):
+        i_isPrime &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; True
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; j &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(i&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;):
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; i&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;j &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; :
+                i_isPrime &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; False
+                &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; i_isPrime:
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(i)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s a lot going on there. To me, a concept is
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+A loop
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+A complex calculation
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+a conditional
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+All of these can have other concepts within.
+&lt;/p&gt;
+&lt;p&gt;
+In the above code, I&amp;#39;d probable write it as follows, adding in tests
+and print statements throughout the process:
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Step 1:
+&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;prime_list&lt;/span&gt;(n):
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,n):
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(i)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-2&#34;&gt;
+Step 2
+&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;prime_list&lt;/span&gt;(n):
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,n):
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; j &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(i&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;):
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(i,j)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-3&#34;&gt;
+Step 3
+&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;prime_list&lt;/span&gt;(n):
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,n):
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; j &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(i&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;):
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; i&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;j &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; :
+                &lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(i,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;is not prime&amp;#34;&lt;/span&gt;)
+                &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; i_isPrime:
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(i)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-4&#34;&gt;
+Step 4 
+&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;prime_list&lt;/span&gt;(n):
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,n):
+        i_isPrime &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; True
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; j &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(i&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;):
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; i&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;j &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; :
+                i_isPrime &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; False
+                &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(i,i_isPrime)
+  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-5&#34;&gt;
+Step 5
+&lt;/h2&gt;
+&lt;p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;prime_list&lt;/span&gt;(n):
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,n):
+        i_isPrime &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; True
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; j &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(i&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;):
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; i&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;j &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; :
+                i_isPrime &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; False
+                &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; i_isPrime:
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(i)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+It might not play out exactly this way but if not it would be something
+similar. The idea is that if you test every time you add one concept
+or construct there are fewer places where you can introduce an error.
+&lt;/p&gt;
+&lt;p&gt;
+If you enter 100 lines before you test there are 100 places where
+things can go wrong. If you type 10, there are only 10. On top of
+that, if you&amp;#39;ve added 100 lines, conecptually you&amp;#39;ve probably added a
+lot and the error can be anywhere. While it&amp;#39;s not always the case,
+most of the time, if you just added an &lt;strong&gt;if&lt;/strong&gt;, the problem will be in the
+&lt;strong&gt;if&lt;/strong&gt; or as a result of the if. Same with a &lt;strong&gt;loop&lt;/strong&gt; or any other construct.
+&lt;/p&gt;
+&lt;p&gt;
+Once you get in the habit, it&amp;#39;s easy and doesn&amp;#39;t really take any
+time. A couple of keystrokes to compile and a couple more to run. 
+&lt;/p&gt;
+&lt;p&gt;
+All too often students try to write everything at once and it&amp;#39;s so
+rare that it works. If we can get them to develop incrementally
+they&amp;#39;ll be able to write much more complex systems and write them with
+much less frustration.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Globals Breaks And Returns, oh my</title>
+      <link>https://cestlaz.github.io/post/globals-breaks-and-returns/</link>
+      <pubDate>Sat, 06 Oct 2018 15:48:55 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/globals-breaks-and-returns/</guid>
+      <description>
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Never use global variables
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Never break out of a loop
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+These are two &amp;#34;best practices&amp;#34; that are frequently touted in early CS
+classes both at the high school and college level.
+&lt;/p&gt;
+&lt;p&gt;
+They came up a couple of times yesterday. Once in the Facebook APCS-A
+teachers group and once on &lt;a href=&#34;http://blog.acthompson.net/2018/10/if-you-are-using-global-variables-you.html&#34;&gt;Alfred Thompson&lt;/a&gt;&amp;#39;s blog.
+&lt;/p&gt;
+&lt;p&gt;
+Alfred post was topically on global variables. Actually it was deeper than just global
+variables. It&amp;#39;s also about how students progress - what they can figure
+out at various stages of progress and how what seems like a good idea
+early on the path to computer science doesn&amp;#39;t seem so great later on.
+&lt;/p&gt;
+&lt;p&gt;
+The discussion on the APCS-A group started with a discussion of this
+code and its &lt;code&gt;break&lt;/code&gt; statement as opposed to having the loop&amp;#39;s exit
+condition in the boolean up top:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+          &lt;span style=&#34;color:#75715e&#34;&gt;// do stuff
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;condition&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+These two &amp;#34;best practices&amp;#34; - not using globals and not breaking out of
+loops are frequently taught to students at a point when reasons for
+the best practice aren&amp;#39;t always clear. 
+&lt;/p&gt;
+&lt;p&gt;
+Actually, these aren&amp;#39;t even universally best practices.
+&lt;/p&gt;
+&lt;p&gt;
+Looking at the while loop, You might have event driven code with a
+while loop acting as a dispatcher:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;){&lt;/span&gt;
+      &lt;span style=&#34;color:#75715e&#34;&gt;// do stuff
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;some event&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+          &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; that event&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+
+      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;some other event&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+          &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; that event&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+
+      &lt;span style=&#34;color:#75715e&#34;&gt;// etc
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;exit event&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+          &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Nothing wrong with that structure. It&amp;#39;s clean, easy to read and easy
+to reason about. 
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve seen loops that use extra variables and crazy boolean expressions
+so as to avoid using a &lt;code&gt;break&lt;/code&gt; statement so that they follow the &amp;#34;best
+practice&amp;#34; but end up with much messier code.
+&lt;/p&gt;
+&lt;p&gt;
+This is not to say that you should always use &lt;code&gt;break&lt;/code&gt; or &lt;code&gt;continue&lt;/code&gt; for that matter but rather that the best practice should be to
+consider if it makes the code cleaner, easier to read, and more
+maintainable or not. 
+&lt;/p&gt;
+&lt;p&gt;
+On the global front things are also not so clear. Sure, storing
+information in globals  and then using them indiscriminantly in
+assorted methods or functions is both bad form and dangerous but there
+are times when using globals make sense. 
+&lt;/p&gt;
+&lt;p&gt;
+Back in &amp;#34;the day&amp;#34; I was a C programmer. I used single C source files
+along with their matching .h include files to enable &lt;strong&gt;object typed&lt;/strong&gt;
+programming. Each file was a singleton object. Functions in the file
+were methods using some naming convention to demarcate public vs
+private, and variables that were global to the file as class variables
+(or instance variables but there was only ever one instance of any
+given class). Technically I broke the rules but the technique was very
+effective and allowed me to write large maintainable systems. 
+&lt;/p&gt;
+&lt;p&gt;
+More recently I&amp;#39;ve been playing with &lt;a href=&#34;https://vuejs.org/&#34;&gt;Vue.js&lt;/a&gt; for front end
+development. Vue uses a central data store - Vuex to maintain
+state. Basically a place for global variables to manage the state of
+your application. Again, technically global but with rules and
+protocols to make things work without the usual danger associated with
+globals.
+&lt;/p&gt;
+&lt;p&gt;
+A great comment on the Facebook thread &lt;sup class=&#34;footnote-reference&#34;&gt;&lt;a id=&#34;footnote-reference-1&#34; href=&#34;#footnote-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; included this Hal
+Ableson quote:
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;
+&amp;#34;Programs must be written for people to read, and only incidentally for machines to execute.&amp;#34; 
+&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+and noted that this is particularly true on the AP Exam and after all,
+the original question was posed on a forum about APCS-A. With this in
+mind, you shouldn&amp;#39;t &lt;strong&gt;try&lt;/strong&gt; to use globals or cleverly or creatively 
+use &lt;code&gt;break&lt;/code&gt; or &lt;code&gt;continue&lt;/code&gt; but they do have their places.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve used globals in both professional and personal work when
+appropriate and I don&amp;#39;t shy away from &lt;code&gt;break&lt;/code&gt; and &lt;code&gt;continue&lt;/code&gt; and use
+them regularly. The real &lt;strong&gt;best practice&lt;/strong&gt; is that you consider why you
+are or aren&amp;#39;t using these constructs and make a choice that makes
+sense for you, your group, or your team. 
+&lt;/p&gt;
+&lt;h2 id=&#34;headline-1&#34;&gt;
+Footnotes
+&lt;/h2&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr class=&#34;footnotes-separatator&#34;&gt;
+&lt;div class=&#34;footnote-definitions&#34;&gt;
+&lt;div class=&#34;footnote-definition&#34;&gt;
+&lt;sup id=&#34;footnote-1&#34;&gt;&lt;a href=&#34;#footnote-reference-1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+&lt;div class=&#34;footnote-body&#34;&gt;
+&lt;p&gt;
+While I will identify sources when they publish content publicly on ablog or Twitter, since
+the Facebook group is semi-private, I don&amp;#39;t feel it&amp;#39;s appropriate to
+state the names of commenters without asking]
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rite Of Passage Projects</title>
+      <link>https://cestlaz.github.io/posts/rite-of-passage-projects/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/rite-of-passage-projects/</guid>
+      <description>&lt;p&gt;
+JCS&amp;#39;s &lt;a href=&#34;https://irreal.org/blog/?p=7414#comment-4045190612&#34;&gt;post&lt;/a&gt; on Irreal today brought me back. It was about &lt;a href=&#34;https://en.wikipedia.org/wiki/Brief_(text_editor)&#34;&gt;Brief&lt;/a&gt; which
+was the editing hotness back in the day. I played with it a little
+really mostly used Emacs clones for real work when I was stuck on
+MS-DOS systems. Usually either &lt;a href=&#34;https://en.wikipedia.org/wiki/JOVE&#34;&gt;JOVE&lt;/a&gt; or &lt;a href=&#34;https://en.wikipedia.org/wiki/Epsilon_(text_editor)&#34;&gt;Epsilon&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+In the comments Jon reminded me about the &lt;a href=&#34;https://en.wikipedia.org/wiki/MKS_Toolkit&#34;&gt;MKS Toolkit&lt;/a&gt;
+which brought most everyday Unix tools to DOS along with a shell and
+a version of Vi. I didn&amp;#39;t use Vi much and I only used their shell
+until I wrote my own.
+&lt;/p&gt;
+&lt;p&gt;
+This got me thinking about &amp;#34;rite of passage&amp;#34; projects. I was in
+college in the mid to late 80s. It was the heyday of the
+IBM-PC. Schools still used older time sharing systems like DEC-20s and
+Vaxen but the PC was all the rage. The cool thing about them was that
+you had full control and access to the machine and it was simple
+enough to get your head around pretty much everything about it. The
+downside was that MS-DOS was very limited and of course there was
+little to no networking going on.
+&lt;/p&gt;
+&lt;p&gt;
+On the one hand, you could dive into the low level machine language
+stuff very easily. Get Norton&amp;#39;s book:
+&lt;/p&gt;
+&lt;img src=&#34;https://covers.openlibrary.org/b/id/7446489-L.jpg&#34; alt=&#34;https://covers.openlibrary.org/b/id/7446489-L.jpg&#34; title=&#34;https://covers.openlibrary.org/b/id/7446489-L.jpg&#34; align=&#34;center&#34; height=&#34;250&#34;/&gt;
+&lt;p&gt;
+and you&amp;#39;re on your way.
+&lt;/p&gt;
+&lt;p&gt;
+On the other hand many student&amp;#39;s graduated with no concept of time
+sharing and the ramifications of sharing a system or resources were
+foreign to many kids.
+&lt;/p&gt;
+&lt;p&gt;
+Even though we always look back to the &amp;#34;good old days,&amp;#34; in many ways
+things weren&amp;#39;t much different. I got a very strong background in
+academic CS from NYU (Courant Institute) but just like today, there
+was no real preparation for the real world.If you wanted to really develop your
+coding chops you had to work on side projects.
+&lt;/p&gt;
+&lt;p&gt;
+I seem to recall, a typical &amp;#34;rite of passage&amp;#34; side project was writing
+your own shell. It didn&amp;#39;t have to be anything as powerful as BASH or
+ZSH but it would typically be much more powerful than DOS and much
+more Unixy.
+&lt;/p&gt;
+&lt;p&gt;
+I recall writing my first shell down in UC-49 of Tisch Hall when the
+computer labs weren&amp;#39;t busy. I wrote it in C which was what the cool
+kids used back then. Specifically I used the &lt;a href=&#34;https://en.wikipedia.org/wiki/Mark_Williams_Company&#34;&gt;Let&amp;#39;s C&lt;/a&gt; compiler from the
+Mark Williams company. This was before Turbo C 2.0 so Let&amp;#39;s C was
+pretty much the only game in town for a cheap Unix style C compiler
+for DOS. There was also Run/C but that was a C interpreter, not a
+compiler. I also used that to learn C. Funny story - I certainly
+didn&amp;#39;t know this at the time but Run/C was written by Peter
+Brooks. Peter and I would later meet when he became my colleague at
+Stuyvesant teaching CS and I now have the privilege of being able to
+call him friend. I joke that I owe him ~ $100 for the interpreter from
+back in the day.
+&lt;/p&gt;
+&lt;p&gt;
+Since this was on DOS, I couldn&amp;#39;t do real Unix style pipes like
+&lt;code&gt;cat file | sort | uniq -c | sort -n&lt;/code&gt; but I did simulate it with redirection and temporary
+files. It also supported aliases, simple scripts and I think a few
+other things.
+&lt;/p&gt;
+&lt;p&gt;
+I was pretty happy with it and used it for a couple of years. It was
+also one of the first substantial programs I wrote. I learned a lot
+from doing it.
+&lt;/p&gt;
+&lt;p&gt;
+Another &amp;#34;rite of passage&amp;#34; program that was common back then was a
+text based window library. Somethig like ncurses that would allow you
+to make text based windows and menus on the text only screen. I also
+wrote one of these and actually got to use it for a project when I
+started working at Goldman.
+&lt;/p&gt;
+&lt;p&gt;
+I guess the third &amp;#34;rite of passage&amp;#34; project I remember was writing a C
+compiler but that was different because it was for a class. It was a
+significant project but the class didn&amp;#39;t really help with writing a
+large program in general - it was all about the compiler and all the
+theory behind it. Great course but not one in software engineering.
+&lt;/p&gt;
+&lt;p&gt;
+Nowadays the projects have changed. Text based windowing is long gone
+and while I still think writing a shell is a useful and rewarding
+exercise it&amp;#39;s not scratching an itch the way it did back when we were
+stuck on DOS. I guess writing a full stack web app is probably a
+pretty typical one for students these days.
+&lt;/p&gt;
+&lt;p&gt;
+Any others?
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code 2017 - Day 1</title>
+      <link>https://cestlaz.github.io/posts/advent-2017-1/</link>
+      <pubDate>Sat, 02 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/advent-2017-1/</guid>
+      <description>&lt;p&gt;
+It&amp;#39;s once again time for &lt;a href=&#34;http://adventofcode.com&#34;&gt;Advent of Code&lt;/a&gt;. That one a day programming
+competition that&amp;#39;s been running now for three years.
+&lt;/p&gt;
+&lt;p&gt;
+Here are some thoughts on &lt;a href=&#34;http://adventofcode.com/2017/day/1&#34;&gt;day 1&lt;/a&gt;. The core of the problem is that you
+have a large string of digits and you have to calculate a
+checksum. This is done by adding the sum of a subset of the
+digits. Only the ones that are identical to the digit to their
+right. To make it a little more interesting, the last digit wraps
+around to the first for checksum purposes.
+&lt;/p&gt;
+&lt;p&gt;
+For example, the input &lt;strong&gt;&lt;strong&gt;2234335&lt;/strong&gt;&lt;/strong&gt; leads to the calculate &lt;code&gt;2 + 3&lt;/code&gt; or
+&lt;code&gt;5&lt;/code&gt;. The input &lt;strong&gt;&lt;strong&gt;234445662&lt;/strong&gt;&lt;/strong&gt; leads to &lt;code&gt;4+4+6+2&lt;/code&gt; or &lt;code&gt;16&lt;/code&gt;. We add 4 for
+twice because the first four is adjacent the second and the second the
+third. We add the 2 at the end because it wraps around to match the
+one at the front.
+&lt;/p&gt;
+&lt;p&gt;
+We first read in the data and strip off the trailing newline
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Then, since we can access the elements of the string as a list (or
+array) it&amp;#39;s a simple loop to calculate the sum:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Pretty straightforward but I don&amp;#39;t like the special case of checking
+the last element for the wraparound. Sometimes it&amp;#39;s possible to get
+rid of edge cases like this by &lt;a href=&#34;https://cestlaz.github.io/posts/2014-02-26-change-the-data.md&#34;&gt;changing the data&lt;/a&gt;. We can do that here
+by simply appending a copy of the first character to the end of the
+list.
+&lt;/p&gt;
+&lt;p&gt;
+This leads to a slightly cleaner solution:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+This is pretty much what I&amp;#39;d expect from a Python programmer that&amp;#39;s
+just starting out. We can use a couple of more advanced Python
+features to make what I consider a more elegant solution.
+&lt;/p&gt;
+&lt;p&gt;
+Python&amp;#39;s &lt;strong&gt;&lt;strong&gt;zip&lt;/strong&gt;&lt;/strong&gt; function takes two lists and interleaves them.
+&lt;code&gt;zip(&amp;#34;abc&amp;#34;,&amp;#34;def&amp;#34;)&lt;/code&gt; will yield &lt;code&gt;[ (a,d), (b,e), (c,f)]&lt;/code&gt;. If the lists
+are of different length, it just zips up until the shorter list is
+exhausted. We can use array slicing to zip the input string with it&amp;#39;s
+neighbor by using &lt;code&gt;new_list = zip(data,data[1:])&lt;/code&gt;. For the string &amp;#34;122344&amp;#39;
+zipping gives us &lt;code&gt;[(1,2),(2,2),(2,3),(3,4),(4,4)]&lt;/code&gt;. We can put this in
+a list comprehension that only keeps the tuples representing an
+element with an identical neighbor and also converts it to an int:
+&lt;code&gt;new_list = [int(a) for a,b in new_list if a==b]&lt;/code&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+Finally, we can just calculate the sum. This leads to the following
+complete solution:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+List comprehensions for the win!!!!
+&lt;/p&gt;
+&lt;p&gt;
+Each Advent of Code problem has two parts. You unlock the second by
+solving the first. Here, the wrinkle is that instead of checking each
+digit with it&amp;#39;s neighbor to the right, you check it with the one
+that&amp;#39;s halfway around the list.
+&lt;/p&gt;
+&lt;p&gt;
+With loops, the solution is just a quick modification of part 1. We
+just add half the length and use mod to find the digit to compare with:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+I wanted to see if I could do this with a list comprehension
+though. The trick was to figure out how to make two lists to zip
+together to get the pairs to check then add. Here&amp;#39;s the solution:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+The insight was that we could just make a second list that starts
+halfway through and then wraps around. I did this by adding
+&lt;code&gt;data[l//2:] + data&lt;/code&gt;. &lt;code&gt;l//2&lt;/code&gt; is the integer division of the length (in
+Python3). &lt;code&gt;data[l//2:]&lt;/code&gt; represents the second half of data (from the
+midway point to the end). Technically I should have only added the second
+half of data: &lt;code&gt;data[l//2:] + data[:l//2]&lt;/code&gt; where &lt;code&gt;data[:l//2]&lt;/code&gt; gives us
+the first half of the list but since zip will just stop when it
+exhausts the shorter list, this wasn&amp;#39;t necessary.
+&lt;/p&gt;
+&lt;p&gt;
+Day 2 also has a nice list comprehension based solution. Maybe I&amp;#39;ll
+write that up later.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Motivating and understanding quicksort</title>
+      <link>https://cestlaz.github.io/posts/quick-sort-starting/</link>
+      <pubDate>Tue, 21 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/quick-sort-starting/</guid>
+      <description>&lt;p&gt;
+Thks question was posed the other day - how can one get students to
+truly understand the quicksort algorithm?
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve written a few posts about quicksort. The last time I did a &lt;a href=&#34;https://cestlaz.github.io/posts/2014-03-12-select-to-sort.html/&#34;&gt;lesson
+writeup&lt;/a&gt; on the subject I wrote about first looking and quickselect and
+then moving to the quicksort. The class was first faced with the
+problem of writing a routine to find the Kth smallest item in an
+unsorted data set. The first solution was n^2 and then refined to a
+quickselect. This led directly to the quicksort.
+&lt;/p&gt;
+&lt;p&gt;
+I liked the lesson and I think it worked well when I taught it but
+that was partly due to the overall tenor of that particular group of
+students.
+&lt;/p&gt;
+&lt;p&gt;
+A similar approach develops the quicksort in a similar way but is
+both more direct and accessible.
+&lt;/p&gt;
+&lt;p&gt;
+The motivating problem is to put one item in a data set in its proper
+place. You could select one person in class and arrange the class so
+that the selected student is in their proper size place, that is
+everyone shorter on one side, taller on the other. You could also do
+this for age. A similar exercise could be done with any number of
+manipulatives.
+&lt;/p&gt;
+&lt;p&gt;
+This operation of arranging the rest of the set around one selected
+item or person is very easy and in fact it&amp;#39;s trivial to show that this
+can be done in linear time.
+&lt;/p&gt;
+&lt;p&gt;
+Once we&amp;#39;ve done this arrangement, we can discuss what we can infer
+from this new arrangement. We can now tell that:
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+everyone to the left of the &amp;#34;pivot&amp;#34; is less than the pivot
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+everyone to the right is greater
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+The pivot element is at its true location if the list were
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+sorted. That is, if we started arranging around item k, then we&amp;#39;ve
+moved item k to the kth location in the dataset.
+&lt;/p&gt;
+&lt;p&gt;
+From here it&amp;#39;s a small jump to the quicksort algorithm, just repeat
+the process on the left and right data sets.
+&lt;/p&gt;
+&lt;p&gt;
+This approach not only makes the algorithm and its development clear
+and simple but it also can be used to illustrate the worst case n^2
+behavior.
+&lt;/p&gt;
+&lt;p&gt;
+The whole thing, minus the coding, can also be done as an unplugged activity.
+&lt;/p&gt;
+&lt;p&gt;
+In case anyone&amp;#39;s interested, I also wrote a post on subtle
+implementation errors when writing the quicksort (&lt;a href=&#34;https://cestlaz.github.io/posts/2014-03-17-subtle-errors-sorting.html&#34;&gt;here&lt;/a&gt;) and also
+looking at the qucksort from the point of view of different
+programming paradigms (&lt;a href=&#34;https://cestlaz.github.io/posts/2010-03-14-sorting-from-top-and-from-bottom.html&#34;&gt;here&lt;/a&gt;).
+&lt;/p&gt;
+&lt;p&gt;
+Enjoy.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Programming Idioms</title>
+      <link>https://cestlaz.github.io/posts/programming-idioms/</link>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/programming-idioms/</guid>
+      <description>&lt;p&gt;
+I just read Jeff Yearout&amp;#39;s recent post titled &lt;a href=&#34;http://k12csteaching.blogspot.com/2017/10/the-beginners-garden-of-concepts.html&#34;&gt;The Beginner&amp;#39;s Garden of
+Concepts&lt;/a&gt;. Not directly related but it got me thinking about
+programming idioms.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve been using the phrase &amp;#34;programming idiom&amp;#34; for years to describe a
+short useful recurring code construct. I didn&amp;#39;t realize that it was
+officially &amp;#34;a thing&amp;#34; until doing a web search on the phrase years
+later.
+&lt;/p&gt;
+&lt;p&gt;
+As our students grow from newbies on I think it&amp;#39;s helpful for them to
+see recurring and related patterns and programming idioms gives us a
+name to apply to many beginner patterns. An early idiom might be
+&amp;#34;finding the smallest in a list:&amp;#34;
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Another is the very similar and more general &amp;#34;do something on every
+item in a list:&amp;#34;
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+By talking about constructs like these as idioms it helps students see
+and develop coding patterns. It also helps them to build mental
+abstractions. Each of the above idioms are a few lines of code but
+each are also a single concept. Students learn to think of them as the
+concept.
+&lt;/p&gt;
+&lt;p&gt;
+When students learn about list comprehensions in python they&amp;#39;ll
+rewrite the &amp;#34;do something…&amp;#34; more like this:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+but the pattern or idea is the same.
+&lt;/p&gt;
+&lt;p&gt;
+Other early idioms might include swapping variables:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+and loops until an exit condition are met:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Even more difficult concepts like recursion can be described in an
+idiomatic way:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Patterns like these, or idioms, come up over and over again. We don&amp;#39;t
+have to explicitly mention them in our teaching but I think it&amp;#39;s
+helpful to our students if we do.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A* is born</title>
+      <link>https://cestlaz.github.io/posts/a-star-is-born/</link>
+      <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/a-star-is-born/</guid>
+      <description>&lt;p&gt;
+Over on the &lt;a href=&#34;https://cseducators.stackexchange.com/&#34;&gt;CS Educator StachExchange&lt;/a&gt;, which is in private beta for a
+few more days, I saw a post asking about how to introduce the &lt;a href=&#34;https://en.wikipedia.org/wiki/A*_search_algorithm&#34;&gt;A*
+search algorithm&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+I taught A* as part of the APCS class at Stuy so I thought I&amp;#39;d talk
+about what I did here.
+&lt;/p&gt;
+&lt;p&gt;
+Some time around mid year, we get to intermediate recursion. This is
+about the time, give or take, when we talk about the nlogn sorts.
+&lt;/p&gt;
+&lt;p&gt;
+We also build a recursive maze solver. It&amp;#39;s a nice algorithm and a
+nice little program. It&amp;#39;s around 15 lines of code to perform a
+recursive depth first search:
+&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/astar/dfs.gif&#34; alt=&#34;/img/astar/dfs.gif&#34; title=&#34;/img/astar/dfs.gif&#34; align=&#34;center&#34; height=&#34;200px&#34;/&gt;
+&lt;p&gt;
+The basic algorithm is:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+It&amp;#39;s a nice lesson because in addition to all the recursion stuff, we
+also get to talk about state space, state space search, backtracking,
+efficiency concerns and much more. After we finish the maze solver, we also talk about
+other problems that can be similarly examined using state-space search
+like the knights tour and N-queens problems.
+&lt;/p&gt;
+&lt;p&gt;
+A month or so later, when we&amp;#39;re learning about stacks and queues as
+data structures, we revisit the maze solver. This time we solve the
+problem in a more general way. We talk about using a data structure to
+hold the set of nodes that we&amp;#39;re aware of and that we want to visit
+next.
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+As we write the solution, we see that using a queue for this
+data structure yields a breadth first search:
+&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/astar/bfs.gif&#34; alt=&#34;/img/astar/bfs.gif&#34; title=&#34;/img/astar/bfs.gif&#34; align=&#34;center&#34; height=&#34;200px&#34;/&gt;
+&lt;p&gt;
+while using a stack yields depth first.
+&lt;/p&gt;
+&lt;p&gt;
+All of this leads to a discussion as to how deciding on which
+locations to look at next can greatly influence the steps to the
+exit. From here it&amp;#39;s easy to see that you can use a heuristic to order
+the nodes in our data structure so that we explore &amp;#34;better&amp;#34;
+possibilities first. The data structure becomes a priority queue and
+we finally get to both &amp;#34;best first&amp;#34; and A* search:
+&lt;/p&gt;
+&lt;img src=&#34;https://cestlaz.github.io/img/astar/astar.gif&#34; alt=&#34;/img/astar/astar.gif&#34; title=&#34;/img/astar/astar.gif&#34; align=&#34;center&#34; height=&#34;200px&#34;/&gt;
+&lt;p&gt;
+It&amp;#39;s a nice sequence of lessons, albeit lessons spread out over
+months. The end result is that the students see both the need and
+motivation for something like A* and they see that it&amp;#39;s not hard to
+implement. One basic routine where you can plug in one of three data
+structures - stack, queue, or priority queue to get very different
+results.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code 2016 - Check your data</title>
+      <link>https://cestlaz.github.io/posts/advent-of-code-2016-check-data/</link>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/advent-of-code-2016-check-data/</guid>
+      <description>&lt;p&gt;
+I&amp;#39;m spending the weekend up in Michigan. Visiting my brother and is
+family. We&amp;#39;re here to see the &lt;a href=&#34;http://umgass.org&#34;&gt;UMGASS&lt;/a&gt; production of Gilbert and
+Sullivan&amp;#39;s &lt;a href=&#34;http://www.umgass.org/current-production&#34;&gt;The Sorcerer&lt;/a&gt;. Batya also came up from Cornell to join us so
+the two families are all togehter for the first time in about 10
+years.
+&lt;/p&gt;
+&lt;p&gt;
+This hasn&amp;#39;t left much time for &lt;a href=&#34;http://adventofcode.com&#34;&gt;Advent of Code&lt;/a&gt; but I did manage to
+finish yesterday&amp;#39;s challenge this morning.
+&lt;/p&gt;
+&lt;p&gt;
+What took me so long? Much like last year, it was &lt;a href=&#34;http://cestlaz.github.io/posts/2015-12-17-im-an-idiot.html/&#34;&gt;because I&amp;#39;m an
+idiot&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+The &lt;a href=&#34;http://adventofcode.com/2016/day/9&#34;&gt;problem&lt;/a&gt; seemed pretty straighforward. I coded a solution and it
+worked for all the test cases. I tried it on my data set but
+the grader said the answer was wrong. I went through the problem a
+number of times as well sa my code. I figured I either mis-interpreted
+the question or had some bug. I found neither to be true.
+&lt;/p&gt;
+&lt;p&gt;
+After some frustration, I went over to the Advent of Code &lt;a href=&#34;https://www.reddit.com/r/adventofcode/&#34;&gt;subreddit&lt;/a&gt;
+grabbed a couple of posted solutions (trying not to look at them) and
+ran both on my data - those solutions got the same answer on my data
+set as I did.
+&lt;/p&gt;
+&lt;p&gt;
+This morning, I asked Batya to look over my code and the problem (it&amp;#39;s
+always good to have a daughter that&amp;#39;s smarted than you are) but she
+saw no problems.
+&lt;/p&gt;
+&lt;p&gt;
+Finally, I emailed my buddy JonAlf since I know he completed the problem. He sent back his answer along
+with his data set and I got the same answer as he did on his data.
+&lt;/p&gt;
+&lt;p&gt;
+What could be the problem.
+&lt;/p&gt;
+&lt;p&gt;
+His data set was about 12k characters long, mine was 4k. Something had
+to be wrong here. I went back to the Advent of Code site and grabbed
+the data set again. This time, I went to the page and did a &amp;#34;save-as&amp;#34;
+to save it - last time, I cut and pasted.
+&lt;/p&gt;
+&lt;p&gt;
+The cut and paste version was 4k, the save-as was 12k. This time it
+worked and was accepted and I also finished part 2 in short order.
+&lt;/p&gt;
+&lt;p&gt;
+The moral of the story – make sure you check the integrity of your
+data set - you&amp;#39;ll never get the right answer if you&amp;#39;re working with
+the wrong data.
+&lt;/p&gt;
+&lt;p&gt;
+In case anyone&amp;#39;s interested, you can find my AoC code &lt;a href=&#34;https://github.com/zamansky/advent2016&#34;&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Teacher looks at Advent of Code 2016 #2</title>
+      <link>https://cestlaz.github.io/posts/advent-of-code-2016-2/</link>
+      <pubDate>Thu, 08 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/advent-of-code-2016-2/</guid>
+      <description>&lt;p&gt;
+Today we&amp;#39;re looking at &lt;a href=&#34;http://adventofcode.com&#34;&gt;Advent of Code&lt;/a&gt; 2016 &lt;a href=&#34;http://adventofcode.com/2016/day/2&#34;&gt;number 2&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+To change things up, I thought I&amp;#39;d do a video where I live code a solution.
+&lt;/p&gt;
+&lt;p&gt;
+The solution I present is pretty straightforward - use a 2D array (or
+technically, an array of strings) to represent the keypad, parse the
+input, and follow the input instructions to build the code.
+&lt;/p&gt;
+&lt;p&gt;
+One of the things I really like about Advent of Code is that every
+problem has two parts and depending on how you solved part 1, you may
+or may not have extra work to do for part 2.
+&lt;/p&gt;
+&lt;p&gt;
+A couple of years ago, I wrote about one of the coding techniques I
+try to convey to my students. The idea of &lt;a href=&#34;http://cestlaz.github.io/posts/2014-02-26-change-the-data.md&#34;&gt;changing the data&lt;/a&gt; to take
+away edge and special cases.
+&lt;/p&gt;
+&lt;p&gt;
+Part two of this problem is a perfect time to use that technique.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s the video, I hope you enjoy it:
+&lt;/p&gt;
+  &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/EC8gSrYQ11g&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Teacher looks at Advent of Code 2016 #1</title>
+      <link>https://cestlaz.github.io/posts/advent-of-code-2016-1/</link>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/advent-of-code-2016-1/</guid>
+      <description>&lt;p&gt;
+I recently &lt;a href=&#34;http://cestlaz.github.io/posts/advent-of-code-2016/&#34;&gt;posted&lt;/a&gt; about &lt;a href=&#34;http://adventofcode.com&#34;&gt;Advent of Code&lt;/a&gt; - a series of programming
+problems relseased one a day. While they vary in terms of level of
+difficulty, a number of them make nice problems for introductory to
+mid level programming classes.
+&lt;/p&gt;
+&lt;p&gt;
+I thought I&amp;#39;d share some of my thoughts on a few of them starting with
+the first problem from this years competition.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://adventofcode.com/2016/day/1&#34;&gt;Take a minute to read it over.&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+At first glance, it might seem to a young programmer that this problem
+requires a two dimensional array - all about (x,y) coordinates but
+then there&amp;#39;s a problem - there are no limits on coordinates and we
+can&amp;#39;t make an unlimited size array.
+&lt;/p&gt;
+&lt;p&gt;
+After thinking a bit, hopefully the programmer realizes that all they
+need to do is keep track of the how the &lt;strong&gt;&lt;strong&gt;(x,y)&lt;/strong&gt;&lt;/strong&gt; location changes over
+time. In the solution below, we start at &lt;strong&gt;&lt;strong&gt;(0,0)&lt;/strong&gt;&lt;/strong&gt; and count the steps as
+we update two variables &lt;strong&gt;&lt;strong&gt;x&lt;/strong&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;strong&gt;y&lt;/strong&gt;&lt;/strong&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+When we finish processing the moves, we have our current location in
+&lt;strong&gt;&lt;strong&gt;(x,y)&lt;/strong&gt;&lt;/strong&gt; and we have the number of steps taken to get there.
+&lt;/p&gt;
+&lt;p&gt;
+The solution below hsa a couple of niceties that a beginning
+programmer might not know or use (and I&amp;#39;m not arguing that what&amp;#39;s written is
+superior in any way, it&amp;#39;s just what I ended up writing).
+&lt;/p&gt;
+&lt;p&gt;
+I make use of tuple destructuring:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+which assigns &lt;strong&gt;&lt;strong&gt;x&lt;/strong&gt;&lt;/strong&gt; to the first item in the tuple and &lt;strong&gt;&lt;strong&gt;y&lt;/strong&gt;&lt;/strong&gt; the
+second. I used that a number of times
+&lt;/p&gt;
+&lt;p&gt;
+I also use a list  I call &lt;strong&gt;&lt;strong&gt;dirs&lt;/strong&gt;&lt;/strong&gt; to hold dx and dy values for the
+four direcitons:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+This made it easier to to update the location based on the 4
+directions. I could also have just used if statements.
+&lt;/p&gt;
+&lt;p&gt;
+Here&amp;#39;s all the code:
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Overall, a nice little problem for beginning and intermediate
+students.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Inverted Index Project</title>
+      <link>https://cestlaz.github.io/posts/inverted-index/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://cestlaz.github.io/posts/inverted-index/</guid>
+      <description>&lt;p&gt;
+I haven&amp;#39;t spoken much about the class I&amp;#39;ve been teaching this
+semester. It&amp;#39;s an intro CS course - a programming heavy intro. I
+decided to use Python with a transition at the end to C++. The
+transition is to mirror Hunter&amp;#39;s normal first CS course that ends with
+a C++ intro to prepare the students for next semester&amp;#39;s CS course
+which is a more intense OOP class using C++ - the language we use in
+our core courses.
+&lt;/p&gt;
+&lt;p&gt;
+Throughout the semester I&amp;#39;ve tried to use a variety of interesting
+application areas so as to try to give the students some idea of the
+possibilities that studying CS will open up for them.
+&lt;/p&gt;
+&lt;p&gt;
+After covering Python dictionaries and lists I thought we&amp;#39;d play by
+building an inverted Index.
+&lt;/p&gt;
+&lt;p&gt;
+The basic idea is to map a set of words back to source files. For
+example, given the following four one line files:
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;files&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;&lt;/th&gt;
+&lt;th&gt;contents&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;file.01&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;if you prick us do we not bleed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;file.02&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;if you tickle us do we not laugh&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;file.03&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;if you poison us do we not die and&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;file.04&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;if you wrong us shall we not revenge&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+You could build a data structure mapping each word back to the file(s)
+that contain it (partially shown here),
+&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Word&lt;/th&gt;
+&lt;th class=&#34;align-right&#34;&gt;&lt;/th&gt;
+&lt;th&gt;Files containing It&amp;#39;s&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;if&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;file.01 file.02 file.03 file.04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;you&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;file.01 file.02 file.03 file.04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;prick&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;file.01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;us&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;file.01 file.02 file.03 file.04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;do&lt;/td&gt;
+&lt;td class=&#34;align-right&#34;&gt;&lt;/td&gt;
+&lt;td&gt;file.01 file.02 file.03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;
+You can, of course, store more information - how many times a word
+appears in a file, where it appears, etc.
+&lt;/p&gt;
+&lt;p&gt;
+This is a fairly easy structure to build. A dictionary where the keys
+are the words in the file and the values are lists of the documents
+containing the words.
+&lt;/p&gt;
+&lt;div class=&#34;src src-python&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+In addition to letting us work with dictionaries and lists, we can
+also review file access and even the python CSV module if we want.
+&lt;/p&gt;
+&lt;p&gt;
+We can immediately write simple queries – &amp;#34;what document(s) contain
+the word &amp;#39;prick,&amp;#39; but things get more interesting if you write
+functions to perform &lt;strong&gt;&lt;strong&gt;and&lt;/strong&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;strong&gt;or&lt;/strong&gt;&lt;/strong&gt; queries - &amp;#34;what document(s)
+contain the words &amp;#39;prick&amp;#39; &lt;strong&gt;&lt;strong&gt;or&lt;/strong&gt;&lt;/strong&gt; &amp;#39;do&amp;#39;&amp;#34; for instance.
+&lt;/p&gt;
+&lt;p&gt;
+Why are we building this (besides as a data structure and programming
+exercise)? I&amp;#39;ve seen a number of references to using an inverted index
+when building a web search engine. In fact, I think that&amp;#39;s something
+you do early on in the Udacity Mooc. I just wanted to play with
+information retrieval.
+&lt;/p&gt;
+&lt;p&gt;
+I remembered that there was a collection of information, including
+last statements from &lt;a href=&#34;https://www.tdcj.state.tx.us/death_row/dr_executed_offenders.html&#34;&gt;executed offenders in Texas&lt;/a&gt;. Someone conveniently
+converted it into a &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1HAjZTtPriClY-X3n9whTkA4i5D7bn3bmtHnLoaVICvI/edit#gid=1&#34;&gt;Google Spreadsheet&lt;/a&gt;. The format&amp;#39;s a little
+different from our simple four file example but then there&amp;#39;s more
+data. It&amp;#39;s straightforward enough to download the spreadsheet as a CSV
+file and then read it with a Python program that builds it into an
+inverted index.
+&lt;/p&gt;
+&lt;p&gt;
+Now we have some interesting data to play with.
+&lt;/p&gt;
+&lt;p&gt;
+How many offenders used words like &amp;#34;sorry&amp;#34; or &amp;#34;apologize?&amp;#34; How about
+references to religion? We can do all sorts of &lt;strong&gt;&lt;strong&gt;and&lt;/strong&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;strong&gt;or&lt;/strong&gt;&lt;/strong&gt;
+queries.
+&lt;/p&gt;
+&lt;p&gt;
+We just played with this a bit but I could see all sorts of
+explorations. What about taking some great work of literature and
+turning it into an inverted index by chapter. You could query
+characters or certain words and see where and when they appear in the
+book. A new and different way of exploring literature.
+&lt;/p&gt;
+&lt;p&gt;
+So, there you have it - an interesting little project we played with
+this past semester. We did it in an intro Python course but I could
+see it as an interesting project in AP CS A using hashmaps and lists.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

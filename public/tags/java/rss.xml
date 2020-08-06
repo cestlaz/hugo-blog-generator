@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on C&#39;est la Z</title>
+    <link>https://cestlaz.github.io/tags/java/</link>
+    <description>C&#39;est la Z (java)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Mar 2019 13:29:18 -0400</lastBuildDate>
+    
+    <atom:link href="https://cestlaz.github.io/tags/java/rss.xml" rel="self" type="application/rss" />
+    
+    
+    <item>
+      <title>Evaluating Java IDES for teaching teachers.</title>
+      <link>https://cestlaz.github.io/post/java-ides/</link>
+      <pubDate>Fri, 08 Mar 2019 13:29:18 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/java-ides/</guid>
+      <description>
+&lt;p&gt;
+Since Hunter uses C++ as it&amp;#39;s core language, I haven&amp;#39;t used Java much
+in the past three years. That&amp;#39;s going to change pretty soon. Once we
+start offering our CS teacher Certificate and Masters programs I&amp;#39;ll
+once again start teaching with Java as that&amp;#39;s one of the langauges
+that we want to prepare our teachers with.
+&lt;/p&gt;
+&lt;p&gt;
+That means deciding on a set of tools and so I&amp;#39;ve been spending time
+evaluating Java programming environments with an eye on the
+beginner since not only do the teachers I work with have to be
+comfortable with the tool but more importantly they will have to be
+able to support the tool for all of their students.
+&lt;/p&gt;
+&lt;p&gt;
+One tool we&amp;#39;re likely to use is &lt;a href=&#34;https://repl.it/&#34;&gt;repl.it&lt;/a&gt;. That&amp;#39;s an online environment
+for Java and a bunch of other languages. There&amp;#39;s a lot to like about
+it and teachers might go with it or a similar cloud based option in
+their classes but it&amp;#39;s important that we also prepare teachers to
+build programs locally.
+&lt;/p&gt;
+&lt;p&gt;
+So, here&amp;#39;s my criteria and here&amp;#39;s what I found.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-1&#34;&gt;
+The tool has to install easily on all platforms
+&lt;/h3&gt;
+&lt;p&gt;
+I started with my desktop Linux machine. I&amp;#39;m running LinuxMint which
+is pretty mainstream and I installed the Java tools using Mint&amp;#39;s
+package manager. The packages are openjdk-11 and it looks like running
+Java 10. If the IDE or editor I installed  didn&amp;#39;t work off the bat it
+was no good. If it installed and I liked it I&amp;#39;ll pass it off to
+friends who use Windows and Macs to see if the install there is
+equally seamless.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-2&#34;&gt;
+The tool has to be easy to run 
+&lt;/h3&gt;
+&lt;p&gt;
+After install you have to be able to run it easily. No fancy &lt;code&gt;java
+-jar blah blah blah&lt;/code&gt;.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-3&#34;&gt;
+I&amp;#39;m not looking for a professional tool
+&lt;/h3&gt;
+&lt;p&gt;
+Professional tools can be too compex and do too much for students. I
+was looking for the sweet spot of giving a nice amount of support but
+not giving away the store.
+&lt;/p&gt;
+&lt;p&gt;
+Here are the tools I looked at (and you can debate if something
+belongs in the other category in some cases):
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-4&#34;&gt;
+Editors
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Emacs
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Gedit
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Vim
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Sublime Text
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Atom
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Jedit
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;headline-5&#34;&gt;
+IDES
+&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+Eclipse
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+DrJava
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+Geany
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+BlueJ
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+IntelliJ
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+VSCode
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+JGrasp
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;headline-6&#34;&gt;
+Editor vs IDE
+&lt;/h3&gt;
+&lt;p&gt;
+The line between editor and IDE is a blurry one. I tend to think of an
+editor as multi-purpose and multi-language where an also useful for
+non programming text realted tasks whereas an IDE comes with more
+programming bells and whistles. The truth is, though. that some IDES
+can do well with non programming tasks and many editors are pretty
+close to IDEs.
+&lt;/p&gt;
+&lt;p&gt;
+In any event, for a teacher, there&amp;#39;s something to be said for keeping
+it &amp;#34;close to the metal&amp;#34; and have them use an editor to edit source
+code and compile from the command line. This doesn&amp;#39;t mean they
+shouldn&amp;#39;t also see IDEs and perhaps use them with their students but
+a teacher should know a little more about what&amp;#39;s going on than just
+load a program, write some code, and click run. If a teacher is that
+limited you end up in situations similar to that common comment from
+people who finish a beginner course on Codecademy - &amp;#34;I finished the
+course and I can program in their environment but I don&amp;#39;t know how to
+actually make something anywhere else.&amp;#34;
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-7&#34;&gt;
+The Editors
+&lt;/h3&gt;
+&lt;p&gt;
+Here the idea would be start as I mentioned above. Edit files adn then
+compile on the command line. Eventually, though, many of these tools
+can be used as IDEs
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-8&#34;&gt;
+Emacs
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;https://www.gnu.org/software/emacs/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve got to start with my tool of choice although I can&amp;#39;t really be
+unbiased. I think it gets a bad wrap because it&amp;#39;s old and out of the
+box looks plain but, yes, you can use your mouse and it does have
+menus. The upside is that it can do everything an IDE can do and a
+thousand times more. I do email, read rss feeds, maintain my calendar
+and more in Emacs. 
+&lt;/p&gt;
+&lt;p&gt;
+The downside is that it doesn&amp;#39;t do Java well out of the box and kids
+like shinier objects. 
+&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t think I&amp;#39;d start the teachers with Emacs but I&amp;#39;d probably shift
+my instruction to using it at some point and show some of the cooler
+features (many highlighted in my &lt;a href=&#34;https://cestlaz.github.io/stories/emacs/&#34;&gt;Emcacs videos&lt;/a&gt;)
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-9&#34;&gt;
+Gedit
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://wiki.gnome.org/Apps/Gedit%0A&#34;&gt;https://wiki.gnome.org/Apps/Gedit%0A&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This is a plain simple editor. You can bucket in notepad+ and whatever
+the basic Mac editor is in here. Nothing special and nothing
+fancy. It&amp;#39;s easy enough to load, edit a file and save but not much
+more. I&amp;#39;d be fine using it were it not for better options.
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-10&#34;&gt;
+Vim
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.vim.org/&#34;&gt;https://www.vim.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+No
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-11&#34;&gt;
+Sublime Text
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.sublimetext.com/%0A&#34;&gt;https://www.sublimetext.com/%0A&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This was the hotness for a while and it&amp;#39;s a pretty slick editor. I
+can&amp;#39;t recommend it for teachers though for two reasons. One is that
+it&amp;#39;s not free (although it isn&amp;#39;t expensive). The other is that it&amp;#39;s
+not open source. There were other hot editors before sublime and when
+their companies folded or sunset the editor all those plugins and
+customizations had to be redone on a new platform. 
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-12&#34;&gt;
+Atom
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://atom.io/&#34;&gt;https://atom.io/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Atom&amp;#39;s an editor I want to like. It&amp;#39;s open source and looks pretty
+neat but it seems more focused on the JS ecosystem. I couldn&amp;#39;t find
+enough Java related plugins to make it better than Gedit although it
+was easy to theme and customize the keys. Were I not an Emacs guy I&amp;#39;d
+probably use Atom for much of my non-Java development but it doesn&amp;#39;t
+seem like a great fit for Java
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-13&#34;&gt;
+Jedit
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.jedit.org/&#34;&gt;http://www.jedit.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This looked like the strongest contender for Java. Not too
+complicated. Nice syntax highlighting out of the box. It doesn&amp;#39;t do
+completion but that&amp;#39;s arguably a good thing when teaching
+programming (incidentally, Emacs doesn&amp;#39;t do completion out of the box
+but it can be added so you can up the tools ability as the class moves
+along). From my limited explorations you can install plugins like a
+Java Linter and you can run a console from inside JEdit which means
+you can actually type things like &lt;code&gt;javac file.java&lt;/code&gt; and then run the
+program all from within the editor.
+&lt;/p&gt;
+&lt;p&gt;
+Jedit also has some nice builtin macros for boilerplate code like
+setters and getters.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-14&#34;&gt;
+IDEs
+&lt;/h3&gt;
+&lt;h4 id=&#34;headline-15&#34;&gt;
+Eclipse 
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.eclipse.org&#34;&gt;https://www.eclipse.org&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;ve used eclipse before and as a Java environment, it&amp;#39;s actually
+pretty nice. You can customize the keys so I set mine to Emacs. It has
+a lot of plugins, you can compile and test your program from within
+the IDE and do tons of other things. It&amp;#39;s a VERY nice professional
+tool.
+&lt;/p&gt;
+&lt;p&gt;
+I don&amp;#39;t like it for teaching for three reasons. First, it does too
+much. By giving too much professional support kids rely too much on
+the tool. Second, it&amp;#39;s made for big projects using build systems not
+small AP class programs consisting of one or two files where you run
+javac manually. Yes, you can do this in Eclipse but it seems more
+awkward. Third, becasue there&amp;#39;s so much going on you need a HUGE
+screen and kids and schools might not have enough screen real estate.
+&lt;/p&gt;
+&lt;p&gt;
+There&amp;#39;s also a fourth reason which is that I installed Eclipse using
+LinuxMint&amp;#39;s package manager and it crashed when running. If I&amp;#39;m going
+to recommend a teacher roll out a tool that all of their students are
+going to install at home on their own, at the very least it has to
+install and run seamlessly.
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-16&#34;&gt;
+DrJava
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.drjava.org/&#34;&gt;http://www.drjava.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Like Eclipse, I&amp;#39;ve used DrJava before. It&amp;#39;s similar to DrRacket (nee
+Scheme) and Dr. Python. It&amp;#39;s close to perfect. You get highlighting,
+helpful error finding, can run your program from within Dr. Java and
+more.
+&lt;/p&gt;
+&lt;p&gt;
+The killer problem is that I can&amp;#39;t get the latest version to
+run. Actually the first problem is that it&amp;#39;s just a jar file so you
+have to run it with &lt;code&gt;java -jar drjava.jar&lt;/code&gt;. Beyond that, it didn&amp;#39;t
+work out of the box. It loaded but compilign and running didn&amp;#39;t After
+some mucking around, I got it to compile but it doesn&amp;#39;t run the
+programs. 
+&lt;/p&gt;
+&lt;p&gt;
+This is too bad because when it runs it&amp;#39;s a terrific learning
+environment.
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-17&#34;&gt;
+BlueJ
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://bluej.org/&#34;&gt;https://bluej.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This is another tool that was DOA. I tried the debian package as well
+as the jar file. Couldn&amp;#39;t get it working. 
+&lt;/p&gt;
+&lt;p&gt;
+I have used an older version so I&amp;#39;ll describe that instead just
+remember things might be different in the current version.
+&lt;/p&gt;
+&lt;p&gt;
+BlueJ does one thing very well - objects. It visually shows object
+creation and relationships. I recall that you can create an opject,
+click on it&amp;#39;s box in a visual graph pane, inspect it, instantiate new
+ones and in general explore and expirement. If you&amp;#39;re big on OOP and
+like Object First by all means check BlueJ out. It&amp;#39;s probably best in
+class for that approach.
+&lt;/p&gt;
+&lt;p&gt;
+On the other hand, it&amp;#39;s a one trick pony. If you, like me, are not all
+in on OOP or an Objects first and all the time approach it&amp;#39;s probably
+not the tool for you. 
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-18&#34;&gt;
+Geany
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.geany.org/&#34;&gt;https://www.geany.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I hadn&amp;#39;t heard of this one before but it looks like a contender. It
+has a  pretty clean interface and it worked out of the box. I
+installed it using the package manager.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/geany.png&amp;#34; width=&amp;#34;250px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+Class browser on the right, files on the left and console (terminal),
+compiler status etc on the bottom. It supports some level of
+autocomplete but it doesn&amp;#39;t do everything. I&amp;#39;m not sure yet but it
+might hit the completion sweet spot.
+&lt;/p&gt;
+&lt;p&gt;
+It says it does snippets but I haven&amp;#39;t figured that out yet. 
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-19&#34;&gt;
+IntelliJ
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.jetbrains.com/idea/&#34;&gt;https://www.jetbrains.com/idea/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+IntelliJ is fro JetBrains. They make a bunch of IDEs each focussed on
+a different toolset but all with the same look and feel. You can also
+add plugins to each to make them multi-modal. I believe the editor at
+the core is JEdit. I&amp;#39;ve used their IDEs in the past and as far as
+professional IDEs go I like them. They&amp;#39;re more lightweight than say
+Eclipse and don&amp;#39;t need the real estate.
+&lt;/p&gt;
+&lt;p&gt;
+Still, I think it&amp;#39;s too much for a beginner. For example, you can
+in theory run your program from the build menu but, much like Eclipse,
+it takes you to a configuration screen. I was pretty lost and I&amp;#39;m not
+a beginner. Much like Eclipse it&amp;#39;s made for projects not small class
+programs. 
+&lt;/p&gt;
+&lt;p&gt;
+I found the Python version of JetBrains IDEs more approachable
+probably because the ecosystem is much simpler.
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-20&#34;&gt;
+VSCode
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;https://code.visualstudio.com/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This one shocked me - I actually found myself liking a Microsoft
+product. I guess this really isn&amp;#39;t your father&amp;#39;s Microsoft.
+&lt;/p&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/vscode.png&amp;#34; width=&amp;#34;250px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+Much like Geany it has a clean interface and like Geany you don&amp;#39;t need
+a whole Java build system. It does more completions out of the box
+which you may or may not like as well as snippets. A single key will
+compile and run your program and on top of all that it has en &amp;#34;Emacs&amp;#34;
+setting for keybindings.
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not sure if I like Geany or VSCode better but I think both are
+really good options. I&amp;#39;d probably lean towards Geany due to the less
+robust completions. Were I writing code for real rather than teaching,
+I&amp;#39;d probably go the other way.
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-21&#34;&gt;
+JGrasp
+&lt;/h4&gt;
+&lt;p&gt;
+&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&amp;#34;/img/vscode.png&amp;#34; width=&amp;#34;250px&amp;#34;/&amp;gt; 
+&amp;lt;/figure&amp;gt;
+&lt;/p&gt;
+&lt;p&gt;
+JGrasp feels much the same as the other contenders - Geany and VSCode
+but the interface just looks a bit clunkier to me. I know that&amp;#39;s
+purely subjective. 
+&lt;/p&gt;
+&lt;p&gt;
+The biggest difference I&amp;#39;m seeing out of the box is that JGrasp
+doesn&amp;#39;t do completions so depending on where you fall with that you
+might want Jgrasp for none, Geany for some, and VSCode for all.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;[EDIT]&lt;/strong&gt; JGrasp has a very cool visualizer built in that will animate
+ your proram. Here&amp;#39;s a &lt;a href=&#34;https://www.youtube.com/watch?v=wuQowTV0o6s&#34;&gt;video&lt;/a&gt; of it in action. I&amp;#39;m going to have to
+ play with this a bit and see if it pushes JGrasp up over the top for
+ me. 
+&lt;/p&gt;
+&lt;h4 id=&#34;headline-22&#34;&gt;
+Processing
+&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://processing.org/&#34;&gt;https://processing.org/&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+I&amp;#39;m not going to talk about processing but I felt that it would be
+negligent not to mention it at all. Processing is a IDE, wrapper and
+graphical library that&amp;#39;s essentially Java under the hood (although
+there are Processing bindings in many other languages probably the
+most well known now is &lt;a href=&#34;https://p5js.org/&#34;&gt;p5.js&lt;/a&gt;). It&amp;#39;s great if you want to do graphical
+work or base your class around the libraries that are available to
+processing which include ones for web cameras, hardware access,
+networking, sound and more but it&amp;#39;s not the same as an IDE or editor
+for traditional Java development.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-23&#34;&gt;
+Notes
+&lt;/h3&gt;
+&lt;p&gt;
+Just about all of these tools have multiple themes and are fairly
+customizable so don&amp;#39;t go by the screenshots above, on the homepages or
+what they look like when you first install them.
+&lt;/p&gt;
+&lt;p&gt;
+All of the tools I liked installed right out of the box either by
+using the package manager or downloading and extracting from an
+archive. I can&amp;#39;t say yet if they install as easily on a Mac or Windows
+box but since Linux is usually the unloved stepchild of sortware
+packaging and distribution my guess is that if anything it&amp;#39;ll be
+easier on those platforms.
+&lt;/p&gt;
+&lt;h3 id=&#34;headline-24&#34;&gt;
+Conclusions
+&lt;/h3&gt;
+&lt;p&gt;
+I&amp;#39;ll always be an Emacs guy. Org-mode is too useful and I can get IDE
+like behavior for pretty much any language I want to work in. In some
+cases like Clojure, I haven&amp;#39;t seen an IDE that can match Emacs and
+Cider, it&amp;#39;s premier Clojure development setup. I also haven&amp;#39;t a Git
+interface nearly as slick and powerful as &lt;a href=&#34;https://magit.vc/&#34;&gt;Magit&lt;/a&gt; which works under
+Emacs.
+&lt;/p&gt;
+&lt;p&gt;
+For my teachers though, I&amp;#39;ll probably start with Geany or VSCode,
+switch to Emacs for myself at some point in the program and make sure
+to spend time on the command line along the way.
+&lt;/p&gt;
+&lt;p&gt;
+If I missed any editors or IDEs or have something to add on one of the
+ones I mentioned, please share in the comments.
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Java Interfaces</title>
+      <link>https://cestlaz.github.io/post/java-interfaces/</link>
+      <pubDate>Fri, 08 Feb 2019 09:40:44 -0400</pubDate>
+      
+      <guid>https://cestlaz.github.io/post/java-interfaces/</guid>
+      <description>&lt;p&gt;
+Two of the hardest topics to make meaningful to students in APCS-A are
+inheritance and interfaces. It&amp;#39;s not that they&amp;#39;re super difficult
+topics but rather that they&amp;#39;re not often needed, useful, or superior
+to not using them on beginner assignments. More often than not the
+motivation is a bit forced as are the assignments. 
+&lt;/p&gt;
+&lt;p&gt;
+Inheritance is its own can of worms and to be honest, something I&amp;#39;ve
+not found to be all that useful or necessary. The class abstraction
+made sense to me for a number of projects but deep inheritance just
+hasn&amp;#39;t come up much. 
+&lt;/p&gt;
+&lt;p&gt;
+In any event, today I thought I&amp;#39;d talk about interfaces.
+&lt;/p&gt;
+&lt;p&gt;
+When Java was first built a decision was made not to allow multiple
+inheritance - the idea that a class can be derived from multiple
+parents. Multiple inheritance is powerful but it can also be
+complicated and confusing. By not including multiple inheritance Java
+ended up easier to work with than say C++ but there were times where
+you needed features that multiple inheritance provide. Specifically
+there are times when you need some functionality that operates across
+multiple unrelated classes. Without any other features, you&amp;#39;d have to
+start &lt;strong&gt;all&lt;/strong&gt; of your classes from a single based class and include that
+functionality. Clearly not a good idea.
+&lt;/p&gt;
+&lt;p&gt;
+The first useful example is probably &lt;code&gt;Comparable&lt;/code&gt;
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+At first blush it might not seem all that useful. 
+&lt;/p&gt;
+&lt;p&gt;
+Let&amp;#39;s suppose you are doing something like finding the first String
+(alphabetically) from an array:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+That&amp;#39;s easy enough but what if you had another class, &lt;code&gt;Shape&lt;/code&gt; where
+you wanted to find the &amp;#34;smallest&amp;#34; based on area and a third class
+&lt;code&gt;Person&lt;/code&gt; where you want to find the smallest by age? Without
+interfaces you would need three independent search routines or set up
+a crazy inheritance hierarchy where &lt;code&gt;String&lt;/code&gt;, &lt;code&gt;Person&lt;/code&gt; and &lt;code&gt;Shape&lt;/code&gt; all
+come from the same parent. Instead, by having your two new classes
+implement the &lt;code&gt;Comparable&lt;/code&gt; interface all three can use the same
+search:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+This is not entirely true. The above solution will give you compiler
+warnings. You&amp;#39;ll have to decide if it makes sense to jump through the
+hoops necessary to get rid of the warnings or if it&amp;#39;s sufficient to do
+some vigorous had waving.
+&lt;/p&gt;
+&lt;p&gt;
+This is the benefit of interfaces. You can create functionality that
+works across classes. In addition to writing things like our
+ &lt;code&gt;findSmallest&lt;/code&gt; above, if our classes implement &lt;code&gt;Comparable&lt;/code&gt; we can sort
+collections of our classes using the built in sort methods.
+&lt;/p&gt;
+&lt;p&gt;
+This is a benefit that our students can probably appreciate.
+&lt;/p&gt;
+&lt;p&gt;
+Anther place interfaces come up and make sense are with GUI
+programming. It&amp;#39;s pretty easy to show the utility of using interfaces
+with the assorted listeners. That said, Java GUI programming is
+something of a bear so maybe that&amp;#39;s not the way to go.
+&lt;/p&gt;
+&lt;p&gt;
+Where else can you explore interfaces in APCS-A? Any program where you
+have different entities that change in different ways over time. This
+might be a simulation where time passes via a control loop or maybe a
+game where time passes a turn at a time.
+&lt;/p&gt;
+&lt;p&gt;
+For example, you might have a simulation with various resources that
+implement an interface with an &lt;code&gt;update&lt;/code&gt; routine:
+&lt;/p&gt;
+&lt;div class=&#34;src src-java&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+Maybe a food resource updates by raising or lowering the amount of
+food it provides or perhaps an animal resource updates its location. You could
+have an array of objects that implement this interface and just call
+update on each one.
+&lt;/p&gt;
+&lt;p&gt;
+You could do the same with a game. Maybe the human player&amp;#39;s &lt;code&gt;update&lt;/code&gt; 
+prompts for keyboard input while non player characters just calculate
+their next state.
+&lt;/p&gt;
+&lt;p&gt;
+Interfaces are not the easiest thing to teach. The mechanics are
+straightforward but the motivation is frequently forced for
+beginners. I was never 100% happy with how I did it and now that I&amp;#39;m
+in a C++ shop it doesn&amp;#39;t come up but I hope this is helpful to some of
+you out there.
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
