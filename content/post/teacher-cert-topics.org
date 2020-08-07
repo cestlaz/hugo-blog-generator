@@ -2,7 +2,11 @@
 title: CS Teacher Certification - Topics in CS
 date: 2020-08-05T07:13:01-04:00
 tags: 
-categories: 
+- pedagogy
+- csed
+- teaching
+categories:
+- teaching 
 draft: false
 --- 
 
