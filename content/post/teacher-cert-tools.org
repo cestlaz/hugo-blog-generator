@@ -1,12 +1,13 @@
 ---
 title: Preparing CS Teachers - tools for remote instruction
-date: 2020-08-06T16:07:26-04:00
+date: 2020-08-10T06:07:26-04:00
 tags:
 - pedagogy
 - CSEd
+- tools
 categories:
 - teaching
-draft: true
+draft: false
 --- 
 
 Our summer intensive was supposed to be in person but COVID-19 changed
@@ -40,16 +41,16 @@ rooms. I would have loved to be able to spy on a breakout room or have
 more fluidity between them but it still did a pretty good job
 considering Zoom wasn't designed for education. 
 
-[[https://bigbluebutton.org/][Big Blue Button]] is an open source alternative to Zoom and it's better
-suited for education but it's just not quite there yet.
+[[https://bigbluebutton.org/][Big Blue Button]] is an open source alternative to Zoom. It's design for
+teaching so it has some of the features that Zoom lacks but it's not
+quite there yet in terms of quality and reliability.
 
 Instead of the Zoom chat, we decided to use Slack. Zoom's slack only
 works while Zoom is up and there were times when the cohort was
 working "offline." Also, slack gave us both threads and different
 channels as well as arbitrary private chats. 
 
-In addition to the general class chat we had channels like #git-fu,
-#java-fu, #fall-is-coming to discuss COVID-19 and the public schools,
+In addition to the general class chat we had channels like #git-fu, #java-fu, #fall-is-coming to discuss COVID-19 and the public schools,
 #attendance  and a bunch of others. 
 
 Funny thing - this was the first time any of us had strong Slack
@@ -61,8 +62,7 @@ out of class communication and is still being used now albeit at a
 lower volume. 
 
 Slack also gave us a place, besides the zoom to build
-community. Having some fun channels like #duckygram and
-#cs-educationy-goodness  set a light tone. Every day, Alex would wait
+community. Having some fun channels like #duckygram and #cs-educationy-goodness  set a light tone. Every day, Alex would wait
 until right before our start to put a gif in the #attendance channel
 each day outdoing the ridiculousness of the rest of the class. It was
 the cohort that made the community but Slack as a platform helped.
@@ -74,7 +74,7 @@ cohort, it worked.
 My only problem with Slack is the price. I have zero budget which
 leaves us with the free tier. That means limited integrations  and
 limited history. I might check out some self-hosted options like Zulip
-as well.
+and Rocketchat to see if they're viable alternatives.
 
 We originally planned to use GitHub discussions for longer form
 communication. It hit most of the buttons for me -- threaded
