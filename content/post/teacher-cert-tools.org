@@ -45,7 +45,7 @@ considering Zoom wasn't designed for education.
 teaching so it has some of the features that Zoom lacks but it's not
 quite there yet in terms of quality and reliability.
 
-Instead of the Zoom chat, we decided to use Slack. Zoom's slack only
+Instead of the Zoom chat, we decided to use Slack. Zoom's chat only
 works while Zoom is up and there were times when the cohort was
 working "offline." Also, slack gave us both threads and different
 channels as well as arbitrary private chats. 
