@@ -1,0 +1,78 @@
+---
+title: Preparing CS Teachers - building a community
+date: 2020-08-10T08:11:49-04:00
+tags: 
+- teaching
+categories:
+- teaching 
+draft: true
+--- 
+
+What so many non-teachers just don't get is culture and community can
+be so much more powerful than curriculum. The problem is, culture and
+community are harder to create, curate, and maintain and the results
+don't always show up on standardized tests.
+
+You can't force community or culture  in a classroom but you can try
+your best to foster it. It's ultimately up to the class as a
+whole. It's like I tell groups who come to events I organize. I can't
+make an event awesome, all I can do is bring everyone together and set
+the stage. It's up to us all to collectively make the event work. More
+often than not, it does. 
+
+For our part, we did what we always do. We did our best to be open and
+honest about what we were doing, how, and why. We sincerely tried to
+listen to input and we worked to make ourselves available to our
+students. We also looked to set our class tone as informal but
+serious, and hopefully fun. We could take time for tangents but
+remembered when it was time to get back on task. It's the typical
+balance a teacher seeks to create and maintain. There was no magic on
+our end, we did what we always did - we were ourselves. It probably
+helped that there were three of us and could already play off each
+other Marx brothers style (oh, who am I kidding, more three stooges)
+but all a teacher can really do is open the door. The other thing we
+did was provide the tools - Slack and GitHub Discussions (even though
+it didn't take) and we did pre-load Slack with channels both serious
+and not so much.
+
+The class walked through. They decided to engage and that started the
+ball rolling. Of course we still had our part to play. If they posted
+something, we had to respond, or at least be an active part in the
+discussion. Now, understand, we didn't respond as "part of the job."
+That would be fake and they'd know it. We'd respond because we're also
+part of the community. We wanted them to be part of it and we wanted
+to be part of it. That's what community is all about. 
+
+While community and class culture is something that's always
+important. In this case, I think it's even more important. New York
+City and State, like the rest of the country has very few CS teachers
+that are both strong in CS content and in CS pedagogy and since NY
+State just started approving certification programs, including ours,
+there are currently no state certified CS teachers. 
+
+When they finish the program, this cohort should be among New York's
+first certified CS teachers but even now, they have more CS content
+knowledge and pedagogical content knowledge than most of the people
+teaching CS. They're also all experienced teachers in general. This
+group can seed a community of CS teachers with strong
+backgrounds. It's on them to go back to CS4All in and run professional
+developments and to work with us at Hunter to host events as well.
+
+I'm sure I've already said how terrific the group is and how honored I
+am to work with them and as a community we're well on the way. Even as
+I'm writing this post, I'm seeing new messages appear on our community
+Slack discussion school openings and this is well after our summer
+program has ended. They're already becoming resources for each
+other. In a couple of weeks, for their students, and soon for the rest
+of the teachers in New York.
+
+
+
+
+
+
+
+
+
+
+
