@@ -1,9 +1,73 @@
 ---
-title: Teacher Cert Successes And Failures
+title: Preparing CS Teachers - the good, the bad, and what's next.
 date: 2020-08-11T12:00:15-04:00
 tags: 
-categories: 
+- teaching
+categories:
+- teaching 
 draft: true
 --- 
 
+Looking back, what worked and what didn't?
 
+Overall, things went very well. We were extremely happy with the
+cohort's growth and performance and based on feedback received they
+were happy with the program so far. I'll also say that while they're
+not finished yet, I can honestly say that every one of them would be a
+boon to any school in the city in need of a CS teacher (but they're
+not available since they're all already teaching CS at their
+respective schools :-) ). 
+
+Before we started we felt good about our combination our progrm -
+designed by teachers for teachers. Strong pedagogy combined with deep
+CS content. Now that we're done with the summer, I think it's safe to
+say that both our design and implementation is sound. 
+
+That doesn't mean the program was perfect. We lost one student along
+the way. That was unfortunate but sometimes the fit isn't there. There
+are also a few things we'd like to tweak. 
+
+First, our [[https://github.com/hunter-teacher-cert/pre-acceptance-prework][pre-work]] - we required it due to the compressed nature of
+the summer. Next time around it's going to be available earlier and
+with more support. 
+
+We also want to do a better job with early pacing but now that we've
+had our first rodeo we can do that.
+
+The one nut we haven't cracked is that due to the teachers experience
+combined with the pre-work there are some early learning / teaching CS
+issues that didn't and won't come up naturally as the students are
+beyond them before our first day. Things like issues that come up when
+introducing variables or functions. We could just insert them as a
+unit but that breaks the class flow. I'm still noodling that one but
+for now they're probably good topics for a school year PD. 
+
+What's next?
+
+The cohort will continue with two more courses starting up in just a
+couple of weeks. One is an Ethics in CS class that I'm really excited
+about and the other is Curriculum Development. The Curriculum
+Development class has been a personal project. I had to take three
+different graduate curriculum development courses over my career and
+didn't learn a single thing about designing curriculum in any of
+them. Years ago, before I had any clue I'd be building this program I
+told myself that if I ever did design and teach any education courses
+I'd do a curriculum development course and it would be good. Well, her
+it is. We'll look at the standards and standard offerings but the crux
+of the course will have the students designing curriculum. Since the
+course is integrated with the NY State required field work they'll
+also be implementing what they build with their students. It should be
+pretty cool. 
+
+On top of all this, we also have four students starting in our Masters
+in CS Education program. Those four are just starting their journey
+towards becoming teachers. They'll take general pedagogy courses in
+teh Fall and Spring and then join with our next cohort in the summer
+to start the CS and CS Ed part of our program.
+
+It's been a long road to get here but now we're here - preparing CS
+teachers for NY city and state. When I came to Hunter this was one of
+my two major initiatives. The thought was that regardless how bad the
+powers that be screw CS education up, if you have great teachers,
+students have a chance. At Hunter we're preparing those great
+teachers.
