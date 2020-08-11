@@ -1,11 +1,11 @@
 ---
 title: Preparing CS Teachers - building a community
-date: 2020-08-10T08:11:49-04:00
+date: 2020-08-11T07:11:49-04:00
 tags: 
 - teaching
 categories:
 - teaching 
-draft: true
+draft: false
 --- 
 
 What so many non-teachers just don't get is culture and community can
