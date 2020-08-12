@@ -5,7 +5,7 @@ tags:
 - teaching
 categories:
 - teaching 
-draft: true
+draft: false
 --- 
 
 Since we ended up with an eight post postmortem on our CS Teaching
@@ -21,7 +21,7 @@ Here are links to each post:
 - [[/post/teacher-cert-topics-curriculum/][Commentary on selected CS topics]]
 - [[/post/teacher-cert-tools/][Tools for remote instruction]]
 - [[/post/teacher-cert-community/][Building a community of CS teachers]]
-- [[/post/successes-and-failures.org][The good, the bad, and what's next]]
+- [[/post/teacher-cert-successes-and-failures/][The good, the bad, and what's next]]
 
 I also wrote a few posts as the summer intensive was running:
 
