@@ -1,0 +1,34 @@
+---
+title: Preparing CS Teachers - index post
+date: 2020-08-11T20:03:21-04:00
+tags: 
+- teaching
+categories:-
+- teaching 
+draft: true
+--- 
+
+Since we ended up with an eight post postmortem on our CS Teaching
+Certificate summer intensive I thought I'd add add an index page. 
+
+Here are links to each post: 
+
+
+- [[/post/teacher-cert-recap-intro/][Introduction - program overview]]
+- [[/post/teacher-cert-methods/][On pedagogy - CS teaching methods]]
+- [[/post/teacher-cert-topics/][Topics in Computer Science]]
+- [[/post/teacher-cert-methods-choosing/][Deciding on which methods to teach]]
+- [[/post/teacher-cert-topics-curriculum/][Commentary on selected CS topics]]
+- [[/post/teacher-cert-tools/][Tools for remote instruction]]
+- [[/post/teacher-cert-community/][Building a community of CS teachers]]
+- [[/post/successes-and-failures.org][The good, the bad, and what's next]]
+
+I also wrote a few posts as the summer intensive was running:
+
+- [[/post/teacher-cert-week-1/][Week 1]]
+- [[/post/teacher-cert-week-2/][Week 2]]
+- [[/post/merge-over-zoom/][An unplugged activity]]
+
+
+We start up again in a couple of weeks so look for more updates on the
+program then.
