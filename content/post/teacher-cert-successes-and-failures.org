@@ -5,7 +5,7 @@ tags:
 - teaching
 categories:
 - teaching 
-draft: true
+draft: false
 --- 
 
 Looking back, what worked and what didn't?
@@ -16,9 +16,9 @@ were happy with the program so far. I'll also say that while they're
 not finished yet, I can honestly say that every one of them would be a
 boon to any school in the city in need of a CS teacher (but they're
 not available since they're all already teaching CS at their
-respective schools :-) ). 
+respective schools :-)). 
 
-Before we started we felt good about our combination our progrm -
+Before we started we felt good about our combination our program -
 designed by teachers for teachers. Strong pedagogy combined with deep
 CS content. Now that we're done with the summer, I think it's safe to
 say that both our design and implementation is sound. 

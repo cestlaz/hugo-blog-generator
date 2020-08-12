@@ -3,7 +3,7 @@ title: Preparing CS Teachers - index post
 date: 2020-08-11T20:03:21-04:00
 tags: 
 - teaching
-categories:-
+categories:
 - teaching 
 draft: true
 --- 
