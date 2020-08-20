@@ -32,7 +32,10 @@ as far as I'm concerned, for educational purposes.
 
 Check out the video to see how I set it up:
 
+#+begin_export html
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/-0x4PV1EB5w" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen></iframe>
+
+#+end_export
