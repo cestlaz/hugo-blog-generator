@@ -58,8 +58,11 @@ I'll be teaching Python again.
 
 Check out this short video to see it in action:
 
+#+begin_export html
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/bYy90EUAh98" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen></iframe>
+
+#+end_export
