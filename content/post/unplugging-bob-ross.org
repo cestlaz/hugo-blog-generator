@@ -5,7 +5,7 @@ tags:
 - misc
 categories: 
 - misc
-draft: true
+draft: false
 --- 
 
 {{< figure src="/img/bobross/practice.jpg" width="75%">}}
