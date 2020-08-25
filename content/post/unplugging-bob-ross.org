@@ -27,7 +27,7 @@ and that helps.
 
 I realized that one of the draining factors of being stuck in a NYC
 apartment is that everything I was doing was on screens. I teach via
-the computer, consume my news and communicate the same way. If I'm
+the computer and consume my news and communicate the same way. If I'm
 working on a side programming project that's more computer time as
 well. If I watch some TV I'm just switching out one screen for
 another. Even when I read which I've been doing much more of since the
@@ -55,7 +55,7 @@ messy, take forever to try, are hard to clean, and require the use of
 hazardous solvents. I put the stuff away in a closet.
 
 Fast forward to today - we have water mixable oils which remove the
-toxicity issue and clean up and there's now a wealth of online
+toxicity issued and makes clean up easier and there's now a wealth of online
 resources to learn from. I thought I'd give it another go.
 
 Even with just a little practice, I'm starting to get better.
@@ -81,7 +81,7 @@ But it's been fun.
 #+end_export
 
 
-Each time I paint it's getting me away form a computer screen for an
+Each time I paint it's getting me away from a computer screen for an
 hour or two and it's been both relaxing and fun. The only downside is
 that they still take forever to dry.
 
