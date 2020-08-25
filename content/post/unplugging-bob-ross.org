@@ -8,7 +8,9 @@ categories:
 draft: false
 --- 
 
-{{< figure src="/img/bobross/practice.jpg" width="75%">}}
+#+begin_export html
+<img width="75%" src="/img/bobross/practice.jpg">
+#+end_export
 
 It's been a long year since March. Many of us have not really been
 able to leave NYC for a variety of reasons - financial, professional,
@@ -37,7 +39,9 @@ needed a hobby and as usual, was probably right.
 
 How about painting. 
 
-{{< figure src="/img/bobross/halloween.jpg" width="50%">}}
+#+begin_export html
+<img width="50%" src="/img/bobross/halloween.jpg">
+#+end_export
 
 Years ago, 1997 or 1998 I did Bob Ross for Halloween. It was an
 absolute blast. I did a painting in each class and a couple by the
@@ -56,15 +60,26 @@ resources to learn from. I thought I'd give it another go.
 
 Even with just a little practice, I'm starting to get better.
 
-{{< figure src="/img/bobross/mountains.jpg" width="50%">}}
+#+begin_export html
+<img width="50%" src="/img/bobross/mountains.jpg">
+#+end_export
+
 
 And while it's all a work in progress,
 
-{{< figure src="/img/bobross/islands1.jpg" width="50%" >}}
-{{< figure src="/img/bobross/islands2.jpg" width="50%">}}
+#+begin_export html
+<img width="50%" src="/img/bobross/islands1.jpg">
+#+end_export
+
+#+begin_export html
+<img width="50%" src="/img/bobross/islands2.jpg">
+#+end_export
 
 But it's been fun.
-{{< figure src="/img/bobross/trees.jpg" width="50%">}}
+#+begin_export html
+<img width="75%" src="/img/bobross/trees.jpg">
+#+end_export
+
 
 Each time I paint it's getting me away form a computer screen for an
 hour or two and it's been both relaxing and fun. The only downside is
