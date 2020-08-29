@@ -1,0 +1,72 @@
+---
+title: Starting the new semester
+date: 2020-08-28T08:56:23-04:00
+tags: 
+- teaching
+categories:
+- teaching 
+draft: false
+--- 
+
+Thursday was the first day of the new semester. The big change was
+that my classes were done remotely but there were also some other
+differences. Other changes were that I only met one of my two CS
+classes on Thursday. That's my CS0. I'm also teaching a recitation for
+CS1 which only meets once a week. I'll see those students as well as
+my CS0 students for a second time on Monday.
+
+I opted to use [[https://codingrooms.com/][Coding Rooms]] instead of Zoom since Coding Rooms has a
+nice built in REPL. We had a couple of students drop a couple of times
+and I had to reload once but even that's no worse than typical Zoom
+performance. It's funny how once one product becomes *it* everything
+that's different is labeled as harder and whenever there's a hiccup
+it's so much worse. The truth is, I've now used a bunch of platforms
+and none is harder than the others - you just have to look to
+different places. For example, in Zoom, you "raise your hand" by
+clicking in one place and in Coding Rooms (or Big Blue Button)
+another. Neither is inherently better - just different but people seem
+to think that the non Zoom one is worse just because Zoom got so hot
+so fast. Likewise, other platforms periodically drop people and crash
+but so does Zoom. This is all a digression but it's something that
+bothers me. Zoom does some things really well but then again so do the
+other platforms I've been playing with. So far, there's no silver
+bullet.
+
+As you might imagine, class had a different feel. I think it went
+pretty well but it's certainly going to be harder to build a sense of
+community. Since there was a good deal of class logistics to cover we
+didn't really get to play with the Coding Rooms REPL but I'll report
+on that soon. I'll also mention that we're going to see about using
+[[https://zulip.com/][Zulip]] instead of Slack for chat both in class and out. Like Zoom,
+Slack is the de facto standard but Zulip seems to have a few distinct
+advantages: 
+
+1. It's open source
+2. You can self host it (and it's free if you self host)
+3. It's built around threads so I suspect it will be easier to deal
+   with discussions both synchronously and asynchronously more easily.
+
+The disadvantages are that there aren't as many integrations, most
+notably there's no Giphy and it's not the eponymous chat
+platform. Note that it's not that I don't like Slack but was driven to
+look for alternatives because I don't have a budget and the free tier
+has limited history and I believe integrations.
+
+The other big change this semester involve our K12 CS teacher
+certification program. Our summer cohort kicked off there next two
+classes on Thursday afternoon and evening - Ethics in Computer Science
+and Curriculum Development for CS. I designed both courses but am not
+the official teacher. Topher and JonAlf who worked the summer with me
+are each taking one but I'm going to be very involved. We also had
+four students start in our Masters program. I'll be writing about all
+of this over the course of the school year.
+
+Spent most of yesterday getting ready for Monday - setting up the
+Zulip server, GitHub repos and GitHub classroom and the like. As
+usual, I'm a slow starter but hopefully by mid next week will feel
+like I'm in the swing of things.
+
+
+
+
+
