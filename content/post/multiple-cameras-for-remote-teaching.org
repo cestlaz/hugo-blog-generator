@@ -1,0 +1,77 @@
+---
+title: Multiple Cameras For Remote Teaching
+date: 2020-08-30T11:05:49-04:00
+tags: 
+- teaching 
+categories:
+- teaching 
+draft: false
+--- 
+
+We used Zoom for remote classes over the summer but at this point,
+I've also used [[https://codingrooms.com][Coding Rooms]], [[https://bigbluebutton.org][Big Blue Button]], and Google meet as
+well. They each have their own strong points and failings but all are
+limited in terms of sharing multiple cameras and screen
+components. All will let you share your camera or share your screen
+and when you share you screen you can either share it all or a single
+window. Zoom is the only one that seems to allow for easy camera
+switching but it's still pretty clunky.
+
+Why do I want to switch cameras? Because I can't draw using a mouse or
+touchpad. I've gotten myself a Wacom tablet but am still not
+particularly proficient at it. 
+
+So, I got myself one of [[https://www.amazon.com/gp/product/B000TTIP40/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1][these]] to use as a document camera. It worked
+but as I said, switching between the webcam and document camera was
+clunky at best.
+
+OBS to the rescue!!!!!
+
+[[https://obsproject.com/][OBS]] Studio is the [[https://obsproject.com/][Open Broadcaster Software]]. It's a cross platform
+streaming studio. You can set up any number of devices and then
+compose them into scenes. I use it for recording my [[https://cestlaz.github.io/stories/emacs][Emacs]] videos. It's
+easy to set up devices for every camera you own plus monitors and
+individual windows. It only took a minute or so to set up a scene with
+me in the corner and my desktop: 
+
+#+begin_export html
+<img src="/img/obs/desktop.png">
+#+end_export
+
+One for my document camera: 
+
+#+begin_export html
+<img src="/img/obs/doccam.png">
+#+end_export
+
+And one for my desktop with the doccam overlayed.
+
+#+begin_export html
+<img src="/img/obs/mixed.png">
+#+end_export
+
+I can switch between them by clicking on which I want. I can also
+select a transition like fade. 
+
+This is all great for recording or streaming to a service like Twitch
+but what about using with meeting software? It turns out that you can
+set up OBS to act as a virtual camera. There are plugins for Mac and
+Windows. You can find them by searching for them but for Linux, I
+followed this video and it worked perfectly: 
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Eca509IDLdM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+I also found this video if the above one doesn't work: https://www.youtube.com/watch?v=zaJSkj-dLoI
+
+I set up the virtual camera as per the video and then selected it as
+the camera on both Zoom and Coding Rooms and it worked perfectly. It
+should work on the other platforms as well. 
+
+This is HUGE. Now, instead of explicitly sharing my screen I can hacve
+my screen as my image and quickly and easily switch over to another
+window, a document camera or anything else. 
+
+If you're teaching remotely using a conferencing platform I recommend
+you check this out.
