@@ -1,0 +1,98 @@
+---
+title: Using Emacs 74 Eglot
+date: 2020-08-31T13:03:14-04:00
+tags:
+- emacs
+- tools
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+I primarily program in four languages these days -
+
+ - Clojure 
+ - C++
+ - Python
+ - Java
+
+And most of the time, my Emacs configuration has handled each one
+differently. Cider for Clojure, Irony for C++, Elpy and Jedi for
+Python and Java I could never figure out. This is of course on top of
+tools that work across languages like company for completions, or
+flycheck for general language syntax checking. 
+
+A while ago I heard about lsp-mode - Language Server Protocol
+mode. Basically, you set up the mode and it connects to back end
+language servers. The idea is to keep configuration down and provide a
+consistent interface across langauges while leveraging the types of
+support these back ends can provide. I wrote a bit about lsp-mode and
+made a video and you can find it [[https://cestlaz.github.io/post/using-emacs-58-lsp-mode/][here]]. 
+
+When I first tried LSP it just didn't work. I tried it again later and
+it basically worked but was finicky. Configuration took more work than
+I wanted, particularly for customizing per language and even when
+working it didn't work as expected. 
+
+This past summer, I had to teach using Java so I tried lsp-mode
+again. Setup wasn't too bad and most of the issues were more related
+to Java than to lsp-mode but I didn't like the results. While it might
+be great for the professional developer there were too many popups and
+made the screen way too busy for teaching. 
+
+Still, the idea of a single simple configuration was enticing.
+
+So, when I decided to get my configuration together for the Fall
+semester I decided to try yet again and discovered [[https://github.com/joaotavora/eglot][eglot]] for
+Emacs. Eglot turned out to be easier to install and gave me more of
+the experience I was looking for.
+
+To start, I set it up for C++ using
+
+#+begin_src 
+(use-package eglot :ensure t)
+(add-to-list 'eglot-server-programs '((c++-mode c-mode) "clangd-10"))
+(add-hook 'c-mode-hook 'eglot-ensure)
+(add-hook 'c++-mode-hook 'eglot-ensure)
+#+end_src
+
+Eglot defaults to [[https://github.com/MaskRay/ccls][ccls]] as a C++ language server. I didn't want to have
+to build it but was able to ~apt-get install clangd-10~ and use that
+instead by adding clangd-10 to the eglot-server-programs in the second
+configuration line.
+
+For python I had to install [[https://github.com/palantir/python-language-server][pyls]], the Python Language Server but that
+was easy to do and then I just had to add ~(add-hook 'python-mode-hook
+'eglot-ensure)~ to my config.
+
+Finally, Java was more of an issue I had to get [[https://github.com/eclipse/eclipse.jdt.ls][eclipse.jdt.ls]] on my
+system. It turns out that lsp-mode installed it for me already so I
+just had to point to it:
+
+#+begin_src 
+(defconst my-eclipse-jdt-home "/home/zamansky/.emacs.d/.cache/lsp/eclipse.jdt.ls/plugins/org.eclipse.equinox.launcher_1.5.800.v20200727-1323.jar")
+(defun my-eglot-eclipse-jdt-contact (interactive)
+  "Contact with the jdt server input INTERACTIVE."
+  (let ((cp (getenv "CLASSPATH")))
+    (setenv "CLASSPATH" (concat cp ":" my-eclipse-jdt-home))
+    (unwind-protect (eglot--eclipse-jdt-contact nil)
+      (setenv "CLASSPATH" cp))))
+(setcdr (assq 'java-mode eglot-server-programs) #'my-eglot-eclipse-jdt-contact)
+(add-hook 'java-mode-hook 'eglot-ensure)
+#+end_src
+
+So far, I'm liking eglot very much. I'll probably check lsp-mode out
+again somewhere down the line but as of now it's Cider for Clojure and
+Eglot for everything else.
+
+The video has a run through and demo. Check it out.
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ROnceqt3kpE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+#+end_export
+
+
+
+

@@ -17,7 +17,7 @@ and when you share you screen you can either share it all or a single
 window. Zoom is the only one that seems to allow for easy camera
 switching but it's still pretty clunky.
 
-Why do I want to switch cameras? Because I can't draw using a mouse or
+Why do I want to switch cameras? Because I can't draw us ing a mouse or
 touchpad. I've gotten myself a Wacom tablet but am still not
 particularly proficient at it. 
 

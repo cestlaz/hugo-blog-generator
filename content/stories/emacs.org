@@ -138,3 +138,5 @@ disable_comments = true
 ** [[/post/using-emacs-70-org-protocol][Video 70 - org-protocol]]
 ** [[/post/using-emacs-71-openwith][Video 71 - openwith]]
 **  [[/post/using-emacs-72-customizing-elfeed][Video 72 - customizing elfeed]]
+**  [[/post/using-emacs-72-rg][Video 73 - RipGrep]]
+**  [[/post/using-emacs-74-eglot][Video 74 - Eglot]]
