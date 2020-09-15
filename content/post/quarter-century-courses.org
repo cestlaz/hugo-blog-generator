@@ -1,0 +1,108 @@
+---
+title: Quarter Century Courses
+date: 2020-09-15T07:09:25-04:00
+tags: 
+- pedagogy
+- teaching 
+- curriculum
+categories:
+- teaching 
+draft: false
+--- 
+
+I was talking in our Curriculum Development class last week about the
+courses I've created over the years. From the first computer graphics
+course to the current teacher education courses. JonAlf pointed out
+that we missed an "important" occasion last spring - the twenty fifth
+offering of my computer graphics class at Stuy. I haven't taught it in
+almost 10 years but it's been running continuously for a quarter
+century since it first ran back in the mid 90s. Systems will hit that
+mark this year and the intro course I designed a couple of years from
+now.
+
+That's pretty cool.
+
+Looking back at all the courses I've designed and taught it's
+interesting to see what I got right, what I got wrong, and why. Some
+courses evolved slowly over time. The intro course fits that bill. On
+the other hand, Systems had a complete reboot a few years in and has
+been reasonably stable since. Interestingly enough Graphics has
+probably been the most stable over the years. That's not to say that
+it hasn't been tweaked here and there but overall, it's largely the
+same now as it was a quarter century ago. It's been re-evaluated many
+times but it just turns out that when I was teaching it I felt that it
+was still hitting the right notes and my successor seems to feel
+similarly. 
+
+Funny because graphics was designed with the least thought of all of
+my courses. I probably didn't feel that way at the time, but it's
+true. I had only been teaching around 5 year - a beginner at best and
+didn't really know what I was doing. Even 10 years in you're still an
+advanced beginner in terms of teaching. Most teachers, if they don't
+burn out, hit there stride at 15 - 20 and after that become truly
+experienced. 
+
+I basically created graphics because I was teaching 4 APCS/AB classes
+and one geometry and *hated* grading proofs!!!! I needed to create one
+more CS class. I decided on graphics because I knew I could teach it
+and thought the students might enjoy it. Systems was created using
+similarly deep contemplations. I got better and spent much more time
+and effort designing future courses.
+
+For the graphics class I had a few choices to make but not many. The
+students mostly only knew Pascal from APCS so the language wasn't an
+issue like it would become later on and since we were working on DOS
+machines running Turbo Pascal there wasn't any option to use any fancy
+library like OpenGL. The course basically started with the ability to
+draw a point and then went though: 
+
+ - lines
+ - lines in 3D and 3D transformations
+ - polygons (triangles)
+ - A motion description language interpreter (stack and tree based
+   shape hierarchies)
+ - lighting and shading
+ - ray tracing
+
+The motion description language piece had an entire unit that was
+really an intro to compilers / interpreters. 
+
+In retrospect, the course really did make sense. It was taught to
+second term seniors so it was a terminal course. It combined the
+programming, algorithms and data structures from APCS, math they
+did in trig, precalc (and baby calc), and a bit of physics. It as also
+project based and they wrote programs that made pretty pictures so
+that helped stave off senioritis. 
+
+While the course has remained largely the same, there has been some
+evolution. When Systems students started learning C we ended up
+supporting that as well in graphics and now the course is more
+language agnostic. We also played with topics and unit length. We
+spend less time on the compiler piece now and treat that more like a
+black box and have at times looked at additional topics like texture
+mapping. There's also been a good deal of work put in to safety nets
+and scaffolding. When you have a course where the main assessment is
+one BIG semester long project you've got to make sure students don't
+end up falling into a hole they can't climb out of.
+
+It's not a surprise that the first couple of courses I designed -
+graphics and systems were somewhat arbitrary. Graphics turned out to
+be a solid design and just needed some fine tuning but Systems got a
+complete reboot. Over the years, I learned more about curriculum
+design and feel pretty comfortable designing new experiences now. Of
+course, this is thirty years into my career as a teacher. 
+
+Maybe I'll talk about the design of other classes here in the future
+but for now, you can look at one of my first student's graphics
+project and read about it [[https://cestlaz.github.io/post/class-legends/][here]].
+
+#+begin_export html
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/Ca_8q3ct6J4" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+
+#+end_export
+
+
+
