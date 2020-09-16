@@ -1,0 +1,71 @@
+---
+title: Zulip - maybe the answer for class communication
+date: 2020-09-16T09:48:51-04:00
+tags: 
+- tools
+categories: 
+- tools
+draft: false
+--- 
+
+It's always been a challenge to get students to buy in to an out of
+class communication tool. Over the years I've tried many including
+mailing lists, Piazza, Discourse, Vanilla and other discussion forums,
+Slack and probably a few other things.
+
+I guess it's not surprising that it's a hard sell - prior to the
+internet once school was out kids there as no teacher student
+interaction until the next school day and kids would only interact
+with their direct friends. 
+
+Still, we have technology and even without great buy in, if nothing
+else there's an advantage to having an electronic means of
+distributing things to students.
+
+Ultimately I fell back on a plain old mailing list. Discussion/forum
+platforms didn't work for me because it was yet another location that
+you had to remember to check. Slack didn't work because at its core
+it's for live chat and while workers are at their desks all day and
+can have a chat open, that doesn't work with students and catching up
+on a complex Slack with threads after the fact is, well, just no. 
+
+With us going remote in Coronatime needs changed. Slack looked like it
+might be more viable. It still had the problem of limited threads but
+in addition to students being more "always on," for better or worse,
+live remote teaching benefits form a chat. Why Slack over the built in
+Zoom chat? Well, one thing is that the Zoom chat disappears after the
+session whereas Slack lives on and can form the base for ongoing
+discussion. Second, dedicated chat platforms like Slack are more
+robust and featureful.  
+
+Over the summer and into this semester, Slack seems to be working very
+well for my teacher certification candidates but I ended up using
+something else - [[https://zulip.com][Zulip]] for my undergraduate classes and plan to move
+my teachers over to it for the next cohort.
+
+Why the change? Both Zulip and Slack have free tiers but Zulip can
+also be self hosted and is open source. Slack is slicker when it comes
+to integrations but Zulip is the clear winner for combined sync and
+async conversations due to its threading model combined with flexible
+alerts. 
+
+I put together this short video showing  the basics - check it out:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xWa56KdgYZM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+You can use Zulip free on their site with similar limits as for
+Slack's free tier or you can self host. I'm running our Zulip
+instances on a Digital Ocean droplet. DO has a "one click" Zulip setup
+that was fairly straightforward. You might want to check that out if
+you're comfortable as a Linux admin.
+
+So far, I'm liking Zulip very much and thing I'll be using it as my
+primary in and out of class communication tool. I'd like a better
+selection of emoji and wish it was easier to both use integrations and
+write bots but the thread based interface is really great. 
+
+I know Slack's the big name and I do like Slack as well but if you're
+a teacher and looking for an in and out of class chat/communication
+platform check Zulip out.
