@@ -1,11 +1,11 @@
 ---
 title: Zulip - maybe the answer for class communication
-date: 2020-09-16T09:48:51-04:00
+date: 2020-09-16T14:01:23-04:00
 tags: 
 - tools
 categories: 
 - tools
-draft: false
+draft: true
 --- 
 
 It's always been a challenge to get students to buy in to an out of
