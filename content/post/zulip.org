@@ -5,7 +5,7 @@ tags:
 - tools
 categories: 
 - tools
-draft: true
+draft: false
 --- 
 
 It's always been a challenge to get students to buy in to an out of
