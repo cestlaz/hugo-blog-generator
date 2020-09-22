@@ -1,0 +1,60 @@
+---
+title: Using Emacs 75 - Bufler
+date: 2020-09-22T13:17:41-04:00
+tags:
+- emacs
+- tools 
+- productivity
+categories: 
+- emacs
+draft: true
+---
+
+Quick Emacs hit today.
+
+After my last video, I received a comment noting that I was using
+ibuffer and that there was another package I might want to consider -
+[[https://github.com/alphapapa/bufler.el][bufler]]. 
+
+I started with basic ibuffer and then started to [[https://cestlaz.github.io/posts/using-emacs-34-ibuffer-emmet/][customize it]] to group
+buffers but that was always somewhat finicky. More often than not I
+couldn't tune it the way I wanted. Most recently, I started using
+[[https://github.com/purcell/ibuffer-projectile][ibuffer-projectile]] which group projects for me but lost the other
+customizations. In any event, I was more or less happy with things.
+
+[[https://github.com/alphapapa/bufler.el][Bufler]] though looks to be a nice alternative. Out of the box it looks
+like it groups things pretty well and has a nice Emacs [[https://github.com/abo-abo/hydra][hydra]] that you
+can bring up with ~?~ to remind you how to do things like kill one or
+more buffers.  
+
+Right now, I'm using it as an ibuffer replacement but it also has its
+own version of switch buffer that I plan to play with as well. 
+
+The only knit I've found thus far is that when you run bufler, it
+splits the window and lists the buffers in the new space. If I'm using
+ibuffer I want it to use the whole Emacs frame. Otherwise I just use
+ivy-switch-buffer (or now bufler-switch-buffer). I couldn't figure out
+a way built in so ended up writing a small function: 
+
+{{< highlight lisp >}}
+(defun mz/bufler-one-window (&optional force-refresh)
+  (interactive "P")
+  (bufler-list)
+  (delete-other-windows)
+
+)
+
+(global-set-key (kbd "C-x C-b") 'mz/bufler-one-window)
+{{< /highlight >}}
+
+Check out the video for more details.
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KqvjeRf84do" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+
+
+
+
+

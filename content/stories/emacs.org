@@ -140,3 +140,4 @@ disable_comments = true
 **  [[/post/using-emacs-72-customizing-elfeed][Video 72 - customizing elfeed]]
 **  [[/post/using-emacs-72-rg][Video 73 - RipGrep]]
 **  [[/post/using-emacs-74-eglot][Video 74 - Eglot]]
+**  [[/post/using-emacs-75-bufler][Video 75 - bufler]]
