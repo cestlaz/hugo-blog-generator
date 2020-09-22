@@ -7,7 +7,7 @@ tags:
 - productivity
 categories: 
 - emacs
-draft: true
+draft: false
 ---
 
 Quick Emacs hit today.
