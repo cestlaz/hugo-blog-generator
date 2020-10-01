@@ -1,0 +1,112 @@
+---
+title: Deadlines And Commitments
+date: 2020-10-01T13:50:38-04:00
+tags:
+- teaching
+categories:
+- teaching 
+draft: false
+--- 
+
+A few days ago I was part of a Twitter discussion on assignment
+deadlines. I noticed a tweet:
+
+#+begin_export html
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Not sure who needs to hear this, but stop taking off points for late assignments. It’s not helping students learn responsibility, and it’s not making your job easier. It’s only making your class inequitable. 💯</p>&mdash; Sydney Jensen (@sydneycjensen) <a href="https://twitter.com/sydneycjensen/status/1309946435056611335?ref_src=twsrc%5Etfw">September 26, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+#+end_export
+
+I disagreed. I wasn't necessarily against floating or open deadlines
+without deductions but rather, they made my life more difficult and
+weren't in the best interest of my students. That said, they could
+very well be appropriate for Sydney and her's.
+
+Today I saw some emails on the SIGCSE list on the same topic. One
+caught my eye - the poster talked about giving extra credit for early
+submissions. These were likely unrelated discussions since the twitter
+participants were not CS educators and I think the SIGCSE discussion
+was mostly of college level CS instructors.
+
+In any event, it was a sign. I was meant to write a blog post on it.
+
+To start, what's my policy?
+
+For homework or small every day assignments I grade for attempt, not
+correctness. You either made an honest effort or you didn't. I
+encourage students to help each other but ask they cite where and when
+they got help. When all is said and done, if you've done most of the
+homework you get the full homework percent of the grade. If you miss
+one here or there, no big deal. If you miss a whole bunch, you've got
+a problem. 
+
+For projects, I have hard deadlines with a deduction for lateness. If
+time and circumstance permits, I'll give a project and we'll have a
+discussion and set the due date together. Also, if a student talks to
+me ahead of time about some issue, I'll almost always give a penalty
+free extension. On the other hand, if they come to me last minute, I
+usually won't.
+
+When I grade, and I *hate* grading, I get into a groove so grading a
+project later does inconvenience me and it's also not doing the
+student any favors - we've moved on to the next set of topics but I
+don't have the project which is an assessment of how the student was
+doing up to that point.
+
+Is this bad? I don't think so. While many deadlines are arbitrary,
+students do have to learn to get things done and as long as the
+deadline is reasonable there shouldn't be a problem. Since I'm
+flexible if a student has a particular issue even more so. One
+tweet on the thread said that since some students aren't comfortable
+asking a teacher for an extension it was unfair but I think you have
+to draw the line somewhere. One students might not ask for an
+extension and just be late and another might not ask and kill
+themselves to meet the deadline but in either case, I don't think it's
+unreasonable to expect the student to advocate for themselves
+particularly when they can start the conversation either in person or
+via email and in private. 
+
+On the other hand, is having open deadlines all good? Probably
+not. Some students will game and abuse the system. Not all, but
+certainly some and those students will gain an advantage in terms of
+grades. Now, in an ideal world. we wouldn't care about grades but in
+the current reality if student one gets a fair B+ while student two
+exploits loose deadlines nad gets an A-, guess who's more likely to
+get into that selective college? There's also the problem of
+snowballing and falling behind. If a student is a week late on
+something that reinforces or clarifies the next topic that student is
+now falling behind on that next topic.
+
+We also have the final looming deadline of end of semester or end of
+year which further complicates matters. 
+
+So, who's right? Who knows. Overall, I think what I do works for me
+and my classes. It's a system that's evolved over three decades and
+will continue to evolve. Every year is a potential tweak and every new
+situation, like when I came over to Hunter was cause for
+re-evaluation. On the other hand, I know teachers who have open
+deadlines and it seems to work for them and their students so they
+should keep on keeping on. 
+
+What about that extra credit for early projects? This is one that
+sounds good but I don't like it. I think this one is potentially
+really inequitable. It sounds good until you remember that students
+all have different schedules and different obligations. If you give
+students one week to complete an assignment starting monday, even if
+they all have roughly the same workload, it will be distributed in
+different ways.
+
+One kid might front load their courses into Mon-Wed so they don't have
+to commute Thursday and Friday. That student will never be able to
+finish an assignment early because they've left there homework time
+for later in the week. Same thing for a kid who works evenings rather
+than weekends. There will be other kids where their schedule favors
+finishing early. This sounds like a great idea but it will really only
+favor a select few and not necessarily because they're doing things
+"the right way." 
+
+So, what's the answer on due dates? As usual we get a resouding "it
+depends." I just gave an assignment last Monday and over Zulip we
+collectively decided that a fair deadline would be a week from
+today. I don't expect any extensions will be needed but if I'm
+approached I'll probably be flexible as I've always been. My policy
+seems to be working well so I'm sticking to it for now. If yours works
+for you, do the same.
