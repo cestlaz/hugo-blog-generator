@@ -66,7 +66,7 @@ disable_comments = true
 ** [[http://cestlaz.github.io/posts/using-emacs-27-shell][Video 27 - Shell and eshell]]
 
 
-** [[http://cestlaz.github.io/posts/using-emacs-27-rectangles][Video 28 - Rectangles]]
+** [[http://cestlaz.github.io/posts/using-emacs-28-rectangles][Video 28 - Rectangles]]
 
 
 ** [[http://cestlaz.github.io/posts/using-emacs-29-elfeed][Video 29 - elfeed 1 ]]
@@ -141,3 +141,4 @@ disable_comments = true
 **  [[/post/using-emacs-72-rg][Video 73 - RipGrep]]
 **  [[/post/using-emacs-74-eglot][Video 74 - Eglot]]
 **  [[/post/using-emacs-75-bufler][Video 75 - bufler]]
+**  [[/post/using-emacs-76-bookmarks-burly][Video 75 - Bookmarks and Burly]]

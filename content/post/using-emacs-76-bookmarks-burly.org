@@ -1,0 +1,58 @@
+---
+title: Using Emacs 76 Bookmarks and Burly
+date: 2020-10-23T13:41:22-04:00
+tags:
+- emacs
+- tools 
+- productivity
+categories: 
+- emacs
+draft: false
+---
+
+I read a post on [[https://www.reddit.com/r/emacs/][/r/emacs]] the other day asking if people used Emacs
+bookmarks among other things. I thought about it for a bit and
+wondered why I didn't use Bookmarks? I did set a few bindings to load
+frequently used files and those are like bookmarks but I have to set
+those up in my configuration. It turns out that Emacs bookmarks are
+pretty easy and effective and work right out of the box. I cover the
+basics in the video and you can also check the documentation [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html][here]]. 
+
+In the video I mention that the bookmark bindings are part of the
+bindings used for registers which also include rectangles. If you're
+interested in those aspects you can find out all about registers by
+viewing [[https://www.youtube.com/watch?v=u1YoF4ycLTY][this nice video]] by Prot and I cover rectangle editing [[https://cestlaz.github.io/posts/using-emacs-28-rectangles/][here]]. 
+
+I also noticed another post on /r/emacs about [[https://github.com/alphapapa/burly.el][burly]] - a package for
+managing windows and their associated buffers. It's pretty cool. In
+the video I confused myself and thought it might be mapping the
+buffers to windows wrong but that was just me confusing myself. 
+
+Burly uses bookmarks to store the configurations which is cool and it
+was much easier for me to get my head around it than other
+solutions. Burly's install instructions use [[https://github.com/quelpa/quelpa][quelpa]] and
+[[https://github.com/quelpa/quelpa-use-package][quelpa-use-package]] so now it looks like I'll have to figure those out
+as well :-).
+
+The run through is all in the video.
+
+Enjoy.
+
+
+
+
+
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JVFnaQVNEE0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+
+
+
+
+
+
+
+
