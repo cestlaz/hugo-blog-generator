@@ -1,0 +1,88 @@
+---
+title: My Painting Setup
+date: 2020-11-09T20:24:10-04:00
+tags: 
+categories: 
+draft: false
+--- 
+
+Living in Manhattan doesn't allow for a lot of space. I live in a
+reasonably sized (for Manhattan standards) apartment with  my wife and
+son. My daughter doesn't live with us but she comes down most every
+day and works out of her old room as a change of pace rather than
+staying in her apartment and working alone. That leaves us with 4
+people sharing space. 
+
+There's no room for a real studio as space is at a premium but if you
+want to paint regularly you don't want to spend 30 minutes doing set
+up and tear down. I had a french style easel from when I was Bob Ross
+for Halloween 
+
+#+begin_export html
+<img width="20%" 
+src="https://media.jacksonsart.com/catalog/product/cache/1/image/1000x1000/9df78eab33525d08d6e5fb8d27136e95/e/j/ej014.jpg">
+#+end_export
+
+and it worked well for that with the storage drawer and extending legs
+but at home, not so much. The telescoping legs that set to a triangle
+made for a much larger footprint than was necessary. After deciding I
+was going to stick with this a while, I ended up getting this:
+
+#+begin_export html
+<img width="35%" src="/painting/easel.jpg"> It
+#+end_export
+
+It seems bigger but the footprint is smaller. 
+
+I got this branded as a DaVinci easel but there are a bunch out
+there. I like the shelf on the bottom and I got a couple of hanging
+baskets to attach to the back to hold paintbrushes which a keep in
+used tomato cans that I've washed out. : 
+
+#+begin_export html
+<img width="35%" src="/painting/easel-back.jpg"> It seems bigger but the footprint is smaller 
+#+end_export
+
+I throw a cheap plastic tablecloth over the dining table behind the
+easel and that's where I put my equipment when I work.
+
+
+#+begin_export html
+<img width="35%" src="/painting/easel-table.jpg"> It seems bigger but the footprint is smaller 
+#+end_export
+
+
+I also needed a place to store paintings while they dried. For that I
+got this rack: 
+
+#+begin_export html
+<img width="35%" src="/painting/rack.jpg"> It seems bigger but the footprint is smaller 
+#+end_export
+
+I got mt easel and rack at Jerry's Artorama. I'll write about them in
+the supplies post. I also got a couple of [[https://www.amazon.com/AmazonBasics-Vinyl-Hard-Floor-Chair/dp/B07PGN63W5/ref=pd_rhf_ee_s_rp_c_2_0_1/134-3759504-0733668?_encoding=UTF8&pd_rd_i=B07PGN63W5&pd_rd_r=4c9e6ee5-bea1-4ebb-a592-c11211d857c6&pd_rd_w=TzX8g&pd_rd_wg=fSfwy&pf_rd_p=78d6a3dc-d4af-46b9-998e-003981a80dbb&pf_rd_r=G7TQDYGSZYJKX4A453HH&psc=1&refRID=G7TQDYGSZYJKX4A453HH][floor mats]] and that's pretty
+much it. 
+
+That's it for the setup. 
+
+The easel's always out and I try to keep a prepped canvas either on
+the easel or on my rack so setup is a breeze.
+
+1. Put the tablecloth over the table
+2. Grab a disposable pallet pad and add paints
+3. Fill my brush cleaning bucket with water (since I'm using water
+   mixable paints) and pull out the trash can / beater rack
+
+and I'm ready to go. Just takes a minute or two.
+
+Cleanup is also pretty quick: 
+
+1. Throw out the paper pallete
+2. Wash the brushes
+3. Remove the tablecloth and throw behind the easel. 
+
+Takes about 3 or 4 minutes plus the brush cleaning time. 
+
+So that's my setup. Let me know if I should continue this series when
+I'll talk about my experience with water mixable paints, brushes adn
+the rest.
