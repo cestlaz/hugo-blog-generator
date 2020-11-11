@@ -42,7 +42,7 @@ were:
 
  1. It's a teaching language 
  2. You can't have programs that were more than one file. 
- 3. It wasn't Object Oriented witch had gained a lot of steam over the
+ 3. It wasn't Object Oriented which gained a lot of steam over the
     decade. 
 
 The first item was also mentioned as a strength and item 2 really
