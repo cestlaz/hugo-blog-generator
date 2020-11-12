@@ -29,7 +29,7 @@ made for a much larger footprint than was necessary. After deciding I
 was going to stick with this a while, I ended up getting this:
 
 #+begin_export html
-<img width="35%" src="/painting/easel.jpg"> It
+<img width="35%" src="/painting/easel.jpg"> 
 #+end_export
 
 It seems bigger but the footprint is smaller. 
@@ -40,7 +40,7 @@ baskets to attach to the back to hold paintbrushes which a keep in
 used tomato cans that I've washed out. : 
 
 #+begin_export html
-<img width="35%" src="/painting/easel-back.jpg"> It seems bigger but the footprint is smaller 
+<img width="35%" src="/painting/easel-back.jpg">
 #+end_export
 
 I throw a cheap plastic tablecloth over the dining table behind the
