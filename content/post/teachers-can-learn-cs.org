@@ -1,0 +1,156 @@
+---
+title: Teachers Can Learn CS and CS people will go into teaching
+date: 2020-11-20T12:24:52-04:00
+tags: 
+- teacher ed
+categories:
+- teacher ed 
+draft: false
+--- 
+
+A friend's post brought my attention to a new graduate CS Education Certificate
+program. It's not a New York State program so isn't in competition
+with what I do but it's the type of program that I was afraid of. The
+type that will hurt CS education more than it will help. There was
+enough discussion following the Facebook post that I thought I'd write
+about it here.
+
+Before talking about the program itself, one issue that came up
+multiple times in the Facebook thread is that old red herring - we
+can't teach teachers real CS because if they know the real deal
+they'll all go into industry. I mean, who would want to teach with all
+those high paying tech jobs.
+
+I call BS on this.
+
+First, let's look at math and science. While it's true that since no
+child left behind, teacher certificate has been greatly
+neutered. Today you can be a math teacher and know math or you can be
+a math teacher who took only "math-ed" classes and barely know high
+school math. Back in the day you *had to know math* or whatever your
+field was. 
+
+New York's always been the financial capital of the world and somebody
+with a decent math background could always get a better than teacher
+paying job on the street. Beyond that there have always been plenty of
+other better paying options yet we have math teachers. Same for
+science. We've got big pharma over in New Jersey yet we have science
+teachers. Sure, math and science teachers are harder to find than say
+English teachers but somehow they seem to be out there.
+
+The same will be true for CS teachers as long as there's a path
+towards a career. Up until recently there were very few CS teaching
+positions and no certification programs so if you were a CS minded
+person and wanted to teach you had two options - get a certification
+in another area like math and try to teach CS anyway or go into
+another field. Now that pathways into the profession are starting to
+exist and one can forge a career teaching CS those CS minded teachers
+to be can indeed enter the field. This will take time but it will
+happen.
+
+Related is the old "you can't be it if you can't see it." Up until
+recently most schools didn't offer CS so while students could see and
+be inspired by say a history or math teacher and then follow in their
+career footsteps the possibility of being a CS teacher never
+existed. Now it does. True, we're offering CS in far too few schools
+and even in those schools we aren't reaching all the kids but it's a
+long road and we're just starting the trek.
+
+This journey will take years if not decades but at least we've started
+the journey.
+
+A critical piece will be the graduate preparation programs which
+brings us back to the certification program I mentioned at the start.
+
+Professional development and workshop models have been an important
+first step to expose large numbers of existing teachers to CS and to
+kickstart CS around the country but it isn't sufficient. PD is
+invariably tied tightly to a product and is for the most part mass
+training. It's not a model that can truly build top flight
+teachers. It's an important part of phase 1 but we have to go beyond
+it. 
+
+That's where the schools of education come in. They're the ones
+preparing new teachers and ultimately they will have to prepare CS
+teachers as well. No matter what, well resourced schools will find
+knowledgeable teachers but under resourced schools will, as usual,
+have to take what they can get. Strong programs will create strong
+teachers for these schools. Weak ones will leave our under resourced
+schools further behind and this is why I go nuts when I see a bad
+program that purports to prepare K12 CS teachers.
+
+The program in question requires the following courses:
+
+ - Computer Science Principles (3 credits)
+ - Java Programming (4 credits)
+ - Computational Thinking in K-12 Classrooms (3 credits)
+ - Equity in Computer Science Education (2 credits)
+ - Methods of Inclusive Computer Science Teaching (3 credits)
+
+So to start you're taking 7 *graduate* credits in APCS Principles and
+APCS-A and that's basically it for CS content. It's the quintessential
+you take it you teach it. Heck, you might as well offer APCS-P to 10th
+graders then just choose an eleventh grader to teach it the following
+year. These are *not* graduate level classes. Now, I get it, you have
+to start somewhere and you want to be able to take in candidates with
+no prior CS experience. That's fine - you can start with a basic
+programming course but this program both begins and ends there.
+
+
+It also offers a 3 credit class in Computational Thinking. I find this
+interesting. I'm guessing it's focused on teaching the younger
+grades and as aside, this whole program looks like it would be pretty
+good for an elementary school teacher. It just loses credibility as a
+K12 program that includes high school. Based on course number it looks
+that it's classified as a Teaching and Learning course not a Computer
+Science course so I really question what it's all about anyway. It
+also got me thinking - CS programs as far as I can tell don't have
+their students take a class in computational thinking. Between the CS
+and other requirements we learn it but might not even use the label. 
+
+There are also two other teaching and learning courses - Methods and
+Equity in CS. They could be fine but given what the overall design of
+the program is, who knows.
+
+As I said before, this sounds like a great program for an elementary
+school teacher but I certainly wouldn't my kids taught in High School
+by a teacher prepared in this way. I want my math teachers to know
+math, history teachers to know history, and yes, CS teachers to know
+CS. 
+
+I get it - we need to start from 0 but when you're creating a
+*graduate* program the end product has to be a truly prepared teacher
+or you're doing a disservice to the teacher candidate, their students
+and to the field as a whole.
+
+The thing is that you can do it right. I think our program at Hunter
+does and the early results from our first cohort are confirming this. 
+
+Our first course is essentially a APCS-A alike because we know you
+have to start form the floor. We expect our teachers to come in with
+at least a little programming experience but given all the tutorials,
+MOOCs, and standalone courses available I don't think it's
+unreasonable to expect a teacher candidate to do a little pre-work to
+get ready. We also point potential students to resources where they
+can get up to speed.
+
+From there we go to data structures and also a topics course - depth
+and breadth and as a fourth CS course we have an ethics course that
+includes a strong programming component rather than just reading case
+studies and articles. We complement the CS with a methods course and a
+curriculum design course and also fieldwork which is reuquired by NY
+State. 
+
+We talk about APCS-A and APCS-P in our CS Ed classes but don't design
+our program around them. A teacher should not only be able to work
+with a provide curriculum but also be able to design their own.
+
+I think we're getting it right and I think the reason for this is that
+it's designed by teachers who both know CS and have been teaching it
+successfully for a long time and it's designed to  prepare the types of
+teachers we want to work with. 
+
+Yes, you have to start at nothing but you don't want to end there and
+the more good programs launch the more good teachers we'll produce.
+
+If we build them, they will come.
