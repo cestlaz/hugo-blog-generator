@@ -48,7 +48,7 @@ easel and that's where I put my equipment when I work.
 
 
 #+begin_export html
-<img width="35%" src="/painting/easel-table.jpg"> It seems bigger but the footprint is smaller 
+<img width="35%" src="/painting/easel-table.jpg"> 
 #+end_export
 
 
@@ -59,7 +59,7 @@ got this rack:
 <img width="35%" src="/painting/rack.jpg"> It seems bigger but the footprint is smaller 
 #+end_export
 
-I got mt easel and rack at Jerry's Artorama. I'll write about them in
+I got my easel and rack at Jerry's Artorama. I'll write about them in
 the supplies post. I also got a couple of [[https://www.amazon.com/AmazonBasics-Vinyl-Hard-Floor-Chair/dp/B07PGN63W5/ref=pd_rhf_ee_s_rp_c_2_0_1/134-3759504-0733668?_encoding=UTF8&pd_rd_i=B07PGN63W5&pd_rd_r=4c9e6ee5-bea1-4ebb-a592-c11211d857c6&pd_rd_w=TzX8g&pd_rd_wg=fSfwy&pf_rd_p=78d6a3dc-d4af-46b9-998e-003981a80dbb&pf_rd_r=G7TQDYGSZYJKX4A453HH&psc=1&refRID=G7TQDYGSZYJKX4A453HH][floor mats]] and that's pretty
 much it. 
 

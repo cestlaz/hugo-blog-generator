@@ -41,9 +41,9 @@ apartment. If people find it useful, I'll follow with the other topics
 that are listed as coming soon.
 
 * The stuff
-
+** [[../paintings/painting][Painting home page]]
 ** [[..//setup][My NYC Apartment Painting setup]]
-** Getting supplies (coming soon)
+** [[..//supplies][Getting Supplies]]
 ** The paints (water mixable) (coming soon)
 ** Thoughts on canvases (coming soon)
 ** Brushes (coming soon)
