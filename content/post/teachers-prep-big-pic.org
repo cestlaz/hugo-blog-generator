@@ -1,0 +1,74 @@
+---
+title: CS Teacher Prep - the big picture and the long game.
+date: 2020-11-25T15:05:31-04:00
+tags: 
+- teach ed
+categories: 
+- teacher ed
+draft: false
+--- 
+
+Time to follow up on my [[/post/teachers-can-learn-cs/][last post]] and all the surrounding
+discussion. To be honest, I was a bit surprised at first to see that
+many posters were all for what I consider a weak program. I think all
+of us agreed that you want and need a gentle entry - you have to be
+accessible to teachers with little or even no prior computer science
+experience but I was taken back by the number of teachers who thought
+it was fine to have a graduate level program where the teachers end up
+with no more knowledge than a high school student taking APCS-A.
+
+Some teachers stated that they "were able to learn it all on their
+own." Others thought it was "enough for what I teach." Many lamented
+that if it's too hard nobody would become CS teachers - something I
+addressed in my last post.
+
+I realized that many were viewing this from a very narrow lense - the
+lens of their own experiences and not looking at the big picture or
+the long game.
+
+First thing to realize is that once a college creates a program it's
+unlikely to change it whole hog. If a college has starts with a
+strong, rigorous certification program it will likely stay strong. A
+weak one will stay weak. My go to example, although not for a program
+is the old CISCO curriculum. The plan was to start teachers with basic
+training and they'd mind the store while students took computer based
+triaining models. I kept hearing that they'd ramp up the teacher
+training later. It never happened. Some teachers knew real networking
+already and some did indeed learn it on their own but too many were
+just long term babysitters. Once programs are in place, they don't
+instantly morph into stronger programs. You'll get some tweaks here
+and there - I've already put in for some changes to my program but you
+won't see wholesale change.
+
+if our weak CS program is enrolling teachers and you don't hear crazy
+complaints you can bet it's not going to get stronger and teachers
+with the best of intentions to learn more will frequently find that
+life gets in the way.
+
+The second thing to look at is the fact that this is a long game and
+current non-CS teachers teaching CS is a temporary state. I'm
+currently running a cohort of 21 teachers with experience ranging from
+around 5 to 20 years. They're not going to be teaching forever. In my
+opinion, right now they fill a critical need - build a cadre of super
+knowledgeable  amazing teachers in NYC who can host student teachers,
+run workshops etc but the truth is, future generations of teachers
+won't come from other subject areas. They'll come from preservice
+programs - people who explicitly have decided to become CS teachers
+from the start.
+
+That's the long game and the big picture and those teachers need
+quality programs. If our colleges create weak programs we'll be left
+with an eternity of under prepared teachers. If we have strong ones,
+as teaching CS becomes a career path similar to teaching math or
+science we'll have well prepared teachers.
+
+This is the crossroads we're at in many states. Will we do it right?
+I'm not particularly optimistic. My feeling is that just like in other
+subject areas there will be some strong programs out there and plenty
+of jokes. All I can do is worry about my little corner of the world so
+I'll do what I can to make sure teacher candidates at Hunter have the
+best possible experience and are as well prepared as they can possibly
+be.
+
+
+
