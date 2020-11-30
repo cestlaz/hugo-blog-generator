@@ -22,7 +22,6 @@ the [[http://adventofcode.com/2016/day/19][problem description]] for details).
 
 For both solutions I coded up a circular doubly linked list:
 
-#+BEGIN_SRC C
 {{< highlight "C" >}}
 struct node *make_ring(int size){
 int i;
@@ -48,7 +47,6 @@ return first;
 }
 
 {{< / highlight >}}
-#+END_SRC
 
 You can see my complete solutions [[https://github.com/zamansky/advent2016/blob/master/day19.cpp][here]].
 

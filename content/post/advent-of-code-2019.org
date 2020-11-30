@@ -15,8 +15,7 @@ draft: false
 It's almost December which means it's almost time for [[http:/adventofcode.com][Advent of Code
 2019]]. Advent of code is an annual computer programming competition
 created and ruyn by [[https://twitter.com/ericwastl][Eric Wastl]]. It's been running since 2015. I've
-written about it before, mostly from a teacher's point of view ([[https://cestlaz.github.io/post/solve-a-to-solve-b/][Solve
-A to Solve B]], [[https://cestlaz.github.io/post/aoc-data-structures-hidden-complexity/][Data structures and Hidden Complexity]], [[https://cestlaz.github.io/posts/advent-2017-4-6/][Tools can shape
+written about it before, mostly from a teacher's point of view ([[https://cestlaz.github.io/post/solve-a-to-solve-b/][Solve A to Solve B]], [[https://cestlaz.github.io/post/aoc-data-structures-hidden-complexity/][Data structures and Hidden Complexity]], [[https://cestlaz.github.io/posts/advent-2017-4-6/][Tools can shape
 how we think]] and a few others). 
 
 Basically, Eric releases one poblem a day at midnight from Dec 1

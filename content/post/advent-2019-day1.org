@@ -26,15 +26,12 @@ much fuel is needed). The answer will be the sum of the fuels.
 The most challenging part of this for a beginner might be reading in
 the data but that's not too much of a challenge:
 
-#+BEGIN_SRC python 
 {{< highlight python >}}
 data = open("day01.dat").readlines()
 {{< /highlight >}}
-#+END_SRC
 
 Now we can calculate part1:
 
-#+BEGIN_SRC python :results output
 {{<highlight python >}}
   data = open("day01.dat").readlines()
 
@@ -43,7 +40,6 @@ Now we can calculate part1:
       sum = sum + int(mass)//3 - 2
   print(sum)
 {{< /highlight >}}
-#+END_SRC
 
 Part 2 adds a twist. Now, you have to also consider the fuel needed
 for the fuel you've added. Basically, you have to calculate how much
@@ -56,7 +52,6 @@ into our part1 solution but if we had factored out the original fuel
 calculation we could probably reused it and maybe more of our
 solution:
 
-#+BEGIN_SRC python :results output
 {{<highlight python >}}
   data = open("day01.dat").readlines()
 
@@ -68,12 +63,10 @@ solution:
       sum = sum + calc_fuel(mass)
   print(sum)
 {{</highlight>}}
-#+END_SRC
 
 
 Now we can just add an inner loop that repeatedly adds the fuel costs.
 
-#+BEGIN_SRC python :results output
 {{<highlight python >}}
   data = open("day01.dat").readlines()
 
@@ -88,7 +81,6 @@ Now we can just add an inner loop that repeatedly adds the fuel costs.
           fuel =  calc_fuel(fuel)
   print(sum)
 {{</highlight>}}
-#+END_SRC
 
 
 More "teachable moments." We have to change up variables in our fuel
@@ -99,7 +91,6 @@ something that *is* more complex. It's also good nested loop practice.
 For more advanced students, if they're familiar with list
 comprehensions you can really clean up part 1:
 
-#+BEGIN_SRC python :results output
 {{<highlight python >}}
   data = open("day01.dat").readlines()
   data = [int(x) for x in data] # convert to ints before starting
@@ -110,8 +101,6 @@ comprehensions you can really clean up part 1:
   # part 1
   part1 = sum([calc_fuel(x) for x in data])
 {{</highlight>}}
-#+END_SRC
-#+END_SRC
 
 but I think part 2 either stay's more or less as is.
 

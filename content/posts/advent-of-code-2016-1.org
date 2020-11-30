@@ -37,29 +37,29 @@ programmer might not know or use (and I'm not arguing that what's written is
 superior in any way, it's just what I ended up writing).
 
 I make use of tuple destructuring:
-#+BEGIN_SRC python
+
 {{< highlight "python" >}}
 x,y = (0,0)
 {{< / highlight >}}
-#+END_SRC
+
 
 which assigns **x** to the first item in the tuple and **y** the
 second. I used that a number of times
 
 I also use a list  I call **dirs** to hold dx and dy values for the
 four direcitons:
-#+BEGIN_SRC python
+
 {{< highlight "python" >}}
 dirs=[(0,1),(1,0),(0,-1),(-1,0)]
 {{< / highlight >}}
-#+END_SRC
+
 
 This made it easier to to update the location based on the 4
 directions. I could also have just used if statements.
 
 Here's all the code:
 
-#+BEGIN_SRC python
+
 {{< highlight "python" >}}
 
 x,y = (0,0) # assume our starting location is 0,0
@@ -112,7 +112,7 @@ print(x,y)
 print(abs(x)+abs(y)) # the answer
 
 {{< / highlight >}}
-#+END_SRC
+
 
 
 Overall, a nice little problem for beginning and intermediate

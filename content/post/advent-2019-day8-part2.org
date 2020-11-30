@@ -10,7 +10,7 @@ categories:
 draft: false
 ---
 
-As I sad in my [[https://cestlaz.github.io/post/advent-2019-day8/][last post]], [[https://adventofcode.com/2019/day/8][day 8]] would be a nice project or lesson in
+As I said in my [[https://cestlaz.github.io/post/advent-2019-day8/][last post]], [[https://adventofcode.com/2019/day/8][day 8]] would be a nice project or lesson in
 an APCS-A or college CS1 class. Another nice problem would be to
 write a program to generate an image in the format required by the
 question. Alternatively, a teacher doing day 8 with their classes

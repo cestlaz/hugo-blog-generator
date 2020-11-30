@@ -27,7 +27,6 @@ one at the front.
 
 We first read in the data and strip off the trailing newline
 
-#+BEGIN_SRC python
 {{< highlight "python" >}}
 f = open("input.txt")
 origdata = f.readline()
@@ -35,12 +34,10 @@ origdata = f.readline()
 origdata = origdata.strip()
 data = origdata
 {{< / highlight >}}
-#+END_SRC
 
 Then, since we can access the elements of the string as a list (or
 array) it's a simple loop to calculate the sum:
 
-#+BEGIN_SRC python
 {{< highlight "python" >}}
 s = 0
 l = len(data)
@@ -53,7 +50,6 @@ if data[0] == data[-1]:
 s = s + int(data[0])
 print("Checksum: ",s)
 {{< / highlight >}}
-#+END_SRC
 
 Pretty straightforward but I don't like the special case of checking
 the last element for the wraparound. Sometimes it's possible to get
@@ -63,7 +59,6 @@ list.
 
 This leads to a slightly cleaner solution:
 
-#+BEGIN_SRC python
 {{< highlight "python" >}}
 data = data + data[0]
 
@@ -75,7 +70,6 @@ s = s + int(data[i]) #don't forget to turn the string into an int
 print("Checksum: ",s)
 
 {{< / highlight >}}
-#+END_SRC
 
 This is pretty much what I'd expect from a Python programmer that's
 just starting out. We can use a couple of more advanced Python
@@ -94,7 +88,6 @@ element with an identical neighbor and also converts it to an int:
 Finally, we can just calculate the sum. This leads to the following
 complete solution:
 
-#+BEGIN_SRC python
 {{< highlight "python" >}}
 f = open("input.txt")
 data = f.readline().strip()
@@ -106,7 +99,6 @@ print(checksum)
 
 
 {{< / highlight >}}
-#+END_SRC
 
 List comprehensions for the win!!!!
 
@@ -118,7 +110,6 @@ that's halfway around the list.
 With loops, the solution is just a quick modification of part 1. We
 just add half the length and use mod to find the digit to compare with:
 
-#+BEGIN_SRC python
 {{< highlight "python" >}}
 f = open("input.txt")
 data = f.readline().strip()
@@ -133,12 +124,11 @@ print("part 2loop version: ",s)
 
 
 {{< / highlight >}}
-#+END_SRC
 
 I wanted to see if I could do this with a list comprehension
 though. The trick was to figure out how to make two lists to zip
 together to get the pairs to check then add. Here's the solution:
-#+BEGIN_SRC python
+
 {{< highlight "python" >}}
 
 f = open("input.txt")
@@ -148,7 +138,6 @@ d2 = data[l//2:]+data
 checksum = sum([ int(a) for a,b in zip(data,d2)if a==b])
 print(checksum)
 {{< / highlight >}}
-#+END_SRC
 
 The insight was that we could just make a second list that starts
 halfway through and then wraps around. I did this by adding

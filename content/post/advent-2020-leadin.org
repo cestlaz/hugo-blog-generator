@@ -1,0 +1,89 @@
+---
+title: Advent of Code 2020
+date: 2020-11-30T14:21:17-04:00
+tags: 
+- advent of code 
+- aoc
+- programming
+categories: 
+- aoc
+draft: false
+--- 
+
+Tomorrow, or more practically, tonight at Midnight,  [[https://twitter.com/ericwastl][Eric Wastl]] will
+once again launch the [[https://adventofcode.com][Advent of Code]]. As I've written before, it's a
+month long event where each day a new programming problem is
+released. The problems range in difficulty and complexity. Some are
+very approachable to beginners and some are crazy challenging. I've
+written a bunch about AOC in past years:
+
+- [[https://cestlaz.github.io/post/solve-a-to-solve-b/][Solve A to Solve B]]
+- [[https://cestlaz.github.io/post/aoc-data-structures-hidden-complexity/][Data structures and Hidden Complexity]]
+-  [[https://cestlaz.github.io/posts/advent-2017-4-6/][Tools can shape- how we think]]
+- [[/post/advent-2019-day1/][2019 day 1]]
+- [[/post/advent-2019-day2/][2019 day 2]]
+- [[/post/advent-2019-day3/][2019 day 3]]
+- [[/post/advent-2019-day4/][2019 day 4]]
+- [[/post/advent-2019-day8/][2019 day 8]]
+- [[/post/advent-2019-day8-part2/][2019 day 8 addendum]]
+
+
+and a few more not listed.
+
+If you haven't heard of AOC, at the stroke of midnight (Eastern), a
+new problem is released. From there you can read the problem, get the
+input and figure out a solution, usually by writing a program. You
+then type in your answer and if it's correct you get part 2 - usually
+a creative spin on part one. Usually you'll write a program to solve
+the problems but sometimes you'll write code just to explore and come
+up with an answer. 
+
+Even though there's a leader board and people can set up their own
+private leader boards, I describe AOC as an event not as a
+competition. I've had former students up near the top but a getting
+there requires a lot more than just problem solving. First, you have
+to be up when the problem is released, then you have to shortcut scan
+what the question is asking. Having a library of pre-written utility
+routines is a big help as is using a language that has a lot of
+interactive scripty functionality like Python. It also assumes that
+even if you do all that is needed, that life doesn't get in the
+way. This means that to get to the top of the leader board, like in
+most competitions you have to train and prepare to do just that and
+training for that doesn't really translate to the rest of life's
+challenges.
+
+Solving the problems, though, can translate to other challenges you
+might face so I look at AOC as an opportunity to explore some
+interesting problems. 
+
+I've never finished all of them and that's okay. Here's my star count
+for each of the years. You get one star for each part of each question
+so that's 50 total.
+
+| *Year:* | 2015 | 2016 | 2017 | 2018 | 2019 |
+| *Stars:* |   26 |   40 |   11 |   23 |   31 |
+
+I've never gotten more than 40. I typically wake up and read the
+question and see if I can solve it either then or over the course of
+the day. Sometimes I'll come back to a problem but usually not. Last
+year, many problems were based on earlier ones. I had an issue in one
+of those earlier solutions so never completed the later ones. 
+
+Maybe I'll go back and finish more, maybe I won't.
+
+None of this matters. 
+
+I had fun, learned a lot and as an added bonus, each problem gives me
+an opportunity to reflect on how I might teach it or teach concepts
+related to it.
+
+
+It all starts in a few hours so if you're already planning on
+participating, have a blast. If you haven't, check it out.
+
+Advent of code can be found here: https://adventofcode.combination
+
+And, the AOC subreddit, which is great for problem discussions can be
+found here: [[https://www.reddit.com/r/adventofcode/]]
+
+Enjoy. 

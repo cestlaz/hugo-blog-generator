@@ -24,25 +24,20 @@ have to keep the entire data set in memory and preferably in a random
 access structure like an array. 
 
 Step 1 is to read in the data and convert it into a list of integers.
-#+BEGIN_SRC python
 {{< highlight python >}}
 data  = [ int(x) for x in open("day02.dat").read().split(",")]
 {{< /highlight >}}
-#+END_SRC
 
 If you don't know comprehensions you can just do something like this:
 
-#+BEGIN_SRC python
 {{< highlight python >}}
   data = []
   for item in open("day02.dat").read().split(","):
       data.append(int(item))
 {{< /highlight >}}
-#+END_SRC
 
 Now we just have to run the simulation:
 
-#+BEGIN_SRC python
 {{< highlight pythonf "linenos=inline" >}}
 def run_program(program):
     ip = 0
@@ -65,7 +60,6 @@ def part1(program):
     program[2]=2
     return run_program((program))
 {{< /highlight >}}
-#+END_SRC
 
 The most likely source of error here is forgetting to change the
 values in ~program[1]~ and ~program[2]~ in lines 18 and 19 as
@@ -93,7 +87,6 @@ This is a great platform for discussion. Students usually start with
 having the list change can seem weird even though it can still be pass
 by value:
 
-#+BEGIN_SRC python
 {{< highlight python >}}
   # bad example to follow
   def change_list(l):
@@ -103,11 +96,9 @@ by value:
   change_list(l)
   # changes l[3] to 9999
 {{< /highlight >}}
-#+END_SRC
 
 Here's a finished solution:
 
-#+BEGIN_SRC python
 {{< highlight python "linenos=inline" >}}
 data  = [ int(x) for x in open("day02.dat").read().split(",")]
 
@@ -149,7 +140,6 @@ def part2(data):
 print(part1(data))
 print(part2(data))
 {{< /highlight >}}
-#+END_SRC
 
 Note that in line 30 we copy over the original data for each noun,verb
 combo. also note the list comprehension in line 35 to find the final
