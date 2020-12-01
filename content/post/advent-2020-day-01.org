@@ -1,0 +1,107 @@
+---
+title: A Teacher Looks at Advent of Code 2020 - Day 1
+date: 2020-12-01T09:03:39-04:00
+tags: 
+- AOC
+- Advent of Code
+categories: 
+- Advent of Code
+draft: false
+--- 
+
+So, yesterday I was chatting with my daughter. She was talking with
+her team and for some reason one of them pulled out an interview
+question from their company's question bank. Turns out it was today's
+Advent of Code problem. 
+
+As with past years, I'm going to try to solve the problems in Clojure
+but if I can will talk Python when I talk about solutions. 
+
+Part 1 of the problem basically asks for you to find a pair of numbers
+in an array that sum to a specific value. In this case 2020. Figuring
+that this was day 1 I didn't expect a crazy large data set or any
+other tricks or weirdness - a straightforward solution should
+suffice. Simply a loop within a loop and sum up all the pairs: 
+
+
+{{< highlight python "linenos=true" >}}
+for x in data:
+  for y in data:
+    if x+y == 2020:
+      print(x*y)
+{{< / highlight >}}
+
+Nothing fancy but it gets the job done. It does print out the answer
+twice since x and y both go through all the indices but that's no big
+deal.
+
+The part 2 twist was that now you were looking for a set of three
+entries that added up to 220. Once again, not a big deal: 
+
+{{< highlight python "linenos=true" >}}
+for x in data:
+    for y in data:
+        for z in data:
+            if x+y+z == 2020:
+                print(x*y*z)
+
+{{< / highlight >}}
+
+As before, you'll get multiple answers but no big deal.
+
+What I like about this one is that you can think about this as a
+looping exercise as above but you can also think about it as a list
+processing exercise, that is, by thinking about it with more of a
+functional programming bent. 
+
+The key insight here is that the question was clear in that there will
+only be one pair in part 1 that satisfies the problem and likewise
+only one pair in part 2. 
+
+If we look at each item in our data set, it's part of the answer if
+and only if there's another number in the set equal to 2020 minus that
+item. This leads to a list comprehension
+
+{{< highlight python "linenos=true" >}}
+part1_list = [x for x in data if 2020 - x in data]
+{{< / highlight >}}
+
+Now, part1_list should contain the two items we need. The first value ~x~
+was found when the comprehension saw that ~2020 - x~ was in the list
+and ~2020-x~ which is the second value was confirmed when the for part
+of the comprehension gets to it and finds that the first item is in
+the list. Then, it's a simple matter of just multiplying the two
+numbers together for the answer.
+
+Part 2 is similar but you can use a list comprehension to iterate over
+all pairs of elements and then you calculate the third:
+
+{{< highlight python "linenos=true" >}}
+part2_list = [x for x in data for y in data if 2020-(x+y) in data]
+{{< / highlight >}}
+
+Of course you could have put ~y~ or ~2020-(x+y)~ in place of that
+first ~x~. 
+
+Part 2 has an additional subtlety in that you'll get the solution
+multiple times which makes sense you're hitting each triple multiple
+times. To fix that, turn it into a set: 
+
+{{< highlight python "linenos=true" >}}
+part2_set = set(part2_list)
+{{< / highlight >}}
+ 
+and then calculate the product.
+
+At the core, both of these solutions are really the same but you get
+to them by thinking very differently. The first one is all about the
+loops - thinking about data[i] at a very low discrete level. The
+second approach is thinking about the data as a list and processing
+that list at a much higher level. This could be an ice problem to
+transition between the two approaches.
+
+Looking forward to what tomorrow's problem brings.
+
+
+
+
