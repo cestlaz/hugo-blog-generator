@@ -81,7 +81,7 @@ related to it.
 It all starts in a few hours so if you're already planning on
 participating, have a blast. If you haven't, check it out.
 
-Advent of code can be found here: https://adventofcode.combination
+Advent of code can be found here: https://adventofcode.comb
 
 And, the AOC subreddit, which is great for problem discussions can be
 found here: [[https://www.reddit.com/r/adventofcode/]]
