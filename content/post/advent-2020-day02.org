@@ -109,7 +109,8 @@ number of times a letter occurs:
 
 {{<highlight python>}}
 count = 0
-for letter in password:
+subpassword = password[mini-1,maxi]
+for letter in subpassword:
     if letter == what_im_looking_for:
         count = count + 1
 {{</highlight>}}
