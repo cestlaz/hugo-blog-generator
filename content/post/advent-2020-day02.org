@@ -1,0 +1,170 @@
+---
+title: A Teacher Looks at Advent of Code 2020 - Day 2
+date: 2020-12-02T12:27:27-04:00
+tags: 
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: true
+--- 
+
+Day two introduced some staples of staples of not only Advent of Code but
+also of programming problems in general. The first is input
+parsing. For this problem you get lines of input like this:
+
+#+begin_example
+1-3 a: abcde
+1-3 b: cdefg
+2-9 c: cccccccc
+#+end_example
+
+or in general
+
+*number_1*-*number_2* *Letter*: *String* 
+
+There are a few ways to handle this. One is to brute force it. In
+Python maybe something like: 
+
+{{< highlight python >}}
+sample_line="4-15 f: abcdefg"
+sample_list = sample_line.split()
+numbers=sample_list[0]
+letter=sample_list[1]
+string=sample_list[2]
+
+number_list = numbers.split('-')
+num1 = int(number_list[0])
+num2 = int(number_list[1])
+
+letter = letter[0]
+
+print(num1, num2, letter, string)
+
+{{</highlight>}}
+
+or more concisely: 
+
+{{< highlight python >}}
+sample_line="4-15 f: abcdefg"
+
+(numbers,letter,string) = sample_line.split()
+
+(num1,num2) = [int(x) for x in numbers.split('-')]
+
+letter = letter[0]
+
+print(num1, num2, letter, string)
+{{</highlight>}}
+
+If you're working in a language like C, tools like ~scanf~ can make
+things easier. I generally turn to [[https://blog.usejournal.com/regular-expressions-a-complete-beginners-tutorial-c7327b9fd8eb][Regular Expressions]] and if you're
+doing some AOC with your classes this is a great time to introduce
+regex. Basically, you set up a pattern with special symbols to
+represent things like sequences of digits and then the regex matcher
+does the hard work.
+
+Here's the code to 
+
+
+{{< highlight python "linenos=true" >}}
+parser_expression= "(\d+)-(\d+) ([a-z]): ([a-z]*)"
+data = []
+for line in open("../data/day02.dat").readlines():
+    x = re.search(parser_expression,line)
+    (mini,maxi,letter,password) = x.groups()
+    mini = int(mini)
+    maxi = int(maxi)
+    data.append([mini,maxi,letter,password])
+{{</highlight>}}
+
+The ~parser_expression~ in line 1 is the regular expression. Each
+section in parentheses is a "group" or a pattern that will be
+extracted. The *\d* for instance means a digit and the *+* adger it
+means 1 or more digits so basically that will match any positive
+integer. The *[a-z]* matches a single character and the *after the
+final character match means zero or more of them. Once you know
+regular expressions, parsing lines like this becomes very easy. The
+only thing that made the above code messy at all was that I wanted to
+convert the two numbers into integers rather than leave them as
+strings. 
+
+There are a couple of things worth thinking about here. First is know
+your libraries. If you know regex the parsing is basically all
+done. If not, you have a bit of work. On the other hand, you're
+probably not going to ever have to parse input exactly like this again
+so it doesn't make sense writing a super robust set of  parsing
+functions tied in with this data specification. That's the second
+thing. Learning what to leave as building blocks and what to write
+into libraries of your own. It's most definitely worth writing a set
+of routines that can be reused. Maybe something to parse dates in a
+standard format would be an example. On the other hand, it's also
+worth knowing when you probably won't be able to reuse things or when
+generalizing to a library or set of functions you have to spend too
+much time on a hundred options to make in general purpose.
+
+Now, part 1 of the problem itself is nice because there are a lot of
+ways to do it. You could loop through the password and count the
+number of times a letter occurs: 
+
+{{<highlight python>}}
+count = 0
+for letter in password:
+    if letter == what_im_looking_for:
+        count = count + 1
+{{</highlight>}}
+
+or with a list comprehension ~count = [x for x in password if x ==
+waht_im_looking_for ]~.
+
+You could be more general and build a hash table of counts and then
+pull what you want: 
+
+
+{{<highlight python>}}
+def frequencies(word):
+    d={}
+    for letter in word:
+        d.setdefault(letter,0)
+        d[letter]=d[letter]+1
+    return d
+{{</highlight>}}
+
+
+
+This is admittedly overkill for the problem but one might need this
+for part 2. I coded my original solution in Clojure and Clojure has a
+function that does this in one shot: ~frequencies~ so I just used that
+and pulled the letter I needed.
+
+
+
+Once you have the count, it's simple enough to see if it's in the
+range.
+
+
+
+
+Part 2 should have been easy but for me it was a lesson in
+reading. You had to pull characters from the password at two specific
+indices and see if one or the other, but not both were the letter in
+question. Basically an xor. The first mistake one could make has to do
+with the indexing and the second in using a regular or which students
+will be more familiar with. 
+
+My mistake is that I misread the question as requiring that you have
+one instance of the letter within the *range* from the low index to
+the high index not one instance at either of those two points Needless
+to say, lots of wasted time and feeling silly. 
+
+So that's day 2. The question is very approachable for APCS-A  and I'd
+say even CS0 students. The interesting part to teach would be dealing
+with the input, regular expressions, and how much to generalize into
+utility functions when writing code over time.
+
+Hope to have time to solve and write up more of these but getting to
+crunch time in the semester.
+
+
+
+
