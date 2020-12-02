@@ -6,7 +6,7 @@ tags:
 - Advent of Code
 categories: 
 - AOC
-draft: true
+draft: false
 --- 
 
 Day two introduced some staples of staples of not only Advent of Code but
