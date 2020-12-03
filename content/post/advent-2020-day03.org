@@ -1,0 +1,32 @@
+---
+title: A Teacher Looks at Advent of Code 2020 - Day 3
+date: 2020-12-03T14:27:02-04:00
+tags: 
+- emacs
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: False
+--- 
+
+I thought I'd do a video for today. No particular reason. Mostly why
+not.
+
+I'll talk about day 3's problem and code up a solution in Clojure. If
+you haven't ever used Clojure, hopefully this will give a bit of the
+flavor. This video also serves double duty as being my next Using
+Emacs video since it demos Emacs's Clojure tools. Mostly Cider which
+even with a few quirks is the best development environment I've ever
+used. 
+
+I don't know if I'll do any more videos or blog posts on AOC this
+year. I hope to but I'm going to have to get to end of semester
+obligations soon so you never know.
+
+Enjoy!
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ecJ1TJGWrfs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
