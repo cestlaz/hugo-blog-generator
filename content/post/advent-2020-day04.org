@@ -1,0 +1,136 @@
+---
+title: A Teacher Looks at Advent of Code 2020 - Day 4
+date: 2020-12-04T17:31:06-04:00
+tags: 
+- emacs
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: False
+--- 
+
+One of the nice things about Advent of Code is that it gets me to
+explore language features I haven't used yet. Today's problem got me
+to explore Clojure Spec which is a very cool validation
+library. There's a complete run through of the solution in Clojure in
+the video but here I'll talk about the problem in Python (mostly). 
+
+Today's [[https://adventofcode.com/2020/day/4][problem]] is about validating passports. You start with a text
+file consisting of passport information. Each passport is one or more
+lines with each line having a bunch of key value pairs. For example,
+these two lines represent a passport for someone who's eye color (ecl)
+is gray (gry) and who was born (byr) in 1937:
+
+#+begin_example
+ecl:gry pid:860033327 eyr:2020 hcl:#fffffd
+byr:1937 iyr:2017 cid:147 hgt:183cm
+#+end_example
+
+The catch is that one passport can span multiple lines and that
+passports are separated by two consecutive newlines in the file.
+
+A passport has 8 field types with one, Country of Origin (cid) being
+optional.
+
+For part 1, a valid passport is one that contains all 7 required
+fields. 
+
+The video goes over a Clojure solution which, I think is cleaner but
+the idea is the same as the Python I'll talk about here.
+
+Splitting the data into a list of potential passports is easy because
+you can split the string on two newlines: 
+
+{{<highlight python>}}
+data = open("../data/sample04.dat").read()
+data=data.split("\n\n")
+{{</highlight>}}
+
+Now we have a list of string. 
+
+Next, we can split each string on whitespace so that each string in
+each sublist is a string in the form *k:v*: 
+
+{{<highlight python>}}
+data_list = []
+for d in data:
+    data_list.append([item for item in d.split()])
+{{</highlight>}}
+
+So, for example, data_list[0] might look like this: 
+#+begin_example
+['ecl:gry', 'pid:860033327', 'eyr:2020', 'hcl:#fffffd', 'byr:1937', 'iyr:2017', 'cid:147', 'hgt:183cm']
+#+end_example
+
+Finally, we can convert each passport into a dictionary: 
+
+{{<highlight python>}}
+data_dicts=[]
+for d in data_list:
+    temp = { item.split(":")[0]:item.split(":")[1] for item in d} 
+    temp.pop('cid',None)
+    data_dicts.append(temp)
+{{</highlight>}}
+
+The easiest way I came up with to check if a passport was valid was to
+make a set out of a list of required field names, make a set out of
+each potential passports field names (they're dictionary keys) and see
+if they're equal: 
+
+{{<highlight python>}}
+fields = set(["byr","iyr","eyr","hgt","hcl","ecl","pid"])
+valid_passports =  [set(x.keys()) == fields for x in data_dicts]
+{{</highlight>}}
+
+I think the Clojure code is cleaner but it's much the same.
+
+Part two added a twist - you now have to not only see if the required
+fields are there but you had to make sure they had valid data. For
+example, height had to start with a positive integer followed by
+either *cm* or *in*. If it was *cm*, the number had to be in a certain
+range and if it was *in* it had to be within a different range. 
+
+This didn't sound hard but could get tricky. For each field type you
+could write a function that took in the value and returned true or
+false depending on its validity - lots of ad hoc code. You could then
+loop over all the passports and test to see if all the conditions were
+met. 
+
+It turns out that Clojure has a really cool library - Clojure Spec
+that does just that. You set up validators for each field type and
+then one for an entire passport. Here's the code: 
+
+{{<highlight clojure>}}
+
+(s/def ::byr (s/and string? #(>= (u/parse-int %) 1920) #(<= (u/parse-int %) 2002)))
+(s/def ::iyr (s/and string? #(>= (u/parse-int %) 2010) #(<= (u/parse-int %) 2020)))
+(s/def ::eyr (s/and string? #(>= (u/parse-int %) 2020) #(<= (u/parse-int %) 2030)))
+(s/def ::hgt (s/and string? hgt-test))
+(s/def ::hcl (s/and string? #(re-find #"#[0-9a-f]{6}" %)))
+(s/def ::ecl (s/and string? #(re-find #"amb|blu|brn|gry|grn|hzl|oth" %)))
+(s/def ::pid (s/and string? #(re-find #"^[0-9]{9}$" % )))
+(s/def ::cid string?)
+(s/def ::passport (s/keys
+                   :req [::byr ::iyr ::eyr ::hgt ::hcl ::ecl ::pid]
+                   :opt [::cid]))
+
+(s/valid? ::passport test-passport)
+{{</highlight>}}
+
+
+The last line would test to see if *test-passport* was valid. It's all
+covered in detail in the video.
+
+Clojure spec wasn't required for this problem but I've been meaning to
+play with it for a while and it led to a clean and elegant way of
+testing passports. 
+
+Not sure if I'll get to more posts or even solve more problems - I'm
+trying to limit my own screen time over the weekends but we'll see.
+
+If you want to check out all the Clojure goodness here it is: Enjoy!
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QzdCrJgXsww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
