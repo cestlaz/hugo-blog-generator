@@ -1,0 +1,78 @@
+---
+title: A teacher looks at Advent of Code 2020 - Day 5
+date: 2020-12-05T11:18:59-04:00
+tags: 
+- emacs
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: False
+--- 
+
+
+[[https://adventofcode.com/2020/day/5][Day five's problem]] is a nice one for an early CS class. It can be very
+much brute forced but it also touches on some nice concepts and can be
+solved pretty elegantly. I've embedded a walk through in Clojure at
+the end but a Python solution would be pretty similar.  
+
+Read the problem over if you haven't. At it's core you are taking a boarding
+pass representing a coded airplane seat number and you're converting
+it to a known seat (row and column). The encoding scheme uses [[https://en.wikipedia.org/wiki/Binary_space_partitioning][binary
+space partitioning]]. The [[https://adventofcode.com/2020/day/5][question statement]] goes over the details.
+
+One of the first things to notice is that you should separate the pass
+into two parts - the row, which consists of the first seven characters
+each one being an *F* or a *B* and the last three which are the
+columns and they are marked with either a *R* or an *L*.
+
+So, the sample pass *FBFBBFFRLR* separates into *FBFBBFF* for the row
+and *RLR* for the clumn.
+
+There are 128 rows numbered 0 through 127 so you start with 127 (the
+back of the plane) and then depending on if the next character is an
+*F* or a *B* you either subtract out half the range size or you
+don't. If the character is an *B* you don't since you're at the back
+of the section and the back rows are higher. If it's a *F* you do
+since you're at the front and front rows have lower numbers.
+
+So, the first *F* says you're at the front so you subtract *half* the
+range and now you're looking at 0-63. The next character is a *B* so
+you don't subtract anything but you'll be next looking at 32 through
+63 etc. The question has a full walk through.
+
+Looking at the  row string, you have *FBFBBFF*. If we substitute the
+amount we subtract for the letters we get ~64 0 16 0 0 2 1~ or the
+place values of a binary number *in reverse*. 
+
+In my solution, I reversed the string and then converted each *F* or *B*
+into a number. A *B* became a 0 and an *F* became 2^i where *i* is the
+location (index) in the string. For the sample string, once reversed
+to *FFBBFBF* it gives ~1 2 0 0 16 0 64~. If we sum those up and
+subtract from 127 we get our row number.
+
+We basically can do the same thing for the column but there you
+subtract from 7.
+
+Part 1 of the question asks you to map the row and column to a final
+number by calcualing ~row*8+col~ and then find the highest seat number
+from a give list of boarding passes.
+
+Part 2 requires you look through all the boarding passes to determine
+your actual seat - the one seat missing from the data set.
+
+Lots of good stuff for a class in this question.
+
+You've got the basic data parsing as usual but I love that this can be
+brute forced but by noticing the base 2 nature of the data you can
+write up a number of different elegant solutions. 
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lq5AdWkzyjg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+
+
+
+
+
