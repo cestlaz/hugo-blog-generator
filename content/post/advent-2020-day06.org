@@ -1,0 +1,81 @@
+---
+title: A Teacher looks at Advent of Code 2020 - Day 06
+date: 2020-12-06T10:14:03-04:00
+tags: 
+- emacs
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: False
+--- 
+
+
+
+[[https://adventofcode.com/2020/day/6][Day 6]] turned out to be pretty straightforward. Like day 4 you had to
+deal with two consecutive newlines when parsing the data but assuming
+you did day 4 that's no problem. 
+
+The gist is that a group is formed by consecutive lines and groups are
+separated by a blank line. Each line in each group is a string of
+letters representing answers to questions. For instance, for this
+group: 
+
+#+begin_example
+abc
+abd
+ab
+#+end_example
+
+you have three people. The first answered 'yes' to a, b, and c. the
+second to a,b, and d and the third to a and b. 
+
+Your goal was to figure out how many different questions did each
+group answer 'yes' to and what was the total across the groups. 
+
+It seemed that the easiest thing to do was to take each group, remove
+the newlines and then count the unique characters. 
+
+In Python, something like this (Clojure in the video and on [[https://github.com/zamansky/advent2020/blob/main/src/day06.clj][GitHub]])
+
+{{< highlight python >}}
+d="abc\nabd\nab"
+d = d.replace("\n","")
+s = set(d)
+ans = len(s)
+{{< /highlight >}}
+
+So, you just have to do that for each group and add them all up.
+
+Part 2 added a small twist. Now you wanted to look at each group and
+count the number of answers that everyone in that group answered "yes"
+to. For the above example, it would be 2 - everyone answered a and b.
+
+Assuming your language supports set operations, you can just use
+union.
+
+Again in Python: 
+
+{{< highlight python >}}
+d = "abc\nabd\nab"
+d_list = d.split()
+result = set(d_list[0])
+
+for item in d_list[1:]:
+    result = result & set(item)
+print(result)
+{{< /highlight >}}
+
+
+Again,  do it for all the groups and add it up.
+
+This is a great question to go over set operations!!
+
+Check out the Clojure video for that approach where I also talk about
+easier ways to complete yesterday's problem.
+
+Enjoy!
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I8dbKJ_315Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
