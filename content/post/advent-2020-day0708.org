@@ -1,0 +1,108 @@
+---
+title: A Teacher looks at Advent of Code 2020 - Days 7 and 8
+date: 2020-12-08T14:47:17-04:00
+tags: 
+- emacs
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: False
+--- 
+
+Today we'll talk about days [[https://adventofcode.com/2020/day/7][seven]] and [[https://adventofcode.com/2020/day/8][eight]]. 
+
+Let's start with 7. I teach all morning on Mondays. I woke up and
+worked out and then took a look at the problem in the few minutes
+before class. It was certainly harder than days one through six but I
+felt it was something I knew I could do based on past experience so I
+quickly started to throw something together. I tried to finish it in
+the between classes but couldn't get the right answer to part
+one. After class I spent more time debugging. I was pretty certain my
+algorithm was right and it turns out it was. The problem was in my
+parsing.
+
+Anyway, to the problem. Read it over if you haven't yet.
+
+If you've studied data structures and algorithms you'll recognize that
+this problem can be viewed as a graph problem. Bags are nodes in the
+graph and edges tell you what bags each bag can contain.
+
+The data is set up to represent a graph like this: 
+
+
+#+begin_src dot :file g1.png :exports none
+graph{
+rank=same
+lightred -- {brightwhite, mutedyellow}
+darkorange -- {brightwhite,mutedyellow}
+brightwhite -- shinygold
+mutedyellow -- {shinygold,fadedblue}
+shinygold -- {darkolive,vibrantplum}
+darkolive -- {fadedblue,dottedblack}
+vibtrantplum -- {fadedblue,dottedblck}
+}
+#+end_src
+
+
+#+begin_export html
+<img width="50%" src="/img/advent2020-0708/g1.png">
+#+end_export
+
+I left out the weights (numbers of bags). This can be represented in
+an adjacency list. The video does this in Clojure but in Python, you'd
+get something that starts like this:
+
+{{<highlight python>}}
+{'lightred'     : ['brightwhite', 'mutedyellow'],
+ 'darkorange'   : ['brightwhite','mutedyellow'],
+ 'brightwhite'  : ['shinygold'],
+ 'mutedyellow'  : ['shinygold','fadedblue'],
+ 'shinygold'    :['darkolive','vibrantplum'],
+ 'darkolive'    :['fadedblue','dottedblack'],
+ 'vibtrantplum' :['fadedblue','dottedblack']}
+{{</highlight>}}
+
+The challenge comes when you see that many starting points can lead to
+the goal of the shiny gold bag. 
+
+The insight comes when you notice that you can "reverse the edges."
+For example, when we saw the line that led to the lightred contains
+brightwhite and mutedyellow, instead we represent it the other way
+making two entries - brightwhite is contained by lightred and also
+mutedyellow is contained by lightred. 
+
+Once we set this up the solution is a breadth or depth first search. 
+
+The video doesn't do a complet walk through but goes into more
+details. 
+
+I like this type of problem for classes because students can see that
+sometimes changing the data can make the problem much easier. If you
+implement the adjacency list as it's presented the problem seems
+hard. Once you see you can go from shinygold out instead of from  all
+the bags to shinygold the porblem becomes much easier.
+
+The other interesting point is that without fundamental data
+structures and algorithms this is a hard problem. With them, it's
+pretty straightforward. Remind your students of this when they ask why
+they need data structures and algorithms. This problem might be made
+up but graphs represent a lot of things in the real world and graph
+traversals and algorithms can solve a lot of real world problems
+
+Now to day 8. 
+
+Day 8 involved a simple machine simulator and leads to a very
+straightforward solution - write a program that simulates the computer
+stated in the problem. My solution tries to approach the problem in a
+functional way and also makes use of a function lookup table to avoid
+multiple ifs. The solution and complete walk through is in the video
+and in Clojure but a similar solution can be written in Python.
+
+
+#+begin_export htm
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IEjnnRhUAxg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+
+
