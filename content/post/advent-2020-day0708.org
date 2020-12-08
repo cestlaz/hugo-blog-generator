@@ -100,7 +100,7 @@ multiple ifs. The solution and complete walk through is in the video
 and in Clojure but a similar solution can be written in Python.
 
 
-#+begin_export htm
+#+begin_export html
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IEjnnRhUAxg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #+end_export
