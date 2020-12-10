@@ -1,0 +1,139 @@
+---
+title: A Teacher looks at Advent of Code 2020 - days 9 and 10
+date: 2020-12-10T16:52:45-04:00
+tags: 
+- emacs
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: False
+--- 
+
+As we get closer to the end of the semester and time becomes scarcer
+I'm wondering how many more I'll finish. Barely had time to do days 9
+and 10.
+
+Not much to say about [[https://adventofcode.com/2020/day/9][day 9]] Part one was basically a rehash of day 1
+part 1 but with a sliding widow. Part 2? I just brute force tried all
+the subranges. I meant to go back to try to improve the solution but
+didn't have a chance. 
+
+Clojure code can be found [[https://github.com/zamansky/advent2020/blob/main/src/day09.clj][here]]. 
+
+[[https://adventofcode.com/2020/day/10][Day 10]] was more interesting. 
+
+I misread part 1 but ultimately, my solution was to: 
+
+1. read in the data
+2. sort it
+3. prepend a 0
+4. append an additional value of the max + 3 to the end
+
+Then loop through comparing adjacent values and keep track of the
+differences which can be 1, 2, or 3. 
+
+{{<highlight python >}}
+data=[ int(x) for x in open("../data/sample10-1.dat").readlines()]
+data.sort()
+data.insert(0,0)
+data.append(max(data)+3)
+
+j=[0,0,0]
+for i in range(len(data)-1):
+    diff=data[i+1]-data[i]
+    j[diff-1]=j[diff-1]+1
+
+print(j)
+
+{{</highlight>}}
+
+Part 2 was where the fun starts - how many combinations of adapters
+will take you from the start to the end.
+
+For example, if we had adapters with voltages 1,4,5,6 given the
+problem constraints that you can only connect an adapter to another
+with a "joltage" of up to three less, you can only use the 1 voltage 1
+way (coming from the source of 0).
+
+4 can connect to only 1 so it can only be used 1 way.
+
+5 can connect to 4 so it too can only be used 1 way.
+
+6 is a change, it can connect to 5 or 4 so you could chain either
+6-->5-->4-->1 or 6-->4-->1 so you can get to 6 two ways. 
+
+If a student knows recursion and recursive search it's easy enough to
+code something that tries all the paths but it's going to get very
+slow very fast.
+
+With a couple of insights though this can lead to a nice dynamic
+programming type solution. 
+
+First thing to notice is that, similar to day 7, instead of looking at
+how many adapters a lower joltage adapter can lead to we can look at how
+many lower joltage adapters a given adapter could have come from. 
+
+To do this, we can look at the adapters as a graph. We can build a
+dictionary where the keys are the adapter joltages and the entries are
+the lower joltage adapters it can connect with:
+
+{{<highlight python "linenos=tue">}}
+def build_reverse_map(data):
+    graph={}
+    data = data[::-1]
+    for i in range(len(data)):
+        current = data[i]
+        j=i+1;
+        while (j<len(data) and data[i] - data[j] <= 3):
+            j=j+1
+        graph[current]=data[i+1:j]
+    return graph
+
+rmap = build_reverse_map(data)
+{{</highlight>}} 
+
+Line 3 reverses the list then for each item in the list, lines 6
+through 8 find the adapters it can connect with. 
+
+The next insight is that instead of calculating all the possibilities
+we can build them a step at a time. 
+
+Consider the first voltage from our above example of 1,4,5,6.
+
+1 -- it can only go to 0 so 0 is its only "neighbor" in the graph. We
+can only get there 1 way so we can store 1 in ways[1].
+
+4 -- same deal - its only neighbor is 1. You can only get to 1 one way
+so you can only get to 4 1 way - store it in ways[4]
+
+5 -- same deal, ways[5] = 1.
+
+6 - now six is different. It has 2 neighbors - 5 and 4. You can get to
+5 one way and 4 one way so we can get to 6 two ways (the sum of the
+ways to get to each of it's neighbors). Store that in ways[6]
+
+Go through all the nodes and then ways[the last node] will have your
+answer:  
+
+{{<highlight python "linenos=tue">}}
+ways={}
+for d in data:
+    ways[d]=1
+
+for d in data[1:]:
+    neighbors = rmap[d]
+    sum = 0;
+    for n in neighbors:
+        sum = sum + ways[n]
+    ways[d]=sum
+{{</highlight>}} 
+
+
+Relatively straightforward and lightning fast. Dynamic programming
+can be really hard to teach but I think this problem might be a good
+one to do with an advanced data structures class. 
+
+For comparison, you can find the clojure code [[https://github.com/zamansky/advent2020/blob/main/src/day10.clj][here]]. 
+
+Fun problem today. Looking forward to tomorrow.
