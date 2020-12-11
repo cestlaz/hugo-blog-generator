@@ -1,0 +1,74 @@
+---
+title: A teacher looks at Advent of Code 2020 - Day 11
+date: 2020-12-11T15:00:43-04:00
+tags: 
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: False
+--- 
+
+Today was [[https://en.wikipedia.org/wiki/Cellular_automaton][Cellular Automaton]] Day at Advent of Code. You have a world
+that's usually represented as a grid of cells. Each cell can be in a
+certain state. Given a certain state, the next state is determined by
+simple rules like for a given cell how many of it's neighbors are the
+same color. 
+
+The most popular Cellular Automat is probably [[https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life][Conway's Game of Life]]
+where each cell can be either alive or dead in a given generation and
+in the next generation the state will be determined by how many of its
+neighbors are currently dead or alive. 
+
+I've always liked teaching with Celluar Automata and explored it
+deeply in the intro course I designed at Stuy. NetLogo is perfect for
+representing a CA ([[https://cestlaz.github.io/posts/2016-01-15-shift-image/][old post]]) and we even do things like using a CS to
+[[https://cestlaz.github.io/posts/2016-01-17-maze-ca/][solve a maze]]. Good stuff.
+
+Today's problem set up a CA where each cell can be one of three
+states - floor, occupied chair, unoccupied chair. The floor never
+changed but the chairs can change from occupied to unoccupied and back
+based on neighbors. I actually really like teh question. It's posed as
+passengers prefer to sit in s eats next to other empty seats which is
+true and the overall problem is much more realistic and therefor
+accessible than Conway's game of life. I think I might lead with it if
+I do CA again with my students. 
+
+You can find my Clojure solutions [[https://github.com/zamansky/advent2020/blob/main/src/day11.clj][here]]. They were pretty
+straightforward. I spend too much time going down the "learn how to
+write a lazy sequence in Clojure" rabbit hole for part 2 before just
+writing it in a more traditional way.
+
+To me there are a couple of interesting things at play when teaching
+CA. The first is state management and synchronization. When beginners
+work on a CA they frequently look at a cell, figure out it's next
+generation value and then replace the cell with its new value. Then,
+later they look at a neighboring cell and when that cell looks at its
+neighbors it gets the changed value not the original one. Clearly a
+problem. 
+
+Writing a CA makes it clear that you have to keep your state clean
+while you build a new state for the next generation. That's an
+important lesson to learn.
+
+The other interesting teaching point is with data representation. CA
+is frequently taught as a 2D array exercise. This makes sense -
+simulations like Conway's Game of Life work perfectly in a 2D array
+and if you're doing graphics with your class you can also get cool
+animations through the generations. 
+
+That said, there are other valid representations that could be
+superior at times. You might have a list of living cells or a hash
+tabe of cells if you have more than 2 living states. This can be far
+superior from a space efficiency point of view if you don't have a lot
+of living cells compared with your world size - say you have a CA with
+a theoretically unlimited size. 
+
+So, there it is - thoughts on today's problem. As I said, it was
+pretty straightforward but I also really like the setup and will
+probably use it in class at some point in the future.
+
+
+
+
+
