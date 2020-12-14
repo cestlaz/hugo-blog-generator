@@ -1,0 +1,54 @@
+---
+title: A teacher looks at Advent of Code day 14
+date: 2020-12-14T14:30:47-04:00
+tags: 
+- emacs
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: False
+--- 
+
+Time for [[https://adventofcode.com/2020/day/14][Day 14]]!!!
+
+I didn't write up day 12 but here's a Clojure [[https://www.youtube.com/watch?v=k8fvaAZRtts&feature=youtu.be][video]] runthrough. I also
+didn't write up day 13 mostly because I hacked together my part 2 in
+Python and still want to rewrite it in decent clojure. In any event,
+all my solutions are up on [[https://github.com/zamansky/advent2020][GitHub]].
+
+Day 14 had a few interesting things going on. At its core it's a small
+machine simulator where you have to deal with binary numbers. One of
+the rubs is that the numbers are 36 digits which could be a problem if
+your language / machine uses 32 bits to represent integers. 
+
+Right off, assuming you have large enough ints you have an interesting
+choice. Do you work with the data them as numbers or do you just do
+string manipulations. 
+
+I decided to do part 1 as numbers which leads to a nice little
+exercise of using bitwise logic operations to turn bits on or off. 
+
+Part 2 was better solved, at least for me using string
+manipulations. That part had a nice little recursive subproblem -
+mapping wildcard values in the "mask" to all the possible combinations
+of zeros and ones.
+
+Both problems also had a bit of fun parsing and, at least for me, a
+few neat clojure constructs. 
+
+I think you could turn this problem into a fun set of class
+exercises. My code can be found [[https://github.com/zamansky/advent2020/blob/main/src/day14.clj ][here]] and even if you don't do Clojure,
+you might want to check out the video runthrough:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oVVHU7PDHyw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+
+
+
+
+
+
+
