@@ -7,7 +7,7 @@ tags:
 categories: 
 - AOC
 draft: False
---- 
+---
 
 Today was [[https://en.wikipedia.org/wiki/Cellular_automaton][Cellular Automaton]] Day at Advent of Code. You have a world
 that's usually represented as a grid of cells. Each cell can be in a

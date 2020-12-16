@@ -1,0 +1,155 @@
+---
+title: A Teacher Looks at Advent of Code 2020 - day 16
+date: 2020-12-16T17:12:56-04:00
+tags: 
+- emacs
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: False
+--- 
+
+Today's problem was a fun one to solve. Why was it fun? Stay tuned,
+
+The basic gist is that you have a plane ticket which is a set of
+numbers but you don't know which number maps to which category - row,
+seat, gate, etc. You also know the number ranges for each
+category. For example, row might be a number between 6 and 11 or 33
+through 44 while a seat might be 13 through 40 or 45 through 50. 
+
+Finally, you also can see a number of nearby tickets - each also as
+tring of numbers. 
+
+For part 1 you had to determine how many of the nearby tickets are
+valid. A ticket is valid if all the numbers on it fall into at least
+one category range. 
+
+See the [[https://adventofcode.com/2020/day/16][full description]] for all the details. 
+
+First up - parsing - a little cumbersome but not too bad.
+ 
+ 1. Split the input into the three main sections - categories, your
+    ticket, nearby tickets
+ 2. Convert the categories into a usable form
+ 3. Convert your ticket into a list of numbers
+ 4. Convert the nearby tickets into a list of tickets each one being a
+    list of numbers.
+
+Taking each step in turn and it's not too bad - particularly if you're
+comfortable with regular expressions.
+
+* part 1
+
+Representing the categories leads us to our first interesting
+decision. How will we test to see if a ticket is valid and based on
+that how will we represent the categories?
+
+Each category has two ranges connected with an *or*:
+
+#+begin_example
+row: 6-11 or 33-44
+seat: 13-40 or 45-50
+#+end_example
+
+One could make a construct to hold the bounds, loop through the nearby
+tickets and for each value, run an if statement with the two ranges
+connected by an *or*. 
+
+This is where a class can talk about code vs data - a topic I'm really
+fond of.
+
+Instead of taking the above range and having some test like: 
+
+{{<highlight python>}}
+for number in ticket:
+  if (number >= low1 and number <= high1) or \
+     (number >= low2 and number <= high2):
+       do something
+{{< /highlight >}}
+
+or specifically for the row example:
+
+{{<highlight python>}}
+for number in ticket:
+  if (number >= 6 and number <= 11) or \
+     (number >= 33 and number <= 44):
+       do something
+{{< /highlight >}}
+
+you could make a set with all the possible seats  and then just test
+to see if the seat was in the set: 
+
+{{<highlight python>}}
+r1 = set( range(low1,high+1))
+r2 = set( range(low2,hight2+1))
+valid_seats = r1.union(r2)
+
+# then later
+if seat in valid_seats:
+  do something
+{{< /highlight >}}
+
+I just find this more elegant. 
+
+For part 1 I just made a big set with all the valid seats and then
+checked each ticket to see if each if its numbers were in the valid
+seats. 
+
+* part 2
+
+For part 2 first you had to remove all the invalid tickets from the
+nearby tickets. Since you figured out how to identify a valid ticket
+in part one this shouldn't be too ahrd.
+
+Then we have to sleuth out which column from the tickets represented
+which category. This would make a great group activity in a class,
+particularly with an interactive language. This is a great data
+exploration and representation problem.
+
+To get more data, I thought I'd write a routine to pull all of one
+column from the nearby tickets. Then I could see if all the values in
+that row were valid for a particular category. For example, are all
+the first numbers of all the tickets valid numbers for row. If so,
+that column could represent row. Of course it could also represent
+something else as well.
+
+Now that i could test to see if a column is valid for a category I
+decided to build some data. I built a list of all the possible
+categories for each row.
+
+Part of it looked sort of like this (but in clojure):
+
+{{<highlight python>}}
+[ [17, ["wagon","arrival-station"] ],
+  [7, ["wagon","arrival-station","route","train","row"]]
+...
+]
+{{</highlight>}}
+
+Examining this table, I noticed that one row had only one category,
+another had only 2 then one three etc. Great - we can now solve this
+by plugging in the row we know, then the next one, then the next etc.
+
+The explorations led to an easy answer. I sorted the list and looped
+through. At each iteration I: 
+
+1. Added the current category and its associated row to the solution
+   set.
+2. Removed that category from the rest of the lines
+
+When done we had a dictionary with a mapping from category to
+row. From there it was pretty simple to find the part 2 answer.
+
+Lots of good stuff here. I love the data explorations and the way it
+can lead to a pretty straightforward solution.
+
+Full solution in clojure can be found here: https://adventofcode.com/2020/day/16
+
+So far I've managed to complete each day - 32 stars. That beats my 31
+from last year adn my top year of 40 back in 2016. Tomorrow I give my
+last exams and grading ca really begin so we'll see if I can keep
+going but so it's been a fun Advent of Code year so far.
+
+
+
