@@ -1,0 +1,143 @@
+---
+title: A Teacher Looks at Advent of Code 2020 - Days 17 and 18
+date: 2020-12-18T12:35:57-04:00
+tags: 
+- emacs
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: False
+--- 
+
+* Day 17
+
+[[https://adventofcode.com/2020/day/17][Day 17]] brought back Cellular Automata. It was a nice follow up to [[https://cestlaz.github.io/post/advent-2020-day11/][day
+11]]. In my [[https://cestlaz.github.io/post/advent-2020-day11/][writeup]] I talked about data representation - how a Cellular
+Automoton like Conway's game of life is a nice 2D array project in a
+class like APCS-A but multi dimensional arrays are only one way to
+represent a cellular automaton. Day 17 really drove that home. 
+
+The actual rules were pretty simple - if a cell is active and has 2 or
+3 active neighbors it stays active. If it's inactive and has three
+active it becomes active. Otherwise the cell is inactive. 
+
+The catch for part 1 is that this CS is in three dimensions. Each and
+a cell's neighbors are defined as all coordinates that differ by one
+in any of the three dimensions. So, if a cell is at an (x,y,z) location
+it's neighbors will be at (x+1,y,z), (x-1,y,z), (x+1,y+1,z),
+(x+1,y-1,z), etc. for 26 neighbors in all. 
+
+You could use a list  within a list within a list or a three
+dimensional array to represent your world but that's tricky and error
+prone. What's worse, part 2 took the CA into the fourth dimension.
+
+Better is to just keep a list or set of active cells. Then the problem
+becomes pretty easy. You need to be able to:
+
+1. Find all of a cell's neighbors - this is pretty easy because you
+   can iterate over all the +1 and -1 possibilities for each of the x,
+   y, and z values.
+2. Find all the potential cells for the next state - this is also
+   pretty easy because it's the set of all cells that are currently
+   active along with all of their neighbors. 
+3. Count a given cell's active neighbors - this is easy once you've
+   done the find neighbors routine. 
+4. A way to test if a cell is active which is just checking to see if
+   it's in your active cells list or set.
+
+Then, it's pretty easy to run the CA: 
+{{<highlight python >}}
+# pythonesque pseudocode 
+potential_cells = find_all_neighbors(current_active_cells)
+new_cells = []
+for cell in potential_cells: 
+  n = count_neighbors(cell)
+  if is_active(cell) and (n==2 or n=3):
+    new_cells.append(cell)
+  elif (not is_active(cell)) and n==3:
+    new_cells.append(cell)
+{{</highlight>}}
+   
+Then you just have to run generate new states until you get the
+answer.
+
+Part 2 extended the CA to 4 dimensions. If you had a multidimensional
+array this would get super message but with a list of active cells,
+the changes are minimal - just add an extra coordinate, update getting
+the neighbors and you're good to go.
+
+This is a case of where thinking through your data representation can
+be a big win.
+
+Clojure code [[https://github.com/zamansky/advent2020/blob/main/src/day17.clj][here]].
+
+
+
+
+* Day 18
+
+[[https://adventofcode.com/2020/day/18][Day 18]] was all about evaluating math expressions. For part 1 you had
+parenthesized expressions consisting of numbers * and + that you had
+to evaluate but you had to do it by first doing parens then left to
+right - multiplication was not a higher precedence.
+
+This sounds like a parsing first problem but it turns out I was able
+to exploit some of Clojure's language features. Looking at the
+subreddit after solving it seems that a bunch of other languages also
+have features that could be exploited.
+
+Clojure represents data (and programs) as [[https://en.wikipedia.org/wiki/S-expression][S-Expressions]] - basically
+stuff in parens. As a prefix language, instead of writing 10+20, in
+Clojure you'd write ~(+ 10 20)~, that is  run the plus function on 10
+and 20. If you have something lie ~(+ 10 (* 20 3))~, Clojure has to
+evaluate the inner S-Expression (sexp) before it can add that to +10
+so Clojure can do the parsing for us. We can take an input string and
+convert it to an sexp using ~read-string~  but if we just try to do
+~(read-string "1 + 2 + 3")~ we'd get an error because "1 + 2 + 3"
+isn't a valid sexp so we just surround it by parens:
+
+{{<highlight clojure >}}
+(def equation-sexp (read-string (str "(" "1 + 2 * 3 + (4 * 5 )" ")")))
+{{</highlight>}}
+
+The above would leave us with the sexp (1 + 2 * 3 + (4 * 5 )).
+
+Next, forgetting the inner parens, we can write a function that will
+evaluate an sexp of the form (1 + 2 * 3 + ...) etc. Basically, this can
+be done with a reduce. Start with the first value then take the rest
+of the list two at a time, the first of each pair is an operator and
+the second is an operand so apply the operand to the other number in
+the pair and your overall result so far.
+
+In Clojure it looks like this: 
+
+{{<highlight clojure>}}
+(defn part1-eval [f & r]
+  (reduce (fn [ans [op next]]
+            (apply op [ans next] )) f (partition 2 r)))
+{{</highlight>}}
+
+Next, we insert that function name to the start of each sexp so 
+(1 + 2 * 3 + (4 * 5*)) becomes (part1-eval 1 + 2 * 3 + (part1-eval 4 *
+5)). Finally we can do a  Clojure *eval* on this form which will run
+part1-eval on the rest of the sexp which will first run part1-eval on
+the 4 * 5, that will return the 20 and then the first part1-eval will
+finish it's calculations to give you the answer. 
+
+Part 2 was similar but there you had to perform addition before
+multiplication. All that was necessary was write a part2-eval function
+that would stand in for the part1-eval.
+
+The idea is to take an sexp like (1 + 2 * 3 + 4 * 5) we first split this
+list around the * this gives us (1 + 2) (*) (3 + 4) (*) (5). We then
+filter this to remove the non numbers which gives (1 2) () (3 4) (5)
+(). Then we remove the empty lists: (1 2) (3 4) (5). Add the elements
+of each list: 3 7 5 and then multiply them together.
+
+All the code is [[https://github.com/zamansky/advent2020/blob/main/src/day18.clj][here]]. 
+
+I like day 17 a lot or some variant for students to discuss data
+representations but I think 18 is a little more advanced and probably
+wouldn't touch it in an early CS class - it was fun to work through
+though :-). 
