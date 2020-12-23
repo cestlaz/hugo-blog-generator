@@ -1,0 +1,204 @@
+---
+title: A Teacher Looks at Advent of Code 2020 - 19 through 23
+date: 2020-12-23T15:09:38-04:00
+tags: 
+- emacs
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: False
+--- 
+
+A few days have past so it's time for an update. Two more days to go
+and while I haven't completed all the problems, I have accumulated 43
+stars which is a personal best. Given the nature of the problems I'm
+missing, I might even go back and do them at some point. Of course, I
+may very well also just crash out on the final two days.
+
+As usual, all my code is up [[https://github.com/zamansky/advent2020][here]]. 
+
+* Day 19
+
+[[https://adventofcode.com/2020/day/19][Problem Link]]
+
+Not a whole lot to say about this one. It's the weekend and AoC has
+traditionally had longer / harder problems over the weekends. I was
+surprised when the first weekend's problems - 12 and 13 weren't
+significantly longer than the surrounding days. 
+
+I read over this and it screamed *parser* and to be honest, I really
+wasn't up for writing a parser on a Saturday morning. Instead, I
+cheaped out.  I looked for a Clojure parser generator and found
+[[https://github.com/engelberg/instaparse][instaparse]]. What's more, instaparse supported input in the form of the
+provided AoC data so I literally just had to read the grammar into
+instaparse and run it on the data for the answer. Part 2 was pretty
+much the same.
+
+
+
+* Day 20
+
+[[https://adventofcode.com/2020/day/20][Problem Link]]
+
+This was the big one. Basically taking 144 tiles and figuring out how
+to form them in an image. 
+
+I finished part 1. I read in all the tiles and then for each, compared
+it's edges with the edges of the other tiles (and the reverse of the
+edges to account for transformations). This told me how many other
+tiles each tile connects with. Central tiles each connect to 4 other
+ties, edges, to three but corners only to 2. Part 1 just had you find
+the corners so it wasn't too big a deal.
+
+Part 2 involves assembling the image and then finding sea monsters. I
+haven't done this yet. Armed with the corner, it should be easy to
+find the top row and then build the image going down. 
+
+I think it's going to be a bear to code though since each tile has to
+be transformed via flipping and/or rotating into the correct
+orientation.
+
+I'm hoping to get back to it. We'll see though. 
+
+* Day 21
+
+[[https://adventofcode.com/2020/day/21][Problem Link]]
+
+Haven't done this one yet. Just couldn't get my head around the
+example on an early Monday morning. 
+
+I don't know if I'll finish question 20 but I do really hope to get
+back to give this one a go.
+
+* Day 22
+
+[[https://adventofcode.com/2020/day/22][Problem Link]]
+
+Part 1 here was pretty straightforward - you had a few rules:
+
+- if player 1's deck is empty, player 2 wins
+- if player 2's deck is empty, player 1 wins
+- otherwise both players draw a card and whoever drew the higher card gets both, they go on the
+  back of the winners deck and you continue play.
+
+That's it. Basically just run the simulation.
+
+Part 2 added a recursive subgame. Under certain circumstances you
+pause the current game and do a little subgame. The catch is that you
+have to save the state of the current game and when the subgame or
+subgames end, you continue the suspended game from where you left off.
+
+This means that if you are representing your decks with arrays or some
+other data structure where you can change the elements you have to be
+careful. In Clojure, however, where data is immutable by default you
+don't have to worry about that. 
+
+I was basically able to just rewrite my play routine for the new
+rules and whenever we had to go to a subgame, I just made a
+traditional recursive call. My guess is that if I had coded this up
+originally in Java or C++ I probably would have had a harder time
+going from part 1 to part 2. On the other hand, there were some
+problems with Java or C++ would have made my part 1 to part 2
+transitions easier - depends on the problem. 
+
+
+
+* Day 23
+
+[[https://adventofcode.com/2020/day/23][Problem Link]]
+
+This was the fun one - at least from a teacher's point of view. 
+
+Like day 22 you had to implement a game. You set up a bunch of
+numbered cups in a circle and then: 
+
+- remove the three cups right after the current cup
+- find out where they should be reinserted based on the game rules
+  (see the problem link for details)
+- reinsert those three cups at that reinsertion point.
+- move from the current cup to the next cup.
+
+I did part 1 using a simple list and list manipulations. I used
+Clojure but the python equivalent would be to have a list representing
+all the cups, move around ti with mod, and remove cups and add them
+using slices.
+
+
+{{< highlight python >}}
+
+  # given board = [3,8,9,1,2,5,4,6,7
+
+  # to get the next board state
+  current = board[0]
+  to_remove = board[1:4]
+  remaining = board[4:]
+  idx = find_target(board,remove)
+  newboard = remaining[0:idx] + to_remove + remaining[idx:] + [current]
+
+{{< /highlight>}}
+
+I might have the indexing a little off and the ~find_target~ routine
+isn't shown adn might have different parameters. As I've said, I wrote
+my solution in Clojure. This should give the general idea though. 
+
+You basically had to run through 10 turns to find the answer.
+
+Part 2 added a twist - the game board was now *one million* in size
+and you had to run the simulation through *ten million* turns. No way
+was my part 1 solution going to work. 
+
+The problem called for something that required fewer list traversals
+and builds and where it would be quick and easy to find a given
+element. 
+
+My first thought was to build a traditional linked list. That would
+help but it would also require a number of linear traversals.
+
+Next thought? How about a dictionary? 
+
+If you set up a dictionary where the keys are the nodes and the values
+represent the pointer to the next node you could really quickly and
+easily both traverse and manipulate the data set. 
+
+For example, if your board was [3,8,9,1] then you'd use this
+dictionary to represent it - remember the 1 wraps back around to
+the 3.
+{{< highlight python >}}
+  nodes = {3 : 8,
+           8 : 9,
+           9 : 1,
+           1 : 3}
+{{< /highlight>}}
+
+So if you're current node was represented in a variable ~current~ the
+three nodes you'll remove would be ~[nodes[current],
+noeds[nodes[current]], nodes[nodes[nodes[current]]] ]~
+
+
+As an added bonus, the question pointed out that your data set would
+have every positive integer represented once. That is, part 1 had a 9
+item list with all the values 1 through 9 and the million item one had
+values 1 through 1 million. This makes finding the insertion point
+both easy and fast.
+
+It turns out that I think the dictionary based solution is actually
+cleaner than the list one in addition to being faster.
+
+This solution was no speed demon - still took ~40 seconds to get an
+answer but that's good enough for me. 
+
+Of the problems I wrote up today, this one was my favorite. Students
+typically think of data structures as what they are - if they have an
+array, use it as an array, a linked list is a linked list and a
+dictionary or hash table is, well, you know. If you need a linked
+list, you need to make a traditional linked list - not so. this is a
+great example of using a dictionary as a hash table. There are
+conceptual data structures and actual in computer
+representations. Often you use the implementation directly - use a
+hash table to store data for lookup or use an array to represent a
+list. It can be very empowering though when the student sees that
+the implementations are just tools in the belt and they can be used in
+all sorts of interesting ways.
+
+
