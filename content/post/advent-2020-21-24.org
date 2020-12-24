@@ -1,0 +1,141 @@
+---
+title: A Teacher Looks at Advent of Code 2020 - Days 21 and 24
+date: 2020-12-24T11:43:14-04:00
+tags: 
+- emacs
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: False
+--- 
+
+[[https://adventofcode.com/2020/day/24][Day 24]] didn't take that much time so I had a chance to go back and
+finish [[https://adventofcode.com/2020/day/21][day 21]].
+
+As usual, all my code is up [[https://github.com/zamansky/advent2020][here]]. 
+
+
+* Day 21
+
+[[https://adventofcode.com/2020/day/21][Problem Link]]
+
+It took me a while to get my head around this example. You have a set
+of recipes. Each recipe has a list of ingredients and a list of
+allergens. Your job for part 1 was basically to determine which
+ingredients don't contain any allergens. Part 2 had you determining
+which ingredient had which allergen.
+
+Part of what I think made this hard was that ingredients were just
+random strings of letters as opposed to actual ingredients or at least
+pronounceable words or letter strings.
+
+The key part of the description as that each allergen was present in
+*exactly one* ingredient and each ingredient had *at most* one
+allergen. 
+
+So, for part 1, the tact was for each allergen, take all the recipes
+that had it. In the example, the first and second recipes had
+dairy (one indexing). Since only one ingredient can have the dairy
+allergen the that ingredient must be in both lists.
+
+If you take all the recipes that have the dairy allergen and take each
+of their lists of ingredients as a set and find all their
+intersections, you'll be left with all the ingredients that can have
+the dairy allergen.
+
+Do this with all the allergens and you'll have all the ingredients
+that could contain them. The other igredients are safe and lead to the
+answer to part 1.
+
+Part 2 had you identifying each ingredient / allergen
+pair. Fortunately, the data set we ended up with for part 1 - each
+allergen and it's list of possible ingredients was made to order. One
+of them had only one ingredient per allergen. We could identify that
+one and then remove that ingredient from the remaining allergen's
+lists. Then repeat to find the next one and then the next. This is
+similar to the solution to day 16. Of course this isn't a general
+solution but fortunately the data was all set up for us.
+
+
+* Day 24
+
+[[https://adventofcode.com/2020/day/24][Problem Link]]
+
+Back to Cellular Automata!!!!!! The catch this time is the world is a
+hex grid. This means that each cell has six neighbors so using a 2D
+array or similar representation seems like an even worse idea than it
+was for the 3D and 4D problems earlier this month.
+
+Even before representing the world parsing was an issue. Since a given
+cell can have neighbors to the east, west, northeast, northwest,
+southeast or southwest, instructions are given with a line of "moves"
+describing a tile to flip starting from 0,0. 
+
+For example, the line "EEE" would move three east from the origin and
+flip that tile while "ESEE" would move one east, one southest and then
+one further east and flipt the tile there.
+
+Fortunately, this wasn't too bad. As we traverse down the line, if we
+see an *e* or a *w* then the instruction is one character so we add
+the instruction to a list of steps an then continue. Otherwise the
+instruction is 2 characters so we take 2 and add the instruction adn
+then proceed.
+
+Next was the data representation. It seemed that a list of live cells
+would again be the best solution. I figured on using this mapping: 
+
+
+| E  | (-2,0)  |
+| W  | (2,0)   |
+| NE | (-1,-1) |
+| NW | (1,-1)  |
+| SE | (-1,1)  |
+| SW | (1,1)   |
+
+I later found out that this is called "double coordinates." Since
+we're not storing the full hex grid there's no waste anyway and I
+wasn't planning on making a visualization so I didn't worry about how
+this would map to an actual screen.
+
+Now, finding the coordinate of a tile was pretty easy. In Clojure
+it's: 
+
+{{<highlight clojure>}}
+;; assume deltas is a lookup dictionary of the above mapping
+
+  (defn get-tile-location [steps]
+    (reduce (fn [loc step]
+              (map + loc (deltas  step))
+              ) [0 0] steps))
+{{</highlight>}}
+
+In Python it would look more like this: 
+
+{{<highlight python>}}
+  # assume deltas is a dictionary with the above mapping
+  # and steps is a list of instructions ["e","w","se", etc]
+  for step in steps:
+      loc = [sum(x) for x in zip(loc, deltas[step])]
+{{</highlight>}}
+
+
+We can now convert any input line of instructions to a coordinate. If
+we write a routine to flip a tile we can now set up our world and
+answer part 1.
+
+Part 2 involved basically turning the part 1 world into a cellular
+automaton. Fortunately, this was easy given the solution to earlier CA
+problems. It as just a matter of updating the get-neighbors routine
+and the rule to go from one generation to the next and we're done.
+
+I enjoyed this - it was a nice twist on the earlier CA
+questions. First we had a simple CA, then higher dimensions and now
+changing the layout of the world but still within 2 dimensions. Once
+we had a way of representing a tile and mapping from a tile to its
+neighbors we had already solved the problem.
+
+One more day to go but it's been a nice run of problems.
+
+
+
