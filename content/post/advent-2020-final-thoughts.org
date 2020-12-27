@@ -1,0 +1,167 @@
+---
+title: Final thoughts on Advent of Code 2020
+date: 2020-12-27T14:43:51-04:00
+tags: 
+- emacs
+- AOC
+- Advent of Code
+categories: 
+- AOC
+draft: False
+--- 
+
+Time for some final thoughts on [[https://adventofcode.com/][Advent of Code 2020]]. 
+
+This was my sixth Advent of Code but the first time I completed all 25
+days. Better than last year's 31 and a whole lot better than my
+weakest effort of 11 stars in 2017. I managed to find the time to
+finish all but two on the day they were released and finished those
+two on Christmas morning. This was also the first year I wrote all my
+solutions in Clojure and I also made a bunch of blog posts and videos
+(linked on the bottom of this post).
+
+From my point of view 2020 was the best AoC to date and I'm not just
+saying that because I finished all the problems. Well, maybe I am but
+it's really because the content and release of content lent itself to
+my completing all the problems.
+
+Before jumping in to my specific commentary I want to remind readers
+that anyone's perceptions of an event like this will be biased. If
+there's an aspect that I particularly liked you can bet there's
+someone else out there who didn't like it.
+
+* Overall content
+
+As usual a wide range of topics were covered including binary numbers,
+pattern matching, simulation, dynamic programming, mathy stuff,
+parsing, graph algorithms and more. 
+
+I didn't find myself totally lost on any questions. There were some
+problems that at least to me seemed to require graph algorithms and
+one where dynamic programming or at least memoization was a boon but
+for the most part it seemed that problems were indeed
+approachable. Even the math day that had a bunch of reddit chatter
+over the Chinese Remainder Theorem could be done without knowing about
+the CRM. That was good because I had never heard of it (and if any of
+the redditors who mentioned that it should  common knowledge, it
+shouldn't - I have an undergrad in CS and a Masters in CS along wit 30
+years of teaching and this is the first time I've seen it). 
+
+In past years there always seemed to be a few problems that you needed
+some preexisting knowledge to attempt. I had no problem with that - no
+need to have  to finish all the problems and there's nothing wrong
+with hitting up reddit, learning something new and then tackling the
+problem. This year it seemed that the problems more directly led to
+the knowledge. I'll talk about this more later. 
+
+
+
+* Problem size
+
+For the most part the problems were the perfect size for me. I'd read
+the problems when I woke up, work on part 1 after my run and then part
+2 later in the day - at least that was the ideal - bugs and life
+sometimes got in the way. None of the problems required pages and
+pages of code for the solutions which I liked. Problems were clever
+and interesting but led to moderately sized solution. 
+
+In past years, the weekend problems were longer and/or harder. The
+logic being that there's more time to work on them. I never liked
+that. AoC is great but it's an add on. It's an add on to work during
+the week but it's an add on to family time on the weekend. I liked
+that this year the only weekend problem that was much larger and longer
+was day 20 - the image reconstruction. 
+
+This is not to say that some problems didn't take a good deal of time
+but rather that once you had an approach you didn't sit down and say
+"oh man, now I have to write hundreds of lines of code to implement
+this."
+
+* particularly nice problems 
+
+In spite of my not finishing part 2 until the last day, I loved day
+20 - Jurassic Jigsaw. It was a little long and I spend more time than
+I care to admit on debugging a really silly error but I loved the
+problem.
+
+Why? 
+
+First, it had staged difficulty -
+
+1. Parse the data into a reasonable representation
+2. Do a partial edge matching for part 1 (not so hard)
+3. Do the harder / longer matching to reconstruct the image
+4. Remove the border and solve the problem.
+
+Second, you actually discovered something - you *found* sea
+monsters!!!! You had a problem with an "unknown" solution and you
+figured it out. Contrast that with say, day 2 where you just had to
+validate passwords. That was also a fun problem but there was no big
+reveal. It was really cool to decode your image and actaully find the
+hidden monsters. 
+
+Day 16 and 21 allowed for similar discovery at the end but not quite
+as cool. I liked 16 very much but had a hard time getting my head
+around the example for 21. Still a cool problem.
+
+
+
+* Teachable stuff
+
+As usual, I found a lot that I liked as a teacher in AoC. I love that
+many of the problems introduce problem solvers to new things. For me,
+the Chinese Remainder Theorem was new even though I only discovered it
+via the subreddit. Cellular Automata was prominently featured
+this year, binary explicitly mentioned as was recursion. 
+
+The recursion problem was particularly nice. The setup led to and, if
+I recall, explicitly mentioned recursion. It also talks about a key
+challenge - data mutability. The question states that after returning
+from a "subgame" - the recursion - you have to continue the original
+game from where it left off - state management. If you're language
+passes references in your calls this could lead to trouble. I'm
+guessing (hoping?) that for people who solved that day who were new to
+recursion got a deeper understanding than just through the usual n!
+and such.
+
+Another thing I liked was the spiraling. That, in teacher talk, is
+when you go back to an earlier topic. This year had three questions
+based on Cellular Autoamta. The first was the basic, the next took you
+to a higher dimension and the third to a different shape. Each one
+reviewed and extend fro the earlier problem. I loved it. This might
+sound similar to last year's intcode but the difference is that evne
+if you didn't complete the earlier problems you had a shot at the
+latter ones. With Intcode if you had something wrong with your earlier
+interpreter you were out of luck.
+
+The allergens problem also allowed for the use of the same method you
+used to solve the boarding pass problem. 
+
+Loved the spiraling.
+
+I could probably go on but this post is already long enough.
+
+* Links
+
+I'll finish off with links to my earlier posts on Advent of Code.
+
+Already looking forward to next year.
+
+
+
+- [[/post/advent-2020-leadin.][advent-2020-leadin.]]
+- [[/post/advent-2020-day-01][advent-2020-day-0]]1
+- [[/post/advent-2020-day02][advent-2020-day02]]
+- [[/post/advent-2020-day03][advent-2020-day03]]
+- [[/post/advent-2020-day04][advent-2020-day04]]
+- [[/post/advent-2020-day05][advent-2020-day05]]
+- [[/post/advent-2020-day06][advent-2020-day06]]
+- [[/post/advent-2020-day0708][advent-2020-day0708]]
+- [[/post/advent-2020-day0910][advent-2020-day0910]]
+- [[/post/advent-2020-day11][advent-2020-day11]]
+- [[/post/advent-2020-day14][advent-2020-day14]]
+- [[/post/advent-2020-day16][advent-2020-day16]]
+- [[/post/advent-2020-1718][advent-2020-1718]]
+- [[/post/advent-2020-19-23][advent-2020-19-23]]
+- [[/post/advent-2020-21-24][advent-2020-21-24]]
+- [[/post/advent-2020-final-thoughts][advent-2020-final-thoughts]]
