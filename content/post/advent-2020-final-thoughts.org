@@ -1,6 +1,6 @@
 ---
 title: Final thoughts on Advent of Code 2020
-date: 2020-12-27T14:43:51-04:00
+date: 2020-12-27T15:57:22-04:00
 tags: 
 - emacs
 - AOC
@@ -9,6 +9,7 @@ categories:
 - AOC
 draft: False
 --- 
+
 
 Time for some final thoughts on [[https://adventofcode.com/][Advent of Code 2020]]. 
 
