@@ -1,0 +1,129 @@
+---
+title: On Teaching Recursion
+date: 2021-01-03T13:49:00-04:00
+tags:
+- cs
+- recursion 
+categories: 
+- cs
+draft: false
+--- 
+
+Yesterday I read three posts on teaching recursion. [[https://parentheticallyspeaking.org/articles/how-not-to-teach-recursion/][First]] by Shriram
+Krishnamurthi discussing his thoughts on how recursion is taught
+incorrectly. This prompted Adam Michlin to [[https://blog.ceos.io/2021/01/02/why-you-shouldnt-teach-recursion-yet/][write about]] teaching
+recursion later with some commentary on APCS and then finally, Alfred
+Thompson added [[https://blog.acthompson.net/2021/01/recursionhow-and-when-to-teach.html][his thoughts]]. 
+
+Much like everything else in education there is no single right way to
+do things. To say as an absolute that you should or shouldn't teach in
+a certain way is wrong - too many variable.s In my experience you can
+teach recursion early or late but the structure of your program and
+your choice of tools can influence how successful you'll be. If you're
+teaching a programming course in a language like Python or Java and
+are teaching control structures first you're going to have a hard time
+doing recursion early. They'll get looping structures before they know
+the constructs that support recursion - either for control or for
+representing data. On the other hand, if you teach objects first you
+might have more success.
+
+On the other hand, if you're using a language like Scheme where lists
+and recursion are right in the forefront you'll likely have more
+success with recursion early rather than late. I wrote a bit about
+this [[https://cestlaz.github.io/posts/recursion-early/][a couple of years ago]]. 
+
+I'll leave the "how important is recursion" question for annother time
+but I want to address one more thing here. In yesterday's posts four
+traditional recursion problems received a solid bashing and I don't
+think it was fair. As I said up top, +only a Sith deals in absolutes+
+in teaching, there are no absolutes. Is factorial a wonderful
+motivation for recursion - particularly for a student who knows loops?
+Probably not but can it have some value? Let's see...
+
+** Factorial
+
+While this might not be a terrific motivator it does have some
+niceties. Most students will know factorial but will only be able
+describe it informally - "multiply all the numbers between 1 and n."
+The recursive definition is more, precise, for lack of a better word.
+
+Then, there's a direct translation between the recursive definition
+and the code. 
+
+Finally, it's about as bare bones as you get - no data structures or
+undue complexity. 
+
+Is this going to motivate a student to learn recursion? No.
+
+Can it be used to help paint a more complete picture? Probably.
+
+** Fibonacci 
+
+Also got a bad rap in the above linked posts. It shares the benefit of
+the recursive definition directly translating to a coded solution with
+factorial. 
+
+Fibonacci is also a problem where they originally learned it via the
+recurssive rule "the next Fibonacci number is the sum of the two
+previous fibonacci numbers."
+
+It also seems that when students find the Fibonacci number problem
+challenging to solve as beginners without recursion. The whole a
+becomes b. b becomes c thing can be tricky for beginners. In  my
+experience, they find the recursive solution to be more natural. This
+is also interesting because they usually don't find recursive
+factorial more natural than a loop (assuming they learned loops
+first).
+
+Next, the slowness of the solution is feature, not a bug. It's a
+platform to talk about how recursion isn't always the answer but you
+can think about a problem recursively and if the solution isn't right
+it might lead you to a better solution. This comes up later with
+dynamic programming. Just last year (he he) during Advent of Code I
+ended up solving one of the problems via dynamic programming. How did
+I get there? Thinking about the problem recursively. 
+
+Here you get a great platform for now comparing solutions - iterative,
+recursive, tail recursive, memoization - take it as far as you want.
+
+** Euclid's algorithm 
+
+I can't comment on Euclid's algorithm since I can't recall ever
+teaching it as part of recursion so I'll substitute Newton's method
+for square root approximation. 
+
+The thing is that here, the goal isn't really recursion. It's just a
+problem that can be tackled with either recursion or iteration. The
+reason it's a neat problem is because you can talk about floating
+point accuracy issues along with how close of an approximation you
+might want or need. 
+
+** Towers of Hanoi
+
+Finally we get the Towers of Hanoi. Sure it's contrived but it can
+also be fun and by being a new and different problem students can try
+to use any strategies that might lead to a solution, recursive or
+otherwise:
+ 
+- try some small examples
+- see if examples relate to each other
+- base case?
+- etc.
+
+The big deal though is that Towers of Hanoi isn't really about Towers
+of Hanoi - it's really a platform to talk about all sorts of good
+stuff. I wrote all about it [[https://cestlaz.github.io/posts/2010-01-10-towers-of-hanoi/][a decade ago]]. 
+
+** Other stuff
+
+Now, of course you can introduce recursion in other ways particularly
+if you use a language like Scheme. 
+
+Bottom line is that without taking into considerations lots of other
+factors - student backgrounds, teacher comfort. Time, experience,
+facilities, goals and desired aoutcomes, and more you can't really say
+one way is right or one way is wrong.
+
+
+
+
