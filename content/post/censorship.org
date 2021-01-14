@@ -1,0 +1,132 @@
+---
+title: Censorship, TOS, and a slippery slope
+date: 2021-01-14T14:14:14-04:00
+tags:
+- policy
+categories:
+- policy 
+draft: false
+--- 
+
+Lots of chatter with Donald Trump being kicked off
+platforms left and right. On the one hand we're getting a lot of "it's
+censorship, it's unust" and on the other side we have "it's about
+time." I'm of course in the "it's about time" category but even so,
+there's a cause for concern and a lot of meat for a discussion on tech
+policies.
+
+What makes this interesting discussion fodder is that Trump was
+removed from different levels of the internet. First you've got actual
+applications like Twitter and Facebook. Next you've got the Play and
+Apple stores and finally, you've got AWS which provided cloud services
+to Parlor. At each level the removal of Trump and others inciting hate
+and violence have different ramifications and nuances.
+
+* Facebook and Twitter
+
+First let's look at Facebook and Twitter. On the one hand this is an
+easy one. They're not government agencies - they're private
+companies so the first amendment doesn't apply. Next, were they
+denying service to Trump? No - he had an account on both
+services. What did happen is that he violated terms of service. While
+I'd never follow Trump, I did follow an account that tweeted his
+tweets. The account was set up to see if it would be suspended - guess
+what, it was - more than once. This isn't discrimination or
+censorship, this is bouncing the unruly patron at the bar or, dare I
+say removing the person who refuses to wear a mask from your store. 
+
+If you're one of those free market regulation bad people I don't want
+to hear it. In this case, the market did indeed decide. 
+
+There is, however, a big problem and that's the fact that Twitter,
+Facebook and a few other players have so much power. You could argue
+they're de facto monopolies. For years they willingly amiplified
+Trump's lies and now overnight removed him. That's a huge amount of
+power for a company to have. People like me have felt that for years,
+Facebook and Twitter have been behaving irresponsibly and as of last
+week people on the right feel that way and Dorsey and Zuck can't be
+voted out of office. One can of course argue "The Market" but it's not
+that simple with the market being dominated by a small number of
+players. 
+
+I'm doubting that calls to split up the tech giants will be helpful. I
+don't know if we're better off now as opposed to before AT&T split and
+I'm not sure that strongarm regulation is the answer. 
+
+Enforcing open proticols, APIs and standards would probably help a
+great deal but in any event, we do have a problem with big tech but
+it's not what the right is crying about now.
+
+* The stores and AWS
+
+Next we have the app stores removing Parlor. I'm guessing this is also
+a violation of TOS issue but there's another issue here which is
+liability. Is Google or Apple liable or responsible for something on
+an application they distribute. 
+
+Related but different is AWS - are they responsible for things that
+occur on their servers even though it's Parlor or whomever creates and
+runs the applications running on the Amazon Cloud?
+
+Napster enters the chat.
+
+Not exactly the same, but similar. For you youngsters, Napster was one
+of the early file sharing services. It was basically an IRC based
+setup to locate mp3 files in order to facilitate their
+transfer. Napster never hosted any of the files in question but the
+music industry went hard after them. 
+
+Even earlier you had alt.pictures.binaries. Back in the day they said
+that people came to the internet for email but stayed for [[https://en.wikipedia.org/wiki/Usenet][Usenet]]
+news. Basically, they were forums or chatrooms on just about any
+topic. I of course subscribed to comp.lang.c,
+alt.sports.basketball.nyknicks and a bunch of others. You connected to
+your news server to retrieve and post messages and messages were
+transferred periodically between servers. Originally using UUCP which
+had computers dialing each other up on set schedules but later over
+the internet. The servers didn't own or even know what was in the
+messages. They just stored and forwarded.
+
+The question came up with binary groups - alt.pictures.binaries in
+particular. Groups like alt.pictures.binaries would contain messages
+with encoded images. A single image wouldn't fit into a message and
+messages were ascii so binary data couldn't be directly sent. Images
+were encode using a program called [[https://en.wikipedia.org/wiki/Uuencoding][uuencode]] and split into a bunch of
+messages. 
+
+As one might expect, the binary groups ended up a place to traffic
+adult and/or illegal material. 
+
+The question was were the server's owners responsible? They didn't
+create or own the posted material. They probably weren't even aware it
+was on their servers. 
+
+This is a question cloud hosts like AWS have to consider on top of
+public perception and just doing what's right (whatever that is).
+
+A final note on this is that Net Neutrality, while maybe not applying
+in this specific instance harps on the same questions - with net
+neutrality, ISPS must treat all network traffic the same. Without it
+they are free to do what they want - they could slow down or block
+services they don't want to support. Not the same since cloud servers
+are not ISPs but certainly similar. 
+
+Lots of meat here and there's no clear cut right thing to do. Should
+the market decide? Is regulation needed? If so how much. Should it
+just be at the application level or how about the cloud? The Net
+Neutrality issue isn't that old but when it came up nobody was talking
+about the cloud and app stores as gatekeepers didn't exist. Add to
+that the fact that our elected officials are, let us say, not the most
+up on modern tech and tech issues. 
+
+I can see a lot of rich discussion coming out of this.
+
+
+
+
+
+
+
+
+
+
