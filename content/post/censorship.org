@@ -19,7 +19,7 @@ What makes this interesting discussion fodder is that Trump was
 removed from different levels of the internet. First you've got actual
 applications like Twitter and Facebook. Next you've got the Play and
 Apple stores and finally, you've got AWS which provided cloud services
-to Parlor. At each level the removal of Trump and others inciting hate
+to Parler. At each level the removal of Trump and others inciting hate
 and violence have different ramifications and nuances.
 
 * Facebook and Twitter
@@ -59,13 +59,13 @@ it's not what the right is crying about now.
 
 * The stores and AWS
 
-Next we have the app stores removing Parlor. I'm guessing this is also
+Next we have the app stores removing Parler. I'm guessing this is also
 a violation of TOS issue but there's another issue here which is
 liability. Is Google or Apple liable or responsible for something on
 an application they distribute. 
 
 Related but different is AWS - are they responsible for things that
-occur on their servers even though it's Parlor or whomever creates and
+occur on their servers even though it's Parler or whomever creates and
 runs the applications running on the Amazon Cloud?
 
 Napster enters the chat.
