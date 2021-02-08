@@ -1,0 +1,94 @@
+---
+title: Physics Teacher Wanted - must NOT know Physics
+date: 2021-02-07T19:00:53-04:00
+tags: 
+- Teacher Ed
+- Certification
+categories:
+- Teacher Ed 
+draft: false
+--- 
+
+
+
+There were a few posts over on Facebook this weekend about teacher
+certification. It started with a question - should teacher
+certification be based on an exam like APCS-A with the teacher
+correctly answering 85% or greater. A lively discussion
+followed. There was agreement and disagreement with responses ranging
+from:
+
+- good idea
+- it's too hard
+- it's not hard enough
+
+There was also a discussion of the importance of content knowledge vs
+knowing how to teach in general.
+
+Since there was a lot going on in the thread I thought I'd pull my own
+thoughts out into this post.
+
+Let's first look at the test. There are a number of states that have
+a content test for computer science. For some states, I think it's the
+only requirement. In terms of content, at least the Praxis exam is
+something like APCS-A on steroids. This is not a good thing. Don't get
+me wrong, I think a qualified CS teacher should know more than APCS-A
+on steroids but a single day test is not how you measure deep content
+knowledge. I know plenty of students who've passed standardized
+exams - be they regents, AP, or other but they were no way qualified
+to teach the course. They knew the formulas, recognized the patterns,
+but didn't really know the material. Is this what we want of our CS
+teachers? I certainly don't. I'm not hugely opposed to an exam
+covering somethign like college CS1 content other than my general
+anti-testing beliefs - it would help to curtail some of the problems
+that will invariably arise with weak certification programs but it
+should no way be the actual bar to teach - if it exists, it should be
+just one standard measure along the way.
+
+Now to that content vs pedagogy thing. What current teachers and in
+fact most people in the CS Ed space forget is that states move slowly
+and that we're playing the long game. Right now most CS teachers are
+converts from other disciplines and relatively few have strong CS
+backgrounds but over time this will change. As CS becomes more
+established we'll have young teachers entering the filed with the
+intent of becoming a CS teacher. If states and teacher prep programs
+set the content bar low that'll be what we're stuck with for a LONG
+time.  We wouldn't dream of creating a science teacher credential
+where the teacher hardly knows any science - no way should we do it
+for CS or any other subject.
+
+The truth is that we need teacher prep programs that ensure that new
+CS teachers know both the content and how to teach it and that content
+should not be tied in to any specific curriculum. I wrote more about
+all of this [[https://cestlaz.github.io/post/teachers-prep-big-pic/][here]]. 
+
+So what do do with current teachers and current needs? Easy - give
+them time. Back when I started teaching I was a career changer. I
+never took an education course, never student taught, nothing. Turns
+out that Math was a shortage area so I had an option - as long as I
+had enough math credits I'd get a temporary license  and start
+teaching. Instead of teaching 5 classes, I'd teach 4 and get a
+mentor. I then had to get a certain number of education credits within
+a certain period of time. Since I already had the subject credits it
+was just about learning how to teach. Truth is, I barely survived that
+first year but things did get better.
+
+New York and other states probably couldn't do the exact same
+thing. First off, current and potential teachers might not know the
+content so it wouldn't just be ed courses and second, certification
+rules have changed big time since NCLB. Still, they could do something
+similar - approve certification programs like the one I created at
+Hunter - ones designed for current non-CS teachers and give teachers a
+period of time to complete it. For career changers, create CS version
+of programs like the NY Teaching Fellows. 
+
+What isn't acceptable is saying that CS teachers don't have to know CS
+and that career changers who know CS don't have to learn how to
+teach. Create the programs and give people time. We're playing the
+long game and the only way we lose is if we cut corners for
+convenience at the expense of the kids.
+
+
+
+
+
