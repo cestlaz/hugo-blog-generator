@@ -1,0 +1,77 @@
+---
+title: Teaching and Pedagogy - words and music
+date: 2021-02-08T20:12:43-04:00
+tags:
+- Teacher Ed
+- Teacher prep
+categories: 
+- Teacher Ed
+draft: false
+--- 
+
+I wanted to give a little more context on [[https://cestlaz.github.io/post/teacher-creds/][yesterday's post]]. 
+
+In reading over the various comments on social media related to the
+topic of required and desired CS teacher knowledge there are those
+that fall on the content is king and pedagogy not so important and
+others who think you don't really need a deep knowledge of CS. I think
+you need both and think current teachers need to be given a
+reasonable but finite amount of time to get there.
+
+Whenever the topic comes up I think of [[https://en.wikipedia.org/wiki/Eddie_and_the_Cruisers][Eddie and the Cruisers]]. Tom
+Berringer is playing a song - "On the Dark Side" for the band as the
+band ridicules him. Eddie (Michael Pare) says "Not bad" to which a
+band mate says - "he can't sing, he can't play and he can't
+write. What's not bad?" to which Eddie replies "he's got something we
+need, words and music." 
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ds-MR9OPiNU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+
+Words and music - teaching and pedagogy. One isn't enough - you need
+both. You need the content but you also have to do something to bring
+value to the kids beyond just dumping the content on the desk - it's
+why I'm so against scripted curricula.
+
+Why do I think both sides are so important? I probably got here from
+teaching at Stuyvesant for over 20 years. On top of that, I'm a Stuy
+grad ('84), Stuy husband (Devorah, also '84), Stuy brother, and two
+time Stuy parent. While Stuy has and had some good teachers, I got to
+see a bunch of bad ones. I saw teachers who didn't know their subject
+areas and teachers who didn't know how to teach. The rub is that at a
+school like Stuy the kids will figure out what they need on their
+own. You can put an unripe avocado on the teachers desk and the kids
+will still pass all the exams. Sure, the kids pass but every kid
+deserves a teacher that adds value to their lives. 
+
+Some of the worst at Stuy were teachers for whom Stuy was their first
+(and only) gig - they never really had to learn how to teach but for a
+variety of reasons - all the kids pass the AP or in the case of
+teachers that know content but not teaching, the "smart kids" like the
+teacher because they "know stuff" - they think they're good teachers. 
+
+Sorry, you have to add value.
+
+The best thing that happened to me when I started was when Stuy's
+chairman didn't hire me. I ended up at Seward Park and that's where I
+started to learn my craft. Once at Stuy, I had to be careful not to
+fall into the trap - you can become a good or even a great teacher at
+a specialized school but, just like anywhere else, you have to work
+for it. You have to really look at what and how you're doing. 
+
+All of this is to say that to add value to your students you really
+have to know both the content and you have to know how to teach - you
+have to add value. If you can be replaced by an avocado, you're not
+earning your paycheck.
+
+Now, I'm not saying that the teachers who don't know CS and are taking
+on this new challenge shouldn't be given time to learn the subject or
+that raw teachers who know their subject shouldn't be given time to
+learn how to teach but you eventually have to get there.
+
+If we're okay with teachers who have to follow scripts for either
+content or pedagogy for the long term then we're devaluing our
+profession. I'd like to think we add more.
+ 
