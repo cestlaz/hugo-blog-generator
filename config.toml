@@ -7,6 +7,7 @@ disqusShortname = "cestlaz" # Enable comments by entering your Disqus shortname
 googleAnalytics = "UA-126185083-1" # Enable Google Analytics by entering your tracking id
 rssLimit = 40
 
+enableEmoji = true
 [outputs]
 home = ["HTML","RSS"]
 

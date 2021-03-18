@@ -1,0 +1,84 @@
+---
+title: Quick Sort over Zoom
+date: 2021-03-18T12:10:53-04:00
+tags: 
+- CS
+- Pedagogy
+categories:
+- CS 
+draft: false
+--- 
+
+
+
+I haven't been blogging much this year. Not sure why - probably pandemic
+fatigue. It's also affected my blog reading - more scanning, less deep
+reading. I've also been trying to spend mode time off screen learning
+how to paint (with,let's say  mixed results :-) ) leaving less time
+and energy to blog. Hopefully I'll pick up on both ends as more people
+get vaccinated and we can get to a more normal life. 
+
+In any event, I tried a new motivation for Quicksort today so I
+thought I'd share.
+
+I've approached teaching the Quicksort in a variety of ways ([[https://cestlaz.github.io/post/try-something-new/][here]],
+[[https://cestlaz.github.io/posts/quick-sort-starting/][here]], [[https://cestlaz.github.io/posts/2010-03-14-sorting-from-top-and-from-bottom/][here]], [[https://cestlaz.github.io/posts/2014-03-12-select-to-sort/][here]]) but never had a great lead in activity. Merge sort
+was easy in person since you can "Tom Sawyer" [[https://cestlaz.github.io/posts/2014-02-27-dumbass/][shuffling a deck of
+cards]] in class. We adapted this activity pretty well to [[https://cestlaz.github.io/post/merge-over-zoom/][work over Zoom]]
+this past summer in our teacher certification program. Quicksort
+however, haven't found a good one. 
+
+Thinking about how to leverage remote, I had an idea to try - use
+polls. I use [[https://zulip.com/][Zulip]] for class discussions. It's like Slack but is open
+source, can be self hosted, you can post from email,  and has much
+better threading. I wrote a small bot to quickly create emoji
+polls. 
+
+First I asked for the students to share their birtdays - just month
+and day in the form MMDD so if you were born on March 12th you would
+write 0312 in the chat. 
+
+Then, I picked one birthday at random, let's say 0515. 
+
+I then created a poll: 
+
+#+begin_quote
+:dog: My birthday is earlier in the year than 0515
+
+:cat: My birthday is later in the year than 0515
+#+end_quote
+
+The bot tags the post with the emoji and the class can click on their
+choice. 
+
+We then talk about what we now know - 
+
+1. We now know the exact location of 0515 with respect to all the
+   dates
+2. The data set is now partially ordered (everything less than 0515 to
+   the left, greater to the right).
+
+I also drew out some diagrams showing what was happening 
+
+This is also one iteration of the Quicksort. 
+
+
+We do this again on one side and continue to discuss. 
+
+From here we finish developing the algorithm and we're off to the
+races.
+
+As usual, I won't know for a while how well this worked or if it did
+at all but the students seemed to be engaged and so far I think it
+helped get a good feel for how the algorithm worked. 
+
+Using Zulip or other chat polls in this case made the motivating
+activity easy and seamless. I'm not sure that this particular activity
+would be as easy to implement in person unless you used some
+technology like clickers. 
+
+We finished off the class discussing how we should test our
+implementations. They're going to test the sorts on a variety of data
+sets including sets where all values are the same or are already
+sorted. Given our naive pivot selection this should lead to some
+pretty bad runtimes -- fodder to motivate the next class.
