@@ -1,0 +1,73 @@
+---
+title: New York City has Certified CS Teachers
+date: 2021-03-23T19:35:57-04:00
+tags: 
+- CSed
+- CS4All
+- certification
+categories: 
+- CS4All
+draft: false
+---
+
+I'm super proud to say that New York City now has state certified
+Computer Science Teachers!!!!!!
+
+
+{{<figure src="/img/cs-cert.png" align="center" width="500px" >}}
+
+It's been a long road - really long if you consider I got started on
+my CS Ed journey decades ago and there's a long road ahead but we hit
+a major milestone. 
+
+
+I started at Hunter a little over five years ago and creating teacher
+certification programs was one of the goals. Back then, the state had
+neither CS certification nor CS standards. The certification area was
+created a year or so ago and the standards were just adopted this past
+December. Hunter's programs were approved December 2019 and we started
+our first advanced certificate cohort last summer. 
+
+Twenty one working teachers, all certified in another subject
+area. They spent a big chunk of their summer with us all day every day
+and continued on with classes and field work in the Fall. Many
+finished last December while a few needed one more course which
+they're taking now. Earlier today on our Slack, teachers from that
+cohort started sharing that they either received their state
+certificates in the mail or that they looked themselves up on the
+NYSED web site and confirmed that they were now certified to teach
+computer science in the state of NY.
+
+This is big news.
+
+The entire cohort came in as strong teachers and they all grew
+tremendously in terms of CS knowledge and their ability to teach
+it. Now they represent the first of a growing group of certified CS
+teachers - education leaders to provide a core of experts in terms of
+both CS content and how to teach it.
+
+I'm super proud of the cohort and super proud to be part of this. One
+of the best parts for me have been meeting and working with these
+great teachers and having this new learning network form - hopefully
+we can keep it growing for years to come. Another is being able to get
+the band back together - I was able to bring in my old partners in
+crime JonAlf and Topher to teach and anyone who's seen them teach know
+that they're the best. I couldn't include our other co-conspirator,
+Sam, because he was on sabbatical and couldn't work but hopefully that
+will change next time around. Not having a team at Hunter has been
+really one of the few downsides so being able to work with my "go to
+guys" again was a blast.
+
+We also have our Masters program well underway so the pipeline of CS
+teachers is starting to form. 
+
+This is exciting news for New York City, Hunter and for me
+personally. Long road ahead but as of today, a bunch of students in
+NYC are being taught by state certified computer science teachers and
+there will be more to come.
+
+
+
+
+
+
