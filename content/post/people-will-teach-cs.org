@@ -1,0 +1,99 @@
+---
+title: If you build programs, teachers will come
+date: 2021-05-27T06:53:26-04:00
+tags:
+- csed
+- certification  
+categories:
+- csed
+draft: false
+--- 
+
+It's been a month since my last post. In fact it seems that most of
+the usual CS Ed bloggers are down in frequency this year. For me it's
+probably been Covid fatigue and the resulting funk but I'm going to
+see if I can force myself to write more frequently.
+
+So, the other day someone was asking about CS certification in NY
+state on Facebook. One comment caught my eye. It was about Michigan
+dropping all requirements to teach CS because, and I'm paraphrasing
+here, nobody who knows enough CS to go into industry will ever become
+a teacher.
+
+I both resent and resemble that remark as do a handful of my
+colleagues.
+
+I've heard this argument many times. A particularly disgusting version
+goes "if we teach CS teachers too much CS they'll leave for industry."
+
+I don't buy it. That's just an excuse and it'll keep our students from
+getting the teachers they both need and deserve. Why don't I buy it?
+Math and Science. CS is the hot subject these days and, at least in
+theory, with a strong tech background you can "easily" get a high
+paying job but CS wasn't always the be all and end all. There were and
+are other fields that pay well and can pull from our pool of potential
+teachers.
+
+Let's dig a little deeper. Nowadays you can become certified in math
+or science in New York state by completing an "approved program,"
+taking some state exams and jumping through a few hoops. This has led
+programs in "math education." Some of these  programs provide teachers
+with a solid foundation in math but some, not so much. Back before no
+child left behind, at least in New York City, you had to actually know
+your math. You needed legit math credits as opposed to math-ed (which
+can be legit or lame) and you had to get through the "board of
+examiners" where you had to face a panel of teachers and assistant
+principals who could grill you on all manner of content.
+
+Where am I going with this?
+
+Well, a math teacher who knows their math, at least in NY has plenty
+of alternatives. Accounting has always been a mainstay but for the big
+bucks we have wall street. How is it we have math teachers that know
+math when wall street and those big bonuses beckon? Same thing with
+some of the sciences - we've got big pharma right across the river.
+
+The truth is that some people are good in their subject area and
+actually want to become teachers. This might not be the majority of CS
+people, math people etc. but there are some. Math and science might be
+shortage areas in schools over time but somehow schools manage to find
+teachers.
+
+
+The problem with CS is that there was never a career path. If you knew
+CS you couldn't get certification so you had to go in through math or
+some other subject. Then you had to find a school where you could
+teach CS and of course, for seniority and job retention you were
+always lumped in with another discipline.
+
+Now, a career path is developing. We've got programs like mine at
+Hunter through which a prospective teacher can become certified and we
+have schools starting to offer CS and they'll want to hire those CS
+teachers.
+
+It'll just take time.
+
+Our first Masters cohort at Hunter has four students in it. Our
+second, which will start in the Fall looks like it will have
+around 6. These are small but from what I'm told, pretty good sizes
+for a new program, particularly when there was zero advertising and
+outreach. I've also started to get questions from undergraduate CS
+students.
+
+We're not going to solve K12 CS education over night. We've got to play
+the long game. Positions that need certified CS teachers are starting
+to appear as are pathways to certification. There will be people who
+want to teach and want to teach CS. If we give them the pathway they
+will come.
+
+As a final thought though, knowledgeable CS teachers do have a
+choice. So do knowledgable math and science teachers. If they're
+leaving teaching or not even entering the profession it's not because
+of CS, math, or science. It's because we've made teaching as a
+profession so undesireable and those teachers have options. That's why
+I found that version of the argument I mentioned up at the top so
+disgusting. People who don't want CS teachers to know real CS are
+really saying that the only way they can get and keep teachers is to
+in fact keep them uneducated.
+
+
