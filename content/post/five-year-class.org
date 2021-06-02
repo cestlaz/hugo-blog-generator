@@ -1,0 +1,80 @@
+---
+title: Finally got the class working - only took five years
+date: 2021-06-02T08:36:53-04:00
+tags:
+- CS Education
+categories:
+- CS Education
+draft: false
+--- 
+
+You don't become a master teacher overnight. It takes years, perhaps
+decades. Year one, you're just trying to survive. Year two is
+frequently a small step back. Year three on is slow improvement
+provide the teacher works to improve. To me and eight to ten year
+teacher is usually an advanced beginner, fifteen years?
+Seasoned. Master teacher? You're probably pushing close to 20 years or
+more. Of course, there are exceptions but this is the pattern I've
+most often observed (burnout notwithstanding).
+
+Why such a long developmental timeline? Part of it is the feedback
+loop. At best your cycle is one semester but more often than not it's
+a year. You do something once and then you don't really know if it
+worked until way later if ever. You also can't try it again until
+next year and even then, it'll be with different students and possibly
+with all sorts of different variables. 
+
+That's why I was happy when this semester ended and I felt that I
+finally got one of my classes to where I wanted it. It only took five
+years. Actually five years but having taught it 8 times over those
+five years.
+
+The class in question is the lab/recitation for Hunter's CSCI13500 -
+essentially CS1. For the non-Daedalus sections, they basically do a
+programming lab per week. For me, my students do those labs albeit
+usually outside of class time and we do enrichment. One of the
+challenges is that I have to follow the lead of the main course
+instructor who designs the labs and controls the class sequence. I
+have some leway but I can't for instance decide to teach classes way
+earlier.
+
+Over the eight iterations I've tried different different things but I
+think I've finally settled on what and how things happen in the
+class.
+
+While I still follow the thirteen labs given by the mane instructor in
+sequence, they use Gradescope and I use GitHub Classroom. I also use
+unit tests to grade the labs which gives me a platform to develop the
+idea of testing both in general and as an industry practice. We go
+from nothing to discussing testing and me providing test cases to them
+designing their tests for later labs. Since we're using GitHub
+Classroom that allows us to leverage that as well. We'll talk about SE
+practices like using version control, build tools (make), code review,
+etc.. This is all part of the enrichment which also includes students
+working on projects started by other students.
+
+We also do some direct CS enrichment by extending some of the
+labs. Two labs that have been used recently have particularly lent
+themselves to extensions. One was a lab based on rotational ciphers
+which I extend by covering a decoder and there's a 2D image lab based
+on arrays that lends itself to all sorts of extensions - I like seam
+carving.
+
+This is what I landed on but I also tried other things that didn't
+work and some of this will change in the future. The point is that it
+took years. I couldn't do something one week and then immediately try
+something else. Sure, you can do that with specific teaching
+techniques but not with a class overall.
+
+One of the other classes I'm still tweaking is CSC23500 - essentially
+data structures. I taught it for decades as part of APCS-AB but
+Hunter's a new audience - different circumstances, different
+constraints, and differnet advantages. First time through I wasn't
+super happy with my performance. Second year I made some positive
+adjustments and was happier - Covid mid semester notwithstanding. This
+year, I think I got the structure down. It was remote and during Covid
+so there were other challenges so I won't really know until the fourth
+iteration but I think I'm getting there.
+
+So, all this is to say that improvement in teaching and improvement in
+classes doesn't happen overnight. Education is the long game.
