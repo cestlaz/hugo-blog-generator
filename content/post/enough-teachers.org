@@ -23,7 +23,7 @@ there?"
 
 Let's look at New York City. We've got approximately 1,000,000
 students in our public schools. Let's say that's grades 1
-to 12. That's 8333 per grade. Let's take one particular grade and see
+to 12. That's 83333 per grade. Let's take one particular grade and see
 how many classes. At 34 students per class we get 2450 classes. Since
 teachers typically teach five classes that means to cover 1 class for
 every student in one particular grade we'll need about 500 teachers to
