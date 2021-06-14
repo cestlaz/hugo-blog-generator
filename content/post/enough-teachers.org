@@ -1,0 +1,83 @@
+---
+title: But we don't have enough teachers!!
+date: 2021-06-14T07:55:01-04:00
+tags:
+- CS Ed
+- Teacher Prep
+categories:
+- CS Ed
+draft: false
+--- 
+
+A common refrain against requiring CS in our K12 schools is that we
+don't have the teachers and we won't any time soon. Sure, we don't
+right now but we won't if we don't do something about it.
+
+
+#+begin_export html
+<img width="300" src="https://s-media-cache-ak0.pinimg.com/736x/16/71/5c/16715cc71bd6c28da0b32f24afec5045--simpsons-quotes-los-simpsons.jpg">
+#+end_export
+
+The question to ask is "how long will it take" and "how do we get
+there?"
+
+Let's look at New York City. We've got approximately 1,000,000
+students in our public schools. Let's say that's grades 1
+to 12. That's 8333 per grade. Let's take one particular grade and see
+how many classes. At 34 students per class we get 2450 classes. Since
+teachers typically teach five classes that means to cover 1 class for
+every student in one particular grade we'll need about 500 teachers to
+cover a full year class. 250 if the class is only one semester. 
+
+
+This if, of course, just back of the envelope calculating and we'd
+need a good deal more to really do justice to teaching CS in K12 but
+500 sounds like a reasonable critical mass to say "we're teaching CS."
+
+How long until we can get there?
+
+At Hunter we started our advanced certificate program a year
+ago. The cert program is specifically for teachers licensed in another
+area seeking to add the New York State CS credential. Our first cohort
+graduated 21 and I can proudly say they're all very well prepared to
+teach CS in K12. They know their content and how to teach it. We're
+starting another batch in two weeks and a third cohort next summer. By
+June 2023 we should have between 60 and 100 teachers certified. That's
+not bad. We'll have a core group of teacher leaders three years from
+our start. 
+
+How are we doing this? What's the incentive for current teachers to
+get this new certification? It's an opportunity to really learn some
+CS and how to teach it. All the training and PD based models just
+don't cut it long term. On the other hand, it costs a pretty penny -
+21 graduate credits. True, those credits can be applied to salary
+differentials but still. Also, while the state could just flat out
+require the certification but they've put in a generous ramp up -
+teachers will need the credential but not for a few year.
+
+The biggest reason we've been able to get these teachers in is the
+generosity of the New York Tech community. We've been able to provide
+financial support to these teachers looking to be our leaders moving
+forward. 
+
+Going with that, we have 4 students currently in our Masters program
+with another 6 or so slated to start in the Fall and that's with zero
+advertising and outreach. I expect that in a couple of years, the
+demand for the certificate program will wane while it accelerates for
+the masters program. 
+
+We're not going to have all the teachers we need in three years or
+even in five but in three we'll have a solid core. As other
+certification programs come online the city will increase it's teacher
+training capacity and as we close in on 2026 when CS4All will expect
+all schools to offer CS, we'll have a good number of qualified
+teachers to fill the need.
+
+Sure, it'll take a decade or longer to finish the job but you've got
+to start with a plan and a vision and lots of support. At least in NYC
+we've got all three.
+
+
+
+
+
