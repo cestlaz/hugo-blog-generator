@@ -1,0 +1,92 @@
+---
+title: They're all good first programming languages ;-)
+date: 2021-06-25T10:06:36-04:00
+tags:
+- CS Ed
+categories:
+- CS Ed
+draft: false
+---
+
+There's been a lot of chatter recently about the first programming
+language to teach. First, I read a Facebook thread focussing on Java,
+C and C++ and then, presumably unrelated, Mark Guzdial posted [[https://cacm.acm.org/blogs/blog-cacm/253393-why-did-we-ever-think-the-first-programming-language-didnt-matter/fulltext][this]]
+which lead to another Facebook discussing and then yesterday I noticed
+a Twitter thread started by someone in the Bootcamp world asking
+people what their first language was which resulted in answers ranging
+from JS to PHP to Perl to a bunch of others.
+
+A question Mark said he was thinking about recently was "Why did
+anyone ever think that the first programming language didn’t matter?"
+
+I don't think people were thinking it didn't matter but it was rather
+like Anton Ego's commenting on Gusteu's "Anyone can cook."
+
+#+begin_export html
+<img width="300" src="https://1.bp.blogspot.com/-lS9ekZSoIxw/XRkKDhIOO5I/AAAAAAAAd9M/H-Bjekcvh4IH_86RZlFcAikZvbqBY7uuwCLcBGAs/s1600/anyone-can-cook-book.jpg">
+#+end_export
+
+It's not that anyone can cook but rather great cooking can come from
+anywhere. It's not that the language doesn't matter but rather any
+language (or maybe most any language) *can* be used as a first
+language under the right set of circumstances.
+
+All to often the argument goes like:
+
+#+begin_quote
+
+"I start my kids with C"
+
+"But that's no good - pointers - that's why I use Javascript - it's practical"
+
+"But the development tools are lousy for beginners, not to mention the tool chain"
+
+"Yeah but it's ubiquitous, anyway how about Java"
+
+"Too much overhead. Maybe scratch"
+
+"No way, the kids will think it's inauthentic."
+
+"I know, apl!!!!!!!!"
+
+"DEAL!!!!"
+#+end_quote
+
+Most of the discussion focuses on the language. Maybe on the related
+toolset and ecosystem. A few of us though, have been pushing the fact
+that there's more to the equation. Teacher knowledge, comfort, and
+passion is a HUGE part of the equation. So is the student level and
+background. Mark raised an important factor in his post:
+
+#+begin_quote
+The first programming language is particularly important when we think
+about programming for other-than-CS majors. Students want to learn
+what’s valued in their desired community of practice. If a student
+wants to become a data scientist, R or Python makes a lot more sense
+than learning C.
+#+end_quote
+
+This is probably more relevant at the college level than K12 but still
+important to consider for the earlier grades as well. I say consider
+though because, as always, the real answer is "it depends." Back when
+Bioinformatics started to get hot in the '90s I seem to recall Perl
+being the flavor of choice. Those of you who like me battled with Perl
+and its "write once read never" approach to programming would agree
+that even if it was the Lingua Franca of bioinformatics, I don't know
+if I would take beginners down a path so fraught with peril.
+
+The truth is that the language does matter but there's a lot of
+latitude. Probably more for a general purpose programming intro
+rather than for a specific discipline but even then. All things being
+equal, I'd probably say that teacher comfort might be the most
+important one to start with but that only holds when a teacher starts
+teaching a class. I think it's beholden on the teacher to then explore
+alternatives and if another language makes more sense, become familiar
+with it.
+
+In any event, that's my two cents. This conversation comes around a
+couple of times a year. A couple of rounds ago I think it revolved
+around Javascript so, we're talking language. Last time, I and others
+brought up teachers, their backgrounds and comfort levels. Now Mark's
+bringing another dimension. It's nice to see the dialog evolving.
+
