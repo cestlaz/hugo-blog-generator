@@ -1,0 +1,84 @@
+---
+title: Computer Science is not (inherently) fun
+date: 2021-07-01T09:56:06-04:00
+tags:
+- teaching
+categories:
+- teaching
+draft: false
+--- 
+
+I saw a tweet the other day by a CS teacher. They were talking about
+how much easier it is to teach CS because it's fun.
+
+They went on about how they get to create cool problems which makes it
+so much easier to teach than other subjects.
+
+
+
+
+I've heard this a lot over the years particularly from teachers who
+are into gaming - "CS is fun because you can create games."
+
+Sorry but I have to disagree.
+
+
+#+begin_export html
+<img width="300" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F2394618fcb9a02e206f313155848d2d3%2Ftenor.gif%3Fitemid%3D5765989&f=1&nofb=1">
+#+end_export
+
+
+Don't get me wrong. I think CS is fun (and I'm not a game person) but
+just because I find it fun doesn't mean it's inherently fun.
+
+I used to think like those teachers posting but one day, early in my
+career I was observed by my principal. She liked the lesson but
+focused in on one thing. At one point I mentioned that we could use a
+specific new technique and that it was "cool." She asked me "why is it
+cool?" and more importantly "why should it be cool for them?" That got
+me thinking. It was cool to me for a variety of reasons but the truth
+was that in a class of 30 high school students, what's cool for one
+person is probably not cool for everyone.
+
+That observation stuck with me. Something that's cool for some of us
+isn't for others. A teacher and some students might love making games
+but it does nothing for me and for many students. Same thing for the
+general building stuff or solving problems. The set of things that will and won't
+motivate students in a CS class is a large one indeed. Now, this
+doesn't mean don't do, for instance, games but rather understand that your students
+will have a wide range of interests so if you do a unit that focuses
+on games, maybe do other things in your other units.
+
+A second issue I have with the "CS is fun" thing is that it implies
+that it's all fun and games and not work. This is particularly a
+problem transitioning from a CS0 to a CS1 class. If you don't set up
+the transition correctly students will find CS1 much more challenging
+and harder and if it's too hard or too challenging that's not
+fun. Besides, even if the class is fun, which should include being
+challenging at the right level there will be times where things are
+just not fun and that's even with the best teacher. 
+
+The final thing that I find off putting about all the "computer
+science is fun" posts. I think it's unfair to other teachers and other
+subjects. History can be tremendous fun - stories, adventures,
+mysteries, predictions and more. It can be taught through traditional
+lessons, role play, art music and the list goes on. English? That's
+also stories, adventures, mysteries etc.. Physics? How about show and
+tell how the world works? To say we have the monopoly on fun is not
+true and unfair. We currently don't have the burden history which
+strictly dictates what, how, and when we teach but we're getting there
+quickly.
+
+The truth is that CS will be inherently fun for some just like any
+other subject and the specifics of what and how a class is taught and
+to whom can greatly influence the level of fun. A strong teacher who's
+passionate about games teaching a game development elective will
+probably be fun for most or all participants but if it were a required
+course, not so much.
+
+CS is our field, we find it fun and interesting and we want to bring
+our passion to our students. That's all good but let's remember that
+it's not special and we're not special. The same can be said for other
+subjects and other teachers and we have to remember that it's not
+about our passions but rather those of our students.
+
