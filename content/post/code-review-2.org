@@ -102,7 +102,7 @@ that can be researched that a single classroom teacher just can't
 approach and finally, to paraphrase a line from Mark Guzdial's talk
 where he specifically addressed other CS Ed researchers - we can build
 things and they need things built - a teacher / researcher partnership
-can open a lot of yet unexplored doors for educators.
+can open a lot of yet unexplored  doors for educators.
 
 
 
