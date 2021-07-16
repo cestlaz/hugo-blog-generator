@@ -1,0 +1,43 @@
+---
+title: Designated Slacker
+date: 2021-07-16T12:42:12-04:00
+tags:
+- pedagogy
+categories:
+- pedagogy
+draft: false
+--- 
+
+Our teacher certification program is in full swing. All day every
+day through the end of the month. We finished off the first course
+about a week ago and are currently covering data structures and
+methods - teaching methods that is.
+
+All day every day is pretty intense and doing it on Zoom doesn't
+help so we try to change things up. As with many Zoom based classes,
+we make use of breakout rooms for small group work. We also use Slack
+for text based communication. Personally, I prefer Zulip but didn't
+have a chance to switch things over. 
+
+Of course we visit them while in breakout rooms we also use Slack
+polls while they're in the rooms since the visits take time and
+sometimes we just want a quick temperature check.
+
+The problem is that we're finding that often, the rooms ignore the
+slack. This wasn't a surprise. Whenever we visit rooms, they're always
+engrossed and engaged in the task. Usually one of them is screen
+sharing and they're all in deep discussion. More often than not they
+don't notice us at all until we say something - that's actually kind
+of cool.
+
+In any event, we decided to try to address the issue. We asked that
+each breakout room have one person who's job would explicitly be
+mannign Slack so that when we sent something we'd get a response.
+
+Topher suggested that we call said person the "designated slacker."
+Who doesn't want to be that????
+
+
+
+That is all.
+
