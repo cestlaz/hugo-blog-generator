@@ -2,10 +2,10 @@
 title: Hunter College CS Teacher Certification Summer 2021
 date: 2021-08-02T08:58:21-04:00
 tags:
-CS Ed
-Pedagogy
+- CS Ed
+- Pedagogy
 categories:
-CS Ed
+- CS Ed
 draft: false
 ---
 
