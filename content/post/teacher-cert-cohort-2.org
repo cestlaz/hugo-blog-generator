@@ -1,0 +1,64 @@
+---
+title: Hunter College CS Teacher Certification Summer 2021
+date: 2021-08-02T08:58:21-04:00
+tags:
+CS Ed
+Pedagogy
+categories:
+CS Ed
+draft: false
+---
+
+Last Friday concluded the summer portion of Hunter's CS Teacher
+Certification program. It was an intense month. All day every day from
+June 28th through July 30. On the one hand between [[https://cestlaz.github.io/post/no-csta2021/][burnout and covid
+fatigue]] it was a tough month and I'm dealing with some much needed
+recovery this week. On the other hand, working with JonAlf, Topher,
+new team member Genady along with around 25 amazing teachers and
+teacher candidates made it a highlight of the year.
+
+last year, the cohort was entirely in service teachers. This year we
+added three Masters students into the mix. I know we had the states
+first certified CS teachers with last years cohort but I'm also
+wondering if we'll have the state's first newly minted teachers with a
+Masters in CS Ed when they finish come May.
+
+Hopefully, this years cohort members are all getting some rest and
+relaxation through August and then we'll kick off again with the
+school year when they'll complete the program in Fall and Spring.
+
+There were some changes from last time around. This time, we were only
+able to run 3 classes during the summer - Programming, Data
+Structures, and Methods 1. Last year we ran four - these three plus
+topics in CS. It was nice getting 12 credits done all at once but the
+switch to 3 classes was probably a good thing. A less good thing
+though was that on the state's insistence we had to teach the courses
+independently as opposed to in an integrated fashion. The idea was
+that this way, people wouldn't have to take all three but the reality
+was that we had a cohort moving through the program as one.
+
+While for the most part, the programming and data structures should be
+independent we lost a good deal of value not being able to integrate
+methods in at the same time. Still overall, based on our perceptions
+and student ratings, things worked well.
+
+In the fall the cohort will continue with Ethics and Computer Science
+along with Curriculum Development and then two final classes in the
+Spring.
+
+This will give us close to 50 certified teachers in NY state which,
+while not close to enough is a good start. We're hoping to more than
+double that with next years cohort.
+
+The biggest obstacle we have is that our program requires some
+fundamental knowledge in a text based programming language and as it
+turns out, very few teachers currently teaching CS in NYC have
+that. To help address this, we'll start offering free workshops in the
+Fall to get current teachers up to speed so they'll be more than ready
+for our program come cohort three.
+
+If you're a CS teacher in NYC, keep an eye out for those when the
+school year starts.
+
+
+
