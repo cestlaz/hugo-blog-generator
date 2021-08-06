@@ -1,0 +1,64 @@
+---
+title: Why it takes so long to become a better teacher
+date: 2021-08-06T06:54:15-04:00
+tags:
+- pedagogy
+- teaching   
+categories:
+- pedagogy
+draft: false
+---
+#+begin_export html
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+#+end_export
+
+
+I've written about how long it takes to become a [[https://cestlaz.github.io/post/five-year-class/][master teacher]] and
+that even after 9 or 10 years most teachers are really just advanced
+beginners. A big reason for that is our long feedback loop. You do
+something and you can't do it again for a year.
+
+I was listening to a podcast on my morning run by the Hudson River and
+something came up about differences between quantities of items. The difference
+between having n versus n+1 of something changes based on the value of n. If, for example, you have 1 versus 2 shoes - that's a BIG
+difference. On the other hand, if you have 100 vs 101 shoes, not so
+much.
+
+
+ 
+This got me thinking about how I framed things when teaching
+big-O notation. In big-O you generally just look at the dominant
+term. If you have an algorithm that runs in \(O(n^2+n)\) time you
+usually just say \(O(n^2)\) because \(n^2\) is the dominant term. If you n
+is small, let's say 2, the difference between 2 and 4 is big so the n
+part of \(n^2+n\) seems important but as n gets large, say 10,000, then
+the difference between 100,000,000 and 100,010,000 is negligible for
+our purposes.
+
+I try to introduce this concept when teaching big-O but listening to
+the podcast and reflecting gave me some thoughts as to how I can do it
+better.
+
+The trouble is, I won't be able to for a while. I introduced big-O to
+our teachers in our summer intensive. My next opportunity to cover the
+topic will be sometime this Spring with my first year undergrads. Same
+topic, but different audience so it won't be quite the same. The next
+time I get to do this with teachers is next summer. All this supposes
+that I remember the changes I'm thinking about making and work them
+in. I'm writing myself a few notes but even then, who's to say if I'm
+going to remember the nuance that I'm thinking now?
+
+That's the teaching feedback loop - get an idea, try it, and then
+can't iterate for a year. Get a new idea and you can't try it until
+the topics comes up which could be a long time from now.  True, some
+things like a new pedagogical trick can be tried out more quickly but
+even then you can't just do it. You've got to find where it works
+within your current classes and still have to account for the
+countless differences that make up your classes when you're ready for
+the next iteration.
+
+None of this is good or bad, just the nature of our profession. Just
+something that I was thinking about this morning.
