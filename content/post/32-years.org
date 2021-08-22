@@ -1,0 +1,58 @@
+---
+title: \(2^5\) Years Teaching 
+date: 2021-08-21T13:02:56-04:00
+tags:
+- teaching
+categories:
+- teaching 
+draft: false
+---
+
+#+begin_export html
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+#+end_export
+
+I was looking over my TRS statement the other day - that's Teacher's
+Retirement System and noticed that next week I'll be starting my 32nd
+year teaching. That's \(2^5\) or 10000 - 5 bits so I guess you can't
+call me a two bit teacher.
+
+Two and a half years at Seward, over 20 at Stuy, and the rest at
+Hunter College. I've had a lot of last days before school starts but
+this year is different. I'm betting that's the case for a lot of us.
+
+I mentioned about burnout and not feeling any joy when I wrote about the
+[[/post/no-csta2021/][CSTA conference]] but we're also starting a new year in a strange place
+due to the pandemic. On the one hand we have vaccines but on the
+other, we've got Delta. I'm scheduled to teach my undergraduate
+classes in person and to be honest, I'm not 100% comfortable. Will
+that affect my teaching? I guess we'll see.
+
+Then we have practical concerns. My students should all be distancing
+so how will that affect group work?
+
+As I'm writing this I just got an email from Hunter saying that
+students will have 45 days post FDA approval to get vaccinated. The
+wording seems to contradict the previous policy that in order for
+students to enter campus they had to be vaccinated. This is concerning
+to say the least.
+
+When I started teaching I was always nervous before the first day back
+and then again for the first day teaching. Mid career it was more of
+an excited nervousness. Ultimately the nerves went away and while I
+sorely needed vacation in June by September I was looking forward to
+seeing my students again. This year it's mostly nervousness, discomfort and
+uncertainty. 
+
+I don't write this merely to complain but rather to share. I figure if
+I'm feeling this way so probably are others. We're not alone.  
+
+I've got some CS and teaching content posts lined up and plan to start
+with them next week as things get back in the swing but for now, good
+luck to everyone starting back up.
+
+
+
