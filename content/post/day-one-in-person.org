@@ -12,7 +12,7 @@ Yesterday was my first day of in person teaching since early
 March 2020. It was,... interesting.
 
 I was looking forward to actually seeing my  students in person but as
-I mentioned in my [[/post/32-years/#disqus_thread][last post]], i wasn't comfortable given Hunter's
+I mentioned in my [[https://cestlaz.github.io/post/32-years/][last post]], i wasn't comfortable given Hunter's
 current COVID policy and Delta.
 
 I'll be happier come mid October when 100% of students on campus will
