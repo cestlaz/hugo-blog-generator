@@ -1,0 +1,73 @@
+---
+title: Calling an audible 
+date: 2021-09-02T13:48:09-04:00
+tags:
+- teaching
+categories:
+- teaching
+draft: false
+---
+
+
+Be ready to call an audible.
+
+This was advice I got during my third year teaching. I had just
+transferred from Seward Park to Stuy and was being observed for the
+first time by my former teacher and now supervisor Richie
+Rothenberg. I forget exactly what the lesson was on - something with
+coordinate geometry I think. The lesson was okay but it wasn't going
+over well with the class. I was teaching at too low a level for my
+audience. I could feel it as I was teaching but as I was pretty
+inexperienced I wasn't confident in changing things up on the fly.
+
+Afterwards, Richie and I debriefed. He said the lesson was
+satisfactory - the magic word you need on any observation but that it
+could have been much better. I had only been teaching at Stuy for a
+few weeks and even though I was a Stuy grad I hadn't had time to get
+my head around where the students were at. Richie said that sometimes
+you just have to call an audible. For a young teacher, easier said
+than done. In addition to not having a great handle on my students yet
+I also wasn't confident in flying without a net. 
+
+This is why it's so important for teachers to really know their
+stuff - both the content and how to teach it. It's why I'm concerned
+when I see so many leaders in CS education pushing scripted curricula
+and PD based training to fully "prepare" CS teachers in just a few PD
+sessions.
+
+First time through, particularly when you're voluntold to teach a new
+class you just want to survive. Follow that script, learn with your
+kids and get through. You'll grow and the kids will be richer than had
+you not gone through the fire with them.
+
+Two or three years down the road, however, if you're still just
+following the script you're doing your students a disservice.
+
+Of course, having subject knowledge doesn't mean you have all the
+answers but it lets you call that audible when a class needs something
+that is not in the lesson plan or lets you talk about multiple
+positions on subjects with no single best answer like coding style.
+
+And then calling an audible isn't always about making a lesson more
+advanced. It can also be about sensing what a class needs at that
+time. This is something I learned from Bruce Baskind at Seward
+Park. I've lost touch with Bruce but he was a mentor and a friend when
+I started this teaching thing and without the support I got from Bruce
+and a handful of others back at Seward, I wouldn't have made it.
+
+Sometimes, you've got to turn off the academics. A class might need a
+team building exercise or maybe just something fun. They might just
+need to turn off school for part or all of the period. Sure, you burn
+a lesson but sometimes that's what the kids need and at the end of the
+semester, they'll be further along for it. I'd sometimes take a block
+of class time and do Story Time - literally right out of grade
+school - usually something from [[https://www.personal.psu.edu/faculty/k/u/kuc14/sunny/Children%20Literature/The%20stinky%20cheese%20man/stinky%20cheese%20man.pdf][The Stinky Cheese Man]] like "The Really
+Ugly Duckling." In some ways it's related to the [[https://www.youtube.com/playlist?list=PL9KxKa8NpFxJYgovyJhF4HZRsAqYKBLiG][Halloween Stuff]] I
+used to do at Stuy. Those were preplanned but that was all about
+relationship building with the class - the non academic stuff that
+supports the academics the rest of the year.
+
+As this post is beginning to wander I think I'll stop.
+
+Next up - a specific audible I called that, at least for one student,
+turned into a very memorable lesson.
