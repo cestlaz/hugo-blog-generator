@@ -1,0 +1,99 @@
+---
+title: Should every assignment be open ended?
+date: 2021-09-05T06:43:53-04:00
+tags:
+- pedagogy
+- teaching
+categories:
+- pedagogy
+draft: false
+--- 
+
+[[https://blog.acthompson.net/2021/09/are-you-assigning-projects-or-recipes.html][This post]] by my friend [[https://twitter.com/alfredtwo][Alfred]] caught my eye yesterday. It's a good
+post - some good examples of inserting student creativity even into small
+intro level assignments. While I like the post and agree with the
+sentiment of open ended, student driven projects, I had to take issue
+with the lead quote Alfred used: 
+
+#+begin_quote
+“If you assign a project and get back 30 of the same thing, that’s not
+a project, that is a recipe.”
+
+-- Chris Lehmann
+#+end_quote
+
+Open ended projects and student driven assignments are great and
+important but so are ones with similar or identical solutions and
+they're also not recipes.
+
+First, there's a certain level of utility in a uniform assignment. If
+the assignment is "write a program to convert Fahrenheit to Celsius"
+you know that all the students know the conversion as you can provide
+it and it also allows them to easily check their work, either through
+an autograder or with each other. Yes, I know, some students students
+could be tempted to cut corners and copy solutions but usually
+attempts to control cheating do more to constrain students doing
+things the right way than to prevent the cheaters from cheating.
+
+Also, some student, particularly early on need the structure of a set
+assignment and don't do as well with a "do anything assignment."
+Saying "just make a converter" can be much more stressful and
+difficult than convert from pounds to kilograms.
+
+As to recipes? Not necessarily. Let's take this small assignment:
+
+#+begin_quote
+Given two variables *a* and *b*, write a code fragment that will swap
+the values represented by *a* and *b*. That is, if at the start, *a*
+represented *5* and *b* represented *10*, after your code, *a* would
+represent *10* and *b* would represent *5*.
+#+end_quote
+
+You could even add a hint:
+
+#+begin_quote
+*HINT:* Consider using an extra third variable in your solution.
+#+end_quote
+
+This isn't a recipe, it's an assignment. Even with the hint it doesn't
+tell the students exactly what to do, just the desired outcome. It's
+not a recipe but most or all of the solutions will look remarkably
+similar.
+
+By contrast, a swap "recipe" might read:
+
+ 1. Create a new variable named *extraBucket*
+ 2. Assign the value currently in *b* to *extraBucket*
+ 3. Assign the value currently in *a* to *b*
+ 4. Assign the value currently in *extraBucket* to *a*
+
+This is a recipe. A student would literally just rewrite the steps
+into the solution but even this might have it's place in a class.
+
+A more advanced assignment that leads students through building and
+understanding something like a merge or quicksort could be set up
+similarly. Not in any way a recipe but rather a valuable exercise
+where all the students end up with very similar solutions. This is not
+necessarily a bad thing, in fact it was all the rage a few years ago
+as it could be set up as a discovery or experiential learning
+experience. I also poo pooed that as being the silver bullet but as
+with most teaching techniques, it has its place. 
+
+Then there are opportunities to introduce student creativity even when
+the assignments are, at their core, all the same. I recall a session
+at either SIGCSE or CSTA by [[https://www.bootstrapworld.org/][Bootstrapworld]]. They were describing one
+of their classes major projects. It was a game. I forget the details
+but at the core, all the student projects were the same. They differed
+only in the graphics they used and the story around the game. That's
+where Boostrapworld interjected student creativity but the core CS and
+math of the student projects were all the same. Did the fact that all
+the assignments were essentially the same make this bad or a recipe?
+Certainly not. Students go to express themselves uniquely but at the
+same time the assignment was constrained and focused on what the
+Bootstrapworld designers wanted.
+
+So, there you have it. There's nothing wrong with assignments where
+the student results are largely the same. There's also nothing wrong
+with student projects that are 100% open ended. It's all about the
+teacher having multiple tools and using them as appropriate for their
+students. 
