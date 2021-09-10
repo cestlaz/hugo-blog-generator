@@ -1,0 +1,105 @@
+---
+title: A Memorable Lesson (at least for one student)
+date: 2021-09-10T13:31:22-04:00
+tags:
+- pedagogy
+- teaching
+categories:
+- pedagogy
+draft: false
+--- 
+
+Back to calling an audible.
+
+Around seven years ago I was visiting with some former students at
+Google in Mountain View. One of them from way back in the late 90s,
+Pawel, out of the blue said there was one lesson I taught that was
+particularly memorable. Not memorable in the "that was fun" way like
+maybe my Halloween adventures but memorable in that he felt he got a
+lot more out of it than a normal lesson. Pawel mentioned a few of the
+things he still remembered about a lesson he saw over two decades
+earlier. 
+
+It was, in fact, one of the first big CS audibles that I can
+remember calling. 
+
+It was second semester APCS - probably right after the AB exam. I
+guess I'd been teaching around seven years so I'd classify myself as
+an advanced beginner. I also hadn't done any serious programming and
+problem solving since I started teaching.
+
+Was I a fraud?
+
+Impostor syndrome was creeping in.
+
+Back then I had a bunch of students who participated in the [[http://usaco.org/][USACO]] and
+would discuss the programming from their competitions. While I talked
+a good game, I started to wonder if I could back it up. Should I
+really be telling these kids about best practices for problem solving
+ad programming if I just talked the talk and couldn't walk the walk?
+
+To test myself, I decided to work through some of the competition problems. I figured
+that I didn't have to be able to solve the hardest of the hard ones
+since only the best of the best solved in that stratosphere but if I
+should be able to solve or at least approach most of the advanced
+problems.
+
+After some problem solving and coding I felt much better about
+myself. I wasn't living a lie.
+
+I particularly liked the Digit Pals problem. Question 4 from the
+1996-1997 [[https://www.angelfire.com/ca2/lorddave/usa974.html][National Championship]].
+
+Fast forward to class a few days later. Early in the period, for some
+reason, I wasn't happy with where things were going so I decided to
+totally change directions. I decided I'd do a lesson that was
+basically a walkthrough of my problem solving and coding process for
+Digit Pals.
+
+I started by looking at the problem, working through example and then
+some of the things we discussed included:
+ - data representation (2D array)
+ - the high level logic of removing a digit pal (recursive flood fill)
+ - the high level logic of sliding down and over
+ - how to solve the whole thing.
+
+For the overall solver, I decided to go with a straightforward, blind,
+recursive search. I figured it would be fast enough for two
+reasons. First, I figured that since, if you remove the digit pal at
+any location, it's the same as removing that pal from any of it's
+locations so that there would likely be many many solutions and
+second, there was a line in the problem statement saying that your
+solution might not work on large cases. In any event, when all was
+said and done and they released the test data, my solution worked
+within time constraints.
+
+After the design phase, I went to the live coding with a focus on:
+
+ - compiling and testing every concept. That is, a single loop, a
+   single if, a function etc.. This may sound excessive but I've been
+   doing this forever and it's served me well as a hobbyist and as a
+   professional.
+ - Implementing the data structure first - a 2D array and then a way
+   to print it so that I could always tell the state of my program.
+ - incremental development - first remove a pal, then slide down, then
+   over, then the solver.
+
+When it was all over the problem was solved. I'd like to think that
+the students got something out of the audible. I learned years later
+that at least one student did. As a teacher, I also got a lot out of
+it. That day might not have been my first live coding lesson but it's
+the earliest one I remember. It was all impromptu but it got me
+thinking more deeply about how I approach problem solving and
+programming as well as how to teach both. Even all the little things
+like my compulsive compiling and testing.
+
+Funny - I have no idea what I was originally going to teach that day
+but that audible turned into both a lesson I've repeated many times
+as well as concrete techniques that I've used over and over through
+the years.
+
+ 
+   
+
+
+
