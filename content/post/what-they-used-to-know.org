@@ -1,0 +1,154 @@
+---
+title: What They Used To Know
+date: 2021-09-16T10:42:05-04:00
+tags:
+- education
+categories:
+- education
+draft: false
+---
+
+I saw this tweet by Julia Evans the other day.
+
+#+begin_export html
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">if you&#39;ve
+been working in computing for &gt; 15 years -- are there fundamentals
+that you learned &quot;on the job&quot; 15 years ago that you think
+most people aren&#39;t learning on the job today?<br><br>(I&#39;m
+thinking about how for example nobody has ever paid me to write C
+code)</p>&mdash; 🔎Julia Evans🔍 (@b0rk) <a
+href="https://twitter.com/b0rk/status/1435965181847343108?ref_src=twsrc%5Etfw">September
+9, 2021</a></blockquote> <script async
+src="https://platform.twitter.com/widgets.js"
+charset="utf-8"></script>
+
+#+end_export
+
+I've never met Julia but have been following her on Twitter and
+reading her [[https://jvns.ca/][blog]] for some time now.
+
+The tweet got me thinking. Not so much about learning on the job but
+rather on how colleges prepare their students. Recent boutique majors
+and concentrations notwithstanding, a degree in CS seems to have
+largely stayed the same from the early/mid 1980s when I got my BA to
+today. There are variations but it was and still is largely
+
+ - programming-->data structures-->algorithms
+ - some systems or OS stuff
+ - some theory 
+ - math: calc 1, calc 2, discrete, linear, maybe stats
+ - another requirement or two which might differ based on institution
+ - electives
+
+Sure, programs have changed over the years. At one point, computer
+graphics was hot. Now, not so much. Courses like compilers also used
+to be required more frequently but overall things look much the
+same. That said, there have been some major changes - at least from my
+perspective and those changes really affected how students were
+prepared for professional careers. Now of course this is only my
+perspective so who knows how accurate it is. Regardless, it should be
+good food for thought.
+
+I got my BA back in the mid 80s. That was the start of the PC
+generation. Colleges were starting to get computer labs full of
+IBM-PCs and then  later clones. MS-DOS ruled the day. 
+
+What did that mean?
+
+It meant that while a few years prior, students used a time sharing
+system for their programming classes now they were using  an
+IBM-PC with Turbo Pascal. I can't say for sure but looking back, it
+seemed that people educated in PC heavy programs had a weaker sense of
+all those issues that come with multiple people and multiple processes
+happening on a machine at the same time.
+
+On the other hand, having a relatively simple computer - one that you
+had full control over may have led to an easier time in understanding
+the low level ins and outs. You could learn about low level issues on
+a PC and really understand everything. That doesn't seem to happen as
+much nowadays when even our personal computers and computing devices
+run more like those multi user computers of old than the single
+process no threads IBM-PC.
+
+There was an opportunity to recapture this right before the Arduino
+got big. The Arduino was based on an Atmel processer with a small
+instruction set - a platform where a student could understand
+everything from wire to application. For all the good that the Arduion
+and related projects have led to, they've abstracted that low level
+away.
+
+A few years later Java became a popular college CS language followed
+by Python. Both of these took memory management out of the core
+programming->data structures->algorithms sequence. Sure, you probably got to
+learn a bit about memory management and related issues in your systems
+classes but I have to believe you didn't really own that knowledge
+like you would have had you had to manage memory throughout the core
+courses.
+
+Now, I'm not knocking the change. Moving to Java brought some
+improvements and so does moving to Python. It's just that as a
+language or platform giveth it also taketh away.
+
+The interesting things here is that the changes I noticed were not
+directly intended but rather byproducts of changes made for other
+reasons.
+
+
+A final unintended consequence I noticed also seems to be a byproduct
+of the Java revolution. Years ago after many programs had adopted
+Java I was talking to a friend who was a high level SE at a big NY
+bank. At the time finance was NY's biggest tech employer. I think
+Google might have recently moved to NY but wasn't yet the player
+they'd become - this was pre-IPO days and NY tech hadn't yet
+exploded. My friend was lamenting after a long day of interviews. None
+of his interviewees - all from top rated CS colleges could handle what
+he viewed as easy algorithm questions. Questions a that were
+considered close to trivial by his interviewees from a few years
+back.
+
+After some discussion, we developed a theory. It might not be true but
+looking around the landscape in the months and years following that
+discussion, it might hold some water. With the acceptance of Java
+students were now, more frequently using library calls. The .sort
+method, the built in List, Tree, Map, and Set classes and more. This
+is not to say that the students hadn't learned about, say, the
+mergesort in their data structures or algorithms classes but rather
+they didn't live it. Maybe  they did a quick implementation but then
+it was gone from their memories.  Back in the day, most people in my
+peer group started in Pascal and frequently moved to C. Even though C
+had it's built in sort, we coded our own more frequently. We also
+didn't have easy access to all the data structure and algorithm
+libraries that Java had so we rolled our own and continued to use
+them. When kids who did that interviewed, they could more easily see
+how an interview problem related to an algorithm they coded and
+tweaked half a dozen times. On the other hand, those that saw it once
+and moved to a library didn't have that in depth understanding.
+
+Now, this is not to say that it was better in the old days. When they
+removed memory management, they were able to add other
+topics. Likewise when students didn't need to implement their own
+version of everything for their class projects, instructors could
+steer students towards learning other new things.
+
+I'm not making a judgement call on better or worse but rather that
+even without formal curricular changes the strengths and weaknesses of
+our CS graduates have changed over the years quite possibly as a
+result of unintended consequences of a variety of decisions.
+
+I also don't this only happens in CS. Take a look at math - the big
+one would probably be bringing the calculator to the classroom. The in
+your face change was the idea that on the one hand, students would
+become weaker in arithmetic and manual calculation. On the other hand,
+time could be spent on what might be considered richer topics due to
+time saved. Lost in the shuffle were topics like linear
+interpolation - a useful skill taught to navigate log and trig
+tables. Those skills would be forever lost.
+
+So, there's my rant and ramble inspired by Julia's post.
+
+A day after I saw the tweet I saw [[https://jvns.ca/blog/2021/09/10/hashmaps-make-things-fast/][this post]] by Julia. Unless some
+shiny object distracts me I think I want to look at how the unintended
+consequences from some of the changes I mentioned directly relates to
+it.
+
