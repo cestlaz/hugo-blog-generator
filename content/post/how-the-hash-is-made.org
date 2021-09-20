@@ -1,0 +1,81 @@
+---
+title: How The Hash Is Made
+date: 2021-09-16T17:08:19-04:00
+tags:
+- education
+categories:
+- education 
+draft: false
+--- 
+
+
+Following up on my [[/post/what-they-used-to-know/][last post]].
+
+Soon after I read that tweet, I read Julia's post on [[https://jvns.ca/blog/2021/09/10/hashmaps-make-things-fast/][hash tables]]. This
+got me thinking more about what is and isn't taught in school. Hash
+tables were always taught in CS programs but back in the day you might
+not have used them much after your data structures or algorithms
+classes. Nowadays you're much more likely to use them as they're built
+in to so many platforms.
+
+Hash tables and related structures are great - I use them all the time
+but they can also become a go to without thinking it through. This
+actually came up in conversation with the same my high level SE friend
+at that big bank from the last post. He also noticed that many interviewees would always
+go right to the hash table even when there were red flags in the
+question to warn away fro them.
+
+For a hash table to get you that nice fast expected constant time
+performance, it has to be sparse - few collisions. If you implement a
+closed hash table (all the data is in a single array) and there's not
+a lot of spare space, it will fill up and all of a sudden that O(1)
+insertion and retrieval time will go linear. I can't say for certain
+but I'm guessing the vast majority of Python programmers who use hash
+tables (dictionaries) all the time don't really know this or if they
+do never think about it.
+
+Is this a byproduct of using the built in implementations in college
+combined with self taught programmers never seeing this at all? Maybe
+but this was probably a deficiency even in my day.
+
+This also came up when I accidentally interviewed for a position at
+Google. There was a question about storing and accessing a bunch of
+data. I don't remember the question but there was a key line - "you
+have unlimited storage" which is the trigger phrase for "use a hash
+table." I got a kick out of it but felt this was a you know it or you
+don't. I think I mentioned it to the interviewer.
+
+This also brought to mind another example. Not mine - I read this in
+John Bentley's terrific book [[https://tfetimes.com/wp-content/uploads/2015/04/ProgrammingPearls2nd.pdf]["Programming Pearls."]] The gist was that a
+room full of very smart people were implementing a binary search. The
+idea is that you have an array of data that is sorted and instead of
+looking through every item one at a time, you calculate the middle of
+the array, look there and then, if you haven't found the item, you
+throw away half the data and repeat the process with the remaining
+half.
+
+Every now and then, the implementations had a problem and nobody could
+figure out why. As it turns out, in calculating the midpoint, they'd
+add the lower value and the higher value and then divide the sum by
+two.
+
+Sounds reasonable.
+
+The problem was that when low and high were at the upper end of the
+data set the addition would go past the largest integer wrapping
+around and causing wonky results.
+
+Pretty subtle error but at least you've got a shot at figuring it out
+if you understand integer sizes and how they work on your machine. 
+
+Having some solid low level knowledge won't prevent this bug from
+cropping up but it will give you a fighting chance at fixing it if it
+does. 
+
+This particular problem probably won't come up these days as integers
+are MUCH larger than back in the day but I think it illustrates the
+point.
+
+Anyway, just more food for thought on how CS Education has changed
+over the years, what we leave in, and what we leave out.
+
