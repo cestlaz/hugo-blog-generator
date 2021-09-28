@@ -1,0 +1,85 @@
+---
+title: Turning a good class into a bad lecture
+date: 2021-09-28T08:11:34-04:00
+tags:
+- education
+- teaching
+categories:
+- teaching
+draft: false
+--- 
+
+I've been teaching in person for about a month now so I thought I'd
+give a quick update on how it's going. I've written before about my
+feelings on how Hunter started the semester (TL;DR - I was very
+displeased) but that's not the point of this post. As of today, I
+believe every student has been required to be stabbed at least once
+and on October 11, all students must be fully vaccinated to be on
+campus.
+
+So, off to the report. Going in person sounds great but now that I'm
+doing it, I'm having second thoughts. Let's leave safety precausions
+out of it, I'm having second thoughts just in terms of how the current
+situation and related restrictions have affected my teaching.
+
+Here's the low down. Students are supposed to wear masks at all
+times and I wear mine as well. We're supposed to socially distance but
+that's not possible given class and classroom sizes. Students are also
+supposed to keep the same seed all the time, ostensibly for contact
+tracing should anyone test positive.
+
+To start, day one in person was important - I still haven't met my
+students from last year in person and I'd really like to. This years
+students, at least I've seen all their foreheads.
+
+That's actually an issue. At least for me, the masks make it MUCH
+harder to know my students. Can't get to know a face when you can't
+see two thirds of it and names are going to be even harder for me.
+
+Online, at least for those who put on cameras, we could at least see
+each others full faces and expressions. Zoom doesn't carry the same
+nuance as in person but neither does a masked face.
+
+The masks have another negative. You can't hear anyone. I do my best
+to actively project but students rarely do. This leads to me having
+students repeat themselves multiple times and I also have to adopt a
+conference speaker approach of repeating and projecting what the
+student said so everyone can hear. This absolutely kills interactive
+discussion and even question answer chains. It really pushes a lesson
+more towards a lecture which, well, sucks.
+
+The social distancing and keeping seats also negatively impact the
+environment. I can't get in with my students like I usually do. Even
+when in lecture mode, I'll move to different locations of the room for
+a variety of reasons - that's pretty much out. I also can't just get
+in close to support students. Likewise, group work can't happen in the
+same way. They can kind of sort of work with their direct neighbor but
+I can't have them work with each other as I'd do under normal
+circumstances. 
+
+Don't get me wrong. I won't compromise safety for convenience but the
+safety protocols do a good job in turning a good class into a bad
+lecture. 
+
+Online is also lousy in many ways but as long as the students are
+willing you can all see each others faces and you can do all sorts of
+interesting groupings and group work. I think my code review lesson
+worked pretty much as well and maybe even better online last year than
+it did in person the year before but I'm really at a loss on how to do
+it as effectively in person in a few weeks with the safety
+precautions.
+
+Ideally, I'd like the freedom to mix and match. We were in person week
+one, but let me decide when we'll be in person and when we'll be
+remote. Let me use the best platform for any given lesson. This would
+be a bit of a drag on the students depending on how their instructors
+scheduled things but if students could use the rooms that they'd be in
+person for as locations to work remote from it wouldn't be too bad.
+
+As usual, the ideal would be to trust the teacher and let them do
+what's best for their students but as we all know, that's never the
+way. Regardless, the interesting thing to me is that while I was
+clamoring for a safe in person return, the truth is, given sensible
+safety precautions, in person might just not be the best way to go. At
+least not all the time.
+
