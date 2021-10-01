@@ -1,0 +1,86 @@
+---
+title: Coding For Problem Solving
+date: 2021-10-01T10:17:01-04:00
+tags:
+- programming
+categories:
+- programming
+draft: false
+--- 
+
+Like most CS educators I'm a regular reader of Alfred Thompson's
+blog. Alfred's [[https://blog.acthompson.net/2021/09/define-learn-to-code.html][latest post]] is spot on but there was a line in it and a
+particular Twitter response that reminded me that we so often forget
+a big reason why people learn to code.
+
+Alfred mentions, as did that Tweet about coding to solve
+problems. What problem are you trying to solve. This is the mainstream
+push - programming helps you solve problems. I've noticed a doubling
+down on this with all the efforts (including mine) to integrate CS
+into other subjects. While where and how much CS should be
+integrated vs standalone is a topic for another day, integrating CS
+into other fields is very much a "help solve the problems of that
+field" approach.
+
+Nothing wrong with all of this. It's all good stuff but there's
+another side to the coin. It's a side that I sometimes forget about
+from in the trenches. In fact, a few years ago I was rambling on and
+on about programming as problem solving and my friend and fellow CS
+teacher Peter Brooks reminded me - the question doesn't have to be
+"what problem do you want to solve?" The question can be "what do you
+want to create?"
+
+Sometimes we forget that programming can be an amazingly creative
+endeavor. You can use it to make something brand new and there doesn't
+necessarily have to be a problem to be solved.
+
+Fred Brooks puts it nicely at the start of his classic work "The
+Mythical Man Month:"
+
+#+begin_quote
+The programmer, like the poet, works only slightly removed from pure
+thought-stuff. He builds his castles in the air, from air, creating by
+exertion of the imagination. Few media of creation are so flexible, so
+easy to polish and rework, so readily capable of realizing grand
+conceptual structures....
+
+-- Fred Brooks, The Mythical Man Month 
+#+end_quote
+
+I also saw elsewhere, maybe by Fred Brooks, maybe someone else talking
+of a programmer being like a painter but whereas a painter has oils,
+brushes, and pigments to create on a canvas, the programmer has
+programming languages to create on the computer. 
+
+Maybe it's the push for "practical" education, maybe the integration,
+maybe the focus on testing. I have no idea but it seems that we
+frequently forget about the creative side of the equation.
+
+I mean, yes, the APCS-P specification does mention creativity in the
+interestingly enough named "Create Task:"
+
+#+begin_quote
+Programming is a collaborative and creative process that brings ideas
+to life through the development of software. In the Create performance
+task, you will design and implement a program that might solve a
+problem, enable innovation, explore personal interests, or express
+creativity.
+#+end_quote
+
+but it's after "solve a problem" and "enable innovation."
+
+That creative side though shouldn't be forgotten. Some of my students
+most memorable projects didn't solve a problem. I remember the
+"Cheerleader Simulator" in NetLogo. No problem solved there but it was
+a fun project. Another was Tamika's stupid mouse dexterity game. A
+simple game of her own design. I say stupid not becuase it was really
+stupid - it was great. Rather, I say stupid becuase that game caused
+me to waste so much time that end of year when I should have been
+grading!!!!!!!!!
+
+As we seek to engage a wider audience in CS we shouldn't merely focus
+on the problem solving nor the making money. The creative side is
+really important as well.
+
+
+
