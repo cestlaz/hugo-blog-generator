@@ -1,0 +1,75 @@
+---
+title: Teaching non required topics - the command line
+date: 2021-10-08T08:56:11-04:00
+tags:
+- curriculum 
+categories:
+- curriculum
+draft: false
+--- 
+
+The other day I saw Allen Holub lamenting on how students don't learn
+the command line.
+
+#+begin_export html
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">All my students this semester have gone through at least a year of programming classes, and some of them do not know how to do even basic stuff on the command-line. This strikes me as a huge flaw in the curriculum. Maybe the first CS class should be How Devs Use Computers 101.</p>&mdash; Allen Holub (@allenholub) <a href="https://twitter.com/allenholub/status/1444393138492116992?ref_src=twsrc%5Etfw">October 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+#+end_export
+
+This reminded  me of the recent article and
+discussion on how students [[https://www.pcgamer.com/students-dont-know-what-files-and-folders-are-professors-say/][don't know what files and folders are]]. 
+
+Neither of these are surprising. Back in the day, computer science
+classes were populated with self selecting stereotypes and in order to
+get anything done you had to be familiar with your tools.
+
+
+I wrote about this [[/posts/2015-01-15-kids-know-nuttin/][years ago]]. 
+
+Nowadays, CS is trying to be more open and inviting and with more
+modern tools you no longer need to know about files
+and folders let alone a Unix command line.  Back in the day, even if
+you used a program like Microsoft Word you'd have some idea of a file
+folder structure but now with the cloud and tools like Google Docs you
+just search for your documents.
+
+The issue is that many CS teachers want students to know the command
+line but it's not part of the formal curriculum. What's more, the
+value of command line expertise is debatable and pretty hard to assess.
+
+Personally, I'm a big command line wonk. I think you gain tremendous
+power and flexibility if you use it but I also recognize that there
+are many career tech professionals, particularly these days that will
+never use it and arguably won't really benefit from it. They live in
+their IDE that supports their language. It integrates with their
+build, test, and debugging tools and their company's commuication
+platform is also right there on the side. Now, many people in tech
+could still benefit from command line expertise but try convincing a
+first or second year undergrad where they not only don't see added
+value but also see that a large chunk of the text world also doesn't
+see the value.
+
+So, if you do believe that the command line is important and want
+students to learn it, how do you do it?
+
+There are plenty of tutorials, videos and other learning material
+including clever games like [[https://gitlab.com/slackermedia/bashcrawl][bashcrawl]] and I guess you could "force"
+students to use the command line while in the classroom but nothing's
+going to stop them from using the file browser tool or an installed
+IDE. Even if you severely limit the tools in lab machines, you have no
+control over what they use at home and while the command line might be
+more powerful, it's not nearly as learner friendly.
+
+Then there's assessment. How do you do that? You could give
+memorization type questions on exams but that's a really bad
+idea. Since the command line is process not product, this is a tough
+nut to crack.
+
+To be honest, I've struggled with this year after year and don't have
+a great solution. I try to encourage the command line and model how it
+can be useful as much as I can but I know I'm only reaching a minority
+of my students. In the end, I don't really care if any of them
+ultimately become hardcore CLI users but I really do want all of them
+to gain enough exposure so that they can make an informed decision as
+to its value and then make up their own minds.
+
+
