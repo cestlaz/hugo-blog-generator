@@ -1,0 +1,40 @@
+---
+title: My project grading workflow
+date: 2021-10-10T10:44:41-04:00
+tags:
+- emacs
+- workflow
+categories:
+- emacs
+draft: false
+--- 
+
+
+Grading sucks. Even for a well crafted assignment it takes time and
+rarely does it give you the same insights into your students as you
+can get from just observing them and working with them, at least when
+the environment supports you doing so. 
+
+This leads lots of teachers to go to auto graders. I can't bring
+myself going along with that. While assignments are imperfect and
+tedious to grade, they do provide some insight to your students and
+that's an important part about being a teacher.
+
+So, I always keep my eye out for ways to improve my project gradiing
+workflow.
+
+In the video below, I step through my process. It's mostly Emacs but I
+also use GitHub classroom and the terminal along the way.
+
+If you're here as for the Emacs, I'd any thoughts on alternatives or
+improvements.
+
+If you're here as a teacher, I'd love to hear what your flow is like
+and what tools you use.
+
+Enjoy
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7HLVcQi8GGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
