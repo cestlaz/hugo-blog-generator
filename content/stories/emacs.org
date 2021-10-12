@@ -141,4 +141,8 @@ disable_comments = true
 **  [[/post/using-emacs-72-rg][Video 73 - RipGrep]]
 **  [[/post/using-emacs-74-eglot][Video 74 - Eglot]]
 **  [[/post/using-emacs-75-bufler][Video 75 - bufler]]
-**  [[/post/using-emacs-76-bookmarks-burly][Video 75 - Bookmarks and Burly]]
+**  [[/post/using-emacs-76-bookmarks-burly][Video 76 - Bookmarks and Burly]]
+**  [[/post/advent-2020-day03][Video 77 - Advent of Code 2020 day 3]]
+**  [[/post/using-emacs-78-grading][Video 78 - Grading workflow]]
+**  [[/post/using-emacs-79-project][Video 79 - Project]]
+

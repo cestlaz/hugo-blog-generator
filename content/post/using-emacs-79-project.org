@@ -1,0 +1,76 @@
+---
+title: Using Emacs 79 Project
+date: 2021-10-11T11:24:36-04:00
+tags:
+- emacs
+categories:
+- emacs 
+draft: true
+--- 
+
+One of the comments on my last video talked about the new project
+management support Emacs includes in it's latest version -
+project.el. I remembered reading about it when it rolled around but
+then forgot and never checked it out.
+
+Up until recently when working in projects I used [[https://github.com/bbatsov/projectile][Projectile]], a great
+package by [[https://twitter.com/bbatsov][Bozhidar Batsov]], also known as Bug. I only used it when
+doing development work - that's when I find myself jumping around
+within a group of related files. At other times, I'm pretty much in
+one file, do my thing, then move on.
+
+I wrote a post and did a video on Projectile a while ago - you can
+check it out [[https://cestlaz.github.io/posts/using-emacs-33-projectile-jump/
+][here]].
+
+As I mentioned in the last video, I decided to rebuild my Emacs config
+from scratch and I'm trying to be a bit more minimalist so with that
+reminder I got, I figure it's time to check out the now built in
+project.el. If it's as good as projectile, or even, good enough, it
+could be a nice alternative.
+
+At it's core, project.el works similarly to projectile. There's a
+prefix key an then an action which is restricted to your project. For
+projectile, it was ~C-c p~ and the default for project.el is ~C-x
+p~. No big difference there. Projectile seems to have many many more
+options but in general, I find that all I need is
+
+ - Switch to a project - ~C-x p p~
+ - Find or open a file in a project - ~C-x p f~
+ - Switch buffers in a project - ~C-x p b~
+ - Delete all the project buffers - ~C-x p k~
+ - List the project buffers
+
+Project.el has all except listing all the buffers. It also supports a
+few other features that I think I'll find useful:
+
+ - project dired - ~C-x p d~
+ - project shell (or eshell) ~C-x p s~
+ - project regex search and variants ~C-x p g~
+   
+I'm not sure if projectile has these. It probably does and I could see
+them being useful. I probable won't use the regex searches much
+because I'll likely use other tools for those like consult-ripgrep.
+
+So, it certainly seems like project.el has enough coverage for my
+purposes. Another difference between the two projects is that
+project.el only supports a couple of project definitions - things that
+are supported by Emacs' VC system ad things supported by Emacs EDE
+thing (which I've never really played with). I seem to recall
+Projectile being more flexible.
+
+In any event, project.el looks like it's a nice simple alternative at
+least for me. Check out the video for the runthrough:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UagDCTjcifY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+
+
+
+
+
+
+
+
