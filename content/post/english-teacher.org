@@ -1,0 +1,62 @@
+---
+title: Feeling like an English teacher
+date: 2021-10-14T14:40:35-04:00
+tags:
+- ethics
+- CS Ed
+categories:
+- ethics
+draft: false
+--- 
+
+
+So I'm teaching my Ethics and CS class for the first time. I
+originally designed the course but didn't teach it the first time
+around. That honor went to my friend, Master Teacher Topher
+Mykolyk. He of course did an amazing job - impossible to
+follow. Fortunately, this is a different cohort so they don't know how
+great Topher was for the course :-).
+
+Even though I have the syllabus and Topher's notes from last time
+around, first time through is very week to week but I think I'm
+starting to get my legs under me. 
+
+This course is very different from what I've taught in the past. It's
+also  different from the ethics courses I've seen currently out
+there. Specifically, I wanted a programming component in the
+course. Still, there's a lot more open ended discussion and opinion
+based stuff going on.
+
+I mean, when you do a class on an algorithm like mergesort or a
+construct like a loop, it is what it is. You can motivate it in
+different ways and engage the class but there's only one punch line
+and it's set in advance. Here things are a lot looser. Most issues
+have two sides and even when most of the class is on one like when we
+talked about predictive policing, we can still
+effectively play devil's advocate for the other side. 
+
+It can also lead to the class going sideways. Yesterday we were
+talking about basic web privacy. Tracking, cookies and the like. In my
+mind I had the lesson mapped out. First, our "weekly ethicacy" student
+presentation and then a short breakout, discussion on the info we
+share, and then curated questions and resources  that we'd use in a
+sequence of breakout room and whole class discussions. The trouble is,
+after the first short breakout, the student conversation went directly
+to what I had intended for our async work over the course of the
+week. Oh well, time to [[/post/audible/][call an audible]]. It wasn't really a big deal,
+the conversation moved in a different direction but it was still very
+much in the wheelhouse of the day's topic.
+
+Must be what an English class can be like.
+
+It was fun.
+
+Overall I think the course is doing well but I won't know for sure
+until afterwards when I can debrief with the students. After all,
+they're the ones that ultimately determine if the class is successful. 
+
+Over the next few weeks I'll share some specifics about the class. The
+programming stuff in particular. Can't do that now because we're in
+the middle and I don't want any members of the class who might be
+reading this to see the reveal before it's time.
+
