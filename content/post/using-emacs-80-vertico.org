@@ -1,0 +1,71 @@
+---
+title: Using Emacs Episode 80 Vertico, Marginalia, Consult, and Embark 
+date: 2021-10-25T16:38:20-04:00
+tags:
+- emacs
+categories:
+- emacs 
+draft: false
+--- 
+
+In today's video, we'll take a look at a few new completion frameworks
+for Emacs. For years I've been using [[https://github.com/abo-abo/swiper][Ivy]] and have been very happy with
+it but since I decided to rebuild my Emacs config from scratch I
+thought I'd try the new kids on the block, [[https://github.com/raxod502/selectrum][Selectrum]] and [[https://github.com/minad/vertico][Vertico]] along
+with some support packages.
+
+I've liked Ivy from day one and still do. To be honest, from a day to day point of
+view, I didn't notice much difference between Ivy and the newcomers
+but I do like their philosophies - they're supposed to be simple and
+minimalist and focus on the Emacs completion API without extending
+it. You can read about their respective philosophies on their GitHub
+pages. Conveniently, both have sections comparing themselves with the
+other frameworks.
+
+For configurations, I just cut and pasted the suggested configs.
+
+Ultimately I settled on Vertico but both are worth a look.
+
+The video shows off Vertico but arguably more importantly, it covers
+some of the ancillary packages. First, although I don't show much
+about them are Prescient and Orderless - they let you control how your
+selections pop up. I'm using Orderless which lets me search for
+components by typing partial completions and using spaces to separate
+but it lets you do it in any order. What I mean is that if I'm looking
+for the command "vertico-mode" I can search by typing something like
+"vert mode" which is what I've always done, but I can also do the
+search for "mo vert" - typing the second part first. That's pretty
+slick.
+
+Next is Marginalia which brings up extra context information when you
+search for things. Things like command descriptions or file modes.
+
+The third one we look at is Consult which is basically a collection of
+useful commands using completions. Basically an answer to Ivy's
+Counsel commands.
+
+Finally, and this is the show stopper, the video shows Embark. 
+
+
+
+
+
+Links:
+
+- [[https://cestlaz.github.io/posts/using-emacs-6-swiper/][My post/video on Ivy/Swiper]]
+- [[https://github.com/raxod502/prescient.el][Prescient]]
+- [[https://github.com/oantolin/orderless][Orderless]]
+- [[https://github.com/raxod502/selectrum][Selectrum]]
+- [[https://github.com/minad/vertico][Vertico]]
+- [[https://github.com/minad/marginalia/][Marginalia]]
+- [[https://github.com/minad/consult][Consult]]
+- [[https://github.com/oantolin/embark/][Embark]]
+
+
+and of course, the video:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5ffb2at2d7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+
