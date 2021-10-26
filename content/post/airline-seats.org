@@ -1,0 +1,163 @@
+---
+title: Airline Seats - An Ethics Lesson
+date: 2021-10-26T14:43:28-04:00
+tags: 
+- ethics
+- Ethical CS
+categories:
+- CS
+draft: false
+--- 
+
+I've held off on sharing any details on my Ethics in CS class because
+I wanted to wait until some of it ran. I didn't want to talk about a
+topic and then find out that after we covered it I was all wrong.
+
+Now that we're well into the semester, I think it's time to share a
+few things.
+
+One of my premises when I designed the course was that most ethics
+courses are taken by either people who already have religion or people
+who see it as the "easy course" without programming. The few courses I
+saw out there were largely based on case studies and
+discussion. Nothing wrong with that - we've got that as well but I
+wanted to try something a little different.
+
+I wanted to have the class play with some technical situation,
+preferably with code, and then hopefully discover an ethical issue
+after which we can discuss.
+
+Here was my first attempt.
+
+Overall I think the lesson has great potential but I also know it
+needs tweaks. Most notably with teh level of comfort some of the
+class had with Python. Next time around I want to address that issue
+but I'll talk about the specifics in the end.
+
+I started by giving the class some code that provided a barebones
+airline seating system.
+
+Here's an empty plane. I just made windows and interior seats figuring
+that windows were more desirable and didn't have to differentiate them
+from aisles.
+
+#+begin_example
+  win          avail          avail          avail            win
+  win          avail          avail          avail            win
+  win          avail          avail          avail            win
+  win          avail          avail          avail            win
+  win          avail          avail          avail            win
+  win          avail          avail          avail            win
+  win          avail          avail          avail            win
+  win          avail          avail          avail            win
+  win          avail          avail          avail            win
+  win          avail          avail          avail            win
+
+#+end_example
+
+The code I provided also allowed for the purchase of an "economy plus"
+ticket. An economy plus passenger could select their seat on
+purchase. I had a function that with a 70% probability tried to select
+a window seat and then it would just select a random seat.
+
+You could also select a regular economy seat. For those, the airline
+would assign a seat at some later point.
+
+Here's a plane where the economy plus seats have been sold and the
+remaining seats are sold to economy but unassigned.
+
+
+
+#+begin_example
+ep-4          avail          avail          ep-2           ep-5
+ep-8          avail          ep-19          avail          ep-11
+ep-3          avail          avail          avail          ep-6
+ep-1          avail          avail          avail          ep-9
+ep-14         avail          avail          avail          ep-16
+ep-15         avail          ep-20          avail          ep-18
+ep-10         avail          ep-17          ep-24          ep-21
+ep-13         ep-22          avail          avail          win
+ep-23         avail          avail          avail          win
+ep-7          avail          avail          avail          ep-12
+
+
+#+end_example
+
+I asked the class to finish the routine that assigned the regular
+economy seats. I also wrote a version that just assigned them
+randomly. Here's a sample result. Note that u-# represents a block of
+purchased seats so you'll notice u-1 appears multiple times
+below. That passenger purchased multiple seats but they were assigned
+all over the plane at the end.
+
+#+begin_example
+
+ep-13         u-6           u-1       ep-16      ep-24
+ep-8          ep-15         u-9       u-3        ep-11
+ep-22         ep-12         u-2       u-4        u-10
+ep-9          ep-5          u-1       u-5        ep-25
+ep-2          ep-21         ep-3      u-7        ep-17
+ep-1          ep-23         u-8       u-8        ep-6
+ep-14         u-12          ep-4      u-4        ep-26
+ep-10         u-1           u-11      avail      ep-18
+ep-20         u-6           u-11      u-9        u-2
+ep-7          u-13          u-2       u-8        ep-19
+
+#+END_EXAMPLE
+
+
+The class was quick to notice that this could lead to families being
+split apart and small children being seated away from parents. They
+also noticed that this would affect poorer passengers more frequently
+and to a greater extent than richer ones.
+
+Great. Part 1 mission accomplished.
+
+Now, the question became, should we do something about it and if so what.
+
+That was the assignment.
+
+The class noted that this was an unintended consequence of being
+motivated purely by profit and airline convenience and that airlines
+should do better. We also  noted that it's not always so simple,
+particularly if an airline is running on thin margins. Finally, we
+discussed that this situation was real and in fact did result in
+changes in regulations.
+
+The following week, we discussed possible alternatives. How they might
+work better and how they might affect an airlines bottom lines and if
+that should really matter. We also discussed how similar ethical
+scenarios might play out in other industries.
+
+As a final piece, students had a long term assignment to code up an
+updated algorithm that did better.
+
+That's the long and short of it.
+
+I'd like to think that by playing with the code, discovering the
+dilemma and then trying to fix it led to a deeper appreciation of the
+ethical issue and to be honest, the one big thing I want my teachers
+to walk away with is more awareness of potential issues and that many
+of them are not as obvious or simple as "stop doing that" even though
+we'd like them to be.
+
+That said, I've got to work on some things.
+
+First and foremost my teachers came in with varying programming
+backgrounds. They all completed a data structures in Java course over
+the summer but a good number were not that comfortable with Python. I
+covered Python over the first couple of weeks but I think I have to be
+more structured with that in the future. More specific assignments
+rather than giving them as much freedom as I did. I also think I'd
+move this unit down in the syllabus - later after some smaller
+programming assignments and then finally, I'd scaffold it
+more.
+
+Even so, I think it was worthwhile and a keeper. I think it could also
+be a nice ethics assignment in any programming class that covers 2D
+arrays or something similar.
+
+There are a couple of other units that follow this do it and discover
+theme. Once those happen I'll report back on them as well.
+
+
