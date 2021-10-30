@@ -26,11 +26,13 @@ earlier post/video on Magit as well ([[https://cestlaz.github.io/posts/using-ema
 Enjoy.
 
 
-
+#+begin_export html
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/wgI8r3Nx_BI" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen></iframe>
+
+#+end_export
 
 
 
