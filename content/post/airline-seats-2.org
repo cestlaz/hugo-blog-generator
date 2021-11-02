@@ -1,0 +1,63 @@
+---
+title: Seats on a plane - addendum
+date: 2021-11-02T07:15:47-04:00
+tags: 
+- ethics
+- Ethical CS
+categories:
+- CS
+draft: false
+---
+
+While my [[/post/airline-seats/][last post]] was well received, I did have a few conversations
+where people asked why I did this with such a seemingly minor ethical
+issue. They wondered that with issues the Facebook algorithm, bail and
+sentencing algorithms, gerrymandering and other issues dominating the
+ethical conversation, why focus this topic around something that seems
+to affect far fewer people and might not even be such a big
+deal. After all, when it does come up, flight crews can probably ask a
+few people to shuffle seats and voila, problem solved.
+
+
+The thing is, this was intentional and it was intentional on two
+fronts.
+
+First, who decides if an issue is major or minor? Our perceptions
+change throughout our lives and through our experiences. Something
+that might appear to be minor to us or minor right now could be major
+to someone else. I remember my first week teaching at Seward Park HS
+right after I left industry. Such an eye opener. Even though I went to
+public schools and faced my share of challenges, I had no idea how
+different my students lives were from mine. Things that might have
+been a minor inconvenience to me were a brick wall to them. It's also
+not enough to just view "slam dunk" issues through an ethical lens. We
+have to indeed walk the walk. I wanted a mundane problem that may have
+resulted from Innocent intent to illustrate that it's not about
+teaching a lesson on the topic du jour but rather it's about
+everything. 
+
+I also wanted to pick a topic that wasn't right out there in the
+mainstream. If I had them work on a recommendation system or some
+other issue that's been all over the news these days, they would have
+all guessed the punchline. I thought this would be low key enough so
+that they'd discover the ethical issue by inadvertently creating it.
+
+The other reason was that I wanted to keep the issue simple and
+understandable. I already suspected that the code aspect would be a
+challenge for some members of the class. I didn't want a super deep
+ethical issue to cloud that side of the equation. A simple problem
+kept everything clean. They first seated the customers, realized that
+kids could be separated from parents, decided that this should be
+addressed, then tried to address it. Keeping problem simple is a tried
+and true teaching strategy. There's so much complexity in most ethical
+issues and most programming problems and students can only cope with
+so much at a time. This was an attempt to keep the load to a minimum.
+
+As I said in the earlier post. I think the lesson needs tweaking -
+particularly in order to make the coding level appropriate but I also
+think it's a lesson worth keeping.
+
+This past week, the class has been working with regular expressions. I
+get to deliver the punchline to that one tomorrow evening.
+
+
