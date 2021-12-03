@@ -1,0 +1,86 @@
+---
+title: Work through the example!!!!!
+date: 2021-12-03T17:10:50-04:00
+tags:
+- Advent of Code
+categories:
+- Programming
+draft: false
+--- 
+
+It's that time of year again. Yep, you got it. Time for [[https://adventofcode.com/][Advent of
+Code]]. I'm not feeling nearly as motivated as in past years but so far
+so good. Finished the first three days.
+
+Today I got a good reminder - work through your examples. You can find
+today's problem [[https://adventofcode.com/2021/day/3][here]].
+
+For part 1 you got a list of binary numbers and had to figure out how
+many ones and zeros there were in any given digit.
+
+For example, if we had these numbers:
+#+begin_example
+0010
+0111 
+1001
+1010
+1111
+#+end_example
+
+The ones digit has 3 total ones and 2 zeros. The  2s digit has 4
+ones and 1 zero. You then had to do some calculations based on if
+there were more ones in a given column or more zeros.
+
+Pretty straight forward. As usual, I'm working in Clojure so I used
+map and reduce to figure out the number of ones in each column and
+then did the required calculation. If you want to see the code, you
+can find it [[https://github.com/zamansky/advent2021/blob/main/src/day03.clj][here]]. Later in the day I looked at other people's
+solutions and it was interesting in that a lot of people approached it
+differently - they basically looked at the list of numbers and rotated
+it so that columns became rows and rows became columns which then make
+counting ones and zeros easier,  but I digress.
+
+I then had to rush through part 2 because I had to leave for the
+ophthalmologist. I didn't know if my eyes were going to be dilated and
+if they were, I wasn't going to be able to come back to the problem
+until late in the evening.
+
+I got something done but unfortunately, didn't quite
+finish. Fortunately, my eyes weren't dilated so after getting home I
+set to finish the problem.
+
+Part 2 involved taking your list of numbers, calculating some values
+using the part 1 code and then using those values to eliminate some of
+the numbers. You then repeated this process until you were left with a
+single number. See the problem statement and if you want my solution
+for details.
+
+I got something working but my answer was incorrect. I spent, well,
+frankly, too much time trying to figure out why. I was
+stumped. Finally I went back to the example in the question and
+actually worked through it (as opposed to glancing over it). I quickly
+saw my error. I had calculated the part 1 values based on the original
+data then kept applying those to the data list until it reduced to a
+single number. I was supposed to recalculate the part 1 values on the
+reduced data set each time instead. Once I realized this, it was a
+pretty quick solution.
+
+This isn't the first time my carelessness cost me time. Back in 2016 I
+spent way too long trying to fix an Advent of Code problem where the
+problem was that I had the wrong parameters in a function ([[https://cestlaz.github.io/posts/2015-12-17-im-an-idiot/][link]]).
+
+In this case, the moral of the story is *work through the provided
+examples!!!!*
+
+So, that's it for today. If you haven't checked out Advent of Code, I
+highly recommend it and if you want to see my solutions, however far I
+get, you can find them [[https://github.com/zamansky/advent2021][here]].
+
+Finally, in the spirit of the season, Natan composed a new Chanukah
+song.
+
+If you're so inclined, you can check it out below:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fatTWGfXO_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
