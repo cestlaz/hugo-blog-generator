@@ -1,0 +1,176 @@
+---
+title: Working code is better than clever code (AOC 2021 day 4)
+date: 2021-12-04T12:17:30-04:00
+tags:
+- Advent of Code
+categories:
+- Programming
+draft: false
+--- 
+
+I always tell my students that the cleverest program is
+worthless if it doesn't actually work.
+
+There are always some kids in class that all too often try to write
+the fanciest solutions.
+
+They're the ones that write
+#+begin_src c
+int l(char *s){return !*s?0:(l(++s)+1);}
+#+end_src
+
+instead of something like:
+
+#+begin_src c
+int string_length(char *s){
+  int i = 0;
+  while (s[i] != 0){
+    i=i+1;
+    }
+  return i;
+}
+
+#+end_src
+
+to calculate the length of a string.
+
+They try to code in a way they envision a master programmer coding
+which invariably leads them to hours of heartache and misery as they
+try to fix a poorly and complexly designed system. When I was a kid I
+did this as well but learned better early on. One thing I was pretty
+proud of as a young professional programmer were the number of
+comments I'd get from peers and superiors on the readability of my
+work.
+
+Of course, my view isn't unique. Much more famously, Donald Knuth said
+the same when he quipped that "premature optimization is the root of
+all evil."
+
+So while today's advent of code problem presented a number of design
+choices, I decided to go lazy and simple. Sure, my solution's probably
+slower than others but it's easy and understandable.
+
+Today's problem had you playing bingo against a giant squid (full
+problem [[https://adventofcode.com/2021/day/4][here]]). The core was that after a number of numbers were drawn,
+each time you crossing that number off your boards, you had to figure
+out if a board was a winner.
+
+First the input. It was easy enough to read in the file. The first
+line were the bingo balls in the order they were to be drawn and then
+you had a bunch of 5 line blocks, each line with 5 numbers
+representing a 5x5 board. Each board was separated by a space.
+
+My strategy was to read in all the boards into a list, then as I draw
+each bingo ball, replace all occurrences of the number drawn in on the
+boards with an X. Then, check to see if we have 5 X's in a row either
+vertically or horizontally.
+
+Reading was easy but there were some decisions to be made. I was going
+to have a list of boards but what should a board look like? I didn't
+want to use a 2D array since that's not Clojure's strong suit but I
+could easily use a list of lists (or vector of vectors).
+
+#+begin_example
+((22 13 17 11  0)
+ ( 8  2 23  4 24)
+ (21  9 14 16  7)
+ (6 10  3 18  5)
+ (1 12 20 15 19))
+#+end_example
+
+If I were coding in Python, I could do this as well using a list of lists.
+
+This representation makes it *very* easy to check to see if we have a winner
+going across but checking vertically is a little annoying and doing
+the substitutions is also annoying.
+
+On the other hand, I could represent the board as a list of 25 items
+and use a mapping function to get to a specific row,col location such
+as ~index = board[row*5+col]~ . This representation makes checking the
+board for winners a little onerous but marking squares with an X
+becomes trivial - just replace all occurrences of the number in
+question with an X. This can be done in Clojure using map:
+
+#+begin_src clojure
+(defn add-mark [board mark]
+  (map #(if (= % mark) "X" %) board))
+#+end_src
+
+Thinking about it, it was really easy to switch from the list of 25
+items to the list of list representations. We can do this with the
+Clojure partition function.
+
+#+begin_src clojure
+    (partition 5 '(0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 24 24))
+
+    ;; results in:
+    ;;((0 1 2 3 4)
+    ;; (5 6 7 8 9 )
+    ;; (10 11 12 13 14)
+    ;; (15 16 17 18 19)
+    ;; (20 21 22 23 24))
+#+end_src
+
+So, we can use the 25 element list representation to mark the boxes
+and then switch to the list of lists to check for a winner. What's
+better, we can transpose the list of lists, that is switch the rows
+and columns so as to make the vertical check into a horizontal one.
+
+Here's my code to do all the checking:
+
+#+begin_src clojure
+(defn has-five? [board]
+  (>  (->> board
+           (map #(filter (fn [x] (= x "X"))%)  ) ;; keep only the Xs
+           (map count) ;; how many are there in each row
+           (filter #(= 5 % )) ;; keep the winners (5 in a row)
+           count) 0)) ;; return true if we have any winners
+
+
+
+(defn check-board [board]
+  (let [horiz (partition 5 board) ;; convert 1D board to a 2D one
+        vert  (apply mapv vector horiz)] ;; transpose 
+    (or  (has-five? horiz)
+         (has-five? vert))))
+#+end_src
+
+Now, solving part 1 was easy:
+ 1. take the next ball
+ 2. mark all the locations with the ball's number
+ 3. see if there's a winner
+ 4. If not, go back to step 1.
+
+
+Sure, we're doing more transformations on the data than needed but
+it's clean and easy and at least from my point of view, made the whole
+exercise much less error prone.
+
+On to part 2.
+
+Turns out that was also pretty simple. Instead of stopping at the
+first winning board we had to find the last winning board.
+
+Pretty easy. We just had to modify the above procedure to the
+following:
+
+ 1. take the next ball
+ 2. mark all the locations wiht the ball's number
+ 3. remove any board that's a winner
+ 4. If we're down to one board remaining we've found the board
+ 5. If not, back to step 1
+
+I did this but first got a wrong answer. After looking at my results I
+realized that I stopped when I got down to 1 board but it hadn't
+necessarily won yet. I had to then continue drawing balls and marking
+squares until that final board was solved.
+
+That was it.
+
+Upon later reflection, I realized my solution wasn't perfect. It would
+fail if there were some boards that were never solvable. This though
+is an easy fix.
+
+So, maybe not a super clever super fast solution but a clean one that
+works and is easy to understand and modify. To me that's the
+definition of a great solution.
