@@ -1,0 +1,118 @@
+---
+title: Lanternfish and lots of data (AOC 2021 Day 6)
+date: 2021-12-06T16:25:24-04:00
+tags:
+- Advent of Code
+categories:
+- Programming
+draft: false
+---
+
+Today we had to model the growth of the lanternfish population
+([[https://adventofcode.com/2021/day/6][problem here]]).
+
+Lanternfish spawn new lanternfish every seven days. The trick is that
+the original starting population consists of fish at different points
+in the cycle. For instance, if your input data was 3,2,4 then each fish
+would spawn a new fish in three, two, and four days respectively. The
+new fish would set their timers to 8 and start counting down to their
+spawn date on the next day and the original fish would reset it's
+timer to 6.
+
+Of course, lanternfish never die so the population is going to get
+quite large.
+
+At first glance this seems to be an easy problem to model. Read the
+fish into a list or array and start processing them a day at a
+time. Add fish to the end as needed.
+
+I'm guessing this would work for part 1 but doubt it would work for
+part 2. Even before I started solving this just seemed like a problem
+where part 2 would blow away our data set getting much to large much
+too fast.
+
+So, what to do? It turns out the problem is cyclical. Instead of
+looking at fish, we can look at days. We have an 8 day cycle. Instead
+of storing the fish, store the number of fish that will spawn on any
+given day.
+
+That's the insight.
+
+I started by playing around with mod and trying to figure out how to
+walk around the list while summing up fish but after a while my brain
+started to hurt. Instead, I just did things in the most
+straightforward way I could.
+
+Fist, I made a list with my initial state. The example problem had a
+data set of ~"3,4,3,1 2"~ which led to this list:
+
+#+begin_src clojure
+[0 1 1 2 1 0 0 0 0]
+#+end_src
+
+Notice that I have 9  not 8 slots (indexed 0 - 8). That extra one at
+the end is where I move the fish that are spawning today (day 0) so
+they can start the cycle again.
+
+From there, it's just following the rules:
+
+1. Grab the number of fish to spawn today.
+2. Move all the fish down a day - that is, the fish in day 1 go to day
+   0, day 2 to day 1 etc.
+3. Add the new fish to slot 6 (as per the specification).
+4. Add the number that spawned today to the end.
+
+
+Repeat this for the requisite number of days and then add them all up.
+
+The Clojure code for the complete solution is:
+
+#+begin_src clojure 
+      (defn solve [data days]
+        (let [start-state (reduce
+                           (fn [sofar next]
+                             (update sofar next inc))
+                           [0 0 0 0 0 0 0 0 0 ] data )]
+          (apply + (loop [i 0
+                          gens start-state]
+                     (if (< i days)
+                       (let [last (first gens)
+                             gens  (into []  ( drop 1 gens))
+                             gens  (assoc gens 6 (+ (nth gens 6) last))
+                             gens  (conj gens last)
+                             ]
+                         (recur (inc i) gens)
+                         )
+                       gens)))))
+#+end_src
+
+For those of you not familiar with Clojure, that ~reduce~ in the let on the second line is how we take the data
+and build our starting state. For those of you who DO know clojure, I
+could probably have made it cleaner with a threading macro instead of
+the three step assignment to gens in the bottom let.
+
+In any event, we walk away with a memory efficient time efficient
+solution.
+
+There's probably some recurrence that could be set up and solved to do
+this all with math but since the mod stuff made my head hurt working
+on a recurrence equation would probably make it explode.
+
+There's usually at least one problem like this in advent of code each
+year. Something where it looks like you'll have to calculate forever
+but it turns out you can set up a short repeating cycle to get the job
+done. Unfortunately, they're all too advanced for my average intro CS
+students. Sure, I could go over the problem and they'd kindof get it
+but I don't think the majority would really grok it. Alternatively
+they could just follow the rules given and led in class to setting up
+the cycle but I'd love to come up wiht one where they can really
+discover the magic.
+
+I should spend some time thinking about this.
+
+
+
+
+
+
+
