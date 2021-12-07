@@ -1,0 +1,82 @@
+---
+title: How you look at a problem can make it easier - AOC 2021 Day 7
+date: 2021-12-07T09:04:53-04:00
+tags:
+- Advent of Code
+categories:
+- Programming
+draft: false
+---
+
+[[https://adventofcode.com/2021/day/7][Today's problem]] was similar to [[https://cestlaz.github.io/post/advent-2021-day06/][yesterday's]] in that it's ease or
+difficulty really depended on how you looked at the question.
+
+For yesterday, the problem was hard if you approached it by modeling
+each and every lanternfish but it was much easier if you modeled the 8
+days of the reproduction cycle. Sure, there was still work to be done
+but looking at the problem the right way made things much easier.
+
+Same thing for today, at least for me.
+
+We were given a list of crabs and their locations and the challenge
+was getting them all to the same spot. Fortunately, crabs in their
+submarines can only move in one dimension - they can only move
+horizontally. This gives us an input that's just a list of integers,
+each representing a crab location.
+
+We want to move all the crabs to the same location and we want to do
+it as efficiently as possible. The crab submarines use one unit of
+fuel for each step taken so we want to minimize the overall amount of
+fuel used.
+
+If we look at this from the crab point of view this could seem
+daunting - do we move the crabs one at a time? Do we have them
+converge? Will we have to do some crazy recursive movement thing?
+
+It turns out, none of the above. As soon as we realize that we don't
+have to figure out actual moves or actually move the crabs the problem
+becomes much easier. It isn't about the crabs but rather about the
+locations. We want to figure out the minimal cost of moving all the
+crabs to each location and then we can pick the lowest overall cost.
+
+This turns out to be rather simple.
+
+For each possible location (looping from smallest crab location to
+larges):
+  1. calculate the distance from each crab to this location.
+  2. Add up all those distances.
+
+We then just need to take the smallest distance and we're done.
+
+On to part two.
+
+For part two, there was a change to the fuel cost. Instead of just
+being the distance between the two locations, the cost of the fuel
+increased by one for each step. So, for moving 1 step the cost would
+be one. Two steps, 1+2, three 1+2+3 etc..
+
+This was easy enough to model. I just changed the function that
+calculated the old cost with one that calculated the new cost. To do
+that, I took the difference between the two endpoints and calculated
+the sum from 1 up to and including that number.
+
+This added an additional loop but I figured might as well try it. It
+was noticeably slower than part 1 - about 11 seconds as opposed to
+around 90 msec but fast enough to get an answer and finish the problem
+for the day. That said, it was easy enough to improve the solution if
+you know that you can calculate the sum from 1 to n using the formula
+(n*(n+1))/2. This got the speed back to just over 100 msec.
+
+Looking over the adventofcode subreddit people were talking about
+using the median to more quickly solve the problem but what I did was
+good enough for me.
+
+As always, the clojure code can be found [[https://github.com/zamansky/advent2021/blob/main/src/day07.clj][here]].
+
+Enjoy.
+
+
+
+
+
+
