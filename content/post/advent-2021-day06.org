@@ -105,7 +105,7 @@ done. Unfortunately, they're all too advanced for my average intro CS
 students. Sure, I could go over the problem and they'd kindof get it
 but I don't think the majority would really grok it. Alternatively
 they could just follow the rules given and led in class to setting up
-the cycle but I'd love to come up wiht one where they can really
+the cycle but I'd love to come up with one where they can really
 discover the magic.
 
 I should spend some time thinking about this.
