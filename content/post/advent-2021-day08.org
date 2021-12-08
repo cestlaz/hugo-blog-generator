@@ -1,0 +1,137 @@
+---
+title: Seven Segment Silliness - Advent 2021 Day08
+date: 2021-12-08T13:20:49-04:00
+tags:
+- Advent of Code
+categories:
+- Programming
+draft: false
+---
+
+Day 8 took a lot longer than the other days. Not all that much code
+and not too complex, at least after getting through a scary sounding
+lead up but going from problem statement to solution took both time
+and thought.
+
+As I started to read the problem, I wasn't sure I'd finish it let
+alone have time to write it up.
+
+Take a minute to read over the problem. You can find it [[https://adventofcode.com/2021/day/8
+][here.]]
+
+A pretty intimidating wall of text. 
+
+You've got a bunch of lines, each looking like this:
+
+#+begin_example
+be cfbegad cbdgef fgaecd cgeb fdcge agebfd fecdb fabcd edb | fdgacbe cefdb cefbgd gcbe
+#+end_example
+
+Each "word" represents a seven segment display. The side to the left
+of the | is the input for that line and the stuff on the right, the
+output.
+
+The problem is that each line has the inputs scrambled. We jave to
+figure out which letter maps to the top segment, which the bottom,
+etc.
+
+Oh boy.
+
+It turns out that part one really wasn't hard at all. In fact, it
+could make a nice early CS assignment. If you look at the display for
+a *1*, it has two segment on the right hand side. It's the only number
+that uses 2 and only 2 of the seven segments. Likewise a *4* is the
+only four segment letter, *7* is the only one that uses 3 segments,
+and *8* is the only one that uses all seven segments.
+
+For part 1 you just had to look at all the outputs  - that is, the
+stuff on each line after the | and add up the number of items that
+are either a 1, 4, 7, or 8. That's easily accomplished by going over
+each of those items and checking if they have the correct number of
+characters and then figuring out the total number of these items.
+
+I had already parsed my data into the a two item list where the left
+item is a list of inputs and the right a list of outputs:
+
+#+begin_src clojure
+[ ["cg" "cdbga" "bcg" ...] ["geac" "ceag" "faedcb" "cg"]]
+#+end_src
+
+So all I had to do go through all the output sides, count the characters in
+each item and then add up the number of them.
+
+Here's the code:
+
+#+begin_src clojure
+  (defn myfilter [x]
+  "takes a list of numbers and returns only those that are 2,4,3, or 7"
+    (filter #(contains? #{2 4 3 7} %) x))
+
+
+  (defn part1 [  data]
+    (let [results (map second data) ;; pull out all the outputs
+          counted (map #(map count %) results) ;; turn the "words" into counts of their lengths
+          f (map #(myfilter %) counted) ;; only keep the ones that are the right lengths
+          total (map #(count %) f) ;; count how many are in each line
+          ]
+      (apply +  total))) ;; add them all up 
+
+  (part1 data)
+#+end_src
+
+For part 2 we had to decode all the output lines and then turn them
+into numbers and add them up.
+
+Sounded really daunting. It required some thought but it wasn't that
+bad.
+
+I wanted to build a dictionary where the keys were the digits and the
+values would be the segments for that particular input line that
+represent  that digit.
+
+For a given line, we can do it pretty easily for the unique numbers 2,
+4,3, and 7 so we just loop through all the items in a line  and when
+we see an item with the appropriate length, we store the number in our
+dictionary.
+
+We might have something like this:
+
+| key | value         |
+|-----+---------------|
+|   1 | b e           |
+|   4 | b c e g       |
+|   7 | b d e         |
+|   8 | a b c d e f g |
+
+These were the values from the first line of the example data. Also, I
+used a Clojure set  to store the values since that makes the rest of
+the solution easier.
+
+I then took this dictionary and tried to add to it by figuring out the
+5 segment numbers - specifically, 2, 3 and 5. It turns out that of the
+5 segment numbers, the *3* is the only one that ovelaps with the two
+segments from the *1* so we can find that one pretty easily. If the
+five segment number wasn't a 3, I looked to see if it was a 5. For
+this, I looked to see if it had the left and middle segments that the
+4 had. Finally, if it wasn't a *3* or a *5* then it had to be a *2*.
+
+Next, I did the same for the remaining segments which were all 6
+segments. You can look at my full code (linked below) for specifics.
+
+Once we had the complet dictionary I flipped it - keys became values
+and values became keys so we could look up the output numbers. From
+there, it was easy to convert them to numbers and find the final
+answer.
+
+The part of this problem that was both fun and challenging was trying
+to figure out how to decode a given letter given what you already
+figured out. That took some time but getting the final answers for
+problems like this are somehow more satisfying than just a straight up
+"code it" problem.
+
+You can find my full solution [[https://github.com/zamansky/advent2021/blob/main/src/day08.clj][here]].
+
+I was worried I wasn't going to finished this one when I first read it
+but I think it's my favorite of the year so far.
+
+
