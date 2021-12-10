@@ -1,0 +1,81 @@
+---
+title: Bracket Bonanza (AOC 2021 day 10)
+date: 2021-12-10T12:15:34-04:00
+tags:
+- Advent of Code
+categories:
+- Programming
+draft: false
+---
+
+
+I know, where's day 9? Thursdays (and Mondays) are already tight for
+me - I teach all morning and it's been a rough week. I just had very
+little energy and focus all day yesterday. I snuck some time in to
+finish part 1 but couldn't focus on part 2.
+
+Today, however, my body gave me an extra half hour of sleep (til
+4:30am) so I had extra time and energy. I was fortunate in that
+today's problem was essentially one that I've assigned time and time
+again so I was able to wrap it up quickly and then go back to finish
+day 9.
+
+It's pretty likely that there'll be a day I can't solve in the near
+future so maybe I'll write up day 9 then.
+
+But for now, [[https://adventofcode.com/2021/day/10][day 10 - Syntax Scoring]] or as I like to say a bracket
+bonanza. Inputs were lines of brackets like this:
+
+#+begin_example
+[({(<(())[]>[[{[]{<()<>>
+#+end_example
+
+Both parts of the problem involve figuring out if the line is valid,
+that is, if each open bracket has a matching close bracket without
+overlap. For example (([])) is valid but (([)]) is not becaue the
+inner () and the [] overlap.
+
+I could be like a kid doing a technical interview and pretend I hadn't
+solved the problem before the interview but the truth is, I've
+done problems very similar to this most times I teach data structures.
+
+As you process through the input, whenever you see a closing bracket,
+it *has* to match up with the last seen open bracket otherwise the
+expression is invalid. This means you have to maintain a data
+structure in such a way that the last open bracket you see is the
+first one you check whenever you see a closing brace.
+
+This is, by definition, a stack. A stack is a data structure where the
+last item you put in is the first item you take out.
+
+So, the algorithm is pretty simple.
+
+#+begin_src
+make an empty stack
+For each character in the input:
+  1. If it's an open bracket put it on the stack
+  2. If it's a close bracket, check the top of the stack.
+     1. If the stack is empty you've got an invalid expression - exit
+     2. If top of the stack doesn't match your bracket - invalid -exit
+     3. If top of the stack does match your braket, pop it off the stack and keep going
+#+end_src
+
+
+That's basically it. The only remaining task is to figure out the
+specifics to answer the problem.
+
+For part 1 you had to run the above algorithm on each line of input
+and for each invalid expression look up the invalid character's value
+(provide in the problem text) and add them all up.
+
+For part two you had to take the remaining characters in the lines
+once you hit an invalid brace and figure out a slightly more complex
+score.
+
+So, given that I had basically done this problem it wasn't hard but it
+was fun. This could be directly assigned to any data structures class.
+
+As usual, my code can be found here:
+[[https://github.com/zamansky/advent2021/blob/main/src/day10.clj][https://github.com/zamansky/advent2021/blob/main/src/day10.clj]]
+
+
