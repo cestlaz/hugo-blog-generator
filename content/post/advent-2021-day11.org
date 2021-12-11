@@ -1,0 +1,102 @@
+---
+title: Advent 2021 Day11
+date: 2021-12-11T11:31:32-04:00
+tags:
+- Advent of Code
+categories:
+- Programming
+draft: false
+---
+
+I wasn't particularly motivated to start [[https://adventofcode.com/2021/day/11 ][day 11]] but took a look over
+coffee. A grid of points where on each turn or step the points are
+modified by some rule. Hey, this sounds familiar - cellular automata
+like Conway's Game of Life.
+
+You set up your grid and then on each turn just follow the rules. In a
+traditional Cellular Automaton like [[https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life][Conway's Game of Life]], on each
+turn each cell looks at its six neighbors and makes a decision as to
+its next state based on the neighbors and a rule.
+
+For [[https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life][Conway's Game of Life]], a cell is either alive or dead. On each
+turn, it counts all it's neighbors and then decides if it will be
+alive or dead next turn based on its current state and how many
+neithbors are currently alive.
+
+I love talking about Cellular Automata in class although I haven't
+done it since my Stuy days. One of my favorite topics is using CS to
+solve a maze in NetLogo. I wrote about that [[https://cestlaz.github.io/posts/2016-01-17-maze-ca/][here]].
+
+Cellular Automata is also not a stranger to Advent of Code with three
+problems being CS problems in 2020 and I think there were more in
+earlier years.
+
+This year the twist was that the rule for each step had two stages and
+the second stage could repeat over and over again.
+
+The first stage was just to increment the value of each cell. The
+second involved "flashing." This would happen if a cell's value
+exceeded nine. If a cell flashed, it would increment the value of each
+of its neighbors. This could cause a cascade by having a neighbor's
+value exceed nine. This kept going until the board stabalized. You
+also had to account for the fact that a cell should only flip at most
+once per step.
+
+Part one had you calculate the number of flashes over the course of
+100 steps.
+
+When I do CA in a class like APCS-A we usually use a 2D array to
+represent our world. In NetLogo, the world is already a grid. Since
+I'm using Clojure, I though a hash table would be easier. The keys are
+x,y coordinates and the values are the state of the cell (the integer
+value). To set things up I stole the code from my code from last year,
+also coincidentally [[https://github.com/zamansky/advent2020/blob/main/src/day11.clj][day 11]]. My [[https://cestlaz.github.io/post/advent-2020-day11/][write up]] also talke about using a hash
+table or dictionary instead of a 2D array.
+
+The first stage of each step was easy. Just map the increment function
+across the entire board.
+
+The second step took more thought. First, I went through the board and
+for any cell that was greater than 9 I incremented all its
+neighbors. Then to make sure I don't flash a cell more than once a
+turn, I marked the current cell as being flashed. I did this by making
+it a large negative number.
+
+I repeated that second step over and over until it stabilized. That
+is, you went through an iteration where the board didn't change - no
+new flashes.
+
+Finally, I set all the negative cells, which indicated they flashed to
+zero in preparation for the next step.
+
+In the loop I counted and added up how many flashes we had and that
+was part 1.
+
+For part 2 you were looking for a step where every cell flashed at the
+same time. This was pretty easy because we were able to essentially
+use the same engine. The only difference was that instead of doing 100
+steps, you kept going until every cell flashed in one turn. That
+turned out to be easy to check. You know that happened when all of the
+cells at the start of a turn are 0.
+
+As usual, the full solution can be found on [[https://github.com/zamansky/advent2021/blob/main/src/day11.clj][GitHub.]]
+
+Wasn't motivated to start today but it turned out to be a fun little
+challenge.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
