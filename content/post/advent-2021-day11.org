@@ -1,5 +1,5 @@
 ---
-title: Advent 2021 Day11
+title: Dumbo Octopus and the Game of Life - AOC 2011 Day 11
 date: 2021-12-11T11:31:32-04:00
 tags:
 - Advent of Code
