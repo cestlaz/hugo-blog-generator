@@ -1,0 +1,116 @@
+---
+title: Transparent Origami - Advent 2021 Day 13
+date: 2021-12-13T13:28:28-04:00
+tags:
+- Advent of Code
+categories:
+- Programming
+draft: false
+---
+
+No post so far on [[https://adventofcode.com/2021/day/12][day 12]]. I finished part 1 but my code was pretty
+messy which turned part 2 into a mess. I still have to go back to get
+that second star so just like day 10, my day 12 write up is on hold.
+
+That said, I really enjoyed [[https://adventofcode.com/2021/day/13
+][today's]] challenge. Paper foldind. You're given transparent paper with
+a bunch of marks on it. You have to fold the paper over horizontal or
+vertical lines and examine the results.
+
+Input was in the form of lines x,y pairs followed by lines specifying
+the folds.
+
+First decision - data representation. Since we've got a grid,
+temptation would be to use a 2D structure like a 2D array but there
+are two problems. One is that each fold will make the paper smaller
+and smaller which makes a 2D array wasteful if not clumsy. The other
+issue is that we don't know the ranges for our coordiates. We know
+that all the values will be positive but we have no idea where they
+start and end.
+
+Just like with the cellular automaton, I decided to use a dictionary
+where the key was  the x,y pair and the entry was the mark. I could
+have used a plain list for the points but the dictionary gave me quick
+lookup. Also, if part 2 had us change the marks based on if they
+overlap after a fold, I'd be prepared.
+
+For convenience (and as I learned later, part 2) I also wanted a
+routine that could print the board. Here's that routine in case you
+want to see some clojure.
+
+#+begin_src clojure
+
+  (defn board->string [board]
+    (let [maxx (apply max (map first (keys board))) ;; find the largest x
+          maxy (apply max (map second (keys board))) ;; find the largest y
+          k (keys board)
+
+          ;; The next line makes a vector of maxy vectors
+          ;; each of which has maxx spaces
+          ;; basically a vector of vectors or 2D matrix if you would
+          grid (into [] (repeat (inc maxy) (into [] (repeat (inc maxx) \ ))))
+
+          ;; go through the keys to our board (which is a hash table
+          ;; and mark those squares with a #
+          filled-grid (reduce (fn [b [y x]] (assoc-in b [x y] \#)) grid k)
+
+          ;; change each line from a vector to a string
+          ;; but leave the overall thing a vector since
+          ;; it looks fine when I print it.
+          string-grid (map #(apply str %) filled-grid)
+          ]
+      string-grid
+      ))
+#+end_src
+
+
+Once we have our "board" we can then deal with folding. Folds had to
+be over a horizontal (ex: y=7) or vertical (ex: x=5).
+
+It was important to note that since we're folding we only want to take
+the points with coordinates greater than the folding line and
+transform those and not just transform all the points.
+
+The actual transformation is pretty straightforward. Given the line's
+coordinate L the new point value can be calculated using:
+
+#+begin_example
+newcoord = oldcoord - 2 * abs(oldcoord-L)
+#+end_example
+
+We just go through the points and if they have to be transformed,
+update them.
+
+Part 1 solved.
+
+Part 2 turned out to be far easier than I expected. Part 1 had us just
+do the first fold. Part 2 had us do all of them at which point, if we
+printed our board it would show us the 8 secret letters that formed
+our anwer. Since the example on the problem page was a y fold and the
+first fold of my data was an x fold I knew both my folds worked. I
+just ran through all the folds and voila.
+
+Now, I'm not complaining about an easy problem. If it were harder I
+might not finish and then no write up but I was expecting something
+more.
+
+There were ways to make part two a bit more complex. I could see maybe
+placing the data so far off the end so that you had to translate them
+down closer to the origin so that your result would print or maybe do
+something with overlapping marks when you fold as I mentioned up top.
+
+Still, nothing wrong with an easy day mixed in and I still think it's
+a great problem. This could be done by a CS0 or CS1 class. What I
+particularly love about problems like this is that when you
+ultimately solve it you "decode" a secret message. Much cooler than
+just getting some number.
+
+So, over half way done. I still have that part 2 of day 12 to finish
+but still captured half the total stars for the event. That's my
+starting goal each year.
+
+If you want to see my full solution, you can check it out [[https://github.com/zamansky/advent2021/blob/main/src/day13.clj][here]].
+
+Enjoy.
+
+
