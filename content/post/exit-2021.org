@@ -3,7 +3,7 @@ title: Exit 2021
 date: 2022-01-01T09:04:37-04:00
 tags: 
 categories: 
-draft: true
+draft: false
 --- 
 
 So, 2021's gone and 2022 just starting.
