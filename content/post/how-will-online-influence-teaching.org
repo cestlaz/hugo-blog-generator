@@ -1,0 +1,172 @@
+---
+title: How Will Online Influence Teaching
+date: 2022-01-03T08:53:28-04:00
+tags:
+- education
+- policy
+categories:
+- education
+draft: false
+--- 
+
+I always enjoy Fred Wilson's predictions for the new year over on his
+  [[https://avc.com][blog]] and [[https://avc.com/2022/01/what-is-going-to-happen-in-2022][this year]]  was no exception.
+
+I was inspired to think a bit on his education prediction:
+
+#+begin_quote
+K12 systems around the US (and around the world) faced with teacher
+shortages and desperate to erase several years of learning shortfalls,
+will increasingly adopt online learning services in the school
+building in lieu of and in addition to in-class learning.
+#+end_quote
+
+Fred's a VERY sharp and perceptive guy and a friend and I think
+he's correct on the adoption of online learning but I thought a couple
+of points merited a deeper dive from a guy who's spent a lifetime in
+the trenches.
+
+The fist thing I think worth talking about, and this isn't really
+about the adoption of online learning are learning shortfalls They
+don't exist. Learning shortfalls due to Covid, also described as
+learning loss is a made up concept. Usually pushed by politicians.
+
+The claim is that due to COVID students learned less than what they
+were supposed to and we have to make that up. Less than what? Less
+than who? Everyone in the world was hit with this.
+
+This comes back to our countries love affair with high stakes
+testing - every student MUST finish Algebra by 8th grade, or MUST have
+a certain reading proficiency by 5th grade (whatever that means).
+
+On the other hand, we're told that students work at their own
+pace.
+
+Which is it?
+
+The truth is that a large amount of specific topics we cover in K12
+could be eliminated and we'd be none the worse for wear. In Algebra 2
+/ Trig there's around a month of Circle Geometry. It seems randomly
+placed and really doesn't introduce any new meaningful concepts. I
+suspect that it originally was placed in the course when Alg2/Trig was
+the terminal HS math course and people through "well, kids should see
+this sometime" but now this is no longer the case. We could easily
+knock it out.
+
+Likewise, look at how Geometry evolved. Even though it's supposed to
+be a course about proof many schools only pay lip service to teaching
+it. This is a result of high stakes testing. Teachers know that
+teaching proof is HARD and learning it likewise. They also know that
+the students need to pass the regents to graduate and that both
+student and teacher will be judged on passing the exam. Further, they
+know that the best route to get the student passing is to barely deal
+with proof and focus on the rest of the class which is easier to teach
+and learn and is worth the lions share of the points on the regents.
+
+In English we can read one less Shakespeare and I'm sure we can go
+down the list we'll find that a lot of these things that kids didn't
+learn are really just arbitrary.
+
+The other truth is that indeed people learn at different rates and
+if we really cared about education we'd admit and deal with this
+rather than keeping our lock step testing based system.
+
+So, learning shortfalls are manufactured and could easily be
+dismissed.
+
+With that aside, we can look at online learning.
+
+Just to get started - I think that online learning has a place. It can
+be at times a great supplement to in person learning and at times it
+can be the superior option. I'll write more about that soon. Probably
+not for another week or so since Devorah and I are hoping to get away
+to San Diego for a little vacation later this week. My concern comes
+from me being much more the pessimist than Fred.
+
+Well, I used to be more of an optimist but working in the system for
+30 years has a way of beating you down. Now I'm much more of a "hope
+for the best, expect the worst" kind of guy.
+
+My first fear is that online learning will be used just as Fred
+mentioned, due to teacher shortages. I think this is likely to happen
+and it's not going to be pretty. Better to actually address teacher
+shortages by, I don't know, paying teachers fairly and having them
+work in safe environments with reasonable work loads.
+
+Instead, I see a new wave of technology based solutions like online
+charters which have proven to be ripe for scandal or programs like the
+technology based "credit recovery" courses that came online under
+Bloomberg. These were self paced online courses where students clicked
+through repeatedly. Great for graduation rates. Horrible for actual
+learning.
+
+We're also going to see technology being used not to make teachers
+more effective but either to add to their workload and/or class sizes.
+A small and maybe frivolous example is when politicians were talking
+about eliminating snow days - they'll just teach online. Now, since
+you don't know a snow day is coming this leaves a teacher to scramble
+at the last minute to come up with something and given how much time
+can go into prep, this is a BIG add to the teachers week. As a
+teacher, I loved snow days not so much as a "party day" but rather as
+a day where I got the gift of a day back to catch up on planning,
+grading, and paperwork. Besides, I think that rare surprise day off is
+actually healthy for kids.
+
+A bigger example is that I'm thinking that we'll see schools expecting
+teachers be available to students and parents 24x7. We already see
+this starting.
+
+A third would be instead of a small class where teachers and students
+interact using technology to balloon up the class size. So much of
+teaching, particularly in K12 is about relationships and interactions
+and you just don't get that when you decide to do a class on computers
+and drive up the enrollment.
+
+You'll also see technology that seem to help teachers but even those
+have a downside. Prime example - autograders. They're grate for
+providing students with instant feedback and for grading "short
+answer" or "right or wrong" questions but when a teacher grades a
+teacher sees a students work and gains insights into the student. If
+I'm not grading projects, I'm losing that insight.
+
+Actually, a great example is looking at student projects in the old
+world and in the new one.
+
+In the old world, a project is assigned in class. Maybe we have a lab
+day or two, then some work on their own time. More lab days, then
+finally the project is due and the teacher grades. With all that in
+class time, the teacher is observing and interacting and getting to
+know the students and their work. To be honest, by the time I grade a
+project, I already know most of the story but reading over the code
+and running the program on my own is the final piece.
+
+The new way? The project is assigned. Work is done outside of hte
+teacher's view. The teacher only sees the students work if they ask
+for help outside of class hours (since you can't use that important
+synchronous class time for that with 100+ students) and then it's
+autograded.
+
+The old way takes more time and more work but that's teaching and
+learning. The new way will work great for the autodidacts and a number
+of kids will flow through the machine but here technology which would
+seem like a win, really isn't.
+
+This is a lot of "expect the worst" and I do want to be clear - I love
+tech and think that tech can be a great boon to education if done
+right. I'm just really wary of past experience being a predictor of
+how things will go in the future. I think Smart, well meaning people
+are going to continue to come up with wonderful tools that could do
+worlds of good for students and teachers but I have little confidence
+in the decision makers deploying them in ways that will truly benefit
+students.
+
+I hope I'm wrong and none of this pessimism will stop me from working
+with technologists, ed tech people, and playing with the new toys as
+they become available. I just also want to be prepared for the worst
+while I'm hoping for  the best.
+
+
+
+
+
+
