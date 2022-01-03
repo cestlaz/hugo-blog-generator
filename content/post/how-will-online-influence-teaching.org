@@ -26,7 +26,7 @@ he's correct on the adoption of online learning but I thought a couple
 of points merited a deeper dive from a guy who's spent a lifetime in
 the trenches.
 
-The fist thing I think worth talking about, and this isn't really
+The first thing I think worth talking about, and this isn't really
 about the adoption of online learning are learning shortfalls They
 don't exist. Learning shortfalls due to Covid, also described as
 learning loss is a made up concept. Usually pushed by politicians.
@@ -123,7 +123,7 @@ and you just don't get that when you decide to do a class on computers
 and drive up the enrollment.
 
 You'll also see technology that seem to help teachers but even those
-have a downside. Prime example - autograders. They're grate for
+have a downside. Prime example - autograders. They're great for
 providing students with instant feedback and for grading "short
 answer" or "right or wrong" questions but when a teacher grades a
 teacher sees a students work and gains insights into the student. If
