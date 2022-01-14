@@ -1,0 +1,156 @@
+---
+title: What is a Syllabus and why does it matter?
+date: 2022-01-14T07:14:35-04:00
+tags:
+- curriculum
+categories:
+- curriculum
+draft: false
+--- 
+
+Over in the Facebook CS Ed groups there was a discussion of the
+forthcoming code.org APCS-A curriculum. As far as I can tell, the
+curriculum isn't actually available yet so I can't really comment on it
+but the discussion started with a concern about some of the
+announcement. It made me think of what a curriculum was when I started
+teaching, what it is now, and the ramifications of the change.
+
+Back when I started, I might get a math curriculum, a section of which
+might have looked like this:
+
+|  Day | Topic                                 | Chapters  |
+|------+---------------------------------------+-----------|
+|  5,6 | solving simple linear equations       | 3.1 - 3.4 |
+|    7 | solving more complex linear equations | 3.5, 3.6  |
+| 8-10 | graphing linear equations             | 4.1       |
+
+etc.
+
+
+That was it. As a teacher, you knew the topic. If you had to get an
+idea as to the depth of which to cover you looked at the text and
+other resources you had in school and consulted with your
+colleagues. You knew yourself, your school and your students and you designed
+lessons to suit.
+
+This is a far cry from what you'll see today. Going back to the
+forthcoming code.org apcs-a curriculum.  
+
+Here's the blurb that code.org provides:
+
+#+begin_quote
+CSA curricula have traditionally been focused on the building blocks
+required to design solutions to problems through programming. Creating
+this new curriculum with equity in mind means reimagining the
+structure and pedagogy to excite and inspire students from
+underrepresented racial and ethnic groups and young women while
+teaching the technical building blocks and preparing students for the
+AP® exam. Code.org’s CSA curriculum:
+
+
+- Incorporates culturally responsive and equitable teaching strategies
+  and frameworks by considering cultural references and learning styles
+  throughout the curriculum — from the vocabulary, to the visuals, to
+  the sequence of concepts taught.
+
+- Acknowledges diversity of experiences and interests. Students
+  investigate real-world problems during class activities and make
+  connections to their own work. Projects are carefully designed to be
+  instructive yet open-ended, enabling students to demonstrate mastery
+  of concepts and engage in their passions without making assumptions
+  about their cultural background or life experiences.
+
+- Brings to life a “Software Engineering for All” narrative. This
+  narrative helps students envision themselves as software engineers,
+  and the curriculum uses videos featuring presenters from different
+  backgrounds who work in technology to help students visualize
+  opportunities for their own futures.
+  
+- Helps students develop and model valuable, real-world career
+  skills. In addition to skills like tracing code segments and
+  documenting code, Code.org’s approach to CSA incorporates
+  collaboration and career skills that go beyond the AP® CSA course
+  requirements. For example, our curriculum includes a student-friendly
+  code review tool, which is a common quality assurance practice in the
+  technology industry.
+  
+#+end_quote
+
+There's nothing inherently wrong with any of this but it is worth
+noting that the APCS-A class is indeed a course concerned with "building blocks
+required to design solutions to problems through programming." It is
+based on a college CS1 class which is all about programming to solve
+problems. Like it or not, that's the course.
+
+Now, having a culturally responsive course etc. etc. is all good and I
+guess that since APCS-A is usually implemented a full year course to
+cover a half year of college material there should, in theory, be room
+for all the additions but that's not really here nor there.
+
+The thing is, APCS-A is supposed to be about programming. A well
+taught APCS-A will be culturally responsive etc. but that's the
+implementation. Unless something changed, that's not actually in the
+course as defined by the college board or the college classes on which
+it's based.
+
+This says to me that when code.org publishes its curriculum, it will
+most likely resemble the products pushed by most modern curriculum
+providers - really not just a curriculum but a collection of very
+detailed units and lessons.
+
+Now, I do think that some of the things mentioned in the
+code.org blurb like collaboration, software engineering, and other
+topics like ethical ramifications *should* be in curricula but even
+so, the exact lessons should be teacher designed and tuned to their
+school and students. 
+
+Again, nothing wrong with any of this. It can be a great and valuable resource,
+particularly for an inexperienced teacher.
+
+But then, there is something wrong overall and it's with the direction
+those with influence are taking as a profession. 
+
+Teachers are less and less expected as much to know their subjects, their
+students, and how to teach but rather to follow the script. This
+approach might get those students past the standardized exam but in
+the long run it's not giving students what they need nor deserve.
+
+I've seen this every year in my undergraduate CS classes. Since APCS
+Principals was launched many of my students have come in having taken
+the classed and "passed" the exam. Truth be told, the majority of them
+come in basically knowing nothing. This wouldn't be a problem if they
+didn't come in thinking they knew quite a bit.  You can contrast that
+with the students that come in having taken APCS-A. These students, by
+and large, do indeed have a reasonably solid introduction to
+programming under their belts. Further investigation usually reveals
+what "curriculum" they learned under and the CS background of the
+teacher.
+
+Some will argue that we need the crutch of the scripted lesson in
+order to get started. Fair enough. I don't disagree with this basic
+premise but the truth is that history seems to indicate that we're not
+going to get beyond this. My favorite example is the old Cisco
+networking class. Some teachers knew legit networks and decided to
+teach the class - that was great. Some didn't and just had their
+students use the Cisco provided computer based modules which, in my
+opinion, weren't so great. Of those that didn't start with a
+networking background, just about all I've met never moved beyond
+where they started in networking knowledge.
+
+I fear we're already seeing that in CS. School supervisors don't know
+any better so they see that they can check off the computer science
+box. Many teachers probably don't know better because their short term
+training is focusing on how easy CS is and how you don't have to learn
+anything to teach it rather than the truth - it's just like anything
+else, it takes time and effort to really master. 
+
+I already know that my view isn't the popular one but I'll say it over
+and over until I retire - CS teachers really do need to know CS and
+providers that provide short form "training" and scripted content,
+unless they push with even more vigor, the next steps, are ultimately
+going leave us in no better shape than we started. Kids in well to do
+schools with administrations that can afford to bring in knowledgeable
+experts and the gap will widen with the poorest getting the low
+end scripted curricula.
+
+
