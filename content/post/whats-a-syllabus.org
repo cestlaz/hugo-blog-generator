@@ -116,7 +116,7 @@ approach might get those students past the standardized exam but in
 the long run it's not giving students what they need nor deserve.
 
 I've seen this every year in my undergraduate CS classes. Since APCS
-Principals was launched many of my students have come in having taken
+Principles was launched many of my students have come in having taken
 the classed and "passed" the exam. Truth be told, the majority of them
 come in basically knowing nothing. This wouldn't be a problem if they
 didn't come in thinking they knew quite a bit.  You can contrast that
