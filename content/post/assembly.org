@@ -1,0 +1,107 @@
+---
+title: Do you need to know assembly to be a computer scientist?
+date:  2022-01-19T06:47:18-04:00
+tags:
+- CSEd
+- curriculum
+categories:
+- education
+draft: false
+--- 
+
+Another recent discussion online asked "do you need to know assembly
+language to be a computer scientist?"
+
+Sides quickly formed. On one side, it was a strict requirement. Some
+going so far as saying you *had* to start with it or at worst a
+language like C. On the other side you had people claiming that it's
+wholly unnecessary for most CS graduates like many of the classes we
+require of a CS major (I'm looking at you Calc II and beyond).
+
+I don't dispute that many people with CS degrees have great tech
+careers and never program in assembly. Further, the idea that a low
+level assembly programmer describes what a "computer scientist looks
+like" or "should look like" is pretty off base.
+
+On the other hand, I'd argue that a well educated computer scientist
+should have some knowledge of low level concepts which can probably
+best be explored through some exposure to assembly language.
+
+To start, what is a computer scientist? As a field we still haven't
+worked that one out. Certainly, people employed as professors in
+computer science departments are pretty much, by definition, computer
+scientists but that's the minority of CS majors.
+
+To me, and this isn't really a great formal definition, a person who
+employs the creative and problem solving techniques associated with
+computer science in their day to day can certainly call themselves a
+computer scientist.
+
+It's a wishy washy definition, I know but to me, it works. Someone
+employed as a software engineer *can* be a computer scientist or they
+might not be. It depends on their job and how they approach it. Say
+said SE is given screen descriptions, layouts and what to do when
+events happen and they write code to implement this, they're not being
+a computer scientist. Likewise, if they implement an algorithm
+specifically given to them for a task. On the other hand, if the same
+person designs the interface making creative decisions involving
+accessibility and usability or solves a problem using or designing an
+algorithm then implementing one, then they would be, in my view acting
+as a computer scientist.
+
+Of course, in the general sense a SE could be a real software
+engineer, software architect, or many more things as well.
+
+So, does a computer scientist *need* to actively know assembly?
+No. That said, do they benefit from knowing something about it? I'd
+say yes.
+
+Years ago, I was watching a special with Itzhak Perlman, arguably the
+greatest violinist of a generation and one of my favorites. He was
+talking to and playing with a bunch of [[https://en.wikipedia.org/wiki/Klezmer][klezmer]] musucians. Or rather, I
+should say trying to play with. Klezmer is something of a Jewish jazz
+with a lot of improvisation. Perlman understood this, could
+meaningfully converse about it with the other musucians but he had the
+hardest time trying to keep up with them. Nobody could seriously say
+that Izhak Perlman wasn't and isn't a brilliant musician and artist
+but he really couldn't play improvisational jazz. His training and art
+are just in a different corner of the music world. That said, he was
+certainly well versed in it. He knew jazz even though he didn't
+perform it.
+
+I also saw this at a Bobby Mcferrin concert. He was performing with a
+small string orchestra. I think maybe it was Gidon Kremer's Kremerate
+Baltica but I don't remember. At one point he was calling out the
+individual orchestra members to do some improv. It did not go
+well. Again, these were all clearly master artists and they certainly
+knew and were comfortable with Jazz, just not performing it on the
+fly.
+
+In case you really want to see what I'm talking about, I'll give one
+more example:
+
+#+begin_export html
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6mRT61rRSGc?t=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</iframe>
+
+#+end_export
+
+ 
+Having some knowledge of assembly, or more specifically, how low level
+things work is what I call a "latin" of CS. Understanding things like
+memory or how a processor works help an individual understand buffer
+overflows or why data types matter, why floating point calculations
+are innacurate or why a hash table has to be sparse. They may never
+program in assembly but some knowledge will make them a stronger
+computer scientist. I would say the same for my other CS latin -
+theory. They might not use it day to day but it will help shape their
+decisions and make them a stronger software engineer or whatever.
+
+So, can you be a gainfully employed tech person and never have seen
+anything low level? Of course. Can you do computer science stuff and
+say the same? Sure. But a well educated, well rounded computer
+scientist will have had some exposure to low level concepts and have
+some base level understanding.
+
