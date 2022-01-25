@@ -1,0 +1,118 @@
+---
+title: Trends In Professional Development in CS - it's not all good 
+date: 2022-01-25T17:46:43-04:00
+tags:
+- PD
+- CS Education
+categories:
+- PD
+draft: false
+--- 
+
+My friend [[https://twitter.com/mrtomocon/status/1486012499304587269][Tom]] tweeted earlier which led me to [[https://csforall.medium.com/virtual-professional-development-is-here-to-stay-d2a3888f2d1a ][this piece]] on trends in
+CS professional development (PD). Tom's tweet was talking about virtual vs
+in person PD so I initially thought I'd write about that and PD in
+general but the article actually led to some deeper issues with PD.
+
+The article talks about PD being focussed on specific units or
+modules, narrowing to more popular offerings and also becoming less
+localized. This led me to think about a real issue with CS PD that a
+few of us have been harping on for years. The *VAST* majority of CS PD
+is provided for by "content providers" - people with a product to
+sell. That might be a curriculum, a technical platform, or both but
+something to sell. It's not just CS knowledge and how to teach
+it. I include organizations like code.org in this bucket because while
+they're not selling in the same sense as a textbook publish, they are
+selling or pitching their curriculum and platform.
+
+It's easy to see how we got here. There are so few people out there
+that actually know both the CS content and how to teach it that there
+was a void so EdTech and a few others stepped in. The truth is, most
+of the big PD providers also don't have both deep CS and deep CS
+pedagogical knowledge. What they do have is influence. This isn't to
+say that they're all bad. There are some providers whom I like very
+much and I think are doing a great job but that's not the point here.
+
+So, we're left with a system where the majority of CS teachers have
+very little CS or CS teaching experience and the providers are pushing
+very specific training tied closely with their product, course, or
+curriculum. I know I'll get some hate for this but it's just where we
+are right now.
+
+This might change over time as preservice teaching programs start to
+emerge but I fear that many of them will just continue the trend of
+pushing canned curricula. I've already seen proposed and existing
+programs that essentially have a teacher candidate go through a
+version of APCS-A, APCS-P, a computers in society class and something else
+similar and voila, CS teacher.
+
+Let's contrast all of this with math PD or at least the math PD that I
+was subject to for most of my high school teaching career. Most
+department meetings I attended always had a PD piece and that was
+usually something interesting, or at least supposed to be interesting
+presented by a colleague. It might be one of their practices or it
+might be something they got from a conference or an outside PD. We'd
+also have larger PD sessions a couple of times a year. Topics would be
+things like:
+
+ - How to use the graphing calculator to explore functions
+ - History and math
+ - Math in your student's worlds
+ - Exploring math competition problems
+ - An introduction to some advanced or new math topic
+ - Motivating a lesson on something or other
+
+Few of these were tied to a specific course and none were tied to a
+specific implementation or curriculum. There might be a special
+section on something like Geometers Sketchpad or a vendor might run a
+session but those were in the minority.
+
+It was mostly about math and how to teach math and most offerings were
+by teachers not content providers.
+
+I don't know what math education PD is like now but what a word of
+difference.
+
+Will CS PD get better, and I do think locally, teacher  generated PD
+is better? I don't know. I've been told that the sessions I ran
+pre-covid were worthwhile but I don't see those happening again until
+we can do in person events and in any event that's small scale.
+
+All this said and I haven't touched on what led me to the article to
+begin with - the point that PD is going much more virtual. Is this a
+good thing? Sometimes but it's also, in my opinion a confirmation on
+the sad state of PD in general.
+
+The idea behind PD is ongoing professional growth but the truth is,
+teachers don't really have time for PD during the school year so what
+they do is mostly mandated. In my own experience and in talking to
+many teachers in many subject areas the majority of PD forced upon
+teachers is garbage. Even if it is good, too often it's not relevant
+to the teachers day to day and by the time it matters, if it ever
+does, it's long forgotten. Unfortunately, many teachers are required
+to accumulate PD hours. In NY they're called CTLE hours (Continuing
+Teacher and Leader Education).
+
+Since teachers are being forced to accumulate these hours and they
+don't find them valuable they're taking the path of least
+resistance. That frequently means online offerings.
+
+None of this is to say that online PD is bad or always bad. It can be
+very effective for some things. Others really should be done in
+person. I'm just saying that it's not a surprise that we're here and
+that we have to look deeper to figure out how we got here and why.
+
+Where do we go from here? I have no idea. I've long resigned myself to
+try to just worry about my corner of the world. I'll make the best
+offerings I can be they in my pre/in service courses or in PD wether
+they're in person or online. I think that those that come will find
+value so those are the ones I'll worry about.
+
+
+
+   
+
+
+
+
+
