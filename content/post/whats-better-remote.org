@@ -1,0 +1,121 @@
+---
+title: When is remote better
+date: 2022-01-28T08:13:17-04:00
+tags:
+- teaching
+categories:
+- teaching 
+draft: false
+--- 
+
+With my first classes of the semester coming up on Monday I thought
+I'd write a bit about what worked better remote than in person. When I
+say better I mean specifically, worked better for me given my
+situation. I think they worked better for the class but I can't say
+with any certainty given the length of the educational feedback loop
+and other factors.
+
+My in person teaching situation is as follows. Last semester I taught
+2 in person classes (plus one remote). Both were in computer
+labs. Minimal distance between the kids. Everyone had to have set
+assigned seats and masks had to be on at all times. As the instructor,
+I was allowed to remove my mask but I never would.
+
+So, here we go.
+
+* feeling safe
+
+Big one. Remote felt safer. It doesn't really matter if it was safer
+or not. This is a case of perception being reality. Since I felt less
+safe - particularly at the start of the year before the students were
+vaccinated, I can say for sure that I wasn't as effective. If the
+students didn't feel safe I'm sure their learning also took a hit.
+
+For all the dings on remote teaching, we all felt safe.
+
+* participation
+
+In my personal opinion, my classes last semester went from what I hope
+were good classes to not so good lectures. Since students wore masks
+and don't project their voices in any case, student participation was
+really tough. It would turn into asking students to repeat their
+answers multiple times and to project louder and louder. It didn't
+help that windows had to be open and we're in the heard of NYC with
+all the associated street noise.
+
+Now, remote participation is no great shakes. It's really easy for a
+student to just tune out but at least it was possible. Students could
+be called on or could volunteer and between the Zoom and our Zulip
+chat, there were far more opportunities for students to be involved.
+
+Now, once we're safe and mask free, in class will probably be better
+than remote for this but for now, I can't say that it is.
+
+* Group work
+
+Group work in person was pretty much impossible. Even though there was
+little distancing between the students, they had to stay in their
+assigned locations. On Zoom we had breakout rooms and on our Zulip,
+group chats. In normal times, in person would blow away remote but
+something reasonable on zoom and zulip was far better than nothing in
+person.
+
+* Working with individuals / small groups
+
+I also couldn't really work well with individual students (or small
+groups if we were able to set them up). Online I could do a breakout
+visit or an individual or group chat. Again, something being better
+than nothing. The one place where in person was better is that, while
+it was limited, I could eaves drop on the kids - look over while they
+worked. It was limited because I didn't want to get too close and also
+for the reasons cited above but it was something. Can't do that with
+Zoom. Interestingly enough, Big Blue Button - an opensource Zoomalike
+does have an eavesdrop on breakout rooms feature as it's made for
+teachers but last I checked the overall platform was not quite ready
+for prime time.
+
+* Polls
+
+Another big win for remote was the use of the Zulip chat. Emoji polls
+replicate the use of a clicker but with more power and flexibility and
+less overhead.
+
+You can also give a question and have them all type a response but
+not hit  the *enter* key. The can then all post at once. You can do
+similar things with hand signals in class but this is much more
+flexible and robust. Big win.
+.
+* Discussion of student work
+
+Finally, the chat platform gave us the ability to discuss more
+student's work. Typically, in class you can only look at one or two
+student solutions for a given problem but using the chat, you can
+stretch out the discussion. A typical strategy is to have  everyone
+post their initial answer/response/whatever and then over the course
+of time have each student comment on at least two other student
+posts. Yes, this has it's kinks but it's a nice way to get more
+students to look at more other student's work.
+
+* Takeaways
+
+At the beginning of last semester, I felt that we should have at least
+started online - particularly with the students potentially
+unvaccinated. Looking back, I think it would have been better
+overall.
+
+Truthfully, the ideal would have been to do remote until students were
+vaccinated then allow professors to mix and match as best suits their
+classes.
+
+If we ever get past this and back to regular old school in person
+classes, sure, that beats remote for instruction overall but remote
+does have it's moments. On top of that, good remote can beat crippled
+in person and sometimes there are other good reasons for a remote
+option such as why I want my teacher prep program to remain online.
+
+So, there it is. Where I think remote teaching outshone in person for
+me over the last year. As a college istructor I have more flexibility
+than a K12 teacher so can mix in remote practices that I feel work
+better. I'm hoping that over time those that set the K12 structure
+would make it similarly possible at that level.
+
