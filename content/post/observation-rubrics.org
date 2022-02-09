@@ -1,0 +1,109 @@
+---
+title: Rubrics for teacher observations are garbage
+date: 2022-02-09T12:12:26-04:00
+tags:
+- teaching
+categories:
+- education
+draft: false
+--- 
+
+There have been a lot of bad ideas foisted onto educators over the
+course of my career. One of the ones that always pissed me off was the
+use of a rubric for teacher observation. Specifically, using the
+Danielson Framework. 
+
+The Danielson Framework is a LONG laundry list of topics and concepts
+and for each a teacher could be rated ineffective, developing,
+effective, or highly effective.
+
+It's garbage.
+
+Sure, there are some good things in the framework but using a
+restrictive rubric to judge a teacher is just a bad idea. Even the
+frameworks creator, Charlotte Danielson publicly stated when this
+nonsense got started that the framework should not be used to evaluate
+teachers. Of course departments of education would give a nod nod
+wink wink and say "no, it's not for evaluation, it's for teacher
+improvement."
+
+I remember talking to a colleague at Stuy. She hated the Danielson
+Framework that was being forced on teachers for observations. She was
+known to be a strong teacher but according to Danielson, she was off
+the charts good. She reason she hated it was because she recognized
+that her teaching style just happened to map well to the framework du
+jour and eventually it would be a different rubric and she would no
+longer be good.
+
+I've actually seen this happen - teachers going from good to bad or
+the reverse based on an observation rubric. The teacher didn't change,
+nor the students but change the rubric and you can get the results you
+want. Good, or more frequently bad, I mean it was then Governor Cuomo
+who said that his teacher evaluation metric was clearly no good
+because too many teachers were scoring well.
+
+Why am I bringing this up? Because student teachers. My CS Education
+Masters program is about to have it's first graduates and New York
+State will have it's first two newly certified CS teachers with said
+degrees. They're both finishing up our program with a last course (CS
+Topics) and student teaching. Both of our student teachers will have
+to be officially observed three times and ultimately I'll have to rate
+them and enter those ratings into Hunter's system.
+
+I'm ranting on Danielson because Hunter uses said framework to
+evaluate its student teachers. Like an institution, Hunter's a complex
+beast and there's both good and bad but seeing what is essentially the
+Danielson framework being used to evaluate student teachers knocked
+them (us) down a peg in my book.
+
+Now, from a top down approach, using something like Danielson makes
+sense. It gives a series of check boxes making things easy to measure
+even if they're the wrong things. It also made sense back when it came
+to be because of the leadership model espoused by people like Michael
+Bloomberg where he would take young teachers with a year or two of
+experience and make them principals. A horrible idea which persists to
+this day. Traditionally, an AP or P would have decades of teaching
+under their belt. They knew what a good lesson looked like. Not
+Bloomberg era principals. I mean, it takes a dozen years before you're
+really an intermediate stage teacher. A two year principal doesn't
+have a chance nor a clue.
+
+The bottom line is that good (and bad) teaching is so varied and
+nuanced that you can't boil it down to a rubric. All you can say are
+things like look for questioning, engagement etc..
+
+My approach to observations was set by my first supervisor at Seward
+Park High School. He was a master teacher. Just ask him. Unlike many
+APs who just teach honors or the top level class, he would rotate
+classes among his entire department. He would teach everything from
+calculus to remedial math. He'd say "those kids deserve me too." Yeah,
+he was arrogant, but he really was a master teacher. He was also great
+if he liked you but a horror if he didn't. Fortunately, he liked me.
+
+He said that the one thing you have to keep asking yourself when you
+observe a class is "is learning happening." It's that simple. Then,
+it's up to you as the observer to figure out where, how and why and
+what you can suggest to make it better (while observing the cardinal
+rule of not fixing the lesson). This makes all the sense in the world
+to an experienced educator and it allows them to hone in on an
+observee's strenghts and weaknesses while also adjusting for the class
+and circumstances.
+
+If you've got good observers and trust them, it works and works very
+well.
+
+What don't work? Detailed rubrics by non teachers.
+
+Unfortunately, right now, this is just another idiotic idea that
+teachers are forced to deal with and just another thing driving
+teachers away from the profession.
+
+Will the powers that be ever learn? Probably not so for now it's up to
+good supervisors to shield their teachers from the nonsense and I
+hope, in my capacity, when I'm able I can do the same.
+
+
+
+
+
+
