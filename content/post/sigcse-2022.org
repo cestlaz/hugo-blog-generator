@@ -1,0 +1,72 @@
+---
+title: First live conference in 2 years
+date: 2022-03-01T08:13:17-04:00
+tags:
+- misc
+categories:
+- misc
+draft: false
+--- 
+
+Tomorrow I'll be driving up to Providence Rhode Island for SIGSE 2022,
+basically the largest computer science education conference out
+there. I guess ITSE, a conference I've never attended, is larger but
+that's really EdTech with some CS.
+
+The last in person conference I went to was two almost exactly two
+years ago - also SIGCSE. I arrived in Portland and went to a
+pre-conference session and on the morning of the big start, about three
+hours before I ran my session, I saw an email saying we were
+canceled. I flew home and a few days later we began our shelter in for
+covid.
+
+In spite of the latest CDC release, SIGCSE is still requiring
+masks. This is something I support. I have no problem taking a
+conservative view on health, particularly at an event that brings
+together people from all over the world.
+
+The sessions should be comfortable. Everybody will be vaccinated and
+should be masked so it's no different than attending a concert in
+NYC. I am curious though about the lunches and big reception. Will
+everyone just dump the masks for food since we're all vaccinated? Will
+there be some trepidation? We'll see.
+
+I'm also curious to see the overall attendance. The last SIGCSE had
+well over 1,500 attendees. What will this one be like? 
+
+There are some sessions I'm really looking forward to. There are some
+on K12 teacher preparation and professional development. I feel pretty
+confident that the approach I'm taking at Hunter is the right one but
+it's always good to see what other people are thinking about and
+trying - always happy to steal better ideas. I'm also looking forward
+to some of the sessions that deal with teaching more advanced CS
+concepts. This is something that's lacking in CS Ed. The CSTA
+conference which focuses on K12 is more about actual teaching but
+since K12 CS is still in its infancy, most schools are still dealing
+with intro level stuff and conferences like CSTA really have to work
+to support our new teachers.
+
+Most importantly though, I'm looking forward to seeing people that I
+haven't seen in a couple of years. Both those that I consider real
+friends and also the many acquaintances I'm friendly with.
+
+I'm also looking to see the breakdown of K12 and higher ed
+people. Over the years the number of K12 teachers at the conference
+has grown and it's interesting to see the differences in the
+camps. The teachers, by and large know far less CS but are much
+stronger teachers while the professors know the topic but while they
+might research teaching, they don't nearly have the depth of teaching
+knowlege that K12 teachers posess.
+
+This is a probably unfair oversimplification but you could say that teachers teach
+the student and professors teach the subject.
+
+This can make for an interesting dynamic. I hope over time, the
+teachers become stronger in the subject material and that the
+professors realize that teaching is an art and a craft and that what
+one does at an elite institution is worlds away from the inner city
+middle school.
+
+Anyway, enough yammering. For those of you who'll be in providence
+this week, make sure to say hi. I'm sure we'll all learn a lot and have
+a blast doing it.
