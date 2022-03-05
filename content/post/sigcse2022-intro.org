@@ -1,0 +1,65 @@
+---
+title: SIGCSE2022 - Things I plan to blog about
+date: 2022-03-04T20:07:45-04:00
+tags:
+- misc
+categories:
+- misc
+draft: false
+--- 
+
+I've been up in Providence RI since this past Wednesday for
+SIGCSE2022. The big Computer Science Educators conference. Also, my
+first in person conference since pre-covid.
+
+I wasn't sure how I was going to feel about this big in person
+gathering but as it's turned out, it's been pretty comfortable.
+
+So far, I've attended two terrific keynotes. One by Barbara
+Liskov and the other Barbara Ericson, some really interesting sessions
+and some less interesting ones and have had a great time discussing CS
+education.
+
+The big highlight has been seeing friends in person and being able to
+talk. Sitting down for coffee with a friend or having a rount table
+discussion around a well, round table.
+
+One of those friends I was delighted to see was Alfred
+Thompson. Alfred's already sumarized his [[https://blog.acthompson.net/2022/03/sigcse-2022-day-1.html][first]] and [[https://blog.acthompson.net/2022/03/sigcse-2022-day-2.html][second]] day
+experiences so there's not reason for me to write much the same so I
+figured I'd just quickly list out a few of my highlights and in
+particular things I plan to write more about when I get back to NYC.
+
+- Language choice for APCS. There was a panel that considered why
+  change to Python or why stick with Java. I didn't attend this
+  session but talked at length about it with a number of people. It
+  had me reconsidering my opinions and I'll certainly write about this
+  in the near future.
+
+- I saw an interesting talk by Sam Lau in which he discussed how
+  statisticians and computer scientists differed in their views as to
+  how and what should be taught in a data science course. This got me
+  thinking about developing CS offerings at the high school level.
+
+- I attended the "It seemed like a good idea at the time" session for
+  the first time where teachers discussed their failures. This was a
+  *great* session hosted by two more friends I haven't seen since
+  pre-covid - Dan Garcia and Jim Huggins. One topic brought up there
+  was dealing with late assignments as well as alternative
+  grading. This too is something I plan to write about.
+
+- PD For CS Teachers and teacher prep programs. This is clearly
+  something I care deeply about and there were some sessions on this.
+
+- I also spent a good amount of time catching up with my friends Jim
+  and Robin from Siena College. They're doing some cool thing up there
+  so that's another thing I'd like to write about.
+
+- My thoughts on the hybrid format of this conference
+
+That's a big list - a lot of things to write about. I hope to get on
+this when I get back to NYC on Sunday.
+
+In the meantime, if you're in providence for tomorrow's last day of
+SIGCSE, please find me and say hello!!!!
+
