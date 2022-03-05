@@ -1,0 +1,99 @@
+---
+title: SIGCSE 2022 - Conference format
+date: 2022-03-05T08:05:15-04:00
+tags:
+- SIGCSE
+categories:
+- SIGCSE
+draft: false
+---
+
+Before diving into the content I thought I'd share my thoughts about
+SIGCSE as a hybrid conference. Prior to Covid, SIGCSE was pushing
+2,000 in person participants. This time around ther were a little
+under 800 in person and a number of hundreds more remote. The in
+person numbers mirrored what CSTA has grown to. It's a nice size. Not
+overwhelming but manageable. It's at the upper edge of possibly
+feeling intimate. Once you get into the thousands things feel far less
+personal. You can go the entire conference not finding people you want
+to connect with. On the other hand you can also blend into the crowd
+should uyuou choose that route.
+
+Things basically ran as usual. Opening announcements and keynote,
+coffee break, sessions and so on but remote was interjected
+throughout. There were also remote only sessions but I can't speak to
+those.
+
+We started out with the opening keynote. Barbara Liskov Zoomed in from
+her home. She gave a *great* talk going through her history which in
+many was is *the* history of some key aspects of computer science,
+programming languages, and programming.
+
+There was zero downside to having a remote keynote speaker. Barbara
+was intersting and engaging. I was blown away. The only thing I found
+a bit weird was that I kept glancing over to the dias where the
+speaker would normally stand and it was empty. That's on me though.
+
+At the end we had Q&A from both people in the live audience and people
+on the remote platform. This was an all around win.
+
+The first thing that somewhat irked me about virtual was at a paper
+session. The second paper was presented as a video. This part was
+fine, maybe even preferable since it allows the presented to make sure
+the video is set up the way they want and it also keeps within time
+limits. The problem was that there was no Q&A. If you're going to do a
+video presentation, the presenter should hop on some platform at the
+end for Q&A. There is zero value added to just showing the video. I
+could do that from home.
+
+I'm not criticizing SIGCSE here. They tried something. In my opinion
+it didn't work. In the future, I'd love to see video presentations but
+with a live, in person or via some Zoom platform Q&A. In theory there
+could be some "flipped sessions" (although I think a lot of the
+flipped classroom concepts are bunk) where you could watch the video
+or read the paper prior to the session and then have a meaty
+discussion.
+
+The second hybrid thing that I didn't like was a hybrid BOF. I just
+think it din't work. It basically turned into a few small mini
+presentations by the organizers. All the prior SIGCSE BOFs I've
+attended had the hosts facilitating a room wide discussion. This was
+similar but slightly more awkward in the few virtual group discussion
+sessions I've taken part in. This was a case of hybrid not
+working. With some people in the room and some people at home you just
+couldn't have meaningful discussion. The people in the room couldn't
+talk without excluding the remote people and remote conversation
+wasn't available easily to the in person crowd.
+
+Birds of a feather just don't fly mixed. Do them remote or do them in
+person.
+
+A third thing that didn't really other me but I found weird was one
+panel where one person was in person and the rest were remote while I
+knew that at least one of the remote people were attending in
+person. The mix just didn't flow as well for me. I've attende all in
+person panels, all remote panels, and panels where all the panelists
+were in a room together but presenting remotely. All of these formats
+worked. It think the mix of in person and remote was just kindof
+weird. In future, I'd say either have all the presenters in a room
+together at a big table even if it's remote or have them all "dial
+in."
+
+Overall the conference was great so these are really nitpicks.
+
+With this post out of the way I can get to the content posts but I
+feel it would be remiss if I didn't mention a couple of non content
+related highlights that the SIGCSE organizers provided.
+
+First, the opening evening reception had a *bacon bar*. All
+receptions, coffee breaks, snack times, and I'd even say sessions
+should provide bacon.
+
+The other thing which I'm more serious about is that they provided
+coffee and tea before the opening sessions rather than their usual
+practice of withholding caffeine for the 10:00 break. I can't imagine
+it would cost much to just put out the urns early.
+
+Overall, great conference and great job by the organizers.
+
+Content related posts to come.
