@@ -1,0 +1,94 @@
+---
+title: SIGCSE 2022 - What language APCS-A part 1 - the intent
+date: 2022-03-06T16:00:07-04:00
+tags:
+- sigcse
+categories:
+- sigcse 
+draft: true
+--- 
+
+One of the first sessions of SIGCSE2022 was a panel on the choice of
+language for APCS-A. Should it continue to use Java or should it shift
+to Python. This topic comes up from time to time. I didn't attend this
+particular session but discussed it at length with a few people who
+did.
+
+Truth be told, I wasn't going to start writing about SIGCSE and APCS-A
+until I finished a few other SIGCSE posts but my friend [[https://twitter.com/alfredtwo][Alfred
+Thompson]] said he was writing one and was planning on posting it
+soon. I think it's better when us CS Ed bloggers write about similar
+things at similar times - fosters better discussion so I'm writing
+this today (Sunday) and will post it as soon as I see Alfred's post.
+
+There's a lot to unpack when it comes to language choice for
+APCS-A. Language strengths and weaknesses, ease of learning, tooling
+and training costs and more. I'll share my feelings on all of these
+and maybe more but before we dig into those I think it's worth
+thinking about the intent of the course.
+
+The AP program was originally created to allow advanced high school
+students to get started on college work in their field of interest. An
+AP class would either be the first course in a major or it would be a
+requirement like calculus is for CS majors. There were fewer exams and
+FAR fewer students taking them.
+
+Over time, things evolved and today that's not necessarily the
+case. APCS-A, Calc and many others still fit the bill but then you
+have classes like AP Euro - sometimes offered to HS sophomores and is
+really a regurgitation course. Sorry but a class appropriate for HS
+sophomores is not college level. Same for APCS-Principles. Might be
+good, might be bad but it's not college level.
+
+So, before deciding on the language you really have to decide on
+intent. If APCS-A is to be the first class in the CS major then the
+college board has to really follow what colleges are doing. Some
+people think that APCS-A should be a course for everybody or for non
+CS majors but if the class is supposed to be a first in major course,
+it *has* to follow the college lead.
+
+If colleges decide to make their CS1 a more general course, more about
+APIs, less about either programming or, to it's already limited extent
+algorithms and data structures, then it's fine to change but as long as the
+college board is pushing CS1 as a first course in the CS major then
+APCS-A has to follow the general CS1 outline.
+
+So, assuming this stays the same, you might still argue a change to
+Python. I'll look at the pros and cons of doing this at a later post but one
+argument against the change is that students having taken CS1 in
+Python have a harder time transitioning to Java (or C++) in CS2.
+
+Some people say this isn't an issue but I think it is. APCS-A is
+already frequently a watered down CS1 and students sometimes struggle
+in CS2 even when it's in the same language. Switching languages will
+result in kids hitting a brick wall. This is an example of a problem
+I've seen over and over again - people changing a class because they
+feel there's a need but not paying attention to the next class let
+alone the full pipeline.
+
+This happened at Hunter recently - I warned the department that it
+would but nobody listened. Our CS0 course up until my first
+year at Hunter was a pretty bad course It was a random assortment
+of topics with a lot of cruft and it just didn't serve anybody. In my
+second semester the class was slated to change to a new course. The
+new course was going to have more programming - all in Python - lots
+of small programs. It was a much broader class and we all agreed that
+it would be much better. It was except for one thing. Nobody was
+paying attention to how well it prepared students for our CS1 and that
+first CS1 class after the new CS0 was full of complaints, student
+struggles, and student failures. On the one hand, the new course had
+more programming than the earlier one but since it was only tiny
+programs, students weren't prepared for CS1 right out of the gate but
+students thought they were prepared. Things have gotten better since then
+but the problem was easily to predict.
+
+If High Schools move to a less rigorous class with an "easier"
+language like Python great care should be taken to make sure that it
+prepares students to jump into a college CS2 which won't have nearly
+the supports that are present in high school.
+
+So that's it for this installment. Before you can even think about
+language you have to think about class intent. Now that we've done
+that we can start looking at language choice. That's for next time.
+
+
