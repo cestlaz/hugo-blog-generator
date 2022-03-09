@@ -1,0 +1,131 @@
+---
+title: SIGCSE 2022 - APCS-A Language strengths and weaknesses
+date: 2022-03-07T13:54:58-04:00
+tags:
+- sigcse
+categories:
+- sigcse
+draft: false
+--- 
+
+Last time we talked about the [[https://cestlaz.github.io/post/sigcse-2022-apcs-intent/][intent of APCS-A]] and without deciding on
+that we can't really chose a language. Still, we can talk about
+strengths and weaknesses of languages. Let's do that by taking a walk
+down history.
+
+APCS started in Pascal. Back then it was a one year course that
+included CS1 (programming) and CS2 (data structures). Later  they
+offered two exams A (programming) and AB (programming plus data
+structures). The AB exam was last administered in May 2009. In it's
+last year, only 3,881 students took the AB exam - about 10% of those
+students were from Stuy.
+
+The exam started in Pascal but switched to C++ in 1999. Why switch? I
+can't say for sure. I was a young teacher back then. Under 10 years in
+and wasn't involved in the greater AP scene. Pascal was a nice
+learning language but it had a number of deficiencies. Pascal was
+pretty straight forward, encouraged structured programming, required
+memory management which I say as a plus since it allowed one to study
+it and overall was a strong learning language. On the other hand, programs were
+limited to a single file, there was no standard for graphics or I
+think even file access, and it couldn't do OOP which was becoming all
+the rage. It also was rarely used in industry even though I did have a
+nice job offer back then from Brown Brothers Harriman & Co. working in
+Turbo Pascal.
+
+C++ was a hot language, it supported OOP as well as multiple files. It
+had much greater complexity but I guess that wasn't a deal breaker for
+the College Board. I also have no idea if the conversation was
+switching from Pascal to C++ or if it was switching from Pascal to
+something else and then C++ was chosen.
+
+In 2004 the exam moved to Java. Again, something gained something
+lost.
+
+Java was the new hotness so no problem there. What about other
+changes? Java was *much* simpler. C++ had many ways to do things while
+Java nudged you into the Java way. Java also forced Object Oriented
+Programming which, at the time, I guess people felt was a good
+thing. C++ was more multi-modal and at the time, heck even today, was
+taught more like C with objects. Java also had a standard way to do
+I/O and graphics which, I guess was also a plus.
+
+What about the downside?
+
+Personally, I found the forced OOP to be a problem Even though the
+language forced all objects all the time, the nature of problems
+attacked in a CS1 don't necessarily lend themselves towards Object
+Oriented solutions. This made OOP forced and this is a problem.
+
+Java also required a lot of "magic:" - ignore the *public static void
+main* behind the curtain. You'll understand it later.
+
+The big loss to me and others pointed to this as a gain was that Java
+took out memory management. I liked that you still had to allocate
+memory using *new* to create things like nodes for trees and linked
+lists but you didn't have to manage them yourself.
+
+True, this is generally a good thing but the problem was that APCS-A/B
+was a class, not the real world. If you were going to take out memory
+management from CS1/CS2 in APCS-A/B then it had to go back in
+somewhere or kids would never get it. This is where looking at a
+course and not the full sequence can be a problem. If you take
+something important out of APCS and then it's not in the college
+classes later on you've taken it out of the students overall
+preparation.
+
+Based on talking to my tech friends hiring after the switch, this was
+a real problem.
+
+In any event, the class chugged along, dropping the B part up through
+today.
+
+So, why consider Python?
+
+Python goes back to multi-modal and takes away the magic. Hello World
+is just one line. No classes necessary. Python is also, by most
+measures simpler. Python also has tons of libraries. You can use Flask
+to build a web server, NLTK to explore language, Pygame for games and
+on and on. Python is also used by many other fields besides direct CS.
+
+But there's always a cost.
+
+Python's object model is, to put it kindly, ugly and ackward. Not as
+bad a Perl but having to use self and no real private kind of kills it
+from a teaching point of view. The libraries and use in other fields
+are also less important if the intent is to mirror college CS1 content
+as opposed to rolling a new non major, more general course.
+
+Another cost is the use of lists rather than arrays. Lists give much
+more power much more quickly but at the cost of teaching array style
+indexed data structures. This isn't a cost for everyone but it's
+something to consider. Related to this is that Python doesn't really
+have a counting loop. It has a *while* and a *for each* but not a
+counting *for*. This may or may not be an issue depending on how you
+feel about traversing data.
+
+The potential big cost comes down to typing. Sure, writing ~int a~ is
+a pain in statically typed Java vs Python's dynamic typing but while
+dyanmic is quicker and easier and makes sense given Python's scripting
+roots, static is safer and makes it easier to write larger more robust
+systems.
+
+Memory management, is of course still long gone :-(.
+
+So, what to do? 
+
+Python is used in many fields and is a startup darling but Java is
+still one of the kings, along with C++ in the industrial strength and
+enterprise world. I have mixed feelings and might take a strong stance
+but not yet.
+
+We still have to look at more aspects of this question. Specifically
+what about the costs of switching from one language to any other
+language and also does the choice of language in CS1 matter with
+respect to CS2.
+
+I'll do at least one more post maybe more to address those but I think
+that's it for today.
+
+
+
