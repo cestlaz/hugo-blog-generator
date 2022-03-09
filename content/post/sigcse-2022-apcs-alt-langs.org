@@ -1,0 +1,217 @@
+---
+title: SIGCSE 2022 APCS - Alternate Languages
+date: 2022-03-09T11:12:13-04:00
+tags:
+- sigcse
+categories:
+- sigcse 
+draft: true
+--- 
+
+I think I've hit on the big points on APCS-A language but a couple
+more remain. This time, let's look at alternative languages.
+
+When APCS started in 1984, Pascal probably made sense - it was the
+primary learning language at the time. It wasn't really used in
+industry but it was the language you cut your teeth on. A few years
+later when I went from college to Goldman Sacks I found very few
+companies using Pascal. C was big and there were more than a few
+opportunities using PL/I and of course, lots of COBOL in the business
+world but no Pascal to be found.
+
+Of course there's nothing wrong with that. A lot of people claim that
+the language for APCS-A or college CS1 *has* to be a mainstream
+language used in industry. It really doesn't. If someone is going to
+continue through a multi-year sequence of classes for CS or a related
+field it's safe to say they will be exposed to many languages and
+tools and the one you start with isn't necessarily the one you end
+with. Even if you insist on using an industry language, there are many
+to choose from. Python is big in a number of areas but it isn't the
+only game in town. Java and C++ are still heavy hitters and will be
+for a long time and many other languages have enough traction to be
+considered commonly used in industry.
+
+I thought here we could do some quick hits on some possible alternate
+languages.
+
+For all of these, I'll be talking about the language as of the last
+time I used it so in some cases, I could be *years* out of date but I
+think you'll get the idea as to what I'm driving at.
+
+* Racket (nee Scheme).
+
+Really quick here. I designed Scheme into my CS0 course at Stuy. I
+think it works very well in that context. That said, it would be a
+tough sell today. Racket/Scheme are not widely used in industry even
+though you will find LISP variants here and there.
+
+I like it because the syntax is super simple. Just a handful of rules
+and that's it. I also liked that it's syntax was different and new -
+it leveled the playing field between people who thought they knew
+something coming in and the rest. On the other hand it is esoteric and
+some find it scary. Back when I created the course with it, MIT was
+still using Scheme for their CS1 so that made it an easier sell as did
+my reputation in the school.
+
+That said, I don't think I could start a new program easily with
+Racket and the only place that I know that uses it big time is
+Bootstrap World, a program that I've mentioned many times before and
+like very much. It's not that it's bad - you can develop wonderful
+courses that use it but rather, there are alternatives that would be
+easier to sell to students, parents, and communities.
+
+
+* Javascript
+
+There's a vocal contingent for JS as a language in both CS1 and CS0. I
+like JS a lot. In fact I was using it as much as any other language
+until I discovered Clojure and Clojurescript which are now my primary
+personal languages.
+
+JS fans point out that it's ubiquitous. If you have a browser, you
+have a JS interpreter. It's also the front end language of the web
+(although you can transpile other languages like Clojurescript to JS)
+and via Node you can run it server side as well.
+
+Although I love JS, I disagree with this contingent. First and
+foremost, JS has a number of, well, let's say, issues. If you haven't
+seen this video, take a few minutes:
+[[https://www.destroyallsoftware.com/talks/wat][https://www.destroyallsoftware.com/talks/wat]].  The JS part starts at
+about 1:20 in. JS has also had issues with types. Now admitedly some
+of these things have been at least partly addressed like using ~val~
+and ~var~ but I don't think this is strictly enforced which is
+problematic in a learning language.
+
+I've also found the tooling lacking. If you're doing front end work
+and there's a problem with your code, if you're lucky you'll get some
+feedback but sometimes things just won't run and won't get a clue.
+
+Languages like Typescript could address some of these issues but I'm
+not familiar enough with Typescript to say.
+
+A final issue wiht JS is the tooling. Sure, you can just inject some
+code in a web page but doing the real deal requires diving into a
+crazy complex ecosystem. Grunt, Gulp, Webpack, Parcel, Rollup, Yeoman and
+these are just the ones I can come up with off the top of my head and
+none of them are trivial to know or to use. Yes, you can kindof just
+take a template and use it but to really understand what's going on?
+Not so much.
+
+So, I'll take a pass on JS as a CS0 or CS1 language. 
+
+* Ada
+
+This is the language that got me thinking about this post. Adacore has
+been at SIGCSE every time I've attended and they push Ada as a
+language. I stopped by to chat with them. Mostly because one of the
+Adacore founders, Robert Dewar, who passed away a few years ago, was a
+big time mentor to me. I just wanted to chat with the people in the
+booth just really to say hi.
+
+I hadn't used Ada in decades and probably won't in the near future but
+the Ada I remember could be a very nice language for a CS1 class. 
+
+Ada's industrial strength but I seem to recall required less magic to
+get started than Java. It had all the typing you could want for people
+who think that's important. I also like how it did objects back when I
+used it. Ada back then didn't have inheritence but was what was called
+Object Typed as opposed to Object Oriented (I think). You could
+essentially use class type constructs for abstraction and to
+encapsulate state but it didn't have inheritance. To me this is
+perfect. Inheritance is forced in CS1/CS2 and from what I've seen is
+really something for tool and library builders and not nearly as  much
+for most people doing day to day programming.
+
+Ada's also the first, and maybe only language that I was able to
+consistently write large complex programs and have them work the first
+time. Even with tons of dynamic memory management. This was due to the
+language specification and the compiler. 
+
+Are students going to use Ada in the real world? Perhaps though it's
+far more likely that they'll work in Java, C++, Python or JS but that
+doesn't mean that Ada can't be a great starting point in CS1 to learn
+important concepts and to develop good habits
+
+* Go
+
+Next up, Go. One of the downsides of Go is it's hard to search for
+unless you specify golang. Other than that, Ada got me thinking of Go
+since I think it shares some traits.
+
+Go was created to address some of the perceived deficiencies in
+C/C++. A small language with a clean design that could still be used
+for low level tasks. I haven't used it much, just some fiddling but I
+could see the appeal.
+
+The language is small and relatively simple so it should be easy to
+learn. It also supports objects but no inheritance which is fine by
+me. Actually, the object model is pretty different from Java or C++
+and I like it a lot. Instead of declaring a Class with variables and
+methods you define a struct with variables and associate methods
+with it via interfaces.
+
+Go also encourages consistent code. Python does this with
+indentation. Go does it with ~gofmt~ a program that takes Go source
+code and formats it to the Go standard. Editors can hook into gofmt so
+as to call it whenever your program is  saved.
+
+Go also has a nice model for concurrency but that probably won't come
+up in a CS1 but then again, it's so clean in Go, it might.
+
+Two other features are a super fast compiler - yes this can make a
+difference and a great set of libraries. A friend of mine once
+described Go as a small, clean language with libraries designed by "a
+bunch of really smart programmers with good taste."
+
+I could think of far worse choices for a CS1 class.
+
+Interestingly enough, Go was created to replace C/C++ but most of the
+adoption has come from the Python world. I personally know a number of
+software engineers who ported their products from Python to Go. Maybe
+Go could be a sensible alternative to Python as a Java replacement.
+
+* Misc Languages 
+
+There are few more languages that I want to briefly mention.
+
+Java not only provides the language but also the Java Virtual Machine
+and many languages run on the JVM. These include Scala, Kotlin,
+Clojure (my favorite), Groovy and others. I don't see Clojure as a
+great CS1 choice in most cases and don't know enough about the others
+to comment other than they all have some level of interoperability.
+
+Then, you have languages like Haskel or OCAML but I'm just not going
+there.
+
+Rust is another one to look at. It seems to have all the features but
+is a little more imposing to the beginner - at least that's what I'm
+thinking from first glance but I want to dive in more sometime in the
+future. 
+
+Finally, a word on Ruby - the other language mentioned in the Wat
+video I linked above. Ruby came around a little after Python. Looking
+at both I decided I was a Python guy and never really pursued Ruby. It
+didn't talk to me. Years later, Ruby on Rails hit and Ruby
+exploded. Ruby and Rails were HUGE and everywhere in the startup
+world. Bootcamps in fact started to appear left and right and all
+focused on Ruby on Rails.
+
+A few years later, I started to hear left and right "why don't you
+teach Ruby in high schools." The answer was, of course "because in a
+few years, you'll be asking why we don't teach some new thing."
+
+Now, a decade later, Ruby has fallen to the wayside and nobody's
+demanding that we teach it in high schools.
+
+Maybe that's a cautionary tale. We shouldn't be teaching something,
+particularly in high schol because it's the hot language or it's big
+in industry. We come back once again to what's the goal of the
+course. What do the students need and what's the best tool to
+accomplish that.
+
+So, that's it for this series. I'll do one more adendum on AP vs non
+Ap but it's been four long posts in four days - that's a lot for me. I
+hope it spurs some thought and good discussion.
+
+
+
