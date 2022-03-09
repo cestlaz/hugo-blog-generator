@@ -1,0 +1,120 @@
+---
+title: SIGCSE 2022 APCS-A Costs of changing the language
+date: 2022-03-08T07:28:46-04:00
+tags:
+- sigcse
+categories:
+- sigcse
+draft: false
+--- 
+
+One of the arguments for keeping APCS-A as is are the costs to
+change. There are of course, many kinds of costs.
+
+The first are the monetary costs. New text book, curricular materials
+and possibly equipment. The College Board has their development costs
+but I don't care about those - they're raking in money hand over fist
+anyway. I don't think these costs amount to much. Companies that sell
+materials for classes are always trying to make sales and even when
+subjects don't change there are always new books and other
+resources. So, these costs shouldn't really figure into switching
+languages.
+
+Another cost relates to ancillary effects. Does changing the language
+or changing the course have an effect on how well or how poorly
+students are prepared for what's to come. The argument here for
+keeping Java is that CS2, data structures in most colleges is taught
+in Java or C++ so switching APCS-A to Python wouldn't prepare students
+as effectively. This may or may not be the case. Students already have
+to deal with the switch from Java to C++ if they go to a C++ school
+adn get placement out of CS1 and some colleges do indeed teach CS1 in
+Python and then switch.
+
+So, changing languages won't necessarily hamper students that take
+data structures in a different language in college.
+
+On the other hand, if the course content changes significantly -
+changing from the A in APCS-A meaning Algorithm to API as Owen
+Astrachan suggested at SIGCSE then that's a different kettle of fish. 
+
+Digging a little deeper on this front is that when a college designs
+their CS0, CS1, and CS2 classes they should look at the full
+sequence - all three of these classes and beyond. If you change a
+course, you really have to think about how it changes the future
+ones. Hopefully colleges do this when changing curriculum but I did
+talk about how Hunter didn't when it rebooted their CS0 class. Now,
+this really isn't a reason to change or not to change since a high
+school can't really track and pay attention to every colleges CS0,
+CS1, CS2 sequence so I guess it's neither here nor there.
+
+I guess the bottom line for this cost is that as long as APCS-A
+remains fundamentally the same content wise it may not matter what the
+language is and if the College Board clearly states that APCS-A is
+*not* going to be a college CS1 then any language is fair game.
+
+The biggest cost that people bring up is teacher training. All the
+teachers will have to learn the new language and possibly a new
+paradigm. This one is *huge*. I work with a lot of teachers who are
+relatively new to CS and some of them are struggling their way through
+APCS-A. These teachers are basically students in CS0 or maybe CS1 and
+just finding there way to and through CS. Switching languages for them
+is no easy feat and concepts in one language don't necessarily
+translate to another. I've seen teachers who claim proficiency with
+Python or JS struggle to write the simplest of Java programs or after
+spending a significant amount of time in Java they have similar
+struggles switching to Python.
+
+In spite of so many people saying CS is easy and anyone can do it,
+learning new things is in fact hard and takes both time and effort.
+
+As a side note, this cost flies in the face of every PD provider (I'm
+looking at you code.org) that claims "we've trained XXX teachers to be
+CS teachers in just YYY sessions!"
+
+This is the state we're in today but this is also a warning. We *have*
+to do better with respect to teacher training so as to make this cost
+meaningless.
+
+When I entered teaching, I had been doing C programming professionally
+but knew Pascal along with other languages from college. Teaching APCS-A/B
+in Pascal was easy. Well, the language was easy. I was a new teacher
+so teaching overall was hard but teaching APCS-A/B wasn't any harder
+than say teaching Trig or Linear Algebra. Actually, maybe it was a
+little easier since I was a CS guy at heart and not a math
+person.
+
+When the class switched to C++, I figured out C++. I had never done
+OOP before but I figured it out. Switching to Java? Same deal. I also
+taught myself Python, NetLogo and other languages that I had to or wanted
+to teach with.
+
+The point is, I had a strong CS background so picking up a new
+language wasn't really a major cost. It wasn't free - I had to spend
+some time and at times figure out new tooling but it wasn't this
+insurmountable thing.
+
+Right now, we're at a point where we can't really ask this of our CS
+teachers. Too many are too new but we have to make sure that our
+pre-service training programs and state requirements are such that in
+the future we will have CS teachers that know enough CS so that a
+language switch in a course isn't a big deal. Rather, a teacher will
+be able to do an analysis of the new tool solely based on asking if
+it's right for their students.
+
+So, those are the costs. Are they enough of a reason to keep Java? I
+don't think so. If you give enough lead time, as pre-service programs
+are getting up to speed you can minimize the training costs. Just
+give it 10 years instead of 5. Of course, you have to be confident
+that Python will be the language that far into the future.
+
+That said, I'm not advocating for a switch to Python. We still have to
+go back to my first post on this - The College Board has to decide if
+this will be a college CS1 class or something else and only then can
+we do the language vs language analysis.
+
+Are we done with this thread? Almost but I think it's worth spending
+some time looking at some possible alternatives to both Java and
+Python.
+
+That's next time.
+
