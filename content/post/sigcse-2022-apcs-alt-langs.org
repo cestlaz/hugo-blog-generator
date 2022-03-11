@@ -5,7 +5,7 @@ tags:
 - sigcse
 categories:
 - sigcse 
-draft: true
+draft: false
 --- 
 
 I think I've hit on the big points on APCS-A language but a couple
