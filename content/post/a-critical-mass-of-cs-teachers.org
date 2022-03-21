@@ -1,0 +1,127 @@
+---
+title: A Critical Mass Of CS Teachers
+date: 2022-03-21T13:38:49-04:00
+tags:
+- misc
+categories:
+- misc
+draft: false
+--- 
+
+A big difficulty with creating CS opportunities for all our students
+is the lack of CS teachers. New York City addressed this problem with
+their CS4All program - quick form PD to get teachers into CS
+classrooms in a hurry. One can debate if that was the best way to go
+but it enabled NYC to create a whole lot of CS classes in a very short
+period of time.
+
+Of course, these teachers, by and large, only have that short form PD
+so I'd argue that this isn't a long term solution. I mean, you
+wouldn't want your entire language program taught by people who
+barely knew Spanish 1  or Math taught by teachers how don't know
+beyond the basics of Algebra.
+
+A number of institutions, including Hunter are working on rectifying
+this via our CS Education programs. Some programs are legit, and some
+practically as superficial as the short form PD but the legit ones are
+trying to address the challenge.
+
+I want to talk about why Hunter's Advanced Certificate program, a
+program, that I might add, is currently accepting applicants for this
+summer, is critical to the process.
+
+Right now, you could place K12 CS teachers into one of the following
+buckets:
+
+ - People with strong CS backgrounds. CS Majors or people with
+   industry experience.
+ - Hobbyists who learned some CS on their own and developed an
+   interest or passion for the subject.
+ - Volunteers who are game for the challenge who heard about CS4All
+   and answered the call.
+ - Teachers who were voluntold who are taking one for the team.
+
+
+Most of the home-brew CS programs in the city started with teachers
+from the first two categories but currently the vast majority of
+teachers teaching CS are in the last two. Eventually, CS classes in
+NYC will all or mostly all be taught by qualified, certified CS teachers
+but how we get there will make a difference in terms of the community
+and culture we create.
+
+Most of the approved certification programs in NY state award either a
+Bachelors degree or a Masters. That is, they're designed for new
+teachers just entering the profession. At Hunter we run a Masters
+program. Our first cohort had 3 students, our second 6 and right now
+there are 3 applicants for our third cohort. I haven't done any
+advertising or outreach but over time we'll get more and more
+applicants. It will be a slow process but eventually we'll have
+comparable numbers as for our math and science ed programs. I'd
+imagine that other programs across the state will have a similar
+growth curve. As these programs graduate teachers, the voluntolds and
+volunteers that aren't up to speed will return to their other
+subjects. Some will continue to teach a section or two of CS which
+is fine provided that by then their base of knowledge of CS and CS
+pedagogy is well beyond the canned training that DOE currently
+provides.
+
+While eventually this will normalize, there is a problem. We're
+basically asking our new CS teachers to also be our master CS
+teachers, our CS teacher leaders. They'll have deep CS knowledge and
+they'll have studied the CS pedagogy so it'll all be on them.
+
+The trouble is that it's hard enough surviving as a new
+teacher. Asking them to be the master teachers and the leaders at the
+same time is just not right.
+
+That's where my Advanced Certificate program at Hunter comes in. Right
+now, we're the only such program in New York state. The program's an
+18 credit masters level program that teaches the CS and the CS
+pedagogy but understands that the participants are already experienced
+teachers in some other subject area. It's a program that takes an
+teacher who's already experienced, albeit in another subject area and
+fills in the CS content and CS pedagogy gaps. 
+
+I mentioned earlier that I've done zero outreach for our masters
+program and that's because all my outreach has been for the Advanced
+Cert. I think it's vitally important that we  build a critical mass of
+highly qualified CS teachers as soon as possible. Taking current,
+experienced teachers and bringing them up to speed in CS and teaching
+CS is the way to do this. 
+
+Other subjects already have their teacher leaders. In most schools, at
+least in larger schools, there will be one or two "go to"
+teachers. The ones that know the subject matter more deeply and how to
+teach it, the ones who are up on the latest and greatest in the field
+and in teaching, the ones who attend the conferences and bring back
+best practices. I'm working to jump start that for New York City.
+
+Fortunately, I'm not alone and our friends at [[https://gothamgives.org/][Gotham Gives]] and Google
+are supporting our program by providing scholarships to pay the
+tuition for qualified applicants.
+
+Our first cohort graduated in May of 2021 and with that, New York City
+(and state) had it's first 21 certified computer science
+teacher. They'll be joined by 23 more two months from now. That's 44
+teachers that have both the subject knowledge and the pedagogical
+knowledge to match in the system. Part of their scholarship agreement
+is for them to give back. Take part in CS education efforts in the
+city so they're already helping to shape the community and culture of
+K12 CS Education in New York.
+
+I'm hoping for an even larger cohort this year. Imagine if we could
+get 60 or more into our program this summer. That would mean in three
+short years we'll have gone from zero to 100 qualified certified
+teachers and we'll be well on the way to that critical mass of teacher
+leaders.
+
+As we get closer to that critical mass of qualified teachers, interest
+in programs like my certificate program will wane but at the same
+time, there will be more demand from teaching newcomers for our
+Masters program as there will be a career path for young CS minded
+teachers.
+
+Once again it's the long game but that's what it takes. 
+
+So, if you're a New York City CS teacher and are looking for state
+certification, come join us. All the information can be found [[http://info.huntercs.org/teacher_ed/summer-2022.html][here]].
