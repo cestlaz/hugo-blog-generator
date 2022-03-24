@@ -7,6 +7,29 @@ categories:
 draft: true
 --- 
 
+I spent yesterday at [[https://k12.tech.cornell.edu/what-we-do/to-code-and-beyond/][To Code and Beyond]], a one day conference put
+together by my friend [[https://twitter.com/diane_levitt][Diane Levitt]] and her team. This year the theme
+was CS Education Research as it applies to K12 education.
+
+As usual, Diane and her team put together a great program and a great
+day. Those of you who know me know that my personal relationship with
+education research is, well, let's say, strained. I do believe that
+there's some great work going on and I have many friends whom I both
+like and respect very much who I think do great work. I also think
+that that a *huge* amount of education research is, well,
+questionable.
+
+On one of the conference panels, the question came up as to how we can
+get "the research" into the hands of practicing teachers for them to
+use. I think this is a great question but would add "and how and when
+would this be good and when would teachers rather not be burdened with
+work they might find questionable."
+
+At the risk of angering some friends, I thought I'd share my thoughts
+on this today.
+
+
+
 
 how do we get "the research" into the teachers
 hands in a practical way? And do they want it? 
@@ -14,8 +37,14 @@ hands in a practical way? And do they want it?
 My advice as a long time practitioner 
 
 1. Don't research AT schools work WITH teachers and FOR teachers 
+Mark's stuff
+
+get release time for teachers 
+
 2. Walk the walk or give all the caveats  or give the #s and no
    judgment
    
 3. Get the powers that be to stop abusing research (good or bad)
 
+4. who's going to get the crap off teachers plate (including things
+   like high stakes testing and CC) to make room 
