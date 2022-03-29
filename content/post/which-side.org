@@ -1,0 +1,162 @@
+---
+title: Public Education - Which side are you on?
+date: 2022-03-29T08:20:41-04:00
+tags:
+- policy
+categories:
+- policy
+draft: false
+--- 
+
+My feeds have been inundated with post after post dealing with teacher
+burnout, teacher shortages, government attacks on teachers and public
+schools. In response to one video, a friend of mine commented:
+
+#+begin_quote
+
+This is going to be a crazy summer and fall. I wonder if we are
+witnessing the end of public education.
+
+#+end_quote
+
+Teaching was always a high attrition profession but given the stress
+teachers have been under since the pandemic started it's no surprise
+that teachers who can are leaving in droves. As much as society says
+that teachers are essential, the fact is that society never puts its
+money where its mouth is. Teachers have been underpaid,
+under resourced, and overworked for decades.
+
+The pandemic just brought this out and accelerated it.
+
+At the same time, young people are realizing that teaching is
+becoming less and less viable as a profession. Schools of education
+face declining enrollment. It doesn't help that schools of education
+by and large have poor reputations with the public and state
+requirements for teaching force those interested to jump through far
+too many hoops and the hoops won't help them if the candidate decides
+teaching isn't for them.
+
+The fact is that teaching and public school teaching in particular has
+been under attack for decades and we might be rapidly approaching a
+tipping point.
+
+This means that if you haven't, it's time to pick a side. Are you for
+public education and if so, what are you doing about it?
+
+The right has been attacking public schools for as long as I can
+remember. Voucher bills, supporting charters that are terrific ways of
+skimming money from public schools while avoiding accountability and
+most currently legislation to control schools in ways that, quite
+frankly are so vile I won't dive into specifics here.
+
+The left isn't much better. We had Arne Duncan claiming that Hurricane
+Katrina was the best thing for New Orleans schools since it allowed
+for privatization. Rahm Emanuel has also been no friend to public
+education. In NY we had twelve years of Bloomberg who ran as a
+republican but aligns with democrats destroying neighborhood schools
+and pushing private charters and we also most recently had Andrew
+Cuomo who is also no friend to public schools.
+
+I usually post about CS Education so why am I writing about this?
+
+Because far too often the CS Community is just happy to be in the game
+and ignores the collateral damage to public education.
+
+I wrote a little about this back in 2017 when Code.org decided to partner with
+the College board ([[https://cestlaz.github.io/posts/cs-ed-in-bed-college-board/][link]]). Why was a CS Ed organiztion essentially
+pushing a new, additional, and worthless standardized exams on to
+eighth graders. Now, I'm sure that the people at Code.org don't agree
+with me that the College Board has too much power and is harmful and
+this helped them get in the room but I disagree.
+
+Another great example is when code.org, districts, curriculum
+providers and everyone else who's rolling out short form PD claiming
+that "they've trained teachers to teach CS" and that those teachers
+are ready to go. I'd like to believe all of this is well meaning and I
+do believe most of it is but it does real damage to the profession.
+
+We also see this when we see best practices preached from elite
+private institutions. Practices that would never work under urban
+public school challenges but that then is what the public school
+teacher is held up to.
+
+We also see this when we work for said institutions or companies who
+pay lip service to public education by throwing out some crumbs. Prior
+to my pushing things at Google NY, urban public schools weren't on
+their map. They talked the diversity game but didn't walk the
+walk. They're doing better now but still have so far to go and to be
+honest, as an institution I don't think there' doing better. Rather,
+they just have some individuals in places where they can do some good
+and they're doing it. What happens when they leave?
+
+If you work at one of these big companies or at an "elite" institution
+education are you just collecting your check to maintain the status
+quo or are you working to make things better in public education -
+particularly for the most vulnerable and most undeserved?
+
+If you are working at said company and are trying to do good, is it
+enough?
+
+No it's not  and I know that might make some people uncomfortable.
+
+If you're working at random big company or "elite" school and run a
+program to provide an opportunity for a handful of "those" kids. No,
+it's not enough. My friend Leigh Ann Delyser talks about  [[https://csedpodcast.org/blog/season2_episode5/][Systemic
+Change]]. If we just work around the edges, just run our little
+programs, in the long run, how much are we changing. If we're not
+working to change the systems we're just going to remain on the
+treadmill.
+
+One of my jobs at Hunter was to create an honors CS
+program. One of the things I insisted on was that I have a chance to
+move the opportunities I created to the greater Hunter population. If
+I was only affecting my 30 - 60 kids a year nothing was really
+changing and when I leave Hunter it would probably be all gone. That's
+not meaningful change. On the other hand, if I can create something
+that stick and positively affects all Hunter CS students, then we've
+moved the needle even if only by a bit,
+
+I for one left Wall Street over thirty years ago because I found the
+work unfulfilling and didn't believe in the ethics of the system. I
+just tried teaching on a lark and it stuck. I went into public
+education because I believe in it and its importance and I remain in
+public ed to this day. I don't know if I've succeeded in any systemic
+change but I think that I've at least been a part of it in my small
+corner of the world.
+
+As many of you know, I'll talk shop with anyone but I also draw a
+line. I'll talk but I'm not going to work to help you if I think
+you're doing harm. I've talked, for instance with people from the
+Success Academy charter schools but I'd never work with them, at least
+not unless they seriously changed their practices and made amends for
+past damage. To quote Carl Fox from Wall Street: "I don't go to bed
+with no whore, and I don't wake up with no whore. That's how I live
+with myself. What about you?"
+
+I titled this post "Which side are you on?" That's from the [[https://en.wikipedia.org/wiki/Which_Side_Are_You_On%3F][song]] by
+Florence Reece about the [[https://en.wikipedia.org/wiki/Harlan_County_War][Harlan County War]] during the labor
+movement. Just like then, it's time to pick sides now. Do you believe
+in public education and do you think it's important and what are you
+going to do about it?
+
+Below is a cover of the song by the Weavers.
+
+I'll leave you with one
+last story. One of my personal heroes, [[https://cestlaz.github.io/posts/2014-01-30-pete-seeger/][Pete Seeger]] was a member of the
+Weavers. Pete left the group in 1958. The rest of the group had
+decided to do a cigarette ad, something that Pete disagreed with. He
+apparently was concerned with both selling out and the health
+issues. He left the group although he did fulfill all outstanding
+contractual commitments. He relayed the story during an interview. It
+went something like: the band said they wanted to do this cigarett
+ad. I objected. They said we needed the money. I said "we don't need
+it that much."
+
+Something to think about.
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sh86h92PrH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+
+
