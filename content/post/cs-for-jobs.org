@@ -1,0 +1,173 @@
+---
+title: Should CSforAll focus on entrepreneurship and jobs?
+date: 2022-04-14T14:41:05-04:00
+tags:
+- jobs
+categories:
+- jobs
+draft: false
+--- 
+
+Is CSforAll a jobs program? This came up again the other day.
+
+#+begin_export html
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m using a recent review as an excuse to ask more general questions.<br><br>Is <a href="https://twitter.com/hashtag/CSforAll?src=hash&amp;ref_src=twsrc%5Etfw">#CSforAll</a> a jobs program or preparing future citizens? <br><br>Does learning about CS belong just to STEM education?<br><br>Should we only teach CS to Ss with math background, or can we teach CS to Ss who hate math? <a href="https://t.co/k030BHoZ93">https://t.co/k030BHoZ93</a></p>&mdash; Mark Guzdial (@guzdial) <a href="https://twitter.com/guzdial/status/1511340494462279684?ref_src=twsrc%5Etfw">April 5, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+#+end_export
+
+With one of the referenced tweets talking about CS salaries.
+
+#+begin_export html
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Median pay in tech jobs:<br><br>Snap: $327,710<br>Google (Alphabet): $295,884<br>Facebook (Meta): $292,785<br><br>All the more reason for public schools to teach computer science so that underserved populations have a chance at these jobs.</p>&mdash; Hadi Partovi (@hadip) <a href="https://twitter.com/hadip/status/1512592779083280388?ref_src=twsrc%5Etfw">April 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+#+end_export
+
+I think Hadi's numbers are a little high but that's not really the
+point.
+
+I've actually been meaning to write about this for a while going back
+to [[https://www.thisisgoingtobebig.com/blog/2019/1/6/sevens-dont-get-funded][this really great post]] by [[https://twitter.com/ceonyc][Charlie O'Donnell]] titled [[https://www.thisisgoingtobebig.com/blog/2019/1/6/sevens-dont-get-funded][Sevens Don't Get
+Funded]].
+
+I've seen arguments on all sides of this issue. On the one hand,
+people in the tech industry are big on the jobs side of things. This
+is in part because the more people who go into tech the more resources
+they have for their companies. I also think that a lot of the people
+on the tech side have seen tech work for them and allow for successful
+careers so they see CS education as providing others with a similar
+path. I also see a number of teachers with this view - they're
+teaching kids in poverty and see this as a potential way out. Nothing
+wrong with this point of view and for CSforAll to really get anywhere
+it's certainly helpful to have a region's business leaders on board.
+
+On the other side, I have many colleagues at Hunter and other
+intuitions who get offended at the merest mention that anything we
+teach be in any way practical as it hurts the purity of our academic
+mission. Needless to say, I'm not in  this extreme camp but I do think
+that CS should be much more than a jobs program.
+
+This tension has been there from the begining. Are we teaching K12 CS
+for aspiring CS majors who will go into academia? Those who will be
+software engineers? Everybody else? Or a combination.
+
+To complicate matters, at least in my experience is that the business
+push very frequently comes with a push for entrepreneurship. We need
+more kids starting their own tech companies. I suspect much of this is
+well meaning. They see the next big thing and would love to see a
+group of founders from the other side of the tracks figure it out.
+
+In my time in CS Ed in NYC I've seen a tremendous push for
+entrepreneurship. Many programs that have touted themselves as CS
+programs were really entrepreneurship programs with a little tech and
+this concerns me.
+
+This is where Charlie's piece got me thinking.
+
+Charlie says he gets around 2000 pitches in his inbox a year but only
+makes around 10 investments. This seems consistent with ratios I've
+seen for other venture capitalists. This means if you're going to get
+that investment on your startup idea you've got to really stand out or
+to quote the article:
+
+#+begin_quote
+It might be that your company is a seven (out of 10)  — a perfectly acceptable, but
+not particularly exciting seven.
+
+If you’re trying to be one of the best ten things I see in a
+year—worth risking LP capital on, then a seven just isn’t going to
+make it.
+
+#+end_quote
+
+Even if you are funded, the majority of startups don't succeed. I've
+read that 10% of startups provide nearly all the returns for a fund
+and other similar numbers indicating that failure is much more likely
+than success.
+
+Now, if you're a venture capitalist and looking at the big picture
+from the top, the more entrepreneurs the better but if you're a kid
+from the lower economic rungs I don't know if we should be pushing
+entrepreneurship as the ticket out.
+
+I'm reminded of a friend of mine who does outreach, recruiting, and
+interviewing for his alma mater which is  one of the hardest
+institutions to gain acceptance to in the USA. On the one hand, he had
+a great experience and wants to share that with others. On the other
+hand, he also recognizes that for even the best student he pitches to,
+he's likely to be building them up for disappointment.
+
+As a teacher who's worked with fragile kids, I can tell you that
+you've got to tread lightly here. Setting kids up for failure is more
+than bad, it's dangerous.
+
+If it were up to me, I'd put the "you can start a company" out there
+but in the background and if you want to focus on jobs then put the
+focus there, on the job - the fact that you'll be able to put bread
+on the table regardless of how the economy turns and yes, you will be
+able to start your dream company if you want but you don't have to do
+it out of the gate. Build your network, your skills, and, very
+importantly for kids climbing out of poverty, your safety nets and
+then start that company.
+
+So, where do I stand overall with this? Basically the same place I
+stood when I designed Stuy's intro to CS course or, as more than a
+couple of friends have termed the course "stuff Z likes." Yes, I want
+to motivate kids to go further in CS but I know the majority won't and
+probably shouldn't, after all, it takes a village. I want to provide
+that motivation while also providing value to the rest. 
+
+At a very broad, basic level, people in different disciplines look at
+the world through different lenses. K12 CS should expose students with
+what the world can look like through a CS lens and how all the
+different lenses can relate, complement, and support each other. It
+should also teach practical tech related skills that should benefit
+all students. I'm not talking "using a word processor" here but more
+so programming. Digital citizenship should also be included. With all
+this it should also expose all the students with enough info so that
+those that want to go further in tech or CS are both excited to and
+prepared to do so.
+
+At Stuy, we found that this could be done in a one semester 10th grade
+class. We've hand a huge number of kids end up going into tech and CS
+and come back later to tell us that it wasn't on their radar at all
+until they took the required course. I've also had plenty of kids who
+went into other fields proclaim that their intro CS experience at Stuy
+was still one of their most valuable classes ever. Of course, if
+you're offering more classes over more grade it opens many other
+possibilities - embedding in other subjects, integrating classes and
+more.
+
+At the end of the day we'll have a larger pool and a more diverse pool
+of students going into tech and for the majority of students, who
+won't do pure tech, they'll be more tech savvy, be able to use the
+mental and practical tools of the trade to suport them in whatever
+their endeavors turn out to be. 
+
+
+
+So, CSforAll in K12 isn't about jobs. It's about exposure and teaching
+some fundamentals. Setting kids up so that they will have a better
+idea as to if they want to go into tech and if they do they'll be
+better prepared while at the same time giving all students the
+fundamentals of CS both in terms of problem solving and looking at the
+world and practical skills. 
+
+The funny thing, is that on the higher ed side, I think they have to
+go the other way and become more responsive to job demands. In spite
+of the way so many CS programs are designed, the majority of kids have
+no intention of going on to a higher degree and CS is one of the few
+disciplines where there is a direct path from college to a well paying
+job and that shouldn't be ignored. You can keep your academic rigor
+and purity but at the same time the programs that acknowledge that
+the majority of their students will benefit from specific tools and
+skills will better serve their students. Practical and real world are
+not dirty words.
+
+So, I've rambled on for a while and probably been a little all over
+the place but you know what, education is all over the place. We're
+talking about taking young people and preparing them for life and
+their life journeys. That means different things for different people
+and so it should be with K12 CS. Not entirely a jobs program but yes,
+jobs are on the radar. Not entirely CS for CS but that's there too. So
+is integration and support of other subject areas and more.
+
+
+
