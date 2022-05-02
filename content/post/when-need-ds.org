@@ -1,0 +1,132 @@
+---
+title: When will I need to know this, Data Structures edition
+date: 2022-05-02T14:23:44-04:00
+tags:
+- data structures
+categories:
+- data structures
+draft: false
+---
+
+One of the things we're frequently faced with as computer science
+teachers is the questiosn of "when will I need to know this." This
+comes up when you teach an non-mainstream language like Racket or a
+language kids sometimes see as inauthentic like Scratch. It also comes
+up a lot when learning data structures and algorithms.
+
+Do I really need to know all of these sorts when I'm just going to use
+the built in sort routine? Do I really have to implement that hash
+table or linked list when I'll just use the standard library's
+implementation? You know, once I get past the technical interview for
+fill-in-the-company I'll never need it again so why are we wasting all
+this time and energy?
+
+For the most part, these are valid questions to ask.
+
+On the one hand it's hard to  really say that a student *needs* to
+know all these things, I mean, we all know people with successful
+careers in tech who know few or one of the these "questionable"
+topics. On the other hand, it's much easier to explain why one might
+want to know or even benefit from knowing these "less relevant and
+directly useful" topics.
+
+Personally, I'm believe that you shouldn't use a tool that you
+couldn't build yourself or rather, more realistically, you should
+understand something of the topics underpinnings. For a hash table for
+instance, one should understand that the internal storage structure
+has to be sparse or be otherwise cleverly set up to avoid
+collisions. Likewise if one understands the differences between an
+array based structure and dynamically allocated one they can make
+sensible decisions when they choose between a Java ArrayList and a
+Java LinkedList.
+
+The other biggie is that if they understand the data structures and
+algorithms then they have a shot at creating derivative algorithms or
+building solutions on top of data structures rather than just using
+standard library implementations.
+
+Of course it's much easier to convince students they might build or
+use solutions that employ standard data structures and algorithms with
+real world examples and fortunately we have them.
+
+In my data structures class, we're currently covering Binary Search
+Trees. At the end I talk a little about next steps - 2-3 trees,
+red-black trees, B-trees etc. but to be honest students are probably
+never going to write any of these. On the other hand we have a tree
+implementation that students interact with on a daily basis and could
+very well have to work with and manipulate.
+
+The DOM.
+
+For those of you who don't do web development, DOM stands for Document
+Object Model and is the structure that your web browser uses to store
+a web page. Web pages are written in HTML - Hyper Text Markup Language
+which is a specific instance of XML - eXtensible Markup Language.
+HTML is a hierarchical format and in fact is a textual way of
+representing a tree.
+
+For example, this HTML example:
+
+#+begin_example
+  <div id="anchor">
+    <h1> this is a heading </h1>
+    <ol>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ol>
+  </div>
+#+end_example
+
+
+has a *div* as the root node with two children. the first child is the
+*h1* component (header 1) and the other is the ordered list -
+*ol*. the ordered list the has three children, those three *li*
+list item elements. 
+
+#+begin_export html
+{{% figure class="z_image_center" src="/img/html-tree.png" %}}
+#+end_export
+
+In fact, you can explore this tree through your web browser. You can
+right click and explore the page or you can bring up the javascript
+console and show that once you get an element with something like ~d =
+document.getElementById("anchor")~ you explore the tree with things
+like ~d.children~ or ~d.firstChild~ and the like.
+
+This is a pretty concrete example of a tree that CS students could
+very well be working with and manipulating particularly given how many
+front end opportunities exist out there.
+
+
+It turns out there's also a great example out there these days for the
+linked list. Usually students can see the utility of the linked list
+and it's ability to insert and delete with a much lower cost than an
+array but they also see the limitations that result from linear access
+but where might they need to implement a linked type structure as
+opposed to just using the built in LinkedList.
+
+Nowadays we don't have to look any further than *blockchain*. A
+blockchain literally is a linked list - each node has a reference to
+it's neighbor. It's a perfect real world example. Of course once you
+look at this example it's easy to show others since linked constructs
+are everywhere. The difficulty from the student point of view is they
+frequently just think of them as "pointer" based structures where the
+"pointer" is the language construct but it's really just any reference
+to the "next" item. That reference can be an index into an array for
+instance and it would still build a linked list.
+
+I think examples like these show students that they may indeed build
+and or manipulate the data structures and algorithms they study as
+budding computer scientists and in fact, they might not even realize
+it. I was talking blockchain a while ago with a number of students and
+it took quite a while before one said - "hey, this is really just a
+linked list." I think making that connection explicit and early can be
+a big help.
+
+So, do you have some real world examples like these that we can use to
+help motivate our students to really learn some of these subjects that
+at first glance are only useful to and through the technical
+interview? If so, please share.
+
+
