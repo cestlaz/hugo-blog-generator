@@ -30,7 +30,7 @@ topics. On the other hand, it's much easier to explain why one might
 want to know or even benefit from knowing these "less relevant and
 directly useful" topics.
 
-Personally, I'm believe that you shouldn't use a tool that you
+Personally, I believe that you shouldn't use a tool that you
 couldn't build yourself or rather, more realistically, you should
 understand something of the topics underpinnings. For a hash table for
 instance, one should understand that the internal storage structure
