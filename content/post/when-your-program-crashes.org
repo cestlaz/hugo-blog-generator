@@ -1,0 +1,110 @@
+---
+title: When Your Program Crashes
+date: 2022-05-13T14:22:57-04:00
+tags:
+- debugging
+categories:
+- debugging
+draft: false
+--- 
+
+{{< figure class="z_image_center"
+src="https://neoteric.eu/wp-content/uploads/2017/06/It-doesnt-work-I-dont-know-why-1024x512.png" 
+>}} 
+
+We all have to deal with bugs - students, teachers, hobbyists,
+professionals. It's rare that we'll take a concept to working program
+without some bumps along the way. Well, once or twice I did but that's
+once or twice over the course of a lifetime, those cases are the
+exceptions.
+
+The errors and the bugs are inevitable so what can we do to help
+students deal with the invariable frustration?
+
+Why am I thinking about this now?
+
+For two reasons.
+
+One is that I was recently observed - it was the usual peer
+observation. At Hunter, everyone except tenured full (research)
+professors get peer reviews and those faculty members along with other
+full time instructors do the reviews. I can't take it too seriously
+since in my experience, of all those teaching at the college leve,
+research professors are the least qualified to productively comment on
+teaching.
+
+Anyway, I was observed in a remote lesson that included a video and in
+the video I was doing some live coding and got hung up on a bug. I
+worked my way through it, got stymied, paused the video and resumed it
+but when I resumed, I made sure to show what I found, how I found it
+and how I fixed it.
+
+The observer commented that this was very bad - I should have edited
+the video so that I coded the program perfectly since making an error
+shows that I don't know what I'm doing. Nope, my observer was 100%
+wrong. I made  the error and left it in and that was the correct
+choice. Model mistakes for the students. Show them that we *don't* get
+it right the first or even the second time and that we can struggle
+finding errors losing huge chunks of time over a a missing semicolon.
+
+The other reason was that a student recently submitted a program that
+didn't work. First, I was upset that the student hadn't asked for
+help. I know it's hard for many for many of them but it's always been
+frustrating for me when they don't use their human resources - me,
+classmates, and mentors. Second, when I did start working with the
+student to find and fix the error I saw they were looking in the wrong
+place.
+
+The assignment was a recursive search - knights tour or something
+similar. The crash was a segmentation fault and the student was
+looking at the recursive logic struggling to see where they went wrong
+and was making no headway.
+
+I suggested we use the debugger. Not to trace through the code but to
+get a stack trace. We're using C++ and if you run a program under the
+gdb debugger you can use the *bt* command to get a backtrace which is
+a stacktrace - where the program crashed and the sequence of function
+calls made to get there. You can also easily see what all the
+variables were all the way down.
+
+The students had been exposed to gdb last semester but too few of them
+use it when appropriate.
+
+Looking at the stack trace we quickly saw that there wasn't anything
+wrong with any program logic and in fact the problem was that the data
+file had an extra blank line at the end. We deleted that line and
+everything worked.
+
+So, even getting by the asking for help how do we get students to use
+the tools they have available to help them?
+
+This even goes for the compiler itself - the error messages. True many
+error messages are cryptic, particularly for beginners and it's hard
+when you get that wall of text but how do we get them to learn to read
+those messages.
+
+I try two things. Read the first message since that's usually the root
+cause and then, even if the message doesn't make sense, when you do
+figure out the error you'll start to develop a mapping from weir error
+messages to actual problems
+
+Of course when debugging, I, like many others fall back to, if I may
+quote Brian Kernighan "..careful thought, couple widh judiciously
+placed pring statements" but even educating students on doing this
+effectively takes work.
+
+I think the biggest challenge is getting them to see that it's not
+them - we all make errors and all struggle fixing them.
+
+I've just mentioned a couple of things here and of course there are
+many other debugging and development strategies that we use as
+teachers and as professionals. Rubber Duck debugging, code reading,
+incremental development etc.. What else? I'd love to hear any strategies others have used to help students along when
+dealing with errors. 
+
+
+
+
+{{< figure class="z_image_center"
+src="https://i.pinimg.com/564x/7c/9c/c8/7c9cc8769af215e0b2ca689ac9408d1a.jpg"
+>}} 
