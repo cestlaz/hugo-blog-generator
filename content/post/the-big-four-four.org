@@ -1,0 +1,104 @@
+---
+title: The Big Four Four
+date: 2022-05-25T13:17:57-04:00
+tags:
+- CS Education 
+categories:
+- CS Education
+draft: false
+--- 
+
+Nope, not 40 years old, I'm closer to pushing 55. I'm talking about
+the number of New York's certified computer science teacher.
+
+Two years ago, there weren't any. Last year we got 21 and now, with
+the semester wrapping up we'll get another 23. 
+
+That's 44 state certified computer science teachers in a hurry and
+what's more, 44 teachers that I can comfortably say really know their
+stuff both in terms of CS content and how to teach it.
+
+Our first cohort were all working teachers coming back for their
+advanced certificate and NY State Certification. This year, it was the
+same for the majority of people in the program this past year. We did,
+however, have two Masters students both graduating. They should be the
+first Masters in CS Education students in the state and will be the
+first two such teachers certified once they file the paperwork.
+
+That's really cool. Another box checked off.
+
+I was also happy with the whole model we set up of having the Masters
+students mix with the Advanced Cert teachers, at least for their
+overlapping classes. I think this was great for the Masters
+students. They got to be in classes and do fieldwork with experienced
+NYC teachers so they learned the real deal. I pride my program as
+being designed by teachers and taught by and for teachers but if we
+give a standard "professor" answer that's patently not workable in the
+real world, you can be sure, when talking to a room of 20 pro teaches,
+you're going to get called on it. Those two masters students also get
+the benefit of starting out in a network of CS teachers from across
+the city. In fact, one of the Masters students got a job this past
+year (you can do that in NY State by applying for intern
+certification) at the school of one of our Cert student.
+
+The Advanced Cert students on the other hand benefit from the new
+teacher energy and fresh ideas that the Masters students bring to the
+table and in general the Masters students come in with a stronger CS
+background than many of the Cert teachers.
+
+I thought it would work well when designing things and I'm happy with
+how it's been working out.
+
+Back to the title - that's 44 teachers in a hurry. This summer we're
+upping the ante. We'll have around 5 Masters students joining in with
+around 55 Cert teachers. Five of the cert teachers are from upstate
+New York which I think is pretty awesome but almost all the rest are
+from NY City.
+
+That's pretty huge going 0 - 44 in two years and we'll be at 100 in
+one more. That's getting to the critical mass in the system that I'm
+personally aiming for. Just like other subject areas have a small
+subset of the teachers who go to the conferences, attend the optional
+PDs and are, in fact the experts, we'll have the same in NYC for CS.
+
+After this? It'll be time to change gears. Less emphasis on the
+Advanced Certificate and time to start advertising the Masters
+program.
+
+Why? Besides having achieved the minimum critical mass, I don't think
+there will be as much demand for the certificate program moving
+forward. There are a number of reasons why I believe this but I'm not
+going to go down that rabbit hole right now.
+
+There will still be interest and we'll still run the program but I don't
+see another set of 50+ teachers banging down the door.
+
+On the other hand, now is the time to start pushing the
+pre-service. I'd like to get more students into my Masters
+program. Now that we'll have a critical mass of real CS teachers in
+the system the newly minted Masters students won't have to be the
+"experts." They get to be the "new teachers" which is as it should be.
+
+Things can then settle in and CS teacher prep will become the same
+more or less as other fields.
+
+Of course, it's not quite that simple. Right now, I'm the only game in
+town but other programs are registered in the state and more should
+register over time. Some of those programs will be good and others bad
+but it will certainly complicate the landscape. As I'm sure you know,
+I'm proud of my program and will put it up against anything out there
+and would love other institutions to come up with similar programs but
+you also know I fear that there will be many "you take it you teach
+it" programs that'll meet the state's requirements but do little more
+than the current PD based "teacher prep" that is all too common and
+too commonly touted as successful. 
+
+In any event, time will tell and I can really just try to worry about
+the parts I can control.
+
+So, now that this past semester is in the books I'll be spending the
+next few weeks getting the team together and planning out how we're
+going to wrangle the group of 60 we'll be working with this
+summer. Should be fun.
+
+
