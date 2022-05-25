@@ -1,14 +1,57 @@
 ---
 title: Put It In The Books
 date: 2022-05-20T17:20:10-04:00
-tags: 
-categories: 
-draft: true
+tags:
+- misc
+categories:
+- misc
+draft: false
 --- 
 
 Just finished entering grades closing out my 32nd year teaching.
 
 Whew!
+
+It's been a hard year for me and I'm sure even harder for the K12
+teachers out there. Still this year I'm really missing what I was oh
+so many years ago - a regular teacher.
+
+Teaching from September through June is a beast and from my first day
+on the job I had to work ten times harder than I ever had to as a
+software engineer and was commensurately exhausted. In spite of what
+the "real world" says teachers need their summers to recharge the
+batteries. This isn't to say that teachers don't work over the
+summer - they lesson plan, attend PD and in fact a bunch of them will
+be with me, working towards their NY State CS teaching certification.
+
+Now, I'm also technically on a school year contract so why do I wish I
+was a regular teacher? Because once you enter those final grades, you
+put the past to bed. Once I clicked on "post grades" in CUNYFirst I
+thought about that. Early in my career, before I had to deal with
+building Stuy's CS program and otherwise getting involved in the
+movement, once those grades were entered I was done. I could mentally
+turn off. My responsibilities to student and school were done and I'd
+have a couple of months before the next go around. 
+
+I noted that I should have been feeling that but wasn't. Why not?
+Because I'm still immersed in dealing with issues for my advanced
+certificate program - working on scholarship issues, getting the
+teachers, making sure they're up to speed, finding instructors under
+some draconian restrictions placed on me by both Hunter and the staet,
+andto be honest, the self imposed stress of feeling responsible for
+making everything work.
+
+It's been a while since I've "just taught" and maybe would like to get
+back to that but even then, all this is making me seriously think
+about that possible (probable?) retirement in a year to scale things
+back or change things up.
+
+In any event, ploughing ahead with the teacher certification program
+this month to get things in order and then teaching through
+July. Should get a week or two of downtime in August so that'll be the
+time to reflect on the year in depth. Until then it's nose to the
+grindstone.
+
 
 
 
