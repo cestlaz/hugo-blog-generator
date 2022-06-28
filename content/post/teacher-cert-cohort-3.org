@@ -1,0 +1,93 @@
+---
+title: CS Teacher Certification - starting Cohort 3
+date: 2022-06-28T10:25:35-04:00
+tags:
+- teacher ed
+categories:
+- teacher ed
+draft: false
+---
+
+Tomorrow we'll kick off cohort 3 of Hunter's Computer Science teacher
+Advanced Certificate program. That is, New York State's only currently
+approved program for working, certified teachers that leads to New
+York's new Certificate to teach Computer Science.
+
+This is not our first rodeo, having gone through this twice already
+but there are a few differences this time out.
+
+First off, we're going big. Cohorts one and two had about 20
+candidates each. This time, we'll have around 55 teachers who will be
+joined by around 5 masters students. That's exciting but a little
+scary. I'm sure I've also mentioned before that a handful of our
+teachers are from the Dryden school district up around the finger
+lakes. I'm super excited that we're able to not only work with NYC
+teachers but also to help build the community beyond the five
+boroughs. 
+
+Bigger cohort means more instructors. Adding to the team this
+year is my long time partner in crime Sam. I wanted to include Sam
+from the start but unfortunately he was on sabbatical the year prior
+to cohort 1 and according to DOE rules (he's a K12 teacher) you can't
+work in any capacity during your sabbatical year. Sam's been involved
+in almost all of my teaching side projects along with JonAlf and
+Topher so it's great that we can get the band back together.
+
+We're also adding on my friend and colleague on the Hunter CS side,
+William and I've been looking to be able to actually work with him for
+years.
+
+We'll also have  4 TAs per class. That is going to be interesting. The
+TAs are undergrads - they're all terrific but it's possible that some
+of the candidates teach in the schools that the TAs attended. It'll
+all be good but it will be interesting.
+
+As to running the show, we'll still use Zoom - one big Zoom when
+appropriate but breaking into groups of assorted sizes as appropriate
+from small breakout rooms to midsize "sections" for sharing. This will
+be a bit of an experiment but we'll get it right. One nice thing about
+teaching teachers is that they know when you're trying something new
+and if you're open and honest they'll help you to get it right. I
+think that's also probably something unique about our program. Since
+it's designed by and for K12 teachers and many of the instructors are
+K12 teachers we're all part of the same community. It's not a bunch of
+K12 teachers taking some classes taught by college people who have
+theories of how to teach K12. I mean, yes, we do have college profs
+involved as well but we also have K12 teachers, including myself
+who've walked the walk. The teachers in the program get this and know
+we're a family and our goal is to make the program as strong as
+possible, not only for them but for future participants.
+
+Now, that might sound a little hokey but I really believe it.
+
+Beyond Zoom we'll be using Slack for all discussion - much better than
+using Zoom chat. Besides the extra Slack features, Zoom chat goes away
+when the Zoom closes. Our Slack from even cohort 1 lives on and is
+still active. Truth be told, I prefer Zulip to Slack but we had
+already committed to Zoom which is fine.
+
+The final piece for tooling is repl.it and that's been a game
+changer. During our first year, repl.it wasn't quite up to speed so
+teachers had to install environments on their own computers. This was
+at the start of the pandemic so it was 100% remote. Woof. All sorts of
+issues including some nice ones like a teacher with a DOE laptop that
+used to have Java on it but not any more (but the registry still had
+some hidden settings). Repl.it allows us to have one single consistent
+interface that everyone can use plus it integrates with GitHub. Of
+course, if a student comes in with a stronger background they can do
+their own thing but using repl.it has made things so much easier.
+
+So, tomorrow at 9:00am we're off to the races. An 8 day all day
+programming class followed by 16 half days of more advanced
+programming along with 16 half days of CS teaching methods. In the
+Fall we'll do our ethics class and curriculum development and then
+finally topics in the Spring.
+
+That will bring us to around 100 certified teachers.
+
+Probably won't sleep tonight but looking forward to tomorrow.
+
+
+
+
+ 
