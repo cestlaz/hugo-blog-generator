@@ -1,0 +1,95 @@
+---
+title: Teacher Preparation - know what's under the hood
+date: 2022-07-12T11:52:31-04:00
+tags:
+- CS Ed
+categories:
+- CS Ed
+draft: false
+--- 
+
+Yesterday was the last day on our first course for teacher
+certification. A programming course similar to a college CS1 - think
+APCS-A. We're now moving to a data structures course.
+
+There are a few reasons for this. First, it's depth of knowledge. The
+most advanced class a high school student will normally take would be
+APCS-A. Data structures is the next course. A teacher should have
+studied a topic to a greater depth than the students. We fill in the
+breadth in our topics course. Now, this means that our elementary
+school candidates need data structures and I'm the first one who'll
+agree that elementary school teachers don't need the same depth of
+knowledge as a high school teacher but New York State in it's infinite
+wisdom decreed that their CS Certification would be K12 - same thing
+for all teachers from Kindergarten through the end of high school.
+
+A second reason, and this is a big one, is that studying data
+structures is a computer scientist or programmers first opportunity to
+understand what's going on under the hood. Why is this important?
+Well, to me, it's one of the differences between what, for lack of a
+better word I'll call a coder or programmer with a computer scientist.
+
+I'm not talking about a computer scientist as a college employed
+researcher, I'm using the term as someone who problem solves and
+creates solutions using the tools and techniques of computer
+science. For a coder / programmer, I mean someone who creates working
+programs but doesn't think deeply about the solution but rather uses
+built in constructs, libraries and packages blindly.
+
+This is not to say that someone employed as a coder can't be or isn't by my
+definition, a computer scientist, they certainly can. 
+
+Back to the point. We closed out the programming class learning about
+classes and implementing something that we called a SuperArray,
+basically a cut down Java Arraylist.
+
+On day one of data structures we went over the ArrayList. This is our
+usual strategy - implement something and then you learn about and can
+use the built in one.
+
+A poorly trained programmer will just learn about the ArrayList and
+then use it blindly. But by first exploring something
+like the SuperArray, the computer scientist has deeper knowledge.
+
+An ArrayList has a number of nice features. You can keep adding to
+them paying little attention to size, you can delete from the middle,
+insert anywhere and more. All these operations take time. If you try
+to remove an element from an ArrayList, the ArrayList has to shift all
+the elements past the element in question down. If you want to insert
+at the front, you've got to shift everything down to make room. Adding
+something to the end, however, takes no time at all unless the
+underlying array is full, in which case, more work is to be done.
+
+When writing the SuperArray, students had to write the code necessary to
+do all of these operations so we can discuss the good, the bad, and
+the ugly.
+
+If you are using an ArrayList and you blindly do all your insertions
+at the front, you're going to have horrible performance but if you
+always add to the end, things will be much faster. The coder doesn't
+understand this but the computer scientist does.
+
+When we do LinkedLists next week we can dig deeper on these ideas and
+even more when we get to sorting and searching.
+
+The bottom line is that even if one doesn't write an entire ArrayList,
+exploring under the hood can arm a coder (or teacher) so that they
+make wise choices instead of treating every problem like a nail.
+
+A side added bonus on this specific SuperArary / ArrayList
+project is that when you're done you can actually look at the Java
+ArrayList code. The class won't understand all of it but they should
+be able to get the gist and they'll see that the Java code is very
+similar to what the students wrote. This can be very empowering.
+
+After this data structures course, the teachers may never again write
+the code for a linked list, implement a hash table or tree or manually
+sort a data set but the underlying knowledge will help them understand
+and teach all sorts of computer science concepts. A web page is
+represented in a a tree, a network is a graph. Understanding hash
+tables and search trees are a gateway to databases.
+
+Sometimes the specific implementations one studies are never used
+again but for teachers, the underlying concepts can be game changes
+for their students.
+
