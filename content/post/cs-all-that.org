@@ -1,5 +1,12 @@
 ---
 title: CS - it isn't all
+date: 2022-07-13T11:52:31-04:00
+tags:
+- misc
+categories:
+- misc
+draft: false
+--- 
 ---
 
 I've dedicated my entire career - something like 32 years, to CS
