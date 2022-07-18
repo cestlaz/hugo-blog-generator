@@ -6,7 +6,6 @@ tags:
 categories:
 - misc
 draft: false
---- 
 ---
 
 I've dedicated my entire career - something like 32 years, to CS
