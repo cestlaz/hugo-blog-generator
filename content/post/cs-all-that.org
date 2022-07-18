@@ -1,11 +1,5 @@
 ---
-title: CS - it isn't all that
-date: 2022-07-13T13:53:54-04:00
-tags:
-- misc
-categories:
-- misc
-draft: false
+title: CS - it isn't all
 ---
 
 I've dedicated my entire career - something like 32 years, to CS
@@ -59,7 +53,7 @@ Problem solving and creativity?
 As I said before, just about every other field can be about these but
 CS might not. Back when the code school / bootcamp boom started in the
 Ruby on Rails days, those code schools taught neither problem solving
-nor creativity. They taught wrote pattern programming to create a very
+nor creativity. They taught rote pattern programming to create a very
 specific type of application to solve a specific problem that was in
 demand in the early days of the second internet boom.
 
