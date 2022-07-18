@@ -1,0 +1,99 @@
+---
+title: CS - it isn't all that
+date: 2022-07-13T13:53:54-04:00
+tags:
+- misc
+categories:
+- misc
+draft: false
+---
+
+I've dedicated my entire career - something like 32 years, to CS
+education and the spread of CS education. So, while I try to be a
+cheerleader I also think it's important to call out things that we do
+or say that are maybe not so great.
+
+So, I hope I don't annoy too many people (or maybe I hope I do) with
+this post and maybe a few more to come.
+
+Before diving into specific CS teaching methods, we started with some
+general discussion. What is CS? Why study CS? Why it's important to
+offer etc. This is is really red meat for CS teachers so rich
+discussion quickly ensued. Nothing particularly new, I've heard and
+has been part these conversations so many times.
+
+Lots of good stuff but there were a few things that always come up in
+these conversations that I think are worth calling out.
+
+- CS is creativity
+- CS is problem solving
+- CS is making mistakes
+- CS is building projects.
+- Students like CS, it's fun.
+  
+These aren't bad things and in fact are almost always good
+things. What I want to call out is that they're not CS and certainly
+not exclusive to CS.
+
+The big thing I don't like about this is that the good things here are
+not exclusive to CS and are not always in CS. CS can teach problem
+solving but so can Math. Creativity? How about writing or the
+arts. Making mistakes? Science? Math. and on and on.
+
+On the flip side CS doesn't necessarily have these and other good
+attributes. CS is generally perceived as fun but then again we're CS
+educators. Math teachers think math is fun. Likewise, as long as CS
+classes are populated by students electing to be there and as long as
+the content is lightweight it's not surprising that many kids think
+it's fun. When standardized testing sets in and teachers are
+pressured to cover more with less in less time, this will probably
+change.
+
+I will not infrequently say that something I'm teaching is "inherently
+cool" but the truth is it isn't. There are plenty of things that I
+might think are cool or neat or fun but that doesn't automatically
+mean all our students will feel the same way.
+
+Problem solving and creativity? 
+
+As I said before, just about every other field can be about these but
+CS might not. Back when the code school / bootcamp boom started in the
+Ruby on Rails days, those code schools taught neither problem solving
+nor creativity. They taught wrote pattern programming to create a very
+specific type of application to solve a specific problem that was in
+demand in the early days of the second internet boom.
+
+CS also isn't also necessarily taught in a creative way in the
+K-College classroom. I've seen many classes where student create a
+game but they all code it together and the creativity consists of
+students deciding on the sprite to use for the player. Yes, this
+allows for a controlled form of creativity on the visual part of their
+project but not on the problem solving side. 
+
+I don't mean to be down on CS. CS can incorporate all these good
+things and more but I think it's important to recognize that other
+fields can be these things as well and CS might not be all we think
+it's cracked up to be.
+
+CS does, though have one edge over most other fields. As the new kid
+on the block K12 CS education is not as highly regulated and
+restricted as other fields. We don't have standardized exams nor
+standardized curriculum. The closest we have are APCS-A and
+APCS-Principles. This means teachers are more free to teach what they
+want how they want. This can be great with a well prepared, qualified
+tearch or less great with a less ready one.
+
+As CS becomes more part of the system I expect teachers to have less
+freedom in what they teach and how they teach. As a community we might
+be able to steer the ship towards keeping the good stuff but then
+again, we might not.
+
+It's important, as a community of educators, that as CS becomes more
+standardized that the teachers and not the curriculum providers, not
+the standards makers, and not the gorillas in the room with the
+oversized influence but none of the actual teaching or CS experience
+have a voice to keep the good stuff and not go the way of other
+disciplines that are no longer considered cool.
+
+
+
