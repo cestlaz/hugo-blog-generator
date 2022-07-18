@@ -1,5 +1,5 @@
 ---
-title: CS - it isn't all
+title: CS - it isn't all that
 date: 2022-07-13T11:52:31-04:00
 tags:
 - misc
