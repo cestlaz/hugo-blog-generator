@@ -1,0 +1,43 @@
+---
+title: Masters of CS Education
+date: 2022-07-22T06:45:43-04:00
+tags:
+- misc
+categories:
+- misc
+draft: false
+--- 
+
+I was in the middle of writing a post on how early and often we should
+be teaching CS in our schools but had to jump in with a quick hit
+here.
+
+As any reader here knows, Hunter was the first institution with state
+approved CS Teacher Education Masters and Certificate programs. Siena
+had the first Bachelors program (Hunter doesn't have undergraduate
+education programs that lead to state certification).
+
+We've been graduating certificate students for a couple of years
+now. Those are professional teachers - working under another
+certification area who are earning the new New York State CS
+credential. We now have around 40 certificate graduates who are either
+state certified or qualified to be state certified if they haven't
+filled out the state application. It was cool that we were the first
+but more importantly that NY is getting qualified CS teachers.
+
+We passed another milestone the other day. Our first two Masters
+students graduated this past June and I just heard from one of them
+that she now possesses New York State Certification to teach Computer
+Science. She should be the first newly minted Masters grad to have
+earned certification.
+
+Another cool milestone passed.
+
+I expect that in the coming years, the demand for Hunter's certificate
+program will go down as demand for the Masters program goes up. We'll
+see if I'm right.
+
+For now, just wanted to share a bit of cool news.
+
+
+

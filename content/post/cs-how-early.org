@@ -1,0 +1,80 @@
+---
+title: Teachign CS - How early and how often?
+date: 2022-07-18T13:58:41-04:00
+tags: 
+categories: 
+draft: true
+--- 
+
+A big part of the CS4All movement has been making computer science
+available at all grade levels. Of course that can mean many
+things. Grade levels could be elementary, middle, and high school or
+it can me k-2, 3-5, 6-8, 9-12 or maybe even every grade.
+
+Does it mean required at every level or just an option?
+
+This has led to many discussions and, at least from the ones I've
+listened in on, the prevailing feeling from the CS side is all CS all
+the time.
+
+I don't know if this should be the case. It's important to think about
+other factors - bang for your buck, budgets, student workload,
+available faculty, what are the other requirements, and mode.
+
+This question also isn't limited to computer science, or at least it
+shouldn't be.
+
+All students in NY have to complete one year of world language. You
+can't get anywhere near fluent in one period a day for one school
+year. Does that make sense at all? Particularly if you're just
+studying the mechanics of the language and not anything about history
+or culture. I don't know. Stuyvesant had a 3 year requirement. That
+will get you closer to fluency but it probably won't get you
+there. The Stuy requirement is also flawed because it's only there to
+keep a large number of teachers in the language department. A better
+requirement would be to require up to a level of expertise. If a kid
+comes in bilingual, great - they can use those language slots for
+other cool elective.
+
+Now, for language, the requirement is in high school. Would it be
+beneficial to require language in middle school? What about elementary
+and if you do it in elementary, is it also important in middle school?
+All worthwhile questions.
+
+Physical Education is another subject worth asking about. In New York,
+in HS you're supposed to have Phys Ed once a day every school day
+for all four years. The problem is that, that in my experience, phys
+ed classes were of minimal value. For me, it was 40 minutes a
+day. Change on either side + take attendance and there's barely any
+time for any physical activity.
+
+Now, I'm very pro physical fitness - back in the late 90s I was
+seriously overweight. Over time, I dropped 65 pounds and to this day
+follow a much more healthy much more active lifestyle. I just don't
+think the NYC phys ed class model really works. I'm also pro downtime
+classes - phys ed, recess, or other classes that engage (or disengage)
+students differently.
+
+Then there's art and music - requirements are minimal as is
+implementation and in my personal opinion this has been criminal.
+
+What about CS?
+
+We have neither the funds nor the faculty to offer CS as a requirement
+in every grade but is it even necessary? I don't know. The most
+important part of offering CS in K12 is so that it's on a student's
+radar so they can consider studying more after HS. This is
+particularly important with some colleges even requiring students
+apply as a CS major before even attending.
+
+I know that we can do it with a single class requirement and two years
+of offerings. How do I know this? Because we did this at Stuy. Doing
+this requires two basic things:
+1. A well taught, well designed intro course that exposes students to
+   the subject.
+2. Covering enough material deeply enough so that students are well
+   prepared for the next steps in college should a student take them.
+
+   
+
+
