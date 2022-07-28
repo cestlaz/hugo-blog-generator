@@ -1,0 +1,71 @@
+---
+title: CoTeaching - learning from colleagues 
+date: 2022-07-28T12:49:50-04:00
+tags:
+- teaching
+categories:
+- teaching 
+draft: false 
+--- 
+
+
+A few weeks ago I wrote on how [[https://cestlaz.github.io/post/workshop-a-lesson/][you can't workshop a lesson]]. Besides
+the slow feedback loop, teachers largely work alone. Between classes,
+teachers might have a small bit of time to collaborate and bounce
+around ideas but with a HS teacher typically having 5 classes a day +
+professional assignment there's not a lot of time.
+
+CS teachers typically have it worse as they might be the only CS
+teacher in their building. My hope is that this current cohort of
+Hunter CS Ed students, like earlier cohorts form their own support
+network but that's not what I'm writing about today.
+
+As you know, for the past month I've been working my CS Teacher
+certification program. We've got close to 60 participants. This means
+we were able to engage 2 teachers per class. Truth be told, I've got a
+great team and the whole crew is supporting each other in all of the
+classes, not just the one they're teaching.
+
+The end result is that we're all working harder but we also get to
+teach together and, in fact, at least partially workshop our lessons.
+
+I'm loving it because the one thing I really miss teaching at Hunter
+is my teaching team. I'm the only person doing what I do at Hunter so,
+just like so many other CS teachers, I'm on an island.
+
+
+When Sam was talking about run time analysis, he had a really nice way
+of exploring the run time of the n^2 sorts. I think I do a pretty good
+job when teaching this but I loved the way Sam developed and
+communicated the topic. Likewise, he did a unit on Expression Trees
+which was very different from my approach to trees. We had plenty of
+time before he did these units to discuss them and afterwards to
+debrief. I'm 100% stealing some of this when they come up in my
+classes.
+
+Not to just be a taker, Sam really liked the way I introduced and
+developed linked list and will be stealing that from me on his next
+iteration.
+
+It's being able to work with other teachers like this that makes
+running the summer program special. On the other hand, the workload is
+far to great to be sustainable. This is also the kind of thing that
+teachers should be given the time to do. Giving teachers time to work
+together in their schools is worth so much more than the professional
+developments that schools usually offer and require.
+
+I'm hoping that the program participants, in addition to the core
+material in our classes are also reflecting on how each of the
+instructors are running parts of the classes. Not saying that we're
+hitting everything out of the park but a fair and careful analysis of
+how we teach a subject and comparing it with what they do can provide
+an extra layer of development beyond what's formally in the classes.
+
+We'd actually highlight this more had the state not decided, in their
+infinite wisdom that we couldn't merge our CS and CS Ed classes. We
+did that for cohort 1 and it was extremely effective.
+
+In any event, it's been a very full month with a couple more days to
+go but thought this was something worth shareing about now.
+
+
