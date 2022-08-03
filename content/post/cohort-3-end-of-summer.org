@@ -1,11 +1,11 @@
 ---
-title: Cohort 3 End Of Summer
+title: End of summer program beginning of summer break
 date: 2022-08-03T11:45:33-04:00
 tags:
-- misc
+- CS Education
 categories:
-- misc
-draft: true
+- CS Education 
+draft: false
 --- 
 
 Yesterday was the last day of classes for our current cohort. The
@@ -13,7 +13,7 @@ rest of the week and maybe weekend will be all grading all the time
 and then I'll try to tune out work for a couple of weeks to try to
 recharge the batteries. Since there are some ongoing Hunter
 administrative snafus I'm not all that optimistic on getting real down
-time.
+time but we'll see.
 
 So, how did it go?
 
@@ -21,8 +21,7 @@ Overall I'm happy with the results. We had a much larger cohort -
 almost three times the size of past years so that presented challenges
 but at the end of the day the participants showed a lot of growth and
 based on our anonymous survey the vast majority were very happy with
-the experience. There were a couple who were not happy with the
-experience (or more likely, us instructors) but in a large group,
+the experience. There were a couple who were not happy but in a large group,
 particularly of teachers being taught, you're not going to please
 everybody.
 
@@ -33,12 +32,13 @@ everybody.
 
 The large group was a challenge but I'm not really sweating it since I
 don't expect there to be cohorts nearly this large in the future. I
-had a personal goal of getting NYC to around 100 teachers ASAP and
-that'll be done once this cohort finishes in the spring but I suspect
-that as we move on, there will be less demand for teachers getting an
-additional CS certificate while on the other hand, there will be a
-slow and steady increase in demand for Masters programs. At the same
-time, additional programs should start coming online across the state.
+had a personal goal of getting NYC to around 100 certified teachers
+ASAP and that'll be done once this cohort finishes in the spring but I
+suspect that as we move on, there will be less demand for teachers
+getting an additional CS certificate while on the other hand, there
+will be a slow and steady increase in demand for Masters programs. At
+the same time, additional programs should start coming online across
+the state.
 
 The end result should be no more classes of 60.
 
@@ -61,9 +61,12 @@ participants with strong CS backgrounds put on their teacher hats and
 helped support less experienced teachers. We'd frequently drop in and
 lurk in a breakout room to see the more expereinced guide the room and
 it was rare to see one of them dominate and just "do the task"
-(although it did occasionally happen).
+(although it did occasionally happen). Likewise most of the
+participants who came in raw showed tremendous progress and
+growth. Many stayed for end of day office hours to go beyond what we
+were asking because they wanted to master everything. 
 
-Also, based on the comments the cohort is building a strong sense of
+Also, based on the comments, the cohort is building a strong sense of
 community. There were a couple of comments where a student or two felt
 otherwise, but they were in an extreme minority (based on the
 anonymous surveys) and from their full comments it looks like they
@@ -78,22 +81,21 @@ districts.
 Of course, at a base level, there's also the fact that everyone got
 through the program and there was a lot of growth across the board. 
 
-For me personaly, the highlight was getting to know a bunch of great teachers
-and people and to be able to work with my team again. My team from
-Stuy is still the thing I miss most at Hunter. It's funny, we had one
-of my CS colleagues from Hunter also on the team and he commented on
-how great it was to work with this team and how well we worked
-together. A number of students also pointed that out as a positive
-(well, not the couple of negative nellies mentioned prior but again,
-the majority of the cohort).
+For me personaly, the highlight was getting to know a bunch of great
+teachers and people and to be able to work with my team again. My team
+from Stuy is still the thing I miss most at Hunter. It's funny, we had
+one of my CS colleagues from Hunter also on the team and he commented
+on how great it was to work with this team and how well we worked
+together. A number of students also pointed that out as a positive.
+
 
 
 
 * A couple of things that stood out
 
 These are just a few things that have been on my mind since
-closing. Maybe their important, maybe not and I might change my own
-mind down the line. Still, these are few random or tangental things
+closing. Maybe they're important, maybe not and I might change my own
+mind down the line. Still, these are few random or tangential things
 that stood out from the past month.
 
 ** The state of CS PD
@@ -103,21 +105,21 @@ deeper into teacher backgrounds. I also looked back to the teachers
 from the first two cohorts who came in barely able to write "Hello
 World!"
 
-In many, indeed most of these cases the teacher had gone to the
-standard PD sessions - mosty through CS4All in NYC but sometimes from
-the usual suspects of providers independantly through their school.
+In many, indeed most of these cases the teacher had gone to the "usual
+suspects" PD sessions - mostly through CS4All in NYC but sometimes
+arranged independently by them or their school.
 
 I then looked to see how long these teachers were doing these PDs.
 
-In many cases ot was years - three, four, five, or even more years of
+In many cases it was years - three, four, five, or even more years of
 going to CS training.
 
-This really alarmed me. Well, actually, I suspected this but it was a
-sobering confirmation. I know a lot of people won't want to hear this
-but teachers attending CS "training" for multiple years should be well
-beyond the most basic of programs. Even if they haven't used a text
-based language, after multiple years, they should be able to
-transition fairly easily.
+This really alarmed me. Well, actually, I already suspected this but
+it was a sobering confirmation. I know a lot of people won't want to
+hear this but teachers attending CS "training" for multiple years
+should be well beyond the most basic of programs. Even if they haven't
+used a text based language, after multiple years, they should be able
+to transition to text fairly easily.
 
 So, I know that a lot of people might be offended by my saying this
 but I stand by it. There are some providers I know who do good work
@@ -128,7 +130,7 @@ approach that, to paraphrase what code.org said a few years ago,
 ** Split the class
 
 Another interesting thing is that there weren't a lot of comments from
-particpants about the mixed teacher levels in terms of sharing
+participants about the mixed teacher levels in terms of sharing
 experiences. On the other hand many would have loved us to be able to
 split based on programming experience. I haven't had a chance to do a
 deep debrief with JonAlf and Topher who ran the methods components but
@@ -148,18 +150,18 @@ job at communicating why this is our approach.
 There were a couple of comments both in class and in the survey about
 "best practices" and "the research" with respect to methods. I get it,
 younger teachers are hit over the head with this type of edubabble
-from there first education course through every department meeting,
+from their first education course through every department meeting,
 PD, and observation.
 
-The trouble is that there are no "best practices," there are practices
+The truth is that there are no "best practices," there are practices
 that under certain circumstances, based on a combination of students,
 teacher, school, culture and more can be most effective for **THAT
-SPECIFIC TEACHER** to use in that time at that place. Teachers aren't
-usually taught this, they get hammered with "best practice" and "the
-research" but nobody ever tells them that while there are some people
-doing great work in Ed research and CS Ed research, the field is
-generally held in low regard, work is almost never replicated and when
-you read most of it, there are tons of important variables that
+SPECIFIC TEACHER** to use in **that time at that place.** Teachers
+aren't usually taught this, they get hammered with "best practice" and
+"the research" but nobody ever tells them that while there are some
+people doing great work in Ed research and CS Ed research, the field
+is generally held in low regard, work is almost never replicated and
+when you read most of it, there are tons of important variables that
 the research leaves out.
 
 On top of this, we can go down a long list of "best practices" which
@@ -197,16 +199,17 @@ is selling.
 * What's next
 
 So, summer's in the books. We'll take this group through a few more
-courses in the Spring they'll join the ranks of New York State
+courses and in the Spring they'll join the ranks of New York State
 Certified CS Teachers. 
 
 Personally, I'm going to try to disengage from Hunter related stuff
-for the next few weeks and try to recharge. there will be a few things
-I have to deal with. After a few really hard years I'm hoping I'll
-start up again at the end of the month with some renewed energy.
+for the next few weeks and try to recharge. There will be a few things
+I have to deal with but I'll try to keep them to a minimum. After a
+few really hard years I'm hoping I'll start up again at the end of the
+month with some renewed energy.
 
-I also have to give some thoughts to the long term both for Hunter and
-me. Devorah turned 55 last November and I join her in October so as
-many of you know, we've got some potential big things to
+I also have to give some serious thought to the long term both for
+Hunter and me. Devorah turned 55 last November and I join her in
+October so, as many of you know, we've got some potential big changes to
 consider. More on that though once the year starts.
 
