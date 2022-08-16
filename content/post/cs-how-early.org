@@ -1,10 +1,12 @@
 ---
 title: Teachign CS - How early and how often?
-date: 2022-07-18T13:58:41-04:00
-tags: 
-categories: 
-draft: true
---- 
+date: 2022-08-16T15:38:55-04:00
+tags:
+- cs ed
+categories:
+- cs ed 
+draft: false
+---
 
 A big part of the CS4All movement has been making computer science
 available at all grade levels. Of course that can mean many
@@ -19,62 +21,85 @@ the time.
 
 I don't know if this should be the case. It's important to think about
 other factors - bang for your buck, budgets, student workload,
-available faculty, what are the other requirements, and mode.
+available faculty, what are the other requirements, and more.
 
 This question also isn't limited to computer science, or at least it
-shouldn't be.
+shouldn't be. K12 schooling is still a zero sum game - there are only
+so many minutes in a school day and while CS is important, so too are
+most if not all of the other subjects and some, like art and music are
+in danger or being left by the wayside at the expense of CS. Of
+course, on the other hand, there are some subject that I feel are
+already given too much time or the wrong amount.
 
-All students in NY have to complete one year of world language. You
-can't get anywhere near fluent in one period a day for one school
-year. Does that make sense at all? Particularly if you're just
-studying the mechanics of the language and not anything about history
-or culture. I don't know. Stuyvesant had a 3 year requirement. That
-will get you closer to fluency but it probably won't get you
-there. The Stuy requirement is also flawed because it's only there to
-keep a large number of teachers in the language department. A better
-requirement would be to require up to a level of expertise. If a kid
-comes in bilingual, great - they can use those language slots for
-other cool elective.
+That said, this post is about CS. We have neither the funds nor the
+faculty to offer CS as a requirement in every grade but is it even
+necessary? I don't know. An important part of offering CS in K12 is so
+that it's on a student's radar so they can consider studying more
+after HS. This is particularly important with some colleges requiring
+students apply as a CS major before even attending. Another side is to
+give a student the base level knowledge that we feel every educated
+person should have just as we seek to do this in biology, chemistry,
+history and so on.
 
-Now, for language, the requirement is in high school. Would it be
-beneficial to require language in middle school? What about elementary
-and if you do it in elementary, is it also important in middle school?
-All worthwhile questions.
-
-Physical Education is another subject worth asking about. In New York,
-in HS you're supposed to have Phys Ed once a day every school day
-for all four years. The problem is that, that in my experience, phys
-ed classes were of minimal value. For me, it was 40 minutes a
-day. Change on either side + take attendance and there's barely any
-time for any physical activity.
-
-Now, I'm very pro physical fitness - back in the late 90s I was
-seriously overweight. Over time, I dropped 65 pounds and to this day
-follow a much more healthy much more active lifestyle. I just don't
-think the NYC phys ed class model really works. I'm also pro downtime
-classes - phys ed, recess, or other classes that engage (or disengage)
-students differently.
-
-Then there's art and music - requirements are minimal as is
-implementation and in my personal opinion this has been criminal.
-
-What about CS?
-
-We have neither the funds nor the faculty to offer CS as a requirement
-in every grade but is it even necessary? I don't know. The most
-important part of offering CS in K12 is so that it's on a student's
-radar so they can consider studying more after HS. This is
-particularly important with some colleges even requiring students
-apply as a CS major before even attending.
-
-I know that we can do it with a single class requirement and two years
-of offerings. How do I know this? Because we did this at Stuy. Doing
-this requires two basic things:
+I know that we can accomplish these goals with a single class
+requirement and two years of offerings overall . How do I know this?
+Because we did this at Stuy. Doing this requires two basic things:
 1. A well taught, well designed intro course that exposes students to
    the subject.
 2. Covering enough material deeply enough so that students are well
    prepared for the next steps in college should a student take them.
 
-   
+The required intro gives the base level that everyone should have and
+a more advanced follow up elective sets students up for success if
+they want more in college. Truth be told the required course should
+really be a year rather than a semester but we still made it work.
 
+This fits well in the Stuyvesant program and given New York graduation
+requirements adding a single required course or even a required year
+fits pretty easily and adding electives also isn't a problem.
+
+If you can't offer or require more then this can be enough. The
+question, though, is - "is it ideal?" I'd be hard-pressed to say that
+a school should require more than a year of CS. If you do it right and
+follow up with electives a year is plenty. If you don't do it right,
+well, then multiple years of bad CS isn't any better than 1. 
+
+What about earlier grades? Middle school? Standalone CS is nice but is
+it necessary or are we better off embedding CS into other classes? I
+haven't landed on an opinion on this but I do know that we've had a
+few middle school teachers graduate from my State Certification
+Program and I'd love to get their opinions over the next few years. 
+As a general statement, I think it's safe to say that if you can fit
+in some meaningful CS in middle school that would be great but if I
+had a choice to either require it in middle school or in high school,
+I'd opt for HS. Middle school is too far from college and work. Why
+would I say this? Because of what I've noticed. There were periods of
+time where CS, or at least programming or web dev were introduced in a
+lot of Stuy's feeder schools and more often than not, when I surveyed
+students about past experiences they either barely remembered them
+(wait, I think I did something like making a web page in 7th grade...)
+or in any event based on my surveys, it made little difference towards
+either success in High School CS nor in interest in doing more CS.
+
+Finally, the primary grades. When the whole CSforAll thing got started
+I noted that a lot of what we'd see in the elementary schools would be
+a rebranding of stuff that already being done in schools that can
+afford it - logic, problem solving, algorithms etc and also a
+relabeling of already taught concepts using CS or CT vocabulary. This
+is all good stuff and since it's more foundational it's probably
+pretty important. Of course, when schools and teachers had the freedom
+and budget, this was already happening prior to the CS movement even
+if we didn't call it CS.
+
+So, do we need CS at all levels? Probably not. Would it be nice? Sure
+but we're not serving kids if we're just CS zealots. We have to look
+at the big picture and the whole student. If I ran a school system and
+could only afford CS at one level I'd go high school as I outlined
+above. If I could do two, I'd hop down to elementary school and then
+fill in middle last. Of course, that's just me.
+
+Of course non of what I've said talks at all about digital citizenship
+or fluency but that's for another day.
+
+   
 
