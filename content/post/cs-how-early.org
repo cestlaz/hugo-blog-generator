@@ -1,5 +1,5 @@
 ---
-title: Teachign CS - How early and how often?
+title: Teaching CS - How early and how often?
 date: 2022-08-16T15:38:55-04:00
 tags:
 - cs ed
