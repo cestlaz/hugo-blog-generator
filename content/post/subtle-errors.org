@@ -1,0 +1,92 @@
+---
+title: Subtle Errors
+date: 2022-09-02T15:05:19-04:00
+tags:
+- errors
+- programming
+categories:
+- programming
+draft: false
+--- 
+
+The semesters back up in full swing again - teaching 2 undergrad
+classes in person - CS0 in Python and CS1 in C++ along with my teacher
+certification class - Ethics via Zoom. Grand total of about 125
+students. An error came up in the CS0 class the other day that
+reminded me how tough it is not only to prepare students to deal with
+all the things that can go wrong when learning to program but even for
+a teacher to realize what's going on.
+
+
+Here's the code. It looks pretty straightforward and should work to
+draw a square.
+
+{{<highlight python "linenos=true">}}
+
+import turtle
+
+wn = turtle.Screen()
+
+crush = turtle.Turtle()
+
+crush.forward(100)
+crush.left(90)
+crush.forward(100)
+crush.right(90)
+crush.forward(100)
+crush.right(90)
+crush.forward(100)
+crush.right(90)
+
+wn.exitonclick()
+wn.mainloop()
+
+{{< /highlight >}}
+
+Problem is, it didn't. Now, algorithmicaly this is correct and in fact
+the actual code looks correct as well but the student couldn't get it
+to run.
+
+Here's an actual screenshot that resulted in the error. Can you spot
+the problem?
+
+{{< figure src="/img/thonny-error.png" >}}
+
+I spotted it pretty quickly. Not because I'm any good at this but
+because I've seen the error before. It turns out the student had named
+their program file *turtle.py* and so when line 1 tried to *import
+turtle* we ended up with a circular reference. Instead of loading the
+turtle graphics module, it would try to load itself. Had the actual
+error message remained on the screen it would have said something
+about "circular reference" but that wouldn't help a student and truth
+be told it probably wouldn't help most CS teachers in diagnosing the
+problem. Now, the student wasn't faultless here - I had explicitly
+stated that they should name their program file *t1.py* but we all
+know how well students follow directions ;-).
+
+This is just one example of the myriad issues that arise when teaching
+programming. One could try to minimize these issue by working in
+sandboxed environments but then when students leave class and the
+sandbox. The sandbox makes life easier for the teacher but it's really
+only kicking the can down to someone else.
+
+I remember this being a big deal when codecademy wa the big thing
+around a decade ago. Everyone went to their site and "learned" how to
+program. So many of them realized after finishing the course that they
+couldn't do anything outside of the little codecademy programming
+window. This isn't to say that Codecadmey wasn't a good product or
+service but students learning about how to deal with platform and
+implementation issues is a real one.
+
+This particular issue left some hints - the error mentioned the import
+and said that it was circular but there are plenty of weird errors
+like this - dealing with versions, file and module locations, build
+systems and even things like disk quotas and file permissions that can
+make learning to program much more of a minefield than it should be. 
+
+I don't have any real answer as to how and when these issues should be
+dealt with - how much we should shield our students at first and how
+we should expose them to real world issues but it's probably something
+teachers should be talking about more.
+
+
