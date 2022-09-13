@@ -1,0 +1,105 @@
+---
+title: Research Vs Practice
+date: 2022-09-11T12:33:02-04:00
+tags:
+- Ed research
+categories:
+- Ed research 
+draft: false
+--- 
+
+I've been seeing a lot of tweets recently about "the research" - how
+PD should present how to teach and cite "the research," how research
+defines the best practices teachers should use, and on and on.
+
+As readers know, this is not something I subscribe to.
+
+What got me this time was a specific tweet on the PD thing and how
+it's critically important to show the research to "prove" the
+effectiveness of whatever is being pitched. Sorry, no. 
+
+Let's look at two scenarios.
+
+Scenario 1:
+
+#+begin_quote
+You get a PD either from a researcher telling you how to teach based
+on their research or, as would be more common, from an administrator
+or private consultant or contractor who read some researcher's work.
+
+The presenter tells you about the practice and how the research said
+it was the one true way.
+#+end_quote
+
+Scenario 2:
+
+#+begin_quote
+You get a PD from an actual teacher. They tell you what they tried,
+how it went, and a robust discussion ensues between the presenter and
+audience on how the practice might or might not work with the
+audience's students.
+#+end_quote
+
+I'm taking scenario 2 any day of the week. 
+
+There is and can be good education research and it can have tremendous
+value but the truth is, education research has pretty poor overall reputation
+and as far as I can tell, it's largely deserved. Over my career, I've
+been told how to teach multiple times based on the research only to
+hear a few years later that it was wrong and there's another one true way.
+
+Ed research, as far as I can tell is rarely if ever reproduced and
+hardly ever accounts for the many, MANY variables that can change
+outcomes.
+
+I'll talk about the good side of Ed Research down below but first an
+example.
+
+I've spoken to ed researchers over the years and told them a story
+of my classes and how my first period CS class always under-performed
+as compared to my later classes. Not by a lot but it was
+consistent. The response was always the same - "that class starts at
+8:00am, right? That's way too early - that's the difference." Sounds
+good and truth be told, I agree that 8:00am is too early but that
+wasn't the factor. My first period was weaker because math team ran
+at the same time. My other CS classes always had a math team ace or
+two pulling up the average. Once I took them out of the mix, the
+variance was gone.
+
+There are so many subtle and not so subtle factors that can affect a
+class that it's impossible for "the research" to cover it all. Sure,
+you can account for a few, particularly big and obvious ones but there
+are so many more. Was the class before or after lunch or gym? What
+about on the sunny side of the building getting the greenhouse affect
+in the mid afternoon? What about just certain mixes of students. The
+variables are endless.
+
+Rather than telling us teachers how to teach based on "the research"
+I'd much rather hear from, and/or talk to teachers about things
+they've tried. What worked for them and what didn't. Why, at least
+from their perspective. Then I can pick and chose and try for
+myself. While I've gotten some good ideas from research papers, the
+amount is pretty meager compared to what I've learned from other
+teachers.
+
+All this said, I do think that there can be good and great research
+and that good research is important.
+
+Even if you don't account for all the variables, researchers are
+documenting practices and this is importance. I've learned much more
+from teachers than from ed researchers about teaching but what I've
+learned from teachers is ephemeral. It's not recorded for all
+time. The research can document these practices. We just have to take
+a stronger line as a community in saying that "this is what we tried,
+here are some of the variables, and here is what happened. It might
+work for you or it might not, it's not the one true way."
+
+Another side where ed research can have a major positive impact is
+that when researchers work with teachers they can develop practices
+and tools together that directly help teachers. A great example of
+this is what Mark Guzdial is doing with his teaspoon languages.
+
+So anyway, after seeing all those tweets I felt I had to vent. I know
+this is not a popular view in some of my circles but that's okay,
+contrary voices are important as well and as the designated old CS Ed
+Curmudgeon I'm always happy to take that role :-).
