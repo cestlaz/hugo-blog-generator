@@ -1,0 +1,110 @@
+---
+title: Certified CS teachers - 2 flags in NY
+date: 2022-09-28T16:39:37-04:00
+tags:
+- certification
+- CS Education
+categories:
+- CS Education
+draft: false
+--- 
+
+
+I've been running Hunter's teacher certification program now for three
+years. We started with our Advanced Certificate which allows currently
+working teachers to earn an additional cert in CS and soon a few
+masters students joined the pipeline.
+
+In three years we've made great progress. Approximately 45 New York
+City teachers are either state certified to teach CS or are qualified
+to recieve the certification once they file with the state. We've got
+close to 60 more joining them this spring. That's really exciting as
+it gets us to the critical mass I think the city needs moving
+forward.
+
+A core of knowledgeable teachers to provide an existing
+community of professionals as new young CS teachers join the
+profession over the next few years.
+
+This work something I'm both proud and excited about but there are two
+major concerns.
+
+First, there are many teachers teaching CS in NY that have no
+intention of earning the new certification and also don't really know
+the subject. 
+
+Second, this is only New York City and NY is a big state and not
+enough is happening in other parts of the state.
+
+I'll talk about the first issue in my next post but for now, let's
+talk about the state.
+
+A big thing I'm excited about with my current cohort of teachers is
+that five of them are from the Finger Lakes region of NY. About a year
+ago, I was essentially cold called by educators from the Dryden school
+district. They wanted to make sure they had knowledgeable CS teachers
+and saw that we had an advanced certificate program. They wanted to
+send their teachers to us for certification. There were issues - for
+funding, they ended up applying and receiving an NSF grant and on my
+end, I had to make sure that our program would remain remote - that
+commute from the Finger Lakes would've been brutal. When all was said and
+done, we started this past summer with over 50 teachers and teacher
+candidates from New York City and 5 from Dryden and neighboring
+Groton. Those five teachers have been a terrific addition to the
+cohort and I think it's also worked for them - they immediately become
+a local network of CS teachers as opposed to being the only one in
+town and they've also tapped into the New York City network we've been
+building.
+
+This means we've planted 2 flags in NY State - two locations that have
+or will soon have certified CS teachers. The ones that have finished
+my program in NYC along with the five from Dryden and Groton.
+
+The trouble is, we need more.
+
+Right now, there are 5 institutions with register masters program in
+New York State and 3 wither registered bachelors programs. I can't
+vouch for the quality of any programs other than mine and I don't know
+how many are active.
+
+Regardless, the issue here is that these are all programs that provide
+initial certification - they're for new people entering the
+profession. These programs are needed but will ramp up slowly across
+the state. At Hunter we've had registrations of 2, 4, and now most
+recently 5.
+
+We need more Advanced Certificate programs across the
+state. Programs that allow current CS teachers to learn this new field
+so they can teach it legally and teach it well. Right now, Hunter's
+the only game in town. This is one of the reasons why I've fought
+to keep us online - you can't expect teachers from way out in queens
+to come into the heart of Manhattan after a school day for classes and
+then back out LI or wherever they live let alone teachers from 4 hours
+north of the city.
+
+We need more Advanced Certification programs and we need ways to fund
+the teachers who need these programs. I've been extremely fortunate
+that organizations like Gotham Gives and Google support our work in
+New York City but I'm thinking we need the equivalent up the Hudson
+Valley, across the Erie Canal and all the way to Buffalo.
+
+These programs and the related funding also wouldn't have to last
+forever. After there years of intense work, NYC will have its core of
+certified teachers and I expect the demand for my advanced cert
+program to go way down while we slowly see an uptick in interest in
+our Masters program.
+
+Next time, I'll talk about that other issue - the fact that we're
+going to have a lot of teachers that don't really know CS and how to
+teach it for a long time but this is enough for now.
+
+We need more programs across the state that will recertify current
+teachers and really set them up as CS teachers. I've done what I could
+in that regard at Hunter and am very proud of our partnership with
+Dryden and Groton but it's got to be more than Hunter college.
+
+So, hey, if you're somewhere outside of the city and this is important
+to you - drop me a line, I'd love to work together to make things
+happen across the state.
+
+
