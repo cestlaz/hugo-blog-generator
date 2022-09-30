@@ -5,7 +5,7 @@ tags:
 - CS Education
 categories:
 - CS Education 
-draft: true
+draft: false
 --- 
 
 Last time I mentioned that there are many teachers teaching CS in NY
