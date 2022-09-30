@@ -1,0 +1,69 @@
+---
+title: We need certified teachers, not professionally developed teachers.
+date: 2022-09-28T17:35:05-04:00
+tags:
+- CS Education
+categories:
+- CS Education 
+draft: true
+--- 
+
+Last time I mentioned that there are many teachers teaching CS in NY
+that have no intention of earning the new certification and also don't
+really know the subject. People might not want to here this but it's
+true. I don't blame the teachers for this since they've been
+repeatedly told that "CS is super easy" and that their PD training
+100% makes them CS teachers and really prepares them.
+
+It doesn't
+
+With the new certification, one would hope that teachers who took one
+for the team and muddled through would either get certified or go
+back to teaching their primary subject but that probably won't be the
+case.
+
+Why?
+
+Because the state is allowing it.
+
+Current teachers can (or could) file for the SOCE - Statement of
+Continuing Eligibility. Basically if you taught CS you can fill out a
+form and keep teaching it for 10 years regardless of
+qualifications. It has limitations - it's tied to the school you filed
+the SOCE at - if you transfer it's no longer valid but it basically
+means that if you taught CS, good or bad, you can keep doing it at
+your current school.
+
+This is not good.
+
+The idea of giving a time frame to become a strong CS teacher is a
+good one but 10 years is excessive.
+
+Yes, there are some teachers that won't be certified but really know
+CS and how to teach it but in my experience they are in the
+minority. Over the past three years I've worked closely with about 100
+teachers in my program and I've evaluated applications from afew
+hundred more. Many of these applicants have been attending CS
+professional development for *years*. These PDs are the usual
+suspects - CS4all's training in NY, code.org etc.. The number of
+teachers who attended years of these types of training but have
+difficulty with "hello world" has been shocking. Now, I'm not down on
+a teacher for not knowing more than what they've been taught but
+what's being taught in PDs is sorely lacking and attending them does
+not a CS teacher make.
+
+Now, this isn't to say that all CS Certification programs will be
+superior to the low bar PD. I'm confident in saying that the Hunter
+program is. I'm also confident in the quality of Siena's program but
+they only award a Bachelors so it's not for currently working, certified
+teachers. Other programs, I just don't know - some will probably be
+great and others will be glorified PD.
+
+We really need to educate school administrators and district leaders
+as to what real CS teacher preparation should look like and they have
+to insist that while right now, we're in a transitional phase, within
+a few years - and *not* the 10 the state is giving, that teachers both
+new or existing get that preparation.
+
+
+
