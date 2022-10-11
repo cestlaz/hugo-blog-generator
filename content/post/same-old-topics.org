@@ -1,0 +1,74 @@
+---
+title: Same Old Topics
+date: 2022-10-08T14:40:55-04:00
+tags:
+- CS Topics
+categories:
+- CS Topics
+draft: false
+---
+
+I haven't been posting about specific CS teaching techniques and
+lesson content recently. Probably because I've been teaching the same classes
+at Hunter now for the past six years.
+
+Twice a year, Fall and Spring, I teach a recitation for Hunter's CS1
+in C++. In the Fall I also teach a version of their CS0 in Python. My
+second undergrad CS class in the Spring is Data Structures.
+
+I have some freedom in the CS0 class but that's more with applications
+and assignments since the basics are the basics. Data Structures is
+even more constrained. I've got to cover the same data structures and
+algorithms as the other, non honors section. I can do more and I can
+cover things the way I want but the list of data structures and
+algorithms is pretty set.
+
+For my CS1 recitation, I probably have the most freedom. For the
+regular sections, they cover a number of labs in the recitation. Since
+I have an honors class, I push the labs to homework assignments and
+can do what I want with the recitation time. This gives me some
+freedom but I still have to match the pace and content with what
+they're learning in the CS1 lectures. That means I can't arbitrarily
+cover a topic until it's prerequisites are covered in the main lecture
+and likewise, I can't cover anything that's covered in a future
+lecture.
+
+Now, this doesn't mean I have no freedom at all. For all three
+courses, I developed my lessons and I've continually tweaked how I've
+taught but it's been largely the same.
+
+I bet this is similar to a math teacher teaching algebra or geometry
+for the billionth time.
+
+For the CS1 lab I initially added in a bunch of software engineering
+and a couple of straight CS topics. The software engineering included
+things like coding standards, testing, code reviews, working on other
+peoples code and the like. It's worked well but last couple of times
+I've felt the course was a little stagnant and wanted to mix in some
+new things.
+
+What to add? I looked at the class calendar and lecture syllabus and
+as luck will have it, I'll be able to add three more topics this
+semester. First up will be code coverage. We've been talking about
+testing and TDD since I started teaching at Hunter but code coverage
+as it relates to tests has been an afterthought. This time, I'm going
+to bring it to the forefront. I think it'll be interesting and
+fun. The second will be Continuous Integration (CI). I was holding off
+on this because of tooling but now that I've had a chance to look, it
+seems that GitHub actions will make it really easy. Finally, I want to
+more formally talk about code profiling.
+
+None of these topics is particularly large or complex (at least at the
+introductory level) so it'll all fit nicely and it's giving me
+something new to get excited about as opposed to the same lessons
+merely tweaked. In fact, I'm finding myself thinking "Oh man, I'm
+going to have to cover those three lessons on decryption before I get
+to that cool new lesson on code coverage, ugh." Four years ago, the
+decryption lesson was the cool and fun new lesson that I was super
+excited about.
+
+So, we'll see how it all goes. Planning to report back after all the
+lessons are delivered.
+
+
+
