@@ -1,0 +1,67 @@
+---
+title: Good class day today
+date: 2022-10-13T14:59:22-04:00
+tags:
+- teaching
+categories:
+- teaching 
+draft: false
+---
+
+I've been in something of a teaching funk for much of the
+semester. Don't get me wrong, I think things are going pretty well
+with the classes but I don't feel like I've had my "A game."
+
+Part of it, I think is because of the relaxed mask policy. Hunter is
+masks optional and in their infinite wisdom, last year replaced the
+signs that said "Masks required" with signs that say "Masks *NOT*
+required." I'm in two overcrowded rooms - one of them, in fact has a
+capacity lower than my class size and I have some imunocompromised
+people in my life that I'd like to be able to safely see not to
+mention my own health. At the beginning of the semester, I requested
+for these reasons that in the classroom people wear masks. Most did
+and most do but a few didn't and won't and a few decided it wasn't
+important any more after a few weeks.
+
+It's typical that a few cases like this can really bring the tone down
+but I think that's affecting me more than anything else.
+
+In any event, in spite of this, today was a good day. In particular, I
+got a boost from my second class. I started my lesson on writing a
+program to [[https://cestlaz.github.io/posts/2014-01-07-rot13-gateway/][decode a Caesar cipher]]. It wasn't exactly the same as the
+post. Today we started with a lot of internet history and culture -
+[[https://en.wikipedia.org/wiki/ROT13][rot13]], Usenet news, and the first public dialup Unix system on the
+internet the [[https://en.wikipedia.org/wiki/The_Big_Electric_Cat][Big Electric Cat]] run by my old schoolmates and friends,
+Charles Foreman, Robert Sweeney, Lee Fischman, and Richard Newman.
+
+We moved from there to starting to develop ideas behind finding a
+similarity score between two things based on the distance formula. I
+now that sounds like a weird topic jump but it made sense in context.
+
+More to come in the next few classes.
+
+After class in the halls I heard mutterings from students on how they
+thought it was a really cool lesson. Made me feel pretty good.
+
+My earlier class wasn't particularly cool but it also went
+well. Mostly students sharing work. First part had them in groups and
+sharing solutions from the past weeks lab with other group
+members. The second part was more interesting and more fun. I had them
+look at each others solutions without discussion and then had group
+members explain and otherwise talk through other group members
+solutions. So, for example, in a four person group, group member A
+might chose question 3 from group member B's repo and then teach that
+solution to the full group of four.
+
+I think was a productive exercise and time well spent. It's important
+to get them to share solutions and to be able to understand other
+peoples code so this was a step in the right direction.
+
+So, that's it today. Nothing really deep, just sharing a good day in
+the classroom.
+
+
+
+
+
+
