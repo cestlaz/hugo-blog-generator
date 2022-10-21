@@ -1,0 +1,87 @@
+---
+title: Don't give away the punchline
+date: 2022-10-21T15:42:24-04:00
+tags:
+- teaching
+categories:
+- teaching 
+draft: false 
+--- 
+
+Commenting on my post on teaching some [[https://cestlaz.github.io/post/same-old-topics/][Software Engineering]] concepts,
+there was a comment on code review and that code.org now included it
+in their CS-A curriculum. I found [[https://www.youtube.com/watch?v=dWddHWU3_YM][this video]] but no other materials. I
+was thinking that I certainly hoped that the video was not being used to
+introduce code review to students. I mean the video is fine and
+probably great to show to teachers so that they'll have some idea on
+what code review is and why it's important. For students, it would be
+giving away the punchline too early.
+
+There are times when you, as a teacher, have to directly instruct
+students and there are times when just seeing a good practice is
+sufficient but code review isn't one of them. Why do I feel that way?
+Because I've seen code review in the wild. Sure, some, and I'd hope
+many professionals take it to heart but I know too many cases where
+testing and code reviews are afterthoughts. People click okay based on
+reputations or cursory glances or often based on deadlines and don't
+take the time to really review code.
+
+For students to buy into code review, they have to really see why it's
+important and useful.
+
+It's somewhat like teaching version control, which I do with Git and
+GitHub. I teach it early because I use it as a means of distributing
+and collecting software but truth be told, students don't really buy
+into the program. They only "get" version control later on when it
+saves their bacon. I haven't cracked the nut of making version
+control meaningful early on but I think I have done a pretty good job
+with code review ([[https://cestlaz.github.io/post/code-review-2/][old post]], [[https://cestlaz.github.io/post/code-review/][other old post]]) and it involves having
+them do some activities before revealing what we're really doing or
+giving them the punchline.
+
+Sometimes you've got to give the info up front but sometimes you want
+to set up exploration, discussion, and discovery. Most teachers know
+this but not all. I remember three years ago, we had our first CS
+teacher cohort. We started with 22 teachers but one dropped after the
+first week. That one teacher insisted that we tell them everything
+that was coming up in detail. I explained that we could share some
+things in advance but giving away the punchline would lessen their
+experience and how much they got out of the program. A couple of days
+later they were gone. The other 21 bought in and together we had a
+great program.
+
+So, most teachers get it, but not all. On the other hand I'm not
+convinced that most content providers get it. Yes, they've heard all
+the buzzwords but I'm not convinced that most of them have really
+experienced educators (let alone CS educators) driving their ships, I
+mean, it is a profession where it takes decades to become a master
+teacher and to me, 5 to 10 years is really advanced beginner to
+intermediate and I don't think you really master your craft util
+around 20 and that's only if you continue to work at it.
+
+Some people might push back on that last paragraph but if you're a
+5-10 year teacher, as yourself this - do you expect to stay the same
+and not get any better for the rest of your career or do you expect to
+continue to grow and get better. If you do expect to grow than what
+you will become will be the master teacher version of yourself. If you don't expect to grow,
+you're probably in the wrong business.
+
+Anyway, I digress.
+
+I don't know what materials code.org put together for their whole code
+review unit. If the video is intended to show at the start or if
+they've got something more developmental but it got me thinking about
+our craft, how it's important to give the right information at the
+right time, to guide but not to give away the punchline until the time
+is right.
+
+
+
+
+
+
+
+
+
+
+
