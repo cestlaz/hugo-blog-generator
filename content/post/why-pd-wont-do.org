@@ -1,0 +1,95 @@
+---
+title: Why PD doesn't work for CS
+date: 2022-10-24T08:01:48-04:00
+tags:
+- CS Education
+categories:
+- CS Education
+draft: false
+--- 
+
+Overall, I've been down on the Professional Development model that has
+been used nationwide to "prepare" our CS teachers. Yes, I'll happily
+admit that in order to get to a lot of teachers quickly, starting
+teachers off with PD was essential but too many people think it's
+doing fine and that's a problem.
+
+Before getting to the specifics of CS PD let's think about PD in
+general. There are different types of PDs.
+
+- Teachers sharing practices
+- conferences and meetings that teachers choose to attend
+- PD run by content providers, that is, people selling something
+- PD required by schools and districts
+
+The first two types are usually considered good, the third, sometimes
+but not as often. The fourth, fuggedaboudit.
+
+Given that there were and are so few CS teachers that really know CS
+and how to teach it, CS training, which started with PD, started with
+content providers. As I said at the start, this was essential at first
+but had and has many problems.
+
+First off, content providers aren't teaches. Sure, they often hire people
+who have taught but usually for a limited period of time. Second,
+since they're pushing their product they're usually teaching a pretty
+scripted experience and not going beyond either the way they envision
+their lessons to progress nor to broader possible content. This was
+essential at the start but it's not really preparing teachers. It's
+preparing actors for a play. Unfortunately, those 30 or so other
+actors in the room (the students) are all doing improv.
+
+Even with those problems content provider provided PD can certainly
+have value but there's one more problem and it's HUGE. Professional
+Development has no teacher accountability or follow up. When you
+attend a PD there are no exams or required projects, no assessment, no
+grade for credits - nothing. You attend, you're done.
+
+This is 100% the right way to do it for most fields but not when this is
+how you're initially training teachers. I've seen this in the
+applicants to my program. I mentioned it in earlier posts but I've
+seen far too many applicants who've attended multiple years of CS4All
+training in NYC. Training provided by a who's who of providers and
+they can barely get past hello world. I've even seen it *in* my
+program where a couple of participants have viewed our courses as PDs
+and really tried to dial it in. Fortunately, the vast majority get
+that we're offering legit grad courses for grad credits and while
+you'll work (and hopefully have fun) through the program, you'll
+indeed grow as a  CS teacher throughout. 
+
+Combine the fact that PD is never assessed by the fact that NY state
+is allowing unprepared teachers to teach CS for the next 10 years and
+we've got a problem.
+
+I don't really have an answer - PD in general should remain as it is
+in most fields but it should no longer be used as primary teacher
+preparation. Even though I strongly believe this, nothing will change
+based on the state's stance and the fact that city and state
+politicians gain more by rubber stamping CS teachers and saying
+they've done it rather than facing the fact that they're going to
+exacerbate the difference between the haves - who can make sure
+their kids get well prepared teachers, and the have nots who will get
+the PD trained kind.
+
+What the city and state should be doing is funding teachers to take
+advanced certificate programs like mine and students to take CS
+teacher preparation programs, also like mine but like the ones offered
+by Siena College and others as well. Do this and reduce the number of
+years during which you don't need certification from 10 years to 5 and
+you've got a real solution.
+
+I'm not holding my breath.
+
+In any case, there are teachers out there who want to do it right and
+there are charitable groups like Gotham Gives and Google who've helped
+us at Hunter move around 100 teachers from where they started to
+becoming solid CS teachers.
+
+Regardless of what the city and state do, we need more organizations to
+get on board funding good programs and more good programs becoming
+available to truly prepare teachers. If this happens, I do believe the
+teachers will come.
+
+
+
+
