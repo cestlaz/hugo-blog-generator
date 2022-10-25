@@ -8,6 +8,37 @@ categories:
 draft: false
 --- 
 
+* EDIT
+
+I was reminded that by referring to CS4All and what it's doing in NYC
+people could read an implication that the many hard working educators
+are not doing a yeoman's job and indeed they are. They've been doing
+the heavy lifting from day 1 to bring opportunities to students and I
+did not mean to impugn their work or efforts in any way.
+
+I also want to mention that I know that there are many educators
+working in NY in CS who have been providing direct support for
+teachers outside of PD and this post is not about them and their good
+work. This is about what PD providers provide and how that is no
+longer a good model for us to use for teacher prep. 
+
+I apologize to educators who read this prior to this edit who felt
+that I was referring to them and I hope this addition clears things
+up.
+
+That said, I'm leaving the post as is because CS4all in NYC has set up
+the current system and as I said below *it was correct and necessary at
+the start to do it that way* but it is now clear that the CS4ALl
+leadership has to change directions with regards to using professional
+development as a model for preparing teachers.
+
+I also am leaving it because there are other states along with
+nationwide CS PD providers that claim that the PD  model is adequately
+preparing CS teachers and it isn't.
+
+
+* Original Post
+
 Overall, I've been down on the Professional Development model that has
 been used nationwide to "prepare" our CS teachers. Yes, I'll happily
 admit that in order to get to a lot of teachers quickly, starting
