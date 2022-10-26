@@ -1,0 +1,78 @@
+---
+title: Some Professional Development Is Worthwhile
+date: 2022-10-26T16:29:50-04:00
+tags:
+- PD
+- CS Education
+- Teaching
+categories:
+- Teaching 
+draft: false
+---
+
+No, I'm not walking back anything from [[https://cestlaz.github.io/post/why-pd-wont-do/#disqus_thread][my last post]]. I still think
+we have to stop using professional development as the primary means
+for preparing CS teachers but I wanted to take a minute to make it
+clear that while there's plenty of lousy PD out there, there's also
+plenty of good stuff.
+
+For bad PD, it's frequently mandated and frequently neither useful or
+relevant or even if its potentially relevant, but the time it becomes
+useful you don't remember it.
+
+For good, first we look to our fellow teachers. A couple of years ago
+at SIGCSE, they released the results of a survey of CS educators - I
+think it was limited to colleges but the results were both expected
+and interesting. It turned out that the majority of respondents
+considered the best resource to improve their teaching practice to be
+techniques learned from other teachers. I believe first it was in
+department and then in external meetings but I could be wrong. "The
+research," on the other hand, was way down the list.
+
+PD delivered by colleages is the best and can happen at all levels. A
+teacher might not be a CS ace nor may they be very experienced but
+they can run a session on something they tried and how it worked (or
+didnt') and I'll take that any day over something from a "thought
+leader."
+
+Of course, back to yesterday's post, you can't prepare a CS teacher
+that way - you can take a teacher and add trick, a technique, a
+practice, or a topic.
+
+Great stuff for what it is when used appropriately.
+
+Every time we would have those school wide required PDs, we'd all look
+at the offerings and seek out the good stuff being delivered by our
+fellow teachers.
+
+There's another class of PD that can also be excellent although,
+again, it's not a replacement for full teacher preparation. That's
+when some group goes in and isn't trying to "train the teachers from
+scratch to proficient" but rather understands that they're delivering
+a limited experience. This might be to expose a new audience to CS on
+an introductory level or a non specialist on how they can deliver a
+starter set of CS experiences or it could be something deeper but
+it'll be focussed on growing the teachers tool set and knowledge base,
+not on delivering some set scripted experience.
+
+This type of PD seems to frequently be delivered by researchers and
+can be excellent stuff. It can also be delivered by content providers.
+
+Finally, content providers can and do deliver worthwhile PD as long as
+its taken in the right context. If you're a knowledgeable CS teacher
+you might love some provider's curriculum and their training can be
+the best way to go. Nothing inherently wrong here as long as the
+training is not the actual teacher prep.
+
+
+One of the best places for all of these types of PDs are at
+conferences like the CSTA conference and that conference has
+historically had the best of all versions of PD.
+
+So, there it is, I'm not down on PD but I recognize that there's a lot
+of garbage PD to go with a lot of good stuff. The problem and the
+danger is that it's too often used as a replacement for real teacher
+prep.
+
+
+
