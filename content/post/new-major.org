@@ -1,0 +1,125 @@
+---
+title: Crafting a new major for tech
+date: 2022-11-04T09:42:40-04:00
+tags:
+- misc
+categories:
+- misc 
+draft: false
+---
+
+Hunter College, like most colleges and universities is facing
+unprecedented demand for CS. It's the hot major. Being a public
+college, we have an obligation to provide the best education possible
+to as many students as we can in our locality. This means we can't
+just put a GPA requirement or other cap on the major and we can't do
+things I've heard "elite" schools do like essentially making
+applicants apply to the major direct from HS.
+
+This had led to the usual problems - more large lectures, fewer
+electives offered, challenges for space etc.. This is nothing unique
+to Hunter.
+
+Another problem, though is that Hunter offers a traditional CS major -
+similar to the majority of institutions across the USA and the
+traditional CS major is not really servicing many of our students.
+
+Unlike many other majors, the students in CS by and large want to work
+in Tech. Unfortunately, most CS programs aren't set up for this. Rather
+they are set up with the assumption that all CS majors want to go on
+to PhD programs which is most certainly not the case. Sure, CS
+students learn programming and some other career useful things but
+they also learn a lot that most ever use. Theory is important but not
+as much as many have to study. Far too much proof, How about calc 2
+and sometimes 3? Sure these topics can be useful and even important to
+some but I've talked to countless tech people in the business world
+ranging from entry level programmers to top executives and everyone in
+between and by and large the CS major is poorly set up for the CS
+career. What's more, the only career that many CS majors only somewhat
+prepares students for is programming and even then just to a certain
+extent and there are many non-programming heavy tech opportunities out
+there waiting for our students.
+
+I think many in academia acknowledge this as well. I've spoken to some
+high up people at some of our most prestigious institutions and, at
+least, privately, they've agreed with me on this.
+
+As it stands, not all Hunter CS students can get through the major and
+for those that do, they're just as well set up for career as graduates
+of the "elite" programs but truth be told, it's not the institutions
+that are setting them up well.
+
+Hunter's trying to do something about this. At recent department
+meetings there's been discussion of creating a new major - something
+that maybe dumps the unnecessary stuff and replaces it with material
+that is both more relevant to the students career while also providing
+additional support in areas that the students need. The challenge is
+to also keep the academic rigor at the same time and not just become a
+jobs program for the flavor of the month.
+
+There was a lot of talk asking "what do other colleges do and what are
+they planning?" but I didn't like that talk. Who cares what other
+colleges are doing? Who says they're doing it right. Every institution
+has a unique situation. Hunter - a liberal arts college in the heart
+of NYC which is part of the CUNY system should be figuring out what's
+best for itself, not what may or may not work for others.
+
+I suggested talking to the tech community, particularly in NYC - what
+jobs are out there now and what will be out there in the next decade
+and how can we structure a program to inform students as to the
+possibilities and to prepare them on their paths?
+
+Fortunately, I've got tons of former students in all areas of tech and
+we've been talking for the past few weeks and trying to figure this
+out.
+
+Originally, some of the Hunter faculty were considering things like
+network admin / sys admin type roles and thought to explore there but
+that's not what I've been getting from my network.
+
+A big obvious one was software engineering. This could be great for
+those meant to follow the programming path but not for tech minded
+people who don't want to spend their days in code. Project management
+kept coming up but there were more than a few concerns that to be a
+great PM you really have to have some real world experience so a PM
+major wouldn't be serving students.
+
+Another thing that came up was the idea that developers in many cases
+do have more control over their infrastructure which would lead to
+requiring knowledge in administering their own systems, some network
+wherewithal as well as some knowledge of container technologies and
+the like.
+
+There was also a lot of talk about which current major classes were
+useful and which really weren't and there was discussion of a lot of
+other things like software architecture (something never taught but
+much needed), technology integration, and things like soft skills
+(presentations/writing) ethics and so on.
+
+I'm also glad "the family" got the idea that we wanted to teach
+academic classes and not just how to use tools. I was heartened this
+morning when one of my former students recalled:
+
+#+begin_quote
+Back in the 90s when I was in your systems class I remember you
+saying that you weren't teaching us Intel Assembly. We were learning
+how computers worked and that we were *using* Intel Assembly as a tool
+to explore to accomplish that learning
+#+end_quote
+
+Made me feel good.
+
+All in all, I'm really grateful fir my StuyCS Family (or as some say,
+the StuyCS Mafia) - got all the info I needed from which I think I'll
+be able to craft a very strong and useful new proposed major. I don't
+think it'll focus on just one possible career but I think it should
+get a student ready for a variety of entry level tech jobs including
+programming related ones. What's more, it will educate them as to the
+possibilities - something else current majors don't usually do. 
+
+Will the CS department like it? Who knows but I'm convinced that it
+will be a great option for Hunter students if they do.
+
+
+
+
