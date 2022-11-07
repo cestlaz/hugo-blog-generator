@@ -1,0 +1,85 @@
+---
+title: Should college be career prep
+date: 2022-11-07T11:47:50-04:00
+tags:
+- cs major
+categories:
+- cs major 
+draft: false
+--- 
+
+So, in some of the social platform discussion on my [[https://cestlaz.github.io/post/new-major/][last post]], the
+issue of the practicality of a college education came up. Should
+college teach practical job skills or should it be for some more
+abstract purpose - learning for learning sake or if one would be a bit
+presumptions learning how to think.
+
+Way back when going to college was not the norm. Most went from HS to
+workforce and even in HS you might have the "academic" track that
+prepared you for college, "vocational" that was job prep like
+automotive or regular which was neither extreme. Sure, that system had
+a host of problems but since the end goal wasn't college for most, it
+freed college from the need for being practical. College could just be
+about learning non-useful stuff.
+
+Nowadays kids don't have the luxury of not going to college. It's
+expected in our society. Spend 4 years and oodles of dollars to get
+the piece of paper and you can get a job that years ago only required
+the HS version of the paper.
+
+This, of course, leads to many rather large and hairy questions none
+of which I will address here.
+
+What I will address concerns my little CS corner of the world.
+
+In commenting on my post, some people talked about college faculty
+they know and how those faculty members refuse to teach or use
+anything that might remotely be useful to kids in terms of
+career. They feel it's beneath them and that they serve a higher
+academic purpose. I don't doubt those comments - I know plenty of
+college faculty who feel this very way.
+
+I'll agree that college shouldn't strictly be a jobs program but the
+nice thing about CS is that you *can* teach practical skills and job
+skills within the context of a traditional academic CS degree. Add in
+the reality that most CS majors don't want to go to grad school and
+you can redesign the major to do even more for the majority of
+students.
+
+How about programming languages and tools. Why not use a couple of
+practical ones. This is not to say that the first language has to be
+C++, Java, Python or similar but there's no reason why a couple practical
+languages shouldn't be used. Sure, feel free  to use an esoteric
+language or some professors pet project in a particular class and by
+all means use the intro language that makes the most sense for your
+situation but for a 4 year major, there's no reason why students
+shouldn't walk away with a couple of languages that are widely used in
+industry. Same for build tools and things like testing frameworks. I
+use git and [[https://github.com/doctest/doctest][doctest]]. I'm not teaching a class in git or doctest, I'm
+teaching software engineering techniques and testing as part of my CS1
+classes. I have to use some tool as the platform on which to teach
+these things so why not tools that they can also use outside of
+school. It just makes sense. Sure, in terms of language, most colleges
+seem to cover at least one of C++, Python, and Java but lag in terms
+of the support concepts and tooling.
+
+
+It reminds me about what I said in my earlier post about Intel
+Assembly. At Stuy back in the 90s I taught a systems elective. It
+wasn't a programming course about Intel assembly. If it was, I'd just
+do a bunch of random programming assignments in it. It was rather a
+course about how the computer worked at a low level and we *used*
+Intel assembly as the tool.
+
+You can't do this everywhere in a CS curriculum but there are plenty
+of places where you can. Do this, make sure there are some required
+large project courses where students can learn to work in a group and
+integrate technologies, introduce a couple of new electives, and all
+of a sudden you can have a strong academic CS program that also does a
+great job preparing students for the tech world beyond academia.
+
+Some places are already doing this and others are trying but too many
+are still caught in the past.
+
+
+
