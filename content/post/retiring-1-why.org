@@ -1,0 +1,80 @@
+---
+title: After 7 years at Hunter College and 33 in NYC public schools, time for a change.
+date: 2022-11-09T06:43:04-04:00
+tags:
+- misc
+categories:
+- misc 
+draft: false
+--- 
+
+I've been dropping mentions of this here and there for a while now but
+I think it's time to come out more formally -
+
+I'm planning on retiring from Hunter at the end of this Spring.
+
+This doesn't mean getting out of the CS or CS Ed game entirely - I
+could stay on in a part time capacity and, after some decompression I
+think I still have things to offer but the plan is retire, collect my
+pension, and then see where I can continue to be contribute to the
+Ed/CS Ed scene. 
+
+Why now? Largely burnout but there are a number of reasons. I'll talk
+about them below.
+
+I'm also posting this with two other posts.
+1. One talking about what I feel I've accomplished here at Hunter ([[/post/retiring-2-accomplishments/][link]]).
+2. Another talking about the types of opportunities I think I'll be
+   looking for next ([[/post/retiring-3-whats-next/][link]]).
+
+I'd love it if people could read those - particularly the last one.
+
+For the rest of this post, why it's time.
+
+As I said, burnout is at the top of the list. What from? Largely from
+having too much on my plate. When I started at Hunter, neither of my
+programs existed. We started undergraduate CS honors (the Daedalus
+program) the following fall and that grew at a consistent pace until
+it was a full time job. The CS Ed program took longer to get running
+since we needed to get the state to create the license and get our
+programs through governance but once they started, that was another
+full time job. Add to that the assorted other responsibilities that
+ended up on my plate and I've been doing two to three full time jobs
+for the past three or so years - not sustainable. For the burnout,
+Covid and the state of the world certainly hasn't helped.
+
+What does burnout mean? Well, I'm not enjoying my classes. Sure, there
+are fun times but I don't get up in the morning looking forward to it
+and in class, I'm as likely to get annoyed by something as not. Part
+of this is that I have students who refuse to mask - something I see
+as a direct sign of disrespect but there's more. All in all, this is a
+good sign that it's time to get out or at least take a break.
+
+Another factor, and a big one is that I've accomplished everything
+I've set out to accomplish at Hunter and then some. I'm normally not a
+"goal guy," I'm more about process and journey but in the case of
+Hunter, I also had a set of goals and I've gotten there and
+beyond. There are new challenges at Hunter but not challenges that I'm
+as excited about. More on this in my accomplishment post.
+
+Finally, I've got health and family reasons. Health isn't anything
+immediate but I do have indications of heart disease. Combine that
+with the fact that my mom died when she was 72 and my dad at 44 and
+well, now that I'm 55, if we can financially handle it, maybe it's
+time to give more time to myself and my family.
+
+Finally, Devorah's also retiring - she put in the paperwork the other day.
+
+So, that's why.
+
+For those of you who read this blog, I'd love for you to keep your
+ears open for potential next steps so I'd love for you to read my next
+post on what I think I've accomplished at Hunter and what I bring to
+the table and the one after that where I'll muse about what I think I
+might be able to get excited about and where I think I might be able
+to contribute.
+
+* Links to this post  and the other two posts:
+ - Post 1: [[/post/retiring-1-why/][This post]]
+ - Post 2: [[/post/retiring-2-accomplishments/][Recap of what was accomplished at Hunter]]
+ - Post 3: [[/post/retiring-3-whats-next/][What I think I'll be looking for next]]   

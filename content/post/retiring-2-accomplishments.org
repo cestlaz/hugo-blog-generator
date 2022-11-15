@@ -1,0 +1,190 @@
+---
+title: Retiring part 2 - Accomplishments
+date: 2022-11-09T15:35:50-04:00
+tags:
+- misc
+categories:
+- misc
+draft: false
+--- 
+
+* Links to the posts in this series
+If you're reading this before the previous post, I'd recommend going
+back and reading that one first. 
+
+ - Post 1: [[/post/retiring-1-why/][Why I'm retiring]]
+ - Post 2: [[/post/retiring-2-accomplishments/][This post]]
+ - Post 3: [[/post/retiring-3-whats-next/][What I think I'll be looking for next]]   
+
+
+I think I've carved out a somewhat unique career. Never set out to be
+a teacher and a couple of different turns here or there and things
+could have been very different. When I started teaching, I thought I'd
+probably, if anything  become a math chair and that was actually the
+plan at Stuy until Richie Rothenberg, the math chair at the time
+unexpectedly passed away in the late nineties. 
+
+
+* Pre Hunter recap
+
+Just a quick recap. I started my career as a Programmer Analyst at
+Goldman Sachs back in the day. I'd say Software Engineer but that
+title didn't exist back then. From there I went into teaching for two
+decades, mostly at Stuyvesant.
+
+At Stuyvesant I built the CS program, created classes, trained teachers and
+shepherded hundreds, perhaps thousands of students towards tech
+careers. My continued relationships with these former students left me
+in a unique position as someone with strong CS chops, strong teaching
+and education chops along with professional programming experience and strong ties
+to the tech industry.
+
+During this time, I played my part in getting the
+ball rolling for K12 CS Ed. Certainly at Stuy but I'd like to think
+beyond it as well.
+
+* The Hunter chapter
+
+Almost seven years ago, I came over to Hunter to work on two major
+projects. One was to develop and run an undergraduate honors computer
+science program at the college and the other as to create and run
+computer science teacher certification programs.
+
+** Undergraduate CS Honors
+
+Prior to my joining Hunter, they already had a long established CS
+department and program. It was (and is) both as good as any other
+program out there and as bad. There were though, a few particular
+issues. First, Hunter's program was either unknown to high school
+students or had a poor reputation due to the misconception that a
+liberal arts school can't do good CS and, at the tech company end,
+Hunter was a total unknown. 
+
+Hunter's program was a typical college CS program in that it did a
+great job preparing strong applicants for grad school but did nothing
+to prepare them for tech careers and there was no connection with the
+NY Tech industry.
+
+When I started, top tech companies never recruited at Hunter and most
+Hunter students never even applied for internships prior to
+graduating - they didn't know they were supposed to.
+
+Over the past 7 years there have been tremendous changes.
+
+My first cohort had 8 students. My latest has 64. My honors program and Hunter CS in general is
+now a known CS destination in many NY high schools. Applications have
+grown from around 50 to many hundreds and each year I field more and
+more calls of students trying to decide between my program and other
+top CS programs - I win some, I lose some.
+
+On the exit side, my Daedalus students regularly end up at top tech
+companies and the overall profile of Hunter CS is much greater and
+more positive in the tech world.
+
+I've created new classes that integrate software engineering practices
+with traditional CS and built many unique partnerships and programs over
+the past 7 years.
+
+My trouble is that the Daedalus program is in full swing. It has to be
+maintained but the job is basically done. At the same time, I don't
+have the ability to get the reforms I've brought to my program to the
+greater Hunter CS population. Sure, I've gotten some initiatives
+started that are available to all Hunter students but a lot of the
+core stuff that I've worked into my courses are only available to the
+Daedalus students and I don't have a way of changing that.
+
+So, I think I've done what I can do. The original goal was to create
+this honors program and I think we've gone well beyond. Hunter, and
+Daedalus in particular, has a higher profile with high schools and
+employers and Daedalus students get the best of CS, the practical
+software engineering skills they'll need and unique partnerships with
+the tech community.
+
+
+
+** Teacher Certification
+
+My other major hat was on the K12 CS teacher side. First we had to
+lobby the state to create the certification. I visited Albany a number
+of times and spoke to my share of Regents but the real heavy lifting
+went to Hunter's President and the Dean of the Ed school.
+
+Meanwhile, I created our masters and certificate programs while
+doing my part in the whole K12 CS effort. I created new classes and
+worked with some of my old teaching pals from Stuy to get ready to run
+the program once the state approved everything. 
+
+Three years ago everything got really rolling. Hunter had the first active
+certificate and masters programs in the state. Thanks to the generous
+support of Gotham Gives, we were able to start a cohort of 21 working
+teachers towards CS certification. They were joined by 2 masters
+students.
+
+A year later, New York State had its first certified CS teachers. 
+
+The following year, again with support from Gotham Gives, this time
+joined by Google, we started another 24 working teachers along with 5
+more masters students.
+
+Now in our third cohort we've got another 56 working through the
+programs.
+
+By the time our third year ends, we'll have around 100 certified CS
+teachers in New York City.
+
+I'm equally proud of the fact that we've got five teachers from the
+Fingerlakes region in our program.
+
+I've been pretty vocal over the years as to what I think a good CS
+teacher looks like and I'm super proud that our brand of CS teaching
+can now be found across the city and in fact across the state.
+
+If you
+think about the number of students these teachers reach each year,
+that's pretty amazing.
+
+I'm equally proud of the fact that these cohorts are still in touch
+and forming a new community of CS teachers in the city and state.
+
+Now that we're rolling, what's next? The program needs to continue to
+run but I don't see major changes. There are more things to get done
+at Hunter and in the state. Things like getting the state to separate
+HS from early grades in terms of certification and integrating some CS
+teacher prep in our elementary school programs but, right now, I don't
+see a path for the former and don't have the energy for the latter.
+
+
+** Other hats
+
+I've also done a number of other one offs or side projects while at
+Hunter. Some of them have been:
+
+1. I was on the executive committe and a lead author in creating the
+   NY State K12 CS standards. Something I find ironic since I'm not a
+   fan of "state standards."
+2. I mentioned earlier that I was a big part of Hunter winning and
+   administering the CUNY2X grant. Got to work with some great people
+   and that whole grant was huge in helping move the needle on Hunter
+   CS.
+3. I was also fortunate enough to work on a project funded by the
+   Robin Hood foundation on CS in the primary grades. It also allowed
+   me to work with some great people while dipping my toes in CS Ed
+   research and early grade work. 
+4. Prior to Covid we were also well on our way in developing a nice
+   little K12 CS teacher community hosting monthxly meetups at tech
+   companies like Google and Digital Ocean.
+   
+
+So, there it is, the major initiatives I've been working on at Hunter
+and what I think I've accomplished. I'm proud of the work and in all
+cases I think we went farther than we originally set out for.
+
+What's next? I'm not entirely sure. I'll share some thoughts in my
+next post. I hope all my friends read it and keep an ear open if the
+right opportunity presents itself.
+
+
+* Links to the posts in this series
+ - Post 1: [[/post/retiring-1-why/][Why I'm retiring]]
+ - Post 2: [[/post/retiring-2-accomplishments/][This post]]
+ - Post 3: [[/post/retiring-3-whats-next/][What I think I'll be looking for next]]   
