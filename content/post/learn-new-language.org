@@ -1,0 +1,105 @@
+---
+title: Learning a new language - part 1 - functional
+date: 2022-11-21T17:34:28-04:00
+tags:
+- Programming Languages
+categories:
+- Programming
+draft: false
+---
+
+Now that I've done posting about [[/post/retiring-1-why/][why I'm retiring]] we can get back to
+our usual blogging.
+
+I haven't really done anything technical over the past couple of
+year. The most programming I did in the past 18 months was a
+halfhearted effort at the Advent of Code 2021 event last December. I
+thought I'd see about picking up a new language to change that. In
+doing so, I was reminded of some of my resistances to learning a new
+language and how I've seen similar from self taught students coming
+into my classes.
+
+Of course my situation is different - I'm doing this wholly by choice
+and once a student is in a class they've got to use the prescribed
+tool.
+
+The contenders on the functional side were Haskell and OCaml and on the
+other side, mostly Rust.
+
+Today, we'll talk about the functional side. I decided to look at
+OCaml. I had briefly looked at it well over a decade ago but barely
+scratched the surface. Haskell I played with a little more deeply but
+not much. I decided on OCaml because it was supposed to be more real
+world and, to be honest, I get turned off by some of the holier than
+though purely functional talk that sometimes occurs.
+
+Funny thing is that I've had a really hard time getting going - so
+much so that I decided that for now I'd explore Rust.
+
+So, what's going on?
+
+OCaml looks to have some nice features. It's functional and I'm a fan
+there and it's also supposed to be pragmatic - you can get real world
+stuff done with it. It's also statically typed which overall I think
+is a good thing and it has cool features like pattern matching.
+
+For pattern matching, I'm not talking about things like regex or
+matching characters in a string but rather something like a really
+cool and powerful case or switch statement. Even that description,
+though is not doing it justice.
+
+I think my problem is that I already am comfortable and enjoy
+programming in Clojure. Clojure is functional and pragmatic but while
+Clojure doesn't have pattern matching built in but there is a library
+that basically accomplishes the same thing. As to the type system,
+Clojure is dynamically typed and while that would be an issue if I
+were working on large real projects and/or on a team, I'm just writing
+little toys by myself. If I want stronger typing, there are ways of
+doing that in Clojure. True, it's not required but working by myself,
+I have that option, should I choose. It's not the same - I know but as
+I said, I'm not doing anything big, important or with other people
+right now.
+
+So, basically, every time I try to dive in to OCaml, I end up feeling
+that "I can already do that and do it better in Clojure." I'm guessing
+I'd feel the reverse had I started on the OCaml side. 
+
+This has happened to me before. I was an early Python adopter feeling
+that it was a huge improvement over Perl. A while later, Ruby came out
+and shortly after that, Ruby on Rails became a thing. Every time I
+looked into Ruby I had to stop - I could already do and do better in
+Python. By then, there were enough tools to compete with Rails even
+though they weren't as mainstream and overall I preferred Python. I
+never did end up learning Ruby.
+
+I felt a similar sluggishness when I went from C++ to Java - something
+I had to do because of the AP Exam change but I pushed through since I
+had to teach it and ultimately, I've learned to appreciate the good
+and curse the bad of both languages.
+
+I've seen similar blocks or resistance from who've had prior
+programming experiences over the years. From students who seemed
+to be taught more "the language" rather than CS using the language. I
+know that's a nebulous thing to say but I think some of you will catch
+my drift. It's subtleties like saying "okay, we're repeating this
+process, here's how we do it in language such and such" vs "here's how
+we repeat this process period" and show the language construct.
+
+My former math chairman at Stuy said he once, back in the 80s asked Marvin
+Minsky what they should be teaching for CS in High School. Minsky
+said, and I paraphrase, "nothing, you'll only mess them up. At most
+teach them to type." Of course that was a different time and I
+*strongly* disagree with that statement but I do think we have to look
+at how students entering our classes are or are not prepared and
+adjust accordingly. 
+
+So, in the end, it's back to Clojure for me on the functional side and
+I'll try to do an OCaml dive sometime in the future.
+
+Fortunately, I'm having an easier time getting in to Rust. More about
+that next time.
+
+
+
+
+
