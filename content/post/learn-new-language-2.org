@@ -1,0 +1,84 @@
+---
+title: Learning a new language - part 2 - Rust
+date: 2022-11-29T08:59:11-04:00
+tags:
+- programming languages
+- programming
+categories:
+- programming languages
+draft: false 
+--- 
+
+Last time, I wrote about frustrations in trying to [[/post/learn-new-language/][motivate myself to
+learn ocaml]]. I could see the strong points but given that I've been
+using Clojure now for a while, it didn't really hold any value added
+for me in my current situation.
+
+Next, I thought I'd explore Rust. On the non-functional style, my go to
+languages have always been Python for scripting and small things and C
+professionally. I also used and taught C++ and Java. I always loved
+C's minimalism but it was pretty bare bones and Java and C++ while
+more modern both also have their warts so it made sense to see if
+there was a language I'd like to use instead of any of those three.
+
+A number of years ago, I decided to explore Go for this. Go had some
+nice features. It didn't do a full blown object oriented thing but
+rather a more lightweight way of defining structures and binding
+functionality to structures. I guess like interfaces. Since I'm not a
+big OOP person but did like the occasional object abstraction this was
+great. I also loved goroutines for concurrency. On the other hand, I
+didn't like the lack of functional goodness so ultimately I stopped
+pursuing Go.
+
+This time, it was Rust's turn. Here's a list of a few of the things
+that drew me to Rust:
+ - Good learning resources
+ - Good dev experience under Emacs
+ - Static typing
+ - immutable by default
+ - Supports the other functional goodness that I like
+
+I just started playing and so far I like it. In addition to the above
+I'm also seeing some other positives. It has pattern matching which I
+mentioned in my previous post and the object model looks more like Go
+than like C++ or Java so that's a plus.
+
+Another big potential positive is Rust's concept of ownership. An
+informal way of thinking about it is that it's how Rust deifnes what
+can access memory. In Rust,  if you have code like this (lifted frmo
+the Rust Book):
+
+#+begin_src rust
+    let s1 = String::from("hello");
+    let s2 = s1;
+
+    println!("{}, world!", s1);
+#+end_src
+
+you'll get an error. Once you assign s1 to s2 then s2 owns the memory
+with the string "hello" so when you try to access it, you get an
+error. Of course, Rust has ways of dealing with this including 
+explicitly declared mutability and references and maybe other things I
+haven't gotten to yet so it isn't really a problem. I can also see it
+as being a really strong way of encouraging the writing of safe
+programs.
+
+I'm pretty early on in the journey - I though I might try Advent of
+code this year in Rust but I don't think I'll be sufficiently up to
+speed on it yet but we'll see. In any event, it seems to be a very
+cool language and a strong C++ or Java alternative.
+
+A strong alternative at least in terms of using. For teaching, that's
+another story. For me, learning hasn't been a problem since I've been
+around the block a few times but I could see the language being a
+challenge for beginners. Lot's of cognitive overhead for the ownership
+ting as well as general scope rules and the way mutability works. I
+think all these features are great for the language but I suspect that
+it wouldn't fly very well in a CS0 course.
+
+
+So, I'm feeling that Rust's a go and I look forward to continuing to
+explore the language. If you want to check it out, start here:
+[[https://www.rust-lang.org/][https://www.rust-lang.org/]].
+
+
