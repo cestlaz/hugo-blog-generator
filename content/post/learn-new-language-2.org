@@ -45,7 +45,7 @@ than like C++ or Java so that's a plus.
 
 Another big potential positive is Rust's concept of ownership. An
 informal way of thinking about it is that it's how Rust deifnes what
-can access memory. In Rust,  if you have code like this (lifted frmo
+can access memory. In Rust,  if you have code like this (lifted from
 the Rust Book):
 
 #+begin_src rust
@@ -72,7 +72,7 @@ A strong alternative at least in terms of using. For teaching, that's
 another story. For me, learning hasn't been a problem since I've been
 around the block a few times but I could see the language being a
 challenge for beginners. Lot's of cognitive overhead for the ownership
-ting as well as general scope rules and the way mutability works. I
+thing as well as general scope rules and the way mutability works. I
 think all these features are great for the language but I suspect that
 it wouldn't fly very well in a CS0 course.
 
