@@ -191,7 +191,7 @@ what you did in part 1.
 
 Here, we notice that we tie if we choose the same move as our
 opponent, we win if we choose the "next" move and we loose if we
-choose the move that's two away (mod 3 to deal with the wraparound.
+choose the move that's two away (mod 3 to deal with the wraparound).
 
 The clojure code also [[https://github.com/zamansky/advent2022/blob/main/src/day02.clj][here]] and the walkthrough below.
 
