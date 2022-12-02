@@ -1,0 +1,203 @@
+---
+title: Advent of Code 2022
+date: 2022-12-02T13:59:06-04:00
+tags:
+- clojure
+- advent of code
+- programming
+categories:
+- advent of code
+draft: false
+--- 
+
+It's [[https://adventofcode.com/][Advent of Code]] season again. Every day a new two part programming
+challenge and once again I'm taking part. At least until grading and
+other end of term obligations end up eating my lunch.
+
+I wasn't planning on writing anything up but the first two days looked
+like nice problems for CS1 or even CS0 students and since my friend
+Steve was [[https://github.com/scerruti/AoC2022][writing up]] his take, I thought I'd at least comment on the
+first two.
+
+I also recorded a code through in Clojure which you can find at the
+bottom of this post.
+
+Even though I'm using Clojure, a similar approach can be taken in
+languages like Python or Javascript. If you enjoy this type of
+analysis please read Steve's [[https://github.com/scerruti/AoC2022][posts]]. His approach is usually different
+from mine as he's working in Java and so is more OOP centric. I love
+it when you can think about problems in different ways.
+
+* Day 1 - Calorie Counting
+
+Problem link: [[https://adventofcode.com/2022/day/1][https://adventofcode.com/2022/day/1]]
+
+Here the input was lines of numbers with an extra blank linke
+separating sets of inputs:
+
+#+begin_example
+1000
+2000
+3000
+
+4000
+
+5000
+6000
+
+7000
+8000
+9000
+
+10000
+#+end_example
+
+Here, the first three numbers (1000,2000,3000) represent what the
+first elf is carrying, 4000 the second elf, 5000, and 6000 the third,
+etc..
+
+The challenge was to figure out which elf carried the most.
+
+A first year student might read a line at a time building a
+sum. Whenever you see a blank line, see if that's your largest sum so farand
+if so, make a not of it.
+
+In Python:
+#+begin_src
+sum = 0
+bigsum  = 0
+for line in open("../data/day01.dat").readlines():
+    if line == "\n":
+        if sum > bigsum:
+            bigsum = sum
+        sum = 0
+        continue
+    sum = sum + int(line)
+
+print(bigsum)
+#+end_src
+
+Another approach, the one I used, was to:
+1. Convert the input lines into a list by splitting on double newlines
+2. Convert each list item into a list of numbers
+3. Sum each list
+4. Find the largest
+
+The video below shows this in Clojure, but in Python it might look
+like this:   
+
+#+begin_src
+input = open("../data/day01.dat").read().strip().split("\n\n")
+input = [x.split("\n") for x in input]
+int_input = [ [int(x) for x in sublist] for sublist in input]
+sums = [ sum(x) for x in int_input]
+max(sums)
+#+end_src
+
+The nice thing here from the teaching point of view is that these
+represent two very different approaches and there are probably more.
+
+For part 2 you just had to add up the three largest elf loads. If you
+used the second approach, instead of finding the largest number, you
+can just sort the list and add up the biggest three.
+
+The code for all of this in Clojure can be found [[https://github.com/zamansky/advent2022/blob/main/src/day01.clj][here]].
+
+* Day 2 - Rock Paper Scissors
+
+Day 2 was a rock paper scissors problem. Input was a list of "moves:"
+
+#+begin_example
+A Y
+B X
+C Z
+#+end_example
+
+The above says that in move 1, your opponent played "A" and you played
+"Y," in move two, your opponent "B" and you "X," etc.
+
+The moves meant:
+| Opponent Letter | Your letter | Means    |
+|-----------------+-------------+----------|
+| A               | X           | Rock     |
+| B               | Y           | Paper    |
+| C               | Z           | Scissors |
+
+Each turned was scored as follows:
+
+| Result   | Points |
+|----------+--------|
+| You win  |      6 |
+| You tie  |      3 |
+| You lose |      0 |
+
+Your score for a turn was the results points plus a 1 if you played
+Rock, 2 if you played Paper, and 3 if you played Scissors.
+
+The part 1 solution had you tracing through a game and figuring out
+the score.
+
+What's nice about this problem is that it can be solved by a very raw
+beginner with a not too long set of if statements.
+
+You can also, however, look at more interesting approaches. 
+
+First, a student might notice that the moves are "in order" in that
+each letter, or move, loses to the one after it. That is, Rock loses
+to Paper, Paper loses to scissors, and wrapping around, scissors loses
+to rock.
+
+Then, they might see that they can assign a numeric value to each
+move:
+
+| Opponent Letter | Your letter | Means    | value |
+|-----------------+-------------+----------+-------|
+| A               | X           | Rock     |     0 |
+| B               | Y           | Paper    |     1 |
+| C               | Z           | Scissors |     2 |
+
+
+Finally, they might notice that if they find the difference between
+your move and your opponent's move, you'll get:
+
+| Difference | result                           |
+|------------+----------------------------------|
+|          0 | tie - same move                  |
+|          1 | You win - you're the "next" move |
+|          2 | You lose                         |
+
+You can also either deal with mod to wrap around or you can put in a
+couple of negative values for the difference on your chart.
+
+For part 1, my solution basically did what I just described. Make a
+look up table to map the letters to values, find the difference, then
+look up the points awarded from another look up table.
+
+The Clojure code can be found [[https://github.com/zamansky/advent2022/blob/main/src/day02.clj][here]] and the video is embedded below.
+
+For part 2, things were a bit tricker but also more interesting. Now,
+your "move" of X,Y, or Z didn't mean Rock, Paper or Scissors. The
+letters now said that depending on your letter you had to select a
+move so that you would either win, lose or draw based on this table:
+
+| Your letter | Choose a move that results in |
+| X           | You losing                    |
+| Y           | A tie                         |
+| Z           | You win                       |
+
+This part was a reduction - look at your letter and figure out what to
+replace it with - A, B, or C based on the above chart and then just do
+what you did in part 1.
+
+Here, we notice that we tie if we choose the same move as our
+opponent, we win if we choose the "next" move and we loose if we
+choose the move that's two away (mod 3 to deal with the wraparound.
+
+The clojure code also [[https://github.com/zamansky/advent2022/blob/main/src/day02.clj][here]] and the walkthrough below.
+
+Hope you all enjoyed this.
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/80so4H3mSCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
