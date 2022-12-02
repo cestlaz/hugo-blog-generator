@@ -1,5 +1,5 @@
 ---
-title: Advent of Code 2022
+title: Advent of Code 2022 - Days 1 and 2
 date: 2022-12-02T13:59:06-04:00
 tags:
 - clojure
