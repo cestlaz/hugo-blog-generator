@@ -1,0 +1,131 @@
+---
+title: Advent 2022 - day 3 - sets
+date: 2022-12-03T10:13:56-04:00
+tags:
+- clojure
+- advent of code
+- programming
+categories:
+- advent of code
+draft: false
+--- 
+
+
+[[https://adventofcode.com/2022/day/3][Day 3]] ended up being a quick one. That is, as long as your language
+supports set operations. You can do it without set operations but it's
+easier if you've got them.
+
+* Part 1
+
+Input is a file of text where each line is an input.
+
+You have to read each line, split it in half  and then find the common
+letter between the left and right halves and then apply their scoring
+rules on that letter.
+
+For scoring, lower case letters are valued a=1, b=2 etc. and for upper
+case, A=27, B=28 and so on.
+
+For scoring, this is a nice opportunity to talk about ASCII values and
+the relationship between characters and integers. For lower case
+letters you can use the formula *int(letter) - 97 + 1* where int(x)
+returns the ASCII code for letter ~x~. The 97 is the value for 'a' so
+that will map the lower case letter to a value of  0 for 'a,' 1 for 'b,'
+etc.. We add one becuase the question says to start with 1 for 'a.'
+
+For the upper case letters, we can use *int(letter)-65 + 27* where 65
+is the value for 'A.' In this case, we add an offset of 27 since
+that's are lowest upper case score.
+
+Here's the clojure code but it would be similar in Python or other
+languages:
+
+{{< highlight clojure "linenos=true">}}
+(defn score [letter]
+  (if (Character/isUpperCase letter)
+    (+ 27 (-  (int letter) (int \A)))
+    (inc (-  (int letter) (int \a)))
+    ))
+{{< /highlight >}}
+
+The processing of the data is also pretty straight forward. Here's a
+Clojure solution:
+
+{{< highlight clojure "linenos=true">}}
+  (defn parse-part1 [line]
+    (let [size (/  (count line) 2)
+          left (take size line)
+          right (drop size line)
+          common (set/intersection (set left) (set right))]
+      (score (first common))))
+{{< /highlight >}}
+
+Line 2's Python equivalent would be ~size = len(line)/2~.
+
+Line 3 takes the first half and stores it in left and line 4 drops the
+first half and keeps the right hand side.
+
+Line 5 uses Clojure's set operations to find the letter in common.
+
+To solve part 1 we just split the data, which starts as a long
+string, split on newlines and then run the parse-part1 function
+defined above on each line. We then use reduce to add up all the results.
+
+{{< highlight clojure "linenos=true">}}
+(defn part1 [data]
+  (->> (str/split data #"\n")
+       (map  parse-part1)
+       (reduce +)))
+{{< /highlight >}}
+
+Full code can be found [[https://github.com/zamansky/advent2022/blob/main/src/day03.clj][here]].
+
+A Python solution would look pretty similar. Java would be tricker for
+beginners because they wouldn't know about sets and using them
+requires more overhead than either Clojure or Python. The problem can
+still be solved by beginners. An easy, if inefficient way of finding
+the intersection would be looping over all the characters in one
+string and looking for it in the other.
+
+* Part two
+
+Part two was very similar. Instead of splitting each line in half, we
+had to group entire lines by three.
+
+Here's the clojure code:
+
+
+{{< highlight clojure "linenos=true">}}
+(defn part2 [data]
+  (->> (str/split data #"\n")
+       (map set)
+       (partition 3)
+       (map  #(reduce set/intersection %))
+       (map first)
+       (map score)
+       (reduce +)))
+{{< /highlight >}}
+
+Instead of munging the data and then turning strings into sets, we
+first use line 2 to transform the list of strings into a list of sets.
+
+Then, we use (partition 3) in line 4. This groups the list 3 at a
+time. Then, going through the rest of the lines
+- line 5 - find the intersection within the group fo 3
+- line 6 - there will be one letter in the result, but we have to use
+  *first* to extract the value since the result is a set.
+- line 7 - score all the letters
+- line 8 - add them up
+
+
+A nice little problem. With beginners, you get to talk about the ASCII
+character relationship and if your language supports it, you can play
+with sets.
+
+
+
+
+
+
+
+
