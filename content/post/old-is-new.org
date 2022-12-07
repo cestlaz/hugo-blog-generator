@@ -1,0 +1,155 @@
+---
+title: In Education, What's New is Old
+date: 2022-12-07T12:44:43-04:00
+tags:
+- pedagogy
+categories:
+- pedagogy
+draft: false
+--- 
+
+I noticed a tweet the other day talking about gamification of
+education. It got me thinking.
+
+Gamification isn't specifically the hot trend right now, at least not
+as "the one true way" to teach but every few years it surges as this
+great new idea to fix education.
+
+When it surges, it's always the hot new thing but it never really is.
+
+Gamification has been around at least since I was in grade school and
+it was never a magic bullet. It might not have been called
+gamification but it was there.
+
+Back in grade school, those stickers you got - gamification. Earn a
+pizza party for the class gamification. Even those leveled readers
+were gamified. I mean, you literally leveled up.
+
+I remember early in my career I had to take a number of education
+classes and gamifying was a big strategy that the professors all
+taught to engage all the students. Contrast that with the advice I got
+in schools by pretty much every experienced teacher who took me under
+their wings - some kids are motivated by stickers but many
+aren't. It's a superficial trick and you'll only get so much mileage
+out of it. It's not the be all and end all.
+
+Of course, ed tech companies can thrive on gamification because
+they're specifically catering to customers who thrive on it but it's
+not a magic bullet by any means. On the other hand, it can also be low
+effort to implement so there are plenty of times when it's worth a
+shot.
+
+This got me thinking about other teaching techniques that were the new
+hot thing but were in fact around back in the day and more often than
+not, nothing special.
+
+Let's take a look at a few:
+
+* The Flipped Classroom
+
+This is a big one the big way to fix education. Have the kids watch
+videos before class and then do other things in class.
+
+New idea?
+
+Not so much.
+
+It's called homework.
+
+Homework can be used to review past concepts and also to introduce new
+ones.
+
+So, not a new idea at all but does it work?
+
+Not really. Sure, anything that moves from college style lecturing to
+active learning during class time is good but "flipping the classroom"
+has the same issues as homework.
+
+Not all kids do or understand the homework and if you're class
+activities depend on what's done the night before, you're in trouble.
+
+On top of that, there's been a recent movement against homework that's
+also been gaining traction an that's certainly contrary to flipping
+the classroom.
+
+So, flipping the classroom - new? Not so much. Effective? Sometimes
+but like anything else, it's not a magic bullet just a tool that can
+be usefully or poorly deployed.
+
+* Code Tracing
+
+Another practice I've seen hyped more is Code Tracing. This one's
+easy  - it's a good practice. It's not new though. Code tracing - you
+write out a table of variable values and you play computer, going
+through the code line by line.
+
+This is actually very similar to how students learned to graph linear
+and quadratic equations. Make a table for x, and y, trace through the
+algorithm, and chart the results.
+
+Good practice but not new.
+
+* Subgoal Labeling
+
+Another good practice that's cropped up in the past few years. Once
+again, not new.
+
+I didn't call it subgoal labelling but I was writing code that way
+back in the 1980s.
+
+* Discovery Learning
+
+Back when I started teaching, cooperative learning was the true way,
+more recently discovery learning took the mantel. Fortunately we're
+swinging back to more generic active learning which can incorporate
+discovery learning and other techniques so maybe where actually
+getting somewhere.
+
+The thing about discovery learning is that even when I was a kid, we
+were in classes where some of our teachers developed experiential
+units where student groups worked at their own pace through activities
+that led them through learning a topic - discovery learning.
+
+Now, this practice can be good but it's also not "the way." I read
+posts and articles from acclaimed schools and teachers about how they
+do everything using discovery learning. Then you look further. They're
+almost always in rich private schools with small classes and almost
+unlimited resources. Yeah - try that every day in an overcrowded
+under resourced public school.
+
+
+* Parsons Problems
+
+Let's close with one more. Parsons problems - scrambled lines of code 
+
+Like code tracing and subgoal labeling, Parsons Problems appear to be
+a useful teaching technique and like the former two, nobody has
+claimed them to be the be all and end all - all are just tools in the
+tool box for a teacher to use as appropraite.
+
+Parsons problems though are also not new - they're a CS take on
+scrambled paragraphs.
+
+* Final thoughts
+
+Now, just because these new ideas aren't new doesn't mean they're
+bad. My big complaint about the ones I don't like is that they're
+mis-applied as a cure all not that they can't be effective when used
+appropriately.
+
+The point is that these new ideas that you'll hear about from your ed
+professors or read in the research aren't necessarily new.
+
+To be honest, most teachers will get their best tools from their peer
+group - fellow teachers, frequently more experienced ones or if
+they're lucky, In service or pre-service instructors who are in fact
+experienced K12 teachers who are sharing their practices. This is as
+opposed to when those teachers are employed to teach someone elses
+canned curriculum.
+
+In any event, I always get a kick out of seeing a "new" practice and
+then thinking about how old it actually is - if you've got some to
+share, please do.
+
+
+
