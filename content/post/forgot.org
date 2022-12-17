@@ -1,0 +1,76 @@
+---
+title: Things they remember that we forgot 
+date: 2022-12-17T06:43:31-04:00
+tags:
+- misc
+categories:
+- misc 
+draft: false
+--- 
+
+Some time ago I wrote about some of the things our students remember
+([[https://cestlaz.github.io/oldblog/blight-move/][link]] - sorry for the bad formatting). Lessons, concepts, stories, or
+even small jokes I remember telling but had no idea that they left a
+lasting impression on any students.
+
+Fast forward to yesterday. I spent some time yesterday at a friend, a
+former student's company for their holiday get together. My friend was
+telling a story about how I helped get him started - I won't get into
+details but while I do remember the overall impression of including
+and encouraging him, I don't remember the detailed specifics. Another
+sign of getting old. 
+
+It made me think of not only the things they remember that we remember
+but also what most surely be many things that as older teachers we no
+longer remember yet may have stuck with our students.
+
+I've spoken to former students a few times and they'd tell me about
+something they'll "always remember" and usually it's a pretty cool but
+ultimately, just a small CS technique or work approach fact. Other
+times, like the story that was told yesterday, it's a reminder that at
+times we can have a tremendous positive impact and sometimes we don't
+have to do much more than be decent human beings. Over the last few
+years, I've been told a few times by older alums, just as a throwaway
+comment how I created a "safe place" for them. Funny, I may have done
+that by some throwaway comment or action by me and it meant a lot to
+them. Now yeas later, I'm the one who's greatly moved by their
+throwaway comments.
+
+Unfortunately, there are probably things I've inadvertently said or
+done in my career that have adversely affected some students but for
+better or worse, we rarely get feedback on that.
+
+It goes to show the tremendous impact teachers can have even with
+small gestures. 
+
+Even the good stuff, many teachers never hear about it. This is one
+area that I feel both truly fortunate and humbled. Being in touch with
+so many former students and with so many now friends, I've been given
+the gift of hearing and seeing what I've done. I can't say why, but I
+think those of us who teach CS seem to get this opportunity more than
+other teachers, even when our students go into totally unrelated
+fields.
+
+I think about my old teacher, mentor, and friend [[https://cestlaz.github.io/posts/2012-05-09-my-favorite-year-teacher/][Herb Greenhut]] - a
+history teacher who made such an impact that he was frequently
+included in his former students life events - weddings. receiving
+birth announcements and so on and even got a Mayoral Citation in his
+later years. I've been fortunate to get to enjoy some of these "gifts"
+but I also know that many teachers, better than I and very well
+regarded have not. I blame that on circumstance.
+
+Why am I writing about this? Beyond yesterday's reminder, I've been
+reflecting more about my career as I prepare to leave the classroom
+full time. It's also important to point out to other teachers out
+there that yes, our profession is in many ways thankless but there are
+some rewards that money can't buy and even if you're not hearing about
+the impact you've had, you've probably still had it.
+
+For the younger teachers, it's there, you just have to stick with it
+long enough for your current students to go out in to the world.
+
+
+
+
+
+
