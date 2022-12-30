@@ -1,0 +1,91 @@
+---
+title: Finally some down time
+date: 2022-12-30T11:56:52-04:00
+tags:
+- teaching
+- PD
+categories:
+- teaching
+draft: false
+---
+
+Since entering end of term grades I've finally had a few days of legit
+down time. It's been a long time. In the past few years, I went right
+from Fall finals int dealing with whatever issues arose around
+planning the next teacher ed cohort.
+
+Not so this year. The three classes I'm teaching are the same as last
+year so while I'll be doing a lot of tweaking, planning, and updating
+once we get started, there's not much to do now. For the teacher ed
+cohort, I'm advocating starting our next one in the Fall so again,
+nothing to do for a while.
+
+So, what have I been doing with this newly freed time? One thing I've
+gotten to do is a bit more painting - something I decided to pick up
+during the pandemic - something to get me off computer screens for a
+while. I'm just a beginner but I'm enjoying it and making progress.
+
+#+begin_export html
+
+<img  width="200" height="200" src="/img/down-time/one.jpg"/>
+<img  width="400 height="400" src="/img/down-time/two.jpg"/>
+<img  width="200 height="200" src="/img/down-time/three.jpg"/>
+#+end_export
+
+
+
+Another thing I've been doing is getting back to some
+programming. Nothing huge but it's something I haven't done in a
+while. Last December (2021) I did a few [[http://adventofode.com][Advent of Code]] problems -
+basically the easier ones at the start of the month that I could knock
+out quickly. I stopped when the end of semester crush got bad. Same
+thing this year. In between, I didn't write a line of code. That's not
+entirely true - I wrote some small snippets for my classes but I don't
+really count that sinces it was all variations on things I've written
+a hundred times already.
+
+Since the semester ended, I've been able to go back and finish off a
+couple of "harder" problems and also dive in to a couple of of other
+small projects. One, a tool to automate some GitHub work and another a
+Slack bot to make emoji polls. This got me back to dealing with web
+code, working through OAuth and a few more little things. I did all of
+that in Clojure but also got back to playing a bit with Rust.
+
+I don't think it's absolutely necessary for CS teachers to write
+programs in their spare time but for many CS teachers, and certainly
+for me, there are a lot of benefits. On the practical side, it helps
+me keep up with current technologies. When I started teaching, there
+was no web. Then HTML. Soon after Perl was king along with CGI. Later,
+Javascript brought us Ajax. Fast forward and we're using things like
+React. All very different technologies and all require different
+approaches. Even if I'm not teaching web development, keeping current
+also keeps me current in good development practices, architecting
+projects and other aspects of coding through which I can help my
+students.
+
+If I'm exploring with contest problems like Advent of Code, I'll learn
+new algorithms and experiment with data structures - also something
+that helps me as a teacher.
+
+Of course these are pretty obvious and on the surface. Another HUGE
+benefit is it helps place me in to the students mindset. When working
+on new projects, one has to find resources and information on the
+web. Learn new libraries, tools, and techniques, and of course
+DEBUGGING!!!!!!!
+
+Since I'm retiring from Hunter at the end of the Spring, I fully
+expect to continue to be able to dedicate some time to
+programming. After all, even though I plan to work to help transition
+Hunter to the next guy I expect that to be less taxing than if I were
+to continue to be the guy.
+
+Programming, reading, and other personal professional development is
+really important to teachers. I lost that time over the past couple of
+years, but prior, at Hunter I had it. The real shame is that K12
+teachers are rarely given the time and I think their students are worse
+off as a result.
+
+
+
+
+
