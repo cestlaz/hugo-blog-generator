@@ -1,0 +1,111 @@
+---
+title: Kicking off 2023
+date: 2023-01-01T10:47:39-04:00
+tags:
+- predictions
+categories:
+- predictions
+draft: false
+--- 
+
+I never do much on New Years Eve. I can't remember the last time I
+stayed up until Midnight. It's just not really a big deal with
+me. Yesterday, thanks to Natan rushing tickets, I did close out the
+year seeing the Metropolitan Opera's new production of Fedora which
+was very enjoyable.
+
+Woke up late today - around 5:00, went for my first run of the year
+and did the puzzle over coffee. My usual routine.
+
+I'm still on a school calendar so my year goes from September to
+September but since so much of the world uses January first, I thought
+I'd share a couple of thoughts on education and tech in 2022 and 2023.
+
+On the tech side, 2022 brought a rocky road. We had the cryptocurrency crash
+and NFTs came and (hopefully) went and all the big players had massive
+layoffs. The Crypto stuff is interesting and I'm curious where it
+goes. I haven't had the time to really get my head around all of it. I
+read the [[https://www.bitcoin.com/satoshi-archive/whitepaper/][original whitepaper]], and played with some code but haven't
+delved into web3 yet. I've always felt that NFTs were a scam and I
+think that this whole web3 thing is still a technology looking for an
+application but it does provide smart contracts and distributed
+identity and authentication and that should eventually lead to
+something. One of my post retirement side projects is to try to create
+something on/for web3 to really see what it's all about.
+
+One thing I do wonder about with web3 looking forward is that a big
+deal about it is that it's distributed. That sounds great, but we've
+been there before. Whenever we've built a distributed platform, the
+next thing we do is centralize it. Thin about it:
+
+ | Distributed | Centralized |
+ |-------------+-------------|
+ | IRC         | Slack       |
+ | Usenet News | Reddit      |
+ | Napster     | Spotify     |
+ | Git         | GitHub      |
+
+So, even if Web3 finds its legs and presents us with an amazing
+distributed platform, will it be fated to be a distributed platform
+controlled by one centralized player.
+
+On the tech downturn, it was bound to happen. Interesting enough is
+that I'm hearing from friends desperately trying to hire while others
+were recently laid off. Messy and unfortunate but I think things will
+get better on the company side.
+
+On the candidate size, I think we're going to need a correction
+there. CS enrollments have and continue to explode and while hopefully
+this will help bring along underrepresented groups, I'm guessing that
+there are many new CS majors who are along for the ride and are really
+meant for other things. Just like the law school boom and MBA booms
+in the late 80s, the hot major becomes oversubscribed frequently for
+the wrong reasons.
+
+Moving forward both K12 CS and college CS has to do a better job in
+communicating what CS and tech majors are for and preparing students
+for all careers with the correct amount of CS. I don't think that'll
+happen much though in 2023.
+
+On the CS Ed front, for the most part, things have been chugging
+along. At least in NY people are starting to recognize that while the
+PD based model was essential to start CS4All things have to pivot to
+pre-service programs. In general there also seems to be movement in
+understanding that not every CS major wants to be a software engineer
+(or a PhD candidate, which has long been the focus of most CS
+programs) and we're starting to see people waking to the fact that the
+CS that's appropriate and needed by the CS major is not the same as
+that for the software engineer, other tech sector roles and possibly
+most importantly everyone else. 
+
+The big negative in NY for CS Ed is that the state came out saying
+that if you taught at least 1 CS class you can get grandfathered in
+and won't need CS certification for 10 years. This means we're going
+to have a lot of under-prepared CS teachers in the state for a long
+time.
+
+Looking forward in CS Education, I hope to see more preservice
+programs come online in New York state and I hope that discussion of
+CS for non-CS majors, non PhD candidates, and non software engineers
+continues to expand.
+
+It looks like web3 will take a bit of a back seat though and the big
+topic in the next few months will be chatGPT and other AI systems.
+
+I say AI systems, but as far as I can tell, chatGPT is really just
+pattern matching on a more massive scale. Pretty impressive but not
+closer to "intelligence." There's been talk about using it to solve
+programming problems and write essays and this morning, I saw
+something about asking it to lesson plan.
+
+I've played with it a bit and it is impressive but I'm predicting that
+hype will fade as teachers will adjust. ChatGPT and related projects
+also bring into question the rights on the training materials and that
+it might threaten companies like Google. I'm not betting on that last
+one as I'm guessing that Google's got plenty of people working on
+similar technologies internally.
+
+So, we'll see what 2023 brings in tech and education. I do plan to
+write more on chatGPT in the coming months but we'll see what other
+themes emerge.
+
