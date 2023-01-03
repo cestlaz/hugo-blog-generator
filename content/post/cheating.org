@@ -1,0 +1,110 @@
+---
+title: Cheating
+date: 2023-01-03T14:30:36-04:00
+tags:
+- teaching
+- cheating
+categories:
+- teaching 
+draft: false
+--- 
+
+I said in my last post that I wanted to write about chatGPT. The way I
+see it, chatGPT is affecting teachers in four areas. First, students
+using it to cheat, second the possibility of students using it as a
+constructive tool. Third, teachers using it as a resource for lesson
+planning or similar, and fourth, down the road, another tool to
+replace teachers.
+
+Before I dive into any of those, I thought I'd spend a post talking
+about cheating in general. I've written about cheating [[https://cestlaz.github.io/post/cheating-on-projects/][before]] but
+that was a few years ago so I thought I'd revisit things in light of
+chatGPT and other resources students can use to cut corners.
+
+Cheating has always been a big topic in education. Some teachers let
+it slide, some are hardliners but it's a front and center topic. It's
+also a topic that's difficult to address. One reason is that our
+society tolerates and even celebrates cheating at many levels. Time
+and again we see that the rules are only for the little people. Not a
+great basis if you want to encourage rule following in the classroom.
+
+In my opinion, cheating is going to happen and usually it's not worth
+stressing about but more on that later.
+
+Why do student cheat?
+
+Some cheat because they don't care about the class and find it as an
+easy way out but I'd like to think that most students don't follow
+this path. Many cheaters do it out of desperation - they *need* to get
+a good grade because of their parents, college applications,
+expectations or otherwise. The system they're in dictates that it is
+unacceptable to get a low grade and so they're backed into a
+corner. Similarly, students are at times so overburdened that they
+can't complete all the work or adequately prepare for assessments -
+this can also lead to cheating.
+
+Another case is that students in some cultures view what some would
+call cheating as collaboration and this one can be tricky as to a many
+people it's a matter of degree and in my opinion, collaboration should
+be encouraged.
+
+
+I do have to admit that there is another category that I played a part
+in back in high school - in my group, if we respected a teacher, we
+never cheated - we'd just take our lumps. If we didn't we might cheat,
+usually to see how far we could go and what we could get away with -
+in all cases, to be honest, we worked hard to learn the material and
+the cheating part was just a game - not so much trying to get answers
+we needed on tests but more, can we communicate information undetected
+during an exam.
+
+So, what do we do?
+
+Some teachers take a hard line but I'm not comfortable with
+this. Repercussions for cheating are harsh and can range from a slap
+on the wrist which isn't worth it to failing a course or even
+expulsion. Those last two are pretty big and I've known in my life a
+number of people who were falsely accused of academic dishonesty. I'd
+rather miss a few of the cheats rather than punish the innocent.
+
+I usually will let it slide unless I know 100%. I'll take certain
+measures to limit cheating as outlined in my earlier linked post but
+more of my efforts are to create a positive environment - encourage
+collaboration with attribution - try not to overburden students with
+gratuitous work - make it okay to "fail" so long as you eventually get
+to where you need to go and so on. Of course, it's not perfect. I'm
+still in a system that gives letter or number grades and everything
+has to settle down to a grade by end of term. I'd like to think that
+the culture I push minimizes cheating but you can't really know.
+
+In any event, there really is some truth the old line "you're only
+cheating yourself." At least in CS. If a student cheats through a
+class, they'll likely not take the next one. So what, they got one
+undeserved A grade. In the greater scheme of things it's not going to
+make a difference. If they don't learn the material, they're not going
+to get the job and even if they do, they won't be able to do the job
+and, well, if they can do the job, then maybe what they cheated on
+wasn't so important after all.
+
+Now, it's true that we do have to try to minimize cheating - hopefully
+by creating a positive culture because the majority of students DO
+have to learn the basics and we can't have everyone cheating through
+everything but I really don't think that's an issue. For me, it's try
+to make the environment conducive to not cheating and then not worry
+about it too much.
+
+One last note is that while I try to do this, I do get irked when a
+student cheats and I really get irked when students try to "work the
+system" to get grades they don't deserve. I try to remind myself that,
+as the saying goes "it's not personal, it's just business" and I think
+that's a good thing for all of us to remember. To fix this, we have to
+fix root causes and while movements like ungrading, if not taken to
+far, can really help, I'm not sure that things will improve much in
+the short term.
+
+With all this said, stay tuned for related thoughts on chatGPT.
+
+
+
+
+
