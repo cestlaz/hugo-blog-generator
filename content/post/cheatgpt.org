@@ -1,0 +1,124 @@
+---
+title: CheatGPT
+date: 2023-01-10T06:42:45-04:00
+tags:
+- chatGPT
+- cheating
+categories:
+- chatGPT
+draft: false
+---
+
+Just got back from a few much needed days away so it's time to get to
+those chatGPT posts.
+
+Last time, [[https://cestlaz.github.io/post/cheating/][I wrote on]] cheating in general. That seems to be one of the
+hot points for chatGPT, in fact, the NYC DOE just last week decided to
+ban chatGPT outright, presumably for that reason. We'll talk about the
+student side, both negative and postitive today and the teacher side
+next time.
+
+To start, while on vacation I saw this tweet:
+
+#+begin_export html
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Any educator who is saying “ChatGPT won’t affect MY classroom” better get humble really quickly. <br><br>As a friend said, “This is like when my AP called me into his office &amp; asked ‘Have you seen this thing called Google?’”<br><br>It’s going to change the way we think about writing forever.</p>&mdash; Chris Lehmann (@chrislehmann) <a href="https://twitter.com/chrislehmann/status/1611777320745828360?ref_src=twsrc%5Etfw">January 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+#+end_export
+
+Sure, it's going to change our classrooms but it's not like this is
+the first time. We went from nothing to calculators to graphing
+calculators to programs like Wolfram Alpha. I've been telling my
+students for decades that Emacs Calc mode could not only solve all
+their math assignments symbolically but it could also typeset them
+directly in TeX so their homeworks would look professional.
+
+On the non-math side we've added word processors to spell checkers to
+grammar aides not to mention collaborative environments.
+
+And we haven't even mentioned search engines, wikipedia, youtube and
+the scores of other resources available today that didn't exist years
+ago.
+
+New technologies come in to play over and over again and teachers
+adapt. Unfortunately, instead of giving teachers the resources they
+need to adapt efficiently, districts normally opt for a hammer and
+then blame teachers regardless.
+
+So, now we have a new tool - will students use it to cheat? Sure -
+some will but this is nothing new.  I'd like to believe that the
+majority of students will use the new tool productively but to do so,
+many will need guidance.
+
+Should the NYC DOE have banned chatGPT? I'd say no. Well, actually,
+I'd say yes but with a caveat and we'll get to that below.
+
+I've been playing with chatGPT a bit now and it certainly seems to be
+able to generate student quality essays on a variety of topics. It
+100% can solve introductory CS programming problems, frequently just
+by pasting the teachers prompt in the chat box.
+
+This can, of course, lead to cheating but shutting down the technology
+in school won't change a thing. As usual, draconian measures will do
+little to deter bad behavior and will merely make things more
+difficult for kids who want to do things the right way.
+
+Let me use GitHub as an example. I've had *many* professors tell me
+that they'll have students use GitHub but *only* if repos are private
+so as to prevent cheating. Right - making a repo private is really
+going to prevent some kid from sharing their code. Sure, it'll prevent
+a random student from stumbling on their work but it's going to do
+nothing to prevent a bad actor from acting badly.
+
+At the same time, it sows distrust and prevents students who want to
+productively share and help each other (with proper attribution) from
+doing so.
+
+Banning a tool in school only serves to limit students who want to do
+things the right way anyway. Cheating happened prior to chatGPT and
+prior to older technologies. Some students have always cut corners
+either by crossing the line with friends or even paying for essays
+online. Now with chatGPT, I can type in "write a program to do..."
+rather than search StackOverflow or ask a friend or pay a service but
+it doesn't change the fact that no matter what, some students will
+cheat. On the other hand, if you cultivate a classroom where support
+and sharing is encouraged, don't overwork students, provide the needed
+resources and allow for failure and growth, you'll minimize the
+problems. Of course I just described a panacea that can rarely be
+created in a public school given large class sizes, emphasis on
+standardized testing, and all the baggage dumped on teachers.
+
+In a programming class, a solution could be to allow chatGPT but to
+include lab time in the class. During that time, the teacher can
+observe students and really get to know what they know - their
+strengths and weaknesses. I always was able to include lab time at
+Stuy and before that at Seward Park and by the end of the term, I knew
+my students, what they could do, and where they had challenges. To be
+honest, I could assign letter grades from that info alone and the
+grades would pretty much match the test results.
+
+This can be done but it's getting more and more challenging given the
+weight placed upon teachers.
+
+Given this, in my class, I don't want to ban chatGPT but want to
+take the time to figure out how to use it productively. 
+
+Why then did I say earlier that districts *should* ban it? Because at
+the end of the day, schools and teachers should set these policies but
+these policies need to be supported by the district. The district has
+to have the principal's back and the principal, their teachers.
+
+A district should say "here's the boilerplate policy to ban chatGPT so
+if in your school or class it's inappropriate, you can ban it and we've
+got your back. On the other hand, a principle can implement a looser
+policy and that's fine and we encourage schools to implement policies
+where chatGPT can be used effectively as a learning tool" and then
+provide some boilerplate language for that.
+
+The district has to have the hardest line because in some cases, that
+hard line will be either appropriate or necessary and then schools can
+loosen the restrictions as appropriate.
+
+So, that's my take.
+
+Next time - chatGPT as a teacher aide.
+
+
