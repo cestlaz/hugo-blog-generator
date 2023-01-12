@@ -1,0 +1,112 @@
+---
+title: teachGPT
+date: 2023-01-12T07:45:56-04:00
+tags:
+- teaching
+categories:
+- teaching
+draft: false
+--- 
+
+So, since we discussed [[https://cestlaz.github.io/post/cheatgpt/][cheating and chatGPT]] and decided that there
+shouldn't be a ban, how can it or similar tools be used productively?
+
+* General use
+The first go to seems to be as an alternative search engine. It hasn't
+been uncommon seeing people say they use chatGPT instead of searching
+StackOverflow. This makes sense. ChatGPT gives answers and the natural
+language interface can make it easier to form some questions or ask
+for results in a particular format. Interesting though is that it
+seems, and I have no evidence for this, that people will more accept a
+"written text" answer from chatGPT as factual as opposed to a listed
+search result. This is worth thinking about since chatGPT doesn't
+always give correct answers to questions so buyer beware.
+
+
+* In non CS classes
+
+For more interesting ideas, I'll start outside of my comfort zone -
+non CS classes. One of the big fears of chatGPT is that it will write
+student essays. Why not leverage that as a feature, not a bug. As
+chatGPT to write an essay and then have students analyze and critique
+it.
+
+We've all seen stories on how chatGPT sometimes gets the facts
+wrong. How about leveraging that? Do some fact checking.
+
+I asked chatGPT to write an essay and to include at least three
+errors. It created a reasonable essays and at the bottom listed the
+errors. Of cousre, there could always be more. Take those essays and
+have the students not only critique but fact check. Better, don't
+initially fact check but have students build arguments based on the
+documents you give them and let them learn to be critical of resources
+when they discover they're not always correct.
+
+I'm sure there are many more creative ways one can leverage generative
+systems like chatGPT in educational settings but now let's move to CS
+classes.
+
+* In CS classes
+
+I wondered if chatGPT could help create problems. I asked it to create
+a parsons problem. That was an epic fail. It gave me a Java program in
+order. I guess I could then scramble the lines but that wasn't the
+point.
+
+On the other hand, the answers it gave could be used as code tracing
+examples so there may be some value there.
+
+I also asked it to generate test questions and small programming
+assignments but I didn't find the output useful.
+
+* What else?
+
+There's also been talk about creating lessons to either support or one
+day replace teachers and with this, we're a *long* ways off.
+
+I asked chatGPT to write lesson plans on a number CS and non CS topics
+and each time the result was the same.
+
+I got a formulaic lesson plan that technically covered the material
+but I found them less than worthless. Yes, technically one could kind
+of sort of work off the lesson plan but they were bare bones - no
+interesting motivations, questions, possible tangents, or examples. No
+potential segues or pitfalls and certainly nothing specific for any
+teacher's actual students.
+
+To a non teacher the lesson plans might look alright but to any decent
+teacher, there worthless. If you're a teacher, you already know the
+bare bones outline of any given lesson and if you don't you shouldn't
+be teaching that subject. What makes the lesson work is everything on
+top of the bare bones skeleton - the motivations, the examples, the
+activities and here, chatGPT is of no help.
+
+* The killer app
+
+So far, it looks like chatGPT can be useful but it certainly has
+limitations. I did find, however, the chatGPT killer app for
+education. By find, I mean I saw someone else tweet out the
+idea. Sorry I can't give credit but I didn't end up saving the link.
+
+ChatGPT can be used to create all the garbage that administrators and
+politicians insist are important in education but are crap.
+
+Hey, chatGPT: "Write me a lesson plan introducing loops that aligns to
+the New York State Computer Science and Digital Literacy Standards."
+
+Hey, chatGPT: "Write me a sub lesson plan on conditional statements in
+Java."
+
+These are great. Sure, they're lousy lesson plans but they'll have the
+references to the standards that administrators and other education
+reformers love and now teachers don't have to waste their time on it.
+
+That's the killer app!!!!!!!
+
+
+* Final thoughts
+
+So there it is. A few thoughts on how we can productively use tools
+like chatGPT. I'm sure there are more and better ones out there and
+I'd love to hear about them so feel free to share yours.
+
