@@ -59,7 +59,7 @@ This leads to a whole set of ethical questions
 Another is ownership. If chatGPT generates a story or a song, who owns
 the rights? What about AI generated art? 
 
-One more on the ethical front, how about the Micrsoft AI that was let lose in
+One more on the ethical front, how about the Microsoft AI that was let lose in
 the wild and was quickly trained to spew racist garbage?
 
 The ethical and societal issue abound.
