@@ -88,7 +88,6 @@ all the words that follow the key. We can build this with a variation
 on our bag of words builder:
 
 #+BEGIN_SRC python
-  {{< highlight python >}}
   words_raw = "a cleaned string with our text"
   words = words.raw.split()
   wordlists = {}
@@ -97,7 +96,6 @@ on our bag of words builder:
       next_word = words[i+1]
       wordlists.setdefault(current_word,[])
       wordlists.[current_word].append(next_word)
-  {{< /highlight >}}
 #+END_SRC
 
 Note that we need a counting loop rather than just iterating over the
@@ -107,13 +105,11 @@ iteration.
 The (partial) value for the wordlists for the Book of Psalms would be:
 
 #+BEGIN_SRC python
-  {{< highlight python >}}
   wordlists = {...
                'blessed' : ['are', 'are', 'are', 'are', 'are', 'art', 'be', ...],
                'wealth' : ['and','and','by','to'],
                ...
   }
-  {{< /highlight >}}
 #+END_SRC
 
 At this point, generating text is easy. 
@@ -129,7 +125,6 @@ last word in the original text (as it can't find any "next words" but
 basically it will work. Here's the code:
 
 #+BEGIN_SRC python
-  {{< highlight python >}}
   # assume wordlists is the dictionary built as specified above
   # and that we're starting with the word "blessed"
   current_word = "blessed"
@@ -138,7 +133,6 @@ basically it will work. Here's the code:
       story.append(current_word)
       current_word = random.choice(wordlists[current_word])
   story = " ".join(storylist)
-  {{< /highlight >}}
 #+END_SRC
 
 
@@ -159,14 +153,12 @@ For example, a partial dictionary based on this idea from Macbeth Act
 1 Scene 1 could be:
 
 #+BEGIN_SRC python
-  {{< highlight python >}}
   # source -> "when shall we three meet again"
   tuple_dict = { ("when","shall") : ["we"],
                  ("shall","we") : ["three"],
                  ("we","three") : ["meet"],
                  ("tree","meet") : ["again"]}
 
-  {{< /highlight >}}
 #+END_SRC
 
 This takes a bit more work to build and also a bit more work to
