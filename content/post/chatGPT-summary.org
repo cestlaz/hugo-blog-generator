@@ -1,0 +1,25 @@
+---
+title: chatGPT TOC
+date: 2023-01-23T14:29:45-04:00
+tags:
+- chatGPT
+categories:
+- chatGPT
+draft: false
+--- 
+
+I know I said that I was done with chatGPT but since I've ended up
+sharing my posts with a few people I though a quick table of contents
+post would be appropriate.
+
+
+
+ 1. Post 1 - [[/post/cheating][Some general thoughts on cheating]]
+ 2. Post 2 - [[/post/cheatgpt/][Cheating with chatGPT]]
+ 3. Post 3 - [[/post/teachgpt/][Teaching with chatGPT]]
+ 4. Post 4 - [[/post/chatgpt-good-bad-ugly/][More teaching with chatGPT]]
+ 5. Post 5 - [[/post/chatgpt-in-cs-class/][chatGPT in a CS class]]
+
+    
+Back to new content soon.
+
