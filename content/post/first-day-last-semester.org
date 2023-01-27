@@ -1,0 +1,71 @@
+---
+title: First Day Final Semester
+date: 2023-01-27T09:49:07-04:00
+tags:
+- teaching
+categories:
+- teaching
+draft: true
+--- 
+
+So, yesterday was the first day of the semester. Since I'm retiring,
+it's my last first day at Hunter.
+
+Felt pretty good. I think knowing that I'll get a break after the term
+has alleviated some of the burnout for now.
+
+What will I be focusing on in class this last time around?
+
+I'm teaching three classes.
+
+First up is my undergraduate data structures. To be honest, I'm not
+looking at anything special there - just business as usual. I enjoyed
+working with this group last semester in their CS1 class so this is
+just a continuation. I'll try to bring the usual extras I bring to DS
+classes - interesting applications of the data structures and
+algorithms and work on prepping for the technical interview but I
+don't think I'll be paying attention to anything different than any
+other semester.
+
+My CS1 recitation though, is going to take more thought. Of the three
+undergraduate classes I cycle through, CS0 in Python, this CS1
+lab/recitation, and Data Structures, this class is the one where I
+have and exercise the most freedom. I do a good deal of work with the
+class on practical programming and software engineering as well as
+looking at some more advanced topics than the regular
+sections. Passing off my data structures class to the "next guy" will
+be pretty straightforward but this class has been customized enough
+that I have to really thin about and document what should be kept
+regardless of the new instructor and what's really extraneous. 
+
+We can probably drop the CS extras I do - as much as I like them, the
+truth is that another CS instructor might prefer other advanced
+topics.
+
+The Software Engineering stuff, though, I think I've been doing
+particularly well and should probably be kept as is. I've really got
+to document all of this and prepare for the hand off.
+
+My third class is a topics class for the Masters students and working
+teachers in my certification program. That should be fun. Last year, I
+enjoyed all the student presentations and got some great new ideas
+should I teach any of the topics in the future. this time around
+should be the same.
+
+The thing I have to focus on is that I have to make sure to document
+the aspects of the class that will potentially be tested on the
+forthcoming CST. That's the states Content Specialty Test. This group
+will probably be exempt since they'll finish off before the exam is
+released but future cohorts will have to sit for the exam in order to
+earn their state CS certification. I'll have to document all the
+little annoying things that could be on the exam for future reference
+so that the next person running the program makes sure they're all
+covered when next this class runs.
+
+So that's pretty much it.
+
+First week down and twelve more to go.
+
+
+
+
