@@ -5,7 +5,7 @@ tags:
 - teaching
 categories:
 - teaching
-draft: true
+draft: false
 --- 
 
 So, yesterday was the first day of the semester. Since I'm retiring,
