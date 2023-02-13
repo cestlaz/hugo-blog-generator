@@ -1,0 +1,114 @@
+---
+title: A poor craftsman blames his tools
+date: 2023-02-13T06:48:49-04:00
+tags:
+- tools
+- CS Education
+categories:
+- CS Education
+draft: true
+---
+
+Yesterday, Alfred Thompson posted on students [[https://blog.acthompson.net/2023/02/cs-studentslearn-your-ide.html][knowing their
+development environments]]. Alfred's post was inspired by a related post
+by [[https://www.cs.uni.edu/~wallingf/blog/archives/monthly/2023-02.html][Eugene Wallingford]]. Eugene's post was about more than development
+environments and both his and Alfred's posts are worth a read.
+
+Being a tool wonk I thought I'd add my two cents.
+
+I've always been a tool wonk. Use the right tool for the job and if
+you need to buy one, don't cheap out - get the best value right
+tool. This got me in trouble with Devorah when I spent $309 around
+thirty years ago at Bridge Kitchenware for a K5SS - 5 quart Kitchenaid
+mixer when we were first living together. Back then $309 was a
+lot of money for us and to spend on a mixer.... Over the years, after
+countless loaves of bread, cakes and more, the mixer has proven its
+worth.
+
+Likewise my Cuisinart. Nothing fancy, just a motor in a box. Both are
+older than our two children. I also love my F Dick 9 inch chefs
+knife although that was a bit of a luxury purchase. I also, equally
+love my much less expensive Victorinox boning knife.
+
+Of course, the right tool for me - the home cook, is not necessarily
+the right tool for the professional. A restaurant kitchen or butcher
+shop is much more likely to have inexpensive Dexter Russel knives
+rather than pricey Wusthof ones and they'll use a regular
+sharpening/exchange service. Makes sense - in a restaurant the knives
+will be used more frequently by more people who on the one hand, know
+how to use the tools better, but on the other might take less
+individual care of them.
+
+Everything that is true about home vs professional tooling can also
+inform our CS classroom tooling but it's not quite as simple.
+
+True, students should know their tools and know them well but this
+should be tempered by what a teacher is trying to do with the class at
+any given time. When encouraging students to really learn a
+development environment you have to balance the short term benefit,
+the long term benefit, and the cost. that cost is usually up front
+time. This is also true for professional developers.
+
+I remember talking to a friend who got a little logic puzzle from a
+street fair. It involved rearranging colored lines of blocks. He wanted
+to write a program to solve it. So, he started to set up and tweak his
+programming environment. He ended up spending so long setting things
+up just right that in the meantime, his wife and kids all individually
+solved the puzzle by hand.
+
+One can argue that for future related development, my friend ended up
+ahead but since there wouldn't likely be related development the time
+was lost and it would have been much faster just to solve the problem
+at hand. 
+
+The other rub is that professional tools can sometimes be too complex
+or can do too much for students. I love autocomplete when using
+obscure libraries but I don't think it helps students when they're
+first learning basic language constructs. Same for large provided
+template code.
+
+The thing with IDEs is that you have to find the right one that
+supports the way you teach.
+
+I know teachers that want to do everything on the command line. They
+want the students to walk through the process from source code ->
+class file -> running on the jvm and the command line gives them that
+option. They also might want to teach command line tools. The command
+line also, is in some ways the simplest approach. One place to input
+commands, one place to see results.
+
+On the other hand, it can be intimidating and it doesn't benefit from
+all the supports an IDE can give. Personally, I have mixed feelings on this
+approach. Sometimes it's been the right choice for my students, other
+times, not so much. 
+
+I know other teachers who love BlueJ - a graphical IDE that focuses
+on objects. It really seems to shine in helping to clarify OOP but it
+never worked for me. Probably because I'm not a huge OOP fan. That
+said, for some teachers it's the sweet spot IDE.
+
+Others dump their students into professional IDES like Eclipse or
+nowadays VSCode. I feel these give too much and have too much
+complexity. Others disagree and that's fine. What's right for me and my
+students might not be right for another teacher and class.
+
+For me the sweet spot IDE for new learners are things like DrJava,
+DrRacket, or Thonny. Very simple lerning IDEs. They're not made for
+professionals so they don't integrate with complex build systems. they
+give students some structure and support but not too much.
+
+Most recently, I've started students on Thonny for Python then
+transitioned them to other tools. I encourage them to do a deep dive
+between semesters or over the summer and discover what really works
+for them. Through my classes, though, I try to demonstrate how knowing
+your tools benefits you as a developer or even just a user. If I can
+show how I leverage the Unix shell, I do, if there's something in
+Emacs that makes me more productive, I'll show it. I'll also mention
+that in most cases, whatever tools they're using will have an
+equivalent and they should explore it.
+
+While it's true that a poor craftsman blames his tools, a good
+craftsman knows their tools and leverages them to great effect. While
+we're teaching CS, programming, and languages, it's worth discussing
+tooling as well.
+
