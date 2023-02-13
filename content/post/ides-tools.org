@@ -6,7 +6,7 @@ tags:
 - CS Education
 categories:
 - CS Education
-draft: true
+draft: false
 ---
 
 Yesterday, Alfred Thompson posted on students [[https://blog.acthompson.net/2023/02/cs-studentslearn-your-ide.html][knowing their
