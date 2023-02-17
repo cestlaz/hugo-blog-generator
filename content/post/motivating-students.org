@@ -1,0 +1,109 @@
+---
+title: Motivating Students in CS Class
+date: 2023-02-17T10:00:05-04:00
+tags:
+- teaching
+categories:
+- teaching
+draft: false
+--- 
+
+A teacher in one of my networks posted a question earlier today -
+"have you had any challenges or trouble with motivating kids in your
+classes?"
+
+Not a new question and  I'm sure for any teacher with any level of
+experience the answer is a resounding *yes*. I don't care who you
+are. Not all of your students are motivated all the time.
+
+This can particularly be a problem when a teacher switches over from
+teaching an elective or selective to a required class but it might not
+be. I had to deal with this when I was able to get Stuy to require the
+intro course I designed. It was an adjustment but not really too big a
+deal. If anything, more students ended up getting turned on to CS than
+turned off and since even as an elective, there were always some
+unmotivated students. The adjustment was overcoming the reticence of
+students being "forced" to be there as opposed to students who might
+have taken an elective for the wrong reasons.
+
+Anyway, back to the problem.
+
+CS can be many things but in K12 it frequently involves programming
+and since that was what the initial question was referring to, we'll
+stick to that.
+
+Some students will be motivated by programming in and of
+itself. They might see it as a creative art. That's great but they're
+the easy ones.
+
+Beyond that, programming is usually used for one of two
+things. Solving problems and/or building things. You could also add
+for telling stories or communicating ideas but you might put those
+under building things.
+
+Looking at programming through those lenses can also motivate more
+students.
+
+From there, we get to the fine tuning.
+
+What will scratch a student's itch. They might not care for coding but
+they might have some problem they want to solve of thing they want to
+build. When I was very young and just teaching myself to program I was
+of an age when a favored pastime was making fun of your friend's
+mother. So, what did my clique do? We wrote "The Mother Game" - a
+stupid little program to insult each others moms. True, we were
+already motivated since we were teaching ourselves but we went much
+farther doing that silly game than if we were solving some textbook
+problem.
+
+Sometimes collaboration can help. Of friends and I who wroet "The
+Mother Game," two of us were techies but one wasn't but the third got
+caught up in the group activity.
+
+Of course we still have to remember that one size will not fit
+all. Something that motivates student A might not motivate student B
+and what motivates the teacher will almost certainly not motivate
+everyone in class (I'm looking at you, gamification people). Sure,
+games are fun for some but not everyone. Same with sports, current
+events, fashion and any other topic. As a teacher you can mix it up
+and give individual choice when possible and all of that can help.
+
+One thing to remember though is that even when we're having trouble
+motivating all of our students we still have it much easier in that
+regard than many other subject teachers. A language teacher is
+limited by their class level's vocabulary. In math, you can solve
+problems but only with the math they've learned so far which we know
+rarely translates to natural motivation. I love history but many
+students don't and history classes are frequently very strictly
+constrained so teachers might not have the freedom they want to
+motivate as many students as they could otherwise.
+
+And of course, public school teachers with large classes will have a
+*much* harder time than private school teachers who only meet with a
+handful at a time.
+
+Before closing, I should also mention that some teachers will have an
+easier time than others due to their own personalities. Some teachers
+are charismatic or otherwise succeed by "force of personality." It
+seems that students more want to please some teachers than others and
+that is also a form of motivation. I'm not saying it's a great long
+term one but I do want to acknowledge it.
+
+So, to close I also want to remind teachers that no matter what you do
+you are *not* going to motivate all students and *not* all the
+time. You might read facebook posts by miracle teachers who only share
+successes or "thought leaders" who talk the talk but don't walk the
+walk but the truth is nobody bats 1000. In baseball, you can fail at
+the plate two third of the time and you're a hall of famer. Good
+teachers will do better than that but as I said, nobody bats 1000. Win
+as much as you can but don't beat yourself up because you can't reach
+everyone all the time. Strive to do better throughout your career and
+when the dust settles you'll see that your successes far outweigh the
+times when you weren't as happy with your results.
+
+
+
+
+
+
+
