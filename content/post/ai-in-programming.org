@@ -1,0 +1,99 @@
+---
+title: AI as a programmers aide
+date: 2023-02-28T11:33:22-04:00
+tags:
+- tools 
+categories:
+- tools
+draft: false
+--- 
+
+ChatGPT in education has been all the rage but there's another twist
+on AI that was getting some buzz even earlier - AI based code
+completions. GitHub's Copilot has gotten the most air time but there
+are others out there as well.
+
+When you code with Copilot, you type in a function name and maybe a
+comment above it and the AI system will fill in the function.
+
+A canonical example seems to be Mergesort. Type in mergesort, hit the
+magic key, and the function appears.
+
+I was asked by a friend how this might affect teaching programming and
+I've been thinking about it for a while.
+
+I was going to share my thoughts today but realized that first, we
+have to talk about products like Copilot as a programmers aid and then
+we can talk about it as a learning tool. Today, we'll cover the former
+and next post the latter.
+
+Now, I'm not a professional programmer - at least I haven't been one since
+before I started teaching. I've done personal projects, some one off
+contracts and a few applications for work but I haven't written one of
+those since I wrote a resume/interview managing system when Hunter won
+the CUNY2X grant.
+
+Even so, I think I've got a few thoughts worth sharing.
+
+Let's first consider what these tools can do right now.
+
+I started by playing with the mergesort exampe. I asked for it and the
+AI's obliged. This could be seen as a time saver but is it? It turned
+out every time I tried I got a good basic mergesort but the merge part
+was always another function call - still had to write or generate
+that so it's not just specify and move on. It's specify, verify, and
+then either tweak or move on. It also wasn't optimized in any way. You
+can decide for yourself if that's good or bad. 
+
+A pro can tell me if using Copilot in this sense is a
+time saver but I'm not so sure. Even if it is, wouldn't most
+programmers just use the built in sort function? It seems like in this
+sense, tools like Copilot are like using a library but with inline
+expansion and without verification. A mixed bag at best.
+
+Even if the AI always got it right and was clear I wonder how much
+time would really be saved. Most of my time programming is spent
+thinking and editing and Copilot is about the generating. I don't
+doubt that it can be useful but in it's current state, maybe not so
+much.
+
+The big benefit using it this way is if you ask it to write something
+that you don't know how to write but is that really a good idea given
+that the code still has to be verified?
+
+The other sense I've seen these tools used in is more like how Gmail
+autocompletes sentences in your email. Again, very cool but I'm not
+sure how useful. For the Gmail stuff, I always see the completions but
+almost always just continue typing. I guess it's similar to how a fast
+typist frequently won't fix errors, they'll retype them. For example,
+if you accidentally type Froderick instead of Frederick, a fast typist
+probably wouldn't fix the o. They'd probably delete the word backwards
+and retype it. More keystrokes but they stay in the flow. 
+
+So, right now these tools seem cool but maybe not all that useful. I
+could see benefit today by having them generate language idioms like
+"sum a list" - things that templates and current autocomplete can't
+quite do but can be verified on the fly in no time but that's about it.
+
+In the future, however things could change.
+
+The idea that at some point one could generate code from a description
+is pretty appealing. Of course, that brings a challenge that many
+beginner programmers have to deal with - specification. I tell my
+students all the time "Computers are lousy at doing what you want them
+to do but great at doing what you tell them to do." Writing a program
+for these not-yet-existing AIs will be all about writing
+specifications and the specification will turn into our program. This
+really isn't too different than what goes on today. A for loop is a
+higher level specification for some gotos and conditionals. A foreach,
+a higher level specification of a for and when you add in Lisp like
+higher level functions like map and filter that's higher level
+still. An AI like a future generation of Copilot can be just that.
+
+My verdict? Are they cool? Yes. An aid to productivity? I'm not
+sure. Will they get there? Probably but I don't know when.
+
+Next time, we'll talk about how these tools can change the landscape
+of teaching and learning programming.
+
+
