@@ -24,7 +24,6 @@ name to apply to many beginner patterns. An early idiom might be
 
 
 #+BEGIN_SRC python
-{{< highlight "python" >}}
 
 
 dataset = [5,3,8,12,2,7]
@@ -34,7 +33,6 @@ for i in range(1,len(dataset)):
 if dataset[i] < dataset[min_index]:
 min_index = i
 
-{{< / highlight >}}
 #+END_SRC
 
 Another is the very similar and more general "do something on every
@@ -58,9 +56,7 @@ When students learn about list comprehensions in python they'll
 rewrite the "do something..." more like this:
 
 #+BEGIN_SRC python
-{{< highlight "python" >}}
 [ f(x) for x in dataset]
-{{< / highlight >}}
 #+END_SRC
 
 but the pattern or idea is the same.
@@ -68,32 +64,26 @@ but the pattern or idea is the same.
 Other early idioms might include swapping variables:
 
 #+BEGIN_SRC python
-{{< highlight "python" >}}
 tmp = a
 a = b
 b = tmp
-{{< / highlight >}}
 #+END_SRC
 
 and loops until an exit condition are met:
 
 
 #+BEGIN_SRC python
-{{< highlight "python" >}}
 
 while (not_exit_condidtion):
 # do stuff
 modify variable that checks exit condition
 
-
-{{< / highlight >}}
 #+END_SRC
 
 Even more difficult concepts like recursion can be described in an
 idiomatic way:
 
 #+BEGIN_SRC python
-{{< highlight "python" >}}
 def f(x):
 if BASE_CASE:
 return something
@@ -102,7 +92,6 @@ new_x = modify_to_eventually_get_to_base_case(x)
 f(new_x)
 
 
-{{< / highlight >}}
 #+END_SRC
 
 Patterns like these, or idioms, come up over and over again. We don't
