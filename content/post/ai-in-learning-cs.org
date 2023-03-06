@@ -5,7 +5,7 @@ tags:
 - tools
 categories:
 - tools 
-draft: true
+draft: false
 --- 
 
 So it seems like Copilot and similar will be beneficial to programmers
