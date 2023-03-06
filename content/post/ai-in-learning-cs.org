@@ -1,0 +1,140 @@
+---
+title: Copilot and similar types of AI in learning CS
+date: 2023-02-28T14:50:07-04:00
+tags:
+- tools
+categories:
+- tools 
+draft: true
+--- 
+
+So it seems like Copilot and similar will be beneficial to programmers
+but the question remains as to how beneficial. Will it be incremental
+change or will it be a game changer?
+
+Today we'll look at how it will affect teaching and learning CS.
+
+It seems pretty clear that one group of learners will benefit from
+things like copilot - people who are already strong programmers who
+are learning something new. Like autocomplete on steroids it will free
+those programmers of having to look everything up all the time. I
+guess a second group that will benefit will be autodidacts but they'll
+thrive no matter what and when we're talking about opportunity and
+equity we've got to focus on everyone else.
+
+For everyone else, particularly those learning in classes using
+copilot will have certain benefits but the real question isn't "is
+there an advantage" but rather a costs benefits analysis.
+
+Since copilot can be thought of as autocomplete on steroids we can
+compare the discord that goes on when discussing IDEs with
+autocomplete. 
+
+Some teachers thing autocomplete is great and don't see any downside
+to students using editors that support it. Others feel that it's
+important for students to type everything out.
+
+On the one hand, you can have autocomplete for things like
+*system.out.writeln* - type *writeln* and hit tab and you're done. One
+could argue that if you're ever in an environment without autocomplete
+you'd be screwed but if you think about it, there's no deeper
+understanding if you type *system.out.writeln* vs *writeln*
+particularly for beginners where the system.out is boilerplate.
+
+On the other hand typing *for* and having that complete to a for loop
+is different than actually typing out the complete loop. One could
+argue that typing for and then tab is just a higher level of
+abstraction but I'd argue that it's important to understand what's
+going on with the loop first. This is where I'm not sure if the
+autocompletion is the right way to go.
+
+Ideally, I'd love to see students "level up" - after typing out for
+loops for a bit they can unlock the for loop autocomplete feature -
+hey - now that's an idea for a student ide!!!
+
+I know that some people also feel that hand writing things is an aide
+to learning. If that's so, is typing as well? Is writing a for loop by
+hand then then typing better? Is typing it all out better than just
+drag and dropping a block? I don't know the answer to any of these but
+I think they're interesting questions.
+
+The question, or at least one of the questions about using copilot in
+teaching and learning is the same but copilot takes it to the next
+level. Instead of typing *for* tab and getting a for loop you can type
+*// sum the values of an integer array ar* - you can use it to
+complete programming [[/posts/programming-idioms/][idioms]] or even complete functions.
+
+Bigger time concepts but the same basic ideas.
+
+There is another question that I think is going to get lost in the
+shuffle though. Even if we decide that using copilot like technologies
+is an absolute win, will there be unintended consequences. Will other
+things be lost.
+
+This has happen time and again.
+
+In CS, when APCS-A/B went from C++ to Java we lost memory
+management. This was good in certain ways but memory management is an
+important concept for computer science students to understand. Take it
+out of CS1 and CS2 and you have to put it back somewhere else. From
+what the people doing the hiring in tech in the years following 5
+years after the switch, it wasn't always put back or put back
+effectively. This isn't a surprise since every college does things
+their own way and if a student places out of one or more courses with
+AP credit, well, they might miss something critical or be less well
+prepared for it when it does appear.
+
+The other big example I always use is from math. Calculators. No, I'm
+not going to say that having students work out hard arithmetic by hand
+was a good and important thing. I'm talking about interpolation.
+
+Prior to calculators, when our students learned about logs or trig
+functions they had log and trig tables. The tables only had so many
+entries so students had to find values between the entries and they
+invariable did have to, they learned and used linear interpolation.
+
+If you think about it, that might have been the most useful real life
+math skill taught in high school math at the time. Certainly it was up
+there.
+
+Hello calculators, goodbye trig and log tables. Goodbye learning
+interpolation. That's a skill that's been lost to students for now
+almost a quarter of a century. Sure, students can and have been
+functioning with knowing interpolation but when you look at the math
+that has and hasn't been taught I'm fairly confident in saying that
+when we stopped teaching interpolation something was lost.
+
+That's my fear of copilot type technologies.
+
+When we teach mergesort we're not just teaching mergesort. We're
+teaching the concept of divide and conquer algorithms. We're
+discussing run time. We're looking at sorting in place or not. We also
+have a platform to discuss solving problems that make use of different
+but similar algorithms.
+
+When we solve a dynamic programming problem we're not solving a
+specific problem but we're teaching a general method of problem
+solving.
+
+At a smaller scale level, when beginners program they make errors. Now
+error messages aren't particularly helpful but learning how to read
+them and fix ones errors is yet another manner of problem solving
+we're teaching. Some may argue that error messages will get better in
+the future. Well, I've been programming for decades and while they're
+a little better than from way back, they've got a way to go. Besides
+the problem sometimes isnot so much that the error is bad but that
+students don't take the time to read through the (admittedly overly
+complex) wall of text. Solving unexpected errors, reading
+documentation, searching for solutions. These are all things we're
+teaching beyond just the coding. 
+
+Copilot might make for faster coding but how much of our ability to
+teach that more important problem solving will be lost?
+
+Of course the answer might be none or it might be that the benefits
+might outweigh the costs but educators should pay close attention not
+to the superficial but very cool way that copilot replaces a short
+prompt with a long coded solution but rather to what we're really
+trying to teach our kids beyond grunt coding and how will copilot
+affect that.
+
