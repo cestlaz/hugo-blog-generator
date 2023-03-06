@@ -30,7 +30,7 @@ Since copilot can be thought of as autocomplete on steroids we can
 compare the discord that goes on when discussing IDEs with
 autocomplete. 
 
-Some teachers thing autocomplete is great and don't see any downside
+Some teachers think autocomplete is great and don't see any downside
 to students using editors that support it. Others feel that it's
 important for students to type everything out.
 
