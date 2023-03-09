@@ -1,0 +1,125 @@
+---
+title: NYSED says you don't need to know CS to teach CS
+date: 2023-03-09T15:11:38-04:00
+tags:
+- policy
+categories:
+- policy
+draft: false
+--- 
+
+The title might come of as hyperbole but it's really true.
+
+I'll explain.
+
+A few years ago, NYSED created a certification area for computer
+science. At Hunter, we've been running our certificate program for the
+past three years and taking current teachers and qualifying them to
+earn this new certification. This past Fall, NYSED finalized it's
+grandfathering position and just the other day it opened up the portal
+to allow teachers to sign up. The grandfathering is called the SOCE -
+Statement of Continued Eligibility (to teach computer science).  NYSED
+also started an individual evaluation option.
+
+I think the individual evaluation part is great. There are always
+people who fall through the cracks. They are great teachers and really know
+their stuff but they walked a different path. I have a friend who
+taught CS for years but since he's older he got his degrees before CS
+was a thing. He also never worked for anyone else in tech even though he
+created impressive software systems for his own company. In spite of
+being super qualified, he'd never be approved by the state through
+normal channels without having to take and pay for a whole bunch of
+courses where he probably would know more than the instructors. Now,
+with individual evaluation, he would have a chance to be fairly
+judged.
+
+On the other hand the SOCE really concerns me. Not just the SOCE but
+the fact that if you taught at least one CS class this past year (or
+maybe within the past few years) and you filled out the form, you don't
+need to do anything else to teach CS for the next *10* years. This is
+extremely concerning. What's equally concerning is that the state is
+doing nothing to encourage teachers to earn real certification which
+can be both time consuming and costly. 
+
+I've met a large number of NY teachers teaching CS. Mostly in NYC but
+also from across the state. I've also evaluated hundreds of
+applications to my certificate program. I've found that teachers fall
+into the following categories:
+  1. Teachers who really know CS. This is the extreme minority.
+  2. Teachers who have attended PDs or similar to learn to teach a
+     specific course or learn rudimentary programming. Some of these
+     teachers thing they really know CS, some recognize that they're
+     just following a script. Some want to learn more, some don't.
+     
+It's the second category that concerns me and that represents the
+majority of teachers currently teaching CS.
+
+Let's look at the set of teachers who don't want to learn more and
+think that with their limited PD training that they're doing right by
+their students (voiceover: they're probably not). These teachers can
+continue doing what they're doing for the next ten years. That's a
+generation of kids. As long as CS is untested (which is probably a
+good thing) a teacher in this category can just dial it in while
+focusing on their 4 other classes which have a high stakes exam. Even if
+they're not dialing it in, are they really doing right by the kids? If
+I did short form PD to learn, let's say physics, would I really be a
+good physics teacher (voiceover: No).
+
+The other category - teachers who do want to learn more and become
+strong CS teachers. I'm hoping this is the majority of teachers
+teaching CS but here the state is failing them and in turn failing
+their students.
+
+Right now, Hunter's program is the only advanced certificate program
+running in the state. The state should be encouraging more
+institutions to create programs. The state should also be working on
+financial support and even release time for teachers who want to be
+re-certified in CS. It's a big ask to tell a teacher - it's great that
+you want to earn this new certification - now pay for a bunch of
+graduate credits and take those classes during your non-existent free
+time.
+
+If the state cared about bringing good CS Education to our students
+they would have:
+  1. Encouraged more institutions to create certification programs.
+  2. Provide financial support for teachers and if possible, release
+     time for teachers to take said programs.
+  3. Reduce the grandfathering window from 10 years to something more
+     like 5 years.
+
+Instead, they, with a bold bravado said "we recognize the importance of CS
+so we're creating a new certification area" and then quietly said when
+nobody was looking "but nobody needs it for the next generation of
+kids."
+
+I know some teachers will be offended by this post but I'm hoping
+teachers who do want to do it right didn't miss the part about them
+not getting the support. I'm with all of you, appreciate your efforts,
+and wish the state (and city) was doing it right, enabling you to be
+the best prepared teacher you can be for your kids.
+
+On the other hand if I upset any teachers in that "we're doing fine
+even though we don't know stuff" category, well, I'm good with that.
+
+I also know that some people will dismiss this saying that "that Z guy
+runs the only cert program going right now, he clearly has a vested
+interest in more people getting certified."
+
+True, one of the big reasons I came to Hunter was to lobby the state
+to create a CS certification area and to build the programs. I'm proud
+of that work. I've also, however  pushed for other programs to be
+created. I also worked hard to successfully acquire funding which has
+paid for the vast majority of the over 90 teachers that are in or have
+completed our program. Finally, as I'm leaving Hunter after this
+semester, so I really don't have any skin in this
+particular game any more.
+
+So, that's my take. I get that teachers should file for the SOCE - no
+reason to individually "be the hero" and the state will basically
+ignore the issue for the next decade. After that, who knows but in the
+meantime, our kids deserve better.
+
+
+
+
+     
