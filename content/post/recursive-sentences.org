@@ -1,0 +1,143 @@
+---
+title: Recursive Sentences
+date: 2023-03-10T09:58:04-04:00
+tags:
+- recursion
+- programming
+categories:
+- recursion
+draft: false
+--- 
+
+
+It's been a while since I last wrote up a specific lesson idea so when
+my friend Garth asked about recursion ideas I thought I'd write this
+one up. This is a unit I used to teach in my intro class at Stuy using
+Racket (nee Scheme) but I coded up a quick and dirty Python version.
+
+Recursion is a polarizing topic. Some people love it, others hate
+it. I'm sure the usual suspects of intro recursion problems doesn't
+help. Factorial, Fibonacci, Hanoi, things you can do with loops [fn:1]
+[[https://cestlaz.github.io/posts/2010-01-10-towers-of-hanoi/][ancillary]] topics that come along with it.
+
+If you're doing graphics you can do fractal trees and the like but
+that's not always an option and there could be a disconnect from doing
+that to using recursion to solve problems.
+
+I decided to take it out of the mathy graphicy world and do some text
+processing. Let's write a sentence generator. The recursion is light
+but I think it's pretty cool.
+
+What follows outlines the unit. The actual lessons should be
+embellished and more brought to life but writing that up would make
+this post even longer.
+
+What's a sentence? Let's start really simple. In the simplest form a
+sentence is *noun* *verb*. Let's write a program to generate sentences
+of this form:
+
+#+begin_src python
+import random
+
+NOUNS = ['dog','cat','boy','hammer','ball']
+VERBS = ['ate','ran','bludgeoned','stalked']
+
+
+def verb():
+    return random.choice(VERBS)
+
+def noun():
+    return random.choice(NOUNS)
+
+def sentence():
+    return noun()+' '+verb()
+
+#+end_src
+
+Of course, this isn't an interesting sentence. A slightly better
+sentence would use the form *noun_phrase* *verb* where a *noun_phrase*
+could be something like "a boy" "the dog" or just "hammer." A
+*noun_phrase* would be zero or one article followed by a noun.
+
+We can write a function called articleq() that will either return an
+article (the, a) or an empty string. This leads to these additional
+functions:
+
+#+begin_src python
+  def articleq():
+      if random.randrange(100) > 50:
+          return random.choice(['the','a'])
+      else:
+          return ''
+
+   def noun_phrase():
+    """
+    article? noun
+    """
+    return articleq() + ' '  + noun()
+ 
+#+end_src
+
+The above will generate a noun_phrase that has an article about 50% of the
+time.
+
+Okay, here comes the recursion.
+
+A noun_phrase also can have adjectives - specifically, zero or more
+adjectives. This leads to adding this code (and changing noun_phrase):
+
+#+begin_src python
+  ADJECTIVES = ['scary','hairy','charming','loud','beautiful','cromulent']
+
+
+  def adjectivestar():
+    prob = random.randrange(100)
+    if prob < 70:
+      return random.choice(ADJECTIVES)+" " + adjectivestar()
+    else:
+      return ''
+
+    def noun_phrase():
+       """
+       article? adjective* noun
+       """
+       return articleq() + ' ' +  adjectivestar() + ' ' + noun()
+#+end_src
+
+The recursion comes from the idea that an adjectivestar (star is for
+the regexp notion that * means 0 or more of something) is either an
+empty string or a single adjective + another adjectivestar(). That
+adjectivestar can the in turn call itself again and again until the
+random number hits the base case of returning.
+
+With the noun side replaced, we can similarly replace *verb* with
+*verb_phrase*. A *verb_phrase* might be a verb followed by zero or one
+adverbs.
+
+The full code of this sentence generator can be found [[https://gitlab.com/zamansky/python-recursive-sentences/-/blob/main/version3.py][here]].
+
+Once we're done, assuming we filled our word lists with enough variety
+we can generate a bunch of sentences and hilarity will ensue. Sure,
+the tenses won't match and the parts of speech will be messed up but
+still, you'll get a lot of cool fun sentences.
+
+You can also extend things with or without more recursion. You can
+generate a *paragraph* made up of multiple sentences or how about a
+*compound_sentence* which could be defined as *sentence* or *sentence*
+*conjunction* *compound_sentence* <-- more recursion.
+
+Not only is this a fun project but it also alludes to recursive
+parsing which some of your students might study later on.
+
+This project can be a lot of fun. It's recursion but it's not math and
+in addition to the creative coding parts students can also get
+creative with sentence structure and word list.
+
+Give it a go.
+
+
+[fn:1] The loop thing is an issue if the student learned loops prior
+to recursion. It seems that students that start with functional
+programming show the reverse - they find loop problems tedious when
+they can "more easily" just use a functional construc.
+
