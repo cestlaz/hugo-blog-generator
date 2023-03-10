@@ -49,7 +49,7 @@ into the following categories:
   1. Teachers who really know CS. This is the extreme minority.
   2. Teachers who have attended PDs or similar to learn to teach a
      specific course or learn rudimentary programming. Some of these
-     teachers thing they really know CS, some recognize that they're
+     teachers think they really know CS, some recognize that they're
      just following a script. Some want to learn more, some don't.
      
 It's the second category that concerns me and that represents the
