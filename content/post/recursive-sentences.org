@@ -139,5 +139,5 @@ Give it a go.
 [fn:1] The loop thing is an issue if the student learned loops prior
 to recursion. It seems that students that start with functional
 programming show the reverse - they find loop problems tedious when
-they can "more easily" just use a functional construc.
+they can "more easily" just use a functional construct.
 
